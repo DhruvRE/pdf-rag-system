@@ -1,0 +1,21 @@
+# Environment credentials & secrets
+.env
+
+# Generated Parsed Data & Vector Store
+data/parsed/
+data/vector_store/
+
+# Python Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary / Scratch files
+scratch/
+*.log
+https:

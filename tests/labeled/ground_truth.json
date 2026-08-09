@@ -1,0 +1,28 @@
+{
+  "benchmark_papers": [
+    {
+      "filename": "class12_physics_2024_2025_sqp.pdf",
+      "expected_total_questions": 33,
+      "expected_unique_question_ids": 33,
+      "forbid_duplicate_ids": true
+    },
+    {
+      "filename": "class12_chemistry_2024_2025_sqp.pdf",
+      "expected_total_questions": 33,
+      "expected_unique_question_ids": 33,
+      "forbid_duplicate_ids": true
+    },
+    {
+      "filename": "class10_science_2024_2025_sqp.pdf",
+      "expected_total_questions": 39,
+      "expected_unique_question_ids": 39,
+      "forbid_duplicate_ids": true
+    },
+    {
+      "filename": "class10_mathematics_2024_2025_sqp.pdf",
+      "expected_total_questions": 38,
+      "expected_unique_question_ids": 38,
+      "forbid_duplicate_ids": true
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "description": "Fixed evaluation benchmark set for Phase 8 RAG retrieval testing",
+  "eval_queries": [
+    {
+      "id": "eval_01",
+      "query": "Which of the following gives the middle most observation of the data? Median Mean Range Mode",
+      "expected_subject": "mathematics",
+      "expected_class": "10",
+      "target_question_id": "q16",
+      "keywords": [
+        "median",
+        "middle most",
+        "observation"
+      ]
+    },
+    {
+      "id": "eval_02",
+      "query": "Assertion (A): HCF of any two consecutive even natural numbers is always 2.",
+      "expected_subject": "mathematics",
+      "expected_class": "10",
+      "target_question_id": "q19",
+      "keywords": [
+        "HCF",
+        "consecutive even",
+        "natural numbers"
+      ]
+    },
+    {
+      "id": "eval_03",
+      "query": "electric current SI unit Ampere circuit diagram",
+      "expected_subject": "physics",
+      "expected_class": "12",
+      "keywords": [
+        "electric current",
+        "Ampere"
+      ]
+    },
+    {
+      "id": "eval_04",
+      "query": "rate constant first order reaction half life period",
+      "expected_subject": "chemistry",
+      "expected_class": "12",
+      "keywords": [
+        "rate constant",
+        "first order",
+        "half life"
+      ]
+    },
+    {
+      "id": "eval_05",
+      "query": "A card is drawn from a well shuffled deck of playing cards red face card probability",
+      "expected_subject": "mathematics",
+      "expected_class": "10",
+      "target_question_id": "q18",
+      "keywords": [
+        "probability",
+        "playing cards",
+        "red face card"
+      ]
+    },
+    {
+      "id": "eval_06",
+      "query": "tangent drawn from external point to circle length equal",
+      "expected_subject": "mathematics",
+      "expected_class": "10",
+      "keywords": [
+        "tangent",
+        "circle",
+        "external point"
+      ]
+    },
+    {
+      "id": "eval_07",
+      "query": "photosynthesis equation glucose oxygen sunlight chlorophyll",
+      "expected_subject": "science",
+      "expected_class": "10",
+      "keywords": [
+        "alveoli",
+        "nephron",
+        "chlorine",
+        "sunlight",
+        "photosynthesis",
+        "methane"
+      ]
+    },
+    {
+      "id": "eval_08",
+      "query": "hydrochloric acid zinc granules hydrogen gas evolution test",
+      "expected_subject": "science",
+      "expected_class": "10",
+      "keywords": [
+        "zinc",
+        "sulphuric acid",
+        "hcl",
+        "hydrochloric",
+        "hydrogen"
+      ]
+    },
+    {
+      "id": "eval_09",
+      "query": "capacitance parallel plate capacitor dielectric constant",
+      "expected_subject": "physics",
+      "expected_class": "12",
+      "keywords": [
+        "capacitance",
+        "parallel plate",
+        "dielectric"
+      ]
+    },
+    {
+      "id": "eval_10",
+      "query": "convex lens ray diagram focal length magnification",
+      "expected_subject": "physics",
+      "expected_class": "10",
+      "keywords": [
+        "convex lens",
+        "focal length",
+        "magnification"
+      ]
+    }
+  ]
+}
