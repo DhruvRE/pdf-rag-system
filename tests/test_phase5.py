@@ -49,11 +49,11 @@ def test_phase5_question_chunking():
             q_data = json.load(f)
 
         chunks = c_data["chunks"]
-        questions = q_data["questions"]
+        questions = [q for q in q_data["questions"] if q.get("is_valid", True)]
 
         # Enforce 1 chunk = 1 question rule
         assert len(chunks) == len(questions), (
-            f"Chunk count mismatch for paper {paper_id}: got {len(chunks)} chunks, expected {len(questions)} questions"
+            f"Chunk count mismatch for paper {paper_id}: got {len(chunks)} chunks, expected {len(questions)} valid questions"
         )
 
         for idx, chunk in enumerate(chunks):

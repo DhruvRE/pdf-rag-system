@@ -63,10 +63,26 @@
 
     <!-- Main Content -->
     <main class="main-content">
+      <!-- Navigation Tabs -->
+      <div class="nav-tabs">
+        <button id="tabSearchBtn" class="nav-tab active">
+          <span>🔍 Question Search & RAG</span>
+        </button>
+        <button id="tabDraftsBtn" class="nav-tab">
+          <span>📋 Drafts Review Queue</span>
+          <span id="draftsBadge" class="tab-badge">0</span>
+        </button>
+        <button id="tabDedupBtn" class="nav-tab">
+          <span>🔄 Duplicate Detection</span>
+          <span id="dedupBadge" class="tab-badge">0</span>
+        </button>
+      </div>
+
       <!-- Search Hero Card -->
-      <section class="search-hero-card">
+      <section id="searchTabSection" class="tab-content active">
+        <div class="search-hero-card">
         <h2 class="search-title">Semantic RAG Question Search & LaTeX Engine</h2>
-        <p class="search-subtitle">Query vectorized Class 10 & 12 Board examination papers with live step-by-step pipeline execution, MCQ options grid, and MathJax formula rendering.</p>
+        <p class="search-subtitle">Query vectorized Class 6, 10 & 12 examination papers with live step-by-step pipeline execution, MCQ options grid, and MathJax formula rendering.</p>
 
         <div class="search-form">
           <div class="search-input-wrapper">
@@ -86,6 +102,7 @@
               <label for="classFilter">Class</label>
               <select id="classFilter">
                 <option value="all">All Classes</option>
+                <option value="6">Class 6</option>
                 <option value="10">Class 10</option>
                 <option value="12">Class 12</option>
               </select>
@@ -103,22 +120,28 @@
             </div>
 
             <div class="filter-group">
-              <label for="topKSelect">Results</label>
-              <select id="topKSelect">
-                <option value="3">Top 3</option>
-                <option value="5" selected>Top 5</option>
-                <option value="10">Top 10</option>
+              <label for="pageSizeSelect">Per Page</label>
+              <select id="pageSizeSelect">
+                <option value="5">5 / Page</option>
+                <option value="10" selected>10 / Page</option>
+                <option value="20">20 / Page</option>
+                <option value="50">50 / Page</option>
+                <option value="-1">All Questions</option>
               </select>
             </div>
 
             <button id="searchBtn" class="btn-primary">
               <span>Execute RAG Pipeline</span>
             </button>
+            <button id="randomBtn" class="btn-secondary">
+              <span>🎲 Randomize</span>
+            </button>
           </div>
 
           <!-- Sample Queries -->
           <div class="sample-pills">
             <span class="sample-label">Try sample queries:</span>
+            <button class="sample-pill" data-query="representation of an obtuse angle digit sum">Obtuse Angle (Class 6)</button>
             <button class="sample-pill" data-query="middle most observation of data Median Mean Range Mode">Median & Mean (Maths)</button>
             <button class="sample-pill" data-query="Assertion HCF of any two consecutive even natural numbers is 2">Assertion-Reason HCF</button>
             <button class="sample-pill" data-query="Ohm law electric current resistance circuit diagram">Ohm's Law (Physics)</button>
@@ -149,7 +172,7 @@
             <div class="step-icon">2</div>
             <div class="step-details">
               <span class="step-title">Querying LocalVectorStore DB</span>
-              <span class="step-desc">Performing L2 normalized cosine similarity search over 361 question chunks</span>
+              <span class="step-desc">Performing L2 normalized cosine similarity search over question chunks</span>
             </div>
             <span class="step-status" id="step2Status">Waiting...</span>
           </div>
@@ -177,17 +200,60 @@
       <!-- Results Section -->
       <section class="results-section">
         <div class="results-header">
-          <h3 id="resultsCountHeader">Search Results (0)</h3>
-          <button id="copyPromptBtn" class="btn-secondary" style="display: none;">
-            📋 Copy Formatted RAG Prompt Context
-          </button>
+          <div class="results-title-group">
+            <h3 id="resultsCountHeader">Questions (0)</h3>
+            <span id="paginationInfo" class="pagination-info">Page 1 of 1</span>
+          </div>
+          <div class="results-header-actions">
+            <button id="copyPromptBtn" class="btn-secondary" style="display: none;">
+              📋 Copy Formatted RAG Prompt Context
+            </button>
+          </div>
         </div>
 
         <div id="resultsGrid" class="results-grid">
           <div class="empty-state">
             <div class="empty-icon">🔎</div>
-            <h3>Enter a search query above to query vectorized exam papers</h3>
-            <p>Retrieved questions include structured MCQ choice grids, LaTeX formulas, class/year metadata, and diagram PNG lightboxes</p>
+            <h3>Loading questions...</h3>
+          </div>
+        </div>
+
+        <!-- Pagination Controls Bar -->
+        <div id="paginationBar" class="pagination-bar" style="display: none;">
+          <button id="firstPageBtn" class="page-btn">⏮ First</button>
+          <button id="prevPageBtn" class="page-btn">◀ Prev</button>
+          <span id="pageIndicator" class="page-indicator">Page 1 of 1</span>
+          <button id="nextPageBtn" class="page-btn">Next ▶</button>
+          <button id="lastPageBtn" class="page-btn">Last ⏭</button>
+        </div>
+      </section>
+
+      <!-- Drafts Review Queue Tab Content -->
+      <section id="draftsTabSection" class="tab-content" style="display: none;">
+        <div class="search-hero-card">
+          <h2 class="search-title">Drafts Review Queue & Quality Gate</h2>
+          <p class="search-subtitle">Review papers, low-confidence extractions, self-validation flags, and approve structured drafts before final indexing.</p>
+        </div>
+
+        <div id="draftsQueueGrid" class="results-grid" style="margin-top: 1.5rem;">
+          <div class="empty-state">
+            <div class="empty-icon">📋</div>
+            <h3>Loading draft review queue...</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Deduplication Queue Tab Content -->
+      <section id="dedupTabSection" class="tab-content" style="display: none;">
+        <div class="search-hero-card">
+          <h2 class="search-title">🔄 Cross-Paper Question Deduplication</h2>
+          <p class="search-subtitle">Pairwise cosine vector similarity analysis detecting identical or near-duplicate questions across board exam years.</p>
+        </div>
+
+        <div id="dedupQueueGrid" class="results-grid" style="margin-top: 1.5rem;">
+          <div class="empty-state">
+            <div class="empty-icon">🔄</div>
+            <h3>Loading duplicate question queue...</h3>
           </div>
         </div>
       </section>

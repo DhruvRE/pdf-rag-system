@@ -98,19 +98,32 @@ def extract_and_link_images(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict
                 best_q = None
                 min_dist = float('inf')
 
-                for q in page_questions:
-                    q_bbox = q["bounding_box"]
-                    # If image center falls inside question vertical bounds [q_y0, q_y1]
-                    if q_bbox[1] <= img_y_center <= q_bbox[3]:
-                        best_q = q
-                        break
-                    
-                    # Otherwise calculate distance to question bounds
-                    q_y_center = (q_bbox[1] + q_bbox[3]) / 2.0
-                    dist = abs(img_y_center - q_y_center)
-                    if dist < min_dist:
-                        min_dist = dist
-                        best_q = q
+                image_kws = ("the figure", "in the diagram", "shown below", "the graph", "circuit diagram", "refer to figure", "in fig")
+                diagram_qs = [q for q in page_questions if any(kw in q.get("raw_text", "").lower() for kw in image_kws)]
+                target_qs = diagram_qs if diagram_qs else page_questions
+
+                # Cross-page check: if image is at top of page (bbox[1] < 150) and previous page ends with a question
+                if bbox[1] < 150 and page_num > 1:
+                    prev_page_qs = questions_by_page.get(page_num - 1, [])
+                    if prev_page_qs:
+                        last_prev_q = prev_page_qs[-1]
+                        if last_prev_q["bounding_box"][1] > 500:
+                            best_q = last_prev_q
+
+                if not best_q:
+                    for q in target_qs:
+                        q_bbox = q["bounding_box"]
+                        # If image center falls inside question vertical bounds [q_y0, q_y1]
+                        if q_bbox[1] <= img_y_center <= q_bbox[3]:
+                            best_q = q
+                            break
+                        
+                        # Otherwise calculate distance to question bounds
+                        q_y_center = (q_bbox[1] + q_bbox[3]) / 2.0
+                        dist = abs(img_y_center - q_y_center)
+                        if dist < min_dist:
+                            min_dist = dist
+                            best_q = q
 
                 if best_q:
                     q_id = best_q["question_id"]

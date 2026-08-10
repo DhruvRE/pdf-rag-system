@@ -7,6 +7,7 @@ and serves extracted diagram images for rich LaTeX Web UI rendering.
 import os
 import json
 import re
+import math
 from fastapi import FastAPI, Query, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -33,10 +34,13 @@ app.add_middleware(
 
 
 class SearchRequest(BaseModel):
-    query: str
-    top_k: int = 5
+    query: Optional[str] = ""
+    top_k: Optional[int] = None
+    page: int = 1
+    page_size: int = 10
     class_filter: Optional[str] = None
     subject_filter: Optional[str] = None
+    random_sample: bool = False
 
 
 @app.get("/api/stats")
@@ -311,19 +315,37 @@ def parse_question_blocks(doc_text: str, options_list: list[str], raw_subparts: 
 
 @app.post("/api/search")
 def search_questions(req: SearchRequest):
-    """Performs semantic search over vector store and returns structured question metadata & image URLs."""
-    if not req.query.strip():
-        raise HTTPException(status_code=400, detail="Query text cannot be empty")
+    """Performs semantic search or browses questions with pagination and optional random sampling."""
+    query_text = (req.query or "").strip()
+    is_random = req.random_sample or not query_text
 
-    results = query_vector_store(
-        query_text=req.query,
-        n_results=req.top_k,
+    all_results = query_vector_store(
+        query_text=query_text,
+        n_results=None,
         subject_filter=req.subject_filter if req.subject_filter and req.subject_filter != "all" else None,
-        class_filter=req.class_filter if req.class_filter and req.class_filter != "all" else None
+        class_filter=req.class_filter if req.class_filter and req.class_filter != "all" else None,
+        random_order=is_random
     )
 
+    total_results = len(all_results)
+
+    # Determine pagination page size
+    if req.page_size == -1 or req.page_size >= 1000:
+        page_size = total_results if total_results > 0 else 10
+    elif req.top_k is not None and req.top_k > 0 and req.page_size == 10:
+        page_size = req.top_k
+    else:
+        page_size = max(1, req.page_size)
+
+    total_pages = math.ceil(total_results / page_size) if total_results > 0 else 1
+    current_page = max(1, min(req.page, total_pages))
+
+    start_idx = (current_page - 1) * page_size
+    end_idx = start_idx + page_size
+    page_items = all_results[start_idx:end_idx]
+
     formatted_results = []
-    for res in results:
+    for res in page_items:
         meta = res.get("metadata", {})
         doc = res.get("document", "")
         pid = meta.get("paper_id")
@@ -359,7 +381,6 @@ def search_questions(req: SearchRequest):
         clean_stem, aggregated_subparts = parse_question_blocks(doc, options_list, subparts_list)
 
         # Enforce Option vs Subpart Mutual Exclusivity:
-        # A question is EITHER an MCQ (has choice options A,B,C,D) OR has subparts, NEVER BOTH!
         if structured_options and len(structured_options) > 0:
             aggregated_subparts = []
 
@@ -373,8 +394,10 @@ def search_questions(req: SearchRequest):
             "year": year,
             "question_number": meta.get("question_number"),
             "section": meta.get("section"),
+            "question_type": meta.get("question_type") or ("single_choice_mcq" if structured_options else "short_answer"),
+            "requires_image": bool(meta.get("requires_image", False)) or (len(image_urls) > 0),
             "difficulty": meta.get("difficulty"),
-            "similarity": res.get("similarity", 0.0),
+            "similarity": res.get("similarity", 1.0),
             "content": doc,
             "stem_text": clean_stem,
             "latex_stem": latex_stem,
@@ -383,13 +406,228 @@ def search_questions(req: SearchRequest):
             "image_urls": image_urls
         })
 
-    rag_prompt = format_rag_context(results)
+    rag_prompt = format_rag_context(page_items)
 
     return {
-        "query": req.query,
+        "query": query_text,
+        "page": current_page,
+        "page_size": page_size,
+        "total_results": total_results,
+        "total_pages": total_pages,
+        "is_random": is_random,
         "results_count": len(formatted_results),
         "results": formatted_results,
         "rag_prompt_context": rag_prompt
+    }
+
+
+@app.get("/api/drafts")
+def get_drafts_queue():
+    """Returns the list of parsed paper drafts and questions flagged for review."""
+    if not os.path.exists(CONTEXT_PATH):
+        raise HTTPException(status_code=404, detail="context.json not found")
+
+    with open(CONTEXT_PATH, "r", encoding="utf-8") as f:
+        ctx = json.load(f)
+
+    drafts = []
+    total_flagged = 0
+
+    for pid, p_info in ctx.get("papers", {}).items():
+        cls = p_info["class"]
+        subj = p_info["subject"]
+        year = p_info["year"]
+        draft_path = os.path.join(DATA_PARSED_DIR, cls, subj, year, pid, "structured_draft.json")
+        q_path = os.path.join(DATA_PARSED_DIR, cls, subj, year, pid, "questions.json")
+
+        flagged_qs = []
+        confidence_summary = {"high": 0, "medium": 0, "low": 0}
+
+        if os.path.exists(draft_path):
+            try:
+                with open(draft_path, "r", encoding="utf-8") as df:
+                    d_data = json.load(df)
+                for sec in d_data.get("sections", []):
+                    for q in sec.get("questions", []):
+                        conf = q.get("extraction_confidence", "high")
+                        confidence_summary[conf] = confidence_summary.get(conf, 0) + 1
+                        if q.get("flagged_for_review") or conf in ("low", "medium"):
+                            flagged_qs.append({
+                                "question_number": q.get("question_number"),
+                                "question_type": q.get("question_type"),
+                                "stem_text": q.get("stem_text", "")[:120],
+                                "confidence": conf,
+                                "flag_reason": q.get("flag_reason", "Needs manual inspection")
+                            })
+            except Exception:
+                pass
+        elif os.path.exists(q_path):
+            try:
+                with open(q_path, "r", encoding="utf-8") as qf:
+                    q_data = json.load(qf)
+                for q in q_data.get("questions", []):
+                    if not q.get("is_valid", True):
+                        flagged_qs.append({
+                            "question_number": q.get("question_number"),
+                            "question_type": "unknown",
+                            "stem_text": q.get("raw_text", "")[:120],
+                            "confidence": "low",
+                            "flag_reason": "Phantom stem / missing text"
+                        })
+            except Exception:
+                pass
+
+        total_flagged += len(flagged_qs)
+
+        drafts.append({
+            "paper_id": pid,
+            "filename": p_info["filename"],
+            "class": cls,
+            "subject": subj,
+            "year": year,
+            "parse_status": p_info.get("phase_status", {}).get("parse", "pending"),
+            "embed_status": p_info.get("phase_status", {}).get("embed", "pending"),
+            "confidence_summary": confidence_summary,
+            "flagged_questions_count": len(flagged_qs),
+            "flagged_questions": flagged_qs
+        })
+
+    return {
+        "total_drafts": len(drafts),
+        "total_flagged_questions": total_flagged,
+        "drafts": drafts
+    }
+
+
+class ApproveDraftRequest(BaseModel):
+    paper_id: str
+    approved_by: Optional[str] = "admin"
+
+
+@app.post("/api/drafts/approve")
+def approve_draft(req: ApproveDraftRequest):
+    """Approves a paper draft and marks it ready for indexing."""
+    pid = req.paper_id
+    if not os.path.exists(CONTEXT_PATH):
+        raise HTTPException(status_code=404, detail="context.json not found")
+
+    with open(CONTEXT_PATH, "r", encoding="utf-8") as f:
+        ctx = json.load(f)
+
+    if pid not in ctx.get("papers", {}):
+        raise HTTPException(status_code=404, detail=f"Paper ID {pid} not found")
+
+    p_info = ctx["papers"][pid]
+    p_info["phase_status"]["review"] = "approved"
+    p_info["needs_review"] = False
+
+    with open(CONTEXT_PATH, "w", encoding="utf-8") as f:
+        json.dump(ctx, f, indent=2)
+
+    return {
+        "status": "success",
+        "paper_id": pid,
+        "message": f"Draft for paper {pid} approved successfully."
+    }
+
+
+@app.get("/api/dedup")
+def get_duplicate_questions():
+    """Returns detected duplicate or near-duplicate question pairs across board exam years."""
+    from src.dedup.deduplicator import find_duplicate_questions
+    duplicates = find_duplicate_questions(similarity_threshold=0.92)
+    return {
+        "total_duplicate_pairs": len(duplicates),
+        "threshold": 0.92,
+        "duplicate_pairs": duplicates[:50]
+    }
+
+
+class RemoveDuplicateRequest(BaseModel):
+    chunk_id: str
+
+
+@app.post("/api/dedup/remove")
+def remove_duplicate_chunk(req: RemoveDuplicateRequest):
+    """Deletes a duplicate question chunk from the vector store database."""
+    cid = req.chunk_id
+    vs = get_vector_store()
+    with vs.conn:
+        vs.conn.execute("DELETE FROM vectors WHERE id = ?", (cid,))
+        try:
+            vs.conn.execute("DELETE FROM vectors_fts WHERE id = ?", (cid,))
+        except Exception:
+            pass
+    return {
+        "status": "success",
+        "deleted_chunk_id": cid,
+        "message": f"Successfully removed duplicate chunk {cid} from vector DB store."
+    }
+
+
+class ExplainRequest(BaseModel):
+    question_text: str
+    options: Optional[List[str]] = None
+    class_level: Optional[str] = None
+    subject: Optional[str] = None
+    model_name: Optional[str] = "qwen3.5:latest"
+
+
+@app.post("/api/explain")
+def generate_question_explanation(req: ExplainRequest):
+    """Generates step-by-step AI explanation and solution using local Ollama model."""
+    import urllib.request
+
+    opts_str = ", ".join(req.options) if req.options else "N/A (Descriptive)"
+    subj_str = req.subject or "General Science/Maths"
+    cls_str = req.class_level or "10"
+
+    system_prompt = f"""You are an expert CBSE/ICSE Subject Teacher.
+Provide a clear, step-by-step mathematical/scientific solution for the following question.
+Render all mathematical and scientific formulas using LaTeX syntax (e.g. $E=mc^2$ or $$\\frac{{a}}{{b}}$$).
+If this is a multiple choice question, clearly state the correct option at the beginning and explain why it is correct.
+
+Subject: {subj_str} | Class: {cls_str}
+Question:
+{req.question_text}
+
+Options:
+{opts_str}
+"""
+
+    ollama_url = "http://localhost:11434/api/generate"
+    payload = {
+        "model": req.model_name or "qwen3.5:latest",
+        "prompt": system_prompt,
+        "stream": False
+    }
+
+    try:
+        body_bytes = json.dumps(payload).encode('utf-8')
+        ollama_req = urllib.request.Request(ollama_url, data=body_bytes, headers={'Content-Type': 'application/json'})
+        with urllib.request.urlopen(ollama_req, timeout=120) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            explanation_text = data.get("response", "No response generated.")
+    except Exception as e:
+        # Graceful fallback if Ollama times out or errors
+        explanation_text = f"""### Step-by-Step Solution & Concept Guide
+
+**Question:** {req.question_text}
+
+**Correct Answer Identification:**
+Refer to standard textbook principles for Class {cls_str} {subj_str}.
+
+*Note: Local Ollama AI response fallback triggered ({str(e)}).*
+"""
+
+    latex_explanation = format_to_latex(explanation_text)
+
+    return {
+        "status": "success",
+        "question_text": req.question_text,
+        "explanation": explanation_text,
+        "latex_explanation": latex_explanation,
+        "model_used": req.model_name or "qwen3.5:latest"
     }
 
 

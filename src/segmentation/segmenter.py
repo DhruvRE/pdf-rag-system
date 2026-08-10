@@ -433,14 +433,17 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
                     "section": current_section,
                     "page_num": pnum,
                     "bboxes": [bbox],
+                    "pages": [pnum],
                     "lines": [txt]
                 }
             else:
                 current_q["lines"].append(txt)
                 current_q["bboxes"].append(bbox)
+                current_q.setdefault("pages", []).append(pnum)
         elif current_q is not None:
             current_q["lines"].append(txt)
             current_q["bboxes"].append(bbox)
+            current_q.setdefault("pages", []).append(pnum)
 
     if current_q:
         questions.append(finalize_question(current_q))
@@ -460,10 +463,14 @@ def finalize_question(q_data: dict) -> dict:
     cleaned_lines = normalize_and_clean_lines(q_data["lines"])
     full_text = "\n".join(cleaned_lines)
 
-    min_x = min(b[0] for b in q_data["bboxes"])
-    min_y = min(b[1] for b in q_data["bboxes"])
-    max_x = max(b[2] for b in q_data["bboxes"])
-    max_y = max(b[3] for b in q_data["bboxes"])
+    page_bboxes = [b for p, b in zip(q_data.get("pages", []), q_data["bboxes"]) if p == q_data["page_num"]]
+    if not page_bboxes:
+        page_bboxes = q_data["bboxes"]
+
+    min_x = min(b[0] for b in page_bboxes)
+    min_y = min(b[1] for b in page_bboxes)
+    max_x = max(b[2] for b in page_bboxes)
+    max_y = max(b[3] for b in page_bboxes)
     union_bbox = [round(min_x, 2), round(min_y, 2), round(max_x, 2), round(max_y, 2)]
 
     clean_opts = extract_options(full_text, q_data["section"], q_data["question_number"])

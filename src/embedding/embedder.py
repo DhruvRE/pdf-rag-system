@@ -39,6 +39,15 @@ class LocalVectorStore:
                     embedding_blob BLOB
                 )
             """)
+            try:
+                self.conn.execute("""
+                    CREATE VIRTUAL TABLE IF NOT EXISTS vectors_fts USING fts5(
+                        id UNINDEXED,
+                        document
+                    )
+                """)
+            except Exception:
+                pass
 
     def _embed_text(self, text: str) -> np.ndarray:
         vec = np.zeros(self.dim, dtype=np.float32)
@@ -73,8 +82,32 @@ class LocalVectorStore:
                     VALUES (?, ?, ?, ?)
                 """, (qid, doc, meta_str, emb_blob))
 
-    def query(self, query_text: str, n_results: int = 5, where: dict = None) -> list[dict]:
-        q_emb = self._embed_text(query_text)
+                try:
+                    self.conn.execute("""
+                        INSERT OR REPLACE INTO vectors_fts (id, document)
+                        VALUES (?, ?)
+                    """, (qid, doc))
+                except Exception:
+                    pass
+
+    def query_fts(self, query_text: str, limit: int = 20) -> list[str]:
+        """Queries FTS5 virtual table for keyword BM25 matches."""
+        try:
+            cursor = self.conn.cursor()
+            # Clean query for FTS syntax
+            clean_q = ' OR '.join(re.findall(r'\w+', query_text))
+            if not clean_q:
+                return []
+            cursor.execute("SELECT id FROM vectors_fts WHERE vectors_fts MATCH ? LIMIT ?", (clean_q, limit))
+            return [row[0] for row in cursor.fetchall()]
+        except Exception:
+            return []
+
+    def query(self, query_text: str = "", n_results: int = 5, where: dict = None, random_order: bool = False) -> list[dict]:
+        has_query = bool(query_text and query_text.strip())
+        if has_query:
+            q_emb = self._embed_text(query_text.strip())
+
         cursor = self.conn.cursor()
         cursor.execute("SELECT id, document, metadata_json, embedding_blob FROM vectors")
         rows = cursor.fetchall()
@@ -91,8 +124,12 @@ class LocalVectorStore:
                 if not match:
                     continue
 
-            emb = np.frombuffer(emb_blob, dtype=np.float32)
-            sim = float(np.dot(q_emb, emb))
+            if has_query:
+                emb = np.frombuffer(emb_blob, dtype=np.float32)
+                sim = float(np.dot(q_emb, emb))
+            else:
+                sim = 1.0
+
             results.append({
                 "chunk_id": qid,
                 "document": doc,
@@ -101,8 +138,35 @@ class LocalVectorStore:
                 "distance": round(1.0 - sim, 4)
             })
 
-        results.sort(key=lambda x: x["similarity"], reverse=True)
-        return results[:n_results]
+        if has_query:
+            # --- Reciprocal Rank Fusion (RRF) with FTS5 Keyword Ranks ---
+            fts_ids = self.query_fts(query_text, limit=30)
+            fts_rank = {qid: idx + 1 for idx, qid in enumerate(fts_ids)}
+
+            results.sort(key=lambda x: x["similarity"], reverse=True)
+            for dense_idx, item in enumerate(results):
+                r_dense = dense_idx + 1
+                r_fts = fts_rank.get(item["chunk_id"], 100)
+                # Reciprocal Rank Fusion formula: 1 / (60 + r)
+                rrf_score = (1.0 / (60.0 + r_dense)) + (1.0 / (60.0 + r_fts))
+                item["rrf_score"] = round(rrf_score, 6)
+
+            # Sort by fused RRF score for maximum precision
+            results.sort(key=lambda x: (x.get("rrf_score", 0), x["similarity"]), reverse=True)
+
+        elif random_order:
+            import random
+            random.shuffle(results)
+        else:
+            results.sort(key=lambda x: (
+                int(x["metadata"].get("class", 0)) if str(x["metadata"].get("class", "0")).isdigit() else 0,
+                x["metadata"].get("subject", ""),
+                x["metadata"].get("question_id", "")
+            ))
+
+        if n_results is not None and n_results > 0:
+            return results[:n_results]
+        return results
 
     def count(self) -> int:
         cursor = self.conn.cursor()
@@ -112,6 +176,10 @@ class LocalVectorStore:
     def clear(self):
         with self.conn:
             self.conn.execute("DELETE FROM vectors")
+            try:
+                self.conn.execute("DELETE FROM vectors_fts")
+            except Exception:
+                pass
 
 
 # Global vector store instance
@@ -204,9 +272,9 @@ def embed_paper_chunks(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict:
     }
 
 
-def query_vector_store(query_text: str, n_results: int = 5, subject_filter: str = None, class_filter: str = None) -> list[dict]:
+def query_vector_store(query_text: str = "", n_results: int = 5, subject_filter: str = None, class_filter: str = None, random_order: bool = False) -> list[dict]:
     """
-    Queries the LocalVectorStore for top-k matching questions with optional metadata filtering.
+    Queries the LocalVectorStore for top-k matching questions with optional metadata filtering and random ordering.
     """
     vs = get_vector_store()
     where = {}
@@ -215,4 +283,4 @@ def query_vector_store(query_text: str, n_results: int = 5, subject_filter: str 
     if class_filter:
         where["class"] = class_filter
 
-    return vs.query(query_text=query_text, n_results=n_results, where=where if where else None)
+    return vs.query(query_text=query_text, n_results=n_results, where=where if where else None, random_order=random_order)
