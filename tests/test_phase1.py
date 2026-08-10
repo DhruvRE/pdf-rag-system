@@ -29,7 +29,7 @@ def test_phase1_pdf_storage_and_sanity():
     papers = data["papers"]
 
     valid_classes = {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"}
-    valid_subjects = {"physics", "chemistry", "mathematics", "science", "biology"}
+    valid_subjects = {"physics", "chemistry", "mathematics", "science", "biology", "computer_science", "social_science", "physical_education", "economics", "accountancy", "business_studies", "english"}
     year_regex = re.compile(r"^\d{4}-\d{4}$")
 
     image_heavy_count = 0

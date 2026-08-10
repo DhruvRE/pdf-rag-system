@@ -8,67 +8,96 @@
 
 ## 📌 Executive Summary
 
-The **PDF Question-Paper RAG & Embedder System** ingests multi-format educational examination paper PDFs (Classes 1–12, multiple subjects/years), parses complex two-column PDF layouts, isolates question boundaries, extracts and links diagram images spatially, standardizes questions into 1-to-1 RAG chunks, indexes dense vector embeddings, deduplicates question pairs, and provides a FastAPI REST backend with a LaTeX-rendered Web UI.
+The **PDF Question-Paper RAG & Embedder System** ingests multi-format educational examination paper PDFs (Classes 1–12, multiple subjects/years), parses complex two-column PDF layouts, isolates question boundaries, extracts and links diagram images spatially across page boundaries, reconciles JSON structures against raw source spans, classifies questions into an 11-type taxonomy, indexes hybrid BM25 + dense vector embeddings, deduplicates question pairs, and provides a FastAPI REST backend with a LaTeX-rendered Web UI and local Ollama AI solution generation.
 
 ---
 
-## 🏗 System Architecture & Phase Breakdown
-
-The system is built in **8 modular phases**, strictly enforcing separation of concerns:
+## 🏗 System Architecture & Stage Breakdown
 
 ```
-               +----------------------------------+
-               | Phase 1: PDF Scraper & Storage   |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 2: PDF Layout Parser       |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 3: Question Segmenter      |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 4: Spatial Diagram Linker  |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 5: Question Chunker        |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 6: Vector Store & Embedder |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 7: Duplicate Detector      |
-               +----------------------------------+
-                                |
-                                v
-               +----------------------------------+
-               | Phase 8: RAG Retrieval & Web API |
-               +----------------------------------+
+                        PDF Input
+                           │
+             Stage 0: Type Detection (native vs scanned)
+                           │
+             Stage 1: Unified Markdown + Image Manifest
+                           │
+             Stage 2/3: Image Cropping & BBox Placeholder Mapping
+                           │
+             Stage 4: Multi-Pass Structuring & Reconciliation
+             ├─ Pass A: CBSE JSON Extraction + raw_source_span Attachment
+             ├─ Pass B-0: Source Reconciliation (compares extraction vs source)
+             ├─ Pass B-1: Question Type Classifier (11 primary types)
+             └─ Pass B-2: Type-Aware Validator (runs type-specific checks)
+                           │
+             Stage 5: Self-Validation & Selective VLM Escalation
+                           │
+             Stage 6: Drafts Review Queue & Quality Gate
+                           │
+             Stage 7: Subpart Chunking & Hybrid Vector Embeddings
+             (BM25 FTS5 + Dense Vector RRF Fusion)
+                           │
+             Stage 8: RAG Retrieval, Local Ollama AI, & Web UI
 ```
 
-### Phase Summary Table
+### Modular Phase Table
 
 | Phase | Purpose | Main Engine Module | Primary Input | Primary Output |
 | :--- | :--- | :--- | :--- | :--- |
 | **Phase 1** | PDF Ingestion & Sanity Check | `src/scraper/` | Official CBSE URLs / Uploads | `data/raw_pdfs/<class>/<subject>/<year>/<paper_id>.pdf` |
 | **Phase 2** | Raw Layout & Text Extraction | `src/parsing/parser.py` | Raw PDF file | `data/parsed/.../<paper_id>/pages.json` |
-| **Phase 3** | Question Boundary Detection | `src/segmentation/segmenter.py` | `pages.json` | `data/parsed/.../<paper_id>/questions.json` |
-| **Phase 4** | Image Extraction & Linking | `src/image_linking/extractor.py` | PDF + `questions.json` | `data/parsed/.../<paper_id>/images/q<id>_<n>.png` |
+| **Phase 3** | Boundary Detection & Pass B-0 | `src/segmentation/structured_parser.py` | `pages.json` | `data/parsed/.../<paper_id>/questions.json` |
+| **Phase 4** | Image & Cross-Page Diagram Linker | `src/image_linking/extractor.py` | PDF + `questions.json` | `data/parsed/.../<paper_id>/images/q<id>_<n>.png` |
 | **Phase 5** | Question-Level Chunking | `src/chunking/chunker.py` | `questions.json` | `data/parsed/.../<paper_id>/chunks.json` |
-| **Phase 6** | Dense Vector Store Indexing | `src/embedding/embedder.py` | `chunks.json` | `data/vector_store/vector_index.db` (SQLite + NumPy) |
-| **Phase 7** | Duplicate Question Detection | `src/dedup/deduplicator.py` | Vector Index DB | Duplicate Pair Report / `context.json` update |
-| **Phase 8** | Semantic RAG Search & API | `src/retrieval/`, `src/api/` | User Query | FastAPI JSON / RAG Prompt / Web UI |
+| **Phase 6** | Hybrid Vector Store Indexing | `src/embedding/embedder.py` | `chunks.json` | `data/vector_store/vector_index.db` (SQLite + FTS5 + NumPy) |
+| **Phase 7** | Duplicate Question Detection | `src/dedup/deduplicator.py` | Vector Index DB | Pairwise Match Report / `context.json` update |
+| **Phase 8** | RAG Search, Ollama AI, & Web API | `src/retrieval/`, `src/api/` | User Query | FastAPI JSON / RAG Prompt / Web UI |
+
+---
+
+## 🔬 Core System Enhancements & Pipeline Details
+
+### 1. Pass B-0 General-Purpose Source Reconciliation
+Instead of relying solely on pattern-matching regexes, Pass A attaches `raw_source_span` to every question object. **Pass B-0 (`reconcile_question_against_source`)** compares extracted JSON directly against original verbatim source text:
+- **Option Marker Repair**: Reconciles option count when raw source span contains distinct markers (`(a)`, `b)`, `(c )`, `( d )`) that regex missed due to spacing or OCR glitches.
+- **Placeholder Alignment**: Re-attaches unassigned `[IMAGE_PLACEHOLDER_N]` tokens directly from `raw_source_span`.
+- **Truncation Flagging**: Detects cases where `raw_source_span` exists but extracted stem text is truncated/corrupted.
+
+### 2. Pass B-1 Type Classifier & Pass B-2 Type-Aware Validator
+- **Taxonomy**: 11 closed primary question types (`single_choice_mcq`, `assertion_reason`, `diagram_based`, `case_study_passage`, `fill_in_the_blank`, `true_false`, `match_the_following`, `multiple_choice_multi`, `short_answer`, `long_answer`, `numeric_answer`).
+- **Boolean Flags**: `requires_image`, `requires_table_data`, `has_or_alternative`, `missing_image_reference`.
+- **Validation Rules**:
+  - `assertion_reason`: Requires exactly 4 standard options and `"Assertion"` stem text.
+  - `requires_image` / `missing_image_reference`: Catches questions referencing figures without attached image placeholders.
+  - `single_choice_mcq`: Enforces option alignment ($2 \le \text{options} \le 4$).
+
+### 3. Cross-Page Image Diagram & Code Snippet Linker
+In examination PDFs, code blocks or diagram figures often spill over from the bottom of Page $N-1$ to the top of Page $N$. `extractor.py` handles cross-page linking:
+- When an image is located at the top of Page $N$ ($y_0 < 150$) and the last question on Page $N-1$ ended near the bottom ($y_0 > 500$) referencing a diagram or code snippet, the image is linked directly across the page boundary.
+
+### 4. Stage 7 RRF Hybrid Search (BM25 FTS5 + Dense Vectors)
+Implements **Reciprocal Rank Fusion (RRF)** in `LocalVectorStore`:
+$$\text{RRF Score} = \frac{1}{60 + r_{\text{dense}}} + \frac{1}{60 + r_{\text{sparse}}}$$
+Fuses exact keyword lookups (chemical formulas, unit terms, question IDs) from SQLite FTS5 with 384-dimensional subword dense vector similarity for maximum retrieval precision.
+
+### 5. Granular Extraction Quality Benchmark (`tests/test_extraction_quality.py`)
+Separated from vector retrieval metrics, this harness evaluates internal JSON structural accuracy across all extracted papers:
+- **MCQ 4-Option Splitting Accuracy**: `100.0%`
+- **Stem Text Purity**: `99.75%`
+- **PUA Font Cleanliness**: `99.88%`
+- **Options XOR Subparts Exclusivity**: `100.0%`
+- **Diagram Figure Attachment Accuracy**: `72.5%`
+
+---
+
+## 🌐 Web REST API Endpoints (`src/api/app.py`)
+
+- `POST /api/search` — Runs RRF Hybrid Search across indexed question chunks.
+- `GET /api/stats` — Returns dataset statistics (paper counts, total questions, extracted diagrams).
+- `POST /api/explain` — Streams step-by-step LaTeX solution for a question using local Ollama model (`qwen3.5:latest`).
+- `GET /api/drafts` — Lists in-progress paper drafts and audit flags for the Drafts Review Queue UI.
+- `POST /api/drafts/approve` — Marks a paper draft approved for indexing.
+- `GET /api/dedup` — Returns cross-paper duplicate question pairs ($\ge 92\%$ cosine similarity).
+- `POST /api/dedup/remove` — Deletes a redundant duplicate question chunk from the vector store database.
 
 ---
 
@@ -80,7 +109,8 @@ pdf-rag-system/
 ├── .env.example                  # Environment configuration template
 ├── .gitignore                    # Git rules excluding .env & generated vector store data
 ├── AGENTS.md                     # Agent & Multi-worker operational rules
-├── README.md                     # General setup guide
+├── README.md                     # Setup & architecture guide
+├── Implementation-plan.md        # 8-Stage Architecture plan
 ├── requirements.txt              # Python package dependencies
 ├── .agent/
 │   └── context.json              # SHARED MULTI-WORKER STATE (Read/Write Single Source of Truth)
@@ -91,129 +121,28 @@ pdf-rag-system/
 │   ├── parsed/<class>/<subject>/<year>/<paper_id>/
 │   │   ├── pages.json
 │   │   ├── questions.json
+│   │   ├── structured_draft.json
 │   │   ├── chunks.json
 │   │   └── images/q<question_id>_<n>.png
 │   └── vector_store/
-│       └── vector_index.db       # SQLite + NumPy dense vector storage
+│       └── vector_index.db       # SQLite FTS5 + NumPy dense vector database
 ├── src/
-│   ├── config.py                 # Centralized configuration loader (loads .env)
+│   ├── config.py                 # Centralized configuration loader
 │   ├── api/app.py                # FastAPI REST endpoints & Web UI server
-│   ├── chunking/chunker.py       # Phase 5 chunking engine
-│   ├── dedup/deduplicator.py     # Phase 7 deduplication engine
-│   ├── embedding/embedder.py     # Phase 6 vector store & embedding engine
-│   ├── image_linking/extractor.py# Phase 4 image extraction & spatial linker
-│   ├── parsing/
-│   │   ├── parser.py             # Phase 2 layout parser
-│   │   └── ai_normalizer.py      # Hybrid Rule + Local/Cloud LLM LaTeX normalizer
-│   ├── retrieval/retriever.py    # Phase 8 RAG retrieval engine
-│   ├── scraper/                  # Phase 1 downloader, generator & sanity checkers
-│   └── segmentation/segmenter.py # Phase 3 question boundary detector
-├── scripts/
-│   ├── run_phase.py              # Single-phase CLI runner
-│   └── add_pdf.py                # CLI tool to ingest & process custom PDFs
-├── tests/                        # Pytest suite (Phases 1–8)
-│   ├── fixtures/                 # Sample benchmark test PDFs
-│   ├── labeled/ground_truth.json # Ground-truth boundaries for segmentation benchmarks
-│   └── test_phase[1-8].py        # Automated phase test suites
-└── web/                          # Web UI static assets (HTML/CSS/JS with MathJax)
+│   ├── chunking/chunker.py       # Subpart chunking engine
+│   ├── dedup/deduplicator.py     # Pairwise duplicate question detector
+│   ├── embedding/embedder.py     # LocalVectorStore with RRF Hybrid Search
+│   ├── image_linking/extractor.py# Spatial & Cross-Page Diagram Linker
+│   ├── parsing/parser.py         # PyMuPDF layout block parser
+│   ├── retrieval/retriever.py    # Query formatting & RAG prompt builder
+│   ├── scraper/downloader.py     # PDF scraper & sanity validator
+│   └── segmentation/structured_parser.py # Boundary detector, Pass B-0 & Classifier
+├── tests/
+│   ├── test_stage_pipeline.py    # Stages 0–7 integration test
+│   ├── test_phase8.py            # Phase 8 RAG Vector Retrieval benchmark
+│   └── test_extraction_quality.py# Granular Structural Extraction Quality benchmark
+└── web/                          # Frontend Web UI
+    ├── index.html                # HTML structure with Search, Drafts Queue, and Dedup tabs
+    ├── app.js                    # UI logic, MathJax rendering, & Ollama AI solution streaming
+    └── style.css                 # CSS design system with glassmorphism & badges
 ```
-
----
-
-## ⚙️ Configuration System (`src/config.py`)
-
-All paths, model names, URLs, API keys, and parameters are centrally loaded from `.env` via `src/config.py`. **No module hardcodes paths or model names.**
-
-### Configuration Parameters Summary
-
-| Environment Variable | Default Value | Description |
-| :--- | :--- | :--- |
-| `PROJECT_ROOT` | Auto-detected repository root | Base project root directory |
-| `LLM_PROVIDER` | `local` | LLM execution provider: `local` (Ollama) or `cloud` (Google / Mistral) |
-| `CLOUD_PROVIDER` | `google` | Cloud provider selection: `google` or `mistral` |
-| `OLLAMA_API_URL` | `http://localhost:11434/api/generate` | Local Ollama REST endpoint |
-| `OLLAMA_MODEL_NAME` | `qwen3.5:latest` | Local Ollama model identifier |
-| `GOOGLE_API_KEY` | `""` | Google Gemini REST API Key |
-| `GEMINI_MODEL_NAME` | `gemini-1.5-flash` | Google Gemini model identifier |
-| `MISTRAL_API_KEY` | `""` | Mistral AI REST API Key |
-| `MISTRAL_MODEL_NAME` | `mistral-small-latest` | Mistral AI model identifier |
-| `EMBEDDING_DIM` | `384` | Dense vector dimension size |
-| `DEDUP_SIMILARITY_THRESHOLD`| `0.85` | Cosine similarity threshold for duplicate detection |
-| `API_HOST` | `0.0.0.0` | FastAPI server host |
-| `API_PORT` | `8000` | FastAPI server port |
-
----
-
-## 🤖 Multi-Worker Shared Context (`.agent/context.json`)
-
-To enable multi-agent and multi-worker parallel execution without collision, state is tracked in `.agent/context.json`:
-
-```json
-{
-  "schema_version": "1.0",
-  "papers": {
-    "799613079bee": {
-      "paper_id": "799613079bee",
-      "class": "12",
-      "subject": "physics",
-      "year": "2024-2025",
-      "filename": "class12_physics_2024_2025_sqp.pdf",
-      "relative_path": "data/raw_pdfs/12/physics/2024-2025/class12_physics_2024_2025_sqp.pdf",
-      "phase_status": {
-        "scrape": "done",
-        "parse": "done",
-        "segment": "done",
-        "extract_images": "done",
-        "chunk": "done",
-        "embed": "done",
-        "dedup": "done"
-      }
-    }
-  }
-}
-```
-
-### Protocol Rules for Workers:
-1. **Always read `.agent/context.json` first** before starting work.
-2. Claim papers by setting `"in-progress"` and your worker timestamp.
-3. Update phase status to `"done"` or `"failed"` upon completion.
-4. Only edit entries you have claimed.
-
----
-
-## 🧠 Hybrid LLM Engine (Local vs. Cloud)
-
-`src/parsing/ai_normalizer.py` provides semantic question structuring with support for local and cloud models:
-
-```python
-from src.parsing.ai_normalizer import enhance_question_with_ai
-
-# Enhances raw extracted text into LaTeX stem, options, and subparts
-structured_q = enhance_question_with_ai(raw_text="In delta circuit...", use_ollama=True)
-```
-
-- **Local Provider (`LLM_PROVIDER=local`)**: Sends standard HTTP payload to Ollama (`qwen3.5:latest`).
-- **Cloud Provider (`LLM_PROVIDER=cloud`)**: 
-  - If `CLOUD_PROVIDER=google`: Uses Google Gemini API (`gemini-1.5-flash`).
-  - If `CLOUD_PROVIDER=mistral`: Uses Mistral AI API (`mistral-small-latest`).
-
----
-
-## 🧪 Testing & Verification
-
-All automated tests use `pytest`:
-```bash
-pytest
-```
-- Every phase includes an isolated test file in `tests/test_phase[1-8].py`.
-- Benchmark evaluation queries exist in `tests/eval_queries.json` measuring **MRR@5** and **Precision@5**.
-
----
-
-## 🛠 Extension Checklist for AI Agents
-
-When implementing a new feature or phase modification:
-1. Touch only your assigned phase module inside `src/<phase>/`.
-2. Do not write outputs outside of `data/`.
-3. Import configuration parameters exclusively from `src.config`.
-4. Run `pytest` to confirm 100% test suite pass before marking tasks complete.

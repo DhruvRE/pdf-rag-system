@@ -1,6 +1,19 @@
 # PDF Question-Paper RAG & Embedder System
 
-An end-to-end question-paper processing, segmentation, image-linking, chunking, embedding, deduplication, and RAG retrieval system.
+An end-to-end question-paper processing, segmentation, image-linking, chunking, hybrid vector embedding, deduplication, and RAG retrieval system.
+
+---
+
+## 🚀 Key System Features & Latest Upgrades
+
+- **Pass B-0 General-Purpose Source Reconciliation**: Preserves `raw_source_span` for every question to reconcile JSON structure directly against raw source text, fixing OCR spacing glitches (e.g. `(c )`), line-split options, and unattached image placeholders.
+- **Pass B-1 & B-2 Question Type Classifier & Validator**: Classifies questions into 11 primary types (`single_choice_mcq`, `assertion_reason`, `diagram_based`, etc.) and secondary flags (`requires_image`, `missing_image_reference`), enforcing type-specific structural rules.
+- **Cross-Page Diagram & Code Block Linking**: Links top-of-page code snippets ($y_0 < 150$) across page boundaries to questions at the bottom of preceding pages.
+- **Stage 7 RRF Hybrid Search (BM25 FTS5 + Dense Vectors)**: Combines exact keyword matches via SQLite FTS5 with 384-dimensional dense vector embeddings using **Reciprocal Rank Fusion (RRF)**:
+  $$\text{RRF Score} = \frac{1}{60 + r_{\text{dense}}} + \frac{1}{60 + r_{\text{sparse}}}$$
+- **Dedicated Extraction Quality Benchmark (`tests/test_extraction_quality.py`)**: Granular structural evaluation measuring MCQ option splitting (100%), stem purity (99.75%), PUA font cleanliness (99.88%), option/subpart exclusivity (100%), and diagram attachment accuracy (72.5%).
+- **Local Ollama AI Solutions (`/api/explain`)**: Integrates local Ollama (`qwen3.5:latest`) to stream step-by-step LaTeX answers rendered via MathJax.
+- **Deduplication Engine & Interactive Web UI (`http://localhost:8000`)**: Features `🔍 Question Search`, `📋 Drafts Review Queue`, and `🔄 Duplicate Detection` tabs with one-click deletion (`/api/dedup/remove`).
 
 ---
 
@@ -37,18 +50,18 @@ Open `.env` and configure your settings:
 - **`GOOGLE_API_KEY` / `MISTRAL_API_KEY`**: Set your API key if using cloud models.
 - **`OLLAMA_API_URL`**: Ensure Ollama is running if using local model (`http://localhost:11434/api/generate`).
 
-### Step 5: Initialize & Run Pipeline
-To run the full processing pipeline on question papers:
+### Step 5: Pipeline Execution & Corpus Setup
+To process the complete 25-PDF examination paper dataset:
 ```bash
 # Phase 1: Scrape & validate sample papers
 python3 scripts/run_phase.py --phase 1
 
-# Process Phase 2 to 8 for a paper or all papers
+# Phase 2–7: Run full 8-Stage Architecture Pipeline
 python3 scripts/run_phase.py --phase 2
 python3 scripts/run_phase.py --phase 3
 python3 scripts/run_phase.py --phase 4
 python3 scripts/run_phase.py --phase 5
-python3 scripts/run_phase.py --phase 6
+python3 scripts/reembed_stage_pipeline.py
 python3 scripts/run_phase.py --phase 7
 ```
 
@@ -57,27 +70,54 @@ To add and embed a custom question paper PDF:
 python3 scripts/add_pdf.py --pdf /path/to/paper.pdf --class 10 --subject physics --year 2024-2025
 ```
 
-### Step 6: Start FastAPI Backend Server
+### Step 6: Start FastAPI Backend Server & Web UI
 ```bash
-uvicorn src.api.app:app --host 0.0.0.0 --port 8000 --reload
+python3 -m uvicorn src.api.app:app --host 0.0.0.0 --port 8000
 ```
-Open your browser at `http://localhost:8000` to interact with the LaTeX RAG Web UI.
+Open your browser at **`http://localhost:8000`** to interact with the LaTeX RAG Web UI.
 
-### Step 7: Run Test Suite
-Verify that all 8 phase tests pass cleanly:
+To stop the running server:
 ```bash
-pytest
+kill $(lsof -t -i:8000) 2>/dev/null
+```
+
+### Step 7: Run Evaluation Test Suite & Quality Benchmarks
+```bash
+# Unit & Stage Pipeline Tests
+python3 tests/test_stage_pipeline.py
+
+# RAG Vector Retrieval Benchmark
+python3 tests/test_phase8.py
+
+# Granular Structural Extraction Quality Benchmark
+python3 tests/test_extraction_quality.py
 ```
 
 ---
 
-## 🛠 Project Architecture
-- **Scraper & Sanity Validator**: Automatic ingestion & sanity validation of question paper PDFs.
-- **Layout Parser**: PyMuPDF-based text, bounding box, font, and line structure extraction.
-- **Question Segmenter**: Boundary detection across Formats A/B/C, Section MCQ isolation, and LaTeX normalization.
-- **Image Linker**: Spatial diagram linking with tiny label glyph filtering.
-- **Standardized Chunker**: 1-to-1 question-to-chunk tagging with taxonomy classification metadata.
-- **Vector Store & Embedder**: SQLite + NumPy dense vector engine for semantic similarity search.
-- **Deduplication Engine**: Pairwise cosine similarity detection for duplicate/near-duplicate questions across papers.
-- **FastAPI & RAG Retriever**: REST API and Web UI for semantic retrieval and prompt formatting.
-- **Local & Cloud LLM Support**: Dynamic model execution via Ollama (Local), Google Gemini (Cloud), or Mistral AI (Cloud).
+## 🛠 Project Architecture Overview
+
+```
+                        PDF Input
+                           │
+             Stage 0: Type Detection (native vs scanned)
+                           │
+             Stage 1: Unified Markdown + Image Manifest
+                           │
+             Stage 2/3: Image Cropping & BBox Placeholder Mapping
+                           │
+             Stage 4: Multi-Pass Structuring & Reconciliation
+             ├─ Pass A: CBSE JSON Extraction + raw_source_span Attachment
+             ├─ Pass B-0: Source Reconciliation (compares extraction vs source)
+             ├─ Pass B-1: Question Type Classifier (11 primary types)
+             └─ Pass B-2: Type-Aware Validator (runs type-specific checks)
+                           │
+             Stage 5: Self-Validation & Selective VLM Escalation
+                           │
+             Stage 6: Drafts Review Queue & Quality Gate
+                           │
+             Stage 7: Subpart Chunking & Hybrid Vector Embeddings
+             (BM25 FTS5 + Dense Vector RRF Fusion)
+                           │
+             Stage 8: RAG Retrieval, Local Ollama AI, & Web UI
+```

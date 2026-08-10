@@ -17,76 +17,44 @@ from src.config import PROJECT_ROOT, CONTEXT_PATH
 
 
 REAL_PDF_SOURCES = [
-    {
-        "class": "12",
-        "subject": "physics",
-        "year": "2024-2025",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Physics-SQP.pdf",
-        "filename": "class12_physics_2024_2025_sqp.pdf"
-    },
-    {
-        "class": "12",
-        "subject": "chemistry",
-        "year": "2024-2025",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Chemistry-SQP.pdf",
-        "filename": "class12_chemistry_2024_2025_sqp.pdf"
-    },
-    {
-        "class": "12",
-        "subject": "mathematics",
-        "year": "2024-2025",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Maths-SQP.pdf",
-        "filename": "class12_mathematics_2024_2025_sqp.pdf"
-    },
-    {
-        "class": "12",
-        "subject": "physics",
-        "year": "2023-2024",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2023_24/Physics-SQP.pdf",
-        "filename": "class12_physics_2023_2024_sqp.pdf"
-    },
-    {
-        "class": "12",
-        "subject": "chemistry",
-        "year": "2023-2024",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2023_24/Chemistry-SQP.pdf",
-        "filename": "class12_chemistry_2023_2024_sqp.pdf"
-    },
-    {
-        "class": "10",
-        "subject": "science",
-        "year": "2024-2025",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Science-SQP.pdf",
-        "filename": "class10_science_2024_2025_sqp.pdf"
-    },
-    {
-        "class": "10",
-        "subject": "mathematics",
-        "year": "2024-2025",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsStandard-SQP.pdf",
-        "filename": "class10_mathematics_2024_2025_sqp.pdf"
-    },
-    {
-        "class": "10",
-        "subject": "science",
-        "year": "2023-2024",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Science-SQP.pdf",
-        "filename": "class10_science_2023_2024_sqp.pdf"
-    },
-    {
-        "class": "10",
-        "subject": "mathematics",
-        "year": "2023-2024",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/MathsStandard-SQP.pdf",
-        "filename": "class10_mathematics_2023_2024_sqp.pdf"
-    },
-    {
-        "class": "10",
-        "subject": "physics",
-        "year": "2022-2023",
-        "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Science-SQP.pdf",
-        "filename": "class10_science_2022_2023_sqp.pdf"
-    }
+    # Class 12 Physics
+    { "class": "12", "subject": "physics", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Physics-SQP.pdf", "filename": "class12_physics_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "physics", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2023_24/Physics-SQP.pdf", "filename": "class12_physics_2023_2024_sqp.pdf" },
+    { "class": "12", "subject": "physics", "year": "2022-2023", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2022_23/Physics-SQP.pdf", "filename": "class12_physics_2022_2023_sqp.pdf" },
+
+    # Class 12 Chemistry
+    { "class": "12", "subject": "chemistry", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Chemistry-SQP.pdf", "filename": "class12_chemistry_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "chemistry", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2023_24/Chemistry-SQP.pdf", "filename": "class12_chemistry_2023_2024_sqp.pdf" },
+    { "class": "12", "subject": "chemistry", "year": "2022-2023", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2022_23/Chemistry-SQP.pdf", "filename": "class12_chemistry_2022_2023_sqp.pdf" },
+
+    # Class 12 Mathematics
+    { "class": "12", "subject": "mathematics", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Maths-SQP.pdf", "filename": "class12_mathematics_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "mathematics", "year": "2022-2023", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2022_23/Maths-SQP.pdf", "filename": "class12_mathematics_2022_2023_sqp.pdf" },
+
+    # Class 12 Biology
+    { "class": "12", "subject": "biology", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Biology-SQP.pdf", "filename": "class12_biology_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "biology", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2023_24/Biology-SQP.pdf", "filename": "class12_biology_2023_2024_sqp.pdf" },
+    { "class": "12", "subject": "biology", "year": "2022-2023", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2022_23/Biology-SQP.pdf", "filename": "class12_biology_2022_2023_sqp.pdf" },
+
+    # Class 12 Computer Science & Physical Education
+    { "class": "12", "subject": "computer_science", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/ComputerScience-SQP.pdf", "filename": "class12_computer_science_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "computer_science", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2023_24/ComputerScience-SQP.pdf", "filename": "class12_computer_science_2023_2024_sqp.pdf" },
+    { "class": "12", "subject": "physical_education", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/PhysicalEducation-SQP.pdf", "filename": "class12_physical_education_2024_2025_sqp.pdf" },
+
+    # Class 12 Commerce
+    { "class": "12", "subject": "accountancy", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Accountancy-SQP.pdf", "filename": "class12_accountancy_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "economics", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Economics-SQP.pdf", "filename": "class12_economics_2024_2025_sqp.pdf" },
+    { "class": "12", "subject": "business_studies", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/BusinessStudies-SQP.pdf", "filename": "class12_business_studies_2024_2025_sqp.pdf" },
+
+    # Class 10 Science & Mathematics
+    { "class": "10", "subject": "science", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/Science-SQP.pdf", "filename": "class10_science_2024_2025_sqp.pdf" },
+    { "class": "10", "subject": "science", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/Science-SQP.pdf", "filename": "class10_science_2023_2024_sqp.pdf" },
+    { "class": "10", "subject": "physics", "year": "2022-2023", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/Science-SQP.pdf", "filename": "class10_science_2022_2023_sqp.pdf" },
+    { "class": "10", "subject": "mathematics", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/MathsStandard-SQP.pdf", "filename": "class10_mathematics_2024_2025_sqp.pdf" },
+    { "class": "10", "subject": "mathematics", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/MathsStandard-SQP.pdf", "filename": "class10_mathematics_2023_2024_sqp.pdf" },
+    { "class": "10", "subject": "mathematics", "year": "2022-2023", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2022_23/MathsStandard-SQP.pdf", "filename": "class10_mathematics_2022_2023_sqp.pdf" },
+    { "class": "10", "subject": "social_science", "year": "2024-2025", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2024_25/SocialScience-SQP.pdf", "filename": "class10_social_science_2024_2025_sqp.pdf" },
+    { "class": "10", "subject": "social_science", "year": "2023-2024", "url": "https://cbseacademic.nic.in/web_material/SQP/ClassX_2023_24/SocialScience-SQP.pdf", "filename": "class10_social_science_2023_2024_sqp.pdf" }
 ]
 
 
