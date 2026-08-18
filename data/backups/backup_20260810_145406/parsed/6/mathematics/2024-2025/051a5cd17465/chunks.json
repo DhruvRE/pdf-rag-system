@@ -1,0 +1,294 @@
+{
+  "paper_id": "051a5cd17465",
+  "class": "6",
+  "subject": "mathematics",
+  "year": "2024-2025",
+  "total_chunks": 9,
+  "chunks": [
+    {
+      "chunk_id": "051a5cd17465_q1",
+      "paper_id": "051a5cd17465",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "1.\nAnswer the following questions:\na) 135\u00b0\nb) 90\u00b0\nc) 45\u00b0\nd) 180\u00b0\nWhich of the following is a correct representation of an obtuse angle?\n(a)\na) 9\nb) 12\nc) 10\nd) 11\nWhat is the digit sum of the number 731?\n(b)\na) Counting Numbers\nb) Squares\nc) Odd Numbers\nd) Triangular Numbers\nThe sequence 1, 3, 6, 10, 15, ... is called as\n(c)\na) 80\u00b0\nb) 45\u00b0\nc) 60\u00b0\nd) 120\u00b0\nWhich angle is larger?\n(d)\na) Both A and R are true and R is the\ncorrect explanation of A.\nb) Both A and R are true but R is not\nthe correct explanation of A.\nc) A is true but R is false.\nd) A is false but R is true.\nAssertion (A): The number 1 is neither prime nor composite.\nReason (R): The number 1 has only one factor.\n(e)\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "1.\nAnswer the following questions:\na) 135\u00b0\nb) 90\u00b0\nc) 45\u00b0\nd) 180\u00b0\nWhich of the following is a correct representation of an obtuse angle?\n(a)\na) 9\nb) 12\nc) 10\nd) 11\nWhat is the digit sum of the number 731?\n(b)\na) Counting Numbers\nb) Squares\nc) Odd Numbers\nd) Triangular Numbers\nThe sequence 1, 3, 6, 10, 15, ... is called as\n(c)\na) 80\u00b0\nb) 45\u00b0\nc) 60\u00b0\nd) 120\u00b0\nWhich angle is larger?\n(d)\na) Both A and R are true and R is the\ncorrect explanation of A.\nb) Both A and R are true but R is not\nthe correct explanation of A.\nc) A is true but R is false.\nd) A is false but R is true.\nAssertion (A): The number 1 is neither prime nor composite.\nReason (R): The number 1 has only one factor.\n(e)",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q1_1.png"
+      ],
+      "bounding_box": [
+        46.75,
+        331.03,
+        568.0,
+        712.83
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "051a5cd17465_q2",
+      "paper_id": "051a5cd17465",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "2.\nFill in the blank with the appropriate word (ANY THREE)\nA ________ has no length, breadth, or thickness and is usually represented by a dot.",
+      "raw_text": "2.\nFill in the blank with the appropriate word (ANY THREE)\nA ________ has no length, breadth, or thickness and is usually represented by a dot.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) The Kaprekar process using the number 2111 reaches 6174 in ________ steps.",
+        "(b) In a complete graph, the number of lines (edges) follows the pattern of ________",
+        "(c) https://mycbseguide.com | https://examin8.com | https://learn8.in\n2 / 4"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        46.75,
+        718.78,
+        575.6,
+        832.71
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q3",
+      "paper_id": "051a5cd17465",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 2,
+      "content": "3.\nState whether each of the following statements is True or False:\nGeometry is the branch of mathematics that studies patterns in shapes.",
+      "raw_text": "3.\nState whether each of the following statements is True or False:\nGeometry is the branch of mathematics that studies patterns in shapes.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) An angle is formed by two rays that do not share a common starting point.",
+        "(b) Supercells are grids that help reveal patterns in numbers when filled with sequences\nlike multiples.",
+        "(c)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        46.75,
+        59.53,
+        568.0,
+        145.83
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q4",
+      "paper_id": "051a5cd17465",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 2,
+      "content": "4.\nAnswer any THREE of the following questions:\nName the line segments in Fig. Which of the five marked points are on exactly one of\nthe line segments? Which are on two of the line segments?",
+      "raw_text": "4.\nAnswer any THREE of the following questions:\nName the line segments in Fig. Which of the five marked points are on exactly one of\nthe line segments? Which are on two of the line segments?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Construct the Collatz sequence starting with 22.",
+        "(b) Why are 1, 4, 9, 16, 25, 36, ... called square numbers?",
+        "(c) A ship sailing in river Jhelam moves towards east. If it changes to north, through what\nangle does it turn?",
+        "(d)"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q4_1.png"
+      ],
+      "bounding_box": [
+        46.75,
+        167.53,
+        568.0,
+        381.33
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q5",
+      "paper_id": "051a5cd17465",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 2,
+      "content": "5.\nAnswer any TWO of the following questions:\nWhich number sequence is formed by counting the number of lines in each shape in\nthe sequence of complete graphs?",
+      "raw_text": "5.\nAnswer any TWO of the following questions:\nWhich number sequence is formed by counting the number of lines in each shape in\nthe sequence of complete graphs?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) What is the use of a compass in geometry?",
+        "(b) What is the sum of the smallest and the largest 6-digit palindromes?",
+        "(c)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        46.75,
+        385.03,
+        568.0,
+        471.33
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q6",
+      "paper_id": "051a5cd17465",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 2,
+      "content": "6.\nAnswer any TWO of the following questions:\nIn figure, write another name for:",
+      "raw_text": "6.\nAnswer any TWO of the following questions:\nIn figure, write another name for:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "i.",
+        "ii.",
+        "iii.",
+        "(a) \u22201\n\u22202\n\u22203\nFind out the digit sums of all the numbers from 40 to 70.",
+        "(b) What will be 6th shape in the patterns shown below?",
+        "(c) https://mycbseguide.com | https://examin8.com | https://learn8.in\n3 / 4"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q6_1.png"
+      ],
+      "bounding_box": [
+        46.75,
+        475.03,
+        575.6,
+        832.71
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q7",
+      "paper_id": "051a5cd17465",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 3,
+      "content": "7.\nAnswer any TWO of the following questions:\nHow many supercells are possible for different number of cells in a one dimensional\nslid? Do you notice any pattern?",
+      "raw_text": "7.\nAnswer any TWO of the following questions:\nHow many supercells are possible for different number of cells in a one dimensional\nslid? Do you notice any pattern?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Observe the pattern in the following and fill in the blanks:",
+        "(b) 9 \u00d7 9 + 7 = 88\n98 \u00d7 9 + 6 = 888\n987 \u00d7 9 + 5 = 8888\n9876 \u00d7 9 + 4 = \u2026\n98765 \u00d7 9 + 3 = \u2026\n987654 \u00d7 9 + 2 = \u2026\n9876543 \u00d7 9 + 1 = \u2026\nDraw rough diagrams of two angles such that they have",
+        "a. One point in common.",
+        "b. Two points in common.",
+        "c. Three points in common.",
+        "d. Four points in common.",
+        "e. One ray in common.",
+        "(c)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        46.75,
+        127.78,
+        568.0,
+        432.33
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q8",
+      "paper_id": "051a5cd17465",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 3,
+      "content": "8.\nRead the following text carefully and answer the questions that follow:\nIn a school, students are arranging chairs in the auditorium for an event. They noticed that\narranging chairs in a triangular pattern helps save space. The number of chairs in each row\nforms a sequence: 1, 3, 6, 10, 15, ... These numbers are called triangular numbers.",
+      "raw_text": "8.\nRead the following text carefully and answer the questions that follow:\nIn a school, students are arranging chairs in the auditorium for an event. They noticed that\narranging chairs in a triangular pattern helps save space. The number of chairs in each row\nforms a sequence: 1, 3, 6, 10, 15, ... These numbers are called triangular numbers.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. What is the next triangular number after 15? (1)",
+        "b. How many chairs are there in the 4th row of the triangular arrangement? (1)",
+        "c. Explain how triangular numbers are formed. (2)",
+        "OR",
+        "Draw a diagram to show the arrangement of chairs for the first 4 triangular numbers. (2)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        46.75,
+        456.28,
+        568.0,
+        616.08
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "051a5cd17465_q9",
+      "paper_id": "051a5cd17465",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 3,
+      "content": "9.\nRead the following text carefully and answer the questions that follow:\nThe Ashoka Chakra on the Indian flag has 24 spokes. Each spoke is equally spaced, forming equal\nangles between them. Ravi wants to calculate the angle between two adjacent spokes. Since a\ncircle has 360 degrees, dividing it by 24 spokes gives 15 degrees between each spoke. Ravi\ncalculates that the angle between two adjacent spokes is 15 degrees. This helps him understand\nthe symmetry of the Ashoka Chakra.",
+      "raw_text": "9.\nRead the following text carefully and answer the questions that follow:\nThe Ashoka Chakra on the Indian flag has 24 spokes. Each spoke is equally spaced, forming equal\nangles between them. Ravi wants to calculate the angle between two adjacent spokes. Since a\ncircle has 360 degrees, dividing it by 24 spokes gives 15 degrees between each spoke. Ravi\ncalculates that the angle between two adjacent spokes is 15 degrees. This helps him understand\nthe symmetry of the Ashoka Chakra.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. How many degrees are in a full circle? (1)",
+        "b. What is the angle between two adjacent spokes of the Ashoka Chakra? (1)\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n4 / 4",
+        "c. Calculate the angle between two spokes that are 5 spokes apart. (2)",
+        "OR",
+        "If the Ashoka Chakra had 12 spokes instead of 24, what would be the angle between two\nadjacent spokes? (2)"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q9_1.png",
+        "images/q9_2.png",
+        "images/q9_3.png"
+      ],
+      "bounding_box": [
+        46.75,
+        23.53,
+        575.6,
+        832.71
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

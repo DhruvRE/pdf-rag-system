@@ -1,0 +1,823 @@
+{
+  "paper_id": "7762df3f3336",
+  "class": "12",
+  "subject": "mathematics",
+  "year": "2024-2025",
+  "total_questions": 38,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTION A",
+      "page_num": 1,
+      "bounding_box": [
+        42.84,
+        550.28,
+        538.14,
+        635.53
+      ],
+      "raw_text": "Q.1. If for a square matrix\nA   \ud835\udc68. (\ud835\udc82\ud835\udc85\ud835\udc8b\ud835\udc68) = [\n], then the value of A\nadj A\n+ is\nequal to:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 1",
+        "(B) 2025 1\n+",
+        "(C) (\n+ (D) +"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTION A",
+      "page_num": 1,
+      "bounding_box": [
+        42.84,
+        637.18,
+        521.77,
+        722.33
+      ],
+      "raw_text": "Q.2. Assume\n, , ,\nX Y Z W and P are matrices of order 2\n, 3\n, 2\nn k p n\n\u00d7\n\u00d7\n\u00d7\n\u00d7\nand p k\n\u00d7\nrespectively. Then the restriction on ,\nn k and  p so that\nPY WY +\nwill be defined are:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 3,\nk p n = =",
+        "(B)  is arbitrary,\nk p = (C)\nis arbitrary,\np k = (D)\n2,\nk p = ="
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTION A",
+      "page_num": 1,
+      "bounding_box": [
+        42.84,
+        731.94,
+        478.66,
+        771.64
+      ],
+      "raw_text": "Q.3. The interval in which the function f defined by \ud835\udc53(\ud835\udc65) = \ud835\udc52\ud835\udc65\nis strictly increasing, is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) [1, \u221e)",
+        "(B) (\n,0\n-\u221e",
+        "(C) (\u2212\u221e, \u221e)",
+        "(D) (0,\u221e)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        28.9,
+        550.3,
+        85.63
+      ],
+      "raw_text": "Q.4. If\nand A\nB are non-singular matrices of same order with \ud835\udc85\ud835\udc86\ud835\udc95(\ud835\udc68) = \ud835\udfd3, then \ud835\udc85\ud835\udc86\ud835\udc95(\ud835\udc69\u2212\ud835\udfcf\ud835\udc68\ud835\udc69)\n\ud835\udfd0is equal to",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 5",
+        "(B) (C) (D)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        92.74,
+        478.54,
+        182.73
+      ],
+      "raw_text": "Q.5. The value of ' '\nn , such that the differential equation \ud835\udc99\ud835\udc8f\ud835\udc85\ud835\udc9a\n\ud835\udc85\ud835\udc99= \ud835\udc9a(\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc9a\u2212\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99+ \ud835\udfcf);\n(\ud835\udc30\ud835\udc21\ud835\udc1e\ud835\udc2b\ud835\udc1e \ud835\udc99, \ud835\udc9a \u2208\ud835\udc79+)  is homogeneous, is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 0\n(B)1",
+        "(C) 2",
+        "(D) 3"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        190.33,
+        495.1,
+        241.45
+      ],
+      "raw_text": "Q.6. If the points (\ud835\udc99\ud835\udfcf, \ud835\udc9a\ud835\udfcf), (\ud835\udc99\ud835\udfd0, \ud835\udc9a\ud835\udfd0) and (\ud835\udc99\ud835\udfcf+ \ud835\udc99\ud835\udfd0, \ud835\udc9a\ud835\udfcf+ \ud835\udc9a\ud835\udfd0)are collinear, then  \ud835\udc99\ud835\udfcf\ud835\udc9a\ud835\udfd0 is equal to",
+      "options": [
+        "(a) x y",
+        "(b) x y",
+        "(c) x y",
+        "(d) x x"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        251.38,
+        456.46,
+        338.64
+      ],
+      "raw_text": "Q.7. If\nc A a b =- -\nis a skew-symmetric matrix then the value of a\nb c + + =\n(A)1",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(B) 2",
+        "(C) 3",
+        "(D) 4"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        351.66,
+        539.26,
+        434.04
+      ],
+      "raw_text": "Q.8. For any two events A and B , if ()\nP A =\n, ()\nP B =\nand\n1 ,\nP A B\n\u00d7\n=\nthen \ud835\udc43(\ud835\udc34\u0305\n\ud835\udc35\u0305\n\u2044 ) equals:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A)  3",
+        "(B)  8",
+        "(C) 5",
+        "(D) 1"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        432.61,
+        509.86,
+        481.53
+      ],
+      "raw_text": "Q.9. The value of \ud835\udefc if the angle between \ud835\udc5d\u20d7= 2\ud835\udefc2\ud835\udc56\u0302 \u22123\ud835\udefc\ud835\udc57\u0302 + \ud835\udc58\u0302 and \ud835\udc5e\u20d7= \ud835\udc56\u0302 + \ud835\udc57\u0302 + \ud835\udefc\ud835\udc58\u0302 is obtuse, is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) \ud835\udc45\u2212 [0, 1]",
+        "(B) (0, 1)",
+        "(C) [0, \u221e)",
+        "(D) [1, \u221e)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        503.94,
+        459.46,
+        553.1
+      ],
+      "raw_text": "Q.10. If |\ud835\udc4e\u20d7| = 3, |\ud835\udc4f\u20d7\u20d7| = 4 and |\ud835\udc4e\u20d7+ \ud835\udc4f\u20d7\u20d7| =5, then |\ud835\udc4e\u20d7\u2212\ud835\udc4f\u20d7\u20d7| =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 3",
+        "(B) 4",
+        "(C) 5",
+        "(D) 8"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        31.68,
+        573.77,
+        569.74,
+        611.42
+      ],
+      "raw_text": "Q.11. For the linear programming problem (LPP), the objective function is\nZ x y = +\nand the feasible\nregion determined by a set of constraints is shown in the graph:\n(Note: The figure is not to scale.)\nWhich of the following statements is true?\n(A) Maximum value of Z is at\n40,0\nR\n.\n(B) Maximum value of Z is at\n30,20\nQ\n.\n(C) Value of Z at\n40,0\nR\nis less than the value at\n0,40\nP\n.\n(D) The value of Z at\n30,20\nQ\nis less than the value at\n40,0\nR\n.",
+      "options": [
+        "(a) Maximum value of Z is at",
+        "(b) Maximum value of Z is at",
+        "(c) Value of Z at",
+        "(d) The value of Z at"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q11_1.png",
+          "relative_path": "images/q11_1.png",
+          "bounding_box": [
+            182.6,
+            611.51,
+            411.3,
+            799.39
+          ],
+          "width": 228.7,
+          "height": 187.88
+        }
+      ]
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        60.86,
+        201.53,
+        420.79,
+        309.02
+      ],
+      "raw_text": "Q.12.  \u222b\n\ud835\udc85\ud835\udc99\n\ud835\udc99\ud835\udfd1(\ud835\udfcf+\ud835\udc99\ud835\udfd2)\nequals",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) \u2212\n2\ud835\udc652 \u221a1 + \ud835\udc654 + \ud835\udc50",
+        "(B) 2\ud835\udc65\u221a1 + \ud835\udc654 + \ud835\udc50",
+        "(C) \u2212\n4\ud835\udc65\u221a1 + \ud835\udc654 + \ud835\udc50",
+        "(D) 4\ud835\udc652 \u221a1 + \ud835\udc654 + \ud835\udc50"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        49.68,
+        325.41,
+        502.9,
+        383.52
+      ],
+      "raw_text": "Q.13.  \u222b\n\ud835\udc84\ud835\udc90\ud835\udc94\ud835\udc86\ud835\udc84\ud835\udfd5\ud835\udc99\n\ud835\udfd0\ud835\udf45\n\ud835\udc85\ud835\udc99=",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 0\n(B)1",
+        "(C) 4",
+        "(D) 2\u03c0"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        31.68,
+        398.79,
+        547.3,
+        449.73
+      ],
+      "raw_text": "Q.14. What is the general solution of the differential equation  ey\u2032 = x?\n(A)\ud835\udc66 = \ud835\udc65\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc65+ \ud835\udc50",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(B) \ud835\udc66 = \ud835\udc65\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc65\u2212\ud835\udc65+ \ud835\udc50",
+        "(C) \ud835\udc66 = \ud835\udc65\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc65+ \ud835\udc65+ \ud835\udc50",
+        "(D) \ud835\udc66 = \ud835\udc65+ \ud835\udc50"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        60.86,
+        467.05,
+        536.62,
+        757.11
+      ],
+      "raw_text": "Q.15. The graph drawn below depicts\n(A)  y = \ud835\udc60\ud835\udc56\ud835\udc5b\u22121 \ud835\udc65\n(B) y = \ud835\udc50\ud835\udc5c\ud835\udc60\u22121 \ud835\udc65\n(C) y = \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc52\ud835\udc50\u22121\ud835\udc65",
+      "options": [
+        "(a) y = \ud835\udc60\ud835\udc56\ud835\udc5b\u22121 \ud835\udc65",
+        "(b) y = \ud835\udc50\ud835\udc5c\ud835\udc60\u22121 \ud835\udc65",
+        "(c) y = \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc52\ud835\udc50\u22121\ud835\udc65",
+        "(d) y = \ud835\udc50\ud835\udc5c\ud835\udc61\u22121 \ud835\udc65"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q15_1.png",
+          "relative_path": "images/q15_1.png",
+          "bounding_box": [
+            162.55,
+            519.78,
+            326.8,
+            729.03
+          ],
+          "width": 164.25,
+          "height": 209.25
+        }
+      ]
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        60.86,
+        778.47,
+        525.94,
+        791.22
+      ],
+      "raw_text": "Q.16. A linear programming problem (LPP) along with the graph of its constraints is shown below.\nThe corresponding objective function is:\nZ x y = +\n, which has to be minimized. The smallest value of\nthe objective function Z is 134 and is obtained at the corner point (\n3,8 ,\n(Note: The figure is not to scale.)\nThe optimal solution of the above linear programming problem __________.\n(A)  does not exist as the feasible region is unbounded.\n(B)  does not exist as the inequality 18\nx y +\n\u2264\ndoes not have any point in common with the feasible\nregion.\n(C) exists as the inequality 18\nx y +\n\u2265\nhas infinitely many points in common with the feasible region.\n(D) exists as the inequality 18\nx y +\n\u2264\ndoes not have any point in common with the feasible region.",
+      "options": [
+        "(a) does not exist as the feasible region is unbounded.",
+        "(b) does not exist as the inequality 18",
+        "(c) exists as the inequality 18",
+        "(d) exists as the inequality 18"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q16_1.png",
+          "relative_path": "images/q16_1.png",
+          "bounding_box": [
+            178.82,
+            77.32,
+            417.87,
+            299.88
+          ],
+          "width": 239.05,
+          "height": 222.56
+        }
+      ]
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        31.68,
+        454.46,
+        558.7,
+        576.07
+      ],
+      "raw_text": "Q.17. The function \ud835\udc53: \ud835\udc45 \u2192\ud835\udc4d defined by\n()\n[];\nf x x =\nwhere []. denotes the greatest integer function, is\n(A) Continuous at\n2.5\nx =\nbut not differentiable at\n2.5\nx =\n(B) Not Continuous at\n2.5\nx =\nbut differentiable at\n2.5\nx =\n(C) Not Continuous at\n2.5\nx =\nand not differentiable at\n2.5\nx =\n(D) Continuous as well as differentiable at\n2.5\nx =",
+      "options": [
+        "(a) Continuous at",
+        "(b) Not Continuous at",
+        "(c) Not Continuous at",
+        "(d) Continuous as well as differentiable at"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        31.68,
+        591.42,
+        565.29,
+        693.05
+      ],
+      "raw_text": "Q.18. A student observes an open-air Honeybee nest on the branch of a tree, whose plane figure is parabolic\nshape given by\nx y =\n. Then the area (in sq units) of the region bounded by parabola\nx y =\nand the line\ny = is (A) (B) (C) (D)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "ASSERTION REASON",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        139.24,
+        539.62,
+        257.51
+      ],
+      "raw_text": "Q.19. Assertion (A):  Consider the function defined as \ud835\udc53(\ud835\udc65) = |\ud835\udc65| + |\ud835\udc65\u22121|, \ud835\udc65\u2208\ud835\udc45. Then\n() f x\nis not differentiable at\n0 and\nx x = =\n.\nReason (R): Suppose f be defined and continuous on (\n,a b and\nc a b\n\u2208\n, then\n() f\nx is not\ndifferentiable at \ud835\udc65= \ud835\udc50 if lim\n\u210e\u21920\u2212\n\ud835\udc53(\ud835\udc50+\u210e)\u2212\ud835\udc53(\ud835\udc50)\n\u210e\n\u2260 lim\n\u210e\u21920+\n\ud835\udc53(\ud835\udc50+\u210e)\u2212\ud835\udc53(\ud835\udc50)\n\u210e\n.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "ASSERTION REASON",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        264.13,
+        595.66,
+        349.08
+      ],
+      "raw_text": "Q.20. Assertion (A): The function \ud835\udc53: \ud835\udc45\u2212 {(2\ud835\udc5b+ 1) \ud835\udf0b\n2 : \ud835\udc5b\u2208\ud835\udc4d } \u2192(\u2212\u221e, \u22121] \u222a[1, \u221e) defined by\n() sec f x x =\nis not one-one function in its domain.\nReason (R):  The line\ny = meets the graph of the function at more than one point.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        414.27,
+        361.63,
+        434.31
+      ],
+      "raw_text": "Q.21. If \ud835\udc50\ud835\udc5c\ud835\udc61\u22121(3\ud835\udc65+ 5) >\n\ud835\udf0b\n4,\nthen find the range of the values of\n.\nx",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        454.14,
+        430.15,
+        526.58
+      ],
+      "raw_text": "Q.22. The cost (in rupees) of producing x items in factory, each day is given by\n\ud835\udc36(\ud835\udc65) = 0.00013\ud835\udc653 + 0.002 \ud835\udc652 + 5\ud835\udc65+ 2200\nFind the marginal cost when 150 items are produced.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        532.25,
+        500.02,
+        618.88
+      ],
+      "raw_text": "Q.23. (a) Find the derivative of\ntan-x with respect to log\n;\nx (where\n1,\nx  \u2208\n\u221e).",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Q.23. (b) Differentiate the following function with respect to x : (\ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc65)\ud835\udc65; (where\ud835\udc65\u2208(0,\n\ud835\udf0b\n2))."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        629.61,
+        547.05,
+        762.24
+      ],
+      "raw_text": "Q.24. (a) If vectors \ud835\udc4e\u20d7 = 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302, \ud835\udc4f\u20d7\u20d7 = \u2212 \u0131\u0302 + 2\u0237\u0302 + k\u0302 and \ud835\udc50\u20d7 = 3\u0131\u0302 + \u0237\u0302 are such that \ud835\udc4f\u20d7\u20d7 + \u03bb\ud835\udc50\u20d7 is perpendicular\nto \ud835\udc4e\u20d7 , then find the value of \u03bb.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Q.24. (b) A person standing at O(\n0 0 0\n, ,\nis watching an aeroplane which is at the coordinate point\nA\n, ,\n4 0 3 .  At the same time he saw a bird at the coordinate point\nB\n, ,\n.\n0 0 1\nFind the angles which\n\ud835\udc35\ud835\udc34\u20d7\u20d7\u20d7\u20d7\u20d7\u20d7 makes with the x,y and z axes."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        31.68,
+        777.92,
+        519.92,
+        811.87
+      ],
+      "raw_text": "Q.25. The two co-initial adjacent sides of a parallelogram are 2\u0131\u0302 \u2212 4\u0237\u0302 \u2212 5k\u0302 and 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302. Find its\ndiagonals and use them to find the area of the parallelogram.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        42.72,
+        88.04,
+        564.93,
+        122.13
+      ],
+      "raw_text": "Q.26. A kite is flying at a height of 3 metres and 5 metres of string is out. If the kite is moving away\nhorizontally at the rate of 200 cm/s, find the rate at which the string is being released.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        42.84,
+        129.44,
+        530.89,
+        200.49
+      ],
+      "raw_text": "Q.27. According to a psychologist, the ability of a person to understand spatial concepts is given by\nA t =\n,    where t is the age in years,\n5,18\nt  \u2208\n. Show that the rate of increase of the ability to\nunderstand spatial concepts decreases with age in between 5 and 18.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        31.68,
+        210.32,
+        562.09,
+        334.39
+      ],
+      "raw_text": "Q.28.  (a) An ant is moving along the vector \ud835\udc591\u20d7\u20d7\u20d7= \ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + 3\ud835\udc58\u0302. Few sugar crystals are kept along the vector\n\ud835\udc592\u20d7\u20d7\u20d7\u20d7= 3\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302   which is inclined at an angle \u03b8 with the vector \ud835\udc591\u20d7\u20d7\u20d7.  Then find the angle \u03b8. Also find\nthe scalar projection of \ud835\udc591\u20d7\u20d7\u20d7 \ud835\udc5c\ud835\udc5b \ud835\udc592\u20d7\u20d7\u20d7\u20d7.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Q.28. (b) Find the vector and the cartesian equation of the line that passes through (\u22121, 2, 7) and is\nperpendicular to the lines \ud835\udc5f\u20d7 = 2\u0131\u0302 + \u0237\u0302 \u2212 3k\u0302 + \u03bb(\u0131\u0302 + 2\u0237\u0302 + 5k\u0302) and \ud835\udc5f\u20d7 = 3\u0131\u0302 + 3\u0237\u0302 \u2212 7k\u0302 + \u03bc(3\u0131\u0302 \u2212 2\u0237\u0302 + 5k\u0302)."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        42.84,
+        352.81,
+        325.75,
+        437.78
+      ],
+      "raw_text": "Q.29. (a) Evaluate:\n\u222b{\n\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99\u2212\n(\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99)\ud835\udfd0} \ud835\udc85\ud835\udc99; (where\ud835\udc99> \ud835\udfcf).",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Q.29. (b) Evaluate : \u222b\ud835\udc99(\ud835\udfcf\u2212\ud835\udc99)\ud835\udc8f\ud835\udc85\ud835\udc99;  (\ud835\udc30\ud835\udc21\ud835\udc1e\ud835\udc2b\ud835\udc1e \ud835\udc8f \u2208\ud835\udc75)."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        42.84,
+        443.05,
+        439.27,
+        523.46
+      ],
+      "raw_text": "Q.30.   Consider the following Linear Programming Problem:\nMinimise\nZ x y = +\nSubject to 2\n3,\n6,\n0.\nx y x y x y +\n\u222b\n+\n\u222b\n\u222b\nShow graphically that the minimum of Z occurs at more than two points",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        24.36,
+        538.86,
+        560.63,
+        723.48
+      ],
+      "raw_text": "Q.31. (a) The probability that it rains today is 0.4. If it rains today, the probability that it will rain tomorrow\nis 0.8. If it does not rain today, the probability that it will rain tomorrow is 0.7. If\n\ud835\udc431: denotes the probability that it does not rain today.\n\ud835\udc432: denotes the probability that it will not rain tomorrow, if it rains today.\n\ud835\udc433: denotes the probability that it will rain tomorrow, if it does not rain today.\n\ud835\udc434: denotes the probability that it will not rain tomorrow, if it does not rain today.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Find the value of\n3 .\nP P P P\n\u00d7\n-\n\u00d7",
+        "(ii) Calculate the probability of raining tomorrow.",
+        "OR",
+        "Q.31. (b) A random variable X can take all non \u2013 negative integral values and the probability that X takes\nthe value r is proportional to  5\u2212\ud835\udc5f . Find\n3 .\nP X \u2264"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        42.72,
+        139.9,
+        555.46,
+        207.83
+      ],
+      "raw_text": "Q.32. Draw the rough sketch of the curve  \ud835\udc66= 20 \ud835\udc50\ud835\udc5c\ud835\udc602 \ud835\udc65; (where\n\ud835\udf0b\n6 \u2264\ud835\udc65\u2264\n\ud835\udf0b\n3).\nUsing integration, find the area of the region bounded by the curve y = 20 cos2x from the ordinates\n\ud835\udc65=\n\ud835\udf0b\n6 to \ud835\udc65=\n\ud835\udf0b\n3  and the x -axis.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        42.84,
+        213.32,
+        564.69,
+        316.68
+      ],
+      "raw_text": "Q.33. The equation of the path traversed by the ball headed by the footballer is\n\ud835\udc66= \ud835\udc4e\ud835\udc652 + \ud835\udc4f\ud835\udc65+ \ud835\udc50; (\ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 0 \u2264\ud835\udc65\u226414 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e, \ud835\udc4f, \ud835\udc50 \u2208\ud835\udc45 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e \u22600) with respect to a XY-coordinate\nsystem in the vertical plane. The ball passes through the points (\n)(\n2,15 , 4,25 and 14,15 . Determine\nthe values of a, b and c by solving the system of linear equations in a, b and c, using matrix method.\nAlso find the equation of the path traversed by the ball.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q34",
+      "question_number": "Q34",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        42.48,
+        324.13,
+        552.58,
+        439.99
+      ],
+      "raw_text": "Q.34. (a) If \ud835\udc53: \ud835\udc45\u2192\ud835\udc45 is defined by \ud835\udc53(\ud835\udc65) = |\ud835\udc65|3, show that \ud835\udc53\"(\ud835\udc65) exists for all real x and find it.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Q.34. (b) If (\ud835\udc65\u2212\ud835\udc4e)2 + (\ud835\udc66\u2212\ud835\udc4f)2 = \ud835\udc502, for some c\n0,\n\u2265\nprove that\n[1+(\ud835\udc51\ud835\udc66\n\ud835\udc51\ud835\udc65)\n\ud835\udc512\ud835\udc66\n\ud835\udc51\ud835\udc652\nis a constant independent\nof a and b ."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q35",
+      "question_number": "Q35",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        42.84,
+        448.33,
+        539.38,
+        580.1
+      ],
+      "raw_text": "Q.35. (a) Find the shortest distance between the lines 1l and 2l whose vector equations are\n\ud835\udc5f\u20d7= (\u2212\ud835\udc56\u0302 \u2212\ud835\udc57\u0302 \u2212\ud835\udc58\u0302) + \ud835\udf06(7\ud835\udc56\u0302 \u22126\ud835\udc57\u0302 + \ud835\udc58\u0302) and \ud835\udc5f\u20d7= (3\ud835\udc56\u0302 + 5\ud835\udc57\u0302 + 7\ud835\udc58\u0302) + \ud835\udf07(\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302)\nwhere \u03bband \u03bc are parameters.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Q.35. (b) Find the image of the point (\n1,2, 1 with respect to the line\n\ud835\udc65\u22123\n1 =\n\ud835\udc66+1\n2 =\n\ud835\udc67\u22121\n3 .  Also find the\nequation of the line joining the given point and its image."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q36",
+      "question_number": "Q36",
+      "section": "CASESTUDY",
+      "page_num": 7,
+      "bounding_box": [
+        31.68,
+        723.45,
+        554.47,
+        811.51
+      ],
+      "raw_text": "Q.36. Ramesh, the owner of a sweet selling shop, purchased some rectangular card board sheets of\ndimension 25\nby 40\ncm\ncm to make container packets without top. Let x cm be the length of the side of the\nsquare to be cut out from each corner to give that sheet the shape of the container by folding up the flaps.\nBased on the above information answer the following questions.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Express the volume (V) of each container as function of x only.",
+        "(ii) Find\n\ud835\udc51\ud835\udc49\n\ud835\udc51\ud835\udc65",
+        "(iii)",
+        "(a) For what value of\nx the volume of each container is maximum?",
+        "OR",
+        "(iii)",
+        "(b) Check whether V has a point of inflection at x =\n6  or not?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q37",
+      "question_number": "Q37",
+      "section": "CASESTUDY",
+      "page_num": 8,
+      "bounding_box": [
+        31.68,
+        184.86,
+        568.2,
+        544.1
+      ],
+      "raw_text": "Q.37. An organization conducted bike race under 2 different categories-boys and girls. In all, there were 250\nparticipants. Among all of them finally three from Category 1 and two from Category 2 were selected for the\nfinal race. Ravi forms two sets B and G with these participants for his college project.\nLet\n{\n}\n{\n}\nB\nb b b\nG g g = =\nwhere B represents the set of boys selected and G the set of girls who\nwere selected for the final race.\nRavi decides to explore these sets for various types of relations and functions.\nOn the basis of the above information, answer the following questions:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Ravi wishes to form all the relations possible from B to G . How many such relations are possible?",
+        "(ii) Write the smallest equivalence relation on G.",
+        "(iii) (a) Ravi defines a relation from B to B as \ud835\udc79\ud835\udfcf = {(\ud835\udc83\ud835\udfcf, \ud835\udc83\ud835\udfd0), (\ud835\udc83\ud835\udfd0, \ud835\udc83\ud835\udfcf)}.  Write the minimum ordered\npairs to be added in \ud835\udc79\ud835\udfcf so that it becomes (A) reflexive but not symmetric, (B) reflexive and\nsymmetric but not transitive.",
+        "OR",
+        "(iii) (b) If the track of the final race (for the biker\n1b ) follows the curve\n\ud835\udc652 = 4\ud835\udc66; (where0 \u2264\ud835\udc65\u226420\u221a2&0 \u2264\ud835\udc66\u2264200), then state whether the track represents a\none-one and onto function or not.  (Justify)."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q38",
+      "question_number": "Q38",
+      "section": "CASESTUDY",
+      "page_num": 8,
+      "bounding_box": [
+        31.68,
+        642.21,
+        553.0,
+        758.33
+      ],
+      "raw_text": "Q.38. Arka bought two cages of birds: Cage-I contains 5 parrots and 1 owl and Cage \u2013II contains 6 parrots.\nOne day Arka forgot to lock both cages and two birds flew from Cage-I to Cage-II (simultaneously). Then\ntwo birds flew back from cage-II to cage-I(simultaneously).\nAssume that all the birds have equal chances of flying.\nOn the basis of the above information, answer the following questions:-",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) When two birds flew from Cage-I to Cage-II and two birds flew back from Cage-II to Cage-I then\nfind the probability that the owl is still in Cage-I.",
+        "(ii) When two birds flew from Cage-I to Cage-II and two birds flew back from Cage-II to Cage-I, the\nowl is still seen in Cage-I, what is the probability that one parrot and the owl flew from Cage-I to\nCage-II?\n*******************************************************************************"
+      ],
+      "is_valid": true
+    }
+  ]
+}

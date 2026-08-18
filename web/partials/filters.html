@@ -1,0 +1,74 @@
+<!-- Left Filter Sidebar Panel -->
+<aside class="filters-aside w-72 flex-shrink-0 flex flex-col h-full overflow-hidden shadow-md">
+  <div class="p-4 border-b border-slate-700/60 flex justify-between items-center bg-slate-900/50">
+    <h2 class="font-bold text-sm text-slate-200 uppercase tracking-wider">Filters</h2>
+    <button id="randomBtn" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1">Random Sample</button>
+  </div>
+
+  <div class="p-4 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md">
+    <!-- Class Filter -->
+    <div>
+      <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Class Level</h3>
+      <select id="classFilter" class="filter-select">
+        <option value="all">All Classes</option>
+        <option value="6">Class 6</option>
+        <option value="10">Class 10</option>
+        <option value="12">Class 12</option>
+      </select>
+    </div>
+
+    <!-- Subject Filter -->
+    <div>
+      <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Subject Domain</h3>
+      <select id="subjectFilter" class="filter-select">
+        <option value="all">All Subjects</option>
+        <option value="physics">Physics</option>
+        <option value="chemistry">Chemistry</option>
+        <option value="mathematics">Mathematics</option>
+        <option value="science">Science</option>
+      </select>
+    </div>
+
+    <!-- Question Type Filter -->
+    <div>
+      <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Question Type</h3>
+      <select id="typeFilter" class="filter-select">
+        <option value="all">All Types</option>
+        <option value="single_choice_mcq">Single Choice MCQ</option>
+        <option value="assertion_reason">Assertion-Reason</option>
+        <option value="multiple_choice_multi">Multi Choice</option>
+        <option value="case_study_passage">Case Study</option>
+        <option value="short_answer">Short Answer</option>
+        <option value="long_answer">Long Answer</option>
+        <option value="fill_in_the_blank">Fill in Blank</option>
+        <option value="true_false">True / False</option>
+        <option value="match_the_following">Match Following</option>
+        <option value="diagram_based">Diagram Based</option>
+        <option value="numeric_answer">Numeric Calculation</option>
+      </select>
+    </div>
+
+    <!-- Page Size Filter -->
+    <div>
+      <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Questions Per Page</h3>
+      <select id="pageSizeSelect" class="filter-select">
+        <option value="5">5 / Page</option>
+        <option value="10" selected>10 / Page</option>
+        <option value="20">20 / Page</option>
+        <option value="50">50 / Page</option>
+        <option value="-1">All Questions</option>
+      </select>
+    </div>
+
+    <!-- Sample Queries Pills -->
+    <div class="pt-3 border-t border-slate-700/60">
+      <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Sample Queries</h3>
+      <div class="flex flex-col gap-1.5">
+        <button class="sample-pill text-left" data-query="representation of an obtuse angle digit sum">Obtuse Angle (Class 6)</button>
+        <button class="sample-pill text-left" data-query="middle most observation of data Median Mean Range Mode">Median & Mean (Maths)</button>
+        <button class="sample-pill text-left" data-query="Assertion HCF of any two consecutive even natural numbers is 2">Assertion-Reason HCF</button>
+        <button class="sample-pill text-left" data-query="Ohm law electric current resistance circuit diagram">Ohm's Law (Physics)</button>
+      </div>
+    </div>
+  </div>
+</aside>

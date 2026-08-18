@@ -1,0 +1,1995 @@
+{
+  "exam_metadata": {
+    "subject": "physics",
+    "class_level": "12",
+    "year": "2023-2024",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_physics_2023_2024_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following is not the property of an equipotential surface?\n(a) They do not cross each other.\n(b) The work done in carrying a charge from one point to another on an\nequipotential surface is zero.\n(c ) For a uniform electric field, they are concentric spheres.\n(d) They can be imaginary sp",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following is not the property of an equipotential surface?\n(a) They do not cross each other.\n(b) The work done in carrying a charge from one point to another on an\nequipotential surface is zero.\n(c ) For a uniform electric field, they are concentric spheres.\n(d) They can be imaginary spheres.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "They do not cross each other."
+                },
+                {
+                  "label": "b",
+                  "text": "The work done in carrying a charge from one point to another on an"
+                },
+                {
+                  "label": "c",
+                  "text": "For a uniform electric field, they are concentric spheres."
+                },
+                {
+                  "label": "d",
+                  "text": "They can be imaginary spheres."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nWhich of the following is not the property of an equipotential surface?\n(a) They do not cross each other.\n(b) The work done in carrying a charge from one point to another on an\nequipotential surface is zero.\n(c ) For a uniform electric field, they are concentric spheres.\n(d) They can be imaginary spheres.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "An electric dipole placed in an electric field of intensity 2 \u00d7 105 N/C at an angle of\n30\u00b0 experiences a torque equal to 4 Nm. The charge on the dipole of dipole length\n2 cm is\n(a) 7 \u00b5C                         (b) 8 mC                          (c) 2 mC\n(d) 5 mC\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "An electric dipole placed in an electric field of intensity 2 \u00d7 105 N/C at an angle of\n30\u00b0 experiences a torque equal to 4 Nm. The charge on the dipole of dipole length\n2 cm is\n(a) 7 \u00b5C                         (b) 8 mC                          (c) 2 mC\n(d) 5 mC\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nP a g e 2 | 10",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "7 \u00b5C"
+                },
+                {
+                  "label": "b",
+                  "text": "8 mC"
+                },
+                {
+                  "label": "c",
+                  "text": "2 mC"
+                },
+                {
+                  "label": "d",
+                  "text": "5 mC"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nAn electric dipole placed in an electric field of intensity 2 \u00d7 105 N/C at an angle of\n30\u00b0 experiences a torque equal to 4 Nm. The charge on the dipole of dipole length\n2 cm is\n(a) 7 \u00b5C                         (b) 8 mC                          (c) 2 mC\n(d) 5 mC\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nP a g e 2 | 10",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A metallic plate exposed to white light emits electrons. For which of the following\ncolours of light, the stopping potential will be maximum?\n(a) Blue                          (b) Yellow                      (c)  Red                       (d) Violet",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A metallic plate exposed to white light emits electrons. For which of the following\ncolours of light, the stopping potential will be maximum?\n(a) Blue                          (b) Yellow                      (c)  Red                       (d) Violet",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Blue"
+                },
+                {
+                  "label": "b",
+                  "text": "Yellow"
+                },
+                {
+                  "label": "c",
+                  "text": "Red"
+                },
+                {
+                  "label": "d",
+                  "text": "Violet"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nA metallic plate exposed to white light emits electrons. For which of the following\ncolours of light, the stopping potential will be maximum?\n(a) Blue                          (b) Yellow                      (c)  Red                       (d) Violet",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "When alpha particles are sent through a thin gold foil, most of them go straight\nthrough the foil, because\n(a) alpha particles are positively charged\n(b) the mass of an alpha particle is more than the mass of an electron\n(c)  most of the part of an atom is empty space\n(d) alpha particles move with h",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "When alpha particles are sent through a thin gold foil, most of them go straight\nthrough the foil, because\n(a) alpha particles are positively charged\n(b) the mass of an alpha particle is more than the mass of an electron\n(c)  most of the part of an atom is empty space\n(d) alpha particles move with high velocity",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "alpha particles are positively charged"
+                },
+                {
+                  "label": "b",
+                  "text": "the mass of an alpha particle is more than the mass of an electron"
+                },
+                {
+                  "label": "c",
+                  "text": "most of the part of an atom is empty space"
+                },
+                {
+                  "label": "d",
+                  "text": "alpha particles move with high velocity"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nWhen alpha particles are sent through a thin gold foil, most of them go straight\nthrough the foil, because\n(a) alpha particles are positively charged\n(b) the mass of an alpha particle is more than the mass of an electron\n(c)  most of the part of an atom is empty space\n(d) alpha particles move with high velocity",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "An electron is moving along positive x-axis in a magnetic field which is parallel to\nthe positive y-axis. In what direction will the magnetic force be acting on the\nelectron?\n(a)  Along -x axis                                         (b)    Along -z axis\n(c ) Along +z axis                           ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "An electron is moving along positive x-axis in a magnetic field which is parallel to\nthe positive y-axis. In what direction will the magnetic force be acting on the\nelectron?\n(a)  Along -x axis                                         (b)    Along -z axis\n(c ) Along +z axis                                        (d)   Along -y axis",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Along -x axis"
+                },
+                {
+                  "label": "b",
+                  "text": "Along -z axis"
+                },
+                {
+                  "label": "c",
+                  "text": "Along +z axis"
+                },
+                {
+                  "label": "d",
+                  "text": "Along -y axis"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nAn electron is moving along positive x-axis in a magnetic field which is parallel to\nthe positive y-axis. In what direction will the magnetic force be acting on the\nelectron?\n(a)  Along -x axis                                         (b)    Along -z axis\n(c ) Along +z axis                                        (d)   Along -y axis",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The relative magnetic permeability of a substance X is slightly less than unity and\nthat of substance Y is slightly more than unity, then\n(a) X is paramagnetic and Y is ferromagnetic\n(b) X is diamagnetic and Y is ferromagnetic\n(c) X and Y both are paramagnetic\n(d) X is diamagnetic and Y is paramagne",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The relative magnetic permeability of a substance X is slightly less than unity and\nthat of substance Y is slightly more than unity, then\n(a) X is paramagnetic and Y is ferromagnetic\n(b) X is diamagnetic and Y is ferromagnetic\n(c) X and Y both are paramagnetic\n(d) X is diamagnetic and Y is paramagnetic",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "X is paramagnetic and Y is ferromagnetic"
+                },
+                {
+                  "label": "b",
+                  "text": "X is diamagnetic and Y is ferromagnetic"
+                },
+                {
+                  "label": "c",
+                  "text": "X and Y both are paramagnetic"
+                },
+                {
+                  "label": "d",
+                  "text": "X is diamagnetic and Y is paramagnetic"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nThe relative magnetic permeability of a substance X is slightly less than unity and\nthat of substance Y is slightly more than unity, then\n(a) X is paramagnetic and Y is ferromagnetic\n(b) X is diamagnetic and Y is ferromagnetic\n(c) X and Y both are paramagnetic\n(d) X is diamagnetic and Y is paramagnetic",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "An ammeter of resistance 0.81 ohm  reads up to 1 A. The value of the\nrequired shunt to increase the range to 10 A is\n(a) 0.9 ohm              (b ) 0.09 ohm\n(c) 0.03 ohm\n(d) 0.3 ohm",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "An ammeter of resistance 0.81 ohm  reads up to 1 A. The value of the\nrequired shunt to increase the range to 10 A is\n(a) 0.9 ohm              (b ) 0.09 ohm\n(c) 0.03 ohm\n(d) 0.3 ohm",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "The value of the"
+                },
+                {
+                  "label": "a",
+                  "text": "0.9 ohm"
+                },
+                {
+                  "label": "b",
+                  "text": "0.09 ohm"
+                },
+                {
+                  "label": "c",
+                  "text": "0.03 ohm"
+                },
+                {
+                  "label": "d",
+                  "text": "0.3 ohm"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nAn ammeter of resistance 0.81 ohm  reads up to 1 A. The value of the\nrequired shunt to increase the range to 10 A is\n(a) 0.9 ohm              (b ) 0.09 ohm\n(c) 0.03 ohm\n(d) 0.3 ohm",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "An electron with angular momentum L moving around the nucleus has a\nmagnetic moment given by\n(a) e L/ 2m                  (b) e L/3m                        (c) e L /4m                  (d) e L / m",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "An electron with angular momentum L moving around the nucleus has a\nmagnetic moment given by\n(a) e L/ 2m                  (b) e L/3m                        (c) e L /4m                  (d) e L / m",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "e L/ 2m"
+                },
+                {
+                  "label": "b",
+                  "text": "e L/3m"
+                },
+                {
+                  "label": "c",
+                  "text": "e L /4m"
+                },
+                {
+                  "label": "d",
+                  "text": "e L / m"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nAn electron with angular momentum L moving around the nucleus has a\nmagnetic moment given by\n(a) e L/ 2m                  (b) e L/3m                        (c) e L /4m                  (d) e L / m",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The large scale transmission of electrical energy over long distances is done with\nthe use of transformers. The voltage output of the generator is stepped-up because\nof\n(a)\nreduction of current\n(b)  reduction of current and voltage both\n(c)      power loss is cut down\n(d) (a ) and  (c) both",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The large scale transmission of electrical energy over long distances is done with\nthe use of transformers. The voltage output of the generator is stepped-up because\nof\n(a)\nreduction of current\n(b)  reduction of current and voltage both\n(c)      power loss is cut down\n(d) (a ) and  (c) both",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "reduction of current"
+                },
+                {
+                  "label": "b",
+                  "text": "reduction of current and voltage both"
+                },
+                {
+                  "label": "c",
+                  "text": "power loss is cut down"
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "c",
+                  "text": "both"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nThe large scale transmission of electrical energy over long distances is done with\nthe use of transformers. The voltage output of the generator is stepped-up because\nof\n(a)\nreduction of current\n(b)  reduction of current and voltage both\n(c)      power loss is cut down\n(d) (a ) and  (c) both",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The diagram below shows the electric field (E) and magnetic field (B) components\nof an electromagnetic wave at a certain time and location.\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nP a g e 3 | 10\nThe direction of the propagation of the electromagnetic wave is\n(a)\nperpendicular to E and B and out o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The diagram below shows the electric field (E) and magnetic field (B) components\nof an electromagnetic wave at a certain time and location.\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nP a g e 3 | 10\nThe direction of the propagation of the electromagnetic wave is\n(a)\nperpendicular to E and B and out of plane of the paper\n(b)\nperpendicular to E and B and into the plane of the paper\n(c)\nparallel and in the same direction as E\n(d)    parallel and in the same direction as B",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "components"
+                },
+                {
+                  "label": "a",
+                  "text": "perpendicular to E and B and out of plane of the paper"
+                },
+                {
+                  "label": "b",
+                  "text": "perpendicular to E and B and into the plane of the paper"
+                },
+                {
+                  "label": "c",
+                  "text": "parallel and in the same direction as E"
+                },
+                {
+                  "label": "d",
+                  "text": "parallel and in the same direction as B"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nThe diagram below shows the electric field (E) and magnetic field (B) components\nof an electromagnetic wave at a certain time and location.\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nP a g e 3 | 10\nThe direction of the propagation of the electromagnetic wave is\n(a)\nperpendicular to E and B and out of plane of the paper\n(b)\nperpendicular to E and B and into the plane of the paper\n(c)\nparallel and in the same direction as E\n(d)    parallel and in the same direction as B",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "In a coil of resistance 100 \uf057 a current is induced by changing the magnetic\nflux through it. The variation of current with time is as shown in the figure. The\nmagnitude of change in flux through coil is\n(a)\n200 Wb\n(b) 275 Wb\n(c) 225 Wb\n(d) 250 Wb",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "In a coil of resistance 100 \uf057 a current is induced by changing the magnetic\nflux through it. The variation of current with time is as shown in the figure. The\nmagnitude of change in flux through coil is\n(a)\n200 Wb\n(b) 275 Wb\n(c) 225 Wb\n(d) 250 Wb",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "200 Wb"
+                },
+                {
+                  "label": "b",
+                  "text": "275 Wb"
+                },
+                {
+                  "label": "c",
+                  "text": "225 Wb"
+                },
+                {
+                  "label": "d",
+                  "text": "250 Wb"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nIn a coil of resistance 100 \uf057 a current is induced by changing the magnetic\nflux through it. The variation of current with time is as shown in the figure. The\nmagnitude of change in flux through coil is\n(a)\n200 Wb\n(b) 275 Wb\n(c) 225 Wb\n(d) 250 Wb",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The energy of an electron in nth orbit of hydrogen atom is En= - 13.6/\ud835\udc5b2\ud835\udc52\ud835\udc49.The\nnegative sign of energy indicates that\n(a) electron is free to move.\n(b) electron is bound to the nucleus.\n(c) kinetic energy of electron is equal to potential energy of electron.\n(d) atom is radiating energy.\nFor Questio",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The energy of an electron in nth orbit of hydrogen atom is En= - 13.6/\ud835\udc5b2\ud835\udc52\ud835\udc49.The\nnegative sign of energy indicates that\n(a) electron is free to move.\n(b) electron is bound to the nucleus.\n(c) kinetic energy of electron is equal to potential energy of electron.\n(d) atom is radiating energy.\nFor Questions 13 to 16, two statements are given \u2013one labelled Assertion (A) and other\nlabelled Reason (R). Select the correct answer to these questions from the options as\ngiven below.\na)\nIf both Assertion and Reason are true and Reason is correct explanation of\nAssertion.\nb)\nIf both Assertion and Reason are true but Reason is not the correct\nexplanation of Assertion.\nc)       If Assertion is true but Reason is false.\nd)       If both Assertion and Reason are false.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "electron is free to move."
+                },
+                {
+                  "label": "b",
+                  "text": "electron is bound to the nucleus."
+                },
+                {
+                  "label": "c",
+                  "text": "kinetic energy of electron is equal to potential energy of electron."
+                },
+                {
+                  "label": "d",
+                  "text": "atom is radiating energy."
+                },
+                {
+                  "label": "a",
+                  "text": "and other"
+                },
+                {
+                  "label": "a",
+                  "text": "If both Assertion and Reason are true and Reason is correct explanation of"
+                },
+                {
+                  "label": "b",
+                  "text": "If both Assertion and Reason are true but Reason is not the correct"
+                },
+                {
+                  "label": "c",
+                  "text": "If Assertion is true but Reason is false."
+                },
+                {
+                  "label": "d",
+                  "text": "If both Assertion and Reason are false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\nThe energy of an electron in nth orbit of hydrogen atom is En= - 13.6/\ud835\udc5b2\ud835\udc52\ud835\udc49.The\nnegative sign of energy indicates that\n(a) electron is free to move.\n(b) electron is bound to the nucleus.\n(c) kinetic energy of electron is equal to potential energy of electron.\n(d) atom is radiating energy.\nFor Questions 13 to 16, two statements are given \u2013one labelled Assertion (A) and other\nlabelled Reason (R). Select the correct answer to these questions from the options as\ngiven below.\na)\nIf both Assertion and Reason are true and Reason is correct explanation of\nAssertion.\nb)\nIf both Assertion and Reason are true but Reason is not the correct\nexplanation of Assertion.\nc)       If Assertion is true but Reason is false.\nd)       If both Assertion and Reason are false.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 9 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 9 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion (A): For the radiation of a frequency greater than the threshold  frequency,\nphotoelectric current is proportional to the intensity of the radiation.\nReason (R) :   Greater the number of energy quanta available, greater is the\nnumber of electrons absorbing the energy quanta and greater\nis ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion (A): For the radiation of a frequency greater than the threshold  frequency,\nphotoelectric current is proportional to the intensity of the radiation.\nReason (R) :   Greater the number of energy quanta available, greater is the\nnumber of electrons absorbing the energy quanta and greater\nis number of electrons coming out of the metal.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\nAssertion (A): For the radiation of a frequency greater than the threshold  frequency,\nphotoelectric current is proportional to the intensity of the radiation.\nReason (R) :   Greater the number of energy quanta available, greater is the\nnumber of electrons absorbing the energy quanta and greater\nis number of electrons coming out of the metal.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion (A) : Putting p type semiconductor slab directly in physical contact\nwith n type semiconductor slab cannot form the pn junction.\nReason (R) :  The roughness at contact will be much more than inter atomic\ncrystal spacing and continuous flow of charge carriers is not\npossible.\n<!-- PAGE 3 EN",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion (A) : Putting p type semiconductor slab directly in physical contact\nwith n type semiconductor slab cannot form the pn junction.\nReason (R) :  The roughness at contact will be much more than inter atomic\ncrystal spacing and continuous flow of charge carriers is not\npossible.\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nP a g e 4 | 10",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nAssertion (A) : Putting p type semiconductor slab directly in physical contact\nwith n type semiconductor slab cannot form the pn junction.\nReason (R) :  The roughness at contact will be much more than inter atomic\ncrystal spacing and continuous flow of charge carriers is not\npossible.\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nP a g e 4 | 10",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion (A) : An electron has a higher potential energy when it is at a location\nassociated with a  negative value of potential and has a lower\npotential energy when at a location associated with a positive\npotential.\nReason (R) :    Electrons move from a region of higher potential to a region of\n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion (A) : An electron has a higher potential energy when it is at a location\nassociated with a  negative value of potential and has a lower\npotential energy when at a location associated with a positive\npotential.\nReason (R) :    Electrons move from a region of higher potential to a region of\nlower potential.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nAssertion (A) : An electron has a higher potential energy when it is at a location\nassociated with a  negative value of potential and has a lower\npotential energy when at a location associated with a positive\npotential.\nReason (R) :    Electrons move from a region of higher potential to a region of\nlower potential.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion (A) : Propagation of light through an optical fibre is due to total\ninternal reflection taking place at the core-cladding interface.\nReason (R):      Refractive index of the material of the cladding of the optical fibre\nis greater than that of the core.\nSECTION-B",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion (A) : Propagation of light through an optical fibre is due to total\ninternal reflection taking place at the core-cladding interface.\nReason (R):      Refractive index of the material of the cladding of the optical fibre\nis greater than that of the core.\nSECTION-B",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nAssertion (A) : Propagation of light through an optical fibre is due to total\ninternal reflection taking place at the core-cladding interface.\nReason (R):      Refractive index of the material of the cladding of the optical fibre\nis greater than that of the core.\nSECTION-B",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(a) Name the device which utilizes unilateral action of a pn diode to  convert\nac into dc.\n(b) Draw the circuit diagram of full wave rectifier.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(a) Name the device which utilizes unilateral action of a pn diode to  convert\nac into dc.\n(b) Draw the circuit diagram of full wave rectifier.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Name the device which utilizes unilateral action of a pn diode to  convert"
+                },
+                {
+                  "label": "b",
+                  "text": "Draw the circuit diagram of full wave rectifier."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\n(a) Name the device which utilizes unilateral action of a pn diode to  convert\nac into dc.\n(b) Draw the circuit diagram of full wave rectifier.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The wavelength \u03bb of a photon and the de Broglie wavelength of an electron of mass\nm have the same value. Show that the energy of the photon is 2\u03bbmc/h times the\nkinetic energy of the electron, where  c and h have their usual meanings.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The wavelength \u03bb of a photon and the de Broglie wavelength of an electron of mass\nm have the same value. Show that the energy of the photon is 2\u03bbmc/h times the\nkinetic energy of the electron, where  c and h have their usual meanings.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nThe wavelength \u03bb of a photon and the de Broglie wavelength of an electron of mass\nm have the same value. Show that the energy of the photon is 2\u03bbmc/h times the\nkinetic energy of the electron, where  c and h have their usual meanings.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A ray of monochromatic light passes through an equilateral glass prism in such a\nway that the angle of incidence is equal to the angle of emergence and each of these\nangles is 3/4 times the angle of the prism. Determine the angle of deviation and the\nrefractive index of the glass prism.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A ray of monochromatic light passes through an equilateral glass prism in such a\nway that the angle of incidence is equal to the angle of emergence and each of these\nangles is 3/4 times the angle of the prism. Determine the angle of deviation and the\nrefractive index of the glass prism.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nA ray of monochromatic light passes through an equilateral glass prism in such a\nway that the angle of incidence is equal to the angle of emergence and each of these\nangles is 3/4 times the angle of the prism. Determine the angle of deviation and the\nrefractive index of the glass prism.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A heating element using nichrome connected to a 230 V supply draws an initial\ncurrent of 3.2 A which settles after a few seconds to a steady value of 2.8 A. What\nis the steady temperature of the heating element if the room temperature is 27.0 \u00b0C\nand the temperature coefficient of resistance of nichr",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A heating element using nichrome connected to a 230 V supply draws an initial\ncurrent of 3.2 A which settles after a few seconds to a steady value of 2.8 A. What\nis the steady temperature of the heating element if the room temperature is 27.0 \u00b0C\nand the temperature coefficient of resistance of nichrome is 1.70 \u00d7 10\u20134 \u00b0C\u20131 ?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nA heating element using nichrome connected to a 230 V supply draws an initial\ncurrent of 3.2 A which settles after a few seconds to a steady value of 2.8 A. What\nis the steady temperature of the heating element if the room temperature is 27.0 \u00b0C\nand the temperature coefficient of resistance of nichrome is 1.70 \u00d7 10\u20134 \u00b0C\u20131 ?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Show that the least possible distance between an object and its real image in a\nconvex lens is 4f, where f is the focal length of the lens.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Show that the least possible distance between an object and its real image in a\nconvex lens is 4f, where f is the focal length of the lens.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "In an astronomical telescope in normal adjustment a straight black line of length L is\ndrawn on the objective lens. The eyepiece forms a real image of this line whose\nlength is \ud835\udc59. What is the angular magnification of the telescope?\nSECTION-C",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\nShow that the least possible distance between an object and its real image in a\nconvex lens is 4f, where f is the focal length of the lens.\nOR\nIn an astronomical telescope in normal adjustment a straight black line of length L is\ndrawn on the objective lens. The eyepiece forms a real image of this line whose\nlength is \ud835\udc59. What is the angular magnification of the telescope?\nSECTION-C",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A given coin has a mass of 3.0 g. Calculate the nuclear energy that would be required\nto separate all the neutrons and protons from each other. For simplicity assume that\nthe coin is entirely made of\n\ud835\udc36\ud835\udc62\n29\n63\natoms (of mass 62.92960 u).\nGiven mp = 1.007825u and mn = 1.008665u.\n<!-- PAGE 4 END -->\n\n<",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A given coin has a mass of 3.0 g. Calculate the nuclear energy that would be required\nto separate all the neutrons and protons from each other. For simplicity assume that\nthe coin is entirely made of\n\ud835\udc36\ud835\udc62\n29\n63\natoms (of mass 62.92960 u).\nGiven mp = 1.007825u and mn = 1.008665u.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nP a g e 5 | 10",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\nA given coin has a mass of 3.0 g. Calculate the nuclear energy that would be required\nto separate all the neutrons and protons from each other. For simplicity assume that\nthe coin is entirely made of\n\ud835\udc36\ud835\udc62\n29\n63\natoms (of mass 62.92960 u).\nGiven mp = 1.007825u and mn = 1.008665u.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nP a g e 5 | 10",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Charges (+q) and (\u2013q) are placed at the points A and B respectively which are a\ndistance 2L apart. C is the midpoint between A and B. What is the work done in\nmoving a charge  +Q along the semicircle CRD.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Charges (+q) and (\u2013q) are placed at the points A and B respectively which are a\ndistance 2L apart. C is the midpoint between A and B. What is the work done in\nmoving a charge  +Q along the semicircle CRD.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nCharges (+q) and (\u2013q) are placed at the points A and B respectively which are a\ndistance 2L apart. C is the midpoint between A and B. What is the work done in\nmoving a charge  +Q along the semicircle CRD.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "a.\nb.\nc.\nThe total energy of an electron in the first excited state of the hydrogen atom is\nabout \u20133.4 eV.\nWhat is the kinetic energy of the electron in this state?\nWhat is the potential energy of the electron in this state?\nWhich of the answers above would change if the choice of the zero of potent",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "a.\nb.\nc.\nThe total energy of an electron in the first excited state of the hydrogen atom is\nabout \u20133.4 eV.\nWhat is the kinetic energy of the electron in this state?\nWhat is the potential energy of the electron in this state?\nWhich of the answers above would change if the choice of the zero of potential\nenergy is changed?",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "b."
+                },
+                {
+                  "label": "c",
+                  "text": "The total energy of an electron in the first excited state of the hydrogen atom is"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\na.\nb.\nc.\nThe total energy of an electron in the first excited state of the hydrogen atom is\nabout \u20133.4 eV.\nWhat is the kinetic energy of the electron in this state?\nWhat is the potential energy of the electron in this state?\nWhich of the answers above would change if the choice of the zero of potential\nenergy is changed?",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A wire of uniform cross-section and resistance 4 ohm is bent in the shape of square\nABCD. Point A is connected to a point P on DC by a wire AP of resistance 1 ohm.\nWhen a potential difference is applied between A and C, the points B and P are seen\nto be at the same potential. What is the resistance ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A wire of uniform cross-section and resistance 4 ohm is bent in the shape of square\nABCD. Point A is connected to a point P on DC by a wire AP of resistance 1 ohm.\nWhen a potential difference is applied between A and C, the points B and P are seen\nto be at the same potential. What is the resistance of the part DP?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\nA wire of uniform cross-section and resistance 4 ohm is bent in the shape of square\nABCD. Point A is connected to a point P on DC by a wire AP of resistance 1 ohm.\nWhen a potential difference is applied between A and C, the points B and P are seen\nto be at the same potential. What is the resistance of the part DP?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The given figure shows a long straight wire of a circular cross-section (radius a)\ncarrying steady current I. The current I is uniformly distributed across this cross-\nsection. Calculate the magnetic field in the region r < a and r > a.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The given figure shows a long straight wire of a circular cross-section (radius a)\ncarrying steady current I. The current I is uniformly distributed across this cross-\nsection. Calculate the magnetic field in the region r < a and r > a.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\nThe given figure shows a long straight wire of a circular cross-section (radius a)\ncarrying steady current I. The current I is uniformly distributed across this cross-\nsection. Calculate the magnetic field in the region r < a and r > a.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify the part of the electromagnetic spectrum which:\na)      produces heating effect,\nb)      is absorbed by the ozone layer in the atmosphere,\nc)      is used for studying crystal structure.\nWrite any one method of the production of each of the above radiations.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify the part of the electromagnetic spectrum which:\na)      produces heating effect,\nb)      is absorbed by the ozone layer in the atmosphere,\nc)      is used for studying crystal structure.\nWrite any one method of the production of each of the above radiations.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "produces heating effect,"
+                },
+                {
+                  "label": "b",
+                  "text": "is absorbed by the ozone layer in the atmosphere,"
+                },
+                {
+                  "label": "c",
+                  "text": "is used for studying crystal structure."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nIdentify the part of the electromagnetic spectrum which:\na)      produces heating effect,\nb)      is absorbed by the ozone layer in the atmosphere,\nc)      is used for studying crystal structure.\nWrite any one method of the production of each of the above radiations.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "a.\nDefine mutual inductance and write its SI unit.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nP a g e 6 | 10\nb.\nTwo circular loops, one of small radius r and other of larger radius R, such that\nR >> r, are placed coaxially with centres coinciding. Obtain the mutual inductance of\nthe arrangement.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "a.\nDefine mutual inductance and write its SI unit.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nP a g e 6 | 10\nb.\nTwo circular loops, one of small radius r and other of larger radius R, such that\nR >> r, are placed coaxially with centres coinciding. Obtain the mutual inductance of\nthe arrangement.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Define mutual inductance and write its SI unit."
+                },
+                {
+                  "label": "b",
+                  "text": "Two circular loops, one of small radius r and other of larger radius R, such that"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Two long straight parallel current carrying conductors are kept \u2018a\u2019 distant apart in air.\nThe direction of current in both the conductors is same. Find the magnitude of force\nper unit length and direction of the force between them. Hence define one ampere.\nSECTION-D\nCase Study Based Questions",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\na.\nDefine mutual inductance and write its SI unit.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nP a g e 6 | 10\nb.\nTwo circular loops, one of small radius r and other of larger radius R, such that\nR >> r, are placed coaxially with centres coinciding. Obtain the mutual inductance of\nthe arrangement.\nOR\nTwo long straight parallel current carrying conductors are kept \u2018a\u2019 distant apart in air.\nThe direction of current in both the conductors is same. Find the magnitude of force\nper unit length and direction of the force between them. Hence define one ampere.\nSECTION-D\nCase Study Based Questions",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Read the following paragraph and answer the questions that follow.\nA semiconductor diode is basically a pn junction with metallic contacts provided at\nthe ends for the application of an external voltage. It is a two terminal device. When\nan external voltage is applied across a semiconductor diode su",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following paragraph and answer the questions that follow.\nA semiconductor diode is basically a pn junction with metallic contacts provided at\nthe ends for the application of an external voltage. It is a two terminal device. When\nan external voltage is applied across a semiconductor diode such that p-side is\nconnected to the positive terminal of the battery and n-side to the negative terminal,\nit is said to be forward biased. When an external voltage is applied across the diode\nsuch that n-side is positive and p-side is negative, it is said to be reverse biased.\nAn ideal diode is one whose resistance in forward biasing is zero and the resistance\nis infinite in reverse biasing. When the diode is forward biased, it is found that\nbeyond forward voltage called knee voltage, the conductivity is very high. When the\nbiasing voltage is more than the knee voltage the potential barrier is overcome and\nthe current increases rapidly with increase in forward voltage. When the diode is\nreverse biased, the reverse bias voltage produces a very small current about a few\nmicroamperes which almost remains constant with bias. This small current is\nreverse saturation current.\ni.\nIn the given figure, a diode D is connected to an external resistance R = 100 \uf057 and\nan emf of 3.5 V. If the barrier potential developed across the diode is 0.5 V, the\ncurrent in the circuit will be:\n(a) 40 mA\n(b) 20 mA                (c) 35 mA          (d)  30 mA\nii.\nIn which of the following figures, the pn diode is reverse biased?\n(a)\n(b)\n(c)                                          (d)\niii.\nBased on the V-I characteristics of the diode, we can classify diode as\n(a) bilateral device                          (b) ohmic device\n(c) non-ohmic device                      (d) passive element\n+5V\nR\n+10V\nR\n+5V\n\u201312V\n\u2013 5V\nR\nR\n\u2013 10V\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nP a g e 7 | 10",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "40 mA"
+                },
+                {
+                  "label": "b",
+                  "text": "20 mA"
+                },
+                {
+                  "label": "c",
+                  "text": "35 mA"
+                },
+                {
+                  "label": "d",
+                  "text": "30 mA"
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": "iii."
+                },
+                {
+                  "label": "a",
+                  "text": "bilateral device"
+                },
+                {
+                  "label": "b",
+                  "text": "ohmic device"
+                },
+                {
+                  "label": "c",
+                  "text": "non-ohmic device"
+                },
+                {
+                  "label": "d",
+                  "text": "passive element"
+                },
+                {
+                  "label": "a",
+                  "text": "in the circuits"
+                },
+                {
+                  "label": "b",
+                  "text": "in the circuits"
+                },
+                {
+                  "label": "c",
+                  "text": "in the circuits"
+                },
+                {
+                  "label": "d",
+                  "text": "only in the circuit"
+                },
+                {
+                  "label": "a",
+                  "text": "100"
+                },
+                {
+                  "label": "b",
+                  "text": "106"
+                },
+                {
+                  "label": "c",
+                  "text": "10"
+                },
+                {
+                  "label": "d",
+                  "text": "10-6"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Two identical PN junctions can be connected in series by three different methods\nas shown in the figure. If the potential difference in the junctions is the same, then\nthe correct connections will be\n(a) in the circuits (1) and (2)                 (b) in the circuits (2) and (3)\n(c) in the circuits (1) and (3)                 (d) only in the circuit (1)\niv.\nThe V-I characteristic of a diode is shown in the figure. The ratio of the resistance\nof the diode at I = 15 mA to the resistance at V = -10 V is\n(a) 100                         (b) 106                            (c) 10                          (d) 10-6",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nRead the following paragraph and answer the questions that follow.\nA semiconductor diode is basically a pn junction with metallic contacts provided at\nthe ends for the application of an external voltage. It is a two terminal device. When\nan external voltage is applied across a semiconductor diode such that p-side is\nconnected to the positive terminal of the battery and n-side to the negative terminal,\nit is said to be forward biased. When an external voltage is applied across the diode\nsuch that n-side is positive and p-side is negative, it is said to be reverse biased.\nAn ideal diode is one whose resistance in forward biasing is zero and the resistance\nis infinite in reverse biasing. When the diode is forward biased, it is found that\nbeyond forward voltage called knee voltage, the conductivity is very high. When the\nbiasing voltage is more than the knee voltage the potential barrier is overcome and\nthe current increases rapidly with increase in forward voltage. When the diode is\nreverse biased, the reverse bias voltage produces a very small current about a few\nmicroamperes which almost remains constant with bias. This small current is\nreverse saturation current.\ni.\nIn the given figure, a diode D is connected to an external resistance R = 100 \uf057 and\nan emf of 3.5 V. If the barrier potential developed across the diode is 0.5 V, the\ncurrent in the circuit will be:\n(a) 40 mA\n(b) 20 mA                (c) 35 mA          (d)  30 mA\nii.\nIn which of the following figures, the pn diode is reverse biased?\n(a)\n(b)\n(c)                                          (d)\niii.\nBased on the V-I characteristics of the diode, we can classify diode as\n(a) bilateral device                          (b) ohmic device\n(c) non-ohmic device                      (d) passive element\n+5V\nR\n+10V\nR\n+5V\n\u201312V\n\u2013 5V\nR\nR\n\u2013 10V\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nP a g e 7 | 10\nOR\nTwo identical PN junctions can be connected in series by three different methods\nas shown in the figure. If the potential difference in the junctions is the same, then\nthe correct connections will be\n(a) in the circuits (1) and (2)                 (b) in the circuits (2) and (3)\n(c) in the circuits (1) and (3)                 (d) only in the circuit (1)\niv.\nThe V-I characteristic of a diode is shown in the figure. The ratio of the resistance\nof the diode at I = 15 mA to the resistance at V = -10 V is\n(a) 100                         (b) 106                            (c) 10                          (d) 10-6",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 18 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 18 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Read the following paragraph and answer the questions that follow.\nTypes of Lenses and their combination\nA convex or converging lens is thicker at the centre than at the edges. It   converges\na beam of light on refraction through it. It has a real focus. Convex lens is of three\ntypes: Double convex ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following paragraph and answer the questions that follow.\nTypes of Lenses and their combination\nA convex or converging lens is thicker at the centre than at the edges. It   converges\na beam of light on refraction through it. It has a real focus. Convex lens is of three\ntypes: Double convex lens, Plano convex lens and Concavo-convex lens.\nConcave lens is thinner at the centre than at the edges. It diverges a beam of\nlight on refraction through it. It has a virtual focus. Concave lenses are of three types:\nDouble concave lens, Plano concave lens and Convexo-concave lens.\nWhen two thin lenses of focal lengths f1 and f2 are placed in contact with each other\nalong their common principal axis, then the two lens system is regarded as a single\nlens  of focal length f and\nP\nN\nN\nP\n+\n\u2013\nP\nN\nP\nN\n+\n\u2013\nN\nP\nN\nP\n+\n\u2013\n1\n2\n3\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nP a g e 8 | 10\n1\n\ud835\udc53= 1\n\ud835\udc531\n+ 1\n\ud835\udc532\nIf several thin lenses of focal length f1, f2, .... fn are placed in contact, then the\neffective focal length of the combination is given by\n1\n2\n1\n1\n1\n1\n.....\nn\nf\nf\nf\nf\n=\n+\n+\n+\nand in terms of power, we can write\nP = P1 + P2 + .... + Pn\nThe value of focal length and power of a lens must be used with proper sign\nconsideration.\ni.\nTwo thin lenses are kept coaxially in contact with each other and the focal length of\nthe combination is 80 cm. If the focal length of one lens is 20 cm, the focal length of\nthe other would be\n(a) -26.7cm               (b) 60cm                    (c) 80cm                     (d) 30cm\nii.\nA spherical air bubble is embedded in a piece of glass. For a ray of light\npassing through the bubble, it behaves like a\n(a) converging lens\n(b) diverging lens\n(c) mirror\n(d) thin plane sheet of glass\niii.\nLens generally used in magnifying glass is\n(a) single concave lens\n(b) single convex lens\n(c) combination of convex lens of lower power and concave lens of lower focal\nlength\n(d) Planoconcave lens\niv.\nThe magnification of an image by a convex lens is positive only when the\nobject is placed\n(a) at its focus F\n(b) between F and 2F\n(c) at 2F\n(d) between F and optical centre",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "-26.7cm"
+                },
+                {
+                  "label": "b",
+                  "text": "60cm"
+                },
+                {
+                  "label": "c",
+                  "text": "80cm"
+                },
+                {
+                  "label": "d",
+                  "text": "30cm"
+                },
+                {
+                  "label": "a",
+                  "text": "converging lens"
+                },
+                {
+                  "label": "b",
+                  "text": "diverging lens"
+                },
+                {
+                  "label": "c",
+                  "text": "mirror"
+                },
+                {
+                  "label": "d",
+                  "text": "thin plane sheet of glass"
+                },
+                {
+                  "label": "a",
+                  "text": "single concave lens"
+                },
+                {
+                  "label": "b",
+                  "text": "single convex lens"
+                },
+                {
+                  "label": "c",
+                  "text": "combination of convex lens of lower power and concave lens of lower focal"
+                },
+                {
+                  "label": "d",
+                  "text": "Planoconcave lens"
+                },
+                {
+                  "label": "a",
+                  "text": "at its focus F"
+                },
+                {
+                  "label": "b",
+                  "text": "between F and 2F"
+                },
+                {
+                  "label": "c",
+                  "text": "at 2F"
+                },
+                {
+                  "label": "d",
+                  "text": "between F and optical centre"
+                },
+                {
+                  "label": "a",
+                  "text": "13.33 cm"
+                },
+                {
+                  "label": "b",
+                  "text": "14 cm"
+                },
+                {
+                  "label": "c",
+                  "text": "26.66 cm"
+                },
+                {
+                  "label": "d",
+                  "text": "25 cm"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "A convex lens of 20 cm focal length forms a real image which is three times\nmagnified. The distance of the object from the lens is\n(a) 13.33 cm                (b) 14 cm                (c) 26.66 cm                     (d) 25 cm\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nP a g e 9 | 10\nSECTION-E",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\nRead the following paragraph and answer the questions that follow.\nTypes of Lenses and their combination\nA convex or converging lens is thicker at the centre than at the edges. It   converges\na beam of light on refraction through it. It has a real focus. Convex lens is of three\ntypes: Double convex lens, Plano convex lens and Concavo-convex lens.\nConcave lens is thinner at the centre than at the edges. It diverges a beam of\nlight on refraction through it. It has a virtual focus. Concave lenses are of three types:\nDouble concave lens, Plano concave lens and Convexo-concave lens.\nWhen two thin lenses of focal lengths f1 and f2 are placed in contact with each other\nalong their common principal axis, then the two lens system is regarded as a single\nlens  of focal length f and\nP\nN\nN\nP\n+\n\u2013\nP\nN\nP\nN\n+\n\u2013\nN\nP\nN\nP\n+\n\u2013\n1\n2\n3\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nP a g e 8 | 10\n1\n\ud835\udc53= 1\n\ud835\udc531\n+ 1\n\ud835\udc532\nIf several thin lenses of focal length f1, f2, .... fn are placed in contact, then the\neffective focal length of the combination is given by\n1\n2\n1\n1\n1\n1\n.....\nn\nf\nf\nf\nf\n=\n+\n+\n+\nand in terms of power, we can write\nP = P1 + P2 + .... + Pn\nThe value of focal length and power of a lens must be used with proper sign\nconsideration.\ni.\nTwo thin lenses are kept coaxially in contact with each other and the focal length of\nthe combination is 80 cm. If the focal length of one lens is 20 cm, the focal length of\nthe other would be\n(a) -26.7cm               (b) 60cm                    (c) 80cm                     (d) 30cm\nii.\nA spherical air bubble is embedded in a piece of glass. For a ray of light\npassing through the bubble, it behaves like a\n(a) converging lens\n(b) diverging lens\n(c) mirror\n(d) thin plane sheet of glass\niii.\nLens generally used in magnifying glass is\n(a) single concave lens\n(b) single convex lens\n(c) combination of convex lens of lower power and concave lens of lower focal\nlength\n(d) Planoconcave lens\niv.\nThe magnification of an image by a convex lens is positive only when the\nobject is placed\n(a) at its focus F\n(b) between F and 2F\n(c) at 2F\n(d) between F and optical centre\nOR\nA convex lens of 20 cm focal length forms a real image which is three times\nmagnified. The distance of the object from the lens is\n(a) 13.33 cm                (b) 14 cm                (c) 26.66 cm                     (d) 25 cm\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nP a g e 9 | 10\nSECTION-E",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 20 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 20 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "i.\nii\nDraw a ray diagram for the formation of image of a point object by a thin double\nconvex lens having radii of curvature R1 and R2. Hence derive lens maker\u2019s formula.\nA converging lens has a focal length of 10 cm in air. It is made of a material of\nrefractive index 1.6. If it is immersed in a li",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "i.\nii\nDraw a ray diagram for the formation of image of a point object by a thin double\nconvex lens having radii of curvature R1 and R2. Hence derive lens maker\u2019s formula.\nA converging lens has a focal length of 10 cm in air. It is made of a material of\nrefractive index 1.6. If it is immersed in a liquid of refractive index 1.3, find its new\nfocal length.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "i.\nii.\niii.\niv.\nDefine a wavefront. How is it different from a ray?\nUsing Huygens\u2019s construction of secondary wavelets draw a diagram showing the\npassage of a plane wavefront from a denser to a rarer medium. Using it verify Snell\u2019s\nlaw.\nIn a double slit experiment using light of wavelength 600nm and the angular width of\nthe fringe formed on a distant screen is 0.1\u00b0. Find the spacing between the two slits.\nWrite two differences between interference pattern and diffraction pattern.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\ni.\nii\nDraw a ray diagram for the formation of image of a point object by a thin double\nconvex lens having radii of curvature R1 and R2. Hence derive lens maker\u2019s formula.\nA converging lens has a focal length of 10 cm in air. It is made of a material of\nrefractive index 1.6. If it is immersed in a liquid of refractive index 1.3, find its new\nfocal length.\nOR\ni.\nii.\niii.\niv.\nDefine a wavefront. How is it different from a ray?\nUsing Huygens\u2019s construction of secondary wavelets draw a diagram showing the\npassage of a plane wavefront from a denser to a rarer medium. Using it verify Snell\u2019s\nlaw.\nIn a double slit experiment using light of wavelength 600nm and the angular width of\nthe fringe formed on a distant screen is 0.1\u00b0. Find the spacing between the two slits.\nWrite two differences between interference pattern and diffraction pattern.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "i.\nii.\nDerive an expression for the capacitance of a parallel plate capacitor with air present\nbetween the two plates.\nObtain the equivalent capacitance of the network shown in figure. For a 300 V supply,\ndetermine the charge on each capacitor.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "i.\nii.\nDerive an expression for the capacitance of a parallel plate capacitor with air present\nbetween the two plates.\nObtain the equivalent capacitance of the network shown in figure. For a 300 V supply,\ndetermine the charge on each capacitor.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "i.\nii.\nA dielectric slab of thickness 't\u2019 is kept between the plates of a parallel plate\ncapacitor with plate separation 'd' (t < d). Derive the expression for the capacitance\nof the capacitor.\nA capacitor of capacity \ud835\udc361 is charged to the potential of \ud835\udc49\ud835\udc5c. On disconnecting with the\nbattery, it is connected with an uncharged capacitor of capacity \ud835\udc362 as shown in the\nadjoining figure. Find the ratio of energies before and after the connection of switch \ud835\udc46.\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nP a g e 10 | 10",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\ni.\nii.\nDerive an expression for the capacitance of a parallel plate capacitor with air present\nbetween the two plates.\nObtain the equivalent capacitance of the network shown in figure. For a 300 V supply,\ndetermine the charge on each capacitor.\nOR\ni.\nii.\nA dielectric slab of thickness 't\u2019 is kept between the plates of a parallel plate\ncapacitor with plate separation 'd' (t < d). Derive the expression for the capacitance\nof the capacitor.\nA capacitor of capacity \ud835\udc361 is charged to the potential of \ud835\udc49\ud835\udc5c. On disconnecting with the\nbattery, it is connected with an uncharged capacitor of capacity \ud835\udc362 as shown in the\nadjoining figure. Find the ratio of energies before and after the connection of switch \ud835\udc46.\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nP a g e 10 | 10",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "a.\nb.\nc.\nDraw graphs showing the variations of inductive reactance and capacitive reactance\nwith frequency of applied ac source.\nDraw the phasor diagram for a series LRC circuit connected to an AC source.\nWhen an alternating voltage of 220V is applied across a device X, a current of 0.25A\nflows whic",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "a.\nb.\nc.\nDraw graphs showing the variations of inductive reactance and capacitive reactance\nwith frequency of applied ac source.\nDraw the phasor diagram for a series LRC circuit connected to an AC source.\nWhen an alternating voltage of 220V is applied across a device X, a current of 0.25A\nflows which lags behind the applied voltage in phase by \u03c0/2 radian. If the same\nvoltage is applied across another device Y, the same current flows but now it is in\nphase with the applied voltage.\n(i) Name the devices X and Y.\n(ii) Calculate the current flowing in the circuit when the same voltage is applied\nacross the series combination of X and Y.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "b."
+                },
+                {
+                  "label": "c",
+                  "text": "Draw graphs showing the variations of inductive reactance and capacitive reactance"
+                },
+                {
+                  "label": "a",
+                  "text": "b."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "a.\nb.\nA series LCR circuit is connected to an ac source. Using the phasor diagram, derive\nthe expression for the impedance of the circuit.\nPlot a graph to show the variation of current  with frequency of the ac source ,\nexplaining the nature of its variation for two different resistances R1 and R2 (R1< R2)\nat resonance.\n<!-- PAGE 10 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\na.\nb.\nc.\nDraw graphs showing the variations of inductive reactance and capacitive reactance\nwith frequency of applied ac source.\nDraw the phasor diagram for a series LRC circuit connected to an AC source.\nWhen an alternating voltage of 220V is applied across a device X, a current of 0.25A\nflows which lags behind the applied voltage in phase by \u03c0/2 radian. If the same\nvoltage is applied across another device Y, the same current flows but now it is in\nphase with the applied voltage.\n(i) Name the devices X and Y.\n(ii) Calculate the current flowing in the circuit when the same voltage is applied\nacross the series combination of X and Y.\nOR\na.\nb.\nA series LCR circuit is connected to an ac source. Using the phasor diagram, derive\nthe expression for the impedance of the circuit.\nPlot a graph to show the variation of current  with frequency of the ac source ,\nexplaining the nature of its variation for two different resistances R1 and R2 (R1< R2)\nat resonance.\n<!-- PAGE 10 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

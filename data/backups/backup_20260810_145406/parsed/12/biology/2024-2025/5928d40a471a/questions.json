@@ -1,0 +1,497 @@
+{
+  "paper_id": "5928d40a471a",
+  "class": "12",
+  "subject": "biology",
+  "year": "2024-2025",
+  "total_questions": 17,
+  "questions": [
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTION B",
+      "page_num": 4,
+      "bounding_box": [
+        72.26,
+        684.16,
+        497.68,
+        761.5
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A.",
+        "(i) A blood test reported negative for hCG.\nWhat does negative hCG imply? Name the tissue which\nproduces hCG?",
+        "(ii) If a blood test reported positive for hCG in a person, then which\nother hormones would also be secreted by the tissue secreting\nhCG?",
+        "OR",
+        "B.",
+        "(i) The human male ejaculates about 200 to 300 million sperm\nduring a coitus, however the ovum is fertilized by only one\nsperm. How does the ovum block the entry of additional\nsperms?",
+        "(ii) All copulations will not lead to fertilization. Why?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTION B",
+      "page_num": 5,
+      "bounding_box": [
+        72.26,
+        217.16,
+        497.59,
+        668.38
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. The schematic representation given below shows a DNA strand and\ntwo types of mutations in the DNA strand.",
+        "(i) Identify the type of mutation exhibited in I and II.",
+        "(ii) Which of the above mutation is more harmful? Give reason.",
+        "OR",
+        "B. Given below is a schematic representation of a mRNA strand",
+        "(i) In the above sequence identify the translational unit in mRNA.",
+        "(ii) Where are UTRs found and what is their significance?"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q18_1.png",
+          "relative_path": "images/q18_1.png",
+          "bounding_box": [
+            126.0,
+            564.1,
+            475.9,
+            627.1
+          ],
+          "width": 349.9,
+          "height": 63.0
+        },
+        {
+          "filename": "q18_2.png",
+          "relative_path": "images/q18_2.png",
+          "bounding_box": [
+            121.8,
+            299.76,
+            480.6,
+            460.56
+          ],
+          "width": 358.8,
+          "height": 160.8
+        }
+      ]
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "SECTION B",
+      "page_num": 6,
+      "bounding_box": [
+        72.26,
+        50.94,
+        497.61,
+        453.67
+      ],
+      "raw_text": "Given below is the relationship between the HIV levels in the blood and\nhelper T cell count in a person detected with AIDS. Study the relationship\nand answer the questions that follow.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. What kind of relationship is observed in the virus levels and the\nimmune response after some days of the initial infection?",
+        "B. Does it completely clear the virus from the body permanently? Give\nreason for your answer.\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students.\nWrite the sequence of events that occur when a retrovirus enters a human\nbeing, causing reduction in helper T-cells."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q19_1.png",
+          "relative_path": "images/q19_1.png",
+          "bounding_box": [
+            120.48,
+            98.4,
+            481.2,
+            317.4
+          ],
+          "width": 360.72,
+          "height": 219.0
+        }
+      ]
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "SECTION B",
+      "page_num": 6,
+      "bounding_box": [
+        72.26,
+        465.73,
+        497.69,
+        510.91
+      ],
+      "raw_text": "A culture plate of Lactobacillus shows blue-coloured colonies and\ncolourless colonies. Explain the principle involved in the formation of such\nvariance in the colour of colonies.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTION B",
+      "page_num": 6,
+      "bounding_box": [
+        72.26,
+        530.05,
+        495.06,
+        784.9
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A.",
+        "(i) It was estimated that if an evergreen forest has a GPP of 400\nJ/m2/day and 150 J/m2/day worth of carbon dioxide flows out of\nthat forest, what is the NPP in that forest?",
+        "(ii) Explain why pyramids of energy must always be upright.",
+        "OR",
+        "B.",
+        "(i) Assume that, GPP Forest A = GPP Forest B = GPP Forest C,\nIf Forest A has NPP = 1254 J/m2/day; Forest B, NPP =2157\nJ/m2/day; and Forest C, NPP = 779 J/m2/day, which one of\nthese forests has maximum energy loss by respiration? Give\nreason.",
+        "(ii) Draw an ecological pyramid of number of the following food\nchains",
+        "a. Grass \u2014 Animal \u2014Fleas on the host animal",
+        "b. Tree \u2014 Insects \u2014 Woodpecker"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q21_1.png",
+          "relative_path": "images/q21_1.png",
+          "bounding_box": [
+            154.8,
+            131.76,
+            447.6,
+            348.36
+          ],
+          "width": 292.8,
+          "height": 216.6
+        }
+      ]
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTION C",
+      "page_num": 7,
+      "bounding_box": [
+        72.26,
+        78.56,
+        497.72,
+        618.79
+      ],
+      "raw_text": "The image below shows two germinated seeds X and Y which belong to\nthe same species. Seed X is produced by apomixis whereas seed Y is a\nproduct of sexual reproduction.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Write the number of embryo(s), embryo sac(s) and ovules in the\novary of seed X.",
+        "B. How multiples embryos are formed in citrus fruits?",
+        "C. What advantage will plants developed from seed Y have over seed\nX?\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students\nEach Mango fruit contains one seed. Two mango seeds, X and Y were\nsown in the soil. From Seed X, 3 plant saplings germinated but from\nseed Y only 1 plant sapling germinated.",
+        "A. For seed X which is apomictic, calculate the number of:\ni)\nEmbryo(s)\nii)\nEmbryo sac(s)\niii)\nOvules in this seed\u2019s ovary",
+        "B. How multiples embryos are formed in citrus fruits?",
+        "C. What advantage will plants developed from seed Y have over seed\nX?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTION C",
+      "page_num": 7,
+      "bounding_box": [
+        72.26,
+        630.04,
+        497.47,
+        671.02
+      ],
+      "raw_text": "Name the place in human ovary where the first meiotic division is\ncompleted during oogenesis. What are the products of this division? Give\nthe chromosome number of each type of cells involved in the process.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q23_1.png",
+          "relative_path": "images/q23_1.png",
+          "bounding_box": [
+            162.48,
+            84.36,
+            440.04,
+            229.8
+          ],
+          "width": 277.56,
+          "height": 145.44
+        }
+      ]
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        72.26,
+        50.94,
+        497.68,
+        486.43
+      ],
+      "raw_text": "The schematic representation given below shows the concept of Central\nDogma.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. During the process of replication and transcription the pairing of\nnitrogenous bases is not similar. Explain.",
+        "B. How is the above process modified in a retrovirus? Name the\nprocess.",
+        "C. Justify why during the process of transcription only a segment of\nDNA is copied into RNA.\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students\nCentral Dogma explains the process of DNA transcription and translation.\nFrom DNA mRNA is transcribed and then mRNA is translated into a\npolypeptide.",
+        "A. During the process of replication and transcription the pairing of\nnitrogen bases is not similar. Explain.",
+        "B. How is the above process modified in viruses? Name the process.",
+        "C. Justify why during the process of transcription only a segment of DNA\nis copied into RNA."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        72.26,
+        509.65,
+        497.29,
+        536.83
+      ],
+      "raw_text": "Describe the steps involved in Southern blot hybridization using\nradiolabeled VNTR as a probe.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        72.26,
+        553.93,
+        497.72,
+        581.11
+      ],
+      "raw_text": "Bio-fertilisers are organisms that enrich the nutrient quality in the soil.\nExplain the role of three main sources of  bio-fertilisers.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        72.26,
+        593.17,
+        497.2,
+        622.54
+      ],
+      "raw_text": "Explain how PCR technique can be used for amplification of a small\namount of DNA template.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        72.26,
+        641.68,
+        497.65,
+        684.34
+      ],
+      "raw_text": "A. Diagram given below depicts different species of Warbler birds\nfeeding on different regions on a Spruce tree. Explain the mechanism\nwhich helps them to co-exist.\nB. What does Gause\u2018s exclusion principle state? Does it apply in the\ncase shown above?  Explain.\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students\nA. Name and explain the mechanism where two species competing for\nthe same resource co-exist.\nB. What does Gause\u2018s exclusion principle state? Does it apply in the\nabove situation? Explain.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Diagram given below depicts different species of Warbler birds\nfeeding on different regions on a Spruce tree. Explain the mechanism\nwhich helps them to co-exist.",
+        "B. What does Gause\u2018s exclusion principle state? Does it apply in the\ncase shown above?  Explain.\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. Name and explain the mechanism where two species competing for\nthe same resource co-exist.",
+        "B. What does Gause\u2018s exclusion principle state? Does it apply in the\nabove situation? Explain."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q28_1.png",
+          "relative_path": "images/q28_1.png",
+          "bounding_box": [
+            136.8,
+            50.76,
+            465.6,
+            265.56
+          ],
+          "width": 328.8,
+          "height": 214.8
+        }
+      ]
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTION D",
+      "page_num": 9,
+      "bounding_box": [
+        72.26,
+        424.43,
+        497.72,
+        625.78
+      ],
+      "raw_text": "Assuming that within a population of beetles where Hardy Weinberg\nconditions are met, the colour black (B) is dominant over the colour red",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b). 40% of all beetles are red (bb).\nGiven this information, answer the questions below:",
+        "A. What is the frequency of red beetles?                                            (1)",
+        "B. Calculate is the percentage of beetles in the population that are\nheterozygous.                                                                                (2)\nAttempt either subpart C or D.",
+        "C. What is the frequency of homozygous dominant individuals?        (1)",
+        "OR",
+        "D. Assuming that Hardy Wienberg conditions are met in the beetle\npopulation consisting of 1500 beetles. How many beetles would you\nexpect to be black and red in colour respectively?                         (1)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTION D",
+      "page_num": 9,
+      "bounding_box": [
+        72.26,
+        636.88,
+        497.32,
+        682.18
+      ],
+      "raw_text": "Given below is the pattern of temperature in a person suffering from a\nnon-viral disease transmitted by mosquitoes. Study the graph and answer\nthe questions that follow:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Explain the factor(s) responsible for this pattern of temperature.    (1)",
+        "B. How does this pathogen multiply in the human body?                     (2)\nAttempt either subpart C or D.",
+        "C. How is this infection transmitted to humans?                                             (1)",
+        "OR",
+        "D. Which stages of the life cycle of this pathogen are completed in the\nmosquito\u2019s gut?                                                                                           (1)\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. A non-viral disease that is transmitted by mosquitoes causes recurring\nfever in an infected person. Explain giving reason(s).                        (1)",
+        "B. How does this pathogen multiply in the human body?                     (2)\nAttempt either subpart C or D.",
+        "C. How is this infection transmitted to humans?                                        (1)",
+        "OR",
+        "D. Which stages of the life cycle of this pathogen are completed in the\nmosquito\u2019s gut?                                                                                          (1)"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q30_1.png",
+          "relative_path": "images/q30_1.png",
+          "bounding_box": [
+            155.04,
+            62.76,
+            447.36,
+            224.16
+          ],
+          "width": 292.32,
+          "height": 161.4
+        }
+      ]
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTION E",
+      "page_num": 10,
+      "bounding_box": [
+        72.26,
+        539.53,
+        497.69,
+        725.5
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Cryptorchidism is a condition in which the testes fail to descend into\nthe scrotum. It can also lead to compromised Sertoli cell function and\nhas an impact on Leydig cell function.",
+        "(i) Identify at least 3 parameters of male fertility which get affected due\nto cryptorchidism.",
+        "(ii) Which process will be affected if mature spermatids are not\nreleased from Sertoli cells?",
+        "(iii) Name and explain one assisted reproductive technology (ART\nprocess) in which the sperm/semen is used to assist fertilization.",
+        "(iv) Name and explain the assisted reproductive technology that should\nbe used to complete the development of embryos I and II shown in\nthe figure given below.\nEmbryo I\nEmbryo II\n- - - - - - - - - - - - - - - - - - -\nFor visually impaired students",
+        "(iv)  An infertile couple decided to use ART to conceive. After IVF they\ndecided for Embryo transfer of the following 2 embryos. Embryo 1\nconsisted of 8 blastomeres and Embryo 2 consisted of 16\nblastomeres. Name and explain the techniques they should deploy\nto complete further development of the given embryos.",
+        "OR",
+        "B.",
+        "(i) Explain the significance of each of the following features present in\nplants given below:\na) In rose-bay plant the stamens ripen before the stigma.\nb) In certain species of primrose, the flowers have short stamen\nand long style.\nc) The bisexual flower of mustard exhibits rejection of self-pollen\ngrain.",
+        "(ii) Explain how autogamy is prevented in castor and papaya plant\nrespectively."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q31_1.png",
+          "relative_path": "images/q31_1.png",
+          "bounding_box": [
+            169.2,
+            50.76,
+            433.2,
+            140.16
+          ],
+          "width": 264.0,
+          "height": 89.4
+        }
+      ]
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTION E",
+      "page_num": 11,
+      "bounding_box": [
+        72.26,
+        450.25,
+        497.54,
+        550.51
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Explain how advent of biotechnology has helped in preventing\ninfestation by nematodes and thereby increasing crop yield.",
+        "OR",
+        "B. In the future, genetic therapies may be used to prevent, treat, or cure\ncertain inherited disorders in humans. Justify the statement with a\nsuitable example."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTION E",
+      "page_num": 11,
+      "bounding_box": [
+        72.26,
+        561.61,
+        526.28,
+        713.02
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A.",
+        "(i) Why is there a need to conserve biodiversity? (Any two reasons)",
+        "(ii) Name and explain any two causes that are responsible for the loss\nof biodiversity.",
+        "OR",
+        "B.",
+        "(i) Name the two types of desirable approaches to conserve\nbiodiversity? Explain with examples bringing out the difference\nbetween the two types.",
+        "(ii) State the features of a stable biological community?\n**********"
+      ],
+      "is_valid": true
+    }
+  ]
+}

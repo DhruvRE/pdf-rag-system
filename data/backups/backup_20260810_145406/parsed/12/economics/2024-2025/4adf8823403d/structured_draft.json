@@ -1,0 +1,2174 @@
+{
+  "exam_metadata": {
+    "subject": "economics",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_economics_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect option from those given below:\nAssertion (A): The government can reduce the deflationary gap by\npurchasing government securities in the open market.\nReason (R):  The Central Bank purchases government securities in the op",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect option from those given below:\nAssertion (A): The government can reduce the deflationary gap by\npurchasing government securities in the open market.\nReason (R):  The Central Bank purchases government securities in the open\nmarket to increase the lending capacity of commercial banks.\nOptions:\nA. Both Assertion (A) and Reason (R) are true and Reason (R) is the correct\nexplanation of Assertion (A).\nB. Both Assertion (A) and Reason (R) are true, but Reason (R) is not the\ncorrect explanation of Assertion (A).\nC. Assertion (A) is true, but Reason (R) is false.\nD. Assertion (A) is false, but Reason (R) is true.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": The government can reduce the deflationary gap by"
+                },
+                {
+                  "label": "a",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is true, but Reason"
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is false, but Reason"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nRead the following statements: Assertion (A) and Reason (R). Choose the\ncorrect option from those given below:\nAssertion (A): The government can reduce the deflationary gap by\npurchasing government securities in the open market.\nReason (R):  The Central Bank purchases government securities in the open\nmarket to increase the lending capacity of commercial banks.\nOptions:\nA. Both Assertion (A) and Reason (R) are true and Reason (R) is the correct\nexplanation of Assertion (A).\nB. Both Assertion (A) and Reason (R) are true, but Reason (R) is not the\ncorrect explanation of Assertion (A).\nC. Assertion (A) is true, but Reason (R) is false.\nD. Assertion (A) is false, but Reason (R) is true.\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 12 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 12 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u201cThe Cabinet led by Prime Minister has decided that the Central Government\nwill provide free food grains to  81.35 crore (approx.) beneficiaries under the\nPradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) for a period of five\nyears with effect from 1st January, 2024.\u201d\nSource: https://pib.gov.in/Press",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u201cThe Cabinet led by Prime Minister has decided that the Central Government\nwill provide free food grains to  81.35 crore (approx.) beneficiaries under the\nPradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) for a period of five\nyears with effect from 1st January, 2024.\u201d\nSource: https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1980689\nBased on the aforesaid statement, identify the budgetary objective the\ngovernment is trying to achieve and choose the correct option:\nA. Reallocation of resources\nB. Economic stability\nC. Redistribution of income\nD. Economic instability\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Reallocation of resources"
+                },
+                {
+                  "label": "b",
+                  "text": "Economic stability"
+                },
+                {
+                  "label": "c",
+                  "text": "Redistribution of income"
+                },
+                {
+                  "label": "d",
+                  "text": "Economic instability"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\n\u201cThe Cabinet led by Prime Minister has decided that the Central Government\nwill provide free food grains to  81.35 crore (approx.) beneficiaries under the\nPradhan Mantri Garib Kalyan Anna Yojana (PMGKAY) for a period of five\nyears with effect from 1st January, 2024.\u201d\nSource: https://pib.gov.in/PressReleaseIframePage.aspx?PRID=1980689\nBased on the aforesaid statement, identify the budgetary objective the\ngovernment is trying to achieve and choose the correct option:\nA. Reallocation of resources\nB. Economic stability\nC. Redistribution of income\nD. Economic instability\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "To arrive at the value of Gross Value Added at Market Price (GVAMP) ______\nmust be added to Gross Value Added (GVA) at Basic Prices.\n(Choose the correct option to fill up the blank)\nA. Product Taxes\nB. Net Product Taxes\nC. Production Taxes\nD. Net Production Taxes\n1\n4,\nUnder the _______ exchange rate",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "To arrive at the value of Gross Value Added at Market Price (GVAMP) ______\nmust be added to Gross Value Added (GVA) at Basic Prices.\n(Choose the correct option to fill up the blank)\nA. Product Taxes\nB. Net Product Taxes\nC. Production Taxes\nD. Net Production Taxes\n1\n4,\nUnder the _______ exchange rate system, market forces automatically adjust\nthe surplus and deficit in the Balance of Payments account.\n(Choose the correct option to fill up the blank)\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\nAggregate Expenditure\nAggregate demand\nA. fixed\nB. flexible\nC. managed floating\nD. dirty floating",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Product Taxes"
+                },
+                {
+                  "label": "b",
+                  "text": "Net Product Taxes"
+                },
+                {
+                  "label": "c",
+                  "text": "Production Taxes"
+                },
+                {
+                  "label": "d",
+                  "text": "Net Production Taxes"
+                },
+                {
+                  "label": "a",
+                  "text": "fixed"
+                },
+                {
+                  "label": "b",
+                  "text": "flexible"
+                },
+                {
+                  "label": "c",
+                  "text": "managed floating"
+                },
+                {
+                  "label": "d",
+                  "text": "dirty floating"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nTo arrive at the value of Gross Value Added at Market Price (GVAMP) ______\nmust be added to Gross Value Added (GVA) at Basic Prices.\n(Choose the correct option to fill up the blank)\nA. Product Taxes\nB. Net Product Taxes\nC. Production Taxes\nD. Net Production Taxes\n1\n4,\nUnder the _______ exchange rate system, market forces automatically adjust\nthe surplus and deficit in the Balance of Payments account.\n(Choose the correct option to fill up the blank)\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\nAggregate Expenditure\nAggregate demand\nA. fixed\nB. flexible\nC. managed floating\nD. dirty floating",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "From the given diagrams, identify the correct option that indicates the\n\u2018Reference Line\u2019 passing through the origin drawn at a particular angle.\n(i)\n(ii)\n(iii)\n(iv)\nA. (i)\nB. (ii)\nC. (iii)\nD. (iv)\nFor Visually Impaired Candidates:\nUnder the Keynesian theory, \u2018Reference Line\u2019 is a straight line passi",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "From the given diagrams, identify the correct option that indicates the\n\u2018Reference Line\u2019 passing through the origin drawn at a particular angle.\n(i)\n(ii)\n(iii)\n(iv)\nA. (i)\nB. (ii)\nC. (iii)\nD. (iv)\nFor Visually Impaired Candidates:\nUnder the Keynesian theory, \u2018Reference Line\u2019 is a straight line passing\nthrough the origin drawn at an angle of _____.\n(Choose the correct option to fill up the blank)\nA. 250\nB. 450\nC. 550\nD. 750\n1\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "250"
+                },
+                {
+                  "label": "b",
+                  "text": "450"
+                },
+                {
+                  "label": "c",
+                  "text": "550"
+                },
+                {
+                  "label": "d",
+                  "text": "750"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nFrom the given diagrams, identify the correct option that indicates the\n\u2018Reference Line\u2019 passing through the origin drawn at a particular angle.\n(i)\n(ii)\n(iii)\n(iv)\nA. (i)\nB. (ii)\nC. (iii)\nD. (iv)\nFor Visually Impaired Candidates:\nUnder the Keynesian theory, \u2018Reference Line\u2019 is a straight line passing\nthrough the origin drawn at an angle of _____.\n(Choose the correct option to fill up the blank)\nA. 250\nB. 450\nC. 550\nD. 750\n1\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "As per the data presented in the Union Budget 2023-24, the total receipts of\nthe government other than borrowings and the total expenditure are\nestimated at \u20b9 27.2 lakh crore and \u20b9 45 lakh crore respectively.\nThe value of the ________ deficit would be \u20b9 17.8 lakh crore.\n(Choose the correct option to",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "As per the data presented in the Union Budget 2023-24, the total receipts of\nthe government other than borrowings and the total expenditure are\nestimated at \u20b9 27.2 lakh crore and \u20b9 45 lakh crore respectively.\nThe value of the ________ deficit would be \u20b9 17.8 lakh crore.\n(Choose the correct option to fill up the blank)\nA. revenue\nB. fiscal\nC. budgetary\nD. primary\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "revenue"
+                },
+                {
+                  "label": "b",
+                  "text": "fiscal"
+                },
+                {
+                  "label": "c",
+                  "text": "budgetary"
+                },
+                {
+                  "label": "d",
+                  "text": "primary"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nAs per the data presented in the Union Budget 2023-24, the total receipts of\nthe government other than borrowings and the total expenditure are\nestimated at \u20b9 27.2 lakh crore and \u20b9 45 lakh crore respectively.\nThe value of the ________ deficit would be \u20b9 17.8 lakh crore.\n(Choose the correct option to fill up the blank)\nA. revenue\nB. fiscal\nC. budgetary\nD. primary\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements carefully:\nStatement 1: The maximum value of Marginal Propensity to Consume (MPC)\ncan be unity.\nStatement 2: As the income of an economy increases, the proportionate\nincrease in the level of consumption is always more than the increase in the\nlevel of income.\nIn light o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements carefully:\nStatement 1: The maximum value of Marginal Propensity to Consume (MPC)\ncan be unity.\nStatement 2: As the income of an economy increases, the proportionate\nincrease in the level of consumption is always more than the increase in the\nlevel of income.\nIn light of the given statements, choose the correct option from the following:\nA. Statement 1 is true and Statement 2 is false.\nB. Statement 1 is false and Statement 2 is true.\nC. Both Statements 1 and 2 are true.\nD. Both Statements 1 and 2 are false.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statement 1 is true and Statement 2 is false."
+                },
+                {
+                  "label": "b",
+                  "text": "Statement 1 is false and Statement 2 is true."
+                },
+                {
+                  "label": "c",
+                  "text": "Both Statements 1 and 2 are true."
+                },
+                {
+                  "label": "d",
+                  "text": "Both Statements 1 and 2 are false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nRead the following statements carefully:\nStatement 1: The maximum value of Marginal Propensity to Consume (MPC)\ncan be unity.\nStatement 2: As the income of an economy increases, the proportionate\nincrease in the level of consumption is always more than the increase in the\nlevel of income.\nIn light of the given statements, choose the correct option from the following:\nA. Statement 1 is true and Statement 2 is false.\nB. Statement 1 is false and Statement 2 is true.\nC. Both Statements 1 and 2 are true.\nD. Both Statements 1 and 2 are false.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "In a two-sector economy, Aggregate Demand can be determined by adding\n______.\n(Choose the correct option to fill up the blank)\nA. Autonomous Consumption, Induced Consumption and Induced\nInvestment\nB. Autonomous Consumption, Autonomous Investment and Induced\nInvestment\nC. Autonomous Consumption and A",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "In a two-sector economy, Aggregate Demand can be determined by adding\n______.\n(Choose the correct option to fill up the blank)\nA. Autonomous Consumption, Induced Consumption and Induced\nInvestment\nB. Autonomous Consumption, Autonomous Investment and Induced\nInvestment\nC. Autonomous Consumption and Autonomous Investment\nD. Autonomous Consumption, Induced Consumption and Autonomous\nInvestment\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Autonomous Consumption, Induced Consumption and Induced"
+                },
+                {
+                  "label": "b",
+                  "text": "Autonomous Consumption, Autonomous Investment and Induced"
+                },
+                {
+                  "label": "c",
+                  "text": "Autonomous Consumption and Autonomous Investment"
+                },
+                {
+                  "label": "d",
+                  "text": "Autonomous Consumption, Induced Consumption and Autonomous"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nIn a two-sector economy, Aggregate Demand can be determined by adding\n______.\n(Choose the correct option to fill up the blank)\nA. Autonomous Consumption, Induced Consumption and Induced\nInvestment\nB. Autonomous Consumption, Autonomous Investment and Induced\nInvestment\nC. Autonomous Consumption and Autonomous Investment\nD. Autonomous Consumption, Induced Consumption and Autonomous\nInvestment\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements carefully:\nStatement 1: Foreign grants-in-aid receipts do not lead to any claim on the\ngovernment.\n1\nIncome\nIncome\nIncome\nIncome\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3\nStatement 2: Disposal of equity by the Public Sector Undertakings in the\nmarket may lead to a de",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements carefully:\nStatement 1: Foreign grants-in-aid receipts do not lead to any claim on the\ngovernment.\n1\nIncome\nIncome\nIncome\nIncome\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3\nStatement 2: Disposal of equity by the Public Sector Undertakings in the\nmarket may lead to a decrease in the assets of the government.\nIn light of the given statements, choose the correct option from the following:\nA. Statement 1 is true and Statement 2 is false.\nB. Statement 1 is false and Statement 2 is true.\nC. Both Statements 1 and 2 are true.\nD. Both Statements 1 and 2 are false.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statement 1 is true and Statement 2 is false."
+                },
+                {
+                  "label": "b",
+                  "text": "Statement 1 is false and Statement 2 is true."
+                },
+                {
+                  "label": "c",
+                  "text": "Both Statements 1 and 2 are true."
+                },
+                {
+                  "label": "d",
+                  "text": "Both Statements 1 and 2 are false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nRead the following statements carefully:\nStatement 1: Foreign grants-in-aid receipts do not lead to any claim on the\ngovernment.\n1\nIncome\nIncome\nIncome\nIncome\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3\nStatement 2: Disposal of equity by the Public Sector Undertakings in the\nmarket may lead to a decrease in the assets of the government.\nIn light of the given statements, choose the correct option from the following:\nA. Statement 1 is true and Statement 2 is false.\nB. Statement 1 is false and Statement 2 is true.\nC. Both Statements 1 and 2 are true.\nD. Both Statements 1 and 2 are false.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Based on the given diagram:\nThe trade under current account during January 2024 reflects a _________\nof USD _____ billion.\n(Choose the correct option to fill up the blank)\nA. surplus, 0.74\nB. surplus, 3.85\nC. deficit, 0.74\nD. deficit, 3.85\nOverall Trade (Merchandise + Services)\nSource: https://comme",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Based on the given diagram:\nThe trade under current account during January 2024 reflects a _________\nof USD _____ billion.\n(Choose the correct option to fill up the blank)\nA. surplus, 0.74\nB. surplus, 3.85\nC. deficit, 0.74\nD. deficit, 3.85\nOverall Trade (Merchandise + Services)\nSource: https://commerce.gov.in/wp-content/uploads/2024/02/PIB-Press-Release-January-2024-1.pdf\nFor Visually Impaired Candidates:\n________ indicates the situation of Current Account Deficit in the Balance of\nPayments Account.\nA. Receipts > Payments on current account\nB. Receipts = Payments on current account\nC. Receipts < Payments on current account\nD. Receipts < Payments on capital account\n1\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "surplus, 0.74"
+                },
+                {
+                  "label": "b",
+                  "text": "surplus, 3.85"
+                },
+                {
+                  "label": "c",
+                  "text": "deficit, 0.74"
+                },
+                {
+                  "label": "d",
+                  "text": "deficit, 3.85"
+                },
+                {
+                  "label": "a",
+                  "text": "Receipts > Payments on current account"
+                },
+                {
+                  "label": "b",
+                  "text": "Receipts = Payments on current account"
+                },
+                {
+                  "label": "c",
+                  "text": "Receipts < Payments on current account"
+                },
+                {
+                  "label": "d",
+                  "text": "Receipts < Payments on capital account"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nBased on the given diagram:\nThe trade under current account during January 2024 reflects a _________\nof USD _____ billion.\n(Choose the correct option to fill up the blank)\nA. surplus, 0.74\nB. surplus, 3.85\nC. deficit, 0.74\nD. deficit, 3.85\nOverall Trade (Merchandise + Services)\nSource: https://commerce.gov.in/wp-content/uploads/2024/02/PIB-Press-Release-January-2024-1.pdf\nFor Visually Impaired Candidates:\n________ indicates the situation of Current Account Deficit in the Balance of\nPayments Account.\nA. Receipts > Payments on current account\nB. Receipts = Payments on current account\nC. Receipts < Payments on current account\nD. Receipts < Payments on capital account\n1\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q11 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nOn the basis of the given data, estimate the value of Domestic Income\n(NDPFC):\nS. No.\nItems\nAmount\n(\u20b9 in crore)\ni.\nHousehold Consumption Expenditure\n800\nii.\nGross Business Fixed Capital Formation\n150\niii.\nGross Residential Construction Investment\n120\niv.\nGovernment Final Consumption Expenditure\n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nOn the basis of the given data, estimate the value of Domestic Income\n(NDPFC):\nS. No.\nItems\nAmount\n(\u20b9 in crore)\ni.\nHousehold Consumption Expenditure\n800\nii.\nGross Business Fixed Capital Formation\n150\niii.\nGross Residential Construction Investment\n120\niv.\nGovernment Final Consumption Expenditure\n170\nv.\nExcess of Imports over Exports\n20\nvi.\nInventory Investment\n140\nvii.\nGross Public Investment\n500\nviii.\nNet Indirect Taxes\n70\nix.\nNet Factor Income From Abroad\n(-) 50\nx.\nConsumption of Fixed Capital\n40",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "State the steps pertaining to the estimation of National Income under the\nincome method.\n3\n3\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\n(B)\nOn the basis of the given data, estimate the value of Domestic Income\n(NDPFC):\nS. No.\nItems\nAmount\n(\u20b9 in crore)\ni.\nHousehold Consumption Expenditure\n800\nii.\nGross Business Fixed Capital Formation\n150\niii.\nGross Residential Construction Investment\n120\niv.\nGovernment Final Consumption Expenditure\n170\nv.\nExcess of Imports over Exports\n20\nvi.\nInventory Investment\n140\nvii.\nGross Public Investment\n500\nviii.\nNet Indirect Taxes\n70\nix.\nNet Factor Income From Abroad\n(-) 50\nx.\nConsumption of Fixed Capital\n40\nOR\nState the steps pertaining to the estimation of National Income under the\nincome method.\n3\n3\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q11 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u201cTax revenue collection of the government may be categorized under two\nheads.\u201d\nState and explain the two heads of tax revenue.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u201cTax revenue collection of the government may be categorized under two\nheads.\u201d\nState and explain the two heads of tax revenue.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\n\u201cTax revenue collection of the government may be categorized under two\nheads.\u201d\nState and explain the two heads of tax revenue.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(I) \u2018Foreign Portfolio Investment (FPI) witnessed a sharp turnaround during\n2023-24 with net FPI inflows of US$ 32.4 billion.\u2019\nIn which sub-account and on which side of the Balance of Payments account\nthe above transaction will be recorded? Give reasons in support of your\nanswer.\n(II) State the mean",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(I) \u2018Foreign Portfolio Investment (FPI) witnessed a sharp turnaround during\n2023-24 with net FPI inflows of US$ 32.4 billion.\u2019\nIn which sub-account and on which side of the Balance of Payments account\nthe above transaction will be recorded? Give reasons in support of your\nanswer.\n(II) State the meaning of \u2018Balance of Payments Deficit\u2019.\n3\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\n(I) \u2018Foreign Portfolio Investment (FPI) witnessed a sharp turnaround during\n2023-24 with net FPI inflows of US$ 32.4 billion.\u2019\nIn which sub-account and on which side of the Balance of Payments account\nthe above transaction will be recorded? Give reasons in support of your\nanswer.\n(II) State the meaning of \u2018Balance of Payments Deficit\u2019.\n3\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q14 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\n\u201cSaving curve can be derived from the consumption curve\u201d\nJustify the statement, citing valid steps with the help of a well-labelled\ndiagram.\nFor Visually Impaired Candidates:\n\u201cSaving curve can be derived from the consumption curve\u201d\nJustify the statement, citing valid steps.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\n\u201cSaving curve can be derived from the consumption curve\u201d\nJustify the statement, citing valid steps with the help of a well-labelled\ndiagram.\nFor Visually Impaired Candidates:\n\u201cSaving curve can be derived from the consumption curve\u201d\nJustify the statement, citing valid steps.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "For two hypothetical economies A and B, the value of Marginal Propensity to\nConsume (MPC) stands at 0.6 and 0.8 respectively. Assuming for both the\neconomies, Autonomous Consumption (c\u0305) to be \u20b9 40 crore and Investment\nExpenditure (I) to be \u20b9 100 crore.\nCalculate:\n(I)\nBreak-even level of income for Economy A\n(II)\nEquilibrium level of income for Economy B\n4\n2\n2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\n(B)\n\u201cSaving curve can be derived from the consumption curve\u201d\nJustify the statement, citing valid steps with the help of a well-labelled\ndiagram.\nFor Visually Impaired Candidates:\n\u201cSaving curve can be derived from the consumption curve\u201d\nJustify the statement, citing valid steps.\nOR\nFor two hypothetical economies A and B, the value of Marginal Propensity to\nConsume (MPC) stands at 0.6 and 0.8 respectively. Assuming for both the\neconomies, Autonomous Consumption (c\u0305) to be \u20b9 40 crore and Investment\nExpenditure (I) to be \u20b9 100 crore.\nCalculate:\n(I)\nBreak-even level of income for Economy A\n(II)\nEquilibrium level of income for Economy B\n4\n2\n2",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q14 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following text carefully:\n\u201cUnion Finance Minister stated, that investments in infrastructure and\nproductive capacity have a large multiplier impact on growth and employment\nand in view of this, capital investment outlay is being proposed to increase\nsteeply in the Budget 2023-24 by 1,000 cr",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following text carefully:\n\u201cUnion Finance Minister stated, that investments in infrastructure and\nproductive capacity have a large multiplier impact on growth and employment\nand in view of this, capital investment outlay is being proposed to increase\nsteeply in the Budget 2023-24 by 1,000 crore.\u201d\nBased on the given text and common understanding, explain the working\nprocess of the increase in investment on the National Income, assuming the\nMarginal Propensity to Save (MPS) as 20%.\n4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nRead the following text carefully:\n\u201cUnion Finance Minister stated, that investments in infrastructure and\nproductive capacity have a large multiplier impact on growth and employment\nand in view of this, capital investment outlay is being proposed to increase\nsteeply in the Budget 2023-24 by 1,000 crore.\u201d\nBased on the given text and common understanding, explain the working\nprocess of the increase in investment on the National Income, assuming the\nMarginal Propensity to Save (MPS) as 20%.\n4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following text carefully:\nAs societies developed from hunters and gatherers, the material needs of\nhuman beings increased \u2013 to build a house, wear clothes, make weapons and\nimplements etc. Since these needs could not be produced individually, people\nhad to purchase them from others. These p",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following text carefully:\nAs societies developed from hunters and gatherers, the material needs of\nhuman beings increased \u2013 to build a house, wear clothes, make weapons and\nimplements etc. Since these needs could not be produced individually, people\nhad to purchase them from others. These purchases, for example, were paid\ninitially by barter \u2013 a leather skin cloak for a spear. As barter had its limits \u2013\nhow many cloaks for a spear \u2013 barter got standardized in terms of metals or\ncowrie shells. Now people knew the value of both the cloak and the spear in\nterms of bronze or cowrie shells. This was still barter, as both bronze and\nshells had intrinsic value (shells were desired for their beauty). This system\nevolved over time into metal currencies. Gold and silver coinage were the\noffshoot of this system where they had features of barter (both gold and silver\nhad intrinsic value) as well as money (they were standardized representation\nof value).\nIn respect of money two facts emerge historically:\n\u2022 Money has taken the form of either commodities (which have intrinsic\nvalue) or in terms of debt instruments.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\n\u2022 Money is usually issued by a sovereign (or a Central Bank as its\nrepresentative).\nIn modern economies, currency is a form of money that is issued exclusively\nby some competent authority (Central Bank). It is a liability of the issuing\nCentral Bank and an asset of the holding public. Currency is usually issued in\npaper (or polymer) form, but the form of currency is not its defining\ncharacteristic.\nIn the recent past, the Reserve Bank of India, issued Central Bank Digital\nCurrency (CBDC). A CBDC is the currency issued by a central bank in a digital\nform. It serves all the purposes of a paper currency in a different form.\nThe introduction of CBDC has the potential to provide significant benefits,\nsuch as reduced dependency on cash, lower transaction costs, reduced\nsettlement risk. Introduction of CBDC would possibly lead to a more robust,\nefficient, trusted, regulated payments option. There are associated risks such\nas cyber-attacks and technology preparedness, but they need to be carefully\nevaluated against the potential benefits.\nSource: https://website.rbi.org.in/web/rbi/-/speeches-interview/central-bank-digital-currency-\nis-this-the-future-of-money-1111\n(adapted and modified)\nOn the basis of the given text and common understanding, answer the\nfollowing questions:\n(I) \u201cOver the centuries, money has evolved in various forms.\u201d\nIn the light of the given statement, state and discuss briefly any two forms of\nmoney.\n(II) \u201cVarious economists have formed a strong opinion that, in the modern\ntimes digital currency (like CBDC) is quite essential. However, it comes with\nits own benefits and potential risks.\u201d\nDo you agree with the given statement, giving valid arguments in support of\nyour answer.\n3\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nRead the following text carefully:\nAs societies developed from hunters and gatherers, the material needs of\nhuman beings increased \u2013 to build a house, wear clothes, make weapons and\nimplements etc. Since these needs could not be produced individually, people\nhad to purchase them from others. These purchases, for example, were paid\ninitially by barter \u2013 a leather skin cloak for a spear. As barter had its limits \u2013\nhow many cloaks for a spear \u2013 barter got standardized in terms of metals or\ncowrie shells. Now people knew the value of both the cloak and the spear in\nterms of bronze or cowrie shells. This was still barter, as both bronze and\nshells had intrinsic value (shells were desired for their beauty). This system\nevolved over time into metal currencies. Gold and silver coinage were the\noffshoot of this system where they had features of barter (both gold and silver\nhad intrinsic value) as well as money (they were standardized representation\nof value).\nIn respect of money two facts emerge historically:\n\u2022 Money has taken the form of either commodities (which have intrinsic\nvalue) or in terms of debt instruments.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\n\u2022 Money is usually issued by a sovereign (or a Central Bank as its\nrepresentative).\nIn modern economies, currency is a form of money that is issued exclusively\nby some competent authority (Central Bank). It is a liability of the issuing\nCentral Bank and an asset of the holding public. Currency is usually issued in\npaper (or polymer) form, but the form of currency is not its defining\ncharacteristic.\nIn the recent past, the Reserve Bank of India, issued Central Bank Digital\nCurrency (CBDC). A CBDC is the currency issued by a central bank in a digital\nform. It serves all the purposes of a paper currency in a different form.\nThe introduction of CBDC has the potential to provide significant benefits,\nsuch as reduced dependency on cash, lower transaction costs, reduced\nsettlement risk. Introduction of CBDC would possibly lead to a more robust,\nefficient, trusted, regulated payments option. There are associated risks such\nas cyber-attacks and technology preparedness, but they need to be carefully\nevaluated against the potential benefits.\nSource: https://website.rbi.org.in/web/rbi/-/speeches-interview/central-bank-digital-currency-\nis-this-the-future-of-money-1111\n(adapted and modified)\nOn the basis of the given text and common understanding, answer the\nfollowing questions:\n(I) \u201cOver the centuries, money has evolved in various forms.\u201d\nIn the light of the given statement, state and discuss briefly any two forms of\nmoney.\n(II) \u201cVarious economists have formed a strong opinion that, in the modern\ntimes digital currency (like CBDC) is quite essential. However, it comes with\nits own benefits and potential risks.\u201d\nDo you agree with the given statement, giving valid arguments in support of\nyour answer.\n3\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q17 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\n(I) On the basis of the following hypothetical data:\n(all figures in \u20b9 crore)\nYear\nNominal GDP\nNominal GDP\nadjusted to base year\nprices\n2020\n3,000\n4,000\n2023\n4,000\n4,500\nCalculate the percentage change in Real Gross Domestic Product in the\nyear 2023 using 2020 as the base year.\n(II) \u201cThe public ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\n(I) On the basis of the following hypothetical data:\n(all figures in \u20b9 crore)\nYear\nNominal GDP\nNominal GDP\nadjusted to base year\nprices\n2020\n3,000\n4,000\n2023\n4,000\n4,500\nCalculate the percentage change in Real Gross Domestic Product in the\nyear 2023 using 2020 as the base year.\n(II) \u201cThe public investment on the construction of a multi-lane flyover may\nreduce traffic congestion.\u201d\nOn the basis of the above statement, discuss its likely impact on Gross\nDomestic Product (GDP) and welfare in an economy.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(I) \u201cBasis of classification of final goods into consumption and capital goods\ndepend on the economic nature of its use.\u201d\nDefend or refute the statement, with the help of a suitable example.\n(II) \u2018Natural calamities in the hill states of India have led to massive destruction\nof capital assets.\u2019\nIdentify the type of loss (depreciation or capital loss) indicated in the aforesaid\nstatement. Give valid reasons in support of your answer.\n3\n3\n4\n2\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\n(B)\n(I) On the basis of the following hypothetical data:\n(all figures in \u20b9 crore)\nYear\nNominal GDP\nNominal GDP\nadjusted to base year\nprices\n2020\n3,000\n4,000\n2023\n4,000\n4,500\nCalculate the percentage change in Real Gross Domestic Product in the\nyear 2023 using 2020 as the base year.\n(II) \u201cThe public investment on the construction of a multi-lane flyover may\nreduce traffic congestion.\u201d\nOn the basis of the above statement, discuss its likely impact on Gross\nDomestic Product (GDP) and welfare in an economy.\nOR\n(I) \u201cBasis of classification of final goods into consumption and capital goods\ndepend on the economic nature of its use.\u201d\nDefend or refute the statement, with the help of a suitable example.\n(II) \u2018Natural calamities in the hill states of India have led to massive destruction\nof capital assets.\u2019\nIdentify the type of loss (depreciation or capital loss) indicated in the aforesaid\nstatement. Give valid reasons in support of your answer.\n3\n3\n4\n2\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q17 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the given image carefully:\nChoose the correct option which indicates the combination of vital functions\nperformed by the environment.\ni.\nSustains life\nii.\nProvides aesthetic services\niii.\nGenerates waste\niv.\nProvides only renewable resources\nOptions:\nA. (i) and (ii)\nB. (ii) and (iii)\nC. (i) and",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the given image carefully:\nChoose the correct option which indicates the combination of vital functions\nperformed by the environment.\ni.\nSustains life\nii.\nProvides aesthetic services\niii.\nGenerates waste\niv.\nProvides only renewable resources\nOptions:\nA. (i) and (ii)\nB. (ii) and (iii)\nC. (i) and (iv)\nD. (i) and (iii)\nFor Visually Impaired Candidates:\nIdentify, which of the following is not a correct function of environment?\n(i) Elimination of waste\n(ii) Sustainance of life\n(iii) Provide aesthetic services\nAlternatives:\nA. (i) only                                              B. (ii) only\nC. (ii) & (iii)                                            D. (i) & (ii)\n1\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nRead the given image carefully:\nChoose the correct option which indicates the combination of vital functions\nperformed by the environment.\ni.\nSustains life\nii.\nProvides aesthetic services\niii.\nGenerates waste\niv.\nProvides only renewable resources\nOptions:\nA. (i) and (ii)\nB. (ii) and (iii)\nC. (i) and (iv)\nD. (i) and (iii)\nFor Visually Impaired Candidates:\nIdentify, which of the following is not a correct function of environment?\n(i) Elimination of waste\n(ii) Sustainance of life\n(iii) Provide aesthetic services\nAlternatives:\nA. (i) only                                              B. (ii) only\nC. (ii) & (iii)                                            D. (i) & (ii)\n1\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements carefully:\nStatement 1: The British policies led to the collapse of India\u2019s world-famous\nhandicraft industries.\nStatement 2: During the colonial rule in India, the contribution of the industrial\nsector to Gross Value Added (GVA) increased significantly.\nIn light of the ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements carefully:\nStatement 1: The British policies led to the collapse of India\u2019s world-famous\nhandicraft industries.\nStatement 2: During the colonial rule in India, the contribution of the industrial\nsector to Gross Value Added (GVA) increased significantly.\nIn light of the given statements, choose the correct option from the following:\nA. Statement 1 is true and Statement 2 is false.\nB. Statement 1 is false and Statement 2 is true.\nC. Both Statements 1 and 2 are true.\nD. Both Statements 1 and 2 are false.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statement 1 is true and Statement 2 is false."
+                },
+                {
+                  "label": "b",
+                  "text": "Statement 1 is false and Statement 2 is true."
+                },
+                {
+                  "label": "c",
+                  "text": "Both Statements 1 and 2 are true."
+                },
+                {
+                  "label": "d",
+                  "text": "Both Statements 1 and 2 are false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nRead the following statements carefully:\nStatement 1: The British policies led to the collapse of India\u2019s world-famous\nhandicraft industries.\nStatement 2: During the colonial rule in India, the contribution of the industrial\nsector to Gross Value Added (GVA) increased significantly.\nIn light of the given statements, choose the correct option from the following:\nA. Statement 1 is true and Statement 2 is false.\nB. Statement 1 is false and Statement 2 is true.\nC. Both Statements 1 and 2 are true.\nD. Both Statements 1 and 2 are false.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect option from those given below:\nAssertion (A): The Education Commission (1964\u201366) had recommended\nthat at least 4 % of Gross Domestic Product (GDP) be spent on education.\nReason (R): The Union and State Governments, have ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect option from those given below:\nAssertion (A): The Education Commission (1964\u201366) had recommended\nthat at least 4 % of Gross Domestic Product (GDP) be spent on education.\nReason (R): The Union and State Governments, have been stepping up\nexpenditures in the education sector over the years to fulfil the objective of\nattaining cent per cent literacy.\nOptions:\n1\nFUNCTIONS OF\nENVIRONMENT\nProvides\nResources\n?\n?\nAssimiliates\nWaste\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\nA. Both Assertion (A) and Reason (R) are true and Reason (R) is the\ncorrect explanation of Assertion (A).\nB. Both Assertion (A) and Reason (R) are true, but Reason (R) is not the\ncorrect explanation of Assertion (A).\nC. Assertion (A) is true, but Reason (R) is false.\nD. Assertion (A) is false, but Reason (R) is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": The Education Commission"
+                },
+                {
+                  "label": "a",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is true, but Reason"
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is false, but Reason"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nRead the following statements: Assertion (A) and Reason (R). Choose the\ncorrect option from those given below:\nAssertion (A): The Education Commission (1964\u201366) had recommended\nthat at least 4 % of Gross Domestic Product (GDP) be spent on education.\nReason (R): The Union and State Governments, have been stepping up\nexpenditures in the education sector over the years to fulfil the objective of\nattaining cent per cent literacy.\nOptions:\n1\nFUNCTIONS OF\nENVIRONMENT\nProvides\nResources\n?\n?\nAssimiliates\nWaste\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\nA. Both Assertion (A) and Reason (R) are true and Reason (R) is the\ncorrect explanation of Assertion (A).\nB. Both Assertion (A) and Reason (R) are true, but Reason (R) is not the\ncorrect explanation of Assertion (A).\nC. Assertion (A) is true, but Reason (R) is false.\nD. Assertion (A) is false, but Reason (R) is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 12 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 12 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "In the post-independence era, the policymakers of India adopted an economic\nsystem that fundamentally implies the coexistence of ______ and ________.\n(Choose the correct option to fill up the blank)\nA. small and large-scale industries     B. small and medium-scale industries\nC. public and private se",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "In the post-independence era, the policymakers of India adopted an economic\nsystem that fundamentally implies the coexistence of ______ and ________.\n(Choose the correct option to fill up the blank)\nA. small and large-scale industries     B. small and medium-scale industries\nC. public and private sector\nD.  private and foreign sector\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "small and large-scale industries     B. small and medium-scale industries"
+                },
+                {
+                  "label": "c",
+                  "text": "public and private sector"
+                },
+                {
+                  "label": "d",
+                  "text": "private and foreign sector"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\nIn the post-independence era, the policymakers of India adopted an economic\nsystem that fundamentally implies the coexistence of ______ and ________.\n(Choose the correct option to fill up the blank)\nA. small and large-scale industries     B. small and medium-scale industries\nC. public and private sector\nD.  private and foreign sector\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The institutional structure of rural banking in contemporary India consists of a\nset of multi-agency institutions, namely, _________________.\n(Choose the correct option to fill up the blank)\n(i)\nRegional Rural Banks\n(ii) Cooperative Banks\n(iii)\nLand Development Banks\n(iv) Commercial Banks\nOptions:\nA",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The institutional structure of rural banking in contemporary India consists of a\nset of multi-agency institutions, namely, _________________.\n(Choose the correct option to fill up the blank)\n(i)\nRegional Rural Banks\n(ii) Cooperative Banks\n(iii)\nLand Development Banks\n(iv) Commercial Banks\nOptions:\nA. (i) and (iv)                                              B. (i), (iii) and (iv)\nC. (i), (ii) and (iii)                                        D. (i), (ii), (iii), and (iv)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\nThe institutional structure of rural banking in contemporary India consists of a\nset of multi-agency institutions, namely, _________________.\n(Choose the correct option to fill up the blank)\n(i)\nRegional Rural Banks\n(ii) Cooperative Banks\n(iii)\nLand Development Banks\n(iv) Commercial Banks\nOptions:\nA. (i) and (iv)                                              B. (i), (iii) and (iv)\nC. (i), (ii) and (iii)                                        D. (i), (ii), (iii), and (iv)\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify, which of the following statement is incorrect about the financial\nsector reform introduced in 1991?                         (Choose the correct option)\nA. Enabled the establishment of private sector banks, Indian as well as\nforeign\nB. Foreign investment limit in banks was raised to around ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify, which of the following statement is incorrect about the financial\nsector reform introduced in 1991?                         (Choose the correct option)\nA. Enabled the establishment of private sector banks, Indian as well as\nforeign\nB. Foreign investment limit in banks was raised to around 74%\nC. Foreign Institutional Investors were allowed to invest in Indian financial\nmarkets\nD. Change in the role of the Reserve Bank of India from facilitator to\nregulator\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Enabled the establishment of private sector banks, Indian as well as"
+                },
+                {
+                  "label": "b",
+                  "text": "Foreign investment limit in banks was raised to around 74%"
+                },
+                {
+                  "label": "c",
+                  "text": "Foreign Institutional Investors were allowed to invest in Indian financial"
+                },
+                {
+                  "label": "d",
+                  "text": "Change in the role of the Reserve Bank of India from facilitator to"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nIdentify, which of the following statement is incorrect about the financial\nsector reform introduced in 1991?                         (Choose the correct option)\nA. Enabled the establishment of private sector banks, Indian as well as\nforeign\nB. Foreign investment limit in banks was raised to around 74%\nC. Foreign Institutional Investors were allowed to invest in Indian financial\nmarkets\nD. Change in the role of the Reserve Bank of India from facilitator to\nregulator\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "China's demographic problem of 4-2-1, resulted in a higher proportion of\nelderly individuals compared to the younger population. This was primarily\ndue to the implementation of ______.\nA. Great Leap Forward Campaign\nB. Great Proletarian Cultural Revolution\nC. One Child Norm\nD. Special Economic Zones",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "China's demographic problem of 4-2-1, resulted in a higher proportion of\nelderly individuals compared to the younger population. This was primarily\ndue to the implementation of ______.\nA. Great Leap Forward Campaign\nB. Great Proletarian Cultural Revolution\nC. One Child Norm\nD. Special Economic Zones\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Great Leap Forward Campaign"
+                },
+                {
+                  "label": "b",
+                  "text": "Great Proletarian Cultural Revolution"
+                },
+                {
+                  "label": "c",
+                  "text": "One Child Norm"
+                },
+                {
+                  "label": "d",
+                  "text": "Special Economic Zones"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\nChina's demographic problem of 4-2-1, resulted in a higher proportion of\nelderly individuals compared to the younger population. This was primarily\ndue to the implementation of ______.\nA. Great Leap Forward Campaign\nB. Great Proletarian Cultural Revolution\nC. One Child Norm\nD. Special Economic Zones\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "______ was setup in 1974 by the Indian government to address two major\nenvironmental concerns viz. water and air pollution.\n(Choose the correct option to fill up the blank)\nA. State Pollution Control Board\nB.Central Pollution Control Board\nC. Brundtland Commission\nD. Montreal Protocol\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "______ was setup in 1974 by the Indian government to address two major\nenvironmental concerns viz. water and air pollution.\n(Choose the correct option to fill up the blank)\nA. State Pollution Control Board\nB.Central Pollution Control Board\nC. Brundtland Commission\nD. Montreal Protocol\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "State Pollution Control Board"
+                },
+                {
+                  "label": "b",
+                  "text": "Central Pollution Control Board"
+                },
+                {
+                  "label": "c",
+                  "text": "Brundtland Commission"
+                },
+                {
+                  "label": "d",
+                  "text": "Montreal Protocol"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\n______ was setup in 1974 by the Indian government to address two major\nenvironmental concerns viz. water and air pollution.\n(Choose the correct option to fill up the blank)\nA. State Pollution Control Board\nB.Central Pollution Control Board\nC. Brundtland Commission\nD. Montreal Protocol\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u201cAssuming in a hypothetical economy, Real Gross Domestic Product\nrecorded a growth rate of 9% during a fiscal year. However, the economy\nfaced a significant challenge in terms of creating an adequate number of\nemployment opportunities.\u201d\nIdentify the situation indicated in the given statement and cho",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u201cAssuming in a hypothetical economy, Real Gross Domestic Product\nrecorded a growth rate of 9% during a fiscal year. However, the economy\nfaced a significant challenge in terms of creating an adequate number of\nemployment opportunities.\u201d\nIdentify the situation indicated in the given statement and choose the correct\noption.\n1\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nA. Casualisation of workforce               B. Informalisation of workforce\nC. Formalisation of workforce                D. Jobless growth",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Casualisation of workforce               B. Informalisation of workforce"
+                },
+                {
+                  "label": "c",
+                  "text": "Formalisation of workforce                D. Jobless growth"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\n\u201cAssuming in a hypothetical economy, Real Gross Domestic Product\nrecorded a growth rate of 9% during a fiscal year. However, the economy\nfaced a significant challenge in terms of creating an adequate number of\nemployment opportunities.\u201d\nIdentify the situation indicated in the given statement and choose the correct\noption.\n1\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nA. Casualisation of workforce               B. Informalisation of workforce\nC. Formalisation of workforce                D. Jobless growth",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "During the period 1951-2016, __________ led to an increase in the milk\nproduction in India by about ten times.\n(Choose the correct option to fill up the blank)\nA. Green Revolution                               B. Golden Revolution\nC. Operation Flood\nD. Industrial Revolution\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "During the period 1951-2016, __________ led to an increase in the milk\nproduction in India by about ten times.\n(Choose the correct option to fill up the blank)\nA. Green Revolution                               B. Golden Revolution\nC. Operation Flood\nD. Industrial Revolution\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Green Revolution                               B. Golden Revolution"
+                },
+                {
+                  "label": "c",
+                  "text": "Operation Flood"
+                },
+                {
+                  "label": "d",
+                  "text": "Industrial Revolution"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nDuring the period 1951-2016, __________ led to an increase in the milk\nproduction in India by about ten times.\n(Choose the correct option to fill up the blank)\nA. Green Revolution                               B. Golden Revolution\nC. Operation Flood\nD. Industrial Revolution\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q28 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nCritically appraise the disinvestment policy initiated by the government during\nthe reforms of 1991.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nCritically appraise the disinvestment policy initiated by the government during\nthe reforms of 1991.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "\u2018Globalisation is an essential outcome of liberalisation of an economy\u2019.\nJustify the given statement with a valid explanation.\n3\n3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\n(B)\nCritically appraise the disinvestment policy initiated by the government during\nthe reforms of 1991.\nOR\n\u2018Globalisation is an essential outcome of liberalisation of an economy\u2019.\nJustify the given statement with a valid explanation.\n3\n3",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q28 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u2018To measure the extent of development in an economy, liberty indicators\nshould be considered along with other socio-economic parameters.\u2019\nDo you agree with the given statement? Give valid reasons in support of your\nanswer.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u2018To measure the extent of development in an economy, liberty indicators\nshould be considered along with other socio-economic parameters.\u2019\nDo you agree with the given statement? Give valid reasons in support of your\nanswer.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\n\u2018To measure the extent of development in an economy, liberty indicators\nshould be considered along with other socio-economic parameters.\u2019\nDo you agree with the given statement? Give valid reasons in support of your\nanswer.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u2018The reform process implemented in the late 1970s, commonly known as\nChina\u2019s open door policy, encompassed a wide range of reforms across\nsectors like agriculture, investment, industry etc. These reforms played a\npivotal role in driving the rapid growth of the Chinese economy over\nsubsequent decades",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u2018The reform process implemented in the late 1970s, commonly known as\nChina\u2019s open door policy, encompassed a wide range of reforms across\nsectors like agriculture, investment, industry etc. These reforms played a\npivotal role in driving the rapid growth of the Chinese economy over\nsubsequent decades.\u2019\nIn the light of the given text, discuss any two reforms responsible for the rapid\neconomic growth of China.\n4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\n\u2018The reform process implemented in the late 1970s, commonly known as\nChina\u2019s open door policy, encompassed a wide range of reforms across\nsectors like agriculture, investment, industry etc. These reforms played a\npivotal role in driving the rapid growth of the Chinese economy over\nsubsequent decades.\u2019\nIn the light of the given text, discuss any two reforms responsible for the rapid\neconomic growth of China.\n4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\n\u2018Under the Delhi Declaration, the G-20 nations pledged to reach global net\nzero emissions approximately by mid-century and to triple global renewable\nenergy capacity by 2030.\u2019\nDiscuss briefly the rationale behind the commitment by G-20 nations in the\ndirection of achieving sustainable developmen",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\n\u2018Under the Delhi Declaration, the G-20 nations pledged to reach global net\nzero emissions approximately by mid-century and to triple global renewable\nenergy capacity by 2030.\u2019\nDiscuss briefly the rationale behind the commitment by G-20 nations in the\ndirection of achieving sustainable development.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "\u2018It would be unclear to say that, the growth of human capital lays the ground\nfor economic growth of a nation.\u2019\nDo you agree with the given statement? Support your answer with valid\nillustrations.\n4\n4",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\n(B)\n\u2018Under the Delhi Declaration, the G-20 nations pledged to reach global net\nzero emissions approximately by mid-century and to triple global renewable\nenergy capacity by 2030.\u2019\nDiscuss briefly the rationale behind the commitment by G-20 nations in the\ndirection of achieving sustainable development.\nOR\n\u2018It would be unclear to say that, the growth of human capital lays the ground\nfor economic growth of a nation.\u2019\nDo you agree with the given statement? Support your answer with valid\nillustrations.\n4\n4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(I) Interpret the given picture based on the Saansad Adarsh Gram Yojana\n(SAGY) initiated by the Government of India.\n3\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\n(II) State any two examples of allied activities.\nFor Visually Impaired Candidates in lieu of 32 (I) :\nExplain briefly the Saansad Adars",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(I) Interpret the given picture based on the Saansad Adarsh Gram Yojana\n(SAGY) initiated by the Government of India.\n3\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\n(II) State any two examples of allied activities.\nFor Visually Impaired Candidates in lieu of 32 (I) :\nExplain briefly the Saansad Adarsh Gram Yojana (SAGY) initiated by the\nGovernment of India.\n1\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\n(I) Interpret the given picture based on the Saansad Adarsh Gram Yojana\n(SAGY) initiated by the Government of India.\n3\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\n(II) State any two examples of allied activities.\nFor Visually Impaired Candidates in lieu of 32 (I) :\nExplain briefly the Saansad Adarsh Gram Yojana (SAGY) initiated by the\nGovernment of India.\n1\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following text carefully:\nEmployment generation has remained one of the top challenges of Indian\npolicymakers, and over the years, this has only become more complex. India\nhas experienced more or less consistent growth in the structure of the output\nof the economy, especially after the econ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following text carefully:\nEmployment generation has remained one of the top challenges of Indian\npolicymakers, and over the years, this has only become more complex. India\nhas experienced more or less consistent growth in the structure of the output\nof the economy, especially after the economic reforms which is measured by\ngross value added. However, the trend in employment did not reveal a\nconsistent and clear pattern.\nThese complexities have led to a wide variation in the conclusions drawn by\nexperts and various studies on workforce and employment.\nTwo major sources of data on the workforce and employment have been the\n(i)\ndecennial population census and\n(ii)\nnationwide quinquennial surveys on employment and unemployment\nby the erstwhile NSSO under the Ministry of Statistics and Programme\nImplementation (MoSPI), Government of India.\nThe nationwide Employment and Unemployment (E&U) surveys have been\nreplaced by the Periodic Labour Force Survey (PLFS) conducted by the\nNational Statistical Office (NSO) of MoSPI, which started in the year 2017\u201318.\nAccording to NSO, the PLFS data measure the dynamics in labour force\nparticipation, workers to population ratio and the employment status along\nwith related, important parameters for both rural and urban areas.\nLabour force includes persons who were either working (or employed) or\nthose available for work (or unemployed). Some persons in the labour force\nare abstained from work for various reasons. Deducting that number from the\nlabour force gives the number of actual workers. These workers are further\ncategorised as persons who are engaged in any economic activity as self-\nemployed or regular wage/salaried and casual labour. The difference\nbetween the labour force and the workforce gives the number of unemployed\npersons.\nThe size of the labour force in the country has increased from 485.3 million in\nthe year 2017\u201318 to 497.4 million in the year 2018\u201319. The next year, the\nlabour force increased by 8 per cent and reached 537.9 million. This increase\nwas witnessed across male and female populations as well as rural and urban\nhouseholds.\nSource:https://www.niti.gov.in/sites/default/files/2022-04/Discussion_Paper _on_Workforce_05042022.pdf\n(adapted and modified)\nOn the basis of the given text and common understanding, answer the\nfollowing questions:\n(I) State any two major sources of data on the workforce and employment.\n(II) \u2018The labour force encompasses a broader category than the workforce.\u2019\nDefend or refute the statement, giving valid reasons in support of your answer.\n(III) \u2018Workers can be categorized into different types depending on their\nstatus.\u2019\nIn the light of the given statement, state any one type of employment.\n2\n3\n1\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\nRead the following text carefully:\nEmployment generation has remained one of the top challenges of Indian\npolicymakers, and over the years, this has only become more complex. India\nhas experienced more or less consistent growth in the structure of the output\nof the economy, especially after the economic reforms which is measured by\ngross value added. However, the trend in employment did not reveal a\nconsistent and clear pattern.\nThese complexities have led to a wide variation in the conclusions drawn by\nexperts and various studies on workforce and employment.\nTwo major sources of data on the workforce and employment have been the\n(i)\ndecennial population census and\n(ii)\nnationwide quinquennial surveys on employment and unemployment\nby the erstwhile NSSO under the Ministry of Statistics and Programme\nImplementation (MoSPI), Government of India.\nThe nationwide Employment and Unemployment (E&U) surveys have been\nreplaced by the Periodic Labour Force Survey (PLFS) conducted by the\nNational Statistical Office (NSO) of MoSPI, which started in the year 2017\u201318.\nAccording to NSO, the PLFS data measure the dynamics in labour force\nparticipation, workers to population ratio and the employment status along\nwith related, important parameters for both rural and urban areas.\nLabour force includes persons who were either working (or employed) or\nthose available for work (or unemployed). Some persons in the labour force\nare abstained from work for various reasons. Deducting that number from the\nlabour force gives the number of actual workers. These workers are further\ncategorised as persons who are engaged in any economic activity as self-\nemployed or regular wage/salaried and casual labour. The difference\nbetween the labour force and the workforce gives the number of unemployed\npersons.\nThe size of the labour force in the country has increased from 485.3 million in\nthe year 2017\u201318 to 497.4 million in the year 2018\u201319. The next year, the\nlabour force increased by 8 per cent and reached 537.9 million. This increase\nwas witnessed across male and female populations as well as rural and urban\nhouseholds.\nSource:https://www.niti.gov.in/sites/default/files/2022-04/Discussion_Paper _on_Workforce_05042022.pdf\n(adapted and modified)\nOn the basis of the given text and common understanding, answer the\nfollowing questions:\n(I) State any two major sources of data on the workforce and employment.\n(II) \u2018The labour force encompasses a broader category than the workforce.\u2019\nDefend or refute the statement, giving valid reasons in support of your answer.\n(III) \u2018Workers can be categorized into different types depending on their\nstatus.\u2019\nIn the light of the given statement, state any one type of employment.\n2\n3\n1\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q34 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\n(I) \u2018Under the Industrial Policy Resolution (IPR) 1956 in India, the system of\nindustrial licensing was introduced to promote regional equality.\u2019\nJustify the given statement with valid arguments.\n(II) Discuss briefly the estimates made by notable scholars regarding the\nnational income and per ca",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\n(I) \u2018Under the Industrial Policy Resolution (IPR) 1956 in India, the system of\nindustrial licensing was introduced to promote regional equality.\u2019\nJustify the given statement with valid arguments.\n(II) Discuss briefly the estimates made by notable scholars regarding the\nnational income and per capita income during the colonial rule in India.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(I) \u2018During the colonial period, India\u2019s foreign trade was characterized by a\nlarge export surplus, however, this did not result in any flow of gold or silver\ninto India.\u2019\nJustify the given statement with valid arguments.\n(II) Explain the rationale behind choosing 'Self-reliance' as a central planning\nobjective in India's development strategy.\n4\n2\n3\n3\n<!-- PAGE 10 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\n(B)\n(I) \u2018Under the Industrial Policy Resolution (IPR) 1956 in India, the system of\nindustrial licensing was introduced to promote regional equality.\u2019\nJustify the given statement with valid arguments.\n(II) Discuss briefly the estimates made by notable scholars regarding the\nnational income and per capita income during the colonial rule in India.\nOR\n(I) \u2018During the colonial period, India\u2019s foreign trade was characterized by a\nlarge export surplus, however, this did not result in any flow of gold or silver\ninto India.\u2019\nJustify the given statement with valid arguments.\n(II) Explain the rationale behind choosing 'Self-reliance' as a central planning\nobjective in India's development strategy.\n4\n2\n3\n3\n<!-- PAGE 10 END -->",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q34 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

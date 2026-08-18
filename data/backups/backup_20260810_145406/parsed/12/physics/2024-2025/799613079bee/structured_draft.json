@@ -1,0 +1,2281 @@
+{
+  "exam_metadata": {
+    "subject": "physics",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_physics_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A uniform electric field pointing in positive X-direction exists in a region. Let A be the origin, B be the\npoint on the X-axis at x = +1 cm and C be the point on the Y-axis at y = +1 cm. Then the potential at\npoints A, B and C satisfy.\n(A) VA < VB\n(B) VA > VB.                    (C) VA < VC\n(D) V",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A uniform electric field pointing in positive X-direction exists in a region. Let A be the origin, B be the\npoint on the X-axis at x = +1 cm and C be the point on the Y-axis at y = +1 cm. Then the potential at\npoints A, B and C satisfy.\n(A) VA < VB\n(B) VA > VB.                    (C) VA < VC\n(D) VA > VC",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "VA < VB"
+                },
+                {
+                  "label": "b",
+                  "text": "VA > VB."
+                },
+                {
+                  "label": "c",
+                  "text": "VA < VC"
+                },
+                {
+                  "label": "d",
+                  "text": "VA > VC"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q1\n. A uniform electric field pointing in positive X-direction exists in a region. Let A be the origin, B be the\npoint on the X-axis at x = +1 cm and C be the point on the Y-axis at y = +1 cm. Then the potential at\npoints A, B and C satisfy.\n(A) VA < VB\n(B) VA > VB.                    (C) VA < VC\n(D) VA > VC",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A conducting wire connects two charged conducting spheres of radii r1 and r2 such that they attain\nequilibrium with respect to each other. The distance of separation between the two spheres is very large\nas compared to either of their radii.\nThe ratio of the magnitudes of the electric fields at th",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A conducting wire connects two charged conducting spheres of radii r1 and r2 such that they attain\nequilibrium with respect to each other. The distance of separation between the two spheres is very large\nas compared to either of their radii.\nThe ratio of the magnitudes of the electric fields at the surfaces of the spheres of radii r1 and r2 is\n(A)\n\ud835\udc5f1\n\ud835\udc5f2                        (B)\n\ud835\udc5f2\n\ud835\udc5f1                           (C)\n\ud835\udc5f22\n\ud835\udc5f12                             (D)\n\ud835\udc5f12\n\ud835\udc5f22",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\ud835\udc5f1"
+                },
+                {
+                  "label": "b",
+                  "text": "\ud835\udc5f2"
+                },
+                {
+                  "label": "c",
+                  "text": "\ud835\udc5f22"
+                },
+                {
+                  "label": "d",
+                  "text": "\ud835\udc5f12"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q2\n. A conducting wire connects two charged conducting spheres of radii r1 and r2 such that they attain\nequilibrium with respect to each other. The distance of separation between the two spheres is very large\nas compared to either of their radii.\nThe ratio of the magnitudes of the electric fields at the surfaces of the spheres of radii r1 and r2 is\n(A)\n\ud835\udc5f1\n\ud835\udc5f2                        (B)\n\ud835\udc5f2\n\ud835\udc5f1                           (C)\n\ud835\udc5f22\n\ud835\udc5f12                             (D)\n\ud835\udc5f12\n\ud835\udc5f22",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A long straight wire of circular cross section of radius \u0485a\u1fbf carries a steady current I. The current is\nuniformly distributed across its cross section. The ratio of magnitudes of the magnetic field at a point\na/2 above the surface of wire to that of a point a/2 below its surface is\n(A)    4:1     ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A long straight wire of circular cross section of radius \u0485a\u1fbf carries a steady current I. The current is\nuniformly distributed across its cross section. The ratio of magnitudes of the magnetic field at a point\na/2 above the surface of wire to that of a point a/2 below its surface is\n(A)    4:1                   (B)   1:1                     (C)  4: 3                          (D)  3 :4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "4:1"
+                },
+                {
+                  "label": "b",
+                  "text": "1:1"
+                },
+                {
+                  "label": "c",
+                  "text": "4: 3"
+                },
+                {
+                  "label": "d",
+                  "text": "3 :4"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q3\n. A long straight wire of circular cross section of radius \u0485a\u1fbf carries a steady current I. The current is\nuniformly distributed across its cross section. The ratio of magnitudes of the magnetic field at a point\na/2 above the surface of wire to that of a point a/2 below its surface is\n(A)    4:1                   (B)   1:1                     (C)  4: 3                          (D)  3 :4",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The diffraction effect can be observed in\n(A)  sound waves only\n(B)  light waves only\n(C)  ultrasonic waves only\n(D) sound waves as well as light waves",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The diffraction effect can be observed in\n(A)  sound waves only\n(B)  light waves only\n(C)  ultrasonic waves only\n(D) sound waves as well as light waves",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "sound waves only"
+                },
+                {
+                  "label": "b",
+                  "text": "light waves only"
+                },
+                {
+                  "label": "c",
+                  "text": "ultrasonic waves only"
+                },
+                {
+                  "label": "d",
+                  "text": "sound waves as well as light waves"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q4\n. The diffraction effect can be observed in\n(A)  sound waves only\n(B)  light waves only\n(C)  ultrasonic waves only\n(D) sound waves as well as light waves",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A capacitor consists of two parallel plates, with an area of cross-section of 0.001 m2, separated by a\ndistance of 0.0001 m. If the voltage across the plates varies at the rate of 108 V/s, then the value of\ndisplacement current through the capacitor is\n(A) 8.85 \u00d7 10\u22123\ud835\udc34     (B) 8.85 \u00d7 10\u22124\ud835\udc34       (",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A capacitor consists of two parallel plates, with an area of cross-section of 0.001 m2, separated by a\ndistance of 0.0001 m. If the voltage across the plates varies at the rate of 108 V/s, then the value of\ndisplacement current through the capacitor is\n(A) 8.85 \u00d7 10\u22123\ud835\udc34     (B) 8.85 \u00d7 10\u22124\ud835\udc34       (C) 7.85 \u00d7 10\u22123\ud835\udc34             (D) 9.85 \u00d7 10\u22123\ud835\udc34",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "8.85 \u00d7 10\u22123\ud835\udc34"
+                },
+                {
+                  "label": "b",
+                  "text": "8.85 \u00d7 10\u22124\ud835\udc34"
+                },
+                {
+                  "label": "c",
+                  "text": "7.85 \u00d7 10\u22123\ud835\udc34"
+                },
+                {
+                  "label": "d",
+                  "text": "9.85 \u00d7 10\u22123\ud835\udc34"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q5\n. A capacitor consists of two parallel plates, with an area of cross-section of 0.001 m2, separated by a\ndistance of 0.0001 m. If the voltage across the plates varies at the rate of 108 V/s, then the value of\ndisplacement current through the capacitor is\n(A) 8.85 \u00d7 10\u22123\ud835\udc34     (B) 8.85 \u00d7 10\u22124\ud835\udc34       (C) 7.85 \u00d7 10\u22123\ud835\udc34             (D) 9.85 \u00d7 10\u22123\ud835\udc34",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". In a series LCR circuit, the voltage across the resistance, capacitance and inductance is 10 V each. If\nthe capacitance is short circuited the voltage across the inductance will be\n(A) 10 V                  (B) 10\u221a2  V               (C) 10/\u221a2  V\n(D) 20 V\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". In a series LCR circuit, the voltage across the resistance, capacitance and inductance is 10 V each. If\nthe capacitance is short circuited the voltage across the inductance will be\n(A) 10 V                  (B) 10\u221a2  V               (C) 10/\u221a2  V\n(D) 20 V\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "10 V"
+                },
+                {
+                  "label": "b",
+                  "text": "10\u221a2  V"
+                },
+                {
+                  "label": "c",
+                  "text": "10/\u221a2  V"
+                },
+                {
+                  "label": "d",
+                  "text": "20 V"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q6\n. In a series LCR circuit, the voltage across the resistance, capacitance and inductance is 10 V each. If\nthe capacitance is short circuited the voltage across the inductance will be\n(A) 10 V                  (B) 10\u221a2  V               (C) 10/\u221a2  V\n(D) 20 V\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "match_the_following",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Correct match of column I with column II is\nC-l (waves)\nC-ll (Production)\n(1) Infra-red\nP . Rapid vibration of electrons in aerials\n(2) Radio\nQ . Electrons in atoms emit light when they move from higher to\nlower energy level.\n(3) Light\nR . Klystron valve\n(4) Microwave\nS . Vibration of atoms and mo",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Correct match of column I with column II is\nC-l (waves)\nC-ll (Production)\n(1) Infra-red\nP . Rapid vibration of electrons in aerials\n(2) Radio\nQ . Electrons in atoms emit light when they move from higher to\nlower energy level.\n(3) Light\nR . Klystron valve\n(4) Microwave\nS . Vibration of atoms and molecules\n(A) 1-P, 2-R, 3-S, 4-Q\n(B) 1-S, 2-P, 3-O, 4-R\n(C) 1-Q, 2-P, 3-S, 4-R                                  (D) 1-S. 2-R, 3-P, 4-Q",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1-P, 2-R, 3-S, 4-Q"
+                },
+                {
+                  "label": "b",
+                  "text": "1-S, 2-P, 3-O, 4-R"
+                },
+                {
+                  "label": "c",
+                  "text": "1-Q, 2-P, 3-S, 4-R"
+                },
+                {
+                  "label": "d",
+                  "text": "1-S. 2-R, 3-P, 4-Q"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "match_the_following",
+                "requires_image": false,
+                "requires_table_data": true,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q7\n. Correct match of column I with column II is\nC-l (waves)\nC-ll (Production)\n(1) Infra-red\nP . Rapid vibration of electrons in aerials\n(2) Radio\nQ . Electrons in atoms emit light when they move from higher to\nlower energy level.\n(3) Light\nR . Klystron valve\n(4) Microwave\nS . Vibration of atoms and molecules\n(A) 1-P, 2-R, 3-S, 4-Q\n(B) 1-S, 2-P, 3-O, 4-R\n(C) 1-Q, 2-P, 3-S, 4-R                                  (D) 1-S. 2-R, 3-P, 4-Q",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q7 has suspiciously short stem text ('5\n190\nX')",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The distance of closest approach of an alpha particle is d when it moves with a speed V towards a\nnucleus.\nAnother alpha particle is projected with higher energy such that the new distance of the closest\napproach is d/2. What is the speed of projection of the alpha particle in this case?\n(A) V /2 ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The distance of closest approach of an alpha particle is d when it moves with a speed V towards a\nnucleus.\nAnother alpha particle is projected with higher energy such that the new distance of the closest\napproach is d/2. What is the speed of projection of the alpha particle in this case?\n(A) V /2                      (B) \u221a2 V                      (C) 2 V                          (D) 4 V",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "V /2"
+                },
+                {
+                  "label": "b",
+                  "text": "\u221a2 V"
+                },
+                {
+                  "label": "c",
+                  "text": "2 V"
+                },
+                {
+                  "label": "d",
+                  "text": "4 V"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q8\n. The distance of closest approach of an alpha particle is d when it moves with a speed V towards a\nnucleus.\nAnother alpha particle is projected with higher energy such that the new distance of the closest\napproach is d/2. What is the speed of projection of the alpha particle in this case?\n(A) V /2                      (B) \u221a2 V                      (C) 2 V                          (D) 4 V",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q8 has suspiciously short stem text ('0\n90\nY'); Question Q8 has suspiciously short stem text ('5\n60\nZ')",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A point object is placed at the centre of a glass sphere of radius 6 cm and refractive index 1.5. The\ndistance of virtual image from the surface of the sphere is\n(A) 2 cm                     (B) 4 cm                      (C) 6 cm                        (D) 12 cm",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A point object is placed at the centre of a glass sphere of radius 6 cm and refractive index 1.5. The\ndistance of virtual image from the surface of the sphere is\n(A) 2 cm                     (B) 4 cm                      (C) 6 cm                        (D) 12 cm",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "2 cm"
+                },
+                {
+                  "label": "b",
+                  "text": "4 cm"
+                },
+                {
+                  "label": "c",
+                  "text": "6 cm"
+                },
+                {
+                  "label": "d",
+                  "text": "12 cm"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q9\n. A point object is placed at the centre of a glass sphere of radius 6 cm and refractive index 1.5. The\ndistance of virtual image from the surface of the sphere is\n(A) 2 cm                     (B) 4 cm                      (C) 6 cm                        (D) 12 cm",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Colours observed on a CD (Compact Disk) is due to\n(A) Reflection         (B) Diffraction\n(C) Dispersion              (D) Absorption",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Colours observed on a CD (Compact Disk) is due to\n(A) Reflection         (B) Diffraction\n(C) Dispersion              (D) Absorption",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Reflection"
+                },
+                {
+                  "label": "b",
+                  "text": "Diffraction"
+                },
+                {
+                  "label": "c",
+                  "text": "Dispersion"
+                },
+                {
+                  "label": "d",
+                  "text": "Absorption"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q10\n. Colours observed on a CD (Compact Disk) is due to\n(A) Reflection         (B) Diffraction\n(C) Dispersion              (D) Absorption",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The number of electrons made available for conduction by dopant atoms depends strongly upon\n(A) doping level                                                    (B) increase in ambient temperature\n(C) energy gap                                                    (D) options (A) and (B) both",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The number of electrons made available for conduction by dopant atoms depends strongly upon\n(A) doping level                                                    (B) increase in ambient temperature\n(C) energy gap                                                    (D) options (A) and (B) both",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "doping level"
+                },
+                {
+                  "label": "b",
+                  "text": "increase in ambient temperature"
+                },
+                {
+                  "label": "c",
+                  "text": "energy gap"
+                },
+                {
+                  "label": "d",
+                  "text": "options"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "b",
+                  "text": "both"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q11\n. The number of electrons made available for conduction by dopant atoms depends strongly upon\n(A) doping level                                                    (B) increase in ambient temperature\n(C) energy gap                                                    (D) options (A) and (B) both",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If copper wire is stretched to make its radius decrease by 0.1%, then the percentage change in its\nresistance is approximately\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n(A) \u20130.4%               (B) +0.8%                    (C) +0.4%\n(D) +0.2%\nFor Questions 13 to 16, two statements are given \u2013one l",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If copper wire is stretched to make its radius decrease by 0.1%, then the percentage change in its\nresistance is approximately\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n(A) \u20130.4%               (B) +0.8%                    (C) +0.4%\n(D) +0.2%\nFor Questions 13 to 16, two statements are given \u2013one labelled Assertion (A) and other labelled\nReason (R). Select the correct answer to these questions from the options as given below.\nA.  If both Assertion and Reason are true and Reason is the correct explanation of Assertion.\nB.  If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.\nC. If Assertion is true but Reason is false.\nD. If both Assertion and Reason are false.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u20130.4%"
+                },
+                {
+                  "label": "b",
+                  "text": "+0.8%"
+                },
+                {
+                  "label": "c",
+                  "text": "+0.4%"
+                },
+                {
+                  "label": "d",
+                  "text": "+0.2%"
+                },
+                {
+                  "label": "a",
+                  "text": "and other labelled"
+                },
+                {
+                  "label": "a",
+                  "text": "If both Assertion and Reason are true and Reason is the correct explanation of Assertion."
+                },
+                {
+                  "label": "b",
+                  "text": "If both Assertion and Reason are true but Reason is not the correct explanation of Assertion."
+                },
+                {
+                  "label": "c",
+                  "text": "If Assertion is true but Reason is false."
+                },
+                {
+                  "label": "d",
+                  "text": "If both Assertion and Reason are false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q12\n. If copper wire is stretched to make its radius decrease by 0.1%, then the percentage change in its\nresistance is approximately\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n(A) \u20130.4%               (B) +0.8%                    (C) +0.4%\n(D) +0.2%\nFor Questions 13 to 16, two statements are given \u2013one labelled Assertion (A) and other labelled\nReason (R). Select the correct answer to these questions from the options as given below.\nA.  If both Assertion and Reason are true and Reason is the correct explanation of Assertion.\nB.  If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.\nC. If Assertion is true but Reason is false.\nD. If both Assertion and Reason are false.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 9 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 9 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  Assertion (A): On increasing the current sensitivity of a galvanometer by increasing the number of\nturns may not necessarily increase its voltage sensitivity.\nReason(R) : The resistance of the coil of the galvanometer increases on increasing the number of\nturns.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  Assertion (A): On increasing the current sensitivity of a galvanometer by increasing the number of\nturns may not necessarily increase its voltage sensitivity.\nReason(R) : The resistance of the coil of the galvanometer increases on increasing the number of\nturns.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q13\n.  Assertion (A): On increasing the current sensitivity of a galvanometer by increasing the number of\nturns may not necessarily increase its voltage sensitivity.\nReason(R) : The resistance of the coil of the galvanometer increases on increasing the number of\nturns.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".   Assertion (A): In a hydrogen atom there is only one electron but its emission spectrum shows many\nlines.\nReason (R): In a given sample of hydrogen there are many atoms each containing one electron;\nhence many electrons in different atoms may be in different orbits so many transitions from higher",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".   Assertion (A): In a hydrogen atom there is only one electron but its emission spectrum shows many\nlines.\nReason (R): In a given sample of hydrogen there are many atoms each containing one electron;\nhence many electrons in different atoms may be in different orbits so many transitions from higher\nto lower orbits are possible.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q14\n.   Assertion (A): In a hydrogen atom there is only one electron but its emission spectrum shows many\nlines.\nReason (R): In a given sample of hydrogen there are many atoms each containing one electron;\nhence many electrons in different atoms may be in different orbits so many transitions from higher\nto lower orbits are possible.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  Assertion (A): Nuclei having mass number about 60 are least stable..\nReason (R): When two or more light nuclei are combined into a heavier nucleus then the binding\nenergy per nucleon will decrease.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  Assertion (A): Nuclei having mass number about 60 are least stable..\nReason (R): When two or more light nuclei are combined into a heavier nucleus then the binding\nenergy per nucleon will decrease.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q15\n.  Assertion (A): Nuclei having mass number about 60 are least stable..\nReason (R): When two or more light nuclei are combined into a heavier nucleus then the binding\nenergy per nucleon will decrease.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  Assertion (A): de Broglie's wavelength of a freely falling body keeps decreasing with time.\nReason (R): The momentum of the freely falling body increases with time.\n[SECTION \u2013 B]                                (05x2=10 marks)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  Assertion (A): de Broglie's wavelength of a freely falling body keeps decreasing with time.\nReason (R): The momentum of the freely falling body increases with time.\n[SECTION \u2013 B]                                (05x2=10 marks)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q16\n.  Assertion (A): de Broglie's wavelength of a freely falling body keeps decreasing with time.\nReason (R): The momentum of the freely falling body increases with time.\n[SECTION \u2013 B]                                (05x2=10 marks)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A platinum surface having work function 5.63 eV is illuminated by a monochromatic source of 1.6\nx 10 15 Hz. What will be the minimum wavelength associated with the ejected electron.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A platinum surface having work function 5.63 eV is illuminated by a monochromatic source of 1.6\nx 10 15 Hz. What will be the minimum wavelength associated with the ejected electron.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q17\n. A platinum surface having work function 5.63 eV is illuminated by a monochromatic source of 1.6\nx 10 15 Hz. What will be the minimum wavelength associated with the ejected electron.\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". (I)  A beam of light consisting of two wavelengths, 4000 \u00c5 and 6000 \u00c5, is used to obtain\ninterference fringes in a Young\u2019s double-slit experiment. What is the least distance from the\ncentral maximum where the dark fringe is obtained?",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (I)  A beam of light consisting of two wavelengths, 4000 \u00c5 and 6000 \u00c5, is used to obtain\ninterference fringes in a Young\u2019s double-slit experiment. What is the least distance from the\ncentral maximum where the dark fringe is obtained?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(II) In Young\u2019s double-slit experiment using monochromatic light of wavelength \u03bb, the intensities\nof two sources are I. What is the intensity of light at a point where path difference between\nwavefronts is \u03bb/4?",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q18\n. (I)  A beam of light consisting of two wavelengths, 4000 \u00c5 and 6000 \u00c5, is used to obtain\ninterference fringes in a Young\u2019s double-slit experiment. What is the least distance from the\ncentral maximum where the dark fringe is obtained?\nOR\n(II) In Young\u2019s double-slit experiment using monochromatic light of wavelength \u03bb, the intensities\nof two sources are I. What is the intensity of light at a point where path difference between\nwavefronts is \u03bb/4?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". P and Q are two identical charged particles each of mass 4 \u00d7 10\u201326 kg and charge 4.8 \u00d7 10\u201319 C,\neach moving with the same speed of 2.4 \u00d7 105 m/s as shown in the figure. The two particles are\nequidistant (0.5 m) from the vertical Y -axis. At some instant, a magnetic field B is switched on so\nthat t",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". P and Q are two identical charged particles each of mass 4 \u00d7 10\u201326 kg and charge 4.8 \u00d7 10\u201319 C,\neach moving with the same speed of 2.4 \u00d7 105 m/s as shown in the figure. The two particles are\nequidistant (0.5 m) from the vertical Y -axis. At some instant, a magnetic field B is switched on so\nthat the two particles undergo head-on collision.\nFind \u2013\n(I) the direction of the magnetic field and\n(II) the magnitude of the magnetic field applied in the region.\n(for VI candidates)\nA proton is moving with speed of 2 x 105 m s\u20131 enters a uniform magnetic field B = 1.5 T. At the\nentry velocity vector makes an angle of 30\u00b0 to the direction of the magnetic field. Calculate\n(a) the pitch of helical path described by the charge\n(b) Kinetic energy after completing half of the circle.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "the pitch of helical path described by the charge"
+                },
+                {
+                  "label": "b",
+                  "text": "Kinetic energy after completing half of the circle."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q19\n. P and Q are two identical charged particles each of mass 4 \u00d7 10\u201326 kg and charge 4.8 \u00d7 10\u201319 C,\neach moving with the same speed of 2.4 \u00d7 105 m/s as shown in the figure. The two particles are\nequidistant (0.5 m) from the vertical Y -axis. At some instant, a magnetic field B is switched on so\nthat the two particles undergo head-on collision.\nFind \u2013\n(I) the direction of the magnetic field and\n(II) the magnitude of the magnetic field applied in the region.\n(for VI candidates)\nA proton is moving with speed of 2 x 105 m s\u20131 enters a uniform magnetic field B = 1.5 T. At the\nentry velocity vector makes an angle of 30\u00b0 to the direction of the magnetic field. Calculate\n(a) the pitch of helical path described by the charge\n(b) Kinetic energy after completing half of the circle.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Binding energy per nucleon vs mass number curve for nuclei is shown in the figure. W, X, Y and Z\nare four nuclei indicated on the curve. Identify which of the following nuclei is most likely to undergo\n(i) Nuclear Fission\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n(ii) Nuclear Fusion.\nJustify your",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Binding energy per nucleon vs mass number curve for nuclei is shown in the figure. W, X, Y and Z\nare four nuclei indicated on the curve. Identify which of the following nuclei is most likely to undergo\n(i) Nuclear Fission\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n(ii) Nuclear Fusion.\nJustify your answer.\n(for V.I. Candidates)\nBinding energy per nucleon and mass number of the following nuclei are given in the below table\nNuclei\nBinding energy per nucleon (MeV)\nMass number\nW",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.20\n. Binding energy per nucleon vs mass number curve for nuclei is shown in the figure. W, X, Y and Z\nare four nuclei indicated on the curve. Identify which of the following nuclei is most likely to undergo\n(i) Nuclear Fission\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n(ii) Nuclear Fusion.\nJustify your answer.\n(for V.I. Candidates)\nBinding energy per nucleon and mass number of the following nuclei are given in the below table\nNuclei\nBinding energy per nucleon (MeV)\nMass number\nW",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "5\n190\nX",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "5\n190\nX",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\n5\n190\nX",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q7 has suspiciously short stem text ('5\n190\nX')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "0\n90\nY",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "0\n90\nY",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\n0\n90\nY",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q8 has suspiciously short stem text ('0\n90\nY'); Question Q8 has suspiciously short stem text ('5\n60\nZ')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "5\n60\nZ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "5\n60\nZ",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\n5\n60\nZ",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q8 has suspiciously short stem text ('0\n90\nY'); Question Q8 has suspiciously short stem text ('5\n60\nZ')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "0\n30\nIdentify which of the following nuclei is most likely to undergo\n(i) Nuclear Fission\n(ii) Nuclear Fusion.\nJustify your answer.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "0\n30\nIdentify which of the following nuclei is most likely to undergo\n(i) Nuclear Fission\n(ii) Nuclear Fusion.\nJustify your answer.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\n0\n30\nIdentify which of the following nuclei is most likely to undergo\n(i) Nuclear Fission\n(ii) Nuclear Fusion.\nJustify your answer.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  A cylindrical conductor of length l and cross-section area A is connected to a DC source. Under the\ninfluence of electric field set up due to source, the free electrons begin to drift in the opposite direction\nof the electric field.\n(I) Draw the curve showing the dependency of drift velocity on r",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  A cylindrical conductor of length l and cross-section area A is connected to a DC source. Under the\ninfluence of electric field set up due to source, the free electrons begin to drift in the opposite direction\nof the electric field.\n(I) Draw the curve showing the dependency of drift velocity on relaxation time.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n(II) If the DC source is replaced by a source whose current changes its magnitude with time such\nthat I = Io sin 2\u03c0\u03bdt , where \u03bd is the frequency of variation of current, then determine the average drift\nvelocity of the free electrons over one complete cycle.\n[SECTION \u2013 C ]                                  (07x3=21 marks)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q21\n.  A cylindrical conductor of length l and cross-section area A is connected to a DC source. Under the\ninfluence of electric field set up due to source, the free electrons begin to drift in the opposite direction\nof the electric field.\n(I) Draw the curve showing the dependency of drift velocity on relaxation time.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n(II) If the DC source is replaced by a source whose current changes its magnitude with time such\nthat I = Io sin 2\u03c0\u03bdt , where \u03bd is the frequency of variation of current, then determine the average drift\nvelocity of the free electrons over one complete cycle.\n[SECTION \u2013 C ]                                  (07x3=21 marks)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (I) Identify the circuit elements X and Y as shown in the given block diagram and draw the output\nwaveforms of X and Y.\n(II) If the centre tapping is shifted towards Diode D1 as shown in the diagram, draw the output\nwaveform of the given circuit.\n(for V.I. candidates)\nWhich device is used to conve",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (I) Identify the circuit elements X and Y as shown in the given block diagram and draw the output\nwaveforms of X and Y.\n(II) If the centre tapping is shifted towards Diode D1 as shown in the diagram, draw the output\nwaveform of the given circuit.\n(for V.I. candidates)\nWhich device is used to convert AC into DC. State it\u2019s underlying principle and explain its working. If\nthe frequency of input AC to this device is 60 Hz, then what will be frequency of the output of this\ndevice.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q22\n. (I) Identify the circuit elements X and Y as shown in the given block diagram and draw the output\nwaveforms of X and Y.\n(II) If the centre tapping is shifted towards Diode D1 as shown in the diagram, draw the output\nwaveform of the given circuit.\n(for V.I. candidates)\nWhich device is used to convert AC into DC. State it\u2019s underlying principle and explain its working. If\nthe frequency of input AC to this device is 60 Hz, then what will be frequency of the output of this\ndevice.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Find the expression for the capacitance of a parallel plate capacitor of plate area A and plate separation\nd when (I) a dielectric slab of thickness t and (II) a metallic slab of thickness t, where (t < d) are\nintroduced one by one between the plates of the capacitor. In which case would the capac",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Find the expression for the capacitance of a parallel plate capacitor of plate area A and plate separation\nd when (I) a dielectric slab of thickness t and (II) a metallic slab of thickness t, where (t < d) are\nintroduced one by one between the plates of the capacitor. In which case would the capacitance be\nmore and why?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q23\n. Find the expression for the capacitance of a parallel plate capacitor of plate area A and plate separation\nd when (I) a dielectric slab of thickness t and (II) a metallic slab of thickness t, where (t < d) are\nintroduced one by one between the plates of the capacitor. In which case would the capacitance be\nmore and why?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  (I) Draw a ray diagram for the formation of image by a Cassegrain telescope.\n(II)Why these types of telescopes are preferred over refracting type telescopes. (Write 2 points)\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n(for V.I. Candidates)\nA Cassegrain telescope is built with an arrangement of tw",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  (I) Draw a ray diagram for the formation of image by a Cassegrain telescope.\n(II)Why these types of telescopes are preferred over refracting type telescopes. (Write 2 points)\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n(for V.I. Candidates)\nA Cassegrain telescope is built with an arrangement of two mirrors placing them 20 mm apart. If the radius\nof curvature of the large mirror is 200mm and the small mirror is 150mm, where will the final image of an\nobject at infinity be?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q24\n.  (I) Draw a ray diagram for the formation of image by a Cassegrain telescope.\n(II)Why these types of telescopes are preferred over refracting type telescopes. (Write 2 points)\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n(for V.I. Candidates)\nA Cassegrain telescope is built with an arrangement of two mirrors placing them 20 mm apart. If the radius\nof curvature of the large mirror is 200mm and the small mirror is 150mm, where will the final image of an\nobject at infinity be?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  (I) Draw the energy band diagram for P-type semiconductor at (i) T=0K and (ii) room temperature.\n(II)In the given diagram considering an ideal diode, in which condition will the bulb glow\n(a) when the switch is open\n(b) when the switch is closed\nJustify your answer.\n(for V.I. Candidates)\nExplain ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  (I) Draw the energy band diagram for P-type semiconductor at (i) T=0K and (ii) room temperature.\n(II)In the given diagram considering an ideal diode, in which condition will the bulb glow\n(a) when the switch is open\n(b) when the switch is closed\nJustify your answer.\n(for V.I. Candidates)\nExplain briefly how\n(i) barrier potential is formed in p-n junction diode.\n(ii) Width of depletion region of the diode is affected when it is (a) forward biased, (b) reverse\nbiased.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "when the switch is open"
+                },
+                {
+                  "label": "b",
+                  "text": "when the switch is closed"
+                },
+                {
+                  "label": "a",
+                  "text": "forward biased,"
+                },
+                {
+                  "label": "b",
+                  "text": "reverse"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q25\n.  (I) Draw the energy band diagram for P-type semiconductor at (i) T=0K and (ii) room temperature.\n(II)In the given diagram considering an ideal diode, in which condition will the bulb glow\n(a) when the switch is open\n(b) when the switch is closed\nJustify your answer.\n(for V.I. Candidates)\nExplain briefly how\n(i) barrier potential is formed in p-n junction diode.\n(ii) Width of depletion region of the diode is affected when it is (a) forward biased, (b) reverse\nbiased.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A boy is holding a smooth, hollow and non-conducting pipe vertically with charged spherical ball of\nmass 10 g carrying a charge of +10 mC inside it which is free to move along the axis of the pipe.\nThe boy is moving the pipe from East to West direction in the presence of magnetic field of 2T. With",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A boy is holding a smooth, hollow and non-conducting pipe vertically with charged spherical ball of\nmass 10 g carrying a charge of +10 mC inside it which is free to move along the axis of the pipe.\nThe boy is moving the pipe from East to West direction in the presence of magnetic field of 2T. With\nwhat minimum velocity, should the boy move the pipe such that the ball does not move along the\naxis. Also determine the direction of the magnetic field.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q26\n. A boy is holding a smooth, hollow and non-conducting pipe vertically with charged spherical ball of\nmass 10 g carrying a charge of +10 mC inside it which is free to move along the axis of the pipe.\nThe boy is moving the pipe from East to West direction in the presence of magnetic field of 2T. With\nwhat minimum velocity, should the boy move the pipe such that the ball does not move along the\naxis. Also determine the direction of the magnetic field.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A light ray entering a right-angled prism undergoes refraction at the face AC as shown in Fig. 1.\n(I) What is the refractive index of the material of the prism in\nFig. 1?\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n(II) (a) If the side AC of the above prism is now surrounded by a liquid of refracti",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A light ray entering a right-angled prism undergoes refraction at the face AC as shown in Fig. 1.\n(I) What is the refractive index of the material of the prism in\nFig. 1?\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n(II) (a) If the side AC of the above prism is now surrounded by a liquid of refractive index 2 ,\n3\nas\nshown in Fig. 2, determine if the light ray continues to graze along the interface AC or undergoes\ntotal internal reflection or undergoes refraction into the liquid.\n(b) Draw the ray diagram to represent the path followed by the incident ray with the corresponding\nangle values.\n(Given, \ud835\udc60\ud835\udc56\ud835\udc5b\u22121( \u221a2\n\u221a3) = 54.6\u00b0)\n(for V.I. candidates)\nA ray of light is incident on an equilateral prism at an angle 3/4 th of the angle of the prism. If the ray\npasses symmetrically through the prism, find the (a) angle of minimum deviation, and (b) refractive index\nof the material of the prism.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "If the side AC of the above prism is now surrounded by a liquid of refractive index 2 ,"
+                },
+                {
+                  "label": "b",
+                  "text": "Draw the ray diagram to represent the path followed by the incident ray with the corresponding"
+                },
+                {
+                  "label": "a",
+                  "text": "angle of minimum deviation, and"
+                },
+                {
+                  "label": "b",
+                  "text": "refractive index"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q27\n. A light ray entering a right-angled prism undergoes refraction at the face AC as shown in Fig. 1.\n(I) What is the refractive index of the material of the prism in\nFig. 1?\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n(II) (a) If the side AC of the above prism is now surrounded by a liquid of refractive index 2 ,\n3\nas\nshown in Fig. 2, determine if the light ray continues to graze along the interface AC or undergoes\ntotal internal reflection or undergoes refraction into the liquid.\n(b) Draw the ray diagram to represent the path followed by the incident ray with the corresponding\nangle values.\n(Given, \ud835\udc60\ud835\udc56\ud835\udc5b\u22121( \u221a2\n\u221a3) = 54.6\u00b0)\n(for V.I. candidates)\nA ray of light is incident on an equilateral prism at an angle 3/4 th of the angle of the prism. If the ray\npasses symmetrically through the prism, find the (a) angle of minimum deviation, and (b) refractive index\nof the material of the prism.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". (I)  State Gauss\u1fbfs theorem in electrostatics. Using this theorem, derive an expression for the electric\nfield due to an infinitely long straight wire of linear charge density \uf06c.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (I)  State Gauss\u1fbfs theorem in electrostatics. Using this theorem, derive an expression for the electric\nfield due to an infinitely long straight wire of linear charge density \uf06c.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Define electric flux and write its SI unit."
+                },
+                {
+                  "label": "b",
+                  "text": "Use Gauss\u1fbfs law to obtain the expression for the electric field due to a uniformly charged"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(II)       (a) Define electric flux and write its SI unit.\n(b) Use Gauss\u1fbfs law to obtain the expression for the electric field due to a uniformly charged\ninfinite plane sheet of charge.\n[SECTION D]                                  (02x4=08 marks)",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q28\n. (I)  State Gauss\u1fbfs theorem in electrostatics. Using this theorem, derive an expression for the electric\nfield due to an infinitely long straight wire of linear charge density \uf06c.\nOR\n(II)       (a) Define electric flux and write its SI unit.\n(b) Use Gauss\u1fbfs law to obtain the expression for the electric field due to a uniformly charged\ninfinite plane sheet of charge.\n[SECTION D]                                  (02x4=08 marks)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Case Study Based Question:      Motion of Charge in Magnetic Field\nAn electron with speed vo << c moves in a circle of radius ro in a uniform magnetic field. This\nelectron is able to traverse a circular path as the magnetic force acting on the electron is\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START --",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Case Study Based Question:      Motion of Charge in Magnetic Field\nAn electron with speed vo << c moves in a circle of radius ro in a uniform magnetic field. This\nelectron is able to traverse a circular path as the magnetic force acting on the electron is\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nperpendicular to both vo and B ,as shown in the figure. This force continuously deflects the\nparticle sideways without changing its speed and the particle will move along a circle\nperpendicular to the field. The time required for one revolution of the electron is To\n(i) If the speed of the electron is now doubled to 2vo. The radius of the circle will change to\n(A) 4ro\n(B) 2 ro\n(C) ro\n(D) ro/2\n(ii) If v = 2vo, then the time required for one revolution of the electron (To ) will change to\n(A) 4 To\n(B) 2 To\n(C) To\n(D) To/2\n(iii) A charged particle is projected in a magnetic field B = (2 i + 4 j) X 102 T . The acceleration of the\nparticle is found to be a = ( x i + 2 j ) m/s2 . Find the value of x.\n(A) 4 ms-2\n(B) -4 ms-2\n(C) -2 ms-2\n(D) 2 ms-2\n(iv) If the given electron has a velocity not perpendicular to B, then trajectory of the electron is\n(A) straight line\n(B) circular\n(C) helical\n(D) zig-zag",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "4ro"
+                },
+                {
+                  "label": "b",
+                  "text": "2 ro"
+                },
+                {
+                  "label": "c",
+                  "text": "ro"
+                },
+                {
+                  "label": "d",
+                  "text": "ro/2"
+                },
+                {
+                  "label": "a",
+                  "text": "4 To"
+                },
+                {
+                  "label": "b",
+                  "text": "2 To"
+                },
+                {
+                  "label": "c",
+                  "text": "To"
+                },
+                {
+                  "label": "d",
+                  "text": "To/2"
+                },
+                {
+                  "label": "a",
+                  "text": "4 ms-2"
+                },
+                {
+                  "label": "b",
+                  "text": "-4 ms-2"
+                },
+                {
+                  "label": "c",
+                  "text": "-2 ms-2"
+                },
+                {
+                  "label": "d",
+                  "text": "2 ms-2"
+                },
+                {
+                  "label": "a",
+                  "text": "straight line"
+                },
+                {
+                  "label": "b",
+                  "text": "circular"
+                },
+                {
+                  "label": "c",
+                  "text": "helical"
+                },
+                {
+                  "label": "d",
+                  "text": "zig-zag"
+                },
+                {
+                  "label": "a",
+                  "text": "Bev"
+                },
+                {
+                  "label": "b",
+                  "text": "Be/v"
+                },
+                {
+                  "label": "c",
+                  "text": "B/ev"
+                },
+                {
+                  "label": "d",
+                  "text": "Zero"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "If this electron of charge (e) is moving parallel to uniform magnetic field with constant velocity v, the\nforce acting on the electron is\n(A) Bev\n(B) Be/v\n(C) B/ev\n(D) Zero",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q29\n. Case Study Based Question:      Motion of Charge in Magnetic Field\nAn electron with speed vo << c moves in a circle of radius ro in a uniform magnetic field. This\nelectron is able to traverse a circular path as the magnetic force acting on the electron is\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nperpendicular to both vo and B ,as shown in the figure. This force continuously deflects the\nparticle sideways without changing its speed and the particle will move along a circle\nperpendicular to the field. The time required for one revolution of the electron is To\n(i) If the speed of the electron is now doubled to 2vo. The radius of the circle will change to\n(A) 4ro\n(B) 2 ro\n(C) ro\n(D) ro/2\n(ii) If v = 2vo, then the time required for one revolution of the electron (To ) will change to\n(A) 4 To\n(B) 2 To\n(C) To\n(D) To/2\n(iii) A charged particle is projected in a magnetic field B = (2 i + 4 j) X 102 T . The acceleration of the\nparticle is found to be a = ( x i + 2 j ) m/s2 . Find the value of x.\n(A) 4 ms-2\n(B) -4 ms-2\n(C) -2 ms-2\n(D) 2 ms-2\n(iv) If the given electron has a velocity not perpendicular to B, then trajectory of the electron is\n(A) straight line\n(B) circular\n(C) helical\n(D) zig-zag\nOR\nIf this electron of charge (e) is moving parallel to uniform magnetic field with constant velocity v, the\nforce acting on the electron is\n(A) Bev\n(B) Be/v\n(C) B/ev\n(D) Zero",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 20 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Case Study Based Question:   Photoelectric effect\nIt is the phenomenon of emission of electrons from a metallic surface when light of a suitable frequency\nis incident on it. The emitted electrons are called photoelectrons.\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nNearly all metals exhibit this",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Case Study Based Question:   Photoelectric effect\nIt is the phenomenon of emission of electrons from a metallic surface when light of a suitable frequency\nis incident on it. The emitted electrons are called photoelectrons.\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nNearly all metals exhibit this effect with ultraviolet light but alkali metals like lithium, sodium,\npotassium, cesium etc. show this effect even with visible light. It is an instantaneous process i.e.\nphotoelectrons are emitted as soon as the light is incident on the metal surface. The number of\nphotoelectrons emitted per second is directly proportional to the intensity of the incident radiation. The\nmaximum kinetic energy of the photoelectrons emitted from a given metal surface is independent of\nthe intensity of the incident light and depends only on the frequency of the incident light. For a given\nmetal surface there is a certain minimum value of the frequency of the incident light below which\nemission of photoelectrons does not occur.\n(I) In a photoelectric experiment plate current is plotted against anode potential.\n(A) A and B will have same intensities while B and C will have different frequencies\n(B) B and C will have different intensities while A and B will have different frequencies\n(C) A and B will have different intensities while B and C will have equal frequencies\n(D) B and C will have equal intensities while A and B will have same frequencies.\n(II) Photoelectrons are emitted when a zinc plate is\n(A) Heated\n(B) hammered\n(C) Irradiated by ultraviolet light\n(D)  subjected to a high pressure\n(III) The threshold frequency for photoelectric effect on sodium corresponds to a wavelength of 500 nm.\nIts work function is about\n(A) 4x10\u221219 J\n(B) 1 J                    (C) 2x10\u221219 J             (D) 3x10\u221219 J\n(IV) The maximum kinetic energy of photoelectrons emitted from a surface when photons of energy 6 eV\nfall on it is 4 eV. The stopping potential is\n(A) 2 V\n(B) 4 V                   (C) 6 V                       (D) 10 V\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "A and B will have same intensities while B and C will have different frequencies"
+                },
+                {
+                  "label": "b",
+                  "text": "B and C will have different intensities while A and B will have different frequencies"
+                },
+                {
+                  "label": "c",
+                  "text": "A and B will have different intensities while B and C will have equal frequencies"
+                },
+                {
+                  "label": "d",
+                  "text": "B and C will have equal intensities while A and B will have same frequencies."
+                },
+                {
+                  "label": "a",
+                  "text": "Heated"
+                },
+                {
+                  "label": "b",
+                  "text": "hammered"
+                },
+                {
+                  "label": "c",
+                  "text": "Irradiated by ultraviolet light"
+                },
+                {
+                  "label": "d",
+                  "text": "subjected to a high pressure"
+                },
+                {
+                  "label": "a",
+                  "text": "4x10\u221219 J"
+                },
+                {
+                  "label": "b",
+                  "text": "1 J"
+                },
+                {
+                  "label": "c",
+                  "text": "2x10\u221219 J"
+                },
+                {
+                  "label": "d",
+                  "text": "3x10\u221219 J"
+                },
+                {
+                  "label": "a",
+                  "text": "2 V"
+                },
+                {
+                  "label": "b",
+                  "text": "4 V"
+                },
+                {
+                  "label": "c",
+                  "text": "6 V"
+                },
+                {
+                  "label": "d",
+                  "text": "10 V"
+                },
+                {
+                  "label": "a",
+                  "text": "work function"
+                },
+                {
+                  "label": "b",
+                  "text": "kinetic energy"
+                },
+                {
+                  "label": "c",
+                  "text": "stopping potential"
+                },
+                {
+                  "label": "d",
+                  "text": "potential energy"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "The minimum energy required to remove an electron from a substance is called its\n(A) work function          (B) kinetic energy   (C) stopping potential (D)  potential energy\n[SECTION E]\n(03X5=15)",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q30\n. Case Study Based Question:   Photoelectric effect\nIt is the phenomenon of emission of electrons from a metallic surface when light of a suitable frequency\nis incident on it. The emitted electrons are called photoelectrons.\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nNearly all metals exhibit this effect with ultraviolet light but alkali metals like lithium, sodium,\npotassium, cesium etc. show this effect even with visible light. It is an instantaneous process i.e.\nphotoelectrons are emitted as soon as the light is incident on the metal surface. The number of\nphotoelectrons emitted per second is directly proportional to the intensity of the incident radiation. The\nmaximum kinetic energy of the photoelectrons emitted from a given metal surface is independent of\nthe intensity of the incident light and depends only on the frequency of the incident light. For a given\nmetal surface there is a certain minimum value of the frequency of the incident light below which\nemission of photoelectrons does not occur.\n(I) In a photoelectric experiment plate current is plotted against anode potential.\n(A) A and B will have same intensities while B and C will have different frequencies\n(B) B and C will have different intensities while A and B will have different frequencies\n(C) A and B will have different intensities while B and C will have equal frequencies\n(D) B and C will have equal intensities while A and B will have same frequencies.\n(II) Photoelectrons are emitted when a zinc plate is\n(A) Heated\n(B) hammered\n(C) Irradiated by ultraviolet light\n(D)  subjected to a high pressure\n(III) The threshold frequency for photoelectric effect on sodium corresponds to a wavelength of 500 nm.\nIts work function is about\n(A) 4x10\u221219 J\n(B) 1 J                    (C) 2x10\u221219 J             (D) 3x10\u221219 J\n(IV) The maximum kinetic energy of photoelectrons emitted from a surface when photons of energy 6 eV\nfall on it is 4 eV. The stopping potential is\n(A) 2 V\n(B) 4 V                   (C) 6 V                       (D) 10 V\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->\nOR\nThe minimum energy required to remove an electron from a substance is called its\n(A) work function          (B) kinetic energy   (C) stopping potential (D)  potential energy\n[SECTION E]\n(03X5=15)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 20 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 20 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (I) a) Write two limitations of ohm\u2019s law. Plot their I-V characteristics.\nb) A heating element connected across a battery of 100 V having an internal resistance of 1 \u03a9\ndraws an initial current of 10 A at room temperature 20.0 \u00b0C which settles after a few seconds to a\nsteady value. What is the pow",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (I) a) Write two limitations of ohm\u2019s law. Plot their I-V characteristics.\nb) A heating element connected across a battery of 100 V having an internal resistance of 1 \u03a9\ndraws an initial current of 10 A at room temperature 20.0 \u00b0C which settles after a few seconds to a\nsteady value. What is the power consumed by battery itself after the steady temperature of 320.0 \u00b0C\nis attained? Temperature coefficient of resistance averaged over the temperature range involved is",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Write two limitations of ohm\u2019s law. Plot their I-V characteristics."
+                },
+                {
+                  "label": "b",
+                  "text": "A heating element connected across a battery of 100 V having an internal resistance of 1 \u03a9"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q31\n. (I) a) Write two limitations of ohm\u2019s law. Plot their I-V characteristics.\nb) A heating element connected across a battery of 100 V having an internal resistance of 1 \u03a9\ndraws an initial current of 10 A at room temperature 20.0 \u00b0C which settles after a few seconds to a\nsteady value. What is the power consumed by battery itself after the steady temperature of 320.0 \u00b0C\nis attained? Temperature coefficient of resistance averaged over the temperature range involved is",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "70 \u00d7 10\u20134 \u00b0C\u20131.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "70 \u00d7 10\u20134 \u00b0C\u20131.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge."
+                },
+                {
+                  "label": "b",
+                  "text": "A wire of uniform cross-section and resistance of 12 ohm is bent in the shape of circle as"
+                },
+                {
+                  "label": "d",
+                  "text": "A battery of emf 8V is connected between A and B. Determine the current flowing"
+                },
+                {
+                  "label": "a",
+                  "text": "Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge."
+                },
+                {
+                  "label": "b",
+                  "text": "What do you understand by \u2018sensitivity of Wheatstone bridge\u2019 ? How the sensitivity of wheatstone"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(II)  a) Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge.\nb) A wire of uniform cross-section and resistance of 12 ohm is bent in the shape of circle as\nshown in the figure. A resistance of 10 ohms is connected to diametrically opposite ends C\nand D. A battery of emf 8V is connected between A and B. Determine the current flowing\nthrough arm AD.\n(for V.I. Candidates)\n(II)  a) Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge.\n<!-- PAGE 12 END -->\n\n<!-- PAGE 13 START -->\nb) What do you understand by \u2018sensitivity of Wheatstone bridge\u2019 ? How the sensitivity of wheatstone\nbridge can be increased?",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n70 \u00d7 10\u20134 \u00b0C\u20131.\nOR\n(II)  a) Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge.\nb) A wire of uniform cross-section and resistance of 12 ohm is bent in the shape of circle as\nshown in the figure. A resistance of 10 ohms is connected to diametrically opposite ends C\nand D. A battery of emf 8V is connected between A and B. Determine the current flowing\nthrough arm AD.\n(for V.I. Candidates)\n(II)  a) Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge.\n<!-- PAGE 12 END -->\n\n<!-- PAGE 13 START -->\nb) What do you understand by \u2018sensitivity of Wheatstone bridge\u2019 ? How the sensitivity of wheatstone\nbridge can be increased?",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". (I) Explain briefly, with the help of a labelled diagram, the basic principle of the working of an a.c.\ngenerator. In an a.c. generator, coil of N turns and area A is rotated at an angular velocity \u03c9 in a\nuniform magnetic field B. Derive an expression for the instantaneous value of the emf induced",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (I) Explain briefly, with the help of a labelled diagram, the basic principle of the working of an a.c.\ngenerator. In an a.c. generator, coil of N turns and area A is rotated at an angular velocity \u03c9 in a\nuniform magnetic field B. Derive an expression for the instantaneous value of the emf induced\nin coil.  What is the source of energy generation in this device?",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "c."
+                },
+                {
+                  "label": "a",
+                  "text": "c. generator, coil of N turns and area A is rotated at an angular velocity \u03c9 in a"
+                },
+                {
+                  "label": "b",
+                  "text": "Derive an expression for the instantaneous value of the emf induced"
+                },
+                {
+                  "label": "a",
+                  "text": "With the help of a diagram, explain the principle of a device which changes a low ac voltage"
+                },
+                {
+                  "label": "b",
+                  "text": "Write any two sources of the energy losses which occur in actual transformers."
+                },
+                {
+                  "label": "c",
+                  "text": "A step-up transformer converts a low input voltage into a high output voltage. Does it violate"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(II)  a) With the help of a diagram, explain the principle of a device which changes a low ac voltage\ninto a high voltage . Deduce the expression for the ratio of secondary voltage to the primary\nvoltage in terms of the ratio of the number of turns of primary and secondary winding. For an\nideal transformer, obtain the ratio of primary and secondary currents in terms of the ratio of\nthe voltages in the secondary and primary coils.\nb)   Write any two sources of the energy losses which occur in actual transformers.\nc)  A step-up transformer converts a low input voltage into a high output voltage. Does it violate\nlaw of conservation of energy? Explain.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q32\n. (I) Explain briefly, with the help of a labelled diagram, the basic principle of the working of an a.c.\ngenerator. In an a.c. generator, coil of N turns and area A is rotated at an angular velocity \u03c9 in a\nuniform magnetic field B. Derive an expression for the instantaneous value of the emf induced\nin coil.  What is the source of energy generation in this device?\nOR\n(II)  a) With the help of a diagram, explain the principle of a device which changes a low ac voltage\ninto a high voltage . Deduce the expression for the ratio of secondary voltage to the primary\nvoltage in terms of the ratio of the number of turns of primary and secondary winding. For an\nideal transformer, obtain the ratio of primary and secondary currents in terms of the ratio of\nthe voltages in the secondary and primary coils.\nb)   Write any two sources of the energy losses which occur in actual transformers.\nc)  A step-up transformer converts a low input voltage into a high output voltage. Does it violate\nlaw of conservation of energy? Explain.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". (I)  a) A giant refracting telescope at an observatory has an objective lens of focal length 15 m. If an\neyepiece of focal length 1.0 cm is used, what is angular magnification of the telescope in\nnormal adjustment?\nb)  If this telescope is used to view the moon, what is the diameter of the image o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (I)  a) A giant refracting telescope at an observatory has an objective lens of focal length 15 m. If an\neyepiece of focal length 1.0 cm is used, what is angular magnification of the telescope in\nnormal adjustment?\nb)  If this telescope is used to view the moon, what is the diameter of the image of the moon formed\nby the objective lens? The diameter of the moon is 3.48 \u00d7 106 m, and the radius of lunar orbit\nis 3.8 \u00d7 108 m.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "A giant refracting telescope at an observatory has an objective lens of focal length 15 m. If an"
+                },
+                {
+                  "label": "b",
+                  "text": "If this telescope is used to view the moon, what is the diameter of the image of the moon formed"
+                },
+                {
+                  "label": "a",
+                  "text": "the least distance of distinct vision"
+                },
+                {
+                  "label": "b",
+                  "text": "infinity? What is the magnifying power of the microscope in each case?"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(II)  A compound microscope consists of an objective lens of focal length 2.0 cm and an eyepiece of\nfocal length 6.25 cm separated by a distance of 15 cm. How far from the objective should an object\nbe placed in order to obtain the final image at\na) the least distance of distinct vision (25 cm) and\nb) infinity? What is the magnifying power of the microscope in each case?\n<!-- PAGE 13 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q33\n. (I)  a) A giant refracting telescope at an observatory has an objective lens of focal length 15 m. If an\neyepiece of focal length 1.0 cm is used, what is angular magnification of the telescope in\nnormal adjustment?\nb)  If this telescope is used to view the moon, what is the diameter of the image of the moon formed\nby the objective lens? The diameter of the moon is 3.48 \u00d7 106 m, and the radius of lunar orbit\nis 3.8 \u00d7 108 m.\nOR\n(II)  A compound microscope consists of an objective lens of focal length 2.0 cm and an eyepiece of\nfocal length 6.25 cm separated by a distance of 15 cm. How far from the objective should an object\nbe placed in order to obtain the final image at\na) the least distance of distinct vision (25 cm) and\nb) infinity? What is the magnifying power of the microscope in each case?\n<!-- PAGE 13 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

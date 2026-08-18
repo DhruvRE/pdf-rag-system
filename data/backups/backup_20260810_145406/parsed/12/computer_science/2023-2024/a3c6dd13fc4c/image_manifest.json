@@ -1,0 +1,130 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p2_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      77.4,
+      61.92,
+      448.08,
+      145.68
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Options: a. PYTHON-IS-Fun b. PYTHON-is-Fun c Python is fun"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p3_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p3_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p3_1.png",
+    "page": 3,
+    "bbox": [
+      77.4,
+      542.52,
+      522.6,
+      681.72
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "d. Statement 4 10 What possible outputs(s) will be obtained when the following code is executed? Options: a. 1"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p4_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p4_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p4_1.png",
+    "page": 4,
+    "bbox": [
+      77.4,
+      612.96,
+      452.16,
+      756.24
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "[4] c. Demodulator d. Convertor 12 Consider the code given below:"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p6_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      77.4,
+      529.08,
+      381.0,
+      728.28
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "[6] 20 The code given below accepts a number as an argument and returns t reverse number. Observe the following code carefully and rewrite it removing all syntax and logical errors. Underline all the "
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p7_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      77.4,
+      404.4,
+      432.96,
+      643.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "For example, if the string is \"Come let us have some fun\", the tuple will have (4, 3, 2, 4, 4, 3) 22 Predict the output of the following code: 23 Write the Python statement for each of the following t"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p9_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p9_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p9_1.png",
+    "page": 9,
+    "bbox": [
+      77.4,
+      36.48,
+      426.0,
+      274.68
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "SECTION C 26 Predict the output of the Python code given below:"
+  },
+  "[IMAGE_PLACEHOLDER_7]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_7]",
+    "filename": "img_p9_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p9_2.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p9_2.png",
+    "page": 9,
+    "bbox": [
+      77.4,
+      328.92,
+      452.16,
+      573.24
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "SECTION C 26 Predict the output of the Python code given below: 27 Consider the table CLUB given below and write the output of the SQL queries that follow. 1*"
+  },
+  "[IMAGE_PLACEHOLDER_8]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_8]",
+    "filename": "img_p14_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2023-2024/a3c6dd13fc4c/images/img_p14_1.png",
+    "relative_path": "a3c6dd13fc4c/images/img_p14_1.png",
+    "page": 14,
+    "bbox": [
+      132.72,
+      110.4,
+      451.68,
+      244.2
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "3 Meticulous EduServe is an educational organization. It is planning to setup its India campus at Chennai with its head office at Delhi. The Chennai campus has 4 main buildings \u2013 ADMIN, ENGINEERING, B"
+  }
+}

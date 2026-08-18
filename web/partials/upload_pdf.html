@@ -1,0 +1,129 @@
+<!-- Upload PDF & AI Context Refinement Partial -->
+<div id="uploadTabSection" class="tab-content flex-1 flex flex-col h-full overflow-y-auto custom-scrollbar pr-2" style="display: none;">
+
+  <!-- Header -->
+  <div class="mb-6 flex-shrink-0">
+    <h2 class="text-xl text-slate-100 font-bold tracking-tight">Upload & Process PDF Paper</h2>
+    <p class="text-xs text-slate-400 font-medium">Extract questions, inspect diagram connections, refine context with AI, and commit into Vector DB.</p>
+  </div>
+
+  <!-- Upload Form Grid -->
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+    
+    <!-- File Dropzone -->
+    <div class="lg:col-span-2 bg-slate-900 border-2 border-dashed border-slate-700 hover:border-indigo-500 rounded-xl p-6 flex flex-col items-center justify-center text-center cursor-pointer transition-all relative" id="pdfDropzone">
+      <input type="file" id="pdfFileInput" accept=".pdf" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" />
+      <span class="material-symbols-outlined text-indigo-400 text-[48px] mb-2">upload_file</span>
+      <h3 class="text-sm font-bold text-slate-200" id="pdfFileLabel">Drag & drop your question paper PDF here</h3>
+      <p class="text-xs text-slate-400 mt-1">Supports CBSE, ICSE, Olympiad, and Competitive Exam PDFs (up to 50MB)</p>
+    </div>
+
+    <!-- Metadata Configuration Form -->
+    <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col gap-4">
+      <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider border-b border-slate-800 pb-2">Paper Metadata</h3>
+      
+      <!-- Class Select -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Class Level</label>
+        <select id="uploadClassSelect" class="filter-select">
+          <option value="LKG">LKG</option>
+          <option value="UKG">UKG</option>
+          <option value="1">Class 1</option>
+          <option value="2">Class 2</option>
+          <option value="3">Class 3</option>
+          <option value="4">Class 4</option>
+          <option value="5">Class 5</option>
+          <option value="6">Class 6</option>
+          <option value="7">Class 7</option>
+          <option value="8">Class 8</option>
+          <option value="9">Class 9</option>
+          <option value="10" selected>Class 10</option>
+          <option value="11">Class 11</option>
+          <option value="12">Class 12</option>
+        </select>
+      </div>
+
+      <!-- Subject Input -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
+        <select id="uploadSubjectSelect" class="filter-select">
+          <option value="mathematics" selected>Mathematics</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="biology">Biology</option>
+          <option value="science">Science</option>
+          <option value="social_science">Social Science</option>
+          <option value="english">English</option>
+          <option value="general_knowledge">General Knowledge</option>
+          <option value="other">Other / General</option>
+        </select>
+      </div>
+
+      <!-- PDF Type Select -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">PDF Type</label>
+        <select id="uploadTypeSelect" class="filter-select">
+          <option value="Question Paper" selected>Question Paper</option>
+          <option value="Olympiad Paper">Olympiad Paper</option>
+          <option value="Sample Paper">Sample Paper</option>
+          <option value="Worksheet">Worksheet</option>
+          <option value="Mock Test">Mock Test</option>
+          <option value="Other">Other</option>
+        </select>
+      </div>
+
+      <!-- Academic Year -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Academic Year</label>
+        <select id="uploadYearSelect" class="filter-select">
+          <option value="2024-2025" selected>2024-2025</option>
+          <option value="2023-2024">2023-2024</option>
+          <option value="2022-2023">2022-2023</option>
+          <option value="2021-2022">2021-2022</option>
+        </select>
+      </div>
+
+      <button id="processPdfBtn" class="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-lg shadow-md transition-all flex items-center justify-center gap-2 mt-2">
+        <span class="material-symbols-outlined text-[18px]">auto_fix_high</span>
+        <span>Process PDF Paper</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Processing Status Loader -->
+  <div id="uploadStatusCard" class="bg-slate-900 border border-indigo-500/50 p-4 rounded-xl shadow-md mb-6" style="display: none;">
+    <div class="flex items-center gap-3">
+      <div class="w-4 h-4 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></div>
+      <h4 class="font-bold text-sm text-indigo-400" id="uploadStatusText">Parsing PDF pages & extracting diagram figures...</h4>
+    </div>
+  </div>
+
+  <!-- Context & Connection Inspection Panel -->
+  <div id="contextReviewPanel" class="flex flex-col gap-6" style="display: none;">
+    
+    <!-- Paper Summary Stats Header -->
+    <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex justify-between items-center">
+      <div>
+        <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">Extracted Paper Context</span>
+        <h3 class="text-base font-bold text-slate-100 mt-0.5" id="reviewPaperTitle">Paper #00000</h3>
+      </div>
+      
+      <div class="flex items-center gap-3">
+        <button id="aiRefineBtn" class="px-4 py-2 bg-indigo-950 text-indigo-300 border border-indigo-700/60 hover:bg-indigo-900 text-xs font-bold rounded-lg flex items-center gap-2 transition-all shadow-sm">
+          <span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+          <span>✨ Improve Context (AI Refine)</span>
+        </button>
+
+        <button id="embedFinalBtn" class="px-5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg flex items-center gap-2 transition-all shadow-md">
+          <span class="material-symbols-outlined text-[16px]">database</span>
+          <span>⚡ Embed PDF into Vector Store</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Questions Preview List -->
+    <div id="contextQuestionsList" class="flex flex-col gap-4">
+      <!-- Dynamically populated draft questions -->
+    </div>
+  </div>
+</div>

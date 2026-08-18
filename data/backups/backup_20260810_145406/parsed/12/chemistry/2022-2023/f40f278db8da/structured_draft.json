@@ -1,0 +1,2593 @@
+{
+  "exam_metadata": {
+    "subject": "chemistry",
+    "class_level": "12",
+    "year": "2022-2023",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_chemistry_2022_2023_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The major product of acid catalysed dehydration of 1-methylcyclohexanol is:\na. 1-methylcyclohexane\nb.  1-methylcyclohexene\nc. 1-cyclohexylmethanol\nd. 1-methylenecyclohexane",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The major product of acid catalysed dehydration of 1-methylcyclohexanol is:\na. 1-methylcyclohexane\nb.  1-methylcyclohexene\nc. 1-cyclohexylmethanol\nd. 1-methylenecyclohexane",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1-methylcyclohexane"
+                },
+                {
+                  "label": "b",
+                  "text": "1-methylcyclohexene"
+                },
+                {
+                  "label": "c",
+                  "text": "1-cyclohexylmethanol"
+                },
+                {
+                  "label": "d",
+                  "text": "1-methylenecyclohexane"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nThe major product of acid catalysed dehydration of 1-methylcyclohexanol is:\na. 1-methylcyclohexane\nb.  1-methylcyclohexene\nc. 1-cyclohexylmethanol\nd. 1-methylenecyclohexane",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which one of the following compounds is more reactive towards SN1 reaction?\na. CH2=CHCH2Br\nb. C6H5CH2Br\nc. C6H5CH (C6H5)Br\nd.  C6H5CH(CH3) Br",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which one of the following compounds is more reactive towards SN1 reaction?\na. CH2=CHCH2Br\nb. C6H5CH2Br\nc. C6H5CH (C6H5)Br\nd.  C6H5CH(CH3) Br",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "CH2=CHCH2Br"
+                },
+                {
+                  "label": "b",
+                  "text": "C6H5CH2Br"
+                },
+                {
+                  "label": "c",
+                  "text": "C6H5CH"
+                },
+                {
+                  "label": "d",
+                  "text": "C6H5CH"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nWhich one of the following compounds is more reactive towards SN1 reaction?\na. CH2=CHCH2Br\nb. C6H5CH2Br\nc. C6H5CH (C6H5)Br\nd.  C6H5CH(CH3) Br",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "KMnO4 is coloured due to:\na. d-d transitions\nb. charge transfer from ligand to metal\nc. unpaired electrons in d orbital of Mn\nd. charge transfer from metal to ligand\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "KMnO4 is coloured due to:\na. d-d transitions\nb. charge transfer from ligand to metal\nc. unpaired electrons in d orbital of Mn\nd. charge transfer from metal to ligand\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "d-d transitions"
+                },
+                {
+                  "label": "b",
+                  "text": "charge transfer from ligand to metal"
+                },
+                {
+                  "label": "c",
+                  "text": "unpaired electrons in d orbital of Mn"
+                },
+                {
+                  "label": "d",
+                  "text": "charge transfer from metal to ligand"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nKMnO4 is coloured due to:\na. d-d transitions\nb. charge transfer from ligand to metal\nc. unpaired electrons in d orbital of Mn\nd. charge transfer from metal to ligand\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which radioactive isotope would have the longer half- life 15O or 19O? (Given rate\nconstants for 15O and   19O  are 5.63x 10-3 s-1 and k = 2.38 x 10-2s-1 respectively.)\na. 15O\nb. 19O\nc. Both will have the same half-life\nd. None of the above, information given is insufficient",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which radioactive isotope would have the longer half- life 15O or 19O? (Given rate\nconstants for 15O and   19O  are 5.63x 10-3 s-1 and k = 2.38 x 10-2s-1 respectively.)\na. 15O\nb. 19O\nc. Both will have the same half-life\nd. None of the above, information given is insufficient",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "15O"
+                },
+                {
+                  "label": "b",
+                  "text": "19O"
+                },
+                {
+                  "label": "c",
+                  "text": "Both will have the same half-life"
+                },
+                {
+                  "label": "d",
+                  "text": "None of the above, information given is insufficient"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nWhich radioactive isotope would have the longer half- life 15O or 19O? (Given rate\nconstants for 15O and   19O  are 5.63x 10-3 s-1 and k = 2.38 x 10-2s-1 respectively.)\na. 15O\nb. 19O\nc. Both will have the same half-life\nd. None of the above, information given is insufficient",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The molar conductivity of CH3COOH at infinite dilution is 390 Scm2/mol. Using the\ngraph and given information, the molar conductivity of CH3COOK will be:\na.  100 Scm2/mol\nb. 115 Scm2/mol\nc.  150 Scm2/mol\nd. 125 Scm2/mol\n*FOR VISUALLY CHALLENGED LEARNERS\n*5.  What is the molar conductance at infinite",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The molar conductivity of CH3COOH at infinite dilution is 390 Scm2/mol. Using the\ngraph and given information, the molar conductivity of CH3COOK will be:\na.  100 Scm2/mol\nb. 115 Scm2/mol\nc.  150 Scm2/mol\nd. 125 Scm2/mol\n*FOR VISUALLY CHALLENGED LEARNERS\n*5.  What is the molar conductance at infinite dilution for sodium chloride if the molar\nconductance at infinite dilution of Na+ and Cl- ions are 51.12 \u00d7 10-4 Scm2/mol and",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "100 Scm2/mol"
+                },
+                {
+                  "label": "b",
+                  "text": "115 Scm2/mol"
+                },
+                {
+                  "label": "c",
+                  "text": "150 Scm2/mol"
+                },
+                {
+                  "label": "d",
+                  "text": "125 Scm2/mol"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nThe molar conductivity of CH3COOH at infinite dilution is 390 Scm2/mol. Using the\ngraph and given information, the molar conductivity of CH3COOK will be:\na.  100 Scm2/mol\nb. 115 Scm2/mol\nc.  150 Scm2/mol\nd. 125 Scm2/mol\n*FOR VISUALLY CHALLENGED LEARNERS\n*5.  What is the molar conductance at infinite dilution for sodium chloride if the molar\nconductance at infinite dilution of Na+ and Cl- ions are 51.12 \u00d7 10-4 Scm2/mol and",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q73",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "54\u00d7 10-4 Scm2/mol respectively?\na.  124.66 Scm2/mol\nb. 22.42 Scm2/mol\nc.  198.20Scm2/mol\nd. 175.78 Scm2/mol\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "54\u00d7 10-4 Scm2/mol respectively?\na.  124.66 Scm2/mol\nb. 22.42 Scm2/mol\nc.  198.20Scm2/mol\nd. 175.78 Scm2/mol\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "124.66 Scm2/mol"
+                },
+                {
+                  "label": "b",
+                  "text": "22.42 Scm2/mol"
+                },
+                {
+                  "label": "c",
+                  "text": "198.20Scm2/mol"
+                },
+                {
+                  "label": "d",
+                  "text": "175.78 Scm2/mol"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 73.\n54\u00d7 10-4 Scm2/mol respectively?\na.  124.66 Scm2/mol\nb. 22.42 Scm2/mol\nc.  198.20Scm2/mol\nd. 175.78 Scm2/mol\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "For the reaction, A +2B \uf0e0 AB2,  the order w.r.t. reactant A is 2 and w.r.t. reactant B.\nWhat will be change in rate of reaction if the concentration of A is doubled and B is\nhalved?\na.  increases four times\nb.  decreases four times\nc.  increases two times\nd. no change",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "For the reaction, A +2B \uf0e0 AB2,  the order w.r.t. reactant A is 2 and w.r.t. reactant B.\nWhat will be change in rate of reaction if the concentration of A is doubled and B is\nhalved?\na.  increases four times\nb.  decreases four times\nc.  increases two times\nd. no change",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "What will be change in rate of reaction if the concentration of A is doubled and B is"
+                },
+                {
+                  "label": "a",
+                  "text": "increases four times"
+                },
+                {
+                  "label": "b",
+                  "text": "decreases four times"
+                },
+                {
+                  "label": "c",
+                  "text": "increases two times"
+                },
+                {
+                  "label": "d",
+                  "text": "no change"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nFor the reaction, A +2B \uf0e0 AB2,  the order w.r.t. reactant A is 2 and w.r.t. reactant B.\nWhat will be change in rate of reaction if the concentration of A is doubled and B is\nhalved?\na.  increases four times\nb.  decreases four times\nc.  increases two times\nd. no change",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Arrange the following in the increasing order of their boiling points:\nA : Butanamine, B: N,N-Dimethylethanamine, C: N- Etthylethanaminamine\na. C<B<A\nb.  A<B<C\nc.  A<C<B\nd.  B<C<A",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Arrange the following in the increasing order of their boiling points:\nA : Butanamine, B: N,N-Dimethylethanamine, C: N- Etthylethanaminamine\na. C<B<A\nb.  A<B<C\nc.  A<C<B\nd.  B<C<A",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "C<B<A"
+                },
+                {
+                  "label": "b",
+                  "text": "A<B<C"
+                },
+                {
+                  "label": "c",
+                  "text": "A<C<B"
+                },
+                {
+                  "label": "d",
+                  "text": "B<C<A"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nArrange the following in the increasing order of their boiling points:\nA : Butanamine, B: N,N-Dimethylethanamine, C: N- Etthylethanaminamine\na. C<B<A\nb.  A<B<C\nc.  A<C<B\nd.  B<C<A",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The CFSE of [CoCl6]3- is 18000 cm-1 the CFSE for [CoCl4]- will be:\na. 18000 cm-1\nb. 8000cm-1\nc. 2000 cm-1\nd. 16000 cm-1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The CFSE of [CoCl6]3- is 18000 cm-1 the CFSE for [CoCl4]- will be:\na. 18000 cm-1\nb. 8000cm-1\nc. 2000 cm-1\nd. 16000 cm-1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "18000 cm-1"
+                },
+                {
+                  "label": "b",
+                  "text": "8000cm-1"
+                },
+                {
+                  "label": "c",
+                  "text": "2000 cm-1"
+                },
+                {
+                  "label": "d",
+                  "text": "16000 cm-1"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nThe CFSE of [CoCl6]3- is 18000 cm-1 the CFSE for [CoCl4]- will be:\na. 18000 cm-1\nb. 8000cm-1\nc. 2000 cm-1\nd. 16000 cm-1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "What would be the major product of the following reaction?\nC6H5 -CH2-OC6H5 + HBr \uf0e0 A + B\na. A= C6H5CH2OH , B= C6H6\nb. A=C6H5CH2OH ,B= C6H5Br\nc. A=C6H5CH3  ,B= C6H5Br\nd. A=C6H5CH2Br , B= C6H5OH",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "What would be the major product of the following reaction?\nC6H5 -CH2-OC6H5 + HBr \uf0e0 A + B\na. A= C6H5CH2OH , B= C6H6\nb. A=C6H5CH2OH ,B= C6H5Br\nc. A=C6H5CH3  ,B= C6H5Br\nd. A=C6H5CH2Br , B= C6H5OH",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "A= C6H5CH2OH , B= C6H6"
+                },
+                {
+                  "label": "b",
+                  "text": "A=C6H5CH2OH ,B= C6H5Br"
+                },
+                {
+                  "label": "c",
+                  "text": "A=C6H5CH3  ,B= C6H5Br"
+                },
+                {
+                  "label": "d",
+                  "text": "A=C6H5CH2Br , B= C6H5OH"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nWhat would be the major product of the following reaction?\nC6H5 -CH2-OC6H5 + HBr \uf0e0 A + B\na. A= C6H5CH2OH , B= C6H6\nb. A=C6H5CH2OH ,B= C6H5Br\nc. A=C6H5CH3  ,B= C6H5Br\nd. A=C6H5CH2Br , B= C6H5OH",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following statements is not correct for amines?\na. Most alkyl amines are more basic than ammonia solution.\nb. pKb value of ethylamine is lower than benzylamine.\nc. CH3NH2 on reaction with nitrous acid releases NO2 gas.\nd. Hinsberg\u2019s reagent reacts with secondary amines to form sulphonam",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following statements is not correct for amines?\na. Most alkyl amines are more basic than ammonia solution.\nb. pKb value of ethylamine is lower than benzylamine.\nc. CH3NH2 on reaction with nitrous acid releases NO2 gas.\nd. Hinsberg\u2019s reagent reacts with secondary amines to form sulphonamides.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Most alkyl amines are more basic than ammonia solution."
+                },
+                {
+                  "label": "b",
+                  "text": "pKb value of ethylamine is lower than benzylamine."
+                },
+                {
+                  "label": "c",
+                  "text": "CH3NH2 on reaction with nitrous acid releases NO2 gas."
+                },
+                {
+                  "label": "d",
+                  "text": "Hinsberg\u2019s reagent reacts with secondary amines to form sulphonamides."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nWhich of the following statements is not correct for amines?\na. Most alkyl amines are more basic than ammonia solution.\nb. pKb value of ethylamine is lower than benzylamine.\nc. CH3NH2 on reaction with nitrous acid releases NO2 gas.\nd. Hinsberg\u2019s reagent reacts with secondary amines to form sulphonamides.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following tests/ reactions is given by aldehydes as well as ketones?\na. Fehling\u2019s test\nb. Tollen\u2019s test\nc. 2,4 DNP test\nd. Cannizzaro reaction\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following tests/ reactions is given by aldehydes as well as ketones?\na. Fehling\u2019s test\nb. Tollen\u2019s test\nc. 2,4 DNP test\nd. Cannizzaro reaction\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Fehling\u2019s test"
+                },
+                {
+                  "label": "b",
+                  "text": "Tollen\u2019s test"
+                },
+                {
+                  "label": "c",
+                  "text": "2,4 DNP test"
+                },
+                {
+                  "label": "d",
+                  "text": "Cannizzaro reaction"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nWhich of the following tests/ reactions is given by aldehydes as well as ketones?\na. Fehling\u2019s test\nb. Tollen\u2019s test\nc. 2,4 DNP test\nd. Cannizzaro reaction\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Arrhenius equation can be represented graphically as follows:\nThe (i) intercept and (ii) slope of the graph are:\na. (i) ln A (ii) Ea/R\nb. (i) A     (ii) Ea\nc. (i)ln A  (ii) - Ea/R\nd. (i) A     (ii)  -Ea\n*FOR VISUALLY CHALLENGED LEARNERS\n*12.       The unit of rate constant for the reaction\n2A + 2B \u2192",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Arrhenius equation can be represented graphically as follows:\nThe (i) intercept and (ii) slope of the graph are:\na. (i) ln A (ii) Ea/R\nb. (i) A     (ii) Ea\nc. (i)ln A  (ii) - Ea/R\nd. (i) A     (ii)  -Ea\n*FOR VISUALLY CHALLENGED LEARNERS\n*12.       The unit of rate constant for the reaction\n2A + 2B \u2192 A2B2\nwhich has rate = k [A]2[B] is:\na.  mol L-1s-1\nb. s-1\nc. mol L-1\nd. mol-2 L2 s-1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "mol L-1s-1"
+                },
+                {
+                  "label": "b",
+                  "text": "s-1"
+                },
+                {
+                  "label": "c",
+                  "text": "mol L-1"
+                },
+                {
+                  "label": "d",
+                  "text": "mol-2 L2 s-1"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\nArrhenius equation can be represented graphically as follows:\nThe (i) intercept and (ii) slope of the graph are:\na. (i) ln A (ii) Ea/R\nb. (i) A     (ii) Ea\nc. (i)ln A  (ii) - Ea/R\nd. (i) A     (ii)  -Ea\n*FOR VISUALLY CHALLENGED LEARNERS\n*12.       The unit of rate constant for the reaction\n2A + 2B \u2192 A2B2\nwhich has rate = k [A]2[B] is:\na.  mol L-1s-1\nb. s-1\nc. mol L-1\nd. mol-2 L2 s-1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The number of ions formed on dissolving one molecule of FeSO4.(NH4)2SO4.6H2O\nin water is:\na. 3\nb. 4\nc. 5\nd. 6",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The number of ions formed on dissolving one molecule of FeSO4.(NH4)2SO4.6H2O\nin water is:\na. 3\nb. 4\nc. 5\nd. 6",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "3"
+                },
+                {
+                  "label": "b",
+                  "text": "4"
+                },
+                {
+                  "label": "c",
+                  "text": "5"
+                },
+                {
+                  "label": "d",
+                  "text": "6"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\nThe number of ions formed on dissolving one molecule of FeSO4.(NH4)2SO4.6H2O\nin water is:\na. 3\nb. 4\nc. 5\nd. 6",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The oxidation of toluene to benzaldehyde by chromyl chloride is called\na. Etard reaction\nb. Riemer-Tiemann reaction\nc. Stephen\u2019s reaction\nd. Cannizzaro\u2019s reaction",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The oxidation of toluene to benzaldehyde by chromyl chloride is called\na. Etard reaction\nb. Riemer-Tiemann reaction\nc. Stephen\u2019s reaction\nd. Cannizzaro\u2019s reaction",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Etard reaction"
+                },
+                {
+                  "label": "b",
+                  "text": "Riemer-Tiemann reaction"
+                },
+                {
+                  "label": "c",
+                  "text": "Stephen\u2019s reaction"
+                },
+                {
+                  "label": "d",
+                  "text": "Cannizzaro\u2019s reaction"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nThe oxidation of toluene to benzaldehyde by chromyl chloride is called\na. Etard reaction\nb. Riemer-Tiemann reaction\nc. Stephen\u2019s reaction\nd. Cannizzaro\u2019s reaction",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Given below are two statements labelled as Assertion (A) and Reason (R)\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\nAssertion (A): An ether is more volatile than an alcohol of comparable molecular\nmass.\nReason (R): Ethers are polar in nature.\nSelect the most appropriate answer from the options give",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Given below are two statements labelled as Assertion (A) and Reason (R)\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\nAssertion (A): An ether is more volatile than an alcohol of comparable molecular\nmass.\nReason (R): Ethers are polar in nature.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": An ether is more volatile than an alcohol of comparable molecular"
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true but R is not the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nGiven below are two statements labelled as Assertion (A) and Reason (R)\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\nAssertion (A): An ether is more volatile than an alcohol of comparable molecular\nmass.\nReason (R): Ethers are polar in nature.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 6 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Proteins are found to have two different types of secondary\nstructures viz alpha-helix and beta-pleated sheet structure.\nReason (R): The secondary structure of proteins is stabilized by hydrogen\nbonding.\nSelect th",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Proteins are found to have two different types of secondary\nstructures viz alpha-helix and beta-pleated sheet structure.\nReason (R): The secondary structure of proteins is stabilized by hydrogen\nbonding.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": Proteins are found to have two different types of secondary"
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true but R is not the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nGiven below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Proteins are found to have two different types of secondary\nstructures viz alpha-helix and beta-pleated sheet structure.\nReason (R): The secondary structure of proteins is stabilized by hydrogen\nbonding.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 6 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion : Magnetic moment values of actinides are lesser than the\ntheoretically predicted values.\nReason : Actinide elements are strongly paramagnetic.\nSelect the most appropriate answer from the options given below:\na. Both A",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion : Magnetic moment values of actinides are lesser than the\ntheoretically predicted values.\nReason : Actinide elements are strongly paramagnetic.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true but R is not the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\nGiven below are two statements labelled as Assertion (A) and Reason (R)\nAssertion : Magnetic moment values of actinides are lesser than the\ntheoretically predicted values.\nReason : Actinide elements are strongly paramagnetic.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 5 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Tertiary amines are more basic than corresponding secondary\nand primary amines in gaseous state.\nReason (R): Tertiary amines have three alkyl groups which cause +I effect.\nSelect the most appropriate answer from t",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Tertiary amines are more basic than corresponding secondary\nand primary amines in gaseous state.\nReason (R): Tertiary amines have three alkyl groups which cause +I effect.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": Tertiary amines are more basic than corresponding secondary"
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true but R is not the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nGiven below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Tertiary amines are more basic than corresponding secondary\nand primary amines in gaseous state.\nReason (R): Tertiary amines have three alkyl groups which cause +I effect.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\nd. A is false but R is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 6 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A first-order reaction takes 69.3 min for 50% completion. What is the time needed for\n80% of the reaction to get completed?\n(Given: log 5 =0.6990, log 8 = 0.9030, log 2 = 0.3010)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A first-order reaction takes 69.3 min for 50% completion. What is the time needed for\n80% of the reaction to get completed?\n(Given: log 5 =0.6990, log 8 = 0.9030, log 2 = 0.3010)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nA first-order reaction takes 69.3 min for 50% completion. What is the time needed for\n80% of the reaction to get completed?\n(Given: log 5 =0.6990, log 8 = 0.9030, log 2 = 0.3010)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Account for the following:\na. There are 5 OH groups in glucose\nb. Glucose is a reducing sugar",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Account for the following:\na. There are 5 OH groups in glucose\nb. Glucose is a reducing sugar",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "There are 5 OH groups in glucose"
+                },
+                {
+                  "label": "b",
+                  "text": "Glucose is a reducing sugar"
+                },
+                {
+                  "label": "a",
+                  "text": "Bromine water"
+                },
+                {
+                  "label": "b",
+                  "text": "HNO3"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "What happens when D \u2013 glucose is treated with the following reagents\na. Bromine water\nb.  HNO3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nAccount for the following:\na. There are 5 OH groups in glucose\nb. Glucose is a reducing sugar\nOR\nWhat happens when D \u2013 glucose is treated with the following reagents\na. Bromine water\nb.  HNO3",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Give reason for the following:\na. During the electrophilic substitution reaction of haloarenes, para\nsubstituted derivative is the major product.\nb. The product formed during SN1 reaction is a racemic mixture.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Give reason for the following:\na. During the electrophilic substitution reaction of haloarenes, para\nsubstituted derivative is the major product.\nb. The product formed during SN1 reaction is a racemic mixture.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "During the electrophilic substitution reaction of haloarenes, para"
+                },
+                {
+                  "label": "b",
+                  "text": "The product formed during SN1 reaction is a racemic mixture."
+                },
+                {
+                  "label": "a",
+                  "text": "Name the suitable alcohol and reagent, from which 2-Chloro-2-methyl"
+                },
+                {
+                  "label": "b",
+                  "text": "Out of the Chloromethane and Fluoromethane , which one is has higher"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "a. Name the suitable alcohol and reagent, from which 2-Chloro-2-methyl\npropane can be prepared.\nb. Out of the Chloromethane and Fluoromethane , which one is has higher\ndipole moment and why?",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\nGive reason for the following:\na. During the electrophilic substitution reaction of haloarenes, para\nsubstituted derivative is the major product.\nb. The product formed during SN1 reaction is a racemic mixture.\nOR\na. Name the suitable alcohol and reagent, from which 2-Chloro-2-methyl\npropane can be prepared.\nb. Out of the Chloromethane and Fluoromethane , which one is has higher\ndipole moment and why?",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The formula Co(NH3)5CO3Cl could represent a carbonate or a chloride. Write the\nstructures and names of possible isomers.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The formula Co(NH3)5CO3Cl could represent a carbonate or a chloride. Write the\nstructures and names of possible isomers.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\nThe formula Co(NH3)5CO3Cl could represent a carbonate or a chloride. Write the\nstructures and names of possible isomers.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Corrosion is an electrochemical phenomenon. The oxygen in moist air reacts as\nfollows:\nO2(g) + 2H2O(l) + 4e\u2013 \u2192 4OH\u2013 (aq).\nWrite down the possible reactions for corrosion of zinc occurring at anode, cathode, and\noverall reaction to form a white layer of zinc hydroxide.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Corrosion is an electrochemical phenomenon. The oxygen in moist air reacts as\nfollows:\nO2(g) + 2H2O(l) + 4e\u2013 \u2192 4OH\u2013 (aq).\nWrite down the possible reactions for corrosion of zinc occurring at anode, cathode, and\noverall reaction to form a white layer of zinc hydroxide.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nCorrosion is an electrochemical phenomenon. The oxygen in moist air reacts as\nfollows:\nO2(g) + 2H2O(l) + 4e\u2013 \u2192 4OH\u2013 (aq).\nWrite down the possible reactions for corrosion of zinc occurring at anode, cathode, and\noverall reaction to form a white layer of zinc hydroxide.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Explain how and why will the rate of reaction for a given reaction be affected when\na. a catalyst is added\nb. the temperature at which the reaction was taking place is decreased",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Explain how and why will the rate of reaction for a given reaction be affected when\na. a catalyst is added\nb. the temperature at which the reaction was taking place is decreased",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "a catalyst is added"
+                },
+                {
+                  "label": "b",
+                  "text": "the temperature at which the reaction was taking place is decreased"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\nExplain how and why will the rate of reaction for a given reaction be affected when\na. a catalyst is added\nb. the temperature at which the reaction was taking place is decreased",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Write the reaction and IUPAC name of the product formed when 2-Methylpropanal\n(isobutyraldehyde) is treated with ethyl magnesium bromide followed by hydrolysis.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Write the reaction and IUPAC name of the product formed when 2-Methylpropanal\n(isobutyraldehyde) is treated with ethyl magnesium bromide followed by hydrolysis.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\nWrite the reaction and IUPAC name of the product formed when 2-Methylpropanal\n(isobutyraldehyde) is treated with ethyl magnesium bromide followed by hydrolysis.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Write the equations for the following reaction:\na. Salicylic acid is treated with acetic anhydride in the presence of conc.\nH2SO4\nb. Tert butyl chloride is treated with sodium ethoxide.\nc. Phenol is treated with chloroform in the presence of NaOH",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Write the equations for the following reaction:\na. Salicylic acid is treated with acetic anhydride in the presence of conc.\nH2SO4\nb. Tert butyl chloride is treated with sodium ethoxide.\nc. Phenol is treated with chloroform in the presence of NaOH",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Salicylic acid is treated with acetic anhydride in the presence of conc."
+                },
+                {
+                  "label": "b",
+                  "text": "Tert butyl chloride is treated with sodium ethoxide."
+                },
+                {
+                  "label": "c",
+                  "text": "Phenol is treated with chloroform in the presence of NaOH"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\nWrite the equations for the following reaction:\na. Salicylic acid is treated with acetic anhydride in the presence of conc.\nH2SO4\nb. Tert butyl chloride is treated with sodium ethoxide.\nc. Phenol is treated with chloroform in the presence of NaOH",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Using Valence bond theory, explain the following in relation to the paramagnetic\ncomplex [Mn(CN)6]3-\na. type of hybridization\nb. magnetic moment value\nc. type of complex \u2013 inner, outer orbital complex",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Using Valence bond theory, explain the following in relation to the paramagnetic\ncomplex [Mn(CN)6]3-\na. type of hybridization\nb. magnetic moment value\nc. type of complex \u2013 inner, outer orbital complex",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "type of hybridization"
+                },
+                {
+                  "label": "b",
+                  "text": "magnetic moment value"
+                },
+                {
+                  "label": "c",
+                  "text": "type of complex \u2013 inner, outer orbital complex"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nUsing Valence bond theory, explain the following in relation to the paramagnetic\ncomplex [Mn(CN)6]3-\na. type of hybridization\nb. magnetic moment value\nc. type of complex \u2013 inner, outer orbital complex",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer the following questions:\na. State Henry\u2019s law and explain why are the tanks used by scuba divers\nfilled with air diluted with helium (11.7% helium, 56.2% nitrogen and",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Answer the following questions:\na. State Henry\u2019s law and explain why are the tanks used by scuba divers\nfilled with air diluted with helium (11.7% helium, 56.2% nitrogen and",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\nAnswer the following questions:\na. State Henry\u2019s law and explain why are the tanks used by scuba divers\nfilled with air diluted with helium (11.7% helium, 56.2% nitrogen and",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "1% oxygen)?\nb. Assume that argon exerts a partial pressure of 6 bar. Calculate the\nsolubility of argon gas in water. (Given Henry\u2019s law constant for argon\ndissolved in water, KH = 40kbar)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "1% oxygen)?\nb. Assume that argon exerts a partial pressure of 6 bar. Calculate the\nsolubility of argon gas in water. (Given Henry\u2019s law constant for argon\ndissolved in water, KH = 40kbar)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\n1% oxygen)?\nb. Assume that argon exerts a partial pressure of 6 bar. Calculate the\nsolubility of argon gas in water. (Given Henry\u2019s law constant for argon\ndissolved in water, KH = 40kbar)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Give reasons for any 3 of the following observations:\na. Aniline is acetylated before nitration reaction.\nb. pKb of aniline is lower than the m-nitroaniline.\nc. Primary amine on treatment with benzenesulphonyl chloride forms a\nproduct which is soluble in NaOH however secondary amine gives product\nwh",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Give reasons for any 3 of the following observations:\na. Aniline is acetylated before nitration reaction.\nb. pKb of aniline is lower than the m-nitroaniline.\nc. Primary amine on treatment with benzenesulphonyl chloride forms a\nproduct which is soluble in NaOH however secondary amine gives product\nwhich is insoluble in NaOH.\nd. Aniline does not react with methyl chloride in the presence of anhydrous\nAlCl3 catalyst.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Aniline is acetylated before nitration reaction."
+                },
+                {
+                  "label": "b",
+                  "text": "pKb of aniline is lower than the m-nitroaniline."
+                },
+                {
+                  "label": "c",
+                  "text": "Primary amine on treatment with benzenesulphonyl chloride forms a"
+                },
+                {
+                  "label": "d",
+                  "text": "Aniline does not react with methyl chloride in the presence of anhydrous"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nGive reasons for any 3 of the following observations:\na. Aniline is acetylated before nitration reaction.\nb. pKb of aniline is lower than the m-nitroaniline.\nc. Primary amine on treatment with benzenesulphonyl chloride forms a\nproduct which is soluble in NaOH however secondary amine gives product\nwhich is insoluble in NaOH.\nd. Aniline does not react with methyl chloride in the presence of anhydrous\nAlCl3 catalyst.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "a. Identify the major product formed when 2-cyclohexylchloroethane\nundergoes a dehydrohalogenation reaction. Name the reagent which is\nused to carry out the reaction.\nb.   Why are haloalkanes more reactive towards nucleophilic substitution\nreactions than haloarenes and vinylic halides?",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "a. Identify the major product formed when 2-cyclohexylchloroethane\nundergoes a dehydrohalogenation reaction. Name the reagent which is\nused to carry out the reaction.\nb.   Why are haloalkanes more reactive towards nucleophilic substitution\nreactions than haloarenes and vinylic halides?",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Identify the major product formed when 2-cyclohexylchloroethane"
+                },
+                {
+                  "label": "b",
+                  "text": "Why are haloalkanes more reactive towards nucleophilic substitution"
+                },
+                {
+                  "label": "a",
+                  "text": "Name the possible alkenes which will yield 1-chloro-1-methylcyclohexane"
+                },
+                {
+                  "label": "b",
+                  "text": "Allyl chloride is hydrolysed more readily than n-propyl chloride. Why?"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "a. Name the possible alkenes which will yield 1-chloro-1-methylcyclohexane\non their reaction with HCl. Write the reactions involved.\nb.  Allyl chloride is hydrolysed more readily than n-propyl chloride. Why?\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\na. Identify the major product formed when 2-cyclohexylchloroethane\nundergoes a dehydrohalogenation reaction. Name the reagent which is\nused to carry out the reaction.\nb.   Why are haloalkanes more reactive towards nucleophilic substitution\nreactions than haloarenes and vinylic halides?\nOR\na. Name the possible alkenes which will yield 1-chloro-1-methylcyclohexane\non their reaction with HCl. Write the reactions involved.\nb.  Allyl chloride is hydrolysed more readily than n-propyl chloride. Why?\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Strengthening the Foundation: Chargaff Formulates His \"Rules\"\nMany people believe that  James Watson and Francis Crick discovered DNA in the\n1950s. In reality, this is not the case. Rather, DNA was first identified in the late\n1860s by Swiss chemist Friedrich Miescher. Then, in the decades following",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Strengthening the Foundation: Chargaff Formulates His \"Rules\"\nMany people believe that  James Watson and Francis Crick discovered DNA in the\n1950s. In reality, this is not the case. Rather, DNA was first identified in the late\n1860s by Swiss chemist Friedrich Miescher. Then, in the decades following\nMiescher's discovery, other scientists--notably, Phoebus Levene and Erwin\nChargaff--carried out a series of research efforts that revealed additional details\nabout the DNA molecule, including its primary chemical components and the ways\nin which they joined with one another. Without the scientific foundation provided\nby these pioneers, Watson and Crick may never have reached their\ngroundbreaking conclusion of 1953: that the DNA molecule exists in the form of a\nthree-dimensional double helix.\nChargaff, an Austrian biochemist, as his first step in this DNA research, set out to\nsee whether there were any differences in DNA among different species. After\ndeveloping a new paper chromatography method for separating and identifying\nsmall amounts of organic material, Chargaff reached two major conclusions:\n(i) the nucleotide composition of DNA varies among species.\n(ii) Almost all DNA, no matter what organism or tissue type it comes from maintains\ncertain properties, even as its composition varies. In particular, the amount of\nadenine (A) is similar to the amount of thymine (T), and the amount of guanine (G)\napproximates the amount of cytosine (C). In other words, the total amount of\npurines (A + G) and the total amount of pyrimidines (C + T) are usually nearly\nequal. This conclusion is now known as \"Chargaff's rule.\"\nChargaff\u2019s rule is not obeyed in some viruses. These either have single- stranded\nDNA or RNA as their genetic material.\nAnswer the following questions:\na. A segment of DNA has 100 adenine and 150 cytosine bases. What is the\ntotal number of nucleotides present in this segment of DNA?\nb.  A sample of hair and blood was found at two sites. Scientists claim that the\nsamples belong to same species. How did the scientists arrive at this\nconclusion?\nc. The sample of a virus was tested and it was found to contain 20% adenine,\n20% thymine, 20 % guanine and the rest cytosine. Is the genetic material\nof this virus (a) DNA- double helix (b) DNA-single helix (c) RNA? What do\nyou infer from this data?\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "is similar to the amount of thymine"
+                },
+                {
+                  "label": "c",
+                  "text": ". In other words, the total amount of"
+                },
+                {
+                  "label": "a",
+                  "text": "A segment of DNA has 100 adenine and 150 cytosine bases. What is the"
+                },
+                {
+                  "label": "b",
+                  "text": "A sample of hair and blood was found at two sites. Scientists claim that the"
+                },
+                {
+                  "label": "c",
+                  "text": "The sample of a virus was tested and it was found to contain 20% adenine,"
+                },
+                {
+                  "label": "a",
+                  "text": "DNA- double helix"
+                },
+                {
+                  "label": "b",
+                  "text": "DNA-single helix"
+                },
+                {
+                  "label": "c",
+                  "text": "RNA? What do"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "How can Chargaff\u2019s rule be used to infer that the genetic material of an\norganism is double- helix or single- helix?",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\nStrengthening the Foundation: Chargaff Formulates His \"Rules\"\nMany people believe that  James Watson and Francis Crick discovered DNA in the\n1950s. In reality, this is not the case. Rather, DNA was first identified in the late\n1860s by Swiss chemist Friedrich Miescher. Then, in the decades following\nMiescher's discovery, other scientists--notably, Phoebus Levene and Erwin\nChargaff--carried out a series of research efforts that revealed additional details\nabout the DNA molecule, including its primary chemical components and the ways\nin which they joined with one another. Without the scientific foundation provided\nby these pioneers, Watson and Crick may never have reached their\ngroundbreaking conclusion of 1953: that the DNA molecule exists in the form of a\nthree-dimensional double helix.\nChargaff, an Austrian biochemist, as his first step in this DNA research, set out to\nsee whether there were any differences in DNA among different species. After\ndeveloping a new paper chromatography method for separating and identifying\nsmall amounts of organic material, Chargaff reached two major conclusions:\n(i) the nucleotide composition of DNA varies among species.\n(ii) Almost all DNA, no matter what organism or tissue type it comes from maintains\ncertain properties, even as its composition varies. In particular, the amount of\nadenine (A) is similar to the amount of thymine (T), and the amount of guanine (G)\napproximates the amount of cytosine (C). In other words, the total amount of\npurines (A + G) and the total amount of pyrimidines (C + T) are usually nearly\nequal. This conclusion is now known as \"Chargaff's rule.\"\nChargaff\u2019s rule is not obeyed in some viruses. These either have single- stranded\nDNA or RNA as their genetic material.\nAnswer the following questions:\na. A segment of DNA has 100 adenine and 150 cytosine bases. What is the\ntotal number of nucleotides present in this segment of DNA?\nb.  A sample of hair and blood was found at two sites. Scientists claim that the\nsamples belong to same species. How did the scientists arrive at this\nconclusion?\nc. The sample of a virus was tested and it was found to contain 20% adenine,\n20% thymine, 20 % guanine and the rest cytosine. Is the genetic material\nof this virus (a) DNA- double helix (b) DNA-single helix (c) RNA? What do\nyou infer from this data?\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\nOR\nHow can Chargaff\u2019s rule be used to infer that the genetic material of an\norganism is double- helix or single- helix?",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Henna is investigating the melting point of different salt solutions.\nShe makes a salt solution using 10 mL of water with a known mass of NaCl salt.\nShe puts the salt solution into a freezer and leaves it to freeze.\nShe takes the frozen salt solution out of the freezer and measures the\ntemperature w",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Henna is investigating the melting point of different salt solutions.\nShe makes a salt solution using 10 mL of water with a known mass of NaCl salt.\nShe puts the salt solution into a freezer and leaves it to freeze.\nShe takes the frozen salt solution out of the freezer and measures the\ntemperature when the frozen salt solution melts.\nShe repeats each experiment.\nS.No\nMass of the salt\nused in g\nMelting point in 0C\nReadings Set 1\nReading Set 2\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\nHenna is investigating the melting point of different salt solutions.\nShe makes a salt solution using 10 mL of water with a known mass of NaCl salt.\nShe puts the salt solution into a freezer and leaves it to freeze.\nShe takes the frozen salt solution out of the freezer and measures the\ntemperature when the frozen salt solution melts.\nShe repeats each experiment.\nS.No\nMass of the salt\nused in g\nMelting point in 0C\nReadings Set 1\nReading Set 2\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "3\n-1.9\n-1.9\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "3\n-1.9\n-1.9\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\n3\n-1.9\n-1.9\n2",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q0 has suspiciously short stem text ('3\n-1.9\n-1.9\n2'); Question Q0 has suspiciously short stem text ('4\n-2.5\n-2.6\n3'); Question Q0 has suspiciously short stem text ('5\n-3.0\n-5.5\n4'); Question Q0 has suspiciously short stem text ('6\n-3.8\n-3.8\n5'); Question Q0 has suspiciously short stem text ('8\n-5.1\n-5.0\n6')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "4\n-2.5\n-2.6\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "4\n-2.5\n-2.6\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\n4\n-2.5\n-2.6\n3",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q0 has suspiciously short stem text ('3\n-1.9\n-1.9\n2'); Question Q0 has suspiciously short stem text ('4\n-2.5\n-2.6\n3'); Question Q0 has suspiciously short stem text ('5\n-3.0\n-5.5\n4'); Question Q0 has suspiciously short stem text ('6\n-3.8\n-3.8\n5'); Question Q0 has suspiciously short stem text ('8\n-5.1\n-5.0\n6')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "5\n-3.0\n-5.5\n4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "5\n-3.0\n-5.5\n4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\n5\n-3.0\n-5.5\n4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q0 has suspiciously short stem text ('3\n-1.9\n-1.9\n2'); Question Q0 has suspiciously short stem text ('4\n-2.5\n-2.6\n3'); Question Q0 has suspiciously short stem text ('5\n-3.0\n-5.5\n4'); Question Q0 has suspiciously short stem text ('6\n-3.8\n-3.8\n5'); Question Q0 has suspiciously short stem text ('8\n-5.1\n-5.0\n6')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "6\n-3.8\n-3.8\n5",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "6\n-3.8\n-3.8\n5",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\n6\n-3.8\n-3.8\n5",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q0 has suspiciously short stem text ('3\n-1.9\n-1.9\n2'); Question Q0 has suspiciously short stem text ('4\n-2.5\n-2.6\n3'); Question Q0 has suspiciously short stem text ('5\n-3.0\n-5.5\n4'); Question Q0 has suspiciously short stem text ('6\n-3.8\n-3.8\n5'); Question Q0 has suspiciously short stem text ('8\n-5.1\n-5.0\n6')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "8\n-5.1\n-5.0\n6",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "8\n-5.1\n-5.0\n6",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\n8\n-5.1\n-5.0\n6",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q0 has suspiciously short stem text ('3\n-1.9\n-1.9\n2'); Question Q0 has suspiciously short stem text ('4\n-2.5\n-2.6\n3'); Question Q0 has suspiciously short stem text ('5\n-3.0\n-5.5\n4'); Question Q0 has suspiciously short stem text ('6\n-3.8\n-3.8\n5'); Question Q0 has suspiciously short stem text ('8\n-5.1\n-5.0\n6')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "0\n-6.4\n-6.3\nAssuming the melting point of pure water as 0oC, answer the following\nquestions:\na. One temperature in the second set of results does not fit the pattern.\nWhich temperature is that? Justify your answer.\nb. Why did Henna collect two sets of results?\nc. In place of NaCl, if Henna had used ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "0\n-6.4\n-6.3\nAssuming the melting point of pure water as 0oC, answer the following\nquestions:\na. One temperature in the second set of results does not fit the pattern.\nWhich temperature is that? Justify your answer.\nb. Why did Henna collect two sets of results?\nc. In place of NaCl, if Henna had used glucose, what would have been the\nmelting point of the solution with 0.6 g glucose in it?",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "One temperature in the second set of results does not fit the pattern."
+                },
+                {
+                  "label": "b",
+                  "text": "Why did Henna collect two sets of results?"
+                },
+                {
+                  "label": "c",
+                  "text": "In place of NaCl, if Henna had used glucose, what would have been the"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "What is the predicted melting point if 1.2 g of salt is added to 10 mL of\nwater? Justify your answer.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\n0\n-6.4\n-6.3\nAssuming the melting point of pure water as 0oC, answer the following\nquestions:\na. One temperature in the second set of results does not fit the pattern.\nWhich temperature is that? Justify your answer.\nb. Why did Henna collect two sets of results?\nc. In place of NaCl, if Henna had used glucose, what would have been the\nmelting point of the solution with 0.6 g glucose in it?\nOR\nWhat is the predicted melting point if 1.2 g of salt is added to 10 mL of\nwater? Justify your answer.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "a. Why does the cell voltage of a mercury cell remain constant during its\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10\nlifetime?\nb. Write the reaction occurring at anode and cathode and the products of\nelectrolysis of aq KCl.\nc. What is the pH of HCl solution when the hydrogen gas electrode shows\n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "a. Why does the cell voltage of a mercury cell remain constant during its\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10\nlifetime?\nb. Write the reaction occurring at anode and cathode and the products of\nelectrolysis of aq KCl.\nc. What is the pH of HCl solution when the hydrogen gas electrode shows\na potential of -0.59 V at standard temperature and pressure?",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Why does the cell voltage of a mercury cell remain constant during its"
+                },
+                {
+                  "label": "b",
+                  "text": "Write the reaction occurring at anode and cathode and the products of"
+                },
+                {
+                  "label": "c",
+                  "text": "What is the pH of HCl solution when the hydrogen gas electrode shows"
+                },
+                {
+                  "label": "a",
+                  "text": "Molar conductivity of substance \u201cA\u201d  is 5.9\u00d7103 S/m and \u201cB\u201d is 1 x 10-16"
+                },
+                {
+                  "label": "b",
+                  "text": "What is the quantity of electricity in Coulombs required to produce 4.8 g of"
+                },
+                {
+                  "label": "c",
+                  "text": "What is the standard free energy change for the following reaction at room"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "a. Molar conductivity of substance \u201cA\u201d  is 5.9\u00d7103 S/m and \u201cB\u201d is 1 x 10-16\nS/m. Which of the two is most likely to be copper metal and why?\nb. What is the quantity of electricity in Coulombs required to produce 4.8 g of\nMg from molten MgCl2? How much Ca will be produced if the same\namount of electricity was passed through molten CaCl2? (Atomic mass of\nMg = 24 u, atomic mass of Ca = 40 u).\nc. What is the standard free energy change for the following reaction at room\ntemperature? Is the reaction spontaneous?\nSn(s) + 2Cu2+ (aq) \u00e0 Sn2+ (aq) + 2Cu+ (s)",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\na. Why does the cell voltage of a mercury cell remain constant during its\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10\nlifetime?\nb. Write the reaction occurring at anode and cathode and the products of\nelectrolysis of aq KCl.\nc. What is the pH of HCl solution when the hydrogen gas electrode shows\na potential of -0.59 V at standard temperature and pressure?\nOR\na. Molar conductivity of substance \u201cA\u201d  is 5.9\u00d7103 S/m and \u201cB\u201d is 1 x 10-16\nS/m. Which of the two is most likely to be copper metal and why?\nb. What is the quantity of electricity in Coulombs required to produce 4.8 g of\nMg from molten MgCl2? How much Ca will be produced if the same\namount of electricity was passed through molten CaCl2? (Atomic mass of\nMg = 24 u, atomic mass of Ca = 40 u).\nc. What is the standard free energy change for the following reaction at room\ntemperature? Is the reaction spontaneous?\nSn(s) + 2Cu2+ (aq) \u00e0 Sn2+ (aq) + 2Cu+ (s)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "A hydrocarbon (A) with molecular formula C5H10 on ozonolysis gives two products\n(B) and ( C). Both (B) and (C) give a yellow precipitate when heated with iodine in\npresence of NaOH while only (B) give a silver mirror on reaction with Tollen\u2019s\nreagent.\na. Identify (A), (B) and (C).\nb. Write the react",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A hydrocarbon (A) with molecular formula C5H10 on ozonolysis gives two products\n(B) and ( C). Both (B) and (C) give a yellow precipitate when heated with iodine in\npresence of NaOH while only (B) give a silver mirror on reaction with Tollen\u2019s\nreagent.\na. Identify (A), (B) and (C).\nb. Write the reaction of B with Tollen\u2019s reagent\nc. Write the equation for iodoform test for C\nd. Write down the equation for aldol condensation reaction of B and C.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "with molecular formula C5H10 on ozonolysis gives two products"
+                },
+                {
+                  "label": "b",
+                  "text": "and"
+                },
+                {
+                  "label": "c",
+                  "text": ". Both"
+                },
+                {
+                  "label": "b",
+                  "text": "and"
+                },
+                {
+                  "label": "c",
+                  "text": "give a yellow precipitate when heated with iodine in"
+                },
+                {
+                  "label": "b",
+                  "text": "give a silver mirror on reaction with Tollen\u2019s"
+                },
+                {
+                  "label": "a",
+                  "text": "Identify"
+                },
+                {
+                  "label": "a",
+                  "text": ","
+                },
+                {
+                  "label": "b",
+                  "text": "and"
+                },
+                {
+                  "label": "c",
+                  "text": "."
+                },
+                {
+                  "label": "b",
+                  "text": "Write the reaction of B with Tollen\u2019s reagent"
+                },
+                {
+                  "label": "c",
+                  "text": "Write the equation for iodoform test for C"
+                },
+                {
+                  "label": "d",
+                  "text": "Write down the equation for aldol condensation reaction of B and C."
+                },
+                {
+                  "label": "a",
+                  "text": "with molecular formula C2Cl3O2H is obtained when"
+                },
+                {
+                  "label": "b",
+                  "text": "reacts with Red P and Cl2. The organic compound"
+                },
+                {
+                  "label": "b",
+                  "text": "can be obtained on the"
+                },
+                {
+                  "label": "a",
+                  "text": "Identify A and B"
+                },
+                {
+                  "label": "b",
+                  "text": "Write down the reaction for the formation of A from B. What is this reaction"
+                },
+                {
+                  "label": "c",
+                  "text": "Give any one method by which organic compound B can be prepared from"
+                },
+                {
+                  "label": "d",
+                  "text": "Which will be the more acidic compound"
+                },
+                {
+                  "label": "a",
+                  "text": "or"
+                },
+                {
+                  "label": "b",
+                  "text": "? Why?"
+                },
+                {
+                  "label": "b",
+                  "text": "."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "An organic compound (A) with molecular formula C2Cl3O2H is obtained when (B)\nreacts with Red P and Cl2. The organic compound (B) can be obtained on the\nreaction of methyl magnesium chloride with dry ice followed by acid hydrolysis.\na. Identify A and B\nb. Write down the reaction for the formation of A from B. What is this reaction\ncalled?\nc. Give any one method by which organic compound B can be prepared from\nits corresponding acid chloride.\nd. Which will be the more acidic compound (A) or (B)? Why?\ne. Write down the reaction to prepare methane from the compound (B).",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\nA hydrocarbon (A) with molecular formula C5H10 on ozonolysis gives two products\n(B) and ( C). Both (B) and (C) give a yellow precipitate when heated with iodine in\npresence of NaOH while only (B) give a silver mirror on reaction with Tollen\u2019s\nreagent.\na. Identify (A), (B) and (C).\nb. Write the reaction of B with Tollen\u2019s reagent\nc. Write the equation for iodoform test for C\nd. Write down the equation for aldol condensation reaction of B and C.\nOR\nAn organic compound (A) with molecular formula C2Cl3O2H is obtained when (B)\nreacts with Red P and Cl2. The organic compound (B) can be obtained on the\nreaction of methyl magnesium chloride with dry ice followed by acid hydrolysis.\na. Identify A and B\nb. Write down the reaction for the formation of A from B. What is this reaction\ncalled?\nc. Give any one method by which organic compound B can be prepared from\nits corresponding acid chloride.\nd. Which will be the more acidic compound (A) or (B)? Why?\ne. Write down the reaction to prepare methane from the compound (B).",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 23 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 23 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q35",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer the following:\na. Why are all copper halides known except that copper iodide?\nb. Why is the Eo(V3+/V2+) value for vanadium comparatively low?\nc. Why HCl should not be used for potassium permanganate titrations?\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n11\nd. Explain the observation, at the",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Answer the following:\na. Why are all copper halides known except that copper iodide?\nb. Why is the Eo(V3+/V2+) value for vanadium comparatively low?\nc. Why HCl should not be used for potassium permanganate titrations?\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n11\nd. Explain the observation, at the end of each period, there is a slight\nincrease in the atomic radius of d block elements.\ne. What is the effect of pH on dichromate ion solution?\n<!-- PAGE 11 END -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Why are all copper halides known except that copper iodide?"
+                },
+                {
+                  "label": "b",
+                  "text": "Why is the Eo"
+                },
+                {
+                  "label": "c",
+                  "text": "Why HCl should not be used for potassium permanganate titrations?"
+                },
+                {
+                  "label": "d",
+                  "text": "Explain the observation, at the end of each period, there is a slight"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 35.\nAnswer the following:\na. Why are all copper halides known except that copper iodide?\nb. Why is the Eo(V3+/V2+) value for vanadium comparatively low?\nc. Why HCl should not be used for potassium permanganate titrations?\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n11\nd. Explain the observation, at the end of each period, there is a slight\nincrease in the atomic radius of d block elements.\ne. What is the effect of pH on dichromate ion solution?\n<!-- PAGE 11 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

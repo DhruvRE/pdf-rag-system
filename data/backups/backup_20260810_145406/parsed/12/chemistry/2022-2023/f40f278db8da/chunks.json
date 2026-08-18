@@ -1,0 +1,898 @@
+{
+  "paper_id": "f40f278db8da",
+  "class": "12",
+  "subject": "chemistry",
+  "year": "2022-2023",
+  "total_chunks": 30,
+  "chunks": [
+    {
+      "chunk_id": "f40f278db8da_q1",
+      "paper_id": "f40f278db8da",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "1. The major product of acid catalysed dehydration of 1-methylcyclohexanol is:\na. 1-methylcyclohexane\nb.  1-methylcyclohexene\nc. 1-cyclohexylmethanol\n\n\nOptions:\n(a) 1-methylcyclohexane\n(b) 1-methylcyclohexene\n(c) 1-cyclohexylmethanol\n(d) 1-methylenecyclohexane",
+      "raw_text": "1. The major product of acid catalysed dehydration of 1-methylcyclohexanol is:\na. 1-methylcyclohexane\nb.  1-methylcyclohexene\nc. 1-cyclohexylmethanol",
+      "options": [
+        "(a) 1-methylcyclohexane",
+        "(b) 1-methylcyclohexene",
+        "(c) 1-cyclohexylmethanol",
+        "(d) 1-methylenecyclohexane"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        432.22,
+        492.56,
+        513.55
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q2",
+      "paper_id": "f40f278db8da",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "2. Which one of the following compounds is more reactive towards SN1 reaction?\na. CH2=CHCH2Br\nb. C6H5CH2Br\nc. C6H5CH (C6H5)Br\n\n\nOptions:\n(a) CH2=CHCH2Br\n(b) C6H5CH2Br\n(c) C6H5CH (C6H5)Br\n(d) C6H5CH(CH3) Br",
+      "raw_text": "2. Which one of the following compounds is more reactive towards SN1 reaction?\na. CH2=CHCH2Br\nb. C6H5CH2Br\nc. C6H5CH (C6H5)Br",
+      "options": [
+        "(a) CH2=CHCH2Br",
+        "(b) C6H5CH2Br",
+        "(c) C6H5CH (C6H5)Br",
+        "(d) C6H5CH(CH3) Br"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        526.06,
+        503.72,
+        607.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q3",
+      "paper_id": "f40f278db8da",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "3. KMnO4 is coloured due to:\na. d-d transitions\nb. charge transfer from ligand to metal\nc. unpaired electrons in d orbital of Mn\n\n\nOptions:\n(a) d-d transitions\n(b) charge transfer from ligand to metal\n(c) unpaired electrons in d orbital of Mn\n(d) charge transfer from metal to ligand",
+      "raw_text": "3. KMnO4 is coloured due to:\na. d-d transitions\nb. charge transfer from ligand to metal\nc. unpaired electrons in d orbital of Mn",
+      "options": [
+        "(a) d-d transitions",
+        "(b) charge transfer from ligand to metal",
+        "(c) unpaired electrons in d orbital of Mn",
+        "(d) charge transfer from metal to ligand"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        620.05,
+        338.21,
+        701.5
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q4",
+      "paper_id": "f40f278db8da",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "4. Which radioactive isotope would have the longer half- life 15O or 19O? (Given rate\nconstants for 15O and   19O  are 5.63x 10-3 s-1 and k = 2.38 x 10-2s-1 respectively.)\na. 15O\nb. 19O\nc. Both will have the same half-life\n\n\nOptions:\n(a) 15O\n(b) 19O\n(c) Both will have the same half-life\n(d) None of the above, information given is insufficient",
+      "raw_text": "4. Which radioactive isotope would have the longer half- life 15O or 19O? (Given rate\nconstants for 15O and   19O  are 5.63x 10-3 s-1 and k = 2.38 x 10-2s-1 respectively.)\na. 15O\nb. 19O\nc. Both will have the same half-life",
+      "options": [
+        "(a) 15O",
+        "(b) 19O",
+        "(c) Both will have the same half-life",
+        "(d) None of the above, information given is insufficient"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        72.29,
+        518.58,
+        167.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q5",
+      "paper_id": "f40f278db8da",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "5. The molar conductivity of CH3COOH at infinite dilution is 390 Scm2/mol. Using the\ngraph and given information, the molar conductivity of CH3COOK will be:",
+      "raw_text": "5. The molar conductivity of CH3COOH at infinite dilution is 390 Scm2/mol. Using the\ngraph and given information, the molar conductivity of CH3COOK will be:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a.  100 Scm2/mol",
+        "b. 115 Scm2/mol",
+        "c.  150 Scm2/mol",
+        "d. 125 Scm2/mol\n*FOR VISUALLY CHALLENGED LEARNERS\n*5.  What is the molar conductance at infinite dilution for sodium chloride if the molar\nconductance at infinite dilution of Na+ and Cl- ions are 51.12 \u00d7 10-4 Scm2/mol and\n73.54\u00d7 10-4 Scm2/mol respectively?",
+        "a.  124.66 Scm2/mol",
+        "b. 22.42 Scm2/mol",
+        "c.  198.20Scm2/mol",
+        "d. 175.78 Scm2/mol"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q5_1.png"
+      ],
+      "bounding_box": [
+        72.02,
+        180.05,
+        523.44,
+        626.02
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q6",
+      "paper_id": "f40f278db8da",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "6. For the reaction, A +2B  \u2192  AB2,  the order w.r.t. reactant A is 2 and w.r.t. reactant B.\nWhat will be change in rate of reaction if the concentration of A is doubled and B is\nhalved?\na.  increases four times\nb.  decreases four times\nc.  increases two times\n\n\nOptions:\n(a) increases four times\n(b) decreases four times\n(c) increases two times\n(d) no change",
+      "raw_text": "6. For the reaction, A +2B  \u2192  AB2,  the order w.r.t. reactant A is 2 and w.r.t. reactant B.\nWhat will be change in rate of reaction if the concentration of A is doubled and B is\nhalved?\na.  increases four times\nb.  decreases four times\nc.  increases two times",
+      "options": [
+        "(a) increases four times",
+        "(b) decreases four times",
+        "(c) increases two times",
+        "(d) no change"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        72.29,
+        532.8,
+        181.34
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q7",
+      "paper_id": "f40f278db8da",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "7. Arrange the following in the increasing order of their boiling points:\nA : Butanamine, B: N,N-Dimethylethanamine, C: N- Etthylethanaminamine\na. C<B<A\nb.  A<B<C\nc.  A<C<B\n\n\nOptions:\n(a) C<B<A\n(b) A<B<C\n(c) A<C<B\n(d) B<C<A",
+      "raw_text": "7. Arrange the following in the increasing order of their boiling points:\nA : Butanamine, B: N,N-Dimethylethanamine, C: N- Etthylethanaminamine\na. C<B<A\nb.  A<B<C\nc.  A<C<B",
+      "options": [
+        "(a) C<B<A",
+        "(b) A<B<C",
+        "(c) A<C<B",
+        "(d) B<C<A"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        195.65,
+        493.04,
+        302.93
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q8",
+      "paper_id": "f40f278db8da",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "8. The CFSE of [CoCl6]3- is 18000 cm-1 the CFSE for [CoCl4]- will be:\na. 18000 cm-1\nb. 8000cm-1\nc. 2000 cm-1\n\n\nOptions:\n(a) 18000 cm-1\n(b) 8000cm-1\n(c) 2000 cm-1\n(d) 16000 cm-1",
+      "raw_text": "8. The CFSE of [CoCl6]3- is 18000 cm-1 the CFSE for [CoCl4]- will be:\na. 18000 cm-1\nb. 8000cm-1\nc. 2000 cm-1",
+      "options": [
+        "(a) 18000 cm-1",
+        "(b) 8000cm-1",
+        "(c) 2000 cm-1",
+        "(d) 16000 cm-1"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        315.32,
+        443.81,
+        396.77
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q9",
+      "paper_id": "f40f278db8da",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "9. What would be the major product of the following reaction?\nC6H5 -CH2-OC6H5 + HBr  \u2192  A + B\na. A= C6H5CH2OH , B= C6H6\nb. A=C6H5CH2OH ,B= C6H5Br\nc. A=C6H5CH3  ,B= C6H5Br\n\n\nOptions:\n(a) A= C6H5CH2OH , B= C6H6\n(b) A=C6H5CH2OH ,B= C6H5Br\n(c) A=C6H5CH3  ,B= C6H5Br\n(d) A=C6H5CH2Br , B= C6H5OH",
+      "raw_text": "9. What would be the major product of the following reaction?\nC6H5 -CH2-OC6H5 + HBr  \u2192  A + B\na. A= C6H5CH2OH , B= C6H6\nb. A=C6H5CH2OH ,B= C6H5Br\nc. A=C6H5CH3  ,B= C6H5Br",
+      "options": [
+        "(a) A= C6H5CH2OH , B= C6H6",
+        "(b) A=C6H5CH2OH ,B= C6H5Br",
+        "(c) A=C6H5CH3  ,B= C6H5Br",
+        "(d) A=C6H5CH2Br , B= C6H5OH"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        409.28,
+        401.21,
+        516.55
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q10",
+      "paper_id": "f40f278db8da",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "10. Which of the following statements is not correct for amines?\na. Most alkyl amines are more basic than ammonia solution.\nb. pKb value of ethylamine is lower than benzylamine.\nc. CH3NH2 on reaction with nitrous acid releases NO2 gas.\n\n\nOptions:\n(a) Most alkyl amines are more basic than ammonia solution.\n(b) pKb value of ethylamine is lower than benzylamine.\n(c) CH3NH2 on reaction with nitrous acid releases NO2 gas.\n(d) Hinsberg\u2019s reagent reacts with secondary amines to form sulphonamides.",
+      "raw_text": "10. Which of the following statements is not correct for amines?\na. Most alkyl amines are more basic than ammonia solution.\nb. pKb value of ethylamine is lower than benzylamine.\nc. CH3NH2 on reaction with nitrous acid releases NO2 gas.",
+      "options": [
+        "(a) Most alkyl amines are more basic than ammonia solution.",
+        "(b) pKb value of ethylamine is lower than benzylamine.",
+        "(c) CH3NH2 on reaction with nitrous acid releases NO2 gas.",
+        "(d) Hinsberg\u2019s reagent reacts with secondary amines to form sulphonamides."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        529.06,
+        541.04,
+        610.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q11",
+      "paper_id": "f40f278db8da",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "11. Which of the following tests/ reactions is given by aldehydes as well as ketones?\na. Fehling\u2019s test\nb. Tollen\u2019s test\nc. 2,4 DNP test\n\n\nOptions:\n(a) Fehling\u2019s test\n(b) Tollen\u2019s test\n(c) 2,4 DNP test\n(d) Cannizzaro reaction",
+      "raw_text": "11. Which of the following tests/ reactions is given by aldehydes as well as ketones?\na. Fehling\u2019s test\nb. Tollen\u2019s test\nc. 2,4 DNP test",
+      "options": [
+        "(a) Fehling\u2019s test",
+        "(b) Tollen\u2019s test",
+        "(c) 2,4 DNP test",
+        "(d) Cannizzaro reaction"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q11_1.png"
+      ],
+      "bounding_box": [
+        72.02,
+        623.05,
+        524.96,
+        704.5
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q12",
+      "paper_id": "f40f278db8da",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "12. Arrhenius equation can be represented graphically as follows:\nThe (i) intercept and (ii) slope of the graph are:",
+      "raw_text": "12. Arrhenius equation can be represented graphically as follows:\nThe (i) intercept and (ii) slope of the graph are:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. (i) ln A (ii) Ea/R",
+        "b. (i) A     (ii) Ea",
+        "c. (i)ln A  (ii) - Ea/R",
+        "d. (i) A     (ii)  -Ea\n*FOR VISUALLY CHALLENGED LEARNERS\n*12.       The unit of rate constant for the reaction\n2A + 2B \u2192 A2B2\nwhich has rate = k [A]2[B] is:",
+        "a.  mol L-1s-1",
+        "b. s-1",
+        "c. mol L-1",
+        "d. mol-2 L2 s-1"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        72.29,
+        425.57,
+        471.43
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q13",
+      "paper_id": "f40f278db8da",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "13. The number of ions formed on dissolving one molecule of FeSO4.(NH4)2SO4.6H2O\nin water is:",
+      "raw_text": "13. The number of ions formed on dissolving one molecule of FeSO4.(NH4)2SO4.6H2O\nin water is:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. 3",
+        "b. 4",
+        "c. 5",
+        "d. 6"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        483.94,
+        533.84,
+        579.19
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q14",
+      "paper_id": "f40f278db8da",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "14. The oxidation of toluene to benzaldehyde by chromyl chloride is called\na. Etard reaction\nb. Riemer-Tiemann reaction\nc. Stephen\u2019s reaction\n\n\nOptions:\n(a) Etard reaction\n(b) Riemer-Tiemann reaction\n(c) Stephen\u2019s reaction\n(d) Cannizzaro\u2019s reaction",
+      "raw_text": "14. The oxidation of toluene to benzaldehyde by chromyl chloride is called\na. Etard reaction\nb. Riemer-Tiemann reaction\nc. Stephen\u2019s reaction",
+      "options": [
+        "(a) Etard reaction",
+        "(b) Riemer-Tiemann reaction",
+        "(c) Stephen\u2019s reaction",
+        "(d) Cannizzaro\u2019s reaction"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        591.73,
+        470.96,
+        673.18
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q15",
+      "paper_id": "f40f278db8da",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "15. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): An ether is more volatile than an alcohol of comparable molecular\nmass.\nReason (R): Ethers are polar in nature.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "15. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): An ether is more volatile than an alcohol of comparable molecular\nmass.\nReason (R): Ethers are polar in nature.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        685.69,
+        493.64,
+        700.14
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q16",
+      "paper_id": "f40f278db8da",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "16. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Proteins are found to have two different types of secondary\nstructures viz alpha-helix and beta-pleated sheet structure.\nReason (R): The secondary structure of proteins is stabilized by hydrogen\nbonding.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "16. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Proteins are found to have two different types of secondary\nstructures viz alpha-helix and beta-pleated sheet structure.\nReason (R): The secondary structure of proteins is stabilized by hydrogen\nbonding.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        196.49,
+        613.85,
+        348.77
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q17",
+      "paper_id": "f40f278db8da",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "17. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion : Magnetic moment values of actinides are lesser than the\ntheoretically predicted values.\nReason : Actinide elements are strongly paramagnetic.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "17. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion : Magnetic moment values of actinides are lesser than the\ntheoretically predicted values.\nReason : Actinide elements are strongly paramagnetic.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        363.2,
+        493.64,
+        503.59
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q18",
+      "paper_id": "f40f278db8da",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "18. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Tertiary amines are more basic than corresponding secondary\nand primary amines in gaseous state.\nReason (R): Tertiary amines have three alkyl groups which cause +I effect.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "18. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Tertiary amines are more basic than corresponding secondary\nand primary amines in gaseous state.\nReason (R): Tertiary amines have three alkyl groups which cause +I effect.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        517.9,
+        524.1,
+        656.26
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "f40f278db8da_q19",
+      "paper_id": "f40f278db8da",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "19. A first-order reaction takes 69.3 min for 50% completion. What is the time needed for\n80% of the reaction to get completed?\n(Given: log 5 =0.6990, log 8 = 0.9030, log 2 = 0.3010)",
+      "raw_text": "19. A first-order reaction takes 69.3 min for 50% completion. What is the time needed for\n80% of the reaction to get completed?\n(Given: log 5 =0.6990, log 8 = 0.9030, log 2 = 0.3010)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        111.8,
+        543.09,
+        152.78
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "f40f278db8da_q20",
+      "paper_id": "f40f278db8da",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "20. Account for the following:",
+      "raw_text": "20. Account for the following:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. There are 5 OH groups in glucose",
+        "b. Glucose is a reducing sugar",
+        "OR",
+        "What happens when D \u2013 glucose is treated with the following reagents",
+        "a. Bromine water",
+        "b.  HNO3"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        167.0,
+        472.28,
+        290.81
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q21",
+      "paper_id": "f40f278db8da",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "21. Give reason for the following:",
+      "raw_text": "21. Give reason for the following:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. During the electrophilic substitution reaction of haloarenes, para\nsubstituted derivative is the major product.",
+        "b. The product formed during SN1 reaction is a racemic mixture.",
+        "OR",
+        "a. Name the suitable alcohol and reagent, from which 2-Chloro-2-methyl\npropane can be prepared.",
+        "b. Out of the Chloromethane and Fluoromethane , which one is has higher\ndipole moment and why?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        305.03,
+        532.88,
+        452.83
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q22",
+      "paper_id": "f40f278db8da",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "22. The formula Co(NH3)5CO3Cl could represent a carbonate or a chloride. Write the\nstructures and names of possible isomers.",
+      "raw_text": "22. The formula Co(NH3)5CO3Cl could represent a carbonate or a chloride. Write the\nstructures and names of possible isomers.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        467.05,
+        521.09,
+        494.23
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "f40f278db8da_q23",
+      "paper_id": "f40f278db8da",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "23.  Corrosion is an electrochemical phenomenon. The oxygen in moist air reacts as\nfollows:\nO2(g) + 2H2O(l) + 4e\u2013 \u2192 4OH\u2013 (aq).\nWrite down the possible reactions for corrosion of zinc occurring at anode, cathode, and\noverall reaction to form a white layer of zinc hydroxide.",
+      "raw_text": "23.  Corrosion is an electrochemical phenomenon. The oxygen in moist air reacts as\nfollows:\nO2(g) + 2H2O(l) + 4e\u2013 \u2192 4OH\u2013 (aq).\nWrite down the possible reactions for corrosion of zinc occurring at anode, cathode, and\noverall reaction to form a white layer of zinc hydroxide.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        508.45,
+        541.3,
+        601.03
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "f40f278db8da_q24",
+      "paper_id": "f40f278db8da",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "24. Explain how and why will the rate of reaction for a given reaction be affected when",
+      "raw_text": "24. Explain how and why will the rate of reaction for a given reaction be affected when",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. a catalyst is added",
+        "b. the temperature at which the reaction was taking place is decreased"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        613.48,
+        529.64,
+        654.46
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q25",
+      "paper_id": "f40f278db8da",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "25. Write the reaction and IUPAC name of the product formed when 2-Methylpropanal\n(isobutyraldehyde) is treated with ethyl magnesium bromide followed by hydrolysis.",
+      "raw_text": "25. Write the reaction and IUPAC name of the product formed when 2-Methylpropanal\n(isobutyraldehyde) is treated with ethyl magnesium bromide followed by hydrolysis.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        668.68,
+        529.67,
+        695.86
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "f40f278db8da_q26",
+      "paper_id": "f40f278db8da",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "26. Write the equations for the following reaction:",
+      "raw_text": "26. Write the equations for the following reaction:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Salicylic acid is treated with acetic anhydride in the presence of conc.\nH2SO4",
+        "b. Tert butyl chloride is treated with sodium ethoxide.",
+        "c. Phenol is treated with chloroform in the presence of NaOH"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        141.2,
+        541.83,
+        209.78
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q27",
+      "paper_id": "f40f278db8da",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "27.  Using Valence bond theory, explain the following in relation to the paramagnetic\ncomplex [Mn(CN)6]3-",
+      "raw_text": "27.  Using Valence bond theory, explain the following in relation to the paramagnetic\ncomplex [Mn(CN)6]3-",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. type of hybridization",
+        "b. magnetic moment value",
+        "c. type of complex \u2013 inner, outer orbital complex"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        224.0,
+        523.88,
+        292.61
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q28",
+      "paper_id": "f40f278db8da",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "28. Answer the following questions:",
+      "raw_text": "28. Answer the following questions:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. State Henry\u2019s law and explain why are the tanks used by scuba divers\nfilled with air diluted with helium (11.7% helium, 56.2% nitrogen and\n32.1% oxygen)?",
+        "b. Assume that argon exerts a partial pressure of 6 bar. Calculate the\nsolubility of argon gas in water. (Given Henry\u2019s law constant for argon\ndissolved in water, KH = 40kbar)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        306.83,
+        518.76,
+        403.01
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q29",
+      "paper_id": "f40f278db8da",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "29. Give reasons for any 3 of the following observations:",
+      "raw_text": "29. Give reasons for any 3 of the following observations:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Aniline is acetylated before nitration reaction.",
+        "b. pKb of aniline is lower than the m-nitroaniline.",
+        "c. Primary amine on treatment with benzenesulphonyl chloride forms a\nproduct which is soluble in NaOH however secondary amine gives product\nwhich is insoluble in NaOH.",
+        "d. Aniline does not react with methyl chloride in the presence of anhydrous\nAlCl3 catalyst."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        417.25,
+        543.08,
+        527.23
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "f40f278db8da_q30",
+      "paper_id": "f40f278db8da",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "30.          a. Identify the major product formed when 2-cyclohexylchloroethane\nundergoes a dehydrohalogenation reaction. Name the reagent which is\nused to carry out the reaction.",
+      "raw_text": "30.          a. Identify the major product formed when 2-cyclohexylchloroethane\nundergoes a dehydrohalogenation reaction. Name the reagent which is\nused to carry out the reaction.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "b.   Why are haloalkanes more reactive towards nucleophilic substitution\nreactions than haloarenes and vinylic halides?",
+        "OR",
+        "a. Name the possible alkenes which will yield 1-chloro-1-methylcyclohexane\non their reaction with HCl. Write the reactions involved.",
+        "b.  Allyl chloride is hydrolysed more readily than n-propyl chloride. Why?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        541.45,
+        543.31,
+        697.06
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

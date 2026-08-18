@@ -1,0 +1,2362 @@
+{
+  "exam_metadata": {
+    "subject": "mathematics",
+    "class_level": "12",
+    "year": "2022-2023",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_mathematics_2022_2023_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\n",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q4 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\n",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q5 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\n",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q6 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If A =[aij] is a skew-symmetric matrix of order n, then\n(a) \ud835\udc4e\u0bdc\u0bdd=\n\u0b35\n\u0bd4\u0cd5\u0cd4 \u2200 \ud835\udc56, \ud835\udc57   (b) \ud835\udc4e\u0bdc\u0bdd\u22600 \u2200 \ud835\udc56, \ud835\udc57   (c)\ud835\udc4e\u0bdc\u0bdd= 0, \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57  (d) \ud835\udc4e\u0bdc\u0bdd\u22600 \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If A =[aij] is a skew-symmetric matrix of order n, then\n(a) \ud835\udc4e\u0bdc\u0bdd=\n\u0b35\n\u0bd4\u0cd5\u0cd4 \u2200 \ud835\udc56, \ud835\udc57   (b) \ud835\udc4e\u0bdc\u0bdd\u22600 \u2200 \ud835\udc56, \ud835\udc57   (c)\ud835\udc4e\u0bdc\u0bdd= 0, \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57  (d) \ud835\udc4e\u0bdc\u0bdd\u22600 \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\ud835\udc4e\u0bdc\u0bdd="
+                },
+                {
+                  "label": "b",
+                  "text": "\ud835\udc4e\u0bdc\u0bdd\u22600 \u2200 \ud835\udc56, \ud835\udc57"
+                },
+                {
+                  "label": "c",
+                  "text": "\ud835\udc4e\u0bdc\u0bdd= 0, \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57"
+                },
+                {
+                  "label": "d",
+                  "text": "\ud835\udc4e\u0bdc\u0bdd\u22600 \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q1\n. If A =[aij] is a skew-symmetric matrix of order n, then\n(a) \ud835\udc4e\u0bdc\u0bdd=\n\u0b35\n\u0bd4\u0cd5\u0cd4 \u2200 \ud835\udc56, \ud835\udc57   (b) \ud835\udc4e\u0bdc\u0bdd\u22600 \u2200 \ud835\udc56, \ud835\udc57   (c)\ud835\udc4e\u0bdc\u0bdd= 0, \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57  (d) \ud835\udc4e\u0bdc\u0bdd\u22600 \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If A is a square matrix of order 3, |\ud835\udc34\u2032| = \u22123, then |\ud835\udc34\ud835\udc34\u2032| =\n(a) 9        (b) -9        (c) 3        (d) -3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If A is a square matrix of order 3, |\ud835\udc34\u2032| = \u22123, then |\ud835\udc34\ud835\udc34\u2032| =\n(a) 9        (b) -9        (c) 3        (d) -3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "9"
+                },
+                {
+                  "label": "b",
+                  "text": "-9"
+                },
+                {
+                  "label": "c",
+                  "text": "3"
+                },
+                {
+                  "label": "d",
+                  "text": "-3"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q2\n. If A is a square matrix of order 3, |\ud835\udc34\u2032| = \u22123, then |\ud835\udc34\ud835\udc34\u2032| =\n(a) 9        (b) -9        (c) 3        (d) -3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The area of a triangle with vertices A, B, C is given by\n(a) \u0e2b\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b         (b)\n\u0b35\n\u0b36\u0e2b\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b\n(b)\n\u0b35\n\u0b38\u0e2b\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b      (d)\n\u0b35\u0b3c\u0e2b\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The area of a triangle with vertices A, B, C is given by\n(a) \u0e2b\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b         (b)\n\u0b35\n\u0b36\u0e2b\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b\n(b)\n\u0b35\n\u0b38\u0e2b\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b      (d)\n\u0b35\u0b3c\u0e2b\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u0e2b\ud835\udc34\ud835\udc35"
+                },
+                {
+                  "label": "b",
+                  "text": "\u0b35"
+                },
+                {
+                  "label": "b",
+                  "text": "\u0b35"
+                },
+                {
+                  "label": "d",
+                  "text": "\u0b35\u0b3c\u0e2b\ud835\udc34\ud835\udc36"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q3\n. The area of a triangle with vertices A, B, C is given by\n(a) \u0e2b\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b         (b)\n\u0b35\n\u0b36\u0e2b\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b\n(b)\n\u0b35\n\u0b38\u0e2b\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b      (d)\n\u0b35\u0b3c\u0e2b\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u0e2b",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('')",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The value of \u2018k\u2019 for which the function f(x) =\u124a\n\u0b35\u0b3f\u0bd6\u0be2\u0be6\u0b38\u0beb\u0b3c\n\u0beb\u0c2e\n, \ud835\udc56\ud835\udc53 \ud835\udc65\u22600\n\ud835\udc58, \ud835\udc56\ud835\udc53 \ud835\udc65= 0\nis continuous at x = 0 is\n(a) 0            (b) -1         (c)  1.          (d) 2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The value of \u2018k\u2019 for which the function f(x) =\u124a\n\u0b35\u0b3f\u0bd6\u0be2\u0be6\u0b38\u0beb\u0b3c\n\u0beb\u0c2e\n, \ud835\udc56\ud835\udc53 \ud835\udc65\u22600\n\ud835\udc58, \ud835\udc56\ud835\udc53 \ud835\udc65= 0\nis continuous at x = 0 is\n(a) 0            (b) -1         (c)  1.          (d) 2",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "0"
+                },
+                {
+                  "label": "b",
+                  "text": "-1"
+                },
+                {
+                  "label": "c",
+                  "text": "1."
+                },
+                {
+                  "label": "d",
+                  "text": "2"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q4\n. The value of \u2018k\u2019 for which the function f(x) =\u124a\n\u0b35\u0b3f\u0bd6\u0be2\u0be6\u0b38\u0beb\u0b3c\n\u0beb\u0c2e\n, \ud835\udc56\ud835\udc53 \ud835\udc65\u22600\n\ud835\udc58, \ud835\udc56\ud835\udc53 \ud835\udc65= 0\nis continuous at x = 0 is\n(a) 0            (b) -1         (c)  1.          (d) 2",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q4 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  If \ud835\udc53\u11f1(\ud835\udc65) = \ud835\udc65+\n\u0b35\n\u0beb, then \ud835\udc53(\ud835\udc65) is\n(a) \ud835\udc65\u0b36+ log |\ud835\udc65| + \ud835\udc36  (b)\n\u0beb\u0c2e\n\u0b36+ log |\ud835\udc65| + \ud835\udc36  (c)\n\u0beb\n\u0b36+ log |\ud835\udc65| + \ud835\udc36  (d)\n\u0beb\n\u0b36\u2212log |\ud835\udc65| + \ud835\udc36",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  If \ud835\udc53\u11f1(\ud835\udc65) = \ud835\udc65+\n\u0b35\n\u0beb, then \ud835\udc53(\ud835\udc65) is\n(a) \ud835\udc65\u0b36+ log |\ud835\udc65| + \ud835\udc36  (b)\n\u0beb\u0c2e\n\u0b36+ log |\ud835\udc65| + \ud835\udc36  (c)\n\u0beb\n\u0b36+ log |\ud835\udc65| + \ud835\udc36  (d)\n\u0beb\n\u0b36\u2212log |\ud835\udc65| + \ud835\udc36",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\ud835\udc65\u0b36+ log |\ud835\udc65| + \ud835\udc36"
+                },
+                {
+                  "label": "b",
+                  "text": "\u0beb\u0c2e"
+                },
+                {
+                  "label": "c",
+                  "text": "\u0beb"
+                },
+                {
+                  "label": "d",
+                  "text": "\u0beb"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q5\n.  If \ud835\udc53\u11f1(\ud835\udc65) = \ud835\udc65+\n\u0b35\n\u0beb, then \ud835\udc53(\ud835\udc65) is\n(a) \ud835\udc65\u0b36+ log |\ud835\udc65| + \ud835\udc36  (b)\n\u0beb\u0c2e\n\u0b36+ log |\ud835\udc65| + \ud835\udc36  (c)\n\u0beb\n\u0b36+ log |\ud835\udc65| + \ud835\udc36  (d)\n\u0beb\n\u0b36\u2212log |\ud835\udc65| + \ud835\udc36",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q5 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  If m and n, respectively, are the order and the degree of the differential equation\n\u0bd7\n\u0bd7\u0beb\u1242\u1240\n\u0bd7\u0bec\n\u0bd7\u0beb\u1241\u1243\n\u0b38\n= 0, then m + n =\n(a) 1            (b) 2         (c) 3              (d) 4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  If m and n, respectively, are the order and the degree of the differential equation\n\u0bd7\n\u0bd7\u0beb\u1242\u1240\n\u0bd7\u0bec\n\u0bd7\u0beb\u1241\u1243\n\u0b38\n= 0, then m + n =\n(a) 1            (b) 2         (c) 3              (d) 4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1"
+                },
+                {
+                  "label": "b",
+                  "text": "2"
+                },
+                {
+                  "label": "c",
+                  "text": "3"
+                },
+                {
+                  "label": "d",
+                  "text": "4"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q6\n.  If m and n, respectively, are the order and the degree of the differential equation\n\u0bd7\n\u0bd7\u0beb\u1242\u1240\n\u0bd7\u0bec\n\u0bd7\u0beb\u1241\u1243\n\u0b38\n= 0, then m + n =\n(a) 1            (b) 2         (c) 3              (d) 4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q6 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The solution set of the inequality 3x + 5y < 4 is\n(a) an open half-plane not containing the origin.\n(b) an open half-plane containing the origin.\n(c) the whole XY-plane not containing the line 3x + 5y = 4.\n(d) a closed half plane containing the origin.\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nPa",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The solution set of the inequality 3x + 5y < 4 is\n(a) an open half-plane not containing the origin.\n(b) an open half-plane containing the origin.\n(c) the whole XY-plane not containing the line 3x + 5y = 4.\n(d) a closed half plane containing the origin.\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nPage 2",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "an open half-plane not containing the origin."
+                },
+                {
+                  "label": "b",
+                  "text": "an open half-plane containing the origin."
+                },
+                {
+                  "label": "c",
+                  "text": "the whole XY-plane not containing the line 3x + 5y = 4."
+                },
+                {
+                  "label": "d",
+                  "text": "a closed half plane containing the origin."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q7\n. The solution set of the inequality 3x + 5y < 4 is\n(a) an open half-plane not containing the origin.\n(b) an open half-plane containing the origin.\n(c) the whole XY-plane not containing the line 3x + 5y = 4.\n(d) a closed half plane containing the origin.\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nPage 2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The scalar projection of the vector 3\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 \u22122\ud835\udc58\u0de0 \ud835\udc5c\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc63\ud835\udc52\ud835\udc50\ud835\udc61\ud835\udc5c\ud835\udc5f \ud835\udea4\u0302 + 2\ud835\udea5\u0302 \u22123\ud835\udc58 \u0de1 is\n(a)\n\u0b3b\n\u221a\u0b35\u0b38              (b)\n\u0b3b\n\u0b35\u0b38                     (c)\n\u0b3a\n\u0b35\u0b37              (d)\n\u0b3b\n\u0b36",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The scalar projection of the vector 3\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 \u22122\ud835\udc58\u0de0 \ud835\udc5c\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc63\ud835\udc52\ud835\udc50\ud835\udc61\ud835\udc5c\ud835\udc5f \ud835\udea4\u0302 + 2\ud835\udea5\u0302 \u22123\ud835\udc58 \u0de1 is\n(a)\n\u0b3b\n\u221a\u0b35\u0b38              (b)\n\u0b3b\n\u0b35\u0b38                     (c)\n\u0b3a\n\u0b35\u0b37              (d)\n\u0b3b\n\u0b36",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u0b3b"
+                },
+                {
+                  "label": "b",
+                  "text": "\u0b3b"
+                },
+                {
+                  "label": "c",
+                  "text": "\u0b3a"
+                },
+                {
+                  "label": "d",
+                  "text": "\u0b3b"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q8\n. The scalar projection of the vector 3\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 \u22122\ud835\udc58\u0de0 \ud835\udc5c\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc63\ud835\udc52\ud835\udc50\ud835\udc61\ud835\udc5c\ud835\udc5f \ud835\udea4\u0302 + 2\ud835\udea5\u0302 \u22123\ud835\udc58 \u0de1 is\n(a)\n\u0b3b\n\u221a\u0b35\u0b38              (b)\n\u0b3b\n\u0b35\u0b38                     (c)\n\u0b3a\n\u0b35\u0b37              (d)\n\u0b3b\n\u0b36",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The value of \u222b\n\u0beb\n\u0beb\u0c2e\u0b3e\u0b35\n\u0b37\n\u0b36\ndx is\n(a) log4           (b)  \ud835\udc59\ud835\udc5c\ud835\udc54\n\u0b37\n\u0b36               (c)\n\u0b35\n\u0b36\ud835\udc59\ud835\udc5c\ud835\udc542        (d) \ud835\udc59\ud835\udc5c\ud835\udc54\n\u0b3d\n\u0b38",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The value of \u222b\n\u0beb\n\u0beb\u0c2e\u0b3e\u0b35\n\u0b37\n\u0b36\ndx is\n(a) log4           (b)  \ud835\udc59\ud835\udc5c\ud835\udc54\n\u0b37\n\u0b36               (c)\n\u0b35\n\u0b36\ud835\udc59\ud835\udc5c\ud835\udc542        (d) \ud835\udc59\ud835\udc5c\ud835\udc54\n\u0b3d\n\u0b38",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "log4"
+                },
+                {
+                  "label": "b",
+                  "text": "\ud835\udc59\ud835\udc5c\ud835\udc54"
+                },
+                {
+                  "label": "c",
+                  "text": "\u0b35"
+                },
+                {
+                  "label": "d",
+                  "text": "\ud835\udc59\ud835\udc5c\ud835\udc54"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q9\n. The value of \u222b\n\u0beb\n\u0beb\u0c2e\u0b3e\u0b35\n\u0b37\n\u0b36\ndx is\n(a) log4           (b)  \ud835\udc59\ud835\udc5c\ud835\udc54\n\u0b37\n\u0b36               (c)\n\u0b35\n\u0b36\ud835\udc59\ud835\udc5c\ud835\udc542        (d) \ud835\udc59\ud835\udc5c\ud835\udc54\n\u0b3d\n\u0b38",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If A, B are non-singular square matrices of the same order, then (\ud835\udc34\ud835\udc35\u0b3f\u0b35)\u0b3f\u0b35=\n(a)\ud835\udc34\u0b3f\u0b35\ud835\udc35         (b)\ud835\udc34\u0b3f\u0b35\ud835\udc35\u0b3f\u0b35             (c)\ud835\udc35\ud835\udc34\u0b3f\u0b35         (d) \ud835\udc34\ud835\udc35",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If A, B are non-singular square matrices of the same order, then (\ud835\udc34\ud835\udc35\u0b3f\u0b35)\u0b3f\u0b35=\n(a)\ud835\udc34\u0b3f\u0b35\ud835\udc35         (b)\ud835\udc34\u0b3f\u0b35\ud835\udc35\u0b3f\u0b35             (c)\ud835\udc35\ud835\udc34\u0b3f\u0b35         (d) \ud835\udc34\ud835\udc35",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\ud835\udc34\u0b3f\u0b35\ud835\udc35"
+                },
+                {
+                  "label": "b",
+                  "text": "\ud835\udc34\u0b3f\u0b35\ud835\udc35\u0b3f\u0b35"
+                },
+                {
+                  "label": "c",
+                  "text": "\ud835\udc35\ud835\udc34\u0b3f\u0b35"
+                },
+                {
+                  "label": "d",
+                  "text": "\ud835\udc34\ud835\udc35"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q10\n. If A, B are non-singular square matrices of the same order, then (\ud835\udc34\ud835\udc35\u0b3f\u0b35)\u0b3f\u0b35=\n(a)\ud835\udc34\u0b3f\u0b35\ud835\udc35         (b)\ud835\udc34\u0b3f\u0b35\ud835\udc35\u0b3f\u0b35             (c)\ud835\udc35\ud835\udc34\u0b3f\u0b35         (d) \ud835\udc34\ud835\udc35",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The corner points of the shaded unbounded feasible region of an LPP are (0, 4),\n(0.6, 1.6) and (3, 0) as shown in the figure. The minimum value of the objective\nfunction Z = 4x + 6y occurs at\n(a)(0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66                 (b) (3, 0) only                (c) (0.6, 1.6) and (3, 0) only\n(d) at ev",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The corner points of the shaded unbounded feasible region of an LPP are (0, 4),\n(0.6, 1.6) and (3, 0) as shown in the figure. The minimum value of the objective\nfunction Z = 4x + 6y occurs at\n(a)(0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66                 (b) (3, 0) only                (c) (0.6, 1.6) and (3, 0) only\n(d) at every point of the line-segment joining the points (0.6, 1.6) and (3, 0)",
+              "options": [
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": "at every point of the line-segment joining the points"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q11\n. The corner points of the shaded unbounded feasible region of an LPP are (0, 4),\n(0.6, 1.6) and (3, 0) as shown in the figure. The minimum value of the objective\nfunction Z = 4x + 6y occurs at\n(a)(0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66                 (b) (3, 0) only                (c) (0.6, 1.6) and (3, 0) only\n(d) at every point of the line-segment joining the points (0.6, 1.6) and (3, 0)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If \u125a2\n4\n5\n1\u125a= \u125a2\ud835\udc65\n4\n6\n\ud835\udc65\u125a, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc5d\ud835\udc5c\ud835\udc60\ud835\udc60\ud835\udc56\ud835\udc4f\ud835\udc59\ud835\udc52 value(s) of \u2018x\u2019 is/are\n(a) 3                    (b) \u221a3                (c) -\u221a3                  (d) \u221a3, \u2212\u221a3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If \u125a2\n4\n5\n1\u125a= \u125a2\ud835\udc65\n4\n6\n\ud835\udc65\u125a, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc5d\ud835\udc5c\ud835\udc60\ud835\udc60\ud835\udc56\ud835\udc4f\ud835\udc59\ud835\udc52 value(s) of \u2018x\u2019 is/are\n(a) 3                    (b) \u221a3                (c) -\u221a3                  (d) \u221a3, \u2212\u221a3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "3"
+                },
+                {
+                  "label": "b",
+                  "text": "\u221a3"
+                },
+                {
+                  "label": "c",
+                  "text": "-\u221a3"
+                },
+                {
+                  "label": "d",
+                  "text": "\u221a3, \u2212\u221a3"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q12\n. If \u125a2\n4\n5\n1\u125a= \u125a2\ud835\udc65\n4\n6\n\ud835\udc65\u125a, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc5d\ud835\udc5c\ud835\udc60\ud835\udc60\ud835\udc56\ud835\udc4f\ud835\udc59\ud835\udc52 value(s) of \u2018x\u2019 is/are\n(a) 3                    (b) \u221a3                (c) -\u221a3                  (d) \u221a3, \u2212\u221a3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If A is a square matrix of order 3 and |A| = 5, then |\ud835\udc4e\ud835\udc51\ud835\udc57\ud835\udc34| =\n(a) 5               (b) 25      (c) 125      (d)\n\u0b35\n\u0b39",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If A is a square matrix of order 3 and |A| = 5, then |\ud835\udc4e\ud835\udc51\ud835\udc57\ud835\udc34| =\n(a) 5               (b) 25      (c) 125      (d)\n\u0b35\n\u0b39",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "5"
+                },
+                {
+                  "label": "b",
+                  "text": "25"
+                },
+                {
+                  "label": "c",
+                  "text": "125"
+                },
+                {
+                  "label": "d",
+                  "text": "\u0b35"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q13\n. If A is a square matrix of order 3 and |A| = 5, then |\ud835\udc4e\ud835\udc51\ud835\udc57\ud835\udc34| =\n(a) 5               (b) 25      (c) 125      (d)\n\u0b35\n\u0b39",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Given two independent events A and B such that P(A) =0.3, P(B) = 0.6 and P(\ud835\udc34\u11f1\u2229\ud835\udc35\u11f1) is\n(a) 0.9           (b) 0.18    (c) 0.28      (d) 0.1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Given two independent events A and B such that P(A) =0.3, P(B) = 0.6 and P(\ud835\udc34\u11f1\u2229\ud835\udc35\u11f1) is\n(a) 0.9           (b) 0.18    (c) 0.28      (d) 0.1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "=0.3, P"
+                },
+                {
+                  "label": "b",
+                  "text": "= 0.6 and P"
+                },
+                {
+                  "label": "a",
+                  "text": "0.9"
+                },
+                {
+                  "label": "b",
+                  "text": "0.18"
+                },
+                {
+                  "label": "c",
+                  "text": "0.28"
+                },
+                {
+                  "label": "d",
+                  "text": "0.1"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q14\n. Given two independent events A and B such that P(A) =0.3, P(B) = 0.6 and P(\ud835\udc34\u11f1\u2229\ud835\udc35\u11f1) is\n(a) 0.9           (b) 0.18    (c) 0.28      (d) 0.1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The general solution of the differential equation \ud835\udc66\ud835\udc51\ud835\udc65\u2212\ud835\udc65\ud835\udc51\ud835\udc66= 0 \ud835\udc56\ud835\udc60\n(a) \ud835\udc65\ud835\udc66= \ud835\udc36      (b) \ud835\udc65= \ud835\udc36\ud835\udc66\u0b36          (c) \ud835\udc66= \ud835\udc36\ud835\udc65        (d) \ud835\udc66= \ud835\udc36\ud835\udc65\u0b36",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The general solution of the differential equation \ud835\udc66\ud835\udc51\ud835\udc65\u2212\ud835\udc65\ud835\udc51\ud835\udc66= 0 \ud835\udc56\ud835\udc60\n(a) \ud835\udc65\ud835\udc66= \ud835\udc36      (b) \ud835\udc65= \ud835\udc36\ud835\udc66\u0b36          (c) \ud835\udc66= \ud835\udc36\ud835\udc65        (d) \ud835\udc66= \ud835\udc36\ud835\udc65\u0b36",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\ud835\udc65\ud835\udc66= \ud835\udc36"
+                },
+                {
+                  "label": "b",
+                  "text": "\ud835\udc65= \ud835\udc36\ud835\udc66\u0b36"
+                },
+                {
+                  "label": "c",
+                  "text": "\ud835\udc66= \ud835\udc36\ud835\udc65"
+                },
+                {
+                  "label": "d",
+                  "text": "\ud835\udc66= \ud835\udc36\ud835\udc65\u0b36"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q15\n. The general solution of the differential equation \ud835\udc66\ud835\udc51\ud835\udc65\u2212\ud835\udc65\ud835\udc51\ud835\udc66= 0 \ud835\udc56\ud835\udc60\n(a) \ud835\udc65\ud835\udc66= \ud835\udc36      (b) \ud835\udc65= \ud835\udc36\ud835\udc66\u0b36          (c) \ud835\udc66= \ud835\udc36\ud835\udc65        (d) \ud835\udc66= \ud835\udc36\ud835\udc65\u0b36",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If \ud835\udc66= \ud835\udc60\ud835\udc56\ud835\udc5b\u0b3f\u0b35\ud835\udc65, then (1 \u2212\ud835\udc65\u0b36)\ud835\udc66\u0b36 \ud835\udc56\ud835\udc60 equal to\n(a) \ud835\udc65\ud835\udc66\u0b35            (b) \ud835\udc65\ud835\udc66                (c) \ud835\udc65\ud835\udc66\u0b36          (d) \ud835\udc65\u0b36\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nPage 3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If \ud835\udc66= \ud835\udc60\ud835\udc56\ud835\udc5b\u0b3f\u0b35\ud835\udc65, then (1 \u2212\ud835\udc65\u0b36)\ud835\udc66\u0b36 \ud835\udc56\ud835\udc60 equal to\n(a) \ud835\udc65\ud835\udc66\u0b35            (b) \ud835\udc65\ud835\udc66                (c) \ud835\udc65\ud835\udc66\u0b36          (d) \ud835\udc65\u0b36\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nPage 3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\ud835\udc65\ud835\udc66\u0b35"
+                },
+                {
+                  "label": "b",
+                  "text": "\ud835\udc65\ud835\udc66"
+                },
+                {
+                  "label": "c",
+                  "text": "\ud835\udc65\ud835\udc66\u0b36"
+                },
+                {
+                  "label": "d",
+                  "text": "\ud835\udc65\u0b36"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q16\n. If \ud835\udc66= \ud835\udc60\ud835\udc56\ud835\udc5b\u0b3f\u0b35\ud835\udc65, then (1 \u2212\ud835\udc65\u0b36)\ud835\udc66\u0b36 \ud835\udc56\ud835\udc60 equal to\n(a) \ud835\udc65\ud835\udc66\u0b35            (b) \ud835\udc65\ud835\udc66                (c) \ud835\udc65\ud835\udc66\u0b36          (d) \ud835\udc65\u0b36\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nPage 3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If two vectors \ud835\udc4e\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7 are such that |\ud835\udc4e\u20d7| = 2 , \u0e2b\ud835\udc4f\u122c\u20d7\u0e2b= 3 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7. \ud835\udc4f\u122c\u20d7= 4, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \u0e2b\ud835\udc4e\u20d7\u22122\ud835\udc4f\u122c\u20d7\u0e2b is\nequal to\n(a) \u221a2              (b) 2\u221a6             (c) 24            (d) 2\u221a2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If two vectors \ud835\udc4e\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7 are such that |\ud835\udc4e\u20d7| = 2 , \u0e2b\ud835\udc4f\u122c\u20d7\u0e2b= 3 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7. \ud835\udc4f\u122c\u20d7= 4, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \u0e2b\ud835\udc4e\u20d7\u22122\ud835\udc4f\u122c\u20d7\u0e2b is\nequal to\n(a) \u221a2              (b) 2\u221a6             (c) 24            (d) 2\u221a2",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u221a2"
+                },
+                {
+                  "label": "b",
+                  "text": "2\u221a6"
+                },
+                {
+                  "label": "c",
+                  "text": "24"
+                },
+                {
+                  "label": "d",
+                  "text": "2\u221a2"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q17\n. If two vectors \ud835\udc4e\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7 are such that |\ud835\udc4e\u20d7| = 2 , \u0e2b\ud835\udc4f\u122c\u20d7\u0e2b= 3 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7. \ud835\udc4f\u122c\u20d7= 4, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \u0e2b\ud835\udc4e\u20d7\u22122\ud835\udc4f\u122c\u20d7\u0e2b is\nequal to\n(a) \u221a2              (b) 2\u221a6             (c) 24            (d) 2\u221a2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". P is a point on the line joining the points \ud835\udc34(0,5, \u22122) and  \ud835\udc35(3, \u22121,2). If the x-coordinate\nof P is 6, then its z-coordinate is\n(a) 10              (b) 6                  (c) -6             (d) -10\nASSERTION-REASON BASED QUESTIONS\nIn the following questions, a statement of assertion (A) is followe",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". P is a point on the line joining the points \ud835\udc34(0,5, \u22122) and  \ud835\udc35(3, \u22121,2). If the x-coordinate\nof P is 6, then its z-coordinate is\n(a) 10              (b) 6                  (c) -6             (d) -10\nASSERTION-REASON BASED QUESTIONS\nIn the following questions, a statement of assertion (A) is followed by a statement of\nReason (R). Choose the correct answer out of the following choices.\n(a)  Both A and R are true and R is the correct explanation of A.\n(b)  Both A and R are true but R is not the correct explanation of A.\n(c)  A is true but R is false.\n(d)  A is false but R is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "10"
+                },
+                {
+                  "label": "b",
+                  "text": "6"
+                },
+                {
+                  "label": "c",
+                  "text": "-6"
+                },
+                {
+                  "label": "d",
+                  "text": "-10"
+                },
+                {
+                  "label": "a",
+                  "text": "is followed by a statement of"
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A."
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true but R is not the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q18\n. P is a point on the line joining the points \ud835\udc34(0,5, \u22122) and  \ud835\udc35(3, \u22121,2). If the x-coordinate\nof P is 6, then its z-coordinate is\n(a) 10              (b) 6                  (c) -6             (d) -10\nASSERTION-REASON BASED QUESTIONS\nIn the following questions, a statement of assertion (A) is followed by a statement of\nReason (R). Choose the correct answer out of the following choices.\n(a)  Both A and R are true and R is the correct explanation of A.\n(b)  Both A and R are true but R is not the correct explanation of A.\n(c)  A is true but R is false.\n(d)  A is false but R is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 9 options, expected exactly 4",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Assertion (A): The domain of the function \ud835\udc60\ud835\udc52\ud835\udc50\u0b3f\n\u0b352\ud835\udc65 is \u1240\u2212\u221e, \u2212\n\u0b35\n\u0b36\u1243\u222a[\n\u0b35\n\u0b36, \u221e)\nReason (R): \ud835\udc60\ud835\udc52\ud835\udc50\u0b3f\n\u0b35(\u22122) = \u2212\n\u0c17\n\u0b38",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Assertion (A): The domain of the function \ud835\udc60\ud835\udc52\ud835\udc50\u0b3f\n\u0b352\ud835\udc65 is \u1240\u2212\u221e, \u2212\n\u0b35\n\u0b36\u1243\u222a[\n\u0b35\n\u0b36, \u221e)\nReason (R): \ud835\udc60\ud835\udc52\ud835\udc50\u0b3f\n\u0b35(\u22122) = \u2212\n\u0c17\n\u0b38",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q19\n. Assertion (A): The domain of the function \ud835\udc60\ud835\udc52\ud835\udc50\u0b3f\n\u0b352\ud835\udc65 is \u1240\u2212\u221e, \u2212\n\u0b35\n\u0b36\u1243\u222a[\n\u0b35\n\u0b36, \u221e)\nReason (R): \ud835\udc60\ud835\udc52\ud835\udc50\u0b3f\n\u0b35(\u22122) = \u2212\n\u0c17\n\u0b38",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  Assertion (A): The acute angle between the line \ud835\udc5f\u0305 = \ud835\udea4\u0302 + \ud835\udea5\u0302 + 2\ud835\udc58\u0de0+ \ud835\udf06(\ud835\udea4\u0302 \u2212\ud835\udea5\u0302) and the x-axis\nis\n\u0c17\n\u0b38\nReason(R): The acute angle \ud835\udf03 between the lines\n\ud835\udc5f\u0305 = \ud835\udc65\u0b35\ud835\udea4\u0302 + \ud835\udc66\u0b35\ud835\udea5\u0302 + \ud835\udc67\u0b35\ud835\udc58\u0de0+ \ud835\udf06\u0d6b\ud835\udc4e\u0b35\ud835\udea4\u0302 + \ud835\udc4f\u0b35\ud835\udea5\u0302 + \ud835\udc50\u0b35\ud835\udc58\u0de0\u0d6f and\n\ud835\udc5f\u0305 = \ud835\udc65\u0b36\ud835\udea4\u0302 + \ud835\udc66\u0b36\ud835\udea5\u0302 + \ud835\udc67\u0b36\ud835\udc58\u0de0+ \ud835\udf07\u0d6b\ud835\udc4e\u0b36\ud835\udea4\u0302 + \ud835\udc4f\u0b36\ud835\udea5\u0302 + \ud835\udc50\u0b36\ud835\udc58\u0de0\u0d6f is given by \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03=\n|\u0bd4\u0c2d\u0bd4\u0c2e\u0b3e\u0bd5\u0c2d\u0bd5\u0c2e\u0b3e\u0bd6\u0c2d\u0bd6\u0c2e|\n\u0da7\u0bd4\u0c2d\u0c2e\u0b3e\u0bd5\u0c2d\u0c2e\u0b3e\u0bd6\u0c2d\u0c2e\u0da7\u0bd4\u0c2e\u0c2e\u0b3e",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  Assertion (A): The acute angle between the line \ud835\udc5f\u0305 = \ud835\udea4\u0302 + \ud835\udea5\u0302 + 2\ud835\udc58\u0de0+ \ud835\udf06(\ud835\udea4\u0302 \u2212\ud835\udea5\u0302) and the x-axis\nis\n\u0c17\n\u0b38\nReason(R): The acute angle \ud835\udf03 between the lines\n\ud835\udc5f\u0305 = \ud835\udc65\u0b35\ud835\udea4\u0302 + \ud835\udc66\u0b35\ud835\udea5\u0302 + \ud835\udc67\u0b35\ud835\udc58\u0de0+ \ud835\udf06\u0d6b\ud835\udc4e\u0b35\ud835\udea4\u0302 + \ud835\udc4f\u0b35\ud835\udea5\u0302 + \ud835\udc50\u0b35\ud835\udc58\u0de0\u0d6f and\n\ud835\udc5f\u0305 = \ud835\udc65\u0b36\ud835\udea4\u0302 + \ud835\udc66\u0b36\ud835\udea5\u0302 + \ud835\udc67\u0b36\ud835\udc58\u0de0+ \ud835\udf07\u0d6b\ud835\udc4e\u0b36\ud835\udea4\u0302 + \ud835\udc4f\u0b36\ud835\udea5\u0302 + \ud835\udc50\u0b36\ud835\udc58\u0de0\u0d6f is given by \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03=\n|\u0bd4\u0c2d\u0bd4\u0c2e\u0b3e\u0bd5\u0c2d\u0bd5\u0c2e\u0b3e\u0bd6\u0c2d\u0bd6\u0c2e|\n\u0da7\u0bd4\u0c2d\u0c2e\u0b3e\u0bd5\u0c2d\u0c2e\u0b3e\u0bd6\u0c2d\u0c2e\u0da7\u0bd4\u0c2e\u0c2e\u0b3e\u0bd5\u0c2e\u0c2e\u0b3e\u0bd6\u0c2e\u0c2e",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q20\n.  Assertion (A): The acute angle between the line \ud835\udc5f\u0305 = \ud835\udea4\u0302 + \ud835\udea5\u0302 + 2\ud835\udc58\u0de0+ \ud835\udf06(\ud835\udea4\u0302 \u2212\ud835\udea5\u0302) and the x-axis\nis\n\u0c17\n\u0b38\nReason(R): The acute angle \ud835\udf03 between the lines\n\ud835\udc5f\u0305 = \ud835\udc65\u0b35\ud835\udea4\u0302 + \ud835\udc66\u0b35\ud835\udea5\u0302 + \ud835\udc67\u0b35\ud835\udc58\u0de0+ \ud835\udf06\u0d6b\ud835\udc4e\u0b35\ud835\udea4\u0302 + \ud835\udc4f\u0b35\ud835\udea5\u0302 + \ud835\udc50\u0b35\ud835\udc58\u0de0\u0d6f and\n\ud835\udc5f\u0305 = \ud835\udc65\u0b36\ud835\udea4\u0302 + \ud835\udc66\u0b36\ud835\udea5\u0302 + \ud835\udc67\u0b36\ud835\udc58\u0de0+ \ud835\udf07\u0d6b\ud835\udc4e\u0b36\ud835\udea4\u0302 + \ud835\udc4f\u0b36\ud835\udea5\u0302 + \ud835\udc50\u0b36\ud835\udc58\u0de0\u0d6f is given by \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03=\n|\u0bd4\u0c2d\u0bd4\u0c2e\u0b3e\u0bd5\u0c2d\u0bd5\u0c2e\u0b3e\u0bd6\u0c2d\u0bd6\u0c2e|\n\u0da7\u0bd4\u0c2d\u0c2e\u0b3e\u0bd5\u0c2d\u0c2e\u0b3e\u0bd6\u0c2d\u0c2e\u0da7\u0bd4\u0c2e\u0c2e\u0b3e\u0bd5\u0c2e\u0c2e\u0b3e\u0bd6\u0c2e\u0c2e",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Find the value of \ud835\udc60\ud835\udc56\ud835\udc5b\u0b3f\u0b35[\ud835\udc60\ud835\udc56\ud835\udc5b\u1240\n\u0b35\u0b37\u0c17\n\u0b3b\u1241]",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Find the value of \ud835\udc60\ud835\udc56\ud835\udc5b\u0b3f\u0b35[\ud835\udc60\ud835\udc56\ud835\udc5b\u1240\n\u0b35\u0b37\u0c17\n\u0b3b\u1241]",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Prove that the function f is surjective, where \ud835\udc53: \ud835\udc41\u2192\ud835\udc41 such that\n\ud835\udc53(\ud835\udc5b) = \u0d5e\n\ud835\udc5b+ 1\n2\n, \ud835\udc56\ud835\udc53 \ud835\udc5b \ud835\udc56\ud835\udc60 \ud835\udc5c\ud835\udc51\ud835\udc51\n\ud835\udc5b\n2 , \ud835\udc56\ud835\udc53 \ud835\udc5b \ud835\udc56\ud835\udc60 \ud835\udc52\ud835\udc63\ud835\udc52\ud835\udc5b\nIs the function injective? Justify your answer.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q21\n. Find the value of \ud835\udc60\ud835\udc56\ud835\udc5b\u0b3f\u0b35[\ud835\udc60\ud835\udc56\ud835\udc5b\u1240\n\u0b35\u0b37\u0c17\n\u0b3b\u1241]\nOR\nProve that the function f is surjective, where \ud835\udc53: \ud835\udc41\u2192\ud835\udc41 such that\n\ud835\udc53(\ud835\udc5b) = \u0d5e\n\ud835\udc5b+ 1\n2\n, \ud835\udc56\ud835\udc53 \ud835\udc5b \ud835\udc56\ud835\udc60 \ud835\udc5c\ud835\udc51\ud835\udc51\n\ud835\udc5b\n2 , \ud835\udc56\ud835\udc53 \ud835\udc5b \ud835\udc56\ud835\udc60 \ud835\udc52\ud835\udc63\ud835\udc52\ud835\udc5b\nIs the function injective? Justify your answer.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  A man 1.6 m tall walks at the rate of 0.3 m/sec away from a street light that is 4 m above\nthe ground. At what rate is the tip of his shadow moving? At what rate is his shadow\nlengthening?",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  A man 1.6 m tall walks at the rate of 0.3 m/sec away from a street light that is 4 m above\nthe ground. At what rate is the tip of his shadow moving? At what rate is his shadow\nlengthening?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q22\n.  A man 1.6 m tall walks at the rate of 0.3 m/sec away from a street light that is 4 m above\nthe ground. At what rate is the tip of his shadow moving? At what rate is his shadow\nlengthening?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If  \ud835\udc4e\u20d7= \ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + 7\ud835\udc58\u0de0 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7= 5\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + \ud835\udf06\ud835\udc58\u0de0, then find the value of \ud835\udf06 so that the vectors\n\ud835\udc4e\u20d7+ \ud835\udc4f\u122c\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7\u2212\ud835\udc4f\u122c\u20d7  are orthogonal.\n\ud835\udc76\ud835\udc79\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nPage 4\nFind the direction ratio and direction cosines of a line parallel to the line whose equations\nare\n6\ud835\udc65\u221212 = 3\ud835\udc66+ 9 = 2\ud835\udc67\u22122",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If  \ud835\udc4e\u20d7= \ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + 7\ud835\udc58\u0de0 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7= 5\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + \ud835\udf06\ud835\udc58\u0de0, then find the value of \ud835\udf06 so that the vectors\n\ud835\udc4e\u20d7+ \ud835\udc4f\u122c\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7\u2212\ud835\udc4f\u122c\u20d7  are orthogonal.\n\ud835\udc76\ud835\udc79\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nPage 4\nFind the direction ratio and direction cosines of a line parallel to the line whose equations\nare\n6\ud835\udc65\u221212 = 3\ud835\udc66+ 9 = 2\ud835\udc67\u22122",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q23\n. If  \ud835\udc4e\u20d7= \ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + 7\ud835\udc58\u0de0 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7= 5\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + \ud835\udf06\ud835\udc58\u0de0, then find the value of \ud835\udf06 so that the vectors\n\ud835\udc4e\u20d7+ \ud835\udc4f\u122c\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7\u2212\ud835\udc4f\u122c\u20d7  are orthogonal.\n\ud835\udc76\ud835\udc79\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nPage 4\nFind the direction ratio and direction cosines of a line parallel to the line whose equations\nare\n6\ud835\udc65\u221212 = 3\ud835\udc66+ 9 = 2\ud835\udc67\u22122",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If \ud835\udc66\u221a1 \u2212\ud835\udc65\u0b36+ \ud835\udc65\u0da51 \u2212\ud835\udc66\u0b36= 1 , \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc63\ud835\udc52 \ud835\udc61\u210e\ud835\udc4e\ud835\udc61\n\u0bd7\u0bec\n\u0bd7\u0beb= \u2212\u0da7\u0b35\u0b3f\u0bec\u0c2e\n\u0b35\u0b3f\u0beb\u0c2e",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If \ud835\udc66\u221a1 \u2212\ud835\udc65\u0b36+ \ud835\udc65\u0da51 \u2212\ud835\udc66\u0b36= 1 , \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc63\ud835\udc52 \ud835\udc61\u210e\ud835\udc4e\ud835\udc61\n\u0bd7\u0bec\n\u0bd7\u0beb= \u2212\u0da7\u0b35\u0b3f\u0bec\u0c2e\n\u0b35\u0b3f\u0beb\u0c2e",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q24\n. If \ud835\udc66\u221a1 \u2212\ud835\udc65\u0b36+ \ud835\udc65\u0da51 \u2212\ud835\udc66\u0b36= 1 , \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc63\ud835\udc52 \ud835\udc61\u210e\ud835\udc4e\ud835\udc61\n\u0bd7\u0bec\n\u0bd7\u0beb= \u2212\u0da7\u0b35\u0b3f\u0bec\u0c2e\n\u0b35\u0b3f\u0beb\u0c2e",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Find |\ud835\udc65\u20d7| if  (\ud835\udc65\u20d7\u2212\ud835\udc4e\u20d7). (\ud835\udc65\u20d7+ \ud835\udc4e\u20d7) = 12, where \ud835\udc4e\u20d7 is a unit vector.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Find |\ud835\udc65\u20d7| if  (\ud835\udc65\u20d7\u2212\ud835\udc4e\u20d7). (\ud835\udc65\u20d7+ \ud835\udc4e\u20d7) = 12, where \ud835\udc4e\u20d7 is a unit vector.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q25\n. Find |\ud835\udc65\u20d7| if  (\ud835\udc65\u20d7\u2212\ud835\udc4e\u20d7). (\ud835\udc65\u20d7+ \ud835\udc4e\u20d7) = 12, where \ud835\udc4e\u20d7 is a unit vector.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Find: \u222b\n\u0bd7\u0beb\n\u221a\u0b37\u0b3f\u0b36\u0beb\u0b3f\u0beb\u0c2e",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Find: \u222b\n\u0bd7\u0beb\n\u221a\u0b37\u0b3f\u0b36\u0beb\u0b3f\u0beb\u0c2e",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q26\n. Find: \u222b\n\u0bd7\u0beb\n\u221a\u0b37\u0b3f\u0b36\u0beb\u0b3f\u0beb\u0c2e",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Three friends go for coffee. They decide who will pay the bill, by each tossing a coin and\nthen letting the \u201codd person\u201d pay. There is no odd person if all three tosses produce the\nsame result. If there is no odd person in the first round, they make a second round of\ntosses and they continue to do",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Three friends go for coffee. They decide who will pay the bill, by each tossing a coin and\nthen letting the \u201codd person\u201d pay. There is no odd person if all three tosses produce the\nsame result. If there is no odd person in the first round, they make a second round of\ntosses and they continue to do so until there is an odd person. What is the probability\nthat exactly three rounds of tosses are made?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Find the mean number of defective items in a sample of two items drawn one-by-one\nwithout replacement from an urn containing 6 items, which include 2 defective items.\nAssume that the items are identical in shape and size.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q27\n. Three friends go for coffee. They decide who will pay the bill, by each tossing a coin and\nthen letting the \u201codd person\u201d pay. There is no odd person if all three tosses produce the\nsame result. If there is no odd person in the first round, they make a second round of\ntosses and they continue to do so until there is an odd person. What is the probability\nthat exactly three rounds of tosses are made?\nOR\nFind the mean number of defective items in a sample of two items drawn one-by-one\nwithout replacement from an urn containing 6 items, which include 2 defective items.\nAssume that the items are identical in shape and size.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Evaluate: \u222b\n\u0bd7\u0beb\n\u0b35\u0b3e\u221a\u0be7\u0bd4\u0be1\u0beb\n\u0c17\u0b37\n\u0d57\n\u0c17\u0b3a\n\u0d57",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Evaluate: \u222b\n\u0bd7\u0beb\n\u0b35\u0b3e\u221a\u0be7\u0bd4\u0be1\u0beb\n\u0c17\u0b37\n\u0d57\n\u0c17\u0b3a\n\u0d57",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Evaluate: \u222b|\ud835\udc65\u22121|\n\u0b38\n\u0b34\n\ud835\udc51\ud835\udc65",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q28\n. Evaluate: \u222b\n\u0bd7\u0beb\n\u0b35\u0b3e\u221a\u0be7\u0bd4\u0be1\u0beb\n\u0c17\u0b37\n\u0d57\n\u0c17\u0b3a\n\u0d57\nOR\nEvaluate: \u222b|\ud835\udc65\u22121|\n\u0b38\n\u0b34\n\ud835\udc51\ud835\udc65",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Solve the differential equation: \ud835\udc66\ud835\udc51\ud835\udc65+ (\ud835\udc65\u2212\ud835\udc66\u0b36)\ud835\udc51\ud835\udc66= 0",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Solve the differential equation: \ud835\udc66\ud835\udc51\ud835\udc65+ (\ud835\udc65\u2212\ud835\udc66\u0b36)\ud835\udc51\ud835\udc66= 0",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Solve the differential equation: \ud835\udc65\ud835\udc51\ud835\udc66\u2212\ud835\udc66\ud835\udc51\ud835\udc65= \u0da5\ud835\udc65\u0b36+ \ud835\udc66\u0b36 \ud835\udc51\ud835\udc65",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q29\n. Solve the differential equation: \ud835\udc66\ud835\udc51\ud835\udc65+ (\ud835\udc65\u2212\ud835\udc66\u0b36)\ud835\udc51\ud835\udc66= 0\nOR\nSolve the differential equation: \ud835\udc65\ud835\udc51\ud835\udc66\u2212\ud835\udc66\ud835\udc51\ud835\udc65= \u0da5\ud835\udc65\u0b36+ \ud835\udc66\u0b36 \ud835\udc51\ud835\udc65",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Solve the following Linear Programming Problem graphically:\nMaximize Z = 400x + 300y subject to \ud835\udc65+ \ud835\udc66\u2264200, \ud835\udc65\u226440, \ud835\udc65\u226520, \ud835\udc66\u22650",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Solve the following Linear Programming Problem graphically:\nMaximize Z = 400x + 300y subject to \ud835\udc65+ \ud835\udc66\u2264200, \ud835\udc65\u226440, \ud835\udc65\u226520, \ud835\udc66\u22650",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q30\n. Solve the following Linear Programming Problem graphically:\nMaximize Z = 400x + 300y subject to \ud835\udc65+ \ud835\udc66\u2264200, \ud835\udc65\u226440, \ud835\udc65\u226520, \ud835\udc66\u22650",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Find \u222b\n\u0d6b\u0beb\u0c2f\u0b3e\u0beb\u0b3e\u0b35\u0d6f\n(\u0beb\u0c2e\u0b3f\u0b35) \ud835\udc51\ud835\udc65",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Find \u222b\n\u0d6b\u0beb\u0c2f\u0b3e\u0beb\u0b3e\u0b35\u0d6f\n(\u0beb\u0c2e\u0b3f\u0b35) \ud835\udc51\ud835\udc65",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q31\n. Find \u222b\n\u0d6b\u0beb\u0c2f\u0b3e\u0beb\u0b3e\u0b35\u0d6f\n(\u0beb\u0c2e\u0b3f\u0b35) \ud835\udc51\ud835\udc65",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Make a rough sketch of the region {(\ud835\udc65, \ud835\udc66): 0 \u2264\ud835\udc66\u2264\ud835\udc65\u0b36, 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc65\u22642} and find\nthe area of the region using integration.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Make a rough sketch of the region {(\ud835\udc65, \ud835\udc66): 0 \u2264\ud835\udc66\u2264\ud835\udc65\u0b36, 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc65\u22642} and find\nthe area of the region using integration.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q32\n. Make a rough sketch of the region {(\ud835\udc65, \ud835\udc66): 0 \u2264\ud835\udc66\u2264\ud835\udc65\u0b36, 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc65\u22642} and find\nthe area of the region using integration.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Define the relation R in the set \ud835\udc41\u00d7 \ud835\udc41 as follows:\nFor (a, b), (c, d) \u2208\ud835\udc41\u00d7 \ud835\udc41, (a, b) R (c, d) iff ad = bc. Prove that R is an equivalence\nrelation in \ud835\udc41\u00d7 \ud835\udc41.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Define the relation R in the set \ud835\udc41\u00d7 \ud835\udc41 as follows:\nFor (a, b), (c, d) \u2208\ud835\udc41\u00d7 \ud835\udc41, (a, b) R (c, d) iff ad = bc. Prove that R is an equivalence\nrelation in \ud835\udc41\u00d7 \ud835\udc41.",
+              "options": [
+                {
+                  "label": "b",
+                  "text": ","
+                },
+                {
+                  "label": "d",
+                  "text": "\u2208\ud835\udc41\u00d7 \ud835\udc41,"
+                },
+                {
+                  "label": "b",
+                  "text": "R"
+                },
+                {
+                  "label": "d",
+                  "text": "iff ad = bc. Prove that R is an equivalence"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nGiven a non-empty set X, d\nFor A, B \u2208\ud835\udc43(\ud835\udc4b), (\ud835\udc34, \ud835\udc35) \u2208\nsymmetric.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q33\n. Define the relation R in the set \ud835\udc41\u00d7 \ud835\udc41 as follows:\nFor (a, b), (c, d) \u2208\ud835\udc41\u00d7 \ud835\udc41, (a, b) R (c, d) iff ad = bc. Prove that R is an equivalence\nrelation in \ud835\udc41\u00d7 \ud835\udc41.\nOR\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nGiven a non-empty set X, d\nFor A, B \u2208\ud835\udc43(\ud835\udc4b), (\ud835\udc34, \ud835\udc35) \u2208\nsymmetric.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". An insect is crawling along\ninsect is crawling along the\nlines should they reach so t\npossible distance between t\nThe equations of motion of\n\ud835\udc65= 2\ud835\udc61, \ud835\udc66= \u22124\ud835\udc61, \ud835\udc67= 4\ud835\udc61,  w\nmoving point in km. What\nfrom the starting point O(0\n\ud835\udc5f\u20d7= 20\ud835\udea4\u0302 \u221210\ud835\udea5\u0302 + 40\ud835\udc58\u0de0+ \ud835\udf07(",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". An insect is crawling along\ninsect is crawling along the\nlines should they reach so t\npossible distance between t\nThe equations of motion of\n\ud835\udc65= 2\ud835\udc61, \ud835\udc66= \u22124\ud835\udc61, \ud835\udc67= 4\ud835\udc61,  w\nmoving point in km. What\nfrom the starting point O(0\n\ud835\udc5f\u20d7= 20\ud835\udea4\u0302 \u221210\ud835\udea5\u0302 + 40\ud835\udc58\u0de0+ \ud835\udf07(",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q34\n. An insect is crawling along\ninsect is crawling along the\nlines should they reach so t\npossible distance between t\nThe equations of motion of\n\ud835\udc65= 2\ud835\udc61, \ud835\udc66= \u22124\ud835\udc61, \ud835\udc67= 4\ud835\udc61,  w\nmoving point in km. What\nfrom the starting point O(0\n\ud835\udc5f\u20d7= 20\ud835\udea4\u0302 \u221210\ud835\udea5\u0302 + 40\ud835\udc58\u0de0+ \ud835\udf07(",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q35",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If A = \u0d65\n2\n\u22123\n5\n3\n2\n\u22124\n1\n1\n\u22122\n\u0d69, find\n2\ud835\udc65\u22123\ud835\udc66+ 5\ud835\udc67= 11, 3\ud835\udc65+\n(This section comprises\nwith two sub-parts. Firs\nof marks 1, 1, 2 respect\nmarks each.)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If A = \u0d65\n2\n\u22123\n5\n3\n2\n\u22124\n1\n1\n\u22122\n\u0d69, find\n2\ud835\udc65\u22123\ud835\udc66+ 5\ud835\udc67= 11, 3\ud835\udc65+\n(This section comprises\nwith two sub-parts. Firs\nof marks 1, 1, 2 respect\nmarks each.)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q35\n. If A = \u0d65\n2\n\u22123\n5\n3\n2\n\u22124\n1\n1\n\u22122\n\u0d69, find\n2\ud835\udc65\u22123\ud835\udc66+ 5\ud835\udc67= 11, 3\ud835\udc65+\n(This section comprises\nwith two sub-parts. Firs\nof marks 1, 1, 2 respect\nmarks each.)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q36",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Case-Study 1: Read the fol\nThe temperature of a person\n\ud835\udc53(\ud835\udc65) = \u22120.1\ud835\udc65\u0b36+ \ud835\udc5a\ud835\udc65+ 98\ntemperature in \u00b0F at x days.\n(i)\nIs the function diffe\n(ii)\nIf 6 is the critical p\ndefine the relation R in P(X) as follows:\n\ud835\udc45 iff \ud835\udc34\u2282\ud835\udc35. Prove that R is reflexive, transitive\ng the line \ud835\udc5f\u0305 = 6\ud835\udea4\u0302 + 2\ud835\udea5\u0302 + 2\ud835\udc58\u0de0+ \ud835\udf06\u0d6b\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 + 2\ud835\udc58",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Case-Study 1: Read the fol\nThe temperature of a person\n\ud835\udc53(\ud835\udc65) = \u22120.1\ud835\udc65\u0b36+ \ud835\udc5a\ud835\udc65+ 98\ntemperature in \u00b0F at x days.\n(i)\nIs the function diffe\n(ii)\nIf 6 is the critical p\ndefine the relation R in P(X) as follows:\n\ud835\udc45 iff \ud835\udc34\u2282\ud835\udc35. Prove that R is reflexive, transitive\ng the line \ud835\udc5f\u0305 = 6\ud835\udea4\u0302 + 2\ud835\udea5\u0302 + 2\ud835\udc58\u0de0+ \ud835\udf06\u0d6b\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 + 2\ud835\udc58\u0de0\u0d6f an\ne line \ud835\udc5f\u0305 = \u22124\ud835\udea4\u0302 \u2212\ud835\udc58\u0de0+ \ud835\udf07\u0d6b3\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 \u22122\ud835\udc58\u0de0\u0d6f. At what\nthat the distance between them is the shortest? F\nthem.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "f a rocket are:\nwhere the time t is given in seconds, and the coo\nis the path of the rocket? At what distances will\n, 0, 0) and from the following line in 10 seconds\n(10\ud835\udea4\u0302 \u221220\ud835\udea5\u0302 + 10\ud835\udc58\u0de0)\n\ud835\udc34\u0b3f\u0b35. Use \ud835\udc34\u0b3f\u0b35 to solve the following system of\n2\ud835\udc66\u22124\ud835\udc67= \u22125, \ud835\udc65+ \ud835\udc66\u22122\ud835\udc67= \u22123",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q36\n. Case-Study 1: Read the fol\nThe temperature of a person\n\ud835\udc53(\ud835\udc65) = \u22120.1\ud835\udc65\u0b36+ \ud835\udc5a\ud835\udc65+ 98\ntemperature in \u00b0F at x days.\n(i)\nIs the function diffe\n(ii)\nIf 6 is the critical p\ndefine the relation R in P(X) as follows:\n\ud835\udc45 iff \ud835\udc34\u2282\ud835\udc35. Prove that R is reflexive, transitive\ng the line \ud835\udc5f\u0305 = 6\ud835\udea4\u0302 + 2\ud835\udea5\u0302 + 2\ud835\udc58\u0de0+ \ud835\udf06\u0d6b\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 + 2\ud835\udc58\u0de0\u0d6f an\ne line \ud835\udc5f\u0305 = \u22124\ud835\udea4\u0302 \u2212\ud835\udc58\u0de0+ \ud835\udf07\u0d6b3\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 \u22122\ud835\udc58\u0de0\u0d6f. At what\nthat the distance between them is the shortest? F\nthem.\nOR\nf a rocket are:\nwhere the time t is given in seconds, and the coo\nis the path of the rocket? At what distances will\n, 0, 0) and from the following line in 10 seconds\n(10\ud835\udea4\u0302 \u221220\ud835\udea5\u0302 + 10\ud835\udc58\u0de0)\n\ud835\udc34\u0b3f\u0b35. Use \ud835\udc34\u0b3f\u0b35 to solve the following system of\n2\ud835\udc66\u22124\ud835\udc67= \u22125, \ud835\udc65+ \ud835\udc66\u22122\ud835\udc67= \u22123",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "6,0 \u2264\ud835\udc65\u226412, m being a constant, where f(x) i\nerentiable in the interval (0, 12)? Justify your an\noint of the function, then find the value of the co\ne and not\nnd another\npoints on the\nFind the shortest\nordinates of a\nthe rocket be\ns?\nequations\nf 4 marks each\narts (i), (ii), (iii)\nsub-parts of 2\nn bel",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "6,0 \u2264\ud835\udc65\u226412, m being a constant, where f(x) i\nerentiable in the interval (0, 12)? Justify your an\noint of the function, then find the value of the co\ne and not\nnd another\npoints on the\nFind the shortest\nordinates of a\nthe rocket be\ns?\nequations\nf 4 marks each\narts (i), (ii), (iii)\nsub-parts of 2\nn below.\nis the\nnswer.\nonstant m.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nPage 6\n(iii)\nFind the intervals in which the function is strictly increasing/strictly decreasing.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii)\nFind the points of local maximum/local minimum, if any, in the interval (0, 12) as\nwell as the points of absolute maximum/absolute minimum in the interval [0, 12].\nAlso, find the corresponding local maximum/local minimum and the absolute\nmaximum/absolute minimum values of the function.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\n6,0 \u2264\ud835\udc65\u226412, m being a constant, where f(x) i\nerentiable in the interval (0, 12)? Justify your an\noint of the function, then find the value of the co\ne and not\nnd another\npoints on the\nFind the shortest\nordinates of a\nthe rocket be\ns?\nequations\nf 4 marks each\narts (i), (ii), (iii)\nsub-parts of 2\nn below.\nis the\nnswer.\nonstant m.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nPage 6\n(iii)\nFind the intervals in which the function is strictly increasing/strictly decreasing.\nOR\n(iii)\nFind the points of local maximum/local minimum, if any, in the interval (0, 12) as\nwell as the points of absolute maximum/absolute minimum in the interval [0, 12].\nAlso, find the corresponding local maximum/local minimum and the absolute\nmaximum/absolute minimum values of the function.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q37",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Case-Study 2: Read the following passage and answer the questions given below.\nIn an elliptical sport field the authority wants to design a rectangular soccer field\nwith the maximum possible area. The sport field is given by the graph of\n\u0beb\u0c2e\n\u0bd4\u0c2e+\n\u0bec\u0c2e\n\u0bd5\u0c2e= 1.\n(i)\nIf the length and the breadth of the re",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Case-Study 2: Read the following passage and answer the questions given below.\nIn an elliptical sport field the authority wants to design a rectangular soccer field\nwith the maximum possible area. The sport field is given by the graph of\n\u0beb\u0c2e\n\u0bd4\u0c2e+\n\u0bec\u0c2e\n\u0bd5\u0c2e= 1.\n(i)\nIf the length and the breadth of the rectangular field be 2x and 2y respectively,\nthen find the area function in terms of x.\n(ii)\nFind the critical point of the function.\n(iii)\nUse First derivative Test to find the length 2x and width 2y of the soccer field (in\nterms of a and b) that maximize its area.",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "that maximize its area."
+                },
+                {
+                  "label": "b",
+                  "text": "that maximize its area."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii)\nUse Second Derivative Test to find the length 2x and width 2y of the soccer field\n(in terms of a and b) that maximize its area.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nPage 7",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q37\n. Case-Study 2: Read the following passage and answer the questions given below.\nIn an elliptical sport field the authority wants to design a rectangular soccer field\nwith the maximum possible area. The sport field is given by the graph of\n\u0beb\u0c2e\n\u0bd4\u0c2e+\n\u0bec\u0c2e\n\u0bd5\u0c2e= 1.\n(i)\nIf the length and the breadth of the rectangular field be 2x and 2y respectively,\nthen find the area function in terms of x.\n(ii)\nFind the critical point of the function.\n(iii)\nUse First derivative Test to find the length 2x and width 2y of the soccer field (in\nterms of a and b) that maximize its area.\nOR\n(iii)\nUse Second Derivative Test to find the length 2x and width 2y of the soccer field\n(in terms of a and b) that maximize its area.\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nPage 7",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q38",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Case-Study 3: Read the following passage and answer the questions given below.\nThere are two antiaircraft guns, named as A and B. The probabilities that the shell fired\nfrom them hits an airplane are 0.3 and 0.2 respectively. Both of them fired one shell at an\nairplane at the same time.\n(i) What i",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Case-Study 3: Read the following passage and answer the questions given below.\nThere are two antiaircraft guns, named as A and B. The probabilities that the shell fired\nfrom them hits an airplane are 0.3 and 0.2 respectively. Both of them fired one shell at an\nairplane at the same time.\n(i) What is the probability that the shell fired from exactly one of them hit the plane?\n(ii) If it is known that the shell fired from exactly one of them hit the plane, then what is\nthe probability that it was fired from B?\n<!-- PAGE 7 END -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q38\n. Case-Study 3: Read the following passage and answer the questions given below.\nThere are two antiaircraft guns, named as A and B. The probabilities that the shell fired\nfrom them hits an airplane are 0.3 and 0.2 respectively. Both of them fired one shell at an\nairplane at the same time.\n(i) What is the probability that the shell fired from exactly one of them hit the plane?\n(ii) If it is known that the shell fired from exactly one of them hit the plane, then what is\nthe probability that it was fired from B?\n<!-- PAGE 7 END -->",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

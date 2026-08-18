@@ -1,0 +1,2562 @@
+{
+  "exam_metadata": {
+    "subject": "physical_education",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_physical_education_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". How many total matches will be played in a knock out fixture of 19 teams\n1\nA. 18\nB. 17\nC. 20\nD. 16",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". How many total matches will be played in a knock out fixture of 19 teams\n1\nA. 18\nB. 17\nC. 20\nD. 16",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "18"
+                },
+                {
+                  "label": "b",
+                  "text": "17"
+                },
+                {
+                  "label": "c",
+                  "text": "20"
+                },
+                {
+                  "label": "d",
+                  "text": "16"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q1\n. How many total matches will be played in a knock out fixture of 19 teams\n1\nA. 18\nB. 17\nC. 20\nD. 16",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q1 has suspiciously short stem text ('5+1.5')",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Given below are the two statements labeled Assertion (A) and Reason (R). Read               1\nthe statements and choose the appropriate option from the options given below:\nAssertion: The knock out tournament is an elimination tournament\nReason: In knock out tournament, winner of each match advanc",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Given below are the two statements labeled Assertion (A) and Reason (R). Read               1\nthe statements and choose the appropriate option from the options given below:\nAssertion: The knock out tournament is an elimination tournament\nReason: In knock out tournament, winner of each match advances in the tournament and\nthe loser gets eliminated.\nIn the context of the above two statements, which one of the following is correct?\nA. Both (A) and (R) are true and (R) is the correct explanation of (A).\nB.  Both (A) and (R) are true, but (R) is not the correct explanation of (A).\nC.  (A) is true, but (R) is false.\nD.  (A) is false, but (R) is true",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "b",
+                  "text": "Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is true, but"
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is false, but"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q2\n. Given below are the two statements labeled Assertion (A) and Reason (R). Read               1\nthe statements and choose the appropriate option from the options given below:\nAssertion: The knock out tournament is an elimination tournament\nReason: In knock out tournament, winner of each match advances in the tournament and\nthe loser gets eliminated.\nIn the context of the above two statements, which one of the following is correct?\nA. Both (A) and (R) are true and (R) is the correct explanation of (A).\nB.  Both (A) and (R) are true, but (R) is not the correct explanation of (A).\nC.  (A) is true, but (R) is false.\nD.  (A) is false, but (R) is true",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 11 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 11 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "match_the_following",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Match the following:\n1\nList I\nList II\nI Knock Knee\n1 Increase exaggeration of backward curve\nII Kyphosis\n2 Wide gap between the knees when standing with feet together\nIII Lordosis\n3 Knees touch each other in normal standing position\nIV Bow legs\n4 Inward curvature of the spine\nA. I-3,  II-1,  III-4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Match the following:\n1\nList I\nList II\nI Knock Knee\n1 Increase exaggeration of backward curve\nII Kyphosis\n2 Wide gap between the knees when standing with feet together\nIII Lordosis\n3 Knees touch each other in normal standing position\nIV Bow legs\n4 Inward curvature of the spine\nA. I-3,  II-1,  III-4,  IV-2\nB. I-1,  II-3,  III-4,  IV-2\nC. I-4,  II-2,  III-1,  IV-3\nD. I-2,  II-3,  III-4,  IV-1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "I-3,  II-1,  III-4,  IV-2"
+                },
+                {
+                  "label": "b",
+                  "text": "I-1,  II-3,  III-4,  IV-2"
+                },
+                {
+                  "label": "c",
+                  "text": "I-4,  II-2,  III-1,  IV-3"
+                },
+                {
+                  "label": "d",
+                  "text": "I-2,  II-3,  III-4,  IV-1"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "match_the_following",
+                "requires_image": false,
+                "requires_table_data": true,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q3\n. Match the following:\n1\nList I\nList II\nI Knock Knee\n1 Increase exaggeration of backward curve\nII Kyphosis\n2 Wide gap between the knees when standing with feet together\nIII Lordosis\n3 Knees touch each other in normal standing position\nIV Bow legs\n4 Inward curvature of the spine\nA. I-3,  II-1,  III-4,  IV-2\nB. I-1,  II-3,  III-4,  IV-2\nC. I-4,  II-2,  III-1,  IV-3\nD. I-2,  II-3,  III-4,  IV-1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); match_the_following question has no structured column table_data",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". For developing muscles, which nutrient should be increase in diet\nA. Vitamins\nC. Minerals\nB. Protein\nD. Carbohydrates",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". For developing muscles, which nutrient should be increase in diet\nA. Vitamins\nC. Minerals\nB. Protein\nD. Carbohydrates",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Vitamins"
+                },
+                {
+                  "label": "c",
+                  "text": "Minerals"
+                },
+                {
+                  "label": "b",
+                  "text": "Protein"
+                },
+                {
+                  "label": "d",
+                  "text": "Carbohydrates"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q4\n. For developing muscles, which nutrient should be increase in diet\nA. Vitamins\nC. Minerals\nB. Protein\nD. Carbohydrates",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Identify the asana:\n1\nA.      Paschimottanasana\nB.     Halasana\nC.     Vajrasana\nD.      Dhanurasana",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Identify the asana:\n1\nA.      Paschimottanasana\nB.     Halasana\nC.     Vajrasana\nD.      Dhanurasana",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Paschimottanasana"
+                },
+                {
+                  "label": "b",
+                  "text": "Halasana"
+                },
+                {
+                  "label": "c",
+                  "text": "Vajrasana"
+                },
+                {
+                  "label": "d",
+                  "text": "Dhanurasana"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q5\n. Identify the asana:\n1\nA.      Paschimottanasana\nB.     Halasana\nC.     Vajrasana\nD.      Dhanurasana",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Which asana is pose like cobra?\n1\nA.\nBhujangasana\nB.\nDhanurasana\nC.\nVajrasana\nD.\nArdhmatsyendrasana",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Which asana is pose like cobra?\n1\nA.\nBhujangasana\nB.\nDhanurasana\nC.\nVajrasana\nD.\nArdhmatsyendrasana",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Bhujangasana"
+                },
+                {
+                  "label": "b",
+                  "text": "Dhanurasana"
+                },
+                {
+                  "label": "c",
+                  "text": "Vajrasana"
+                },
+                {
+                  "label": "d",
+                  "text": "Ardhmatsyendrasana"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q6\n. Which asana is pose like cobra?\n1\nA.\nBhujangasana\nB.\nDhanurasana\nC.\nVajrasana\nD.\nArdhmatsyendrasana",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Deaflympics Games was first organized in the year\u2026\u2026\u2026\u2026\n1\nA. 1896\nB. 1960\nC. 1924\nD. 1951",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Deaflympics Games was first organized in the year\u2026\u2026\u2026\u2026\n1\nA. 1896\nB. 1960\nC. 1924\nD. 1951",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1896"
+                },
+                {
+                  "label": "b",
+                  "text": "1960"
+                },
+                {
+                  "label": "c",
+                  "text": "1924"
+                },
+                {
+                  "label": "d",
+                  "text": "1951"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q7\n. Deaflympics Games was first organized in the year\u2026\u2026\u2026\u2026\n1\nA. 1896\nB. 1960\nC. 1924\nD. 1951",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Menarche is defined as the:\n1\nA. Ending of menstrual period of women\nB. Beginning of menstrual period in women\nC. Time of pregnancy\nD. Missing of menstrual cycle",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Menarche is defined as the:\n1\nA. Ending of menstrual period of women\nB. Beginning of menstrual period in women\nC. Time of pregnancy\nD. Missing of menstrual cycle",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Ending of menstrual period of women"
+                },
+                {
+                  "label": "b",
+                  "text": "Beginning of menstrual period in women"
+                },
+                {
+                  "label": "c",
+                  "text": "Time of pregnancy"
+                },
+                {
+                  "label": "d",
+                  "text": "Missing of menstrual cycle"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q8\n. Menarche is defined as the:\n1\nA. Ending of menstrual period of women\nB. Beginning of menstrual period in women\nC. Time of pregnancy\nD. Missing of menstrual cycle",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Which of the following are fat soluble vitamins\n1\nA. Vitamin d & k\nB. Vitamin b & c\nC. Vitamin a & e\nD. Both option a & c\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Which of the following are fat soluble vitamins\n1\nA. Vitamin d & k\nB. Vitamin b & c\nC. Vitamin a & e\nD. Both option a & c\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Vitamin d & k"
+                },
+                {
+                  "label": "b",
+                  "text": "Vitamin b & c"
+                },
+                {
+                  "label": "c",
+                  "text": "Vitamin a & e"
+                },
+                {
+                  "label": "d",
+                  "text": "Both option a & c"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q9\n. Which of the following are fat soluble vitamins\n1\nA. Vitamin d & k\nB. Vitamin b & c\nC. Vitamin a & e\nD. Both option a & c\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Match the following:\n1\nI Plate Tapping Test",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Match the following:\n1\nI Plate Tapping Test",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q10\n. Match the following:\n1\nI Plate Tapping Test",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Upper body strength boys\nII Push up",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Upper body strength boys\nII Push up",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nUpper body strength boys\nII Push up",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q1 has suspiciously short stem text ('5+1.5')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Reaction time\nIII Partial Curl up",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Reaction time\nIII Partial Curl up",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nReaction time\nIII Partial Curl up",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 11 options, expected exactly 4",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Upper body strength girls\nIV Modified pushup",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Upper body strength girls\nIV Modified pushup",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nUpper body strength girls\nIV Modified pushup",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); match_the_following question has no structured column table_data",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Abdominal strength\nA. I-2, II-1, III-4, IV-3\nB. I-2, II-3, III-1, IV-4\nC. I-1, II-3, III-2, IV-4\nD. I-2, II-3, III-4, IV-1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Abdominal strength\nA. I-2, II-1, III-4, IV-3\nB. I-2, II-3, III-1, IV-4\nC. I-1, II-3, III-2, IV-4\nD. I-2, II-3, III-4, IV-1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "I-2, II-1, III-4, IV-3"
+                },
+                {
+                  "label": "b",
+                  "text": "I-2, II-3, III-1, IV-4"
+                },
+                {
+                  "label": "c",
+                  "text": "I-1, II-3, III-2, IV-4"
+                },
+                {
+                  "label": "d",
+                  "text": "I-2, II-3, III-4, IV-1"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nAbdominal strength\nA. I-2, II-1, III-4, IV-3\nB. I-2, II-3, III-1, IV-4\nC. I-1, II-3, III-2, IV-4\nD. I-2, II-3, III-4, IV-1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Which of the following is a physiological factor determining flexibility?               1\nA. Bone density\nB. Joint structure\nC. Cardiac output\nD. Tidal Volume",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Which of the following is a physiological factor determining flexibility?               1\nA. Bone density\nB. Joint structure\nC. Cardiac output\nD. Tidal Volume",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Bone density"
+                },
+                {
+                  "label": "b",
+                  "text": "Joint structure"
+                },
+                {
+                  "label": "c",
+                  "text": "Cardiac output"
+                },
+                {
+                  "label": "d",
+                  "text": "Tidal Volume"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q11\n. Which of the following is a physiological factor determining flexibility?               1\nA. Bone density\nB. Joint structure\nC. Cardiac output\nD. Tidal Volume",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The ability to tolerate higher concentration of \u2026\u2026\u2026\u2026\u2026. Can help in improving 1\nendurance performance.\nA. Lactic acid\nC. acetic acid\nB. Hydrochloric acid\nD. Sulphuric acid",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The ability to tolerate higher concentration of \u2026\u2026\u2026\u2026\u2026. Can help in improving 1\nendurance performance.\nA. Lactic acid\nC. acetic acid\nB. Hydrochloric acid\nD. Sulphuric acid",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Lactic acid"
+                },
+                {
+                  "label": "c",
+                  "text": "acetic acid"
+                },
+                {
+                  "label": "b",
+                  "text": "Hydrochloric acid"
+                },
+                {
+                  "label": "d",
+                  "text": "Sulphuric acid"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q12\n. The ability to tolerate higher concentration of \u2026\u2026\u2026\u2026\u2026. Can help in improving 1\nendurance performance.\nA. Lactic acid\nC. acetic acid\nB. Hydrochloric acid\nD. Sulphuric acid",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  If a ball is hit and it is stop by gravitational force, this is an example of which    1\nlaw of Motion.\nA. Law of Inertia\nB. Law of acceleration\nC. Law of action and reaction\nD. Both a & b",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  If a ball is hit and it is stop by gravitational force, this is an example of which    1\nlaw of Motion.\nA. Law of Inertia\nB. Law of acceleration\nC. Law of action and reaction\nD. Both a & b",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Law of Inertia"
+                },
+                {
+                  "label": "b",
+                  "text": "Law of acceleration"
+                },
+                {
+                  "label": "c",
+                  "text": "Law of action and reaction"
+                },
+                {
+                  "label": "d",
+                  "text": "Both a & b"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q13\n.  If a ball is hit and it is stop by gravitational force, this is an example of which    1\nlaw of Motion.\nA. Law of Inertia\nB. Law of acceleration\nC. Law of action and reaction\nD. Both a & b",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". In which of the following sport friction plays the least important role.\n1\nA. Car race\nB. Football\nC. Ice skating\nD. Hockey",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". In which of the following sport friction plays the least important role.\n1\nA. Car race\nB. Football\nC. Ice skating\nD. Hockey",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Car race"
+                },
+                {
+                  "label": "b",
+                  "text": "Football"
+                },
+                {
+                  "label": "c",
+                  "text": "Ice skating"
+                },
+                {
+                  "label": "d",
+                  "text": "Hockey"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q14\n. In which of the following sport friction plays the least important role.\n1\nA. Car race\nB. Football\nC. Ice skating\nD. Hockey",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  Instrumental aggression is related to\n1\nA. Accepting defeat\nB. Achieving goal\nC. Only performance\nD.  Hurting someone to gain something",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  Instrumental aggression is related to\n1\nA. Accepting defeat\nB. Achieving goal\nC. Only performance\nD.  Hurting someone to gain something",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Accepting defeat"
+                },
+                {
+                  "label": "b",
+                  "text": "Achieving goal"
+                },
+                {
+                  "label": "c",
+                  "text": "Only performance"
+                },
+                {
+                  "label": "d",
+                  "text": "Hurting someone to gain something"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q15\n.  Instrumental aggression is related to\n1\nA. Accepting defeat\nB. Achieving goal\nC. Only performance\nD.  Hurting someone to gain something",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Given below are the two statements labeled Assertion (A) and Reason (R).    1\nAssertion: Aggression is part of human behavior and is necessary for an individual to\nlive and struggle for higher achievements\nReason: Aggression is inevitable and inseparable in sport activities\nIn the context of the a",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Given below are the two statements labeled Assertion (A) and Reason (R).    1\nAssertion: Aggression is part of human behavior and is necessary for an individual to\nlive and struggle for higher achievements\nReason: Aggression is inevitable and inseparable in sport activities\nIn the context of the above two statements, which one of the following is correct?\nA.   Both (A) and (R) are true and (R) is the correct explanation of (A).\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4\nB.   Both (A) and (R) are true, but (R) is not the correct explanation of (A).\nC. (A) is true, but (R) is false.\nD. (A) is false, but (R) is true",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "b",
+                  "text": "Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "."
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is true, but"
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is false, but"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q16\n. Given below are the two statements labeled Assertion (A) and Reason (R).    1\nAssertion: Aggression is part of human behavior and is necessary for an individual to\nlive and struggle for higher achievements\nReason: Aggression is inevitable and inseparable in sport activities\nIn the context of the above two statements, which one of the following is correct?\nA.   Both (A) and (R) are true and (R) is the correct explanation of (A).\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4\nB.   Both (A) and (R) are true, but (R) is not the correct explanation of (A).\nC. (A) is true, but (R) is false.\nD. (A) is false, but (R) is true",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 11 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 11 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  Which of these is a type of endurance?\n1\nA. Static\nC. Dynamic\nB. Specific\nD. Relative",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  Which of these is a type of endurance?\n1\nA. Static\nC. Dynamic\nB. Specific\nD. Relative",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Static"
+                },
+                {
+                  "label": "c",
+                  "text": "Dynamic"
+                },
+                {
+                  "label": "b",
+                  "text": "Specific"
+                },
+                {
+                  "label": "d",
+                  "text": "Relative"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q17\n.  Which of these is a type of endurance?\n1\nA. Static\nC. Dynamic\nB. Specific\nD. Relative",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Which type of coordinative ability is required in game like judo and wrestling   1\nB. Orientation ability\nC. Coupling ability\nD. Adaptation ability\nE. Differentiation ability\n(SECTION B- Attempt any 5)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Which type of coordinative ability is required in game like judo and wrestling   1\nB. Orientation ability\nC. Coupling ability\nD. Adaptation ability\nE. Differentiation ability\n(SECTION B- Attempt any 5)",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "Orientation ability"
+                },
+                {
+                  "label": "c",
+                  "text": "Coupling ability"
+                },
+                {
+                  "label": "d",
+                  "text": "Adaptation ability"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q18\n. Which type of coordinative ability is required in game like judo and wrestling   1\nB. Orientation ability\nC. Coupling ability\nD. Adaptation ability\nE. Differentiation ability\n(SECTION B- Attempt any 5)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Enlist any two-exercise guideline by WHO for different age groups.\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Enlist any two-exercise guideline by WHO for different age groups.\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q19\n. Enlist any two-exercise guideline by WHO for different age groups.\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". How we can say that protein is an essential component of diet?                         2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". How we can say that protein is an essential component of diet?                         2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q20\n. How we can say that protein is an essential component of diet?                         2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Mention the test performed on 9 to 18 yrs. of age group in SAI Khelo\nIndia fitness test and explain any one?\n1+1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Mention the test performed on 9 to 18 yrs. of age group in SAI Khelo\nIndia fitness test and explain any one?\n1+1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q21\n. Mention the test performed on 9 to 18 yrs. of age group in SAI Khelo\nIndia fitness test and explain any one?\n1+1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". List down the types of bone injuries\n.\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". List down the types of bone injuries\n.\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q22\n. List down the types of bone injuries\n.\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". What do you understand by the term goal setting\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". What do you understand by the term goal setting\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q23\n. What do you understand by the term goal setting\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Define Flexibility and list down its type.\n1+1\n(SECTION C- Attempt any 5)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Define Flexibility and list down its type.\n1+1\n(SECTION C- Attempt any 5)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q24\n. Define Flexibility and list down its type.\n1+1\n(SECTION C- Attempt any 5)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Specify the purpose of specific sports programme organised for community services.   3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Specify the purpose of specific sports programme organised for community services.   3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q25\n. Specify the purpose of specific sports programme organised for community services.   3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". What are the health problem face by a woman due to female athlete triad in its sports and\nathletic performance.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". What are the health problem face by a woman due to female athlete triad in its sports and\nathletic performance.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q26\n. What are the health problem face by a woman due to female athlete triad in its sports and\nathletic performance.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Write in detail the aims and objectives of special Olympic Bharat.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Write in detail the aims and objectives of special Olympic Bharat.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q27\n. Write in detail the aims and objectives of special Olympic Bharat.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Differentiate between nutritive and nonnutritive components of a diet on the basis of their\nfunctions.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Differentiate between nutritive and nonnutritive components of a diet on the basis of their\nfunctions.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q28\n. Differentiate between nutritive and nonnutritive components of a diet on the basis of their\nfunctions.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "5+1.5",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "5+1.5",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\n5+1.5",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q1 has suspiciously short stem text ('5+1.5')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". With the help of suitable sports example explain the application of Newtons       3\nthird law in sports.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". With the help of suitable sports example explain the application of Newtons       3\nthird law in sports.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q29\n. With the help of suitable sports example explain the application of Newtons       3\nthird law in sports.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". How we can enhance the performance with the help of self-talk and self-esteem.      1.5+1.5\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\n(SECTION D)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". How we can enhance the performance with the help of self-talk and self-esteem.      1.5+1.5\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\n(SECTION D)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q30\n. How we can enhance the performance with the help of self-talk and self-esteem.      1.5+1.5\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\n(SECTION D)",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".\nI. Choose the function of boarding committee\n1\nA. To take teams to the venue of match\nB. To provide them meals\nC. To take care of their stay\nD. To arrange opening ceremony\nII. What is the work of ceremony committee\n1\nA. To take teams to the venue of match\nB. To provide them meals\nC. To take care o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".\nI. Choose the function of boarding committee\n1\nA. To take teams to the venue of match\nB. To provide them meals\nC. To take care of their stay\nD. To arrange opening ceremony\nII. What is the work of ceremony committee\n1\nA. To take teams to the venue of match\nB. To provide them meals\nC. To take care of their stay\nD. To arrange opening ceremony\nIII. Ground and equipment committee should not perform\n1\nA.  To arrange teams match venues\nB. To provide them meals\nC. To take care of proper officiating\nD. To make fixtures\nIV. Why committees are required?\nA. To organize the event is perfect manner\nB. To distribute the work\nC. To make the best use of resources\nD. All of the above\n1\n(Questions for Visually impaired)\nRam is a secretary of state basketball association. He has given the responsibility to organize a sub-\njunior national tournament. He wants to organize the event at large scale and start distribution the\nwork in various committees. He delegates the duties to different individual with authority and\nresponsibility.\n(Answer the following questions on the basis of above paragraph)\nI. Which committee is responsible to make the event awareness: -\nA. Publicity Committee\nC. Registration committee\nB. Hospitality\nD. Transports\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\nII. \u2026\u2026\u2026\u2026\u2026\u2026. is the process of identifying and grouping the work to be performed.\nA. Planning\nC. Organising\nB. Directing\nD. Controlling\nIII. The reception committee for the tournament is responsible for ________\nA. Welcoming the participants\nB. Arranging accommodation and meals for the participants\nC. Proper upkeep of the venues\nD. Welcoming the chief guest and spectators at the opening and closing ceremony\nIV. If the responsibility of a committee is to fix venue, date and timing of the sports events,\nit is a ________\nA. Post meeting committee\nB. Pre meet committee\nC. During meet committee\nD. All the above",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "To take teams to the venue of match"
+                },
+                {
+                  "label": "b",
+                  "text": "To provide them meals"
+                },
+                {
+                  "label": "c",
+                  "text": "To take care of their stay"
+                },
+                {
+                  "label": "d",
+                  "text": "To arrange opening ceremony"
+                },
+                {
+                  "label": "a",
+                  "text": "To take teams to the venue of match"
+                },
+                {
+                  "label": "b",
+                  "text": "To provide them meals"
+                },
+                {
+                  "label": "c",
+                  "text": "To take care of their stay"
+                },
+                {
+                  "label": "d",
+                  "text": "To arrange opening ceremony"
+                },
+                {
+                  "label": "a",
+                  "text": "To arrange teams match venues"
+                },
+                {
+                  "label": "b",
+                  "text": "To provide them meals"
+                },
+                {
+                  "label": "c",
+                  "text": "To take care of proper officiating"
+                },
+                {
+                  "label": "d",
+                  "text": "To make fixtures"
+                },
+                {
+                  "label": "a",
+                  "text": "To organize the event is perfect manner"
+                },
+                {
+                  "label": "b",
+                  "text": "To distribute the work"
+                },
+                {
+                  "label": "c",
+                  "text": "To make the best use of resources"
+                },
+                {
+                  "label": "d",
+                  "text": "All of the above"
+                },
+                {
+                  "label": "a",
+                  "text": "Publicity Committee"
+                },
+                {
+                  "label": "c",
+                  "text": "Registration committee"
+                },
+                {
+                  "label": "b",
+                  "text": "Hospitality"
+                },
+                {
+                  "label": "d",
+                  "text": "Transports"
+                },
+                {
+                  "label": "a",
+                  "text": "Planning"
+                },
+                {
+                  "label": "c",
+                  "text": "Organising"
+                },
+                {
+                  "label": "b",
+                  "text": "Directing"
+                },
+                {
+                  "label": "d",
+                  "text": "Controlling"
+                },
+                {
+                  "label": "a",
+                  "text": "Welcoming the participants"
+                },
+                {
+                  "label": "b",
+                  "text": "Arranging accommodation and meals for the participants"
+                },
+                {
+                  "label": "c",
+                  "text": "Proper upkeep of the venues"
+                },
+                {
+                  "label": "d",
+                  "text": "Welcoming the chief guest and spectators at the opening and closing ceremony"
+                },
+                {
+                  "label": "a",
+                  "text": "Post meeting committee"
+                },
+                {
+                  "label": "b",
+                  "text": "Pre meet committee"
+                },
+                {
+                  "label": "c",
+                  "text": "During meet committee"
+                },
+                {
+                  "label": "d",
+                  "text": "All the above"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q31\n.\nI. Choose the function of boarding committee\n1\nA. To take teams to the venue of match\nB. To provide them meals\nC. To take care of their stay\nD. To arrange opening ceremony\nII. What is the work of ceremony committee\n1\nA. To take teams to the venue of match\nB. To provide them meals\nC. To take care of their stay\nD. To arrange opening ceremony\nIII. Ground and equipment committee should not perform\n1\nA.  To arrange teams match venues\nB. To provide them meals\nC. To take care of proper officiating\nD. To make fixtures\nIV. Why committees are required?\nA. To organize the event is perfect manner\nB. To distribute the work\nC. To make the best use of resources\nD. All of the above\n1\n(Questions for Visually impaired)\nRam is a secretary of state basketball association. He has given the responsibility to organize a sub-\njunior national tournament. He wants to organize the event at large scale and start distribution the\nwork in various committees. He delegates the duties to different individual with authority and\nresponsibility.\n(Answer the following questions on the basis of above paragraph)\nI. Which committee is responsible to make the event awareness: -\nA. Publicity Committee\nC. Registration committee\nB. Hospitality\nD. Transports\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\nII. \u2026\u2026\u2026\u2026\u2026\u2026. is the process of identifying and grouping the work to be performed.\nA. Planning\nC. Organising\nB. Directing\nD. Controlling\nIII. The reception committee for the tournament is responsible for ________\nA. Welcoming the participants\nB. Arranging accommodation and meals for the participants\nC. Proper upkeep of the venues\nD. Welcoming the chief guest and spectators at the opening and closing ceremony\nIV. If the responsibility of a committee is to fix venue, date and timing of the sports events,\nit is a ________\nA. Post meeting committee\nB. Pre meet committee\nC. During meet committee\nD. All the above",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 32 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 32 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".\nI. The first paralympics was organise in\nA.1960\nC. 1965\nB. 1970\nD. 1985\nII. Special education is a branch of education that deals with\nA. . Educating children in special schools\nB. Instructions designing for students with special needs\nC. To provide opportunity of special education\nD. More than on",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".\nI. The first paralympics was organise in\nA.1960\nC. 1965\nB. 1970\nD. 1985\nII. Special education is a branch of education that deals with\nA. . Educating children in special schools\nB. Instructions designing for students with special needs\nC. To provide opportunity of special education\nD. More than one of the above\nIII. Why is it called the Paralympics?\nA. The first competition was held in Paraguay\nB. It was originally for paramilitary soldiers injured in WW2\nC.  The event runs parallel with the Olympics\nD.  It's an event for paraplegics\nIV. What is the motto of the Paralympic Games\nA. Spirit in motion\nB. Citius, Altius, Fortius\"\nC.  \"Faster, Higher, Stronger\nD. Diversity, Equality, Inclusion\"\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\n(Question for Visually Impared)\nRead the paragraph and answer the following question\nThe Paralympic Games are a major international multi-sport event involving athletes with\na range of physical disabilities, including impaired muscle power, impaired passive range\nof movement, limb deficiency, leg length difference, short stature, hypertonia, ataxia,\nathetosis, vision impairment, and intellectual impairment.\nDr. Ludwig Guttmann kownn as father of paralympic organized the first official Paralympic\nGames in Rome featuring 400 athletes from 23 countries.\nThe Paralympics have grown significantly over the years, now attracting thousands of\nathletes from over 100 countries. The Paralympic movement has played a vital role in\nchallenging societal perceptions of disability and in promoting the rights and inclusion\nof people with disabilities worldwide\nI. What is the primary focus of the Paralympic Games?\nA. To promote physical fitness among children\nB. To involve athletes with a range of physical disabilities in competitive sports\nC. To honor the history of the Olympic Games\nD. To raise funds for sports organizations\nII. Who organized the first event that eventually led to the creation of the Paralympic\nGames?\nA. Pierre de Coubertin\nC. Lord Zeus\nB. Dr. Ludwig Guttmann\nD. Norabji Tata\nIII. In which year were the first official Paralympic Games held?\nA. 1948                                                      C. 1960\nB. 1952                                                      D. 1964\nIV. Where were the first official Paralympic Games held?\nA.  Tokyo, Japan\nC. Rome, Italy\nB. London, United Kingdom\nD. Sydney, Australia",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1960"
+                },
+                {
+                  "label": "c",
+                  "text": "1965"
+                },
+                {
+                  "label": "b",
+                  "text": "1970"
+                },
+                {
+                  "label": "d",
+                  "text": "1985"
+                },
+                {
+                  "label": "a",
+                  "text": ". Educating children in special schools"
+                },
+                {
+                  "label": "b",
+                  "text": "Instructions designing for students with special needs"
+                },
+                {
+                  "label": "c",
+                  "text": "To provide opportunity of special education"
+                },
+                {
+                  "label": "d",
+                  "text": "More than one of the above"
+                },
+                {
+                  "label": "a",
+                  "text": "The first competition was held in Paraguay"
+                },
+                {
+                  "label": "b",
+                  "text": "It was originally for paramilitary soldiers injured in WW2"
+                },
+                {
+                  "label": "c",
+                  "text": "The event runs parallel with the Olympics"
+                },
+                {
+                  "label": "d",
+                  "text": "It's an event for paraplegics"
+                },
+                {
+                  "label": "a",
+                  "text": "Spirit in motion"
+                },
+                {
+                  "label": "b",
+                  "text": "Citius, Altius, Fortius\""
+                },
+                {
+                  "label": "c",
+                  "text": "\"Faster, Higher, Stronger"
+                },
+                {
+                  "label": "d",
+                  "text": "Diversity, Equality, Inclusion\""
+                },
+                {
+                  "label": "a",
+                  "text": "To promote physical fitness among children"
+                },
+                {
+                  "label": "b",
+                  "text": "To involve athletes with a range of physical disabilities in competitive sports"
+                },
+                {
+                  "label": "c",
+                  "text": "To honor the history of the Olympic Games"
+                },
+                {
+                  "label": "d",
+                  "text": "To raise funds for sports organizations"
+                },
+                {
+                  "label": "a",
+                  "text": "Pierre de Coubertin"
+                },
+                {
+                  "label": "c",
+                  "text": "Lord Zeus"
+                },
+                {
+                  "label": "b",
+                  "text": "Dr. Ludwig Guttmann"
+                },
+                {
+                  "label": "d",
+                  "text": "Norabji Tata"
+                },
+                {
+                  "label": "a",
+                  "text": "1948                                                      C. 1960"
+                },
+                {
+                  "label": "b",
+                  "text": "1952                                                      D. 1964"
+                },
+                {
+                  "label": "a",
+                  "text": "Tokyo, Japan"
+                },
+                {
+                  "label": "c",
+                  "text": "Rome, Italy"
+                },
+                {
+                  "label": "b",
+                  "text": "London, United Kingdom"
+                },
+                {
+                  "label": "d",
+                  "text": "Sydney, Australia"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q32\n.\nI. The first paralympics was organise in\nA.1960\nC. 1965\nB. 1970\nD. 1985\nII. Special education is a branch of education that deals with\nA. . Educating children in special schools\nB. Instructions designing for students with special needs\nC. To provide opportunity of special education\nD. More than one of the above\nIII. Why is it called the Paralympics?\nA. The first competition was held in Paraguay\nB. It was originally for paramilitary soldiers injured in WW2\nC.  The event runs parallel with the Olympics\nD.  It's an event for paraplegics\nIV. What is the motto of the Paralympic Games\nA. Spirit in motion\nB. Citius, Altius, Fortius\"\nC.  \"Faster, Higher, Stronger\nD. Diversity, Equality, Inclusion\"\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\n(Question for Visually Impared)\nRead the paragraph and answer the following question\nThe Paralympic Games are a major international multi-sport event involving athletes with\na range of physical disabilities, including impaired muscle power, impaired passive range\nof movement, limb deficiency, leg length difference, short stature, hypertonia, ataxia,\nathetosis, vision impairment, and intellectual impairment.\nDr. Ludwig Guttmann kownn as father of paralympic organized the first official Paralympic\nGames in Rome featuring 400 athletes from 23 countries.\nThe Paralympics have grown significantly over the years, now attracting thousands of\nathletes from over 100 countries. The Paralympic movement has played a vital role in\nchallenging societal perceptions of disability and in promoting the rights and inclusion\nof people with disabilities worldwide\nI. What is the primary focus of the Paralympic Games?\nA. To promote physical fitness among children\nB. To involve athletes with a range of physical disabilities in competitive sports\nC. To honor the history of the Olympic Games\nD. To raise funds for sports organizations\nII. Who organized the first event that eventually led to the creation of the Paralympic\nGames?\nA. Pierre de Coubertin\nC. Lord Zeus\nB. Dr. Ludwig Guttmann\nD. Norabji Tata\nIII. In which year were the first official Paralympic Games held?\nA. 1948                                                      C. 1960\nB. 1952                                                      D. 1964\nIV. Where were the first official Paralympic Games held?\nA.  Tokyo, Japan\nC. Rome, Italy\nB. London, United Kingdom\nD. Sydney, Australia",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 30 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 30 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".\nI. What is the primary effect of exercise on cardio respiratory system.\n1\nA.     Decreased heart rate\nB. Increased stroke volume\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nC. Decreased lung capacity\nD. Decreased blood pressure\nII.\nWhat is stroke volume\n1\nA.\nThe volume of blood ejected by the hea",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".\nI. What is the primary effect of exercise on cardio respiratory system.\n1\nA.     Decreased heart rate\nB. Increased stroke volume\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nC. Decreased lung capacity\nD. Decreased blood pressure\nII.\nWhat is stroke volume\n1\nA.\nThe volume of blood ejected by the heart per minute\nB.\nThe volume of blood ejected by the heart per beat\nC.\nThe volume of blood in the ventricles at the end of diastole\nD.\nThe volume of blood pumped by the heart during exercise\nIII.\nCardiac output is\n1\nA.\nThe volume of blood ejected by the heart per minute\nB.\nThe volume of blood ejected by the heart per beat\nC.\nThe volume of blood in the ventricles at the end of diastole\nD.\nThe volume of blood pumped by the heart during exercise\nIV.\nBlood pressure is\n1\nA.\nThe volume of blood ejected by the heart per minute\nB.\nThe force exerted by blood against the walls of arteries\nC.\nThe rate of blood flow through the veins\nD.\nThe amount of oxygen carried by red blood cells\n(Question for blind)\nRamesh is an athlete of XYZ school. He is use to do 100m event for his school. He used to do\nhard work throughout the year to get his best performance. One day he got injury in winter\nseason due to improper warming-up. He has been given first -aid before sent to hospital.\nI. Sprain is an injury of \u2026.\nA. Ligament\nC. Bone\nB. Muscle\nD. Joint\nII. In PRICE treatment I stands for\nA. Iceing\nC. Incision\nB. Incline\nD. Irritation\nIII.  Abrasion is a\nA. Type of fracture\nC. Soft tissue injury\nB. Joint dislocation\nD. Internal injury\nIV. Why warming up is necessary\nA. To avoid injuries\nC. To increase body temperature\nB. To increase pulse rate\nD. All the above\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\n(SECTION E- Attempt any 3)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Decreased heart rate"
+                },
+                {
+                  "label": "b",
+                  "text": "Increased stroke volume"
+                },
+                {
+                  "label": "c",
+                  "text": "Decreased lung capacity"
+                },
+                {
+                  "label": "d",
+                  "text": "Decreased blood pressure"
+                },
+                {
+                  "label": "a",
+                  "text": "The volume of blood ejected by the heart per minute"
+                },
+                {
+                  "label": "b",
+                  "text": "The volume of blood ejected by the heart per beat"
+                },
+                {
+                  "label": "c",
+                  "text": "The volume of blood in the ventricles at the end of diastole"
+                },
+                {
+                  "label": "d",
+                  "text": "The volume of blood pumped by the heart during exercise"
+                },
+                {
+                  "label": "a",
+                  "text": "The volume of blood ejected by the heart per minute"
+                },
+                {
+                  "label": "b",
+                  "text": "The volume of blood ejected by the heart per beat"
+                },
+                {
+                  "label": "c",
+                  "text": "The volume of blood in the ventricles at the end of diastole"
+                },
+                {
+                  "label": "d",
+                  "text": "The volume of blood pumped by the heart during exercise"
+                },
+                {
+                  "label": "a",
+                  "text": "The volume of blood ejected by the heart per minute"
+                },
+                {
+                  "label": "b",
+                  "text": "The force exerted by blood against the walls of arteries"
+                },
+                {
+                  "label": "c",
+                  "text": "The rate of blood flow through the veins"
+                },
+                {
+                  "label": "d",
+                  "text": "The amount of oxygen carried by red blood cells"
+                },
+                {
+                  "label": "a",
+                  "text": "Ligament"
+                },
+                {
+                  "label": "c",
+                  "text": "Bone"
+                },
+                {
+                  "label": "b",
+                  "text": "Muscle"
+                },
+                {
+                  "label": "d",
+                  "text": "Joint"
+                },
+                {
+                  "label": "a",
+                  "text": "Iceing"
+                },
+                {
+                  "label": "c",
+                  "text": "Incision"
+                },
+                {
+                  "label": "b",
+                  "text": "Incline"
+                },
+                {
+                  "label": "d",
+                  "text": "Irritation"
+                },
+                {
+                  "label": "a",
+                  "text": "Type of fracture"
+                },
+                {
+                  "label": "c",
+                  "text": "Soft tissue injury"
+                },
+                {
+                  "label": "b",
+                  "text": "Joint dislocation"
+                },
+                {
+                  "label": "d",
+                  "text": "Internal injury"
+                },
+                {
+                  "label": "a",
+                  "text": "To avoid injuries"
+                },
+                {
+                  "label": "c",
+                  "text": "To increase body temperature"
+                },
+                {
+                  "label": "b",
+                  "text": "To increase pulse rate"
+                },
+                {
+                  "label": "d",
+                  "text": "All the above"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q33\n.\nI. What is the primary effect of exercise on cardio respiratory system.\n1\nA.     Decreased heart rate\nB. Increased stroke volume\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nC. Decreased lung capacity\nD. Decreased blood pressure\nII.\nWhat is stroke volume\n1\nA.\nThe volume of blood ejected by the heart per minute\nB.\nThe volume of blood ejected by the heart per beat\nC.\nThe volume of blood in the ventricles at the end of diastole\nD.\nThe volume of blood pumped by the heart during exercise\nIII.\nCardiac output is\n1\nA.\nThe volume of blood ejected by the heart per minute\nB.\nThe volume of blood ejected by the heart per beat\nC.\nThe volume of blood in the ventricles at the end of diastole\nD.\nThe volume of blood pumped by the heart during exercise\nIV.\nBlood pressure is\n1\nA.\nThe volume of blood ejected by the heart per minute\nB.\nThe force exerted by blood against the walls of arteries\nC.\nThe rate of blood flow through the veins\nD.\nThe amount of oxygen carried by red blood cells\n(Question for blind)\nRamesh is an athlete of XYZ school. He is use to do 100m event for his school. He used to do\nhard work throughout the year to get his best performance. One day he got injury in winter\nseason due to improper warming-up. He has been given first -aid before sent to hospital.\nI. Sprain is an injury of \u2026.\nA. Ligament\nC. Bone\nB. Muscle\nD. Joint\nII. In PRICE treatment I stands for\nA. Iceing\nC. Incision\nB. Incline\nD. Irritation\nIII.  Abrasion is a\nA. Type of fracture\nC. Soft tissue injury\nB. Joint dislocation\nD. Internal injury\nIV. Why warming up is necessary\nA. To avoid injuries\nC. To increase body temperature\nB. To increase pulse rate\nD. All the above\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\n(SECTION E- Attempt any 3)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 32 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 32 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". List down any four asanas used for prevention of Hypertension. Explain the procedure,\nbenefits and contraindicate of any one of them with help of a stick diagram.               1+4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". List down any four asanas used for prevention of Hypertension. Explain the procedure,\nbenefits and contraindicate of any one of them with help of a stick diagram.               1+4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q34\n. List down any four asanas used for prevention of Hypertension. Explain the procedure,\nbenefits and contraindicate of any one of them with help of a stick diagram.               1+4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q35",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Discuss the purpose of Rikli & Jones fitness test and explain procedure of any two\ntest batteries in detail.\n5",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Discuss the purpose of Rikli & Jones fitness test and explain procedure of any two\ntest batteries in detail.\n5",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q35\n. Discuss the purpose of Rikli & Jones fitness test and explain procedure of any two\ntest batteries in detail.\n5",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q36",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".Define strength and differentiate between Isometric, Iso-tonic and Iso-kinetic exercises.\n1+4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".Define strength and differentiate between Isometric, Iso-tonic and Iso-kinetic exercises.\n1+4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q36\n.Define strength and differentiate between Isometric, Iso-tonic and Iso-kinetic exercises.\n1+4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q37",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".What are the various types of friction? With the help of suitable example explain why friction\nis necessary in sports.\n2+3\n<!-- PAGE 9 END -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".What are the various types of friction? With the help of suitable example explain why friction\nis necessary in sports.\n2+3\n<!-- PAGE 9 END -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q37\n.What are the various types of friction? With the help of suitable example explain why friction\nis necessary in sports.\n2+3\n<!-- PAGE 9 END -->",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1088 @@
+{
+  "paper_id": "6e74ebac63c7",
+  "class": "10",
+  "subject": "mathematics",
+  "year": "2022-2023",
+  "total_chunks": 37,
+  "chunks": [
+    {
+      "chunk_id": "6e74ebac63c7_q1",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Let a and b be two positive integers such that a = p3q4 and b = p2q3 , where p and q are\nprime numbers. If  HCF(a,b) = pmqn  and LCM(a,b) = prqs, then (m+n)(r+s)=",
+      "raw_text": "Let a and b be two positive integers such that a = p3q4 and b = p2q3 , where p and q are\nprime numbers. If  HCF(a,b) = pmqn  and LCM(a,b) = prqs, then (m+n)(r+s)=",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 15",
+        "(b) 30",
+        "(c) 35",
+        "(d) 72"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        445.05,
+        536.02,
+        486.98
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q2",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Let p be a prime number. The quadratic equation having its roots as factors of p is\n(a) x2 \u2013px +p=0\n(b) x2\u2013(p+1)x +p=0 (c) x2+(p+1)x +p=0",
+      "raw_text": "Let p be a prime number. The quadratic equation having its roots as factors of p is\n(a) x2 \u2013px +p=0\n(b) x2\u2013(p+1)x +p=0 (c) x2+(p+1)x +p=0",
+      "options": [
+        "(a) x2 \u2013px +p=0",
+        "(b) x2\u2013(p+1)x +p=0",
+        "(c) x2+(p+1)x +p=0",
+        "(d) x2 \u2013px+p+1=0"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        501.78,
+        526.78,
+        528.86
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q3",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "If \u03b1 and \u03b2 are the zeros of a polynomial f(x) = px2 \u2013 2x + 3p and \u03b1 + \u03b2  = \u03b1\u03b2, then p is\n(a)-2/3\n(b) 2/3\n(c) 1/3",
+      "raw_text": "If \u03b1 and \u03b2 are the zeros of a polynomial f(x) = px2 \u2013 2x + 3p and \u03b1 + \u03b2  = \u03b1\u03b2, then p is\n(a)-2/3\n(b) 2/3\n(c) 1/3",
+      "options": [
+        "(a) -2/3",
+        "(b) 2/3",
+        "(c) 1/3",
+        "(d) -1/3"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        542.63,
+        530.98,
+        584.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q4",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "If the system of equations 3x+y =1 and (2k-1)x +(k-1)y =2k+1 is inconsistent, then k =",
+      "raw_text": "If the system of equations 3x+y =1 and (2k-1)x +(k-1)y =2k+1 is inconsistent, then k =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) -1",
+        "(b) 0",
+        "(c) 1",
+        "(d) 2"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        599.34,
+        540.58,
+        626.42
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q5",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "If the vertices of a parallelogram PQRS taken in order are P(3,4), Q(-2,3) and R(-3,-2),\nthen the coordinates of its fourth vertex S are\n(a) (-2,-1)\n(b) (-2,-3)\n(c) (2,-1)",
+      "raw_text": "If the vertices of a parallelogram PQRS taken in order are P(3,4), Q(-2,3) and R(-3,-2),\nthen the coordinates of its fourth vertex S are\n(a) (-2,-1)\n(b) (-2,-3)\n(c) (2,-1)",
+      "options": [
+        "(a) (-2,-1)",
+        "(b) (-2,-3)",
+        "(c) (2,-1)",
+        "(d) (1,2)"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        641.34,
+        536.54,
+        682.25
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q6",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "\u2206ABC~\u2206PQR. If AM and PN are altitudes of \u2206ABC and \u2206PQR respectively and\nAB2: PQ2 = 4 : 9, then AM: PN =\n(a) 3:2\n(b) 16:81\n(c) 4:9",
+      "raw_text": "\u2206ABC~\u2206PQR. If AM and PN are altitudes of \u2206ABC and \u2206PQR respectively and\nAB2: PQ2 = 4 : 9, then AM: PN =\n(a) 3:2\n(b) 16:81\n(c) 4:9",
+      "options": [
+        "(a) 3:2",
+        "(b) 16:81",
+        "(c) 4:9",
+        "(d) 2:3"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        697.05,
+        511.42,
+        737.93
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q7",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "If x tan 60\u00b0cos 60\u00b0= sin60\u00b0cot 60\u00b0, then x =\n(a) cos30\u00b0\n(b) tan30\u00b0\n(c) sin30\u00b0",
+      "raw_text": "If x tan 60\u00b0cos 60\u00b0= sin60\u00b0cot 60\u00b0, then x =\n(a) cos30\u00b0\n(b) tan30\u00b0\n(c) sin30\u00b0",
+      "options": [
+        "(a) cos30\u00b0",
+        "(b) tan30\u00b0",
+        "(c) sin30\u00b0",
+        "(d) cot30\u00b0"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        72.83,
+        476.5,
+        100.84
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q8",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "If sin\u03b8 + cos\u03b8 = \u221a2, then tan\u03b8 + cot \u03b8 =",
+      "raw_text": "If sin\u03b8 + cos\u03b8 = \u221a2, then tan\u03b8 + cot \u03b8 =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 1",
+        "(b) 2",
+        "(c) 3",
+        "(d) 4"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        115.81,
+        451.15,
+        144.57
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q9",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "In the given figure, DE \u2225 BC, AE = a units, EC =b units, DE =x units and BC = y\nunits. Which of the following is true?",
+      "raw_text": "In the given figure, DE \u2225 BC, AE = a units, EC =b units, DE =x units and BC = y\nunits. Which of the following is true?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) x=\n\ud835\udc4e+\ud835\udc4f\n\ud835\udc4e\ud835\udc66",
+        "(b) y=\n\ud835\udc4e\ud835\udc65\n\ud835\udc4e+\ud835\udc4f",
+        "(c) x=\n\ud835\udc4e\ud835\udc66\n\ud835\udc4e+\ud835\udc4f",
+        "(d) \ud835\udc65\n\ud835\udc66 =\n\ud835\udc4e\n\ud835\udc4f"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q9_1.png"
+      ],
+      "bounding_box": [
+        77.66,
+        159.73,
+        510.07,
+        327.98
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q10",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "ABCD is a trapezium with AD \u2225 BC and AD = 4cm. If the diagonals AC and BD\nintersect each other at O such that AO/OC = DO/OB =1/2, then BC =\n(a) 6cm\n(b) 7cm\n(c) 8cm",
+      "raw_text": "ABCD is a trapezium with AD \u2225 BC and AD = 4cm. If the diagonals AC and BD\nintersect each other at O such that AO/OC = DO/OB =1/2, then BC =\n(a) 6cm\n(b) 7cm\n(c) 8cm",
+      "options": [
+        "(a) 6cm",
+        "(b) 7cm",
+        "(c) 8cm",
+        "(d) 9cm"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        340.96,
+        509.82,
+        381.96
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q11",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "If two tangents inclined at an angle of 60\u1d52 are drawn to a circle of radius 3cm, then the\nlength of each tangent is equal to\n(a)\n3\u221a3\n2 cm\n(b) 3cm\n(c) 6cm",
+      "raw_text": "If two tangents inclined at an angle of 60\u1d52 are drawn to a circle of radius 3cm, then the\nlength of each tangent is equal to\n(a)\n3\u221a3\n2 cm\n(b) 3cm\n(c) 6cm",
+      "options": [
+        "(a) 3\u221a3",
+        "(b) 3cm",
+        "(c) 6cm",
+        "(d) 3\u221a3cm"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        396.76,
+        533.98,
+        448.58
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q12",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "The area of  the circle that can be inscribed in a square of 6cm is\n(a) 36\u03c0 cm2\n(b) 18\u03c0  cm2\n(c) 12 \u03c0 cm2",
+      "raw_text": "The area of  the circle that can be inscribed in a square of 6cm is\n(a) 36\u03c0 cm2\n(b) 18\u03c0  cm2\n(c) 12 \u03c0 cm2",
+      "options": [
+        "(a) 36\u03c0 cm2",
+        "(b) 18\u03c0  cm2",
+        "(c) 12 \u03c0 cm2",
+        "(d) 9\u03c0  cm2"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        452.44,
+        486.94,
+        479.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q13",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "The sum of the length, breadth and height of a cuboid is 6\u221a3cm and the length of its\ndiagonal is 2\u221a3cm. The total surface area of the cuboid is\n(a) 48 cm2\n(b) 72 cm2\n(c) 96 cm2",
+      "raw_text": "The sum of the length, breadth and height of a cuboid is 6\u221a3cm and the length of its\ndiagonal is 2\u221a3cm. The total surface area of the cuboid is\n(a) 48 cm2\n(b) 72 cm2\n(c) 96 cm2",
+      "options": [
+        "(a) 48 cm2",
+        "(b) 72 cm2",
+        "(c) 96 cm2",
+        "(d) 108 cm2"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        494.34,
+        522.7,
+        535.22
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q14",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "If the difference of Mode and Median of a data is 24, then the difference of median\nand mean is",
+      "raw_text": "If the difference of Mode and Median of a data is 24, then the difference of median\nand mean is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 8",
+        "(b) 12",
+        "(c) 24",
+        "(d) 36"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        550.02,
+        518.43,
+        590.9
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q15",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "The number of revolutions made by a circular wheel of radius 0.25m in rolling a\ndistance of 11km is\n(a) 2800\n(b) 4000\n(c) 5500",
+      "raw_text": "The number of revolutions made by a circular wheel of radius 0.25m in rolling a\ndistance of 11km is\n(a) 2800\n(b) 4000\n(c) 5500",
+      "options": [
+        "(a) 2800",
+        "(b) 4000",
+        "(c) 5500",
+        "(d) 7000"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        605.7,
+        505.73,
+        646.58
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q16",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "For the following distribution,\nClass\n0-5\n5-10\n10-15\n15-20\n20-25\nFrequency\nthe sum of the lower limits of the median and modal class is\n(a) 15\n(b) 25\n(c) 30",
+      "raw_text": "For the following distribution,\nClass\n0-5\n5-10\n10-15\n15-20\n20-25\nFrequency\nthe sum of the lower limits of the median and modal class is\n(a) 15\n(b) 25\n(c) 30",
+      "options": [
+        "(a) 15",
+        "(b) 25",
+        "(c) 30",
+        "(d) 35"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        661.41,
+        501.22,
+        745.25
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q17",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Two dice are rolled simultaneously. What is the probability that 6 will come up at least\nonce?\n(a)1/6\n(b) 7/36\n(c) 11/36",
+      "raw_text": "Two dice are rolled simultaneously. What is the probability that 6 will come up at least\nonce?\n(a)1/6\n(b) 7/36\n(c) 11/36",
+      "options": [
+        "(a) 1/6",
+        "(b) 7/36",
+        "(c) 11/36",
+        "(d) 13/36"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        72.59,
+        537.43,
+        127.29
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q18",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "If 5 tan\u03b2 =4, then\n5 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udefd\u22122 cos \ud835\udefd\n5 sin \ud835\udefd+2 cos \ud835\udefd =",
+      "raw_text": "If 5 tan\u03b2 =4, then\n5 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udefd\u22122 cos \ud835\udefd\n5 sin \ud835\udefd+2 cos \ud835\udefd =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 1/3",
+        "(b) 2/5",
+        "(c) 3/5",
+        "(d) 6"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        142.33,
+        451.15,
+        191.85
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q20",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "DIRECTION:",
+      "page_num": 3,
+      "content": "Statement A (Assertion): If the co-ordinates of the mid-points of the sides AB and AC\nof  \u2206ABC are D(3,5) and E(-3,-3) respectively, then BC = 20 units\nStatement R( Reason) : The line joining the mid points of two sides of a triangle is\nparallel to the third side and equal to half of it.\n(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation\nof assertion (A)\n(b) Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\n(c) Assertion (A) is true but reason(R) is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Statement A (Assertion): If the co-ordinates of the mid-points of the sides AB and AC\nof  \u2206ABC are D(3,5) and E(-3,-3) respectively, then BC = 20 units\nStatement R( Reason) : The line joining the mid points of two sides of a triangle is\nparallel to the third side and equal to half of it.\n(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation\nof assertion (A)\n(b) Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\n(c) Assertion (A) is true but reason(R) is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        501.78,
+        535.71,
+        711.89
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q21",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "If 49x+51y= 499, 51 x+49 y= 501, then find the value of x and y",
+      "raw_text": "If 49x+51y= 499, 51 x+49 y= 501, then find the value of x and y",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        130.81,
+        434.95,
+        144.33
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q22",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "In the given figure below,\nAD\nAE =\nAC\nBD and \u22201 = \u22202.  Show that \u2206 BAE~ \u2206CAD .",
+      "raw_text": "In the given figure below,\nAD\nAE =\nAC\nBD and \u22201 = \u22202.  Show that \u2206 BAE~ \u2206CAD .",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q22_1.png"
+      ],
+      "bounding_box": [
+        77.66,
+        159.13,
+        514.18,
+        181.84
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q23",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "In the given figure, O is the centre of circle. Find \u2220AQB, given that PA and PB are\ntangents to the circle and \u2220APB= 75\u00b0.",
+      "raw_text": "In the given figure, O is the centre of circle. Find \u2220AQB, given that PA and PB are\ntangents to the circle and \u2220APB= 75\u00b0.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q23_1.png"
+      ],
+      "bounding_box": [
+        77.66,
+        273.04,
+        517.23,
+        300.55
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q24",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "The length of the minute hand of a clock is 6cm. Find the area swept by it when it moves\nfrom 7:05 p.m. to 7:40 p.m.",
+      "raw_text": "The length of the minute hand of a clock is 6cm. Find the area swept by it when it moves\nfrom 7:05 p.m. to 7:40 p.m.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "In the given figure, arcs have been drawn of radius 7cm each with vertices A, B, C\nand D of quadrilateral ABCD as centres. Find the area of the shaded region."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q24_1.png",
+        "images/q24_2.png"
+      ],
+      "bounding_box": [
+        77.66,
+        468.42,
+        527.14,
+        593.78
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q25",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "If sin(A+B) =1 and cos(A-B)= \u221a3/2, 0\u00b0< A+B \u2264 90\u00b0 and A> B, then find the\nmeasures of angles A and B.",
+      "raw_text": "If sin(A+B) =1 and cos(A-B)= \u221a3/2, 0\u00b0< A+B \u2264 90\u00b0 and A> B, then find the\nmeasures of angles A and B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Find an acute angle \u03b8 when\ncos\u03b8 \u2212 sin \u03b8\ncos\u03b8+sin \u03b8 =\n1\u2212\u221a3\n1+\u221a3"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        86.89,
+        488.61,
+        180.11
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q26",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "content": "Given that \u221a3 is irrational, prove that 5 + 2\u221a3 is irrational.",
+      "raw_text": "Given that \u221a3 is irrational, prove that 5 + 2\u221a3 is irrational.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        273.64,
+        412.15,
+        289.27
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q27",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "content": "If the zeroes of the polynomial x2 +px +q are double in value to the zeroes of the\npolynomial 2x2 -5x -3, then find the values of p and q.",
+      "raw_text": "If the zeroes of the polynomial x2 +px +q are double in value to the zeroes of the\npolynomial 2x2 -5x -3, then find the values of p and q.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        302.37,
+        507.85,
+        330.48
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q28",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "content": "A train covered a certain distance at a uniform speed. If the train would have been 6 km/h\nfaster, it would have taken 4 hours less than the scheduled time. And, if the train were\nslower by 6 km/hr ; it would have taken 6 hours more than the scheduled time. Find the\nlength of the journey.",
+      "raw_text": "A train covered a certain distance at a uniform speed. If the train would have been 6 km/h\nfaster, it would have taken 4 hours less than the scheduled time. And, if the train were\nslower by 6 km/hr ; it would have taken 6 hours more than the scheduled time. Find the\nlength of the journey.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Anuj had some chocolates, and he divided them into two lots A and B. He sold the first\nlot at the rate of \u20b92 for 3 chocolates and the second lot at the rate of \u20b91 per chocolate, and\ngot a total of \u20b9400. If he had sold the first lot at the rate of  \u20b91 per chocolate, and the\nsecond lot at the rate of \u20b94 for 5 chocolates, his total collection would have been \u20b9460.\nFind the total number of chocolates he had."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        345.52,
+        515.42,
+        575.9
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q29",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "content": "Prove the following that-\ntan3\u03b8     +     cot3\u03b8     =  sec\u03b8 cosec\u03b8 \u2013 2 sin\u03b8 cos\u03b8\n1+ tan2\u03b8        1+ cot2\u03b8",
+      "raw_text": "Prove the following that-\ntan3\u03b8     +     cot3\u03b8     =  sec\u03b8 cosec\u03b8 \u2013 2 sin\u03b8 cos\u03b8\n1+ tan2\u03b8        1+ cot2\u03b8",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        590.58,
+        365.23,
+        645.26
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q30",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "content": "Prove that a parallelogram circumscribing a circle is a rhombus",
+      "raw_text": "Prove that a parallelogram circumscribing a circle is a rhombus",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "In the figure XY and X'Y' are two parallel tangents to a circle with centre O and another\ntangent AB with point of contact C interesting XY at A and X'Y' at B, what is the\nmeasure of \u2220AOB."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        660.09,
+        425.11,
+        701.21
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q31",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "Two coins are tossed simultaneously. What is the probability of getting",
+      "raw_text": "Two coins are tossed simultaneously. What is the probability of getting",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) At least one head?",
+        "(ii) At most one tail?",
+        "(iii) A head and a tail?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q31_1.png",
+        "images/q31_2.png"
+      ],
+      "bounding_box": [
+        77.66,
+        318.28,
+        463.27,
+        372.96
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q32",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 6,
+      "content": "To fill a swimming pool two pipes are used. If the pipe of larger diameter used for 4 hours\nand the pipe of smaller diameter for 9 hours, only half of the pool can be filled. Find, how\nlong it would take for each pipe to fill the pool separately, if the pipe of smaller diameter\ntakes 10 hours more than the pipe of larger diameter to fill the pool?",
+      "raw_text": "To fill a swimming pool two pipes are used. If the pipe of larger diameter used for 4 hours\nand the pipe of smaller diameter for 9 hours, only half of the pool can be filled. Find, how\nlong it would take for each pipe to fill the pool separately, if the pipe of smaller diameter\ntakes 10 hours more than the pipe of larger diameter to fill the pool?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "In a flight of 600km, an aircraft was slowed down due to bad weather. Its average speed\nfor the trip was reduced by 200 km/hr from its usual speed and the time of the flight\nincreased by 30 min. Find the scheduled duration of the flight."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        430.84,
+        518.3,
+        611.42
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q33",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 6,
+      "content": "Prove that if a line is drawn parallel to one side of a triangle intersecting the other\ntwo sides in distinct points, then the other two sides are divided in the same ratio.\nUsing the above theorem prove that a line through the point of intersection of the\ndiagonals and parallel to the base of the trapezium divides the non parallel sides in\nthe same ratio.",
+      "raw_text": "Prove that if a line is drawn parallel to one side of a triangle intersecting the other\ntwo sides in distinct points, then the other two sides are divided in the same ratio.\nUsing the above theorem prove that a line through the point of intersection of the\ndiagonals and parallel to the base of the trapezium divides the non parallel sides in\nthe same ratio.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        633.18,
+        516.6,
+        725.81
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q34",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q34",
+      "question_number": "Q34",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "content": "Due to heavy floods in a state, thousands were rendered homeless. 50 schools\ncollectively decided to provide place and the canvas for 1500 tents and share the\nwhole expenditure equally. The lower part of each tent is cylindrical with base\nradius 2.8 m and height 3.5 m and the upper part is conical with the same base\nradius, but of height 2.1 m. If the canvas used to make the tents costs \u20b9120 per m2,\nfind the amount shared by each school to set up the tents.",
+      "raw_text": "Due to heavy floods in a state, thousands were rendered homeless. 50 schools\ncollectively decided to provide place and the canvas for 1500 tents and share the\nwhole expenditure equally. The lower part of each tent is cylindrical with base\nradius 2.8 m and height 3.5 m and the upper part is conical with the same base\nradius, but of height 2.1 m. If the canvas used to make the tents costs \u20b9120 per m2,\nfind the amount shared by each school to set up the tents.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "There are two identical solid cubical boxes of side 7cm. From the top face of the first cube\na hemisphere of diameter equal to the side of the cube is scooped out. This hemisphere is\ninverted and placed on the top of the second cube\u2019s surface to form a dome. Find",
+        "(i) the ratio of the total surface area of the two new solids formed",
+        "(ii) volume of each new solid formed."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        72.83,
+        518.71,
+        315.24
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q35",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q35",
+      "question_number": "Q35",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "content": "The median of the following data is 525. Find the values of x and y, if the total\nfrequency is 100\nClass interval\nFrequency\n0\u2212100\n100\u2212200\n200\u2212300\nx\n300\u2212400\n400\u2212500\n500\u2212600\n600\u2212700\ny\n700\u2212800\n800\u2212900\n900\u22121000",
+      "raw_text": "The median of the following data is 525. Find the values of x and y, if the total\nfrequency is 100\nClass interval\nFrequency\n0\u2212100\n100\u2212200\n200\u2212300\nx\n300\u2212400\n400\u2212500\n500\u2212600\n600\u2212700\ny\n700\u2212800\n800\u2212900\n900\u22121000",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        337.24,
+        483.19,
+        607.46
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q36",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q36",
+      "question_number": "Q36",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "CASESTUDY",
+      "page_num": 7,
+      "content": "A tiling or tessellation of a flat surface is the covering of a plane using one or more geometric\nshapes, called tiles, with no overlaps and no gaps. Historically, tessellations were used in\nancient Rome and in Islamic art. You may find tessellation patterns on floors, walls, paintings\netc. Shown below is a tiled floor in the archaeological Museum of Seville, made using\nsquares, triangles and hexagons.\nA craftsman thought of making a floor pattern after being inspired by the above design. To\nensure accuracy in his work, he made the pattern on the Cartesian plane. He used regular\noctagons, squares and triangles for his floor tessellation pattern\nUse the above figure to answer the questions that follow:",
+      "raw_text": "A tiling or tessellation of a flat surface is the covering of a plane using one or more geometric\nshapes, called tiles, with no overlaps and no gaps. Historically, tessellations were used in\nancient Rome and in Islamic art. You may find tessellation patterns on floors, walls, paintings\netc. Shown below is a tiled floor in the archaeological Museum of Seville, made using\nsquares, triangles and hexagons.\nA craftsman thought of making a floor pattern after being inspired by the above design. To\nensure accuracy in his work, he made the pattern on the Cartesian plane. He used regular\noctagons, squares and triangles for his floor tessellation pattern\nUse the above figure to answer the questions that follow:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) What is the length of the line segment joining points B and F?",
+        "(ii) The centre \u2018Z\u2019of the figure will be the point of intersection of the diagonals of\nquadrilateral WXOP. Then what are the coordinates of Z?",
+        "(iii) What are the coordinates of the point on y axis equidistant from A and G?",
+        "OR",
+        "What is the area of Trapezium AFGH?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.66,
+        689.25,
+        556.5,
+        757.73
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q37",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q37",
+      "question_number": "Q37",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "CASESTUDY",
+      "page_num": 9,
+      "content": "The school auditorium was to be constructed to accommodate at least 1500 people. The\nchairs are to be placed in concentric circular arrangement in such a way that each succeeding\ncircular row has 10 seats more than the previous one.",
+      "raw_text": "The school auditorium was to be constructed to accommodate at least 1500 people. The\nchairs are to be placed in concentric circular arrangement in such a way that each succeeding\ncircular row has 10 seats more than the previous one.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) If the first circular row has 30 seats, how many seats will be there in the 10th row?",
+        "(ii) For 1500 seats in the auditorium, how many rows need to be there?",
+        "OR",
+        "If 1500 seats are to be arranged in the auditorium, how many seats are still left to\nbe put after 10th row?",
+        "(iii) If there were 17 rows in the auditorium, how many seats will be there in the\nmiddle row?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q37_1.png",
+        "images/q37_2.png"
+      ],
+      "bounding_box": [
+        77.66,
+        72.59,
+        556.3,
+        486.62
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6e74ebac63c7_q38",
+      "paper_id": "6e74ebac63c7",
+      "question_id": "q38",
+      "question_number": "Q38",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "CASESTUDY",
+      "page_num": 9,
+      "content": "We all have seen the airplanes flying in the sky but might have not thought of how they\nactually reach the correct destination. Air Traffic Control (ATC) is a service provided by\nground-based air traffic controllers who direct aircraft on the ground and through a given\nsection of controlled airspace, and can provide advisory services to aircraft in non-controlled\nairspace. Actually, all this air traffic is managed and regulated by using various concepts\nbased on coordinate geometry and trigonometry.\nAt a given instance, ATC finds that the angle of elevation of an airplane from a point on the\nground is 60\u00b0. After a flight of 30 seconds, it is observed that the angle of elevation changes\nto 30\u00b0. The height of the plane remains constantly as 3000\u221a3 m. Use the above information to\nanswer the questions that follow-",
+      "raw_text": "We all have seen the airplanes flying in the sky but might have not thought of how they\nactually reach the correct destination. Air Traffic Control (ATC) is a service provided by\nground-based air traffic controllers who direct aircraft on the ground and through a given\nsection of controlled airspace, and can provide advisory services to aircraft in non-controlled\nairspace. Actually, all this air traffic is managed and regulated by using various concepts\nbased on coordinate geometry and trigonometry.\nAt a given instance, ATC finds that the angle of elevation of an airplane from a point on the\nground is 60\u00b0. After a flight of 30 seconds, it is observed that the angle of elevation changes\nto 30\u00b0. The height of the plane remains constantly as 3000\u221a3 m. Use the above information to\nanswer the questions that follow-",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Draw a neat labelled figure to show the above situation diagrammatically.",
+        "(ii) What is the distance travelled by the plane in 30 seconds?",
+        "OR",
+        "Keeping the height constant, during the above flight, it was observed that after\n15(\u221a3 -1) seconds, the angle of elevation changed to 45\u00b0.  How much is the\ndistance travelled in that duration.",
+        "(iii) What is the speed of the plane in km/hr."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q38_1.png"
+      ],
+      "bounding_box": [
+        77.66,
+        503.22,
+        551.13,
+        585.5
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

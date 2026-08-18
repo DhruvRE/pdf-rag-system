@@ -1,0 +1,1044 @@
+{
+  "paper_id": "8e5c1644fa6c",
+  "class": "12",
+  "subject": "chemistry",
+  "year": "2024-2025",
+  "total_chunks": 33,
+  "chunks": [
+    {
+      "chunk_id": "8e5c1644fa6c_q1",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Ammonolysis of ethyl chloride followed by reaction of the amine so formed with\n1 mole of methyl chloride gives an amine that\na. reacts with Hinsberg reagent to form a product soluble in an alkali.\nb. on reaction with Nitrous acid, produced nitrogen gas.\nc. reacts with Benzenesulphonyl chloride to form a product that is insoluble\nin alkali.\n\n\nOptions:\n(a) reacts with Hinsberg reagent to form a product soluble in an alkali.\n(b) on reaction with Nitrous acid, produced nitrogen gas.\n(c) reacts with Benzenesulphonyl chloride to form a product that is insoluble\n(d) does not react with Hinsberg reagent.",
+      "raw_text": "Ammonolysis of ethyl chloride followed by reaction of the amine so formed with\n1 mole of methyl chloride gives an amine that\na. reacts with Hinsberg reagent to form a product soluble in an alkali.\nb. on reaction with Nitrous acid, produced nitrogen gas.\nc. reacts with Benzenesulphonyl chloride to form a product that is insoluble\nin alkali.",
+      "options": [
+        "(a) reacts with Hinsberg reagent to form a product soluble in an alkali.",
+        "(b) on reaction with Nitrous acid, produced nitrogen gas.",
+        "(c) reacts with Benzenesulphonyl chloride to form a product that is insoluble",
+        "(d) does not react with Hinsberg reagent."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        417.37,
+        519.95,
+        527.37
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q2",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Which one of the following has the highest dipole moment?\na. CH3F\nb. CH3Cl\nc. CH3I\n\n\nOptions:\n(a) CH3F\n(b) CH3Cl\n(c) CH3I\n(d) CH3Br",
+      "raw_text": "Which one of the following has the highest dipole moment?\na. CH3F\nb. CH3Cl\nc. CH3I",
+      "options": [
+        "(a) CH3F",
+        "(b) CH3Cl",
+        "(c) CH3I",
+        "(d) CH3Br"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        552.06,
+        413.27,
+        635.51
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q3",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Match the properties given in column I with the metals in column II\nColumn I\nColumn II",
+      "raw_text": "Match the properties given in column I with the metals in column II\nColumn I\nColumn II",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Actinoid having configuration [Rn] 5f 76d17s2",
+        "(A) Ce",
+        "(ii) Lanthanoid which has 4f14 electronic",
+        "(B) Lu\nconfiguration in +3 oxidation state.",
+        "(iii) Lanthanoid which show +4 Oxidation state",
+        "(C) Cm",
+        "a. (i)-(C), (ii)-(B), (iii)-(A)",
+        "b. (i)-(C), (ii)-(A), (iii)-(B)",
+        "c. (i)-(A), (ii)-(B), (iii)-(C)",
+        "d. (i)-(B), (ii)-(A), (iii)-(C)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        659.15,
+        472.46,
+        757.69
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q4",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Study the graph showing the boiling points of bromoalkanes and identify the\ncompounds.",
+      "raw_text": "Study the graph showing the boiling points of bromoalkanes and identify the\ncompounds.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. 1 = Bromomethane, 2= 2-Bromobutane, 3= 1-Bromobutane,\n4= 2-Bromo-2-methylpropane",
+        "b. 1 =1-Bromobutane, 2= 2-Bromo-2-methylpropane, 3= 2-Bromobutane,\n4= Bromomethane",
+        "c. 1 = Bromomethane, 2=1-Bromobutane, 3= 2-Bromo-2-methylpropane,\n4= 2-Bromobutane,",
+        "d. 1 =Bromomethane, 2= 2-Bromo-2-methylpropane, 3=2- Bromobutane,\n4= 1-Bromobutane\n(for visually challenged learners)\nWhich of the following haloalkanes has the highest boiling point?",
+        "a. 2-Bromo-2-methylpropane",
+        "b. 2-Bromobutane",
+        "c. Bromomethane",
+        "d. 1-Bromobutane"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q4_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        157.14,
+        522.29,
+        689.51
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q5",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "The initial concentration of R in the reaction R\ud83e\udc6aP is 4.62 x 10-2 mol/L. What is\nthe half life for the reaction if k = 2.31x 10-2 molL-1s-1\na. 30 s\nb. 3 s\nc. 1 s\n\n\nOptions:\n(a) 30 s\n(b) 3 s\n(c) 1 s\n(d) 10 s",
+      "raw_text": "The initial concentration of R in the reaction R\ud83e\udc6aP is 4.62 x 10-2 mol/L. What is\nthe half life for the reaction if k = 2.31x 10-2 molL-1s-1\na. 30 s\nb. 3 s\nc. 1 s",
+      "options": [
+        "(a) 30 s",
+        "(b) 3 s",
+        "(c) 1 s",
+        "(d) 10 s"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        73.35,
+        510.0,
+        175.64
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q6",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "When C6H5COOCOCH3 is treated with H2O , the product obtained is :\na. Benzoic acid and ethanol\nb. Benzoic acid and ethanoic acid\nc. Acetic Acid and phenol\n\n\nOptions:\n(a) Benzoic acid and ethanol\n(b) Benzoic acid and ethanoic acid\n(c) Acetic Acid and phenol\n(d) Benzoic anhydride and methanol",
+      "raw_text": "When C6H5COOCOCH3 is treated with H2O , the product obtained is :\na. Benzoic acid and ethanol\nb. Benzoic acid and ethanoic acid\nc. Acetic Acid and phenol",
+      "options": [
+        "(a) Benzoic acid and ethanol",
+        "(b) Benzoic acid and ethanoic acid",
+        "(c) Acetic Acid and phenol",
+        "(d) Benzoic anhydride and methanol"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        201.54,
+        467.23,
+        282.14
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q7",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "\u2018X\u2019 and \u2018Y\u2019 in the above table are:\na. X=[Co(NH3)6]2+3Cl-, Y= 1:3\nb. X= [Co(NH3)4Cl2]+Cl,- Y= 1:3\nc. X=[Co(NH3)4Cl2]+Cl-, Y= 1:1\n\n\nOptions:\n(a) X=[Co(NH3)6]2+3Cl-, Y= 1:3\n(b) X= [Co(NH3)4Cl2]+Cl,- Y= 1:3\n(c) X=[Co(NH3)4Cl2]+Cl-, Y= 1:1\n(d) X=[Co(NH3)4Cl2]3+3Cl-, Y= 1:1",
+      "raw_text": "\u2018X\u2019 and \u2018Y\u2019 in the above table are:\na. X=[Co(NH3)6]2+3Cl-, Y= 1:3\nb. X= [Co(NH3)4Cl2]+Cl,- Y= 1:3\nc. X=[Co(NH3)4Cl2]+Cl-, Y= 1:1",
+      "options": [
+        "(a) X=[Co(NH3)6]2+3Cl-, Y= 1:3",
+        "(b) X= [Co(NH3)4Cl2]+Cl,- Y= 1:3",
+        "(c) X=[Co(NH3)4Cl2]+Cl-, Y= 1:1",
+        "(d) X=[Co(NH3)4Cl2]3+3Cl-, Y= 1:1"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q7_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        306.83,
+        291.73,
+        540.87
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q8",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Which of the following contains only \u03b2-D- glucose as its monosaccharide unit:\na. Sucrose\nb. Cellulose\nc. Starch\n\n\nOptions:\n(a) Sucrose\n(b) Cellulose\n(c) Starch\n(d) Maltose",
+      "raw_text": "Which of the following contains only \u03b2-D- glucose as its monosaccharide unit:\na. Sucrose\nb. Cellulose\nc. Starch",
+      "options": [
+        "(a) Sucrose",
+        "(b) Cellulose",
+        "(c) Starch",
+        "(d) Maltose"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        564.51,
+        510.18,
+        646.91
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q9",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Which one of the following sets correctly represents the increase in the\nparamagnetic property of the ions?\na. Ti3+< Fe2+ < Cr3+ < Mn2+\nb. Ti3+< Mn2+< Fe2+ < Cr3+\nc. Mn2+< Fe2+< Cr3+<Ti3+\n\n\nOptions:\n(a) Ti3+< Fe2+ < Cr3+ < Mn2+\n(b) Ti3+< Mn2+< Fe2+ < Cr3+\n(c) Mn2+< Fe2+< Cr3+<Ti3+\n(d) Ti3+< Cr3+< Fe2+ < Mn2+",
+      "raw_text": "Which one of the following sets correctly represents the increase in the\nparamagnetic property of the ions?\na. Ti3+< Fe2+ < Cr3+ < Mn2+\nb. Ti3+< Mn2+< Fe2+ < Cr3+\nc. Mn2+< Fe2+< Cr3+<Ti3+",
+      "options": [
+        "(a) Ti3+< Fe2+ < Cr3+ < Mn2+",
+        "(b) Ti3+< Mn2+< Fe2+ < Cr3+",
+        "(c) Mn2+< Fe2+< Cr3+<Ti3+",
+        "(d) Ti3+< Cr3+< Fe2+ < Mn2+"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        657.81,
+        475.27,
+        758.42
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q10",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "A first-order reaction is found to have a rate constant, k = 5.5 \u00d7 10-14 s-1. The\ntime taken for completion of the reaction is:\na. 1.26 x 1013 s\nb. 2.52 x 1013 s\nc. 0.63 x 1013 s\n\n\nOptions:\n(a) 1.26 x 1013 s\n(b) 2.52 x 1013 s\n(c) 0.63 x 1013 s\n(d) It never goes to completion",
+      "raw_text": "A first-order reaction is found to have a rate constant, k = 5.5 \u00d7 10-14 s-1. The\ntime taken for completion of the reaction is:\na. 1.26 x 1013 s\nb. 2.52 x 1013 s\nc. 0.63 x 1013 s",
+      "options": [
+        "(a) 1.26 x 1013 s",
+        "(b) 2.52 x 1013 s",
+        "(c) 0.63 x 1013 s",
+        "(d) It never goes to completion"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        77.43,
+        505.43,
+        175.04
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q11",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "A student was preparing aniline in the lab. She took a compound \u201cX\u201d and\nreduced it in the presence of Ni as a catalyst. What could be the compound \u201cX\u201d\na. Nitrobenzene\nb. 1-Nitrohexane\nc. Benzonitrile\n\n\nOptions:\n(a) Nitrobenzene\n(b) 1-Nitrohexane\n(c) Benzonitrile\n(d) 1-Hexanenitrile",
+      "raw_text": "A student was preparing aniline in the lab. She took a compound \u201cX\u201d and\nreduced it in the presence of Ni as a catalyst. What could be the compound \u201cX\u201d\na. Nitrobenzene\nb. 1-Nitrohexane\nc. Benzonitrile",
+      "options": [
+        "(a) Nitrobenzene",
+        "(b) 1-Nitrohexane",
+        "(c) Benzonitrile",
+        "(d) 1-Hexanenitrile"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        199.73,
+        517.97,
+        295.93
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q12",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "Which of the following compound gives an oxime with hydroxylamine:\na. CH3COCH3\nb. CH3COOH\nc. (CH3CO)2O\n\n\nOptions:\n(a) CH3COCH3\n(b) CH3COOH\n(c) (CH3CO)2O\n(d) CH3COCl",
+      "raw_text": "Which of the following compound gives an oxime with hydroxylamine:\na. CH3COCH3\nb. CH3COOH\nc. (CH3CO)2O",
+      "options": [
+        "(a) CH3COCH3",
+        "(b) CH3COOH",
+        "(c) (CH3CO)2O",
+        "(d) CH3COCl"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        306.83,
+        467.92,
+        388.48
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q13",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "Assertion (A): [Mn(CN)6]3\u2013 has a magnetic moment of two unpaired electrons\nwhile [MnCl6]3\u2013 has a paramagnetic moment of four unpaired electrons.\nReason (R): [Mn(CN)6]3\u2013 is inner orbital complexes involving d2sp3\nhybridisation,on the other hand, [MnCl6]3\u2013 is outer orbital complexes involving\nsp3d2 hybridisation.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion (A): [Mn(CN)6]3\u2013 has a magnetic moment of two unpaired electrons\nwhile [MnCl6]3\u2013 has a paramagnetic moment of four unpaired electrons.\nReason (R): [Mn(CN)6]3\u2013 is inner orbital complexes involving d2sp3\nhybridisation,on the other hand, [MnCl6]3\u2013 is outer orbital complexes involving\nsp3d2 hybridisation.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        405.77,
+        511.89,
+        561.71
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q14",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "Assertion (A): For strong electrolytes, there is a slow increase in molar\nconductivity with dilution and can be represented by the equation\nReason (R): The value of the constant \u2018A\u2019 for NaCl, CaCl2, and MgSO4 in a\ngiven solvent and at a given temperature is different.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion (A): For strong electrolytes, there is a slow increase in molar\nconductivity with dilution and can be represented by the equation\nReason (R): The value of the constant \u2018A\u2019 for NaCl, CaCl2, and MgSO4 in a\ngiven solvent and at a given temperature is different.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q14_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        587.61,
+        497.24,
+        749.32
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q15",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "Assertion (A) Glucose does not form the hydrogensulphite addition product\nwith NaHSO3 .\nReason (R): Glucose exists in a six-membered cyclic structure called pyranose\nstructure.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion (A) Glucose does not form the hydrogensulphite addition product\nwith NaHSO3 .\nReason (R): Glucose exists in a six-membered cyclic structure called pyranose\nstructure.\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        77.64,
+        520.54,
+        215.24
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q16",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "Assertion (A): The half- life for a zero order reaction is independent of the initial\nconcentration of the reactant.\nReason (R): For a zero order reaction, Rate = k\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion (A): The half- life for a zero order reaction is independent of the initial\nconcentration of the reactant.\nReason (R): For a zero order reaction, Rate = k\nSelect the most appropriate answer from the options given below:\na. Both A and R are true and R is the correct explanation of A\nb. Both A and R are true but R is not the correct explanation of A.\nc. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        226.13,
+        525.27,
+        349.93
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q17",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "a. Nitrogen gas is soluble in water. At temperature 293 K, the value of KH is\n76.48 kbar . How would the solubility of nitrogen vary (increase, decrease or\nremain the same) at a temperature above 293 K , if the value of KH rises to\n88.8 kbar.\nb. Chloroform (b.p. 61.2oC) and acetone (b.p. 56oC ) are mixed to form an\nazeotrope. The mole fraction of acetone in this mixture is 0.339. Predict\nwhether the boiling point of the azeotrope formed will be (i) 60oC (ii)64.5 oC\nor (iii)54 oC. Defend your answer with reason.\nOR\na. A soda bottle will go flat (loose its fizz) faster in Srinagar than in Delhi. Is this\nstatement correct? Why or why not?\nb. How does sugar help in increasing the shelf life of the product?",
+      "raw_text": "a. Nitrogen gas is soluble in water. At temperature 293 K, the value of KH is\n76.48 kbar . How would the solubility of nitrogen vary (increase, decrease or\nremain the same) at a temperature above 293 K , if the value of KH rises to\n88.8 kbar.\nb. Chloroform (b.p. 61.2oC) and acetone (b.p. 56oC ) are mixed to form an\nazeotrope. The mole fraction of acetone in this mixture is 0.339. Predict\nwhether the boiling point of the azeotrope formed will be (i) 60oC (ii)64.5 oC\nor (iii)54 oC. Defend your answer with reason.\nOR\na. A soda bottle will go flat (loose its fizz) faster in Srinagar than in Delhi. Is this\nstatement correct? Why or why not?\nb. How does sugar help in increasing the shelf life of the product?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Nitrogen gas is soluble in water. At temperature 293 K, the value of KH is\n76.48 kbar . How would the solubility of nitrogen vary (increase, decrease or\nremain the same) at a temperature above 293 K , if the value of KH rises to\n88.8 kbar.",
+        "b. Chloroform (b.p. 61.2oC) and acetone (b.p. 56oC ) are mixed to form an\nazeotrope. The mole fraction of acetone in this mixture is 0.339. Predict\nwhether the boiling point of the azeotrope formed will be (i) 60oC (ii)64.5 oC\nor (iii)54 oC. Defend your answer with reason.",
+        "OR",
+        "a. A soda bottle will go flat (loose its fizz) faster in Srinagar than in Delhi. Is this\nstatement correct? Why or why not?",
+        "b. How does sugar help in increasing the shelf life of the product?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        457.1,
+        519.37,
+        649.89
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q18",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "a. Write the IUPAC name of the following complex: K[Cr(H2O)2(C2O4)2]H2O\nb. Name the metal present in the complex compound of\n(i) Haemoglobin (ii) Vitamin B-12\n\u00bd+\u00bd",
+      "raw_text": "a. Write the IUPAC name of the following complex: K[Cr(H2O)2(C2O4)2]H2O\nb. Name the metal present in the complex compound of\n(i) Haemoglobin (ii) Vitamin B-12\n\u00bd+\u00bd",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Write the IUPAC name of the following complex: K[Cr(H2O)2(C2O4)2]H2O",
+        "b. Name the metal present in the complex compound of",
+        "(i) Haemoglobin (ii) Vitamin B-12\n\u00bd+\u00bd"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q18_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        674.58,
+        510.16,
+        715.59
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q19",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "Observe the following cell and answer the questions that follow:",
+      "raw_text": "Observe the following cell and answer the questions that follow:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Represent the cell shown in the figure.",
+        "b. Name the carriers of the current in the salt bridge",
+        "c. Write the reaction taking place at the anode.\n(for visually challenged learners)\nFor the cell represented as:\nMg(s)/Mg2+(aq)//Ag+(aq)/Ag(s)",
+        "a. Identify the cathode and the anode",
+        "b. Write the overall reaction\n\u00bd\n\u00bd"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        77.64,
+        437.27,
+        432.13
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q20",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "Complete the following reactions by writing the major and minor product in each\ncase (any 2)",
+      "raw_text": "Complete the following reactions by writing the major and minor product in each\ncase (any 2)",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. CH3CH2Br + KCN \u2192",
+        "b. CH3CH2CH = CH2 + HBr \ud83e\udc6a",
+        "c. (CH3)2CHCHClCH3 + alc KOH \u2192"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        456.82,
+        522.63,
+        573.09
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q21",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "The presence of Carbonyl group in glucose is confirmed by its reaction with\nhydroxylamine. Identify the type of carbonyl group present and its position. Give\na chemical reaction in support of your answer.",
+      "raw_text": "The presence of Carbonyl group in glucose is confirmed by its reaction with\nhydroxylamine. Identify the type of carbonyl group present and its position. Give\na chemical reaction in support of your answer.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        596.92,
+        525.98,
+        637.92
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q22",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "a. Write down the reaction occurring on two inert electrodes when\nelectrolysis of copper chloride is done. What will happen if a concentrated\nsolution of copper sulphate is replaced with copper chloride?\nb. Write an expression for the molar conductivity of aluminium sulphate at\ninfinite dilution according to Kohlrausch law.",
+      "raw_text": "a. Write down the reaction occurring on two inert electrodes when\nelectrolysis of copper chloride is done. What will happen if a concentrated\nsolution of copper sulphate is replaced with copper chloride?\nb. Write an expression for the molar conductivity of aluminium sulphate at\ninfinite dilution according to Kohlrausch law.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Write down the reaction occurring on two inert electrodes when\nelectrolysis of copper chloride is done. What will happen if a concentrated\nsolution of copper sulphate is replaced with copper chloride?",
+        "b. Write an expression for the molar conductivity of aluminium sulphate at\ninfinite dilution according to Kohlrausch law."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        732.01,
+        525.95,
+        773.01
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q23",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "Account for the following:",
+      "raw_text": "Account for the following:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. The lowest oxide of transition metal is basic, and the highest is acidic.",
+        "b. Chromium is a hard metal while mercury is a liquid metal",
+        "c. The ionisation energy of elements of the 3d series does not vary much\nwith increasing atomic number."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        129.54,
+        509.29,
+        198.14
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q24",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "a. Give the chemical reaction involved when p-nitrotoluene undergoes Etard\nreaction.\nb. Why does Benzoic acid exist as a dimer in an aprotic solvent?\nc. Benzene on reaction with methylchloride in the presence of anhydrous\nAlCl3 forms toluene. What is the expected outcome if benzene is replaced\nby benzoic acid? Give a reason for your answer.\nOR\nAn organic compound \u2018X\u2019, does not undergo aldol condensation. However \u2018X\u2019\nwith compound \u2018Y\u2019 in the presence of a strong base react to give the compound\n1,3-diphenylprop-2-en-1-one.\na. Identify \u2018X\u2019 and \u2018Y\u2019\nb. Write the chemical reaction involved.\nc.Give one chemical test to distinguish between X and Y.",
+      "raw_text": "a. Give the chemical reaction involved when p-nitrotoluene undergoes Etard\nreaction.\nb. Why does Benzoic acid exist as a dimer in an aprotic solvent?\nc. Benzene on reaction with methylchloride in the presence of anhydrous\nAlCl3 forms toluene. What is the expected outcome if benzene is replaced\nby benzoic acid? Give a reason for your answer.\nOR\nAn organic compound \u2018X\u2019, does not undergo aldol condensation. However \u2018X\u2019\nwith compound \u2018Y\u2019 in the presence of a strong base react to give the compound\n1,3-diphenylprop-2-en-1-one.\na. Identify \u2018X\u2019 and \u2018Y\u2019\nb. Write the chemical reaction involved.\nc.Give one chemical test to distinguish between X and Y.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Give the chemical reaction involved when p-nitrotoluene undergoes Etard\nreaction.",
+        "b. Why does Benzoic acid exist as a dimer in an aprotic solvent?",
+        "c. Benzene on reaction with methylchloride in the presence of anhydrous\nAlCl3 forms toluene. What is the expected outcome if benzene is replaced\nby benzoic acid? Give a reason for your answer.",
+        "OR",
+        "An organic compound \u2018X\u2019, does not undergo aldol condensation. However \u2018X\u2019\nwith compound \u2018Y\u2019 in the presence of a strong base react to give the compound\n1,3-diphenylprop-2-en-1-one.",
+        "a. Identify \u2018X\u2019 and \u2018Y\u2019",
+        "b. Write the chemical reaction involved.\nc.Give one chemical test to distinguish between X and Y."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        222.83,
+        525.94,
+        439.62
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q25",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 7,
+      "content": "a. Give the structure of all the possible dipeptides formed when the following\ntwo amino acids form a peptide bond.\nAlanine\nGlycine\nb. Keratin, insulin, and myosin are a few examples of proteins present in the\nhuman body. Identify which type of protein is keratin and insulin and\ndifferentiate between them based on their physical properties.",
+      "raw_text": "a. Give the structure of all the possible dipeptides formed when the following\ntwo amino acids form a peptide bond.\nAlanine\nGlycine\nb. Keratin, insulin, and myosin are a few examples of proteins present in the\nhuman body. Identify which type of protein is keratin and insulin and\ndifferentiate between them based on their physical properties.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Give the structure of all the possible dipeptides formed when the following\ntwo amino acids form a peptide bond.\nAlanine\nGlycine",
+        "b. Keratin, insulin, and myosin are a few examples of proteins present in the\nhuman body. Identify which type of protein is keratin and insulin and\ndifferentiate between them based on their physical properties."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q25_1.png",
+        "images/q25_2.png"
+      ],
+      "bounding_box": [
+        54.0,
+        454.11,
+        509.29,
+        730.67
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q26",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "content": "Neeta was experimenting in the lab to study the chemical reactivity of alcohols.\nShe carried out a dehydration reaction of propanol at 140oC to 180oC. Different\nproducts were obtained at these two temperatures.",
+      "raw_text": "Neeta was experimenting in the lab to study the chemical reactivity of alcohols.\nShe carried out a dehydration reaction of propanol at 140oC to 180oC. Different\nproducts were obtained at these two temperatures.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Identify the major product formed at 140oC and the substitution\nmechanism followed in this case.",
+        "b. Identify the major product formed at 180oC and the substitution\nmechanism followed in this case.\n1+\u00bd\n1+\u00bd"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        77.64,
+        517.95,
+        173.84
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q27",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "content": "Various isomeric haloalkanes with the general formula C4H9Cl undergo\nhydrolysis reaction. Among them, compound \u201cA\u201d is the most reactive through\nSN\n1 mechanism. Identify \u201cA\u201d citing the reason for your choice. Write the\nmechanism for the reaction.",
+      "raw_text": "Various isomeric haloalkanes with the general formula C4H9Cl undergo\nhydrolysis reaction. Among them, compound \u201cA\u201d is the most reactive through\nSN\n1 mechanism. Identify \u201cA\u201d citing the reason for your choice. Write the\nmechanism for the reaction.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        198.53,
+        506.59,
+        253.34
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q28",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "content": "The equilibrium constant of cell reaction :\nSn4+(.aq)\n+\nAl(s)\n\u2192\nAl3+\n+\nSn2+ (aq) is 4.617 x 10184, at 25 oC",
+      "raw_text": "The equilibrium constant of cell reaction :\nSn4+(.aq)\n+\nAl(s)\n\u2192\nAl3+\n+\nSn2+ (aq) is 4.617 x 10184, at 25 oC",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Calculate the standard emf of the cell.\n(Given: log 4.617 x 10184 = 184.6644)",
+        "b. What will be the Eo of the half cell Al3+/Al , if Eo of half cell Sn4+/Sn2+ is\n0.15 V."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        279.23,
+        499.85,
+        403.72
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q29",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIOND",
+      "page_num": 8,
+      "content": "Dependence of the rate of reaction on the concentration of reactants,\ntemperature, and other factors is the most general method for weeding out\nunsuitable reaction mechanisms. The term mechanism means all the individual\ncollisional or elementary processes involving molecules (atoms, radicals, and\nions included) that take place simultaneously or consecutively to produce the\nobserved overall reaction. For example, when hydrogen gas reacts with\nbromine, the rate of the reaction was found to be proportional to the\nconcentration of H2 and to the square root of the concentration of Br2.\nFurthermore, the rate was inhibited by increasing the concentration of HBr as\nthe reaction proceeded. These observations are not consistent with a\nmechanism involving bimolecular collisions of a single molecule of each kind.\nThe currently accepted mechanism is considerably more complicated, involving\nthe dissociation of bromine molecules into atoms followed by reactions between\natoms and molecules:\nIt is clear from this example that the mechanism cannot be predicted from the\noverall stoichiometry.\n(source: Moore, J. W., & Pearson, R. G. (1981).\u00a0Kinetics and mechanism. John\nWiley & Sons.)",
+      "raw_text": "Dependence of the rate of reaction on the concentration of reactants,\ntemperature, and other factors is the most general method for weeding out\nunsuitable reaction mechanisms. The term mechanism means all the individual\ncollisional or elementary processes involving molecules (atoms, radicals, and\nions included) that take place simultaneously or consecutively to produce the\nobserved overall reaction. For example, when hydrogen gas reacts with\nbromine, the rate of the reaction was found to be proportional to the\nconcentration of H2 and to the square root of the concentration of Br2.\nFurthermore, the rate was inhibited by increasing the concentration of HBr as\nthe reaction proceeded. These observations are not consistent with a\nmechanism involving bimolecular collisions of a single molecule of each kind.\nThe currently accepted mechanism is considerably more complicated, involving\nthe dissociation of bromine molecules into atoms followed by reactions between\natoms and molecules:\nIt is clear from this example that the mechanism cannot be predicted from the\noverall stoichiometry.\n(source: Moore, J. W., & Pearson, R. G. (1981).\u00a0Kinetics and mechanism. John\nWiley & Sons.)",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Predict the expression for the rate of reaction and order for the following:\nH2 + Br2 \ud83e\udc6a2 HBr\nWhat are the units of rate constant for the above reaction?",
+        "b. How will the rate of reaction be affected if the concentration of Br2 is tripled?",
+        "OR",
+        "What change in the concentration of H2 will triple the rate of reaction?",
+        "c. Suppose a reaction between A and B, was experimentally found to be first\norder with respect to both A and B. So the rate equation is:\nRate = k[A][B]\nWhich of these two mechanisms is consistent with this experimental finding?\nWhy?\nMechanism 1\nA \u2192C + D (slow)\nB + C \u2192E (fast)\nMechanism 2\nA + B \u2192C + D (slow)\nC \u2192E (fast)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        54.0,
+        535.97,
+        522.64,
+        758.76
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q30",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIOND",
+      "page_num": 9,
+      "content": "Amines are basic in nature. The pKb value is a measure of the basic strength of\nan amine. Lower the value of pKb, more basic is the amine. The effect of\nsubstituent on the basic strength of amines in aqueous solution was determined\nusing titrations. The substituent \u201cX\u201d replaced \u201c-CH2\u201d group in piperidine (\ncompound 1) and propylamine CH3CH2CH2NH2, (compound 2).\nCompound 1:\nCompound 2:\nHXCH2CH2NH2\nThe experimental data is tabulated below:\nSubstituent\n\u201cX\u201d\nElectro-n\negativity\nof X\nsubstituted\npiperidine\ncompound\npKa\nSubstituted propylamine\ncompound\npKa CH2\n2.55\n11.13\nCH3CH2CH2NH2\n10.67\nNH\n3.12\n9.81\nNH2CH2CH2NH2\n10.08\nO\n3.44\n8.36\nHOCH2CH2NH2\n9.45\nCH3CON\n3.6\n7.94\nCH3CONHCH2CH2NH2\n9.28\nC6H5CON\n3.7\n7.78\nC6H5CONHCH2CH2NH2\n___\n(source: Hall Jr, H. K. (1956). Field and inductive effects on the base strengths\nof amines.\u00a0Journal of the American Chemical Society,\u00a078(11), 2570-2572.)\nStudy the above data and answer the following questions:",
+      "raw_text": "Amines are basic in nature. The pKb value is a measure of the basic strength of\nan amine. Lower the value of pKb, more basic is the amine. The effect of\nsubstituent on the basic strength of amines in aqueous solution was determined\nusing titrations. The substituent \u201cX\u201d replaced \u201c-CH2\u201d group in piperidine (\ncompound 1) and propylamine CH3CH2CH2NH2, (compound 2).\nCompound 1:\nCompound 2:\nHXCH2CH2NH2\nThe experimental data is tabulated below:\nSubstituent\n\u201cX\u201d\nElectro-n\negativity\nof X\nsubstituted\npiperidine\ncompound\npKa\nSubstituted propylamine\ncompound\npKa CH2\n2.55\n11.13\nCH3CH2CH2NH2\n10.67\nNH\n3.12\n9.81\nNH2CH2CH2NH2\n10.08\nO\n3.44\n8.36\nHOCH2CH2NH2\n9.45\nCH3CON\n3.6\n7.94\nCH3CONHCH2CH2NH2\n9.28\nC6H5CON\n3.7\n7.78\nC6H5CONHCH2CH2NH2\n___\n(source: Hall Jr, H. K. (1956). Field and inductive effects on the base strengths\nof amines.\u00a0Journal of the American Chemical Society,\u00a078(11), 2570-2572.)\nStudy the above data and answer the following questions:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Plot a graph between the electronegativity of the substituent vs pKb value of\nthe corresponding substituted propyl amine (given that pKa + pKb =14). Is there\nany relation between the electronegativity of the substituent and its basic\nstrength?",
+        "b. The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the\nexpected pKa value of compound C6H5CONHCH2CH2NH2?",
+        "(i) 9.9",
+        "(ii) 9.5",
+        "(iii) 9.3",
+        "(iv) 9.1",
+        "c. The pKa value of the substituted piperidine formed with substituent \u201cX\u201d is\nfound to be 8.28. What is the expected electronegativity of \u201cX\u201d\n(i)3.5 (ii)3.4 (iii)3.8 (iv) 3.1",
+        "OR",
+        "What is the most suitable pKa value of the substituted propylamine formed with\nsubstituent \u201cX\u201d with electronegativity 3.0\n(i)10.67 (ii)10.08 (iii)10.15 (iv)11.10\n(for visually challenged learners)\na.How does the electronegativity of the substituent affect the pKb value and the\nbasic strength of the substituted propyl amine (given that pKa + pKb =14).? Give\na reason to support your answer.",
+        "b. The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the\nexpected pKa value of compound C6H5CONHCH2CH2NH2?",
+        "(i) 9.9",
+        "(ii) 9.5",
+        "(iii) 9.3",
+        "(iv) 9.1",
+        "c. The pKa value of the substituted piperidine (compound 1) formed with\nsubstituent \u201cX\u201d is found to be 8.28. What is the expected electronegativity of \u201cX\u201d\n(i)3.5 (ii)3.4 (iii)3.8 (iv) 3.1",
+        "OR",
+        "What is the most suitable pKa value of the substituted propylamine formed with\nsubstituent \u201cX\u201d with electronegativity 3.0\n(i)10.67 (ii)10.08 (iii)10.15 (iv)11.10"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q30_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        644.92,
+        522.66,
+        743.37
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q31",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONE",
+      "page_num": 11,
+      "content": "a. A purple colour compound A, which is a strong oxidising agent and used for\nbleaching of wool, cotton, silk and other textile fibres was added to each of\nthe three test tubes along with H2SO4. It was followed by strong heating.\nIn which of the above test tubes; A,B or C:\n(i) Violet vapours will be formed\n(ii) The bubbles of gas evolved will extinguish a burning matchstick. Write\nan equation for each of the above observations.\nb. A metal ion Mn+ of the first transition series having d5 configuration combines\nwith three didentate ligands. Assuming \u22060 < P:\n(i)\nDraw the crystal field energy level diagram for the 3d orbital of this\ncomplex.\n(ii)\nWhat is the hybridisation of Mn+ in this complex and why?\n(iii)\nName the type of isomerism exhibited by this complex.\nOR\na. Using, Valence Bond Theory identify A, B, C, D, E and F in the following table\nb. Write the ionic equations for the reaction of acidified K2Cr2O7 with\n(i)H2S and (ii)FeSO4",
+      "raw_text": "a. A purple colour compound A, which is a strong oxidising agent and used for\nbleaching of wool, cotton, silk and other textile fibres was added to each of\nthe three test tubes along with H2SO4. It was followed by strong heating.\nIn which of the above test tubes; A,B or C:\n(i) Violet vapours will be formed\n(ii) The bubbles of gas evolved will extinguish a burning matchstick. Write\nan equation for each of the above observations.\nb. A metal ion Mn+ of the first transition series having d5 configuration combines\nwith three didentate ligands. Assuming \u22060 < P:\n(i)\nDraw the crystal field energy level diagram for the 3d orbital of this\ncomplex.\n(ii)\nWhat is the hybridisation of Mn+ in this complex and why?\n(iii)\nName the type of isomerism exhibited by this complex.\nOR\na. Using, Valence Bond Theory identify A, B, C, D, E and F in the following table\nb. Write the ionic equations for the reaction of acidified K2Cr2O7 with\n(i)H2S and (ii)FeSO4",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. A purple colour compound A, which is a strong oxidising agent and used for\nbleaching of wool, cotton, silk and other textile fibres was added to each of\nthe three test tubes along with H2SO4. It was followed by strong heating.\nIn which of the above test tubes; A,B or C:",
+        "(i) Violet vapours will be formed",
+        "(ii) The bubbles of gas evolved will extinguish a burning matchstick. Write\nan equation for each of the above observations.",
+        "b. A metal ion Mn+ of the first transition series having d5 configuration combines\nwith three didentate ligands. Assuming \u22060 < P:",
+        "(i) Draw the crystal field energy level diagram for the 3d orbital of this\ncomplex.",
+        "(ii) What is the hybridisation of Mn+ in this complex and why?",
+        "(iii) Name the type of isomerism exhibited by this complex.",
+        "OR",
+        "a. Using, Valence Bond Theory identify A, B, C, D, E and F in the following table",
+        "b. Write the ionic equations for the reaction of acidified K2Cr2O7 with\n(i)H2S and (ii)FeSO4"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q31_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        710.01,
+        514.15,
+        756.21
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q32",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONE",
+      "page_num": 12,
+      "content": "a. Give reasons for the following:\n(i)The reaction of ethanol with acetyl chloride is carried out in the\npresence of pyridine .\n(ii) Cresols are less acidic than phenol.\nb. Williamson\u2019s process is used for the preparation of ethers from\u00a0alkyl halide.\nIdentify the alkyl bromide and sodium alkoxide used for the preparation of\n2- Ethoxy-3-methylpentane\nc. Convert:\n(i) Toluene to 3-nitrobenzoic acid.\n(ii) Benzene to m-nitroacetophenone.\nOR\na. Out of formic acid and acetic acid, which one will give the HVZ reaction?\nGive a suitable reason in support of your answer and write the chemical reaction\ninvolved.\nb. Alcohols are acidic but they are weaker acids than water. Arrange various\nisomers of butanol in the increasing order of their acidic nature. Give a reason\nfor the same.\nc. An organic compound A\u00a0 which is a Grignard reagent is used to obtain\n2-methylbutan-2-ol on reaction with a carbonyl compound \u2018B\u2019 . Identify A\u2019 and\n\u2018B\u2019. Write the equation for the reaction between A and B.",
+      "raw_text": "a. Give reasons for the following:\n(i)The reaction of ethanol with acetyl chloride is carried out in the\npresence of pyridine .\n(ii) Cresols are less acidic than phenol.\nb. Williamson\u2019s process is used for the preparation of ethers from\u00a0alkyl halide.\nIdentify the alkyl bromide and sodium alkoxide used for the preparation of\n2- Ethoxy-3-methylpentane\nc. Convert:\n(i) Toluene to 3-nitrobenzoic acid.\n(ii) Benzene to m-nitroacetophenone.\nOR\na. Out of formic acid and acetic acid, which one will give the HVZ reaction?\nGive a suitable reason in support of your answer and write the chemical reaction\ninvolved.\nb. Alcohols are acidic but they are weaker acids than water. Arrange various\nisomers of butanol in the increasing order of their acidic nature. Give a reason\nfor the same.\nc. An organic compound A\u00a0 which is a Grignard reagent is used to obtain\n2-methylbutan-2-ol on reaction with a carbonyl compound \u2018B\u2019 . Identify A\u2019 and\n\u2018B\u2019. Write the equation for the reaction between A and B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Give reasons for the following:\n(i)The reaction of ethanol with acetyl chloride is carried out in the\npresence of pyridine .",
+        "(ii) Cresols are less acidic than phenol.",
+        "b. Williamson\u2019s process is used for the preparation of ethers from\u00a0alkyl halide.\nIdentify the alkyl bromide and sodium alkoxide used for the preparation of\n2- Ethoxy-3-methylpentane",
+        "c. Convert:",
+        "(i) Toluene to 3-nitrobenzoic acid.",
+        "(ii) Benzene to m-nitroacetophenone.",
+        "OR",
+        "a. Out of formic acid and acetic acid, which one will give the HVZ reaction?\nGive a suitable reason in support of your answer and write the chemical reaction\ninvolved.",
+        "b. Alcohols are acidic but they are weaker acids than water. Arrange various\nisomers of butanol in the increasing order of their acidic nature. Give a reason\nfor the same.",
+        "c. An organic compound A\u00a0 which is a Grignard reagent is used to obtain\n2-methylbutan-2-ol on reaction with a carbonyl compound \u2018B\u2019 . Identify A\u2019 and\n\u2018B\u2019. Write the equation for the reaction between A and B."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q32_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        722.89,
+        478.59,
+        763.89
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "8e5c1644fa6c_q33",
+      "paper_id": "8e5c1644fa6c",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "12",
+      "subject": "chemistry",
+      "year": "2024-2025",
+      "section": "SECTIONE",
+      "page_num": 13,
+      "content": "a. An experiment was carried out in the laboratory, to study depression in\nfreezing point. 1M aqueous solution of Al(NO3)3 and 1 M aqueous solution of\nglucose were taken. From the given figure identify solution 1 and solution 2.\nGive a plausible reason for your answer.\nb. The osmotic pressure of a solution of cane sugar was found to be 2.46 atm at\n300 K. If the solution was diluted five times, calculate the osmotic pressure at\nthe same temperature.\nHow can the osmotic pressure of the given cane sugar solution be decreased\nwithout changing its volume? Give a reason for your answer.\nOR\na. While giving intravenous injections to the patients, the doctors take utmost\ncare of the concentration of the solution used. Why is it necessary to check the\nconcentration of the solution?\nb. A solution of phenol was obtained by dissolving 2X 10-2 kg of phenol in 1 kg of\nbenzene. Experimentally it was found to be 73 % associated. Calculate the\ndepression in the freezing point recorded.\n(for visually challenged learners)\na. Which of the two solutions : 1M aqueous solution of Al(NO3)3 or 1M aqueous\nsolution of glucose will show a greater depression in freezing point? Give a\nplausible reason for your answer.\nb. The osmotic pressure of a solution of cane sugar was found to be 2.46 atm at\n300 K. If the solution was diluted five times, calculate the osmotic pressure at\nthe same temperature.\nHow can the osmotic pressure of the given cane sugar solution be decreased\nwithout changing its volume? Give a reason for your answer.\nOR\na. While giving intravenous injections to the patients, the doctors take utmost\ncare of the concentration of the solution used. Why is it necessary to check the\nconcentration of the solution?\nb. A solution of phenol was obtained by dissolving 2X 10-2 kg of phenol in 1 kg of\nbenzene. Experimentally it was found to be 73 % associated. Calculate the\ndepression in the freezing point recorded.\n----------------------------------------------------------------------------------------------",
+      "raw_text": "a. An experiment was carried out in the laboratory, to study depression in\nfreezing point. 1M aqueous solution of Al(NO3)3 and 1 M aqueous solution of\nglucose were taken. From the given figure identify solution 1 and solution 2.\nGive a plausible reason for your answer.\nb. The osmotic pressure of a solution of cane sugar was found to be 2.46 atm at\n300 K. If the solution was diluted five times, calculate the osmotic pressure at\nthe same temperature.\nHow can the osmotic pressure of the given cane sugar solution be decreased\nwithout changing its volume? Give a reason for your answer.\nOR\na. While giving intravenous injections to the patients, the doctors take utmost\ncare of the concentration of the solution used. Why is it necessary to check the\nconcentration of the solution?\nb. A solution of phenol was obtained by dissolving 2X 10-2 kg of phenol in 1 kg of\nbenzene. Experimentally it was found to be 73 % associated. Calculate the\ndepression in the freezing point recorded.\n(for visually challenged learners)\na. Which of the two solutions : 1M aqueous solution of Al(NO3)3 or 1M aqueous\nsolution of glucose will show a greater depression in freezing point? Give a\nplausible reason for your answer.\nb. The osmotic pressure of a solution of cane sugar was found to be 2.46 atm at\n300 K. If the solution was diluted five times, calculate the osmotic pressure at\nthe same temperature.\nHow can the osmotic pressure of the given cane sugar solution be decreased\nwithout changing its volume? Give a reason for your answer.\nOR\na. While giving intravenous injections to the patients, the doctors take utmost\ncare of the concentration of the solution used. Why is it necessary to check the\nconcentration of the solution?\nb. A solution of phenol was obtained by dissolving 2X 10-2 kg of phenol in 1 kg of\nbenzene. Experimentally it was found to be 73 % associated. Calculate the\ndepression in the freezing point recorded.\n----------------------------------------------------------------------------------------------",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. An experiment was carried out in the laboratory, to study depression in\nfreezing point. 1M aqueous solution of Al(NO3)3 and 1 M aqueous solution of\nglucose were taken. From the given figure identify solution 1 and solution 2.\nGive a plausible reason for your answer.",
+        "b. The osmotic pressure of a solution of cane sugar was found to be 2.46 atm at\n300 K. If the solution was diluted five times, calculate the osmotic pressure at\nthe same temperature.\nHow can the osmotic pressure of the given cane sugar solution be decreased\nwithout changing its volume? Give a reason for your answer.",
+        "OR",
+        "a. While giving intravenous injections to the patients, the doctors take utmost\ncare of the concentration of the solution used. Why is it necessary to check the\nconcentration of the solution?",
+        "b. A solution of phenol was obtained by dissolving 2X 10-2 kg of phenol in 1 kg of\nbenzene. Experimentally it was found to be 73 % associated. Calculate the\ndepression in the freezing point recorded.\n(for visually challenged learners)",
+        "a. Which of the two solutions : 1M aqueous solution of Al(NO3)3 or 1M aqueous\nsolution of glucose will show a greater depression in freezing point? Give a\nplausible reason for your answer.",
+        "b. The osmotic pressure of a solution of cane sugar was found to be 2.46 atm at\n300 K. If the solution was diluted five times, calculate the osmotic pressure at\nthe same temperature.\nHow can the osmotic pressure of the given cane sugar solution be decreased\nwithout changing its volume? Give a reason for your answer.",
+        "OR",
+        "a. While giving intravenous injections to the patients, the doctors take utmost\ncare of the concentration of the solution used. Why is it necessary to check the\nconcentration of the solution?",
+        "b. A solution of phenol was obtained by dissolving 2X 10-2 kg of phenol in 1 kg of\nbenzene. Experimentally it was found to be 73 % associated. Calculate the\ndepression in the freezing point recorded.\n----------------------------------------------------------------------------------------------"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q33_1.png"
+      ],
+      "bounding_box": [
+        54.0,
+        396.52,
+        523.99,
+        754.9
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

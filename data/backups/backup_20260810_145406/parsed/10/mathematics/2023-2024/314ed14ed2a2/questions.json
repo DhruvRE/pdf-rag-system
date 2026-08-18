@@ -1,0 +1,1026 @@
+{
+  "paper_id": "314ed14ed2a2",
+  "class": "10",
+  "subject": "mathematics",
+  "year": "2023-2024",
+  "total_questions": 38,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.12,
+        387.48,
+        543.27,
+        467.78
+      ],
+      "raw_text": "1.\nIf two positive integers a and b are written as a = x3y2 and b = xy3, where x, y are prime\nnumbers, then the result obtained by dividing the product of the positive integers by the\nLCM (a, b) is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) xy                              (b) xy2                                           (c) x3y3                                        (d) x2y2"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.12,
+        475.32,
+        281.84,
+        594.98
+      ],
+      "raw_text": "2.\nThe given linear polynomial y = f(x) has\n(a) 2 zeros\n(b) 1 zero and the zero is \u20183\u2019\n(c) 1 zero and the zero is \u20184\u2019",
+      "options": [
+        "(a) 2 zeros",
+        "(b) 1 zero and the zero is \u20183\u2019",
+        "(c) 1 zero and the zero is \u20184\u2019",
+        "(d) No zero"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q2_1.png",
+          "relative_path": "images/q2_1.png",
+          "bounding_box": [
+            312.72,
+            501.84,
+            526.44,
+            669.72
+          ],
+          "width": 213.72,
+          "height": 167.88
+        }
+      ]
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        42.96,
+        543.3,
+        229.48
+      ],
+      "raw_text": "3.\nThe lines representing the given pair of linear equations are non-intersecting.  Which of the\nfollowing statements is true?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) = = (b) =\n\u2260",
+        "(c) \u2260\n= (d)\n\u2260\n\u2260"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q3_1.png",
+          "relative_path": "images/q3_1.png",
+          "bounding_box": [
+            341.04,
+            64.08,
+            524.16,
+            227.52
+          ],
+          "width": 183.12,
+          "height": 163.44
+        }
+      ]
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        239.04,
+        448.41,
+        298.22
+      ],
+      "raw_text": "4.\nThe nature of roots of the quadratic equation 9x2 \u2013 6x \u2013 2 = 0 is:\n(a) No real roots                                                   (b) 2 equal real roots",
+      "options": [
+        "(a) No real roots",
+        "(b) 2 equal real roots",
+        "(c) 2 distinct real roots",
+        "(d) More than 2 real roots"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        312.84,
+        543.21,
+        374.78
+      ],
+      "raw_text": "5.\nTwo APs have the same common difference. The first term of one of these is \u20131 and that of\nthe other is \u2013 8. The difference between their 4th terms is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 1                                (b) -7                                (c)  7                          (d) 9"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        385.08,
+        525.1,
+        423.02
+      ],
+      "raw_text": "6.\nWhat is the ratio in which the line segment joining (2,-3) and (5, 6) is divided by x-axis?",
+      "options": [
+        "(a) 1:2",
+        "(b) 2:1",
+        "(c) 2:5",
+        "(d) 5:2"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        433.44,
+        546.63,
+        495.38
+      ],
+      "raw_text": "7.\nA point (x,y) is at a distance of 5 units from the origin.  How many such points lie in the third\nquadrant?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 0                                 (b)  1                               (c)  2                             (d)  infinitely many"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        505.68,
+        359.7,
+        630.72
+      ],
+      "raw_text": "8.\nIn \ud835\udee5 ABC, DE \u2016 AB.  If AB = a, DE = x, BE = b and EC = c.\nThen x expressed in terms of a, b and c is:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) (b) (c) (d)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.12,
+        530.35,
+        560.68,
+        739.0
+      ],
+      "raw_text": "9.\nIf O is centre of a circle and Chord PQ makes an angle 50\u00b0 with the tangent PR at the point of contact\nP, then the angle subtended by the chord at the centre is\n(a) 130\u00b0                         (b) 100\u00b0\n(c) 50\u00b0                           (d) 30\u00b0\nA B C D E O P Q R",
+      "options": [
+        "(a) 130\u00b0",
+        "(b) 100\u00b0",
+        "(c) 50\u00b0",
+        "(d) 30\u00b0"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q9_1.png",
+          "relative_path": "images/q9_1.png",
+          "bounding_box": [
+            332.88,
+            681.84,
+            424.32,
+            772.8
+          ],
+          "width": 91.44,
+          "height": 90.96
+        },
+        {
+          "filename": "q9_2.png",
+          "relative_path": "images/q9_2.png",
+          "bounding_box": [
+            457.92,
+            51.96,
+            523.2,
+            121.2
+          ],
+          "width": 65.28,
+          "height": 69.24
+        }
+      ]
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        43.08,
+        436.59,
+        128.9
+      ],
+      "raw_text": "10.\nA quadrilateral PQRS is drawn to circumscribe a circle.\nIf PQ = 12 cm, QR = 15 cm and RS = 14 cm, then find the length of SP is\n(a) 15 cm                             (b)  14 cm",
+      "options": [
+        "(a) 15 cm",
+        "(b) 14 cm",
+        "(c) 12 cm",
+        "(d) 11 cm"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        138.12,
+        546.6,
+        217.36
+      ],
+      "raw_text": "11.\nGiven that sin \u03b8 =\n, then cos \u03b8 is.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \u221a                 (b)",
+        "(c) \u221a",
+        "(d) \u221a"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        228.55,
+        508.84,
+        263.45
+      ],
+      "raw_text": "12.\n(sec A + tan A) (1 \u2013 sin A) equals:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) sec A                                (b) sin A                                     (c) cosec A                             (d) cos A"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        272.88,
+        520.84,
+        312.62
+      ],
+      "raw_text": "13.\nIf a pole 6 m high casts a shadow 2 \u221a3m long on the ground, then the Sun\u2019s elevation is",
+      "options": [
+        "(a) 60\u00b0",
+        "(b) 45\u00b0",
+        "(c) 30\u00b0",
+        "(d) 90\u00b0"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        322.92,
+        543.2,
+        384.86
+      ],
+      "raw_text": "14.\nIf the perimeter and the area of a circle are numerically equal, then the radius of the circle\nis",
+      "options": [
+        "(a) 2 units",
+        "(b) \u03c0 units",
+        "(c) 4 units",
+        "(d) 7 units"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        395.16,
+        543.2,
+        457.1
+      ],
+      "raw_text": "15.\nIt is proposed to build a new circular park equal in area to the sum of areas of two circular\nparks of diameters 16 m and 12 m in a locality. The radius of the new park is",
+      "options": [
+        "(a) 10m",
+        "(b) 15m",
+        "(c) 20m",
+        "(d) 24m"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        467.4,
+        543.29,
+        572.28
+      ],
+      "raw_text": "16.\nThere is a square board of side \u20182a\u2019 units circumscribing a red circle. Jayadev is asked to\nkeep a dot on the above said board.  The probability that he keeps the dot on the shaded\nregion is.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) (c) (d) (a)"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q16_1.png",
+          "relative_path": "images/q16_1.png",
+          "bounding_box": [
+            145.32,
+            512.76,
+            186.6,
+            554.04
+          ],
+          "width": 41.28,
+          "height": 41.28
+        }
+      ]
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        584.88,
+        543.05,
+        658.24
+      ],
+      "raw_text": "17.\n2 cards of hearts and 4 cards of spades are missing from a pack of 52 cards.  A card is drawn at\nrandom from the remaining pack. What is the probability of getting a black card?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) -\\frac{5}{2}                                 (b)",
+        "(c) -\\frac{5}{2}                               (d)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.12,
+        665.76,
+        532.95,
+        761.66
+      ],
+      "raw_text": "18.\nThe upper limit of the modal class of the given distribution is:\nHeight\n[in cm]\nBelow 140\nBelow 145\nBelow 150\nBelow 155\nBelow 160\nBelow 165\nNumber of\ngirls",
+      "options": [
+        "(a) 165",
+        "(b) 160",
+        "(c) 155",
+        "(d) 150"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "bounding_box": [
+        48.12,
+        85.68,
+        63.87,
+        99.74
+      ],
+      "raw_text": "19.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": false,
+      "images": [
+        {
+          "filename": "q19_1.png",
+          "relative_path": "images/q19_1.png",
+          "bounding_box": [
+            463.68,
+            150.48,
+            517.44,
+            245.76
+          ],
+          "width": 53.76,
+          "height": 95.28
+        }
+      ]
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "DIRECTION:",
+      "page_num": 4,
+      "bounding_box": [
+        48.12,
+        391.08,
+        543.25,
+        589.46
+      ],
+      "raw_text": "20.\nStatement A (Assertion): -5,\n-\\frac{5}{2} ,  0,\n-\\frac{5}{2} , \u2026. is in Arithmetic Progression.\nStatement R (Reason) : The terms of an Arithmetic Progression cannot have both positive\nand negative rational numbers.\n(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation\nof assertion (A)\n(b) Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\n(c) Assertion (A) is true but reason (R) is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        48.12,
+        646.8,
+        273.15,
+        663.15
+      ],
+      "raw_text": "21.\nProve that \u221a2 is an irrational number.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q21_1.png",
+          "relative_path": "images/q21_1.png",
+          "bounding_box": [
+            374.64,
+            71.04,
+            518.88,
+            149.04
+          ],
+          "width": 144.24,
+          "height": 78.0
+        },
+        {
+          "filename": "q21_2.png",
+          "relative_path": "images/q21_2.png",
+          "bounding_box": [
+            358.56,
+            117.12,
+            409.2,
+            166.32
+          ],
+          "width": 50.64,
+          "height": 49.2
+        },
+        {
+          "filename": "q21_3.png",
+          "relative_path": "images/q21_3.png",
+          "bounding_box": [
+            493.68,
+            116.4,
+            544.32,
+            166.32
+          ],
+          "width": 50.64,
+          "height": 49.92
+        },
+        {
+          "filename": "q21_4.png",
+          "relative_path": "images/q21_4.png",
+          "bounding_box": [
+            509.28,
+            42.96,
+            546.0,
+            99.36
+          ],
+          "width": 36.72,
+          "height": 56.4
+        },
+        {
+          "filename": "q21_5.png",
+          "relative_path": "images/q21_5.png",
+          "bounding_box": [
+            377.04,
+            42.96,
+            427.44,
+            99.36
+          ],
+          "width": 50.4,
+          "height": 56.4
+        },
+        {
+          "filename": "q21_6.png",
+          "relative_path": "images/q21_6.png",
+          "bounding_box": [
+            410.16,
+            126.48,
+            460.56,
+            166.32
+          ],
+          "width": 50.4,
+          "height": 39.84
+        },
+        {
+          "filename": "q21_7.png",
+          "relative_path": "images/q21_7.png",
+          "bounding_box": [
+            470.88,
+            42.96,
+            521.52,
+            92.88
+          ],
+          "width": 50.64,
+          "height": 49.92
+        },
+        {
+          "filename": "q21_8.png",
+          "relative_path": "images/q21_8.png",
+          "bounding_box": [
+            439.68,
+            69.12,
+            490.32,
+            128.4
+          ],
+          "width": 50.64,
+          "height": 59.28
+        }
+      ]
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        48.12,
+        42.96,
+        354.0,
+        99.14
+      ],
+      "raw_text": "22.\nABCD is a parallelogram. Point P divides AB in the\nratio 2:3 and point Q divides DC in the ratio 4:1.\nProve that OC is half of OA.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        48.12,
+        166.44,
+        300.87,
+        285.99
+      ],
+      "raw_text": "23.\nFrom an external point P, two tangents, PA\nand PB are drawn to a circle with centre O.\nAt a point E on the circle, a tangent is drawn\nto intersect PA and PB at C and D,\nrespectively. If PA = 10 cm, find the\nperimeter of \u2206PCD.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q23_1.png",
+          "relative_path": "images/q23_1.png",
+          "bounding_box": [
+            306.96,
+            174.0,
+            546.0,
+            307.92
+          ],
+          "width": 239.04,
+          "height": 133.92
+        }
+      ]
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        48.12,
+        308.04,
+        558.04,
+        405.74
+      ],
+      "raw_text": "24.\nIf tan (A + B) = \u221a3 and tan (A \u2013 B) =\n\u221a; 0\u00b0 < A + B < 90\u00b0; A > B, find A and B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Find the value of x if\n2 cosec230 + x sin260 \u2013\ntan230 = 10"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "bounding_box": [
+        48.12,
+        430.92,
+        558.04,
+        551.42
+      ],
+      "raw_text": "25.\nWith vertices A, B and C of \u0394ABC as centres, arcs are drawn with radii 14 cm and the three\nportions of the triangle so obtained are removed. Find the total area removed from the\ntriangle.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Find the area of the unshaded region shown in the\ngiven figure."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        48.12,
+        60.91,
+        558.04,
+        776.18
+      ],
+      "raw_text": "26.\nNational Art convention got registrations from students from all parts of the country, of\nwhich 60 are interested in music, 84 are interested in dance and 108 students are interested\nA B C D P Q O\nin handicrafts.  For optimum cultural exchange, organisers wish to keep them in minimum\nnumber of groups such that each group consists of students interested in the same artform\nand the number of students in each group is the same.  Find the number of students in each\ngroup.  Find the number of groups in each art form.  How many rooms are required if each\ngroup will be allotted a room?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q26_1.png",
+          "relative_path": "images/q26_1.png",
+          "bounding_box": [
+            354.48,
+            520.8,
+            546.0,
+            683.04
+          ],
+          "width": 191.52,
+          "height": 162.24
+        }
+      ]
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        48.12,
+        170.04,
+        441.12,
+        228.03
+      ],
+      "raw_text": "27.\nIf \ud835\udefc, \u03b2 are zeroes of quadratic polynomial 5x2 + 5x + 1, find the value of\n1. \ud835\udefc + \ud835\udefd\n2. \ud835\udefc\n+ \ud835\udefd",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        48.12,
+        235.56,
+        558.04,
+        331.36
+      ],
+      "raw_text": "28.\nThe sum of a two digit number and the number obtained by reversing the digits is 66. If the\ndigits of the number differ by 2, find the number. How many such numbers are there?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Solve : -\n\u221a +\n\u221a = 2 ;\n\u221a -\n\u221a = -1,  x, y>o"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        48.12,
+        339.12,
+        558.04,
+        565.22
+      ],
+      "raw_text": "29.\nPA and PB are tangents drawn to a circle of centre O from an external point P.  Chord AB\nmakes an angle of 30\u00b0 with the radius at the point of contact.\nIf length of the chord is 6 cm, find the length of the tangent PA and the length of the radius\nOA.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Two tangents TP and TQ are drawn to a circle with centre O from an external point T. Prove\nthat \u2220PTQ = 2 \u2220 OPQ."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q29_1.png",
+          "relative_path": "images/q29_1.png",
+          "bounding_box": [
+            229.44,
+            403.92,
+            380.64,
+            528.0
+          ],
+          "width": 151.2,
+          "height": 124.08
+        }
+      ]
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        48.12,
+        597.36,
+        354.75,
+        626.92
+      ],
+      "raw_text": "30.\nIf 1 + sin2\u03b8 = 3sin\u03b8 cos\u03b8 , then prove that tan\u03b8 = 1 or",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "bounding_box": [
+        48.12,
+        634.32,
+        543.28,
+        763.7
+      ],
+      "raw_text": "31.\nThe length of 40 leaves of a plant are measured correct to nearest millimetre, and the data\nobtained is represented in the following table.\nLength [in mm]\nNumber of leaves\n118 \u2013 126\n127 \u2013 135\n136 \u2013 144\n145 \u2013 153\n154 \u2013 162\n163 \u2013 171\n172 \u2013 180\nFind the mean length of the leaves.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        48.12,
+        210.12,
+        558.04,
+        324.98
+      ],
+      "raw_text": "32.\nA motor boat whose speed is 18 km/h in still water takes 1 hour more to go 24 km upstream\nthan to return downstream to the same spot. Find the speed of stream.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Two water taps together can fill a tank in 9\nhours. The tap of larger diameter takes 10\nhours less than the smaller one to fill the tank separately. Find the time in which each tap\ncan separately fill the tank."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        48.12,
+        353.64,
+        390.66,
+        446.68
+      ],
+      "raw_text": "33.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a)  State and prove Basic Proportionality theorem.",
+        "(b)  In the given figure \u2220CEF = \u2220CFE.  F is the midpoint of DC.\nProve that\n="
+      ],
+      "is_valid": false,
+      "images": [
+        {
+          "filename": "q33_1.png",
+          "relative_path": "images/q33_1.png",
+          "bounding_box": [
+            453.84,
+            353.76,
+            529.68,
+            457.44
+          ],
+          "width": 75.84,
+          "height": 103.68
+        }
+      ]
+    },
+    {
+      "question_id": "q34",
+      "question_number": "Q34",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "bounding_box": [
+        48.12,
+        457.8,
+        558.04,
+        641.66
+      ],
+      "raw_text": "34.\nWater is flowing at the rate of 15 km/h through a pipe of diameter 14 cm into a cuboidal\npond which is 50 m long and 44 m wide. In what time will the level of water in pond rise by\n21 cm?\nWhat should be the speed of water if the rise in water level is to be attained in 1 hour?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "A tent is in the shape of a cylinder surmounted by a conical top. If the height and radius of\nthe cylindrical part are 3 m and 14 m respectively, and the total height of the tent is 13.5 m,\nfind the area of the canvas required for making the tent, keeping a provision of 26 m2 of\ncanvas for stitching and wastage. Also, find the cost of the canvas to be purchased at the rate\nof \u20b9 500 per m2."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q35",
+      "question_number": "Q35",
+      "section": "SECTIOND",
+      "page_num": 8,
+      "bounding_box": [
+        48.12,
+        42.96,
+        543.03,
+        247.34
+      ],
+      "raw_text": "35.\nThe median of the following data is 50.  Find the values of \u2018p\u2019 and \u2018q\u2019, if the sum of all frequencies is\n90.  Also find the mode of the data.\nMarks obtained\nNumber of students\n20 \u2013 30\np\n30 \u2013 40\n40 \u2013 50\n50 \u2013 60\n60 \u2013 70\nq\n70 \u2013 80\n80 - 90",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q36",
+      "question_number": "Q36",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "bounding_box": [
+        48.12,
+        314.04,
+        558.04,
+        633.05
+      ],
+      "raw_text": "36.\nManpreet Kaur is the national record holder for women in the shot-put discipline. Her throw of\n18.86m at the Asian Grand Prix in 2017 is the\nmaximum distance for an Indian female athlete.\nKeeping her as a role model, Sanjitha is determined\nto earn gold in Olympics one day.\nInitially her throw reached 7.56m only.  Being an\nathlete in school, she regularly practiced both in the\nmornings and in the evenings and was able to\nimprove the distance by 9cm every week.\nDuring the special camp for 15 days, she started with\n40 throws and every day kept increasing the number\nof throws by 12 to achieve this remarkable progress.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) How many throws Sanjitha practiced on 11th day of the camp?",
+        "(ii) What would be Sanjitha\u2019s throw distance at the end of 6 weeks?\n(or)\nWhen will she be able to achieve a throw of 11.16 m?",
+        "(iii) How many throws did she do during the entire camp of 15 days ?"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q36_1.png",
+          "relative_path": "images/q36_1.png",
+          "bounding_box": [
+            330.36,
+            341.76,
+            528.96,
+            538.2
+          ],
+          "width": 198.6,
+          "height": 196.44
+        }
+      ]
+    },
+    {
+      "question_id": "q37",
+      "question_number": "Q37",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "bounding_box": [
+        48.12,
+        674.52,
+        543.12,
+        745.61
+      ],
+      "raw_text": "37.\nTharunya was thrilled to know that the football tournament is fixed with a monthly timeframe from\n20th July to 20th August 2023 and for the first time in the FIFA Women\u2019s World Cup\u2019s history, two\nnations host in 10 venues.  Her father felt that the game can be better understood if the position of\nplayers is represented as points on a coordinate plane.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) At an instance, the midfielders and forward formed a parallelogram.  Find the\nposition of the central midfielder (D) if the position of other players who formed\nthe parallelogram are :-  A(1,2), B(4,3) and C(6,6)",
+        "(ii) Check if the Goal keeper G(-3,5), Sweeper H(3,1) and Wing-back K(0,3) fall on a\nsame straight line.",
+        "OR",
+        "Check if the Full-back J(5,-3) and centre-back I(-4,6) are equidistant from\nforward C(0,1) and if C is the mid-point of IJ.",
+        "(iii) If Defensive midfielder A(1,4), Attacking midfielder B(2,-3) and Striker E(a,b) lie on\nthe same straight line and B is equidistant from A and E, find the position of E."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q37_1.png",
+          "relative_path": "images/q37_1.png",
+          "bounding_box": [
+            105.84,
+            43.68,
+            533.04,
+            284.64
+          ],
+          "width": 427.2,
+          "height": 240.96
+        }
+      ]
+    },
+    {
+      "question_id": "q38",
+      "question_number": "Q38",
+      "section": "SECTIONE",
+      "page_num": 9,
+      "bounding_box": [
+        48.12,
+        522.72,
+        543.24,
+        645.14
+      ],
+      "raw_text": "38.\nOne evening, Kaushik was in a park.  Children were playing cricket. Birds were singing on a\nnearby tree of height 80m.  He observed a bird on the tree at an angle of elevation of 45\u00b0.\nWhen a sixer was hit, a ball flew through the tree frightening the bird to fly away.  In 2\nseconds, he observed the bird flying at the same height at an angle of elevation of 30\u00b0 and\nthe ball flying towards him at the same height at an angle of elevation of 60\u00b0.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) At what distance from the foot of the tree was he observing the bird sitting on the\ntree?",
+        "(ii) How far did the bird fly in the mentioned time?\n(or)\nAfter hitting the tree, how far did the ball travel in the sky when Kaushik saw the\nball?",
+        "(iii) What is the speed of the bird in m/min if it had flown 20(\u221a3 + 1) m?"
+      ],
+      "is_valid": true
+    }
+  ]
+}

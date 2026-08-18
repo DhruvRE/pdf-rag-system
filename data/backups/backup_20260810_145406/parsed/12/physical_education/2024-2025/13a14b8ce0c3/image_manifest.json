@@ -1,0 +1,82 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physical_education/2024-2025/13a14b8ce0c3/images/img_p2_1.png",
+    "relative_path": "13a14b8ce0c3/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      118.9,
+      180.89,
+      213.7,
+      252.29
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Q4. For developing muscles, which nutrient sh A. Vitamins B. Protein Q5. Identify the asana: A. Paschimottanasana B. Halasana C. Vajrasana D. Dhanurasana Q6. Which asana is pose like cobra?"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physical_education/2024-2025/13a14b8ce0c3/images/img_p5_1.png",
+    "relative_path": "13a14b8ce0c3/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      94.57,
+      82.57,
+      451.5,
+      258.77
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "(SECTION D) Q31. I. Choose the function of boarding committee 1 A. To take teams to the venue of match B. To provide them meals C. To take care of their stay D To arrange opening ceremony"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physical_education/2024-2025/13a14b8ce0c3/images/img_p6_1.png",
+    "relative_path": "13a14b8ce0c3/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      178.57,
+      294.56,
+      410.32,
+      420.91
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "is a ________ . Post meeting committee . Pre meet committee . During meet committee . All the above I. The first paralympics was organise in A.1960 C. 1965 B. 1970 D. 1985 II. Special education is a b"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physical_education/2024-2025/13a14b8ce0c3/images/img_p7_1.png",
+    "relative_path": "13a14b8ce0c3/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      145.9,
+      572.82,
+      229.6,
+      660.37
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "A. Tokyo, Japan B. London, United Kingdom Q33. I. What is the primary effect of exercise o A. Decreased heart rate B. Increased stroke volume"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p7_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physical_education/2024-2025/13a14b8ce0c3/images/img_p7_2.png",
+    "relative_path": "13a14b8ce0c3/images/img_p7_2.png",
+    "page": 7,
+    "bbox": [
+      289.9,
+      573.32,
+      376.95,
+      660.37
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "C. Rome, Italy ngdom D. Sydney, Australia y effect of exercise on cardio respiratory system eart rate oke volume"
+  }
+}

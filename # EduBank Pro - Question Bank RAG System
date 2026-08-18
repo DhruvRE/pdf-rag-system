@@ -1,0 +1,34 @@
+# EduBank Pro - Question Bank RAG System
+
+
+# E EduBank Pro
+Enterprise Question Engine
+
+## Filters
+
+### Class Level
+
+### Subject Domain
+
+### Question Type
+
+### Questions Per Page
+
+### Sample Queries
+
+## Question Search Results
+Page 1 of 1
+
+#### Executing RAG Pipeline...
+
+### Loading questions...
+
+## Drafts Review Queue & Quality Gate
+Review low-confidence extractions, self-validation flags, and approve structured question drafts.
+
+### Loading draft review queue...
+
+## Cross-Paper Question Deduplication
+Pairwise vector similarity analysis detecting identical or duplicate questions across exam papers.
+
+### Loading duplicate question queue...

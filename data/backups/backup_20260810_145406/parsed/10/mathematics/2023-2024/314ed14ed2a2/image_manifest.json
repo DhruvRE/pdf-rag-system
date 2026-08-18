@@ -1,0 +1,706 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p1_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p1_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p1_1.png",
+    "page": 1,
+    "bbox": [
+      312.72,
+      501.84,
+      526.44,
+      669.72
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "ined by dividing the product of the positive integers by the y2 (c) x3y3 (d) x2y2 = f(x) has 3\u2019 4\u2019 1"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      349.44,
+      525.36,
+      385.44,
+      557.52
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "g y p (c) 2 (d) infini E = b and EC = c. c is: \u0bd4\u0bd6 \u0bd5\u0b3e\u0bd6 \u0bd4\u0bd5 \u0bd5\u0b3e\u0bd6 A B D E"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p2_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_2.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_2.png",
+    "page": 2,
+    "bbox": [
+      491.04,
+      660.48,
+      526.32,
+      692.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "nt PR at the point of contact 1 C E Q R"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p2_3.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_3.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_3.png",
+    "page": 2,
+    "bbox": [
+      341.04,
+      64.08,
+      524.16,
+      227.52
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "r of linear equations are non-intersecting. Which of the 1 equation 9x2 \u2013 6x \u2013 2 = 0 is: (b) 2 equal real roots (d) More than 2 real roots 1"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p2_4.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_4.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_4.png",
+    "page": 2,
+    "bbox": [
+      353.04,
+      608.16,
+      388.32,
+      640.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "c is: \u0bd4\u0bd6 \u0bd5\u0b3e\u0bd6 \u0bd4\u0bd5 \u0bd5\u0b3e\u0bd6 es an angle 50\u00b0 with the tangent PR at the p at the centre is A B D E P Q"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p2_5.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_5.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_5.png",
+    "page": 2,
+    "bbox": [
+      517.2,
+      608.16,
+      552.48,
+      640.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "at the point of contact 1 C D E R"
+  },
+  "[IMAGE_PLACEHOLDER_7]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_7]",
+    "filename": "img_p2_6.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_6.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_6.png",
+    "page": 2,
+    "bbox": [
+      434.16,
+      554.16,
+      470.4,
+      586.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "(d) infinitely many ith the tangent PR at the point of contact A B C D E"
+  },
+  "[IMAGE_PLACEHOLDER_8]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_8]",
+    "filename": "img_p2_7.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_7.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_7.png",
+    "page": 2,
+    "bbox": [
+      436.32,
+      608.16,
+      462.72,
+      640.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "th the tangent PR at the point of contact A B C D E P Q R"
+  },
+  "[IMAGE_PLACEHOLDER_9]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_9]",
+    "filename": "img_p2_8.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_8.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_8.png",
+    "page": 2,
+    "bbox": [
+      332.88,
+      681.84,
+      424.32,
+      772.8
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Page d) \u0bd4\u0bd5 \u0bd5\u0b3e\u0bd6 makes an angle 50\u00b0 with the tangent PR at the point of ord at the centre is B E O P Q R"
+  },
+  "[IMAGE_PLACEHOLDER_10]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_10]",
+    "filename": "img_p2_9.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_9.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_9.png",
+    "page": 2,
+    "bbox": [
+      359.52,
+      716.88,
+      396.48,
+      749.04
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "s an angle 50\u00b0 with the tangent PR at the po the centre is O P Q"
+  },
+  "[IMAGE_PLACEHOLDER_11]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_11]",
+    "filename": "img_p2_10.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_10.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_10.png",
+    "page": 2,
+    "bbox": [
+      365.76,
+      660.48,
+      400.56,
+      692.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "\u0bd6 \u0bd5 \u0bd6 an angle 50\u00b0 with the tangent PR at the poi he centre is B E O P Q"
+  },
+  "[IMAGE_PLACEHOLDER_12]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_12]",
+    "filename": "img_p2_11.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p2_11.png",
+    "relative_path": "314ed14ed2a2/images/img_p2_11.png",
+    "page": 2,
+    "bbox": [
+      414.48,
+      710.64,
+      451.68,
+      742.8
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Page 2 of 1 0\u00b0 with the tangent PR at the point of conta s O P Q R"
+  },
+  "[IMAGE_PLACEHOLDER_13]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_13]",
+    "filename": "img_p3_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p3_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p3_1.png",
+    "page": 3,
+    "bbox": [
+      457.92,
+      51.96,
+      523.2,
+      121.2
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "gth of SP is 1 \u0c2e\u0b3f\u0bd4\u0c2e (d) \u0bd4 1"
+  },
+  "[IMAGE_PLACEHOLDER_14]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_14]",
+    "filename": "img_p3_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p3_2.png",
+    "relative_path": "314ed14ed2a2/images/img_p3_2.png",
+    "page": 3,
+    "bbox": [
+      145.32,
+      512.76,
+      186.6,
+      554.04
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "p (a) 10m (b) 15m There is a square board of side \u20182a\u2019 u keep a dot on the above said board. region is. (b) \u0b38\u0b3f\u0c17 \u0b38 (a) \u0c17 \u0b38 2 cards of hearts and 4 cards of spades random from the remaining pack. What i"
+  },
+  "[IMAGE_PLACEHOLDER_15]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_15]",
+    "filename": "img_p4_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p4_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p4_1.png",
+    "page": 4,
+    "bbox": [
+      463.68,
+      150.48,
+      517.44,
+      245.76
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "(d) 150 of assertion (A) is followed by the sum of the ace area of the e surfaces of the n (R) is the correct explanation reason (R) is not the correct 1"
+  },
+  "[IMAGE_PLACEHOLDER_16]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_16]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      374.64,
+      71.04,
+      518.88,
+      149.04
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "s AB in the o 4:1. 2 A O. n 2 A B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_17]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_17]",
+    "filename": "img_p5_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_2.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_2.png",
+    "page": 5,
+    "bbox": [
+      509.28,
+      42.96,
+      546.0,
+      99.36
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 2 B C Q O"
+  },
+  "[IMAGE_PLACEHOLDER_18]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_18]",
+    "filename": "img_p5_3.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_3.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_3.png",
+    "page": 5,
+    "bbox": [
+      376.56,
+      60.0,
+      398.4,
+      76.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "AB in the o 4:1. A D P O"
+  },
+  "[IMAGE_PLACEHOLDER_19]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_19]",
+    "filename": "img_p5_4.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_4.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_4.png",
+    "page": 5,
+    "bbox": [
+      376.08,
+      55.92,
+      404.16,
+      88.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "AB in the o 4:1. A D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_20]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_20]",
+    "filename": "img_p5_5.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_5.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_5.png",
+    "page": 5,
+    "bbox": [
+      377.04,
+      42.96,
+      427.44,
+      99.36
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "AB in the o 4:1. A A B D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_21]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_21]",
+    "filename": "img_p5_6.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_6.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_6.png",
+    "page": 5,
+    "bbox": [
+      411.12,
+      146.4,
+      432.96,
+      162.72
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "A B D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_22]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_22]",
+    "filename": "img_p5_7.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_7.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_7.png",
+    "page": 5,
+    "bbox": [
+      410.64,
+      142.08,
+      437.28,
+      166.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "A B D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_23]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_23]",
+    "filename": "img_p5_8.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_8.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_8.png",
+    "page": 5,
+    "bbox": [
+      410.16,
+      126.48,
+      460.56,
+      166.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "the A B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_24]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_24]",
+    "filename": "img_p5_9.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_9.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_9.png",
+    "page": 5,
+    "bbox": [
+      469.68,
+      53.76,
+      491.52,
+      69.84
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 B C D Q O"
+  },
+  "[IMAGE_PLACEHOLDER_25]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_25]",
+    "filename": "img_p5_10.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_10.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_10.png",
+    "page": 5,
+    "bbox": [
+      469.2,
+      49.44,
+      498.24,
+      81.6
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_26]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_26]",
+    "filename": "img_p5_11.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_11.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_11.png",
+    "page": 5,
+    "bbox": [
+      470.88,
+      42.96,
+      521.52,
+      92.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 2 B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_27]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_27]",
+    "filename": "img_p5_12.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_12.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_12.png",
+    "page": 5,
+    "bbox": [
+      358.8,
+      137.04,
+      380.4,
+      153.36
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "atio 4:1. , PA re O. awn D A D P O"
+  },
+  "[IMAGE_PLACEHOLDER_28]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_28]",
+    "filename": "img_p5_13.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_13.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_13.png",
+    "page": 5,
+    "bbox": [
+      438.72,
+      89.04,
+      460.32,
+      105.36
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "A B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_29]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_29]",
+    "filename": "img_p5_14.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_14.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_14.png",
+    "page": 5,
+    "bbox": [
+      438.24,
+      84.72,
+      467.04,
+      117.12
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "A B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_30]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_30]",
+    "filename": "img_p5_15.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_15.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_15.png",
+    "page": 5,
+    "bbox": [
+      439.68,
+      69.12,
+      490.32,
+      128.4
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 2 A B C D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_31]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_31]",
+    "filename": "img_p5_16.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_16.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_16.png",
+    "page": 5,
+    "bbox": [
+      306.96,
+      174.0,
+      546.0,
+      307.92
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "o tangents, PA with centre O. ngent is drawn at C and D, cm, find the 2 \u2013 B) = \u0b35 \u221a\u0b37; 0\u00b0 < A + B < 90\u00b0; A > B, find A and B. 2 [or] A B P O"
+  },
+  "[IMAGE_PLACEHOLDER_32]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_32]",
+    "filename": "img_p5_17.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_17.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_17.png",
+    "page": 5,
+    "bbox": [
+      354.48,
+      520.8,
+      546.0,
+      683.04
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "ntres, arcs are drawn with radii 14 cm and the three are removed. Find the total area removed from the 2 [or] shown in the SECTION C of 6 questions of 3 marks each ons from students from all parts of "
+  },
+  "[IMAGE_PLACEHOLDER_33]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_33]",
+    "filename": "img_p5_18.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_18.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_18.png",
+    "page": 5,
+    "bbox": [
+      358.08,
+      132.72,
+      385.92,
+      164.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "des AB in the ratio 4:1. , PA re O. awn d D, A D P O"
+  },
+  "[IMAGE_PLACEHOLDER_34]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_34]",
+    "filename": "img_p5_19.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_19.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_19.png",
+    "page": 5,
+    "bbox": [
+      358.56,
+      117.12,
+      409.2,
+      166.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "des AB in the ratio 4:1. , PA re O. awn D, A D P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_35]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_35]",
+    "filename": "img_p5_20.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_20.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_20.png",
+    "page": 5,
+    "bbox": [
+      494.4,
+      136.32,
+      516.24,
+      152.64
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 B C P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_36]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_36]",
+    "filename": "img_p5_21.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_21.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_21.png",
+    "page": 5,
+    "bbox": [
+      493.92,
+      132.0,
+      521.04,
+      164.4
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 2 B C P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_37]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_37]",
+    "filename": "img_p5_22.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_22.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_22.png",
+    "page": 5,
+    "bbox": [
+      493.68,
+      116.4,
+      544.32,
+      166.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 2 B C P Q O"
+  },
+  "[IMAGE_PLACEHOLDER_38]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_38]",
+    "filename": "img_p5_23.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_23.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_23.png",
+    "page": 5,
+    "bbox": [
+      510.0,
+      60.0,
+      531.84,
+      76.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 B C Q O"
+  },
+  "[IMAGE_PLACEHOLDER_39]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_39]",
+    "filename": "img_p5_24.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p5_24.png",
+    "relative_path": "314ed14ed2a2/images/img_p5_24.png",
+    "page": 5,
+    "bbox": [
+      509.52,
+      55.92,
+      536.4,
+      88.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 B C Q O"
+  },
+  "[IMAGE_PLACEHOLDER_40]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_40]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p6_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      229.44,
+      403.92,
+      380.64,
+      528.0
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "\u221a\u0beb \u221a\u0bec \u221a\u0beb \u221a\u0bec e tangents drawn to a circle of centre O from an external poi e of 30\u00b0 with the radius at the point of contact. e chord is 6 cm, find the length of the tangent PA and the leng [or] TP and "
+  },
+  "[IMAGE_PLACEHOLDER_41]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_41]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p7_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      453.84,
+      353.76,
+      529.68,
+      457.44
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "p of larger diameter takes 10 Find the time in which each tap DC. 5 f diameter 14 cm into a cuboidal the level of water in pond rise by l is to be attained in 1 hour? 5"
+  },
+  "[IMAGE_PLACEHOLDER_42]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_42]",
+    "filename": "img_p8_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p8_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p8_1.png",
+    "page": 8,
+    "bbox": [
+      330.36,
+      341.76,
+      528.96,
+      538.2
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "SECTION E d holder for women in the shot-put discipline. Her throw of n 2017 is the ale athlete. a is determined only. Being an iced both in the d was able to week. she started with ing the number kab"
+  },
+  "[IMAGE_PLACEHOLDER_43]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_43]",
+    "filename": "img_p9_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p9_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p9_1.png",
+    "page": 9,
+    "bbox": [
+      105.84,
+      43.68,
+      533.04,
+      284.64
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "(i) At an instance, the midfielders and forward formed a parallelogram. Find the position of the central midfielder (D) if the position of other players who formed the parallelogram are :- A(1,2), B(4"
+  },
+  "[IMAGE_PLACEHOLDER_44]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_44]",
+    "filename": "img_p10_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/mathematics/2023-2024/314ed14ed2a2/images/img_p10_1.png",
+    "relative_path": "314ed14ed2a2/images/img_p10_1.png",
+    "page": 10,
+    "bbox": [
+      157.92,
+      48.72,
+      481.92,
+      238.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "(i) At what distance from the foot of the tree was he observing the bird sitting on the tree? 1 (ii) How far did the bird fly in the mentioned time? 2"
+  }
+}

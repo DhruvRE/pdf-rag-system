@@ -1,0 +1,2182 @@
+{
+  "exam_metadata": {
+    "subject": "social_science",
+    "class_level": "10",
+    "year": "2023-2024",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class10_social_science_2023_2024_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify the correct option that describes the act given below.\ni.\nThe Act was passed by the Imperial Legislative Council.\nii.\nIt gave power to the government to repress political activities.\niii.\nIt empowered the government to detain political prisoners without trial.\nOptions:\n1\n<!-- PAGE 1 END -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify the correct option that describes the act given below.\ni.\nThe Act was passed by the Imperial Legislative Council.\nii.\nIt gave power to the government to repress political activities.\niii.\nIt empowered the government to detain political prisoners without trial.\nOptions:\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nPage 2 of 12\nSample Question Paper Class-X 2023-24\na. Rowlatt Act\nb. Vernacular Press Act\nc. Government of India Act\nd. Inland Emigration Act",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Rowlatt Act"
+                },
+                {
+                  "label": "b",
+                  "text": "Vernacular Press Act"
+                },
+                {
+                  "label": "c",
+                  "text": "Government of India Act"
+                },
+                {
+                  "label": "d",
+                  "text": "Inland Emigration Act"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nIdentify the correct option that describes the act given below.\ni.\nThe Act was passed by the Imperial Legislative Council.\nii.\nIt gave power to the government to repress political activities.\niii.\nIt empowered the government to detain political prisoners without trial.\nOptions:\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nPage 2 of 12\nSample Question Paper Class-X 2023-24\na. Rowlatt Act\nb. Vernacular Press Act\nc. Government of India Act\nd. Inland Emigration Act",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which place in India has an artificial lake to conserve water that dates to 11th\ncentury?\na. Delhi\nb. Bhopal\nc. Mumbai\nd. Kolhapur\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which place in India has an artificial lake to conserve water that dates to 11th\ncentury?\na. Delhi\nb. Bhopal\nc. Mumbai\nd. Kolhapur\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Delhi"
+                },
+                {
+                  "label": "b",
+                  "text": "Bhopal"
+                },
+                {
+                  "label": "c",
+                  "text": "Mumbai"
+                },
+                {
+                  "label": "d",
+                  "text": "Kolhapur"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nWhich place in India has an artificial lake to conserve water that dates to 11th\ncentury?\na. Delhi\nb. Bhopal\nc. Mumbai\nd. Kolhapur\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the data given below and answer the question.\nEducational Achievement of Rural Population of Uttar Pradesh\nAs per the data given above who has the least percentage of literacy rate in\nrural population?\na. Male\nb. Children\nc. Male& Female\nd. Female\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the data given below and answer the question.\nEducational Achievement of Rural Population of Uttar Pradesh\nAs per the data given above who has the least percentage of literacy rate in\nrural population?\na. Male\nb. Children\nc. Male& Female\nd. Female\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Male"
+                },
+                {
+                  "label": "b",
+                  "text": "Children"
+                },
+                {
+                  "label": "c",
+                  "text": "Male& Female"
+                },
+                {
+                  "label": "d",
+                  "text": "Female"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nRead the data given below and answer the question.\nEducational Achievement of Rural Population of Uttar Pradesh\nAs per the data given above who has the least percentage of literacy rate in\nrural population?\na. Male\nb. Children\nc. Male& Female\nd. Female\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following options represent potential measures that can be\ntaken to mitigate the threats posed on the tiger population and biodiversity?\ni. Banning hunting, giving legal protection to their habitats, and restricting trade\nin wildlife\nii. Prohibiting the visit of public into forest area.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following options represent potential measures that can be\ntaken to mitigate the threats posed on the tiger population and biodiversity?\ni. Banning hunting, giving legal protection to their habitats, and restricting trade\nin wildlife\nii. Prohibiting the visit of public into forest area.\niii. Establishing wildlife sanctuaries and National Parks\niv. Converting forests into Reserved and Protected forests\nOptions:\na. Statement i and ii are correct.\nb. Statement ii, iii & iv are correct\nc. Statement ii is correct.\nd. Statement (i), (iii) & (iv) are correct.\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nPage 3 of 12\nSample Question Paper Class-X 2023-24",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statement i and ii are correct."
+                },
+                {
+                  "label": "b",
+                  "text": "Statement ii, iii & iv are correct"
+                },
+                {
+                  "label": "c",
+                  "text": "Statement ii is correct."
+                },
+                {
+                  "label": "d",
+                  "text": "Statement"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nWhich of the following options represent potential measures that can be\ntaken to mitigate the threats posed on the tiger population and biodiversity?\ni. Banning hunting, giving legal protection to their habitats, and restricting trade\nin wildlife\nii. Prohibiting the visit of public into forest area.\niii. Establishing wildlife sanctuaries and National Parks\niv. Converting forests into Reserved and Protected forests\nOptions:\na. Statement i and ii are correct.\nb. Statement ii, iii & iv are correct\nc. Statement ii is correct.\nd. Statement (i), (iii) & (iv) are correct.\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nPage 3 of 12\nSample Question Paper Class-X 2023-24",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "When many countries of Europe came together to form the European Union,\nwas chosen as its headquarters.\na. Brussels\nb. Paris\nc. London\nd. Zurich\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "When many countries of Europe came together to form the European Union,\nwas chosen as its headquarters.\na. Brussels\nb. Paris\nc. London\nd. Zurich\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Brussels"
+                },
+                {
+                  "label": "b",
+                  "text": "Paris"
+                },
+                {
+                  "label": "c",
+                  "text": "London"
+                },
+                {
+                  "label": "d",
+                  "text": "Zurich"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nWhen many countries of Europe came together to form the European Union,\nwas chosen as its headquarters.\na. Brussels\nb. Paris\nc. London\nd. Zurich\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following statements accurately distinguishes between\nMajoritarianism and Power sharing?\na. Majoritarianism emphasizes the dominance of the majority community, while\nPower sharing emphasizes the sharing of power among different groups.\nb. Majoritarianism emphasizes the need for consensu",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following statements accurately distinguishes between\nMajoritarianism and Power sharing?\na. Majoritarianism emphasizes the dominance of the majority community, while\nPower sharing emphasizes the sharing of power among different groups.\nb. Majoritarianism emphasizes the need for consensus building, while Power\nsharing emphasizes the exclusion of minority groups.\nc. Majoritarianism emphasizes the importance of accommodating minority\ninterests, while Power sharing emphasizes the need for majority rule.\nd. Majoritarianism emphasizes the need for peaceful resolution of conflicts,\nwhile Power sharing emphasizes the use of force to impose the majority's\nwill.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Majoritarianism emphasizes the dominance of the majority community, while"
+                },
+                {
+                  "label": "b",
+                  "text": "Majoritarianism emphasizes the need for consensus building, while Power"
+                },
+                {
+                  "label": "c",
+                  "text": "Majoritarianism emphasizes the importance of accommodating minority"
+                },
+                {
+                  "label": "d",
+                  "text": "Majoritarianism emphasizes the need for peaceful resolution of conflicts,"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nWhich of the following statements accurately distinguishes between\nMajoritarianism and Power sharing?\na. Majoritarianism emphasizes the dominance of the majority community, while\nPower sharing emphasizes the sharing of power among different groups.\nb. Majoritarianism emphasizes the need for consensus building, while Power\nsharing emphasizes the exclusion of minority groups.\nc. Majoritarianism emphasizes the importance of accommodating minority\ninterests, while Power sharing emphasizes the need for majority rule.\nd. Majoritarianism emphasizes the need for peaceful resolution of conflicts,\nwhile Power sharing emphasizes the use of force to impose the majority's\nwill.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "There are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): Democracies are based on political equality\nReason(R): All individuals have equal say in electing representatives.\na. Both (A) and (R) are true and (R) is the correct exp",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "There are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): Democracies are based on political equality\nReason(R): All individuals have equal say in electing representatives.\na. Both (A) and (R) are true and (R) is the correct explanation of (A)\nb. Both A and R are true and R is the correct explanation of A.\nc. (A) is correct but (R) is wrong\nd. (A) is wrong but (R) is correct\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": Democracies are based on political equality"
+                },
+                {
+                  "label": "a",
+                  "text": "Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "b. Both A and R are true and R is the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is correct but"
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is wrong but"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nThere are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): Democracies are based on political equality\nReason(R): All individuals have equal say in electing representatives.\na. Both (A) and (R) are true and (R) is the correct explanation of (A)\nb. Both A and R are true and R is the correct explanation of A.\nc. (A) is correct but (R) is wrong\nd. (A) is wrong but (R) is correct\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 9 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 9 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Rahul has a sack of cotton but he is in need of wheat and Anush has a sack\nof wheat and is in need of cotton, under this situation both will be able to\nexchange their goods. In case of absence of such coincidence of wants, they\nmay not exchange their goods.\nWhich one of the following would be the be",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Rahul has a sack of cotton but he is in need of wheat and Anush has a sack\nof wheat and is in need of cotton, under this situation both will be able to\nexchange their goods. In case of absence of such coincidence of wants, they\nmay not exchange their goods.\nWhich one of the following would be the best option that describes the mutual\nexchange of goods and eliminate the exchange of goods?\nOptions:\na. Double coincidence of want, Exchanging commodity for commodity.\nb. Double Coincidence of want, Credit on Commodity\nc. Double coincidence of want, Loan on commodity.\nd. Double coincidence of want, Money\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nPage 4 of 12\nSample Question Paper Class-X 2023-24",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Double coincidence of want, Exchanging commodity for commodity."
+                },
+                {
+                  "label": "b",
+                  "text": "Double Coincidence of want, Credit on Commodity"
+                },
+                {
+                  "label": "c",
+                  "text": "Double coincidence of want, Loan on commodity."
+                },
+                {
+                  "label": "d",
+                  "text": "Double coincidence of want, Money"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nRahul has a sack of cotton but he is in need of wheat and Anush has a sack\nof wheat and is in need of cotton, under this situation both will be able to\nexchange their goods. In case of absence of such coincidence of wants, they\nmay not exchange their goods.\nWhich one of the following would be the best option that describes the mutual\nexchange of goods and eliminate the exchange of goods?\nOptions:\na. Double coincidence of want, Exchanging commodity for commodity.\nb. Double Coincidence of want, Credit on Commodity\nc. Double coincidence of want, Loan on commodity.\nd. Double coincidence of want, Money\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nPage 4 of 12\nSample Question Paper Class-X 2023-24",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "You are a citizen of a country that has a democratic form of government. You\nwant to ensure that the system of power-sharing in your country is effective\nand that no one branch of government has absolute power.\nWhich of the following measures would best meet this goal?\na. All power is concentrated i",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "You are a citizen of a country that has a democratic form of government. You\nwant to ensure that the system of power-sharing in your country is effective\nand that no one branch of government has absolute power.\nWhich of the following measures would best meet this goal?\na. All power is concentrated in the hands of the legislature only.\nb. Power is divided between the central government and the states or\nprovinces, with each level having its own sphere of influence.\nc. Power is separated among the legislative, executive, and judicial branches,\nwith each branch having its own responsibilities and powers.\nd. Power is shared among different levels of government, such as the national,\nregional, and local governments, with each level having some degree of\nautonomy.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "All power is concentrated in the hands of the legislature only."
+                },
+                {
+                  "label": "b",
+                  "text": "Power is divided between the central government and the states or"
+                },
+                {
+                  "label": "c",
+                  "text": "Power is separated among the legislative, executive, and judicial branches,"
+                },
+                {
+                  "label": "d",
+                  "text": "Power is shared among different levels of government, such as the national,"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nYou are a citizen of a country that has a democratic form of government. You\nwant to ensure that the system of power-sharing in your country is effective\nand that no one branch of government has absolute power.\nWhich of the following measures would best meet this goal?\na. All power is concentrated in the hands of the legislature only.\nb. Power is divided between the central government and the states or\nprovinces, with each level having its own sphere of influence.\nc. Power is separated among the legislative, executive, and judicial branches,\nwith each branch having its own responsibilities and powers.\nd. Power is shared among different levels of government, such as the national,\nregional, and local governments, with each level having some degree of\nautonomy.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify the painting from the options given below.\na. Frankfurt Parliament\nb. Reichstag\nc. Duma\nd. The House of Parliament\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 10\nQ. Which of the following does the symbol \u201ccrown of oak leaves \u201cstand for?\na. Freedom",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify the painting from the options given below.\na. Frankfurt Parliament\nb. Reichstag\nc. Duma\nd. The House of Parliament\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 10\nQ. Which of the following does the symbol \u201ccrown of oak leaves \u201cstand for?\na. Freedom\nb. Shows readiness to fight.\nc. Willingness to make peace.\nd. Heroism.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Frankfurt Parliament"
+                },
+                {
+                  "label": "b",
+                  "text": "Reichstag"
+                },
+                {
+                  "label": "c",
+                  "text": "Duma"
+                },
+                {
+                  "label": "d",
+                  "text": "The House of Parliament"
+                },
+                {
+                  "label": "a",
+                  "text": "Freedom"
+                },
+                {
+                  "label": "b",
+                  "text": "Shows readiness to fight."
+                },
+                {
+                  "label": "c",
+                  "text": "Willingness to make peace."
+                },
+                {
+                  "label": "d",
+                  "text": "Heroism."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nIdentify the painting from the options given below.\na. Frankfurt Parliament\nb. Reichstag\nc. Duma\nd. The House of Parliament\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 10\nQ. Which of the following does the symbol \u201ccrown of oak leaves \u201cstand for?\na. Freedom\nb. Shows readiness to fight.\nc. Willingness to make peace.\nd. Heroism.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Evaluate the impacts of opening foreign trade on the global economy by\nidentifying the appropriate statements among the following options:\nI. The choice of goods in the markets increase.\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nPage 5 of 12\nSample Question Paper Class-X 2023-24\nii. Producers fro",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Evaluate the impacts of opening foreign trade on the global economy by\nidentifying the appropriate statements among the following options:\nI. The choice of goods in the markets increase.\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nPage 5 of 12\nSample Question Paper Class-X 2023-24\nii. Producers from two countries closely compete against each other despite the\ndistance between their locations.\niii. Foreign trade thus results in connecting the markets or integration of markets\nin different countries.\niv. The quality of the product is always good.\nOptions:\na. Statements i and ii are appropriate.\nb. Statements i, ii and iii are appropriate.\nc. All the statements are appropriate.\nd. Only statement iv is appropriate.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statements i and ii are appropriate."
+                },
+                {
+                  "label": "b",
+                  "text": "Statements i, ii and iii are appropriate."
+                },
+                {
+                  "label": "c",
+                  "text": "All the statements are appropriate."
+                },
+                {
+                  "label": "d",
+                  "text": "Only statement iv is appropriate."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nEvaluate the impacts of opening foreign trade on the global economy by\nidentifying the appropriate statements among the following options:\nI. The choice of goods in the markets increase.\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nPage 5 of 12\nSample Question Paper Class-X 2023-24\nii. Producers from two countries closely compete against each other despite the\ndistance between their locations.\niii. Foreign trade thus results in connecting the markets or integration of markets\nin different countries.\niv. The quality of the product is always good.\nOptions:\na. Statements i and ii are appropriate.\nb. Statements i, ii and iii are appropriate.\nc. All the statements are appropriate.\nd. Only statement iv is appropriate.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Choose the correction option to complete the statement.\nIf a government provides its citizens a right and means to examine the\nprocess of decision, it is\n.\na. An accountable government.\nb. A responsible government.\nc. A transparent government.\nd. A stable government.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Choose the correction option to complete the statement.\nIf a government provides its citizens a right and means to examine the\nprocess of decision, it is\n.\na. An accountable government.\nb. A responsible government.\nc. A transparent government.\nd. A stable government.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "An accountable government."
+                },
+                {
+                  "label": "b",
+                  "text": "A responsible government."
+                },
+                {
+                  "label": "c",
+                  "text": "A transparent government."
+                },
+                {
+                  "label": "d",
+                  "text": "A stable government."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\nChoose the correction option to complete the statement.\nIf a government provides its citizens a right and means to examine the\nprocess of decision, it is\n.\na. An accountable government.\nb. A responsible government.\nc. A transparent government.\nd. A stable government.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Arrange the following statements in sequential order based on the events\nthat shaped the Non-cooperation movement.\ni. General Dyer opened fire at the large crowd gathered in the enclosed ground of\nJallianwala Bagh.\nii. \u201cForced recruitment\u201d carried out by the British government and the economic\nhards",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Arrange the following statements in sequential order based on the events\nthat shaped the Non-cooperation movement.\ni. General Dyer opened fire at the large crowd gathered in the enclosed ground of\nJallianwala Bagh.\nii. \u201cForced recruitment\u201d carried out by the British government and the economic\nhardships faced by the people during the first world war.\niii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat\nmovement.\niv. Gandhiji launched a nationwide satyagraha against the Rowlatt act.\nOptions:\na. iv, iii, ii, i\nb. ii, i, iv,iii\nc. i, iv, iii, ii\nd. i, ii, iii, iv\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "iv, iii, ii, i"
+                },
+                {
+                  "label": "b",
+                  "text": "ii, i, iv,iii"
+                },
+                {
+                  "label": "c",
+                  "text": "i, iv, iii, ii"
+                },
+                {
+                  "label": "d",
+                  "text": "i, ii, iii, iv"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\nArrange the following statements in sequential order based on the events\nthat shaped the Non-cooperation movement.\ni. General Dyer opened fire at the large crowd gathered in the enclosed ground of\nJallianwala Bagh.\nii. \u201cForced recruitment\u201d carried out by the British government and the economic\nhardships faced by the people during the first world war.\niii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat\nmovement.\niv. Gandhiji launched a nationwide satyagraha against the Rowlatt act.\nOptions:\na. iv, iii, ii, i\nb. ii, i, iv,iii\nc. i, iv, iii, ii\nd. i, ii, iii, iv\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "If there is a disruption by transporters and lorries refuse to transport\nvegetables, milk, etc. from rural areas to urban areas, food will become\nscarce in urban areas, whereas farmers will be unable to sell their products.\nWhich of the following sectors will be affected due to this situation stated",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "If there is a disruption by transporters and lorries refuse to transport\nvegetables, milk, etc. from rural areas to urban areas, food will become\nscarce in urban areas, whereas farmers will be unable to sell their products.\nWhich of the following sectors will be affected due to this situation stated\nabove?\na. Primary and Secondary\nb. Secondary and Tertiary\nc. Tertiary, Primary and Secondary\nd. Tertiary and Primary.\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nPage 6 of 12\nSample Question Paper Class-X 2023-24",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Primary and Secondary"
+                },
+                {
+                  "label": "b",
+                  "text": "Secondary and Tertiary"
+                },
+                {
+                  "label": "c",
+                  "text": "Tertiary, Primary and Secondary"
+                },
+                {
+                  "label": "d",
+                  "text": "Tertiary and Primary."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nIf there is a disruption by transporters and lorries refuse to transport\nvegetables, milk, etc. from rural areas to urban areas, food will become\nscarce in urban areas, whereas farmers will be unable to sell their products.\nWhich of the following sectors will be affected due to this situation stated\nabove?\na. Primary and Secondary\nb. Secondary and Tertiary\nc. Tertiary, Primary and Secondary\nd. Tertiary and Primary.\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nPage 6 of 12\nSample Question Paper Class-X 2023-24",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Consider the statements given below and choose the correct answer\nStatement I: Western printing techniques and mechanical press were imported in\nthe late 19th Century as western powers established their outposts in China.\nStatement II: Beijing became the hub of the new print culture, catering to wes",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Consider the statements given below and choose the correct answer\nStatement I: Western printing techniques and mechanical press were imported in\nthe late 19th Century as western powers established their outposts in China.\nStatement II: Beijing became the hub of the new print culture, catering to western-\nstyle schools.\na. Statement (i) is correct and (ii) is incorrect.\nb. Statement (i) is incorrect and (ii) is correct\nc. Both (i) & (ii) are incorrect\nd. Both (i) & (ii) are correct\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statement"
+                },
+                {
+                  "label": "b",
+                  "text": "Statement"
+                },
+                {
+                  "label": "c",
+                  "text": "Both"
+                },
+                {
+                  "label": "d",
+                  "text": "Both"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nConsider the statements given below and choose the correct answer\nStatement I: Western printing techniques and mechanical press were imported in\nthe late 19th Century as western powers established their outposts in China.\nStatement II: Beijing became the hub of the new print culture, catering to western-\nstyle schools.\na. Statement (i) is correct and (ii) is incorrect.\nb. Statement (i) is incorrect and (ii) is correct\nc. Both (i) & (ii) are incorrect\nd. Both (i) & (ii) are correct\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u201cM\u201d gave his friend clues about a type of soil that suits for growing cotton.\nWhich of the following clues provided by \"M\" would be most useful in\nidentifying the ideal type of soil?\nClues:\ni. It is well-known for its capacity to hold moisture.\nii. It turns yellow when it is hydrated.\niii. It is ric",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u201cM\u201d gave his friend clues about a type of soil that suits for growing cotton.\nWhich of the following clues provided by \"M\" would be most useful in\nidentifying the ideal type of soil?\nClues:\ni. It is well-known for its capacity to hold moisture.\nii. It turns yellow when it is hydrated.\niii. It is rich in kankur and bhangar nodules.\niv. It is a well-drained loamy soil.\na. Clue i\nb. Clue i and iii\nc. Clue i and ii\nd. Clue iv\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Clue i"
+                },
+                {
+                  "label": "b",
+                  "text": "Clue i and iii"
+                },
+                {
+                  "label": "c",
+                  "text": "Clue i and ii"
+                },
+                {
+                  "label": "d",
+                  "text": "Clue iv"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\n\u201cM\u201d gave his friend clues about a type of soil that suits for growing cotton.\nWhich of the following clues provided by \"M\" would be most useful in\nidentifying the ideal type of soil?\nClues:\ni. It is well-known for its capacity to hold moisture.\nii. It turns yellow when it is hydrated.\niii. It is rich in kankur and bhangar nodules.\niv. It is a well-drained loamy soil.\na. Clue i\nb. Clue i and iii\nc. Clue i and ii\nd. Clue iv\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Choose the right option to fill in the blank.\nThe emergence of\nis directly connected to the rise of political parties.\na. Monitory democracies\nb. Direct democracies\nc. Representative democracies\nd. Constitutional democracies\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Choose the right option to fill in the blank.\nThe emergence of\nis directly connected to the rise of political parties.\na. Monitory democracies\nb. Direct democracies\nc. Representative democracies\nd. Constitutional democracies\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Monitory democracies"
+                },
+                {
+                  "label": "b",
+                  "text": "Direct democracies"
+                },
+                {
+                  "label": "c",
+                  "text": "Representative democracies"
+                },
+                {
+                  "label": "d",
+                  "text": "Constitutional democracies"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\nChoose the right option to fill in the blank.\nThe emergence of\nis directly connected to the rise of political parties.\na. Monitory democracies\nb. Direct democracies\nc. Representative democracies\nd. Constitutional democracies\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The process of integration between different countries is called as________.\na. Privatization\nb. Globalization\nc. Liberalization\nd. Competition\n1\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nPage 7 of 12\nSample Question Paper Class-X 2023-24",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The process of integration between different countries is called as________.\na. Privatization\nb. Globalization\nc. Liberalization\nd. Competition\n1\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nPage 7 of 12\nSample Question Paper Class-X 2023-24",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Privatization"
+                },
+                {
+                  "label": "b",
+                  "text": "Globalization"
+                },
+                {
+                  "label": "c",
+                  "text": "Liberalization"
+                },
+                {
+                  "label": "d",
+                  "text": "Competition"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nThe process of integration between different countries is called as________.\na. Privatization\nb. Globalization\nc. Liberalization\nd. Competition\n1\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nPage 7 of 12\nSample Question Paper Class-X 2023-24",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following statements Is correct keeping the requirement of\nformation of government in view.\nStatement i: It is possible for independent candidates to form a government.\nStatement ii: Government formation is exclusively reserved for political parties.\nStatement iii: The formation of gove",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following statements Is correct keeping the requirement of\nformation of government in view.\nStatement i: It is possible for independent candidates to form a government.\nStatement ii: Government formation is exclusively reserved for political parties.\nStatement iii: The formation of government is limited to only elected political\nparties.\nStatement iv: Government can only be formed by political parties that are elected\nand hold a majority.\nOptions:\na. Statement i and ii are right.\nb. Statement i, ii and iii are right.\nc. Statement iii is right.\nd. Only statement iv is right.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Statement i and ii are right."
+                },
+                {
+                  "label": "b",
+                  "text": "Statement i, ii and iii are right."
+                },
+                {
+                  "label": "c",
+                  "text": "Statement iii is right."
+                },
+                {
+                  "label": "d",
+                  "text": "Only statement iv is right."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nWhich of the following statements Is correct keeping the requirement of\nformation of government in view.\nStatement i: It is possible for independent candidates to form a government.\nStatement ii: Government formation is exclusively reserved for political parties.\nStatement iii: The formation of government is limited to only elected political\nparties.\nStatement iv: Government can only be formed by political parties that are elected\nand hold a majority.\nOptions:\na. Statement i and ii are right.\nb. Statement i, ii and iii are right.\nc. Statement iii is right.\nd. Only statement iv is right.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "There are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): India is a country with a multi-party system set up.\nReason (R): The multi-party system often appears very messy and leads to\npolitical instability.\na. Both (A) and (R) a",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "There are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): India is a country with a multi-party system set up.\nReason (R): The multi-party system often appears very messy and leads to\npolitical instability.\na. Both (A) and (R) are true and (R) is the correct explanation of (A)\nb. Both (A) and (R) are true but (R) is not the correct explanation of (A)\nc. (A) is correct but (R) is wrong\nd. (A) is wrong but (R) is correct.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": India is a country with a multi-party system set up."
+                },
+                {
+                  "label": "a",
+                  "text": "Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "b. Both"
+                },
+                {
+                  "label": "a",
+                  "text": "and"
+                },
+                {
+                  "label": "a",
+                  "text": "c."
+                },
+                {
+                  "label": "a",
+                  "text": "is correct but"
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "is wrong but"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nThere are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): India is a country with a multi-party system set up.\nReason (R): The multi-party system often appears very messy and leads to\npolitical instability.\na. Both (A) and (R) are true and (R) is the correct explanation of (A)\nb. Both (A) and (R) are true but (R) is not the correct explanation of (A)\nc. (A) is correct but (R) is wrong\nd. (A) is wrong but (R) is correct.\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 10 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 10 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Q: Study the map thoroughly and answer the question given below.\nWhat can be inferred about the linguistic diversity and its potential impact\non social and political life in Belgium?\"\n2\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nPage 8 of 12\nSample Question Paper Class-X 2023-24\nFor Visually impaire",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Q: Study the map thoroughly and answer the question given below.\nWhat can be inferred about the linguistic diversity and its potential impact\non social and political life in Belgium?\"\n2\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nPage 8 of 12\nSample Question Paper Class-X 2023-24\nFor Visually impaired students in lieu of the above question.\nQ: Mention the languages that are dominantly present in Belgium;",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\nQ: Study the map thoroughly and answer the question given below.\nWhat can be inferred about the linguistic diversity and its potential impact\non social and political life in Belgium?\"\n2\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nPage 8 of 12\nSample Question Paper Class-X 2023-24\nFor Visually impaired students in lieu of the above question.\nQ: Mention the languages that are dominantly present in Belgium;",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A): \u201cThe most powerful weapon of the Spanish conqueror was not a\nconventional military weapon at all.\u201d Justify the above statement by giving\ntwo reasons.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A): \u201cThe most powerful weapon of the Spanish conqueror was not a\nconventional military weapon at all.\u201d Justify the above statement by giving\ntwo reasons.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ": \u201cThe most powerful weapon of the Spanish conqueror was not a"
+                },
+                {
+                  "label": "b",
+                  "text": ": \u201cTraders and travelers introduced new crops to lands they travelled."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B): \u201cTraders and travelers introduced new crops to lands they travelled.\n\u201cSubstantiate this statement with illustrations.\n2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\n(A): \u201cThe most powerful weapon of the Spanish conqueror was not a\nconventional military weapon at all.\u201d Justify the above statement by giving\ntwo reasons.\nOR\n(B): \u201cTraders and travelers introduced new crops to lands they travelled.\n\u201cSubstantiate this statement with illustrations.\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Mr. Palani is from Tamil N\u0101du, wishes to cultivate either Tea or Wheat. Which\none of the crops out of the two can he cultivate in his state? Substantiate\nyour answer with any two reasons.\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Mr. Palani is from Tamil N\u0101du, wishes to cultivate either Tea or Wheat. Which\none of the crops out of the two can he cultivate in his state? Substantiate\nyour answer with any two reasons.\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nMr. Palani is from Tamil N\u0101du, wishes to cultivate either Tea or Wheat. Which\none of the crops out of the two can he cultivate in his state? Substantiate\nyour answer with any two reasons.\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Mention any two reasons to state that India is a federal country.\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Mention any two reasons to state that India is a federal country.\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\nMention any two reasons to state that India is a federal country.\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Provide evidence to support the claim that print culture had a significant\nimpact on the social lives of women in India?\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Provide evidence to support the claim that print culture had a significant\nimpact on the social lives of women in India?\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\nProvide evidence to support the claim that print culture had a significant\nimpact on the social lives of women in India?\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A) ; A worker in an urban area, who was working in a small factory, was not\npaid his wages properly, he was forced to work extra hours under poor\nworking conditions, there was no job security, recently he lost his job and\nwas found selling electrical items in a pushcart.\nAnalyze the role of the gov",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A) ; A worker in an urban area, who was working in a small factory, was not\npaid his wages properly, he was forced to work extra hours under poor\nworking conditions, there was no job security, recently he lost his job and\nwas found selling electrical items in a pushcart.\nAnalyze the role of the government in protecting the workers working in an\nUnorganized sector.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "; A worker in an urban area, who was working in a small factory, was not"
+                },
+                {
+                  "label": "b",
+                  "text": ": Mr Pawan, a village head wanted to create more job opportunities to"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B) : Mr Pawan, a village head wanted to create more job opportunities to\nincrease the income of the people of his village under MNREGA act, Suggest\nany three activities, so that Mr Pawan could initiate in his village.\n3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\n(A) ; A worker in an urban area, who was working in a small factory, was not\npaid his wages properly, he was forced to work extra hours under poor\nworking conditions, there was no job security, recently he lost his job and\nwas found selling electrical items in a pushcart.\nAnalyze the role of the government in protecting the workers working in an\nUnorganized sector.\nOR\n(B) : Mr Pawan, a village head wanted to create more job opportunities to\nincrease the income of the people of his village under MNREGA act, Suggest\nany three activities, so that Mr Pawan could initiate in his village.\n3",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u201cAgriculture gives boost to the industrial sector\u2019. Justify the statement with\nany three relevant points.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u201cAgriculture gives boost to the industrial sector\u2019. Justify the statement with\nany three relevant points.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\n\u201cAgriculture gives boost to the industrial sector\u2019. Justify the statement with\nany three relevant points.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The Indian constitution provides three lists to distribute the legislative\npower. State any two subjects that are included in the union list. In which list\nthe subject \u201cEducation\u201d is included and why?\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The Indian constitution provides three lists to distribute the legislative\npower. State any two subjects that are included in the union list. In which list\nthe subject \u201cEducation\u201d is included and why?\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\nThe Indian constitution provides three lists to distribute the legislative\npower. State any two subjects that are included in the union list. In which list\nthe subject \u201cEducation\u201d is included and why?\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Compare Tables \u201cA\u201d & \u201cB\u201d and answer the question given below.\nTable- A\nShare of sectors in employment in %\nYear\nTertiary\nSecondary\nPrimary\nYear\n1977-78\n18\n11\n71\n1977-78\n2017-18\n31\n25\n44\n2017-18\nTable \u2013B\nShare of Sectors in GDP in %\nYear\nTertiary\nSecondary\nPrimary\n1973-74\n50\n10\n40\n2013-14\n68\n21\n11\nA ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Compare Tables \u201cA\u201d & \u201cB\u201d and answer the question given below.\nTable- A\nShare of sectors in employment in %\nYear\nTertiary\nSecondary\nPrimary\nYear\n1977-78\n18\n11\n71\n1977-78\n2017-18\n31\n25\n44\n2017-18\nTable \u2013B\nShare of Sectors in GDP in %\nYear\nTertiary\nSecondary\nPrimary\n1973-74\n50\n10\n40\n2013-14\n68\n21\n11\nA remarkable fact about India is that while there has been a change in the share\nof the three sectors in GDP, a similar shift has not taken place in employment. Why\ndidn\u2019t a similar shift out of primary sector happen in case of employment?\n3\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nPage 9 of 12\nSample Question Paper Class-X 2023-24\nSubstantiate your answer.\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No29\nQ. Tertiary sector activities help in the development of Primary and\nSecondary sectors. Substantiate your answer.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nCompare Tables \u201cA\u201d & \u201cB\u201d and answer the question given below.\nTable- A\nShare of sectors in employment in %\nYear\nTertiary\nSecondary\nPrimary\nYear\n1977-78\n18\n11\n71\n1977-78\n2017-18\n31\n25\n44\n2017-18\nTable \u2013B\nShare of Sectors in GDP in %\nYear\nTertiary\nSecondary\nPrimary\n1973-74\n50\n10\n40\n2013-14\n68\n21\n11\nA remarkable fact about India is that while there has been a change in the share\nof the three sectors in GDP, a similar shift has not taken place in employment. Why\ndidn\u2019t a similar shift out of primary sector happen in case of employment?\n3\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nPage 9 of 12\nSample Question Paper Class-X 2023-24\nSubstantiate your answer.\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No29\nQ. Tertiary sector activities help in the development of Primary and\nSecondary sectors. Substantiate your answer.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A) : A farmer has borrowed money from a money lender at a high rate of\ninterest, as he could not pay the interest, he was forced to borrow from\nanother landlord to settle the amount for the interest borrowed to the money\nlender. State the consequences he may face in this situation.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A) : A farmer has borrowed money from a money lender at a high rate of\ninterest, as he could not pay the interest, he was forced to borrow from\nanother landlord to settle the amount for the interest borrowed to the money\nlender. State the consequences he may face in this situation.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ": A farmer has borrowed money from a money lender at a high rate of"
+                },
+                {
+                  "label": "b",
+                  "text": ": \u201cSelf \u2013help groups eliminates poverty and empowers women\u201d."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B) : \u201cSelf \u2013help groups eliminates poverty and empowers women\u201d.\nSubstantiate with suitable answer.\n5",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\n(A) : A farmer has borrowed money from a money lender at a high rate of\ninterest, as he could not pay the interest, he was forced to borrow from\nanother landlord to settle the amount for the interest borrowed to the money\nlender. State the consequences he may face in this situation.\nOR\n(B) : \u201cSelf \u2013help groups eliminates poverty and empowers women\u201d.\nSubstantiate with suitable answer.\n5",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Why did Gandhiji say that passive resistance is not the weapon of\nthe weak?",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Why did Gandhiji say that passive resistance is not the weapon of\nthe weak?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nWhy did Gandhiji say that passive resistance is not the weapon of\nthe weak?",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u201cSatyagraha is pure soul-force.\u201d Substantiate this statement in 20\nwords.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u201cSatyagraha is pure soul-force.\u201d Substantiate this statement in 20\nwords.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\n\u201cSatyagraha is pure soul-force.\u201d Substantiate this statement in 20\nwords.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "What according to Mahatma Gandhi is the best weapon to use to\ncollapse British rule in India?\n1\n1\n2\n35\nRead the source given below and answer the questions that follow:\nMaharashtra is a state located in western India, with a population of over 110 million\npeople. The state is home to several large c",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "What according to Mahatma Gandhi is the best weapon to use to\ncollapse British rule in India?\n1\n1\n2\n35\nRead the source given below and answer the questions that follow:\nMaharashtra is a state located in western India, with a population of over 110 million\npeople. The state is home to several large cities, including Mumbai, and has a\nsignificant agricultural sector. However, the state is facing a severe water crisis, with\nits water resources coming under increasing pressure due to climate change,\nindustrialization, and urbanization. The main challenges faced by water resource\nmanagement in Maharashtra are:\ni. Overexploitation of groundwater: Maharashtra is one of the most groundwater-\nstressed states in India, with the demand for water exceeding the supply.\nOverexploitation of groundwater for agriculture and urban use has led to a\ndecline in water levels, which has severe implications for the sustainability of\nwater resources.\nii. Pollution of surface water: Industrialization and urbanization have led to the\npollution of surface water bodies such as rivers and lakes. The pollution has\nled to water quality degradation, which poses risks to human health and the\nenvironment.\niii. Inefficient irrigation practices: The agricultural sector is the largest user of water\nin Maharashtra, accounting for around 80% of total water use. However,\ntraditional irrigation practices such as flood irrigation are inefficient and lead to\nthe wastage of water.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nWhat according to Mahatma Gandhi is the best weapon to use to\ncollapse British rule in India?\n1\n1\n2\n35\nRead the source given below and answer the questions that follow:\nMaharashtra is a state located in western India, with a population of over 110 million\npeople. The state is home to several large cities, including Mumbai, and has a\nsignificant agricultural sector. However, the state is facing a severe water crisis, with\nits water resources coming under increasing pressure due to climate change,\nindustrialization, and urbanization. The main challenges faced by water resource\nmanagement in Maharashtra are:\ni. Overexploitation of groundwater: Maharashtra is one of the most groundwater-\nstressed states in India, with the demand for water exceeding the supply.\nOverexploitation of groundwater for agriculture and urban use has led to a\ndecline in water levels, which has severe implications for the sustainability of\nwater resources.\nii. Pollution of surface water: Industrialization and urbanization have led to the\npollution of surface water bodies such as rivers and lakes. The pollution has\nled to water quality degradation, which poses risks to human health and the\nenvironment.\niii. Inefficient irrigation practices: The agricultural sector is the largest user of water\nin Maharashtra, accounting for around 80% of total water use. However,\ntraditional irrigation practices such as flood irrigation are inefficient and lead to\nthe wastage of water.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Mention any one reasons for the water crisis faced by the state\nof Maharashtra.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Mention any one reasons for the water crisis faced by the state\nof Maharashtra.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nMention any one reasons for the water crisis faced by the state\nof Maharashtra.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Propose any one solution to mitigate the water crisis faced by\nMaharashtra state.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Propose any one solution to mitigate the water crisis faced by\nMaharashtra state.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nPropose any one solution to mitigate the water crisis faced by\nMaharashtra state.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Despite being the second highest rainfall-receiving state of the country,\nMaharashtra still faces water crisis. Substantiate this statement in 40\nwords.\n1\n1\n2\n36\nRead the source given below and answer the questions that follow:\nFor comparing countries, their income is considered to be one of the mos",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Despite being the second highest rainfall-receiving state of the country,\nMaharashtra still faces water crisis. Substantiate this statement in 40\nwords.\n1\n1\n2\n36\nRead the source given below and answer the questions that follow:\nFor comparing countries, their income is considered to be one of the most important\nattributes. Countries with higher income are more developed than others with less\nincome. This is based on the understanding that more income means more of all\nthings that human beings need. Whatever people like, and should have, they will\nbe able to get with greater income. So, greater income itself is considered to be\none important goal. Now, what is the income of a country? Intuitively, the income\nof the country is the income of all the residents of the country. This gives us the\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nPage 11 of 12\nSample Question Paper Class-X 2023-24\ntotal income of the country. However, for comparison between countries, total\nincome is not such a useful measure. Since, countries have different populations,\ncomparing total income will not tell us what an average person is likely to earn.\nAre people in one country better off than others in a different country? Hence, we\ncompare the average income which is the total income of the country divided by\nits total population. The average income is also called per capita income. In World\nDevelopment Reports, brought out by the World Bank, this criterion is used in\nclassifying countries. Countries with per capita income of US$ 49,300 per annum\nand above in 2019, are called high income or rich countries and those with per capita\nincome of US$ 2500 or less are called low-income countries. The rich countries,\nexcluding countries of Middle East and certain other small countries are generally\ncalled developed countries.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nDespite being the second highest rainfall-receiving state of the country,\nMaharashtra still faces water crisis. Substantiate this statement in 40\nwords.\n1\n1\n2\n36\nRead the source given below and answer the questions that follow:\nFor comparing countries, their income is considered to be one of the most important\nattributes. Countries with higher income are more developed than others with less\nincome. This is based on the understanding that more income means more of all\nthings that human beings need. Whatever people like, and should have, they will\nbe able to get with greater income. So, greater income itself is considered to be\none important goal. Now, what is the income of a country? Intuitively, the income\nof the country is the income of all the residents of the country. This gives us the\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nPage 11 of 12\nSample Question Paper Class-X 2023-24\ntotal income of the country. However, for comparison between countries, total\nincome is not such a useful measure. Since, countries have different populations,\ncomparing total income will not tell us what an average person is likely to earn.\nAre people in one country better off than others in a different country? Hence, we\ncompare the average income which is the total income of the country divided by\nits total population. The average income is also called per capita income. In World\nDevelopment Reports, brought out by the World Bank, this criterion is used in\nclassifying countries. Countries with per capita income of US$ 49,300 per annum\nand above in 2019, are called high income or rich countries and those with per capita\nincome of US$ 2500 or less are called low-income countries. The rich countries,\nexcluding countries of Middle East and certain other small countries are generally\ncalled developed countries.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Explain the significance of per capita Income.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Explain the significance of per capita Income.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nExplain the significance of per capita Income.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "What are the classifications of countries based on per capita income, and\nwhich entity is responsible for determining these classifications?\"\n2\n2\nSECTION F\nMAP SKILL-BASED QUESTION (2+3=5)\n37\na.\nTwo places A and B have been marked on the given outline map of India.\nIdentify them and write their corr",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "What are the classifications of countries based on per capita income, and\nwhich entity is responsible for determining these classifications?\"\n2\n2\nSECTION F\nMAP SKILL-BASED QUESTION (2+3=5)\n37\na.\nTwo places A and B have been marked on the given outline map of India.\nIdentify them and write their correct names on the lines drawn near them.\ni. Indian National congress session at this place in 1920.\nii. The place where Mahatma Gandhi broke the salt law.\n2\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->\nPage 12 of 12\nSample Question Paper Class-X 2023-24\n37\nb.\nOn the same outline map of India locate and label any 3 of the following\nwith suitable symbols.\ni. A Coal mine in Tamil N\u0101du\nii. A dam built on river Chenab in India.\niii. A largest natural major seaport located at Andhra Pradesh\niv. Noida software technology park\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 37 a & b.\n37 a. i. Name the place where the Indian National Congress session was held in\nSeptember 1920.\nii. Name the place where Mahatma Gandhi Broke the salt law.\nAnswer any 3 of the following.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Two places A and B have been marked on the given outline map of India."
+                },
+                {
+                  "label": "b",
+                  "text": "On the same outline map of India locate and label any 3 of the following"
+                },
+                {
+                  "label": "b",
+                  "text": "37 a. i. Name the place where the Indian National Congress session was held in"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nWhat are the classifications of countries based on per capita income, and\nwhich entity is responsible for determining these classifications?\"\n2\n2\nSECTION F\nMAP SKILL-BASED QUESTION (2+3=5)\n37\na.\nTwo places A and B have been marked on the given outline map of India.\nIdentify them and write their correct names on the lines drawn near them.\ni. Indian National congress session at this place in 1920.\nii. The place where Mahatma Gandhi broke the salt law.\n2\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->\nPage 12 of 12\nSample Question Paper Class-X 2023-24\n37\nb.\nOn the same outline map of India locate and label any 3 of the following\nwith suitable symbols.\ni. A Coal mine in Tamil N\u0101du\nii. A dam built on river Chenab in India.\niii. A largest natural major seaport located at Andhra Pradesh\niv. Noida software technology park\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 37 a & b.\n37 a. i. Name the place where the Indian National Congress session was held in\nSeptember 1920.\nii. Name the place where Mahatma Gandhi Broke the salt law.\nAnswer any 3 of the following.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q37",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "b. i. Name the coal mine located at Tamil N\u0101du\nii. Name the dam built on the river Chenab.\niii. Name the largest natural seaport located at Andhra Pradesh.\niv. Mention the state where Noida software technology park is located.\n3\n2\n3\n<!-- PAGE 12 END -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "b. i. Name the coal mine located at Tamil N\u0101du\nii. Name the dam built on the river Chenab.\niii. Name the largest natural seaport located at Andhra Pradesh.\niv. Mention the state where Noida software technology park is located.\n3\n2\n3\n<!-- PAGE 12 END -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 37.\nb. i. Name the coal mine located at Tamil N\u0101du\nii. Name the dam built on the river Chenab.\niii. Name the largest natural seaport located at Andhra Pradesh.\niv. Mention the state where Noida software technology park is located.\n3\n2\n3\n<!-- PAGE 12 END -->",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

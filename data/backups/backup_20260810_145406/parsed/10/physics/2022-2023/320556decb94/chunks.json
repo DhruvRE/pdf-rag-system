@@ -1,0 +1,1154 @@
+{
+  "paper_id": "320556decb94",
+  "class": "10",
+  "subject": "physics",
+  "year": "2022-2023",
+  "total_chunks": 38,
+  "chunks": [
+    {
+      "chunk_id": "320556decb94_q1",
+      "paper_id": "320556decb94",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "The change in colour of the moist litmus paper in the given set up is due to\ni. presence of acid\nii. presence of base\niii. presence of H\u207a(aq) in the  solution\niv. presence of Litmus which acts as an indicator\n(a) i and ii\n(b) Only ii\n(c) Only iii",
+      "raw_text": "The change in colour of the moist litmus paper in the given set up is due to\ni. presence of acid\nii. presence of base\niii. presence of H\u207a(aq) in the  solution\niv. presence of Litmus which acts as an indicator\n(a) i and ii\n(b) Only ii\n(c) Only iii",
+      "options": [
+        "(a) i and ii",
+        "(b) Only ii",
+        "(c) Only iii",
+        "(d) Only iv."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q1_1.png"
+      ],
+      "bounding_box": [
+        84.5,
+        368.33,
+        448.39,
+        645.56
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q2",
+      "paper_id": "320556decb94",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "In the redox reaction\nMnO2 + 4HCl \u2192 MnCl2 + 2H2O + Cl2\n(a) MnO2 is reduced to MnCl2& HCl is oxidized to H2O\n(b) MnO2 is reduced to MnCl2& HCl is oxidized to Cl2\n(c) MnO2 is oxidized to MnCl2 & HCl is reduced to Cl2",
+      "raw_text": "In the redox reaction\nMnO2 + 4HCl \u2192 MnCl2 + 2H2O + Cl2\n(a) MnO2 is reduced to MnCl2& HCl is oxidized to H2O\n(b) MnO2 is reduced to MnCl2& HCl is oxidized to Cl2\n(c) MnO2 is oxidized to MnCl2 & HCl is reduced to Cl2",
+      "options": [
+        "(a) MnO2 is reduced to MnCl2& HCl is oxidized to H2O",
+        "(b) MnO2 is reduced to MnCl2& HCl is oxidized to Cl2",
+        "(c) MnO2 is oxidized to MnCl2 & HCl is reduced to Cl2",
+        "(d) MnO2 is oxidized to MnCl2 & HCl is reduced to H2O"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q2_1.png"
+      ],
+      "bounding_box": [
+        84.5,
+        651.34,
+        382.63,
+        713.1
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q3",
+      "paper_id": "320556decb94",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "Which of the following is the correct observation of the reaction shown in the above set\nup?\n(a) Brown powder of Magnesium oxide is formed.\n(b) Colourless gas which turns lime water milky is evolved.\n(c) Magnesium ribbon burns with brilliant white light.",
+      "raw_text": "Which of the following is the correct observation of the reaction shown in the above set\nup?\n(a) Brown powder of Magnesium oxide is formed.\n(b) Colourless gas which turns lime water milky is evolved.\n(c) Magnesium ribbon burns with brilliant white light.",
+      "options": [
+        "(a) Brown powder of Magnesium oxide is formed.",
+        "(b) Colourless gas which turns lime water milky is evolved.",
+        "(c) Magnesium ribbon burns with brilliant white light.",
+        "(d) Reddish brown gas with a smell of burning Sulphur has evolved."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.5,
+        94.34,
+        501.85,
+        292.59
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q4",
+      "paper_id": "320556decb94",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "With the reference to four gases CO2,CO, Cl2 and O2, which one of the options in the\ntable is correct?\nOption\nAcidic\noxide\nUsed in\ntreatment of\nwater\nProduct of\nrespiration\nProduct of\nincomplete\ncombustion\n\n\nOptions:\n(a) CO Cl2 O2 CO\n(b) CO2 Cl2 CO2 CO\n(c) CO2 O2 O2 CO2\n(d) CO O2 CO2 CO2",
+      "raw_text": "With the reference to four gases CO2,CO, Cl2 and O2, which one of the options in the\ntable is correct?\nOption\nAcidic\noxide\nUsed in\ntreatment of\nwater\nProduct of\nrespiration\nProduct of\nincomplete\ncombustion",
+      "options": [
+        "(a) CO Cl2 O2 CO",
+        "(b) CO2 Cl2 CO2 CO",
+        "(c) CO2 O2 O2 CO2",
+        "(d) CO O2 CO2 CO2"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.5,
+        304.49,
+        489.63,
+        440.53
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q5",
+      "paper_id": "320556decb94",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "On placing a copper coin in a test tube containing green ferrous sulphate solution, it will\nbe observed that the ferrous sulphate solution\n(a) turns blue, and a grey substance is deposited on the copper coin.\n(b) turns colourless and a grey substance is deposited on the copper coin.\n(c) turns colourless and a reddish\u2013brown substance is deposited on the copper coin.",
+      "raw_text": "On placing a copper coin in a test tube containing green ferrous sulphate solution, it will\nbe observed that the ferrous sulphate solution\n(a) turns blue, and a grey substance is deposited on the copper coin.\n(b) turns colourless and a grey substance is deposited on the copper coin.\n(c) turns colourless and a reddish\u2013brown substance is deposited on the copper coin.",
+      "options": [
+        "(a) turns blue, and a grey substance is deposited on the copper coin.",
+        "(b) turns colourless and a grey substance is deposited on the copper coin.",
+        "(c) turns colourless and a reddish\u2013brown substance is deposited on the copper coin.",
+        "(d) remains green with no change in the copper coin."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.5,
+        455.83,
+        508.54,
+        540.77
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q6",
+      "paper_id": "320556decb94",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "Anita added a drop each of diluted acetic acid and diluted hydrochloric acid on pH paper\nand compared the colors. Which of the following is the correct conclusion?\n(a) pH of acetic acid is more than that of hydrochloric acid.\n(b) pH of acetic acid is less than that of hydrochloric acid.\n(c) Acetic acid dissociates completely in aqueous solution.",
+      "raw_text": "Anita added a drop each of diluted acetic acid and diluted hydrochloric acid on pH paper\nand compared the colors. Which of the following is the correct conclusion?\n(a) pH of acetic acid is more than that of hydrochloric acid.\n(b) pH of acetic acid is less than that of hydrochloric acid.\n(c) Acetic acid dissociates completely in aqueous solution.",
+      "options": [
+        "(a) pH of acetic acid is more than that of hydrochloric acid.",
+        "(b) pH of acetic acid is less than that of hydrochloric acid.",
+        "(c) Acetic acid dissociates completely in aqueous solution.",
+        "(d) Acetic acid is a strong acid"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.5,
+        546.58,
+        506.74,
+        622.04
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q7",
+      "paper_id": "320556decb94",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "The formulae of four organic compounds are shown below. Choose the correct option\n(a) A and B are unsaturated hydrocarbons\n(b) C and D are saturated hydrocarbons\n(c) Addition of hydrogen in presence of catalyst changes A to C",
+      "raw_text": "The formulae of four organic compounds are shown below. Choose the correct option\n(a) A and B are unsaturated hydrocarbons\n(b) C and D are saturated hydrocarbons\n(c) Addition of hydrogen in presence of catalyst changes A to C",
+      "options": [
+        "(a) A and B are unsaturated hydrocarbons",
+        "(b) C and D are saturated hydrocarbons",
+        "(c) Addition of hydrogen in presence of catalyst changes A to C",
+        "(d) Addition of potassium permanganate changes B to D"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q7_1.png"
+      ],
+      "bounding_box": [
+        84.5,
+        623.02,
+        496.9,
+        641.24
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q8",
+      "paper_id": "320556decb94",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "In the given transverse section of the leaf identify the layer of cells where maximum\nphotosynthesis occurs.\n(a)  I, II\n(b) II, III\n(c) III, IV",
+      "raw_text": "In the given transverse section of the leaf identify the layer of cells where maximum\nphotosynthesis occurs.\n(a)  I, II\n(b) II, III\n(c) III, IV",
+      "options": [
+        "(a) I, II",
+        "(b) II, III",
+        "(c) III, IV",
+        "(d) I, IV"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.5,
+        134.06,
+        486.77,
+        365.31
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q9",
+      "paper_id": "320556decb94",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Observe the experimental setup shown below. Name the chemical indicated as \u2018X\u2019 that\ncan absorb the gas which is evolved as a byproduct of respiration.\n(a)  NaOH\n(b)  KOH\n(c)  Ca (OH)2\n\n\nOptions:\n(a) NaOH\n(b) KOH\n(c) Ca (OH)2\n(d) K2CO3",
+      "raw_text": "Observe the experimental setup shown below. Name the chemical indicated as \u2018X\u2019 that\ncan absorb the gas which is evolved as a byproduct of respiration.\n(a)  NaOH\n(b)  KOH\n(c)  Ca (OH)2",
+      "options": [
+        "(a) NaOH",
+        "(b) KOH",
+        "(c) Ca (OH)2",
+        "(d) K2CO3"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q9_1.png",
+        "images/q9_2.png"
+      ],
+      "bounding_box": [
+        84.5,
+        378.29,
+        498.76,
+        589.72
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q10",
+      "paper_id": "320556decb94",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "If a tall pea plant is crossed with a pure dwarf pea plant then, what percentage of F1 and\nF2 generation respectively will be tall?\n(a) 25%, 25%\n(b) 50%, 50%\n(c) 75%,100%",
+      "raw_text": "If a tall pea plant is crossed with a pure dwarf pea plant then, what percentage of F1 and\nF2 generation respectively will be tall?\n(a) 25%, 25%\n(b) 50%, 50%\n(c) 75%,100%",
+      "options": [
+        "(a) 25%, 25%",
+        "(b) 50%, 50%",
+        "(c) 75%,100%",
+        "(d) 100%, 75%"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        81.74,
+        602.02,
+        503.66,
+        677.48
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q11",
+      "paper_id": "320556decb94",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Observe the three figures given below. Which of the following depicts tropic movements\nappropriately?\n(a) B and C\n(b) A and C\n(c) B only",
+      "raw_text": "Observe the three figures given below. Which of the following depicts tropic movements\nappropriately?\n(a) B and C\n(b) A and C\n(c) B only",
+      "options": [
+        "(a) B and C",
+        "(b) A and C",
+        "(c) B only",
+        "(d) C only"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q11_1.png"
+      ],
+      "bounding_box": [
+        81.74,
+        689.38,
+        508.07,
+        714.22
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q12",
+      "paper_id": "320556decb94",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "The diagram shown below depicts pollination. Choose the options that will show a\nmaximum variation in the offspring.\n(a) A, B and C\n(b) B and D\n(c) B, C and D",
+      "raw_text": "The diagram shown below depicts pollination. Choose the options that will show a\nmaximum variation in the offspring.\n(a) A, B and C\n(b) B and D\n(c) B, C and D",
+      "options": [
+        "(a) A, B and C",
+        "(b) B and D",
+        "(c) B, C and D",
+        "(d) A and C"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q12_1.png",
+        "images/q12_2.png"
+      ],
+      "bounding_box": [
+        81.74,
+        225.17,
+        480.11,
+        447.77
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q13",
+      "paper_id": "320556decb94",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "A complete circuit is left on for several minutes, causing the connecting copper wire to\nbecome hot. As the temperature of the wire increases, the electrical resistance of the wire\n(a) decreases.\n(b) remains the same.\n(c) increases.",
+      "raw_text": "A complete circuit is left on for several minutes, causing the connecting copper wire to\nbecome hot. As the temperature of the wire increases, the electrical resistance of the wire\n(a) decreases.\n(b) remains the same.\n(c) increases.",
+      "options": [
+        "(a) decreases.",
+        "(b) remains the same.",
+        "(c) increases.",
+        "(d) increases for some time and then decreases ."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        81.74,
+        462.67,
+        508.42,
+        549.8
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q14",
+      "paper_id": "320556decb94",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "A copper wire is held between the poles of a magnet.\nThe current in the wire can be reversed. The pole of the magnet can also be changed\nover. In how many of the four directions shown can the force act on the wire?",
+      "raw_text": "A copper wire is held between the poles of a magnet.\nThe current in the wire can be reversed. The pole of the magnet can also be changed\nover. In how many of the four directions shown can the force act on the wire?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 1",
+        "(b) 2",
+        "(c) 3",
+        "(d) 4"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        81.74,
+        564.7,
+        349.87,
+        576.92
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q15",
+      "paper_id": "320556decb94",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 5,
+      "content": "Plastic insulation surrounds a wire having diameter d and length l as shown above. A\ndecrease in the resistance of the wire would be produced by an increase in the\n(a) length l of the wire\n(b) diameter d of the wire\n(c) temperature of the wire",
+      "raw_text": "Plastic insulation surrounds a wire having diameter d and length l as shown above. A\ndecrease in the resistance of the wire would be produced by an increase in the\n(a) length l of the wire\n(b) diameter d of the wire\n(c) temperature of the wire",
+      "options": [
+        "(a) length l of the wire",
+        "(b) diameter d of the wire",
+        "(c) temperature of the wire",
+        "(d) thickness of the plastic insulation"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q15_1.png"
+      ],
+      "bounding_box": [
+        81.74,
+        151.46,
+        490.38,
+        346.83
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q16",
+      "paper_id": "320556decb94",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 5,
+      "content": "Which of the following pattern correctly describes the magnetic field around a long\nstraight wire carrying current?\n(a) straight lines perpendicular to the wire.\n(b) straight lines parallel to the wire.\n(c) radial lines originating from the wire.\n(d) concentric circles centred around the wire.\nQ. no 17 to 20 are Assertion - Reasoning based questions.\nThese consist of two statements \u2013 Assertion (A) and Reason (R). Answer these questions selecting the\nappropriate option given below:\n(a) Both A and R are true and R is the correct explanation of A\n(b) Both A and R are true and R is not the correct explanation of A\n(c)  A is true but R is false\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Which of the following pattern correctly describes the magnetic field around a long\nstraight wire carrying current?\n(a) straight lines perpendicular to the wire.\n(b) straight lines parallel to the wire.\n(c) radial lines originating from the wire.\n(d) concentric circles centred around the wire.\nQ. no 17 to 20 are Assertion - Reasoning based questions.\nThese consist of two statements \u2013 Assertion (A) and Reason (R). Answer these questions selecting the\nappropriate option given below:\n(a) Both A and R are true and R is the correct explanation of A\n(b) Both A and R are true and R is not the correct explanation of A\n(c)  A is true but R is false",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.02,
+        352.73,
+        550.91,
+        528.17
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q17",
+      "paper_id": "320556decb94",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 5,
+      "content": "Assertion: Silver bromide decomposition is used in black and white photography.\nReason: Light provides energy for this exothermic reaction.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Silver bromide decomposition is used in black and white photography.\nReason: Light provides energy for this exothermic reaction.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        550.54,
+        529.78,
+        578.36
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q18",
+      "paper_id": "320556decb94",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 5,
+      "content": "Assertion: Height in pea plants is controlled by efficiency of enzymes and is thus\ngenetically controlle\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Height in pea plants is controlled by efficiency of enzymes and is thus\ngenetically controlle",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        582.34,
+        529.78,
+        625.88
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q19",
+      "paper_id": "320556decb94",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 5,
+      "content": "Assertion: Amphibians can tolerate mixing of oxygenated and deoxygenated bloo\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Amphibians can tolerate mixing of oxygenated and deoxygenated bloo",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        630.82,
+        529.78,
+        658.64
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q20",
+      "paper_id": "320556decb94",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 5,
+      "content": "Assertion: On freely suspending a current \u2013 carrying solenoid, it comes to rest in\nGeographical N-S direction.\nReason : One end of current carrying straight solenoid behaves as a North pole and\nthe other end as a South pole, just like a bar magnet.\nSECTION \u2013 B\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: On freely suspending a current \u2013 carrying solenoid, it comes to rest in\nGeographical N-S direction.\nReason : One end of current carrying straight solenoid behaves as a North pole and\nthe other end as a South pole, just like a bar magnet.\nSECTION \u2013 B",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        662.62,
+        529.78,
+        715.78
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "320556decb94_q21",
+      "paper_id": "320556decb94",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 6,
+      "content": "A clear solution of slaked lime is made by dissolving Ca(OH)2in an excess of water.\nThis solution is left exposed to air. The solution slowly goes milky as a faint white\nprecipitate forms. Explain why a faint white precipitate forms, support your\nresponse with the help of a chemical equation.",
+      "raw_text": "A clear solution of slaked lime is made by dissolving Ca(OH)2in an excess of water.\nThis solution is left exposed to air. The solution slowly goes milky as a faint white\nprecipitate forms. Explain why a faint white precipitate forms, support your\nresponse with the help of a chemical equation.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Keerti added dilute Hydrochloric acid to four metals and recorded her observations\nas shown in the table given below:\nMetal\nGas Evolved\nCopper\nYes\nIron\nYes\nMagnesium\nNo\nZinc\nYes\nSelect the correct observation(s) and give chemical equation(s) of the reaction\ninvolved."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        80.42,
+        529.78,
+        366.99
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q22",
+      "paper_id": "320556decb94",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 6,
+      "content": "How is the mode of action in beating of the heart different from reflex actions?\nGive four examples.",
+      "raw_text": "How is the mode of action in beating of the heart different from reflex actions?\nGive four examples.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        373.97,
+        529.78,
+        404.81
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "320556decb94_q23",
+      "paper_id": "320556decb94",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 6,
+      "content": "Patients whose gallbladder are removed are recommended to eat less oily food.\nWhy?",
+      "raw_text": "Patients whose gallbladder are removed are recommended to eat less oily food.\nWhy?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        411.79,
+        529.78,
+        442.61
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "320556decb94_q24",
+      "paper_id": "320556decb94",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 6,
+      "content": "Name the substances other than water, that are reabsorbed during urine formation.\nWhat are the two parameters that decide the amount of water that is reabsorbed in\nthe kidney?",
+      "raw_text": "Name the substances other than water, that are reabsorbed during urine formation.\nWhat are the two parameters that decide the amount of water that is reabsorbed in\nthe kidney?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        449.59,
+        529.78,
+        493.01
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "320556decb94_q25",
+      "paper_id": "320556decb94",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 6,
+      "content": "State the phenomena observed in the above diagram. Explain with reference to the\ndiagram, which of the two lights mentioned above will have the higher wavelength?",
+      "raw_text": "State the phenomena observed in the above diagram. Explain with reference to the\ndiagram, which of the two lights mentioned above will have the higher wavelength?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "How will you use two identical prisms so that a narrow beam of white lightincident\non one prism emerges out of the second prism as white light? Draw the diagram."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q25_1.png"
+      ],
+      "bounding_box": [
+        84.02,
+        499.99,
+        529.78,
+        702.08
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q26",
+      "paper_id": "320556decb94",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION A",
+      "page_num": 7,
+      "content": "A lot of waste is generated in neighborhood. However, almost all of it is\nbiodegradable. What impact will it have on the environment or human health?",
+      "raw_text": "A lot of waste is generated in neighborhood. However, almost all of it is\nbiodegradable. What impact will it have on the environment or human health?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q26_1.png",
+        "images/q26_2.png"
+      ],
+      "bounding_box": [
+        84.02,
+        54.6,
+        529.78,
+        79.54
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "320556decb94_q28",
+      "paper_id": "320556decb94",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "(a) Identify the gasses evolved at the anode and cathode in the above\nexperimental set up.\n(b) Name the process that occurs.  Why is it called so?\n(c) Illustrate the reaction of the process with the help of a chemical equation.",
+      "raw_text": "(a) Identify the gasses evolved at the anode and cathode in the above\nexperimental set up.\n(b) Name the process that occurs.  Why is it called so?\n(c) Illustrate the reaction of the process with the help of a chemical equation.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Identify the gasses evolved at the anode and cathode in the above\nexperimental set up.",
+        "(b) Name the process that occurs.  Why is it called so?",
+        "(c) Illustrate the reaction of the process with the help of a chemical equation."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q28_1.png"
+      ],
+      "bounding_box": [
+        84.02,
+        265.49,
+        529.78,
+        460.49
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q29",
+      "paper_id": "320556decb94",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "The leaves of a plant were covered with aluminium foil, how would it affect the\nphysiology of the plant?",
+      "raw_text": "The leaves of a plant were covered with aluminium foil, how would it affect the\nphysiology of the plant?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "How is lymph an important fluid involved in transportation?  If lymphatic vessels\nget blocked, how would it affect the human body? Elaborate."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        463.39,
+        529.78,
+        532.13
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q30",
+      "paper_id": "320556decb94",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "Rohit wants to have an erect image of an object using a converging mirror of focal\nlength 40 cm.",
+      "raw_text": "Rohit wants to have an erect image of an object using a converging mirror of focal\nlength 40 cm.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Specify the range of distance where the object can be placed in front of the\nmirror. Justify.",
+        "(b) Draw a ray diagram to show image formation in this case.",
+        "(c) State one use of the mirror based on the above kind of image formation."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        539.14,
+        529.78,
+        626.36
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q31",
+      "paper_id": "320556decb94",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "(a) A lens of focal length 5 cm is being used by Debashree in the laboratory as a\nmagnifying glass. Her least distance of distinct vision is 25 cm.\n(i) What is the magnification obtained by using the glass?\n(ii) She keeps a book at a distance 10 cm from her eyes and tries to read. She is\nunable to read. What is the reason for this?\n(b) Ravi kept a book at a distance of 10 cm from the eyes of his friend Hari. Hari is\nnot able to read anything written in the book. Give reasons for this?",
+      "raw_text": "(a) A lens of focal length 5 cm is being used by Debashree in the laboratory as a\nmagnifying glass. Her least distance of distinct vision is 25 cm.\n(i) What is the magnification obtained by using the glass?\n(ii) She keeps a book at a distance 10 cm from her eyes and tries to read. She is\nunable to read. What is the reason for this?\n(b) Ravi kept a book at a distance of 10 cm from the eyes of his friend Hari. Hari is\nnot able to read anything written in the book. Give reasons for this?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) A lens of focal length 5 cm is being used by Debashree in the laboratory as a\nmagnifying glass. Her least distance of distinct vision is 25 cm.",
+        "(i) What is the magnification obtained by using the glass?",
+        "(ii) She keeps a book at a distance 10 cm from her eyes and tries to read. She is\nunable to read. What is the reason for this?",
+        "(b) Ravi kept a book at a distance of 10 cm from the eyes of his friend Hari. Hari is\nnot able to read anything written in the book. Give reasons for this?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        635.14,
+        529.78,
+        711.58
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q32",
+      "paper_id": "320556decb94",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION C",
+      "page_num": 8,
+      "content": "A student fixes a white sheet of paper on a drawing board. He places a bar magnet\nin the centre and sprinkles some iron filings uniformly around the bar magnet. Then\nhe taps gently and observes that iron filings arrange themselves in a certain pattern.",
+      "raw_text": "A student fixes a white sheet of paper on a drawing board. He places a bar magnet\nin the centre and sprinkles some iron filings uniformly around the bar magnet. Then\nhe taps gently and observes that iron filings arrange themselves in a certain pattern.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Why do iron filings arrange themselves in a particular pattern?",
+        "(b) Which physical quantity is indicated by the pattern of field lines around the\nbar magnet?",
+        "(c) State any two properties of magnetic field lines.",
+        "OR",
+        "A compass needle is placed near a current carrying wire. State your observations for\nthe following cases and give reasons for the same in each case-",
+        "(a)  Magnitude of electric current in wire is increased.",
+        "(b) The compass needle is displaced away from the wire."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        84.98,
+        529.78,
+        251.91
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q33",
+      "paper_id": "320556decb94",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION C",
+      "page_num": 8,
+      "content": "Why is damage to the ozone layer a cause for concern? What are its causes and\nwhat steps are being taken to limit this damage?",
+      "raw_text": "Why is damage to the ozone layer a cause for concern? What are its causes and\nwhat steps are being taken to limit this damage?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        260.69,
+        529.78,
+        291.63
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "320556decb94_q34",
+      "paper_id": "320556decb94",
+      "question_id": "q34",
+      "question_number": "Q34",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION D",
+      "page_num": 8,
+      "content": "Shristi heated Ethanol with a compound A in presence of a few drops of\nconcentrated sulphuric acid and observed a sweet smelling compound B is formed.\nWhen B is treated with sodium hydroxide it gives back Ethanol and a compound C.",
+      "raw_text": "Shristi heated Ethanol with a compound A in presence of a few drops of\nconcentrated sulphuric acid and observed a sweet smelling compound B is formed.\nWhen B is treated with sodium hydroxide it gives back Ethanol and a compound C.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a)  Identify A and C",
+        "(b)  Give one use each of compounds A and B.",
+        "(c)  Write the chemical reactions involved and name the reactions.",
+        "OR",
+        "(a) What is the role of concentrated Sulphuric acid when it is heated with\nEthanol at 443 K.  Give the reaction involved.",
+        "(b) Reshu by mistake forgot to label the two test tubes containing Ethanol and\nEthanoic acid.  Suggest an experiment to identify the substances correctly?\nIllustrate the reactions with the help of chemical equations"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        324.29,
+        529.78,
+        502.97
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q35",
+      "paper_id": "320556decb94",
+      "question_id": "q35",
+      "question_number": "Q35",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION D",
+      "page_num": 8,
+      "content": "(a) Why is it not possible to reconstruct the whole organism from a fragment in\ncomplex multicellular organisms?\n(b) Sexual maturation of reproductive tissues and organs are necessary link for\nreproduction. Elucidate.\nOR\n(a) How are variations useful for species if there is drastic alteration in the niches?\n(b) Explain how the uterus and placenta provide necessary conditions for proper\ngrowth and development of the embryo after implantation?",
+      "raw_text": "(a) Why is it not possible to reconstruct the whole organism from a fragment in\ncomplex multicellular organisms?\n(b) Sexual maturation of reproductive tissues and organs are necessary link for\nreproduction. Elucidate.\nOR\n(a) How are variations useful for species if there is drastic alteration in the niches?\n(b) Explain how the uterus and placenta provide necessary conditions for proper\ngrowth and development of the embryo after implantation?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Why is it not possible to reconstruct the whole organism from a fragment in\ncomplex multicellular organisms?",
+        "(b) Sexual maturation of reproductive tissues and organs are necessary link for\nreproduction. Elucidate.",
+        "OR",
+        "(a) How are variations useful for species if there is drastic alteration in the niches?",
+        "(b) Explain how the uterus and placenta provide necessary conditions for proper\ngrowth and development of the embryo after implantation?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q35_1.png"
+      ],
+      "bounding_box": [
+        84.02,
+        509.95,
+        529.78,
+        640.16
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q36",
+      "paper_id": "320556decb94",
+      "question_id": "q36",
+      "question_number": "Q36",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION D",
+      "page_num": 9,
+      "content": "The diagram above is a schematic diagram of a household circuit. The house shown\nin the above diagram has 5 usable spaces where electrical connections are made.\nFor this house, the mains have a voltage of 220 V and the net current coming from\nthe mains is 22A.",
+      "raw_text": "The diagram above is a schematic diagram of a household circuit. The house shown\nin the above diagram has 5 usable spaces where electrical connections are made.\nFor this house, the mains have a voltage of 220 V and the net current coming from\nthe mains is 22A.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) What is the mode of connection to all the spaces in the house from the\nmains?",
+        "(b) The spaces 5 and 4 have the same resistance and spaces 3 and 2 have\nrespective resistances of 20\u03a9 and 30\u03a9. Space 1 has a resistance double that\nof space 5. What is the net resistance for space 5.",
+        "(c) What is the current in space 3?",
+        "(d) What should be placed between the main connection and the rest of the\nhouse\u2019s electrical appliances to save them from accidental high electric\ncurrent?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        54.6,
+        529.78,
+        408.05
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q37",
+      "paper_id": "320556decb94",
+      "question_id": "q37",
+      "question_number": "Q37",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION E",
+      "page_num": 9,
+      "content": "Two students decided to investigate the effect of water and air on iron object under\nidentical experimental conditions. They measured the mass of each object before\nplacing it partially immersed in 10 ml of water. After a few days, the object were\nremoved, dried and their masses were measured. The table shows their results.\nStudent\nObject\nMass of Object before\nRusting in g\nMass of the coated\nobject   in g\nA\nNail\n3.0\n3.15\nB\nThin plate\n6.0\n6.33",
+      "raw_text": "Two students decided to investigate the effect of water and air on iron object under\nidentical experimental conditions. They measured the mass of each object before\nplacing it partially immersed in 10 ml of water. After a few days, the object were\nremoved, dried and their masses were measured. The table shows their results.\nStudent\nObject\nMass of Object before\nRusting in g\nMass of the coated\nobject   in g\nA\nNail\n3.0\n3.15\nB\nThin plate\n6.0\n6.33",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) What might be the reason for the varied observations of the two students?",
+        "(b) In another set up the students coated iron nails with zinc metal and noted that,\niron nails coated with zinc prevents rusting. They also observed that zinc\ninitially acts as a physical barrier, but an extra advantage of using zinc is that\nit continues to prevent rusting even if the layer of zinc is damaged. Name this\nprocess of rust prevention and give any two other methods to prevent rusting.",
+        "OR",
+        "(b) In which of the following applications of Iron, rusting will occur most?\nSupport your answer with valid reason.\nA -  Iron Bucket electroplated with Zinc\nB -  Electricity cables having iron wires covered with aluminium\nC - Iron hinges on a gate\nD - Painted iron fence"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        84.02,
+        455.35,
+        529.78,
+        707.74
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q38",
+      "paper_id": "320556decb94",
+      "question_id": "q38",
+      "question_number": "Q38",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION E",
+      "page_num": 10,
+      "content": "Pooja has green eyes while her parents and brother have black eyes. Pooja\u2019s\nhusband Ravi has black eyes while his mother has green eyes and father has black\neyes.",
+      "raw_text": "Pooja has green eyes while her parents and brother have black eyes. Pooja\u2019s\nhusband Ravi has black eyes while his mother has green eyes and father has black\neyes.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) On the basis of the above given information, is the green eye colour a\ndominant or recessive trait? Justify your answer.",
+        "(b) What is the possible genetic makeup of Pooja\u2019s brother\u2019s eye colour?",
+        "(c) What is the probability that the offspring of Pooja and Ravi will have green\neyes? Also, show the inheritance of eye colour in the offspring with the\nhelp of a suitable cross.",
+        "OR",
+        "(d) 50% of the offspring of Pooja\u2019s brother are green eyed. With help of cross\nshow how this is possible."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q38_1.png"
+      ],
+      "bounding_box": [
+        84.02,
+        235.61,
+        529.78,
+        406.25
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "320556decb94_q39",
+      "paper_id": "320556decb94",
+      "question_id": "q39",
+      "question_number": "Q39",
+      "class": "10",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTION E",
+      "page_num": 10,
+      "content": "The above images are that of a specialized slide projector. Slides are small\ntransparencies mounted in sturdy frames ideally suited to magnification and\nprojection, since they have a very high resolution and a high image quality. There is\na tray where the slides are to be put into a particular orientation so that the viewers\ncan see the enlarged erect images of the transparent slides. This means that the\nslides will have to be inserted upside down in the projector tray.\nTo show her students the images of insects that she investigated in the lab, Mrs. Iyer\nbrought a slide projector. Her slide projector produced a 500 times enlarged and\ninverted image of a slide on a screen 10 m away.",
+      "raw_text": "The above images are that of a specialized slide projector. Slides are small\ntransparencies mounted in sturdy frames ideally suited to magnification and\nprojection, since they have a very high resolution and a high image quality. There is\na tray where the slides are to be put into a particular orientation so that the viewers\ncan see the enlarged erect images of the transparent slides. This means that the\nslides will have to be inserted upside down in the projector tray.\nTo show her students the images of insects that she investigated in the lab, Mrs. Iyer\nbrought a slide projector. Her slide projector produced a 500 times enlarged and\ninverted image of a slide on a screen 10 m away.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Based on the text and data given in the above paragraph, what kind of lens\nmust the slide projector have?",
+        "(b) If v is the symbol used for image distance and u for object distance then\nwith one reason state what will be the sign for\n\ud835\udc63\n\ud835\udc62 in the given case?",
+        "(c) A slide projector has a convex lens with a focal length of 20 cm. The slide\nis placed upside down 21 cm from the lens. How far away should the screen\nbe placed from the slide projector\u2019s lens so that the slide is in focus?",
+        "OR",
+        "(c)When a slide is placed 15 cm behind the lens in the projector, an image is\nformed 3 m in front of the lens. If the focal length of the lens is 14 cm, draw\na ray diagram to show image formation. (not to scale)"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q39_1.png",
+        "images/q39_2.png"
+      ],
+      "bounding_box": [
+        84.02,
+        415.03,
+        529.78,
+        703.16
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

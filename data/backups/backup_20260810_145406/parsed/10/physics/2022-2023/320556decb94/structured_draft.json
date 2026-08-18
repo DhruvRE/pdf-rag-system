@@ -1,0 +1,242 @@
+{
+  "exam_metadata": {
+    "subject": "physics",
+    "class_level": "10",
+    "year": "2022-2023",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class10_science_2022_2023_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "0",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "0",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n0",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('0')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "15\nB\nThin plate",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "15\nB\nThin plate",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n15\nB\nThin plate",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('0')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "0",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "0",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\n0",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q6 has suspiciously short stem text ('0')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "33\n(a) What might be the reason for the varied observations of the two students?\n(b) In another set up the students coated iron nails with zinc metal and noted that,\niron nails coated with zinc prevents rusting. They also observed that zinc\ninitially acts as a physical barrier, but an extra advantag",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "33\n(a) What might be the reason for the varied observations of the two students?\n(b) In another set up the students coated iron nails with zinc metal and noted that,\niron nails coated with zinc prevents rusting. They also observed that zinc\ninitially acts as a physical barrier, but an extra advantage of using zinc is that\nit continues to prevent rusting even if the layer of zinc is damaged. Name this\nprocess of rust prevention and give any two other methods to prevent rusting.\n4\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "What might be the reason for the varied observations of the two students?"
+                },
+                {
+                  "label": "b",
+                  "text": "In another set up the students coated iron nails with zinc metal and noted that,"
+                },
+                {
+                  "label": "b",
+                  "text": "In which of the following applications of Iron, rusting will occur most?"
+                },
+                {
+                  "label": "a",
+                  "text": "On the basis of the above given information, is the green eye colour a"
+                },
+                {
+                  "label": "b",
+                  "text": "What is the possible genetic makeup of Pooja\u2019s brother\u2019s eye colour?"
+                },
+                {
+                  "label": "c",
+                  "text": "What is the probability that the offspring of Pooja and Ravi will have green"
+                },
+                {
+                  "label": "d",
+                  "text": "50% of the offspring of Pooja\u2019s brother are green eyed. With help of cross"
+                },
+                {
+                  "label": "a",
+                  "text": "Based on the text and data given in the above paragraph, what kind of lens"
+                },
+                {
+                  "label": "b",
+                  "text": "If v is the symbol used for image distance and u for object distance then"
+                },
+                {
+                  "label": "c",
+                  "text": "A slide projector has a convex lens with a focal length of 20 cm. The slide"
+                },
+                {
+                  "label": "c",
+                  "text": "When a slide is placed 15 cm behind the lens in the projector, an image is"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(b) In which of the following applications of Iron, rusting will occur most?\nSupport your answer with valid reason.\nA -  Iron Bucket electroplated with Zinc\nB -  Electricity cables having iron wires covered with aluminium\nC - Iron hinges on a gate\nD - Painted iron fence\n38\nPooja has green eyes while her parents and brother have black eyes. Pooja\u2019s\nhusband Ravi has black eyes while his mother has green eyes and father has black\neyes.\n(a) On the basis of the above given information, is the green eye colour a\ndominant or recessive trait? Justify your answer.\n(b) What is the possible genetic makeup of Pooja\u2019s brother\u2019s eye colour?\n(c) What is the probability that the offspring of Pooja and Ravi will have green\neyes? Also, show the inheritance of eye colour in the offspring with the\nhelp of a suitable cross.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\n33\n(a) What might be the reason for the varied observations of the two students?\n(b) In another set up the students coated iron nails with zinc metal and noted that,\niron nails coated with zinc prevents rusting. They also observed that zinc\ninitially acts as a physical barrier, but an extra advantage of using zinc is that\nit continues to prevent rusting even if the layer of zinc is damaged. Name this\nprocess of rust prevention and give any two other methods to prevent rusting.\n4\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nOR\n(b) In which of the following applications of Iron, rusting will occur most?\nSupport your answer with valid reason.\nA -  Iron Bucket electroplated with Zinc\nB -  Electricity cables having iron wires covered with aluminium\nC - Iron hinges on a gate\nD - Painted iron fence\n38\nPooja has green eyes while her parents and brother have black eyes. Pooja\u2019s\nhusband Ravi has black eyes while his mother has green eyes and father has black\neyes.\n(a) On the basis of the above given information, is the green eye colour a\ndominant or recessive trait? Justify your answer.\n(b) What is the possible genetic makeup of Pooja\u2019s brother\u2019s eye colour?\n(c) What is the probability that the offspring of Pooja and Ravi will have green\neyes? Also, show the inheritance of eye colour in the offspring with the\nhelp of a suitable cross.\nOR\n(d) 50% of the offspring of Pooja\u2019s brother are green eyed. With help of cross\nshow how this is possible.\n4\n39\nThe above images are that of a specialized slide projector. Slides are small\ntransparencies mounted in sturdy frames ideally suited to magnification and\nprojection, since they have a very high resolution and a high image quality. There is\na tray where the slides are to be put into a particular orientation so that the viewers\ncan see the enlarged erect images of the transparent slides. This means that the\nslides will have to be inserted upside down in the projector tray.\nTo show her students the images of insects that she investigated in the lab, Mrs. Iyer\nbrought a slide projector. Her slide projector produced a 500 times enlarged and\ninverted image of a slide on a screen 10 m away.\n4\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n(a) Based on the text and data given in the above paragraph, what kind of lens\nmust the slide projector have?\n(b) If v is the symbol used for image distance and u for object distance then\nwith one reason state what will be the sign for\n\ud835\udc63\n\ud835\udc62 in the given case?\n(c) A slide projector has a convex lens with a focal length of 20 cm. The slide\nis placed upside down 21 cm from the lens. How far away should the screen\nbe placed from the slide projector\u2019s lens so that the slide is in focus?\nOR\n(c)When a slide is placed 15 cm behind the lens in the projector, an image is\nformed 3 m in front of the lens. If the focal length of the lens is 14 cm, draw\na ray diagram to show image formation. (not to scale)\n<!-- PAGE 11 END -->",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q6 has suspiciously short stem text ('0')",
+          "corrected": true,
+          "correction_note": "Reconciled 11 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

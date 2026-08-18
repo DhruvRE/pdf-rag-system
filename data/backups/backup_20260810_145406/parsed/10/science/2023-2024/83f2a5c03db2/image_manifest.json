@@ -1,0 +1,146 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p1_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p1_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p1_1.png",
+    "page": 1,
+    "bbox": [
+      206.05,
+      349.85,
+      401.43,
+      516.3
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "s should be in the range of 80 to 120 words. E consists of 3 source-based/case-based units of assessment of 04 marks each wit Section-A Select and write the most appropriate option out of the four opt"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p2_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      179.87,
+      162.19,
+      427.59,
+      300.54
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "a) Sodium b) Sulphur c) Copper d) Silver Which one of the following correctly represents Sodium oxide? An element with atomic number_____ will form a basic oxide. a) 7 (2,5) b) 17 (2,8,7) c) 14 (2,8,4"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p4_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p4_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p4_1.png",
+    "page": 4,
+    "bbox": [
+      176.3,
+      540.91,
+      436.2,
+      766.69
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "4 in parallel. If the equivalent resistance of this parallel combination is R1, what is the value of the ratio R1 : R? OR Refer to the image below and state how the magnetic field pattern indicates re"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p5_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      184.5,
+      55.15,
+      424.5,
+      168.15
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Study the food chain given below and answer the questions that follow: ) If the amount of energy available at the third trophic level is 100 joules, then how much energy will be available at the produ"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p5_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p5_2.png",
+    "relative_path": "83f2a5c03db2/images/img_p5_2.png",
+    "page": 5,
+    "bbox": [
+      199.72,
+      600.32,
+      430.84,
+      697.02
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "at is the probability of a girl or a boy being born in a family? Justify your answer. Explain why the refractive index of any material with respect to air is always greater 1. In the figure below a li"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p6_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      184.5,
+      565.86,
+      424.5,
+      646.86
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "a) A doctor has advised Sameer to reduce sugar intake in his diet and do regular exercise after checking his blood test reports. Which disease do you think Sameer is suffering from? Name the hormone r"
+  },
+  "[IMAGE_PLACEHOLDER_7]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_7]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p7_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      161.0,
+      371.28,
+      466.0,
+      432.28
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": ") p q g g p ( ) OR Name the chemical reactions which occur in steps 2 and 5. Identify the compounds formed in these steps if \u2018A\u2019 is replaced with its next homologue. Figures (a) to (d) given below rep"
+  },
+  "[IMAGE_PLACEHOLDER_8]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_8]",
+    "filename": "img_p7_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p7_2.png",
+    "relative_path": "83f2a5c03db2/images/img_p7_2.png",
+    "page": 7,
+    "bbox": [
+      255.0,
+      436.12,
+      371.5,
+      521.62
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "ahul, Nisha and their parents. observation of different types of ear lobes present in his fa ey of the type of ear lobes found {Figure (e) and (f)} in his cla of ear lobes in his classmates as per the"
+  },
+  "[IMAGE_PLACEHOLDER_9]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_9]",
+    "filename": "img_p8_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/science/2023-2024/83f2a5c03db2/images/img_p8_1.png",
+    "relative_path": "83f2a5c03db2/images/img_p8_1.png",
+    "page": 8,
+    "bbox": [
+      184.5,
+      68.3,
+      424.5,
+      184.3
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Suresh\u2019s parents have attached earl obes. What type of ear lobe can be seen in Suresh and his sister Siya? Explain by giving the genetic composition of all. Vinita and Ahmed demonstrated a circuit tha"
+  }
+}

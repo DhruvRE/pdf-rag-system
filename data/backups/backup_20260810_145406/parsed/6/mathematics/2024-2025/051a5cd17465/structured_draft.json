@@ -1,0 +1,625 @@
+{
+  "exam_metadata": {
+    "subject": "mathematics",
+    "class_level": "6",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "question-2464759.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 5,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer the following questions:\n[5]\na) 135\u00b0\nb) 90\u00b0\nc) 45\u00b0\nd) 180\u00b0\nWhich of the following is a correct representation of an obtuse angle?\n[1]\n(a)\na) 9\nb) 12\nc) 10\nd) 11\nWhat is the digit sum of the number 731?\n[1]\n(b)\na) Counting Numbers\nb) Squares\nc) Odd Numbers\nd) Triangular Numbers\nThe sequence 1,",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 5,
+              "text": "Answer the following questions:\n[5]\na) 135\u00b0\nb) 90\u00b0\nc) 45\u00b0\nd) 180\u00b0\nWhich of the following is a correct representation of an obtuse angle?\n[1]\n(a)\na) 9\nb) 12\nc) 10\nd) 11\nWhat is the digit sum of the number 731?\n[1]\n(b)\na) Counting Numbers\nb) Squares\nc) Odd Numbers\nd) Triangular Numbers\nThe sequence 1, 3, 6, 10, 15, ... is called as\n[1]\n(c)\na) 80\u00b0\nb) 45\u00b0\nc) 60\u00b0\nd) 120\u00b0\nWhich angle is larger?\n[1]\n(d)\na) Both A and R are true and R is the\ncorrect explanation of A.\nb) Both A and R are true but R is not\nthe correct explanation of A.\nc) A is true but R is false.\nd) A is false but R is true.\nAssertion (A): The number 1 is neither prime nor composite.\nReason (R): The number 1 has only one factor.\n[1]\n(e)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "135\u00b0"
+                },
+                {
+                  "label": "b",
+                  "text": "90\u00b0"
+                },
+                {
+                  "label": "c",
+                  "text": "45\u00b0"
+                },
+                {
+                  "label": "d",
+                  "text": "180\u00b0"
+                },
+                {
+                  "label": "a",
+                  "text": "a) 9"
+                },
+                {
+                  "label": "b",
+                  "text": "12"
+                },
+                {
+                  "label": "c",
+                  "text": "10"
+                },
+                {
+                  "label": "d",
+                  "text": "11"
+                },
+                {
+                  "label": "b",
+                  "text": "a) Counting Numbers"
+                },
+                {
+                  "label": "b",
+                  "text": "Squares"
+                },
+                {
+                  "label": "c",
+                  "text": "Odd Numbers"
+                },
+                {
+                  "label": "d",
+                  "text": "Triangular Numbers"
+                },
+                {
+                  "label": "c",
+                  "text": "a) 80\u00b0"
+                },
+                {
+                  "label": "b",
+                  "text": "45\u00b0"
+                },
+                {
+                  "label": "c",
+                  "text": "60\u00b0"
+                },
+                {
+                  "label": "d",
+                  "text": "120\u00b0"
+                },
+                {
+                  "label": "d",
+                  "text": "a) Both A and R are true and R is the"
+                },
+                {
+                  "label": "a",
+                  "text": "b) Both A and R are true but R is not"
+                },
+                {
+                  "label": "a",
+                  "text": "c) A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is true."
+                },
+                {
+                  "label": "a",
+                  "text": ": The number 1 is neither prime nor composite."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nAnswer the following questions:\n[5]\na) 135\u00b0\nb) 90\u00b0\nc) 45\u00b0\nd) 180\u00b0\nWhich of the following is a correct representation of an obtuse angle?\n[1]\n(a)\na) 9\nb) 12\nc) 10\nd) 11\nWhat is the digit sum of the number 731?\n[1]\n(b)\na) Counting Numbers\nb) Squares\nc) Odd Numbers\nd) Triangular Numbers\nThe sequence 1, 3, 6, 10, 15, ... is called as\n[1]\n(c)\na) 80\u00b0\nb) 45\u00b0\nc) 60\u00b0\nd) 120\u00b0\nWhich angle is larger?\n[1]\n(d)\na) Both A and R are true and R is the\ncorrect explanation of A.\nb) Both A and R are true but R is not\nthe correct explanation of A.\nc) A is true but R is false.\nd) A is false but R is true.\nAssertion (A): The number 1 is neither prime nor composite.\nReason (R): The number 1 has only one factor.\n[1]\n(e)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 21 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 21 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 3,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Fill in the blank with the appropriate word (ANY THREE)\n[3]\nA ________ has no length, breadth, or thickness and is usually represented by a dot.\n[1]\n(a)\nThe Kaprekar process using the number 2111 reaches 6174 in ________ steps.\n[1]\n(b)\nIn a complete graph, the number of lines (edges) follows the pat",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 3,
+              "text": "Fill in the blank with the appropriate word (ANY THREE)\n[3]\nA ________ has no length, breadth, or thickness and is usually represented by a dot.\n[1]\n(a)\nThe Kaprekar process using the number 2111 reaches 6174 in ________ steps.\n[1]\n(b)\nIn a complete graph, the number of lines (edges) follows the pattern of ________\n[1]\n(c)\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n2 / 4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "The Kaprekar process using the number 2111 reaches 6174 in ________ steps."
+                },
+                {
+                  "label": "b",
+                  "text": "In a complete graph, the number of lines"
+                },
+                {
+                  "label": "c",
+                  "text": "<!-- PAGE 1 END -->"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nFill in the blank with the appropriate word (ANY THREE)\n[3]\nA ________ has no length, breadth, or thickness and is usually represented by a dot.\n[1]\n(a)\nThe Kaprekar process using the number 2111 reaches 6174 in ________ steps.\n[1]\n(b)\nIn a complete graph, the number of lines (edges) follows the pattern of ________\n[1]\n(c)\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n2 / 4",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q3",
+          "marks": 3,
+          "question_type": "true_false",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "State whether each of the following statements is True or False:\n[3]\nGeometry is the branch of mathematics that studies patterns in shapes.\n[1]\n(a)\nAn angle is formed by two rays that do not share a common starting point.\n[1]\n(b)\nSupercells are grids that help reveal patterns in numbers when filled ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 3,
+              "text": "State whether each of the following statements is True or False:\n[3]\nGeometry is the branch of mathematics that studies patterns in shapes.\n[1]\n(a)\nAn angle is formed by two rays that do not share a common starting point.\n[1]\n(b)\nSupercells are grids that help reveal patterns in numbers when filled with sequences\nlike multiples.\n[1]\n(c)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "An angle is formed by two rays that do not share a common starting point."
+                },
+                {
+                  "label": "b",
+                  "text": "Supercells are grids that help reveal patterns in numbers when filled with sequences"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "true_false",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nState whether each of the following statements is True or False:\n[3]\nGeometry is the branch of mathematics that studies patterns in shapes.\n[1]\n(a)\nAn angle is formed by two rays that do not share a common starting point.\n[1]\n(b)\nSupercells are grids that help reveal patterns in numbers when filled with sequences\nlike multiples.\n[1]\n(c)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 3,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer any THREE of the following questions:\n[3]\nName the line segments in Fig. Which of the five marked points are on exactly one of\nthe line segments? Which are on two of the line segments?\n[1]\n(a)\nConstruct the Collatz sequence starting with 22.\n[1]\n(b)\nWhy are 1, 4, 9, 16, 25, 36, ... called squ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 3,
+              "text": "Answer any THREE of the following questions:\n[3]\nName the line segments in Fig. Which of the five marked points are on exactly one of\nthe line segments? Which are on two of the line segments?\n[1]\n(a)\nConstruct the Collatz sequence starting with 22.\n[1]\n(b)\nWhy are 1, 4, 9, 16, 25, 36, ... called square numbers?\n[1]\n(c)\nA ship sailing in river Jhelam moves towards east. If it changes to north, through what\nangle does it turn?\n[1]\n(d)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Construct the Collatz sequence starting with 22."
+                },
+                {
+                  "label": "b",
+                  "text": "Why are 1, 4, 9, 16, 25, 36, ... called square numbers?"
+                },
+                {
+                  "label": "c",
+                  "text": "A ship sailing in river Jhelam moves towards east. If it changes to north, through what"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nAnswer any THREE of the following questions:\n[3]\nName the line segments in Fig. Which of the five marked points are on exactly one of\nthe line segments? Which are on two of the line segments?\n[1]\n(a)\nConstruct the Collatz sequence starting with 22.\n[1]\n(b)\nWhy are 1, 4, 9, 16, 25, 36, ... called square numbers?\n[1]\n(c)\nA ship sailing in river Jhelam moves towards east. If it changes to north, through what\nangle does it turn?\n[1]\n(d)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q5",
+          "marks": 4,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer any TWO of the following questions:\n[4]\nWhich number sequence is formed by counting the number of lines in each shape in\nthe sequence of complete graphs?\n[2]\n(a)\nWhat is the use of a compass in geometry?\n[2]\n(b)\nWhat is the sum of the smallest and the largest 6-digit palindromes?\n[2]\n(c)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 4,
+              "text": "Answer any TWO of the following questions:\n[4]\nWhich number sequence is formed by counting the number of lines in each shape in\nthe sequence of complete graphs?\n[2]\n(a)\nWhat is the use of a compass in geometry?\n[2]\n(b)\nWhat is the sum of the smallest and the largest 6-digit palindromes?\n[2]\n(c)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "What is the use of a compass in geometry?"
+                },
+                {
+                  "label": "b",
+                  "text": "What is the sum of the smallest and the largest 6-digit palindromes?"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nAnswer any TWO of the following questions:\n[4]\nWhich number sequence is formed by counting the number of lines in each shape in\nthe sequence of complete graphs?\n[2]\n(a)\nWhat is the use of a compass in geometry?\n[2]\n(b)\nWhat is the sum of the smallest and the largest 6-digit palindromes?\n[2]\n(c)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 6,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer any TWO of the following questions:\n[6]\nIn figure, write another name for:\ni.\nii.\niii.\n[3]\n(a)\n\u22201\n\u22202\n\u22203\nFind out the digit sums of all the numbers from 40 to 70.\n[3]\n(b)\nWhat will be 6th shape in the patterns shown below?\n[3]\n(c)\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nhttps://mycbseguide.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 6,
+              "text": "Answer any TWO of the following questions:\n[6]\nIn figure, write another name for:\ni.\nii.\niii.\n[3]\n(a)\n\u22201\n\u22202\n\u22203\nFind out the digit sums of all the numbers from 40 to 70.\n[3]\n(b)\nWhat will be 6th shape in the patterns shown below?\n[3]\n(c)\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n3 / 4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u22201"
+                },
+                {
+                  "label": "b",
+                  "text": "What will be 6th shape in the patterns shown below?"
+                },
+                {
+                  "label": "c",
+                  "text": "<!-- PAGE 2 END -->"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nAnswer any TWO of the following questions:\n[6]\nIn figure, write another name for:\ni.\nii.\niii.\n[3]\n(a)\n\u22201\n\u22202\n\u22203\nFind out the digit sums of all the numbers from 40 to 70.\n[3]\n(b)\nWhat will be 6th shape in the patterns shown below?\n[3]\n(c)\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n3 / 4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q7",
+          "marks": 8,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Answer any TWO of the following questions:\n[8]\nHow many supercells are possible for different number of cells in a one dimensional\nslid? Do you notice any pattern?\n[4]\n(a)\nObserve the pattern in the following and fill in the blanks:\n[4]\n(b)\n9 \u00d7 9 + 7 = 88\n98 \u00d7 9 + 6 = 888\n987 \u00d7 9 + 5 = 8888\n9876 \u00d7 9",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 8,
+              "text": "Answer any TWO of the following questions:\n[8]\nHow many supercells are possible for different number of cells in a one dimensional\nslid? Do you notice any pattern?\n[4]\n(a)\nObserve the pattern in the following and fill in the blanks:\n[4]\n(b)\n9 \u00d7 9 + 7 = 88\n98 \u00d7 9 + 6 = 888\n987 \u00d7 9 + 5 = 8888\n9876 \u00d7 9 + 4 = \u2026\n98765 \u00d7 9 + 3 = \u2026\n987654 \u00d7 9 + 2 = \u2026\n9876543 \u00d7 9 + 1 = \u2026\nDraw rough diagrams of two angles such that they have\na. One point in common.\nb. Two points in common.\nc. Three points in common.\nd. Four points in common.\ne. One ray in common.\n[4]\n(c)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Observe the pattern in the following and fill in the blanks:"
+                },
+                {
+                  "label": "b",
+                  "text": "9 \u00d7 9 + 7 = 88"
+                },
+                {
+                  "label": "a",
+                  "text": "One point in common."
+                },
+                {
+                  "label": "b",
+                  "text": "Two points in common."
+                },
+                {
+                  "label": "c",
+                  "text": "Three points in common."
+                },
+                {
+                  "label": "d",
+                  "text": "Four points in common."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nAnswer any TWO of the following questions:\n[8]\nHow many supercells are possible for different number of cells in a one dimensional\nslid? Do you notice any pattern?\n[4]\n(a)\nObserve the pattern in the following and fill in the blanks:\n[4]\n(b)\n9 \u00d7 9 + 7 = 88\n98 \u00d7 9 + 6 = 888\n987 \u00d7 9 + 5 = 8888\n9876 \u00d7 9 + 4 = \u2026\n98765 \u00d7 9 + 3 = \u2026\n987654 \u00d7 9 + 2 = \u2026\n9876543 \u00d7 9 + 1 = \u2026\nDraw rough diagrams of two angles such that they have\na. One point in common.\nb. Two points in common.\nc. Three points in common.\nd. Four points in common.\ne. One ray in common.\n[4]\n(c)",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Read the following text carefully and answer the questions that follow:\nIn a school, students are arranging chairs in the auditorium for an event. They noticed that\narranging chairs in a triangular pattern helps save space. The number of chairs in each row\nforms a sequence: 1, 3, 6, 10, 15, ... Thes",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following text carefully and answer the questions that follow:\nIn a school, students are arranging chairs in the auditorium for an event. They noticed that\narranging chairs in a triangular pattern helps save space. The number of chairs in each row\nforms a sequence: 1, 3, 6, 10, 15, ... These numbers are called triangular numbers.\na. What is the next triangular number after 15? (1)\nb. How many chairs are there in the 4th row of the triangular arrangement? (1)\nc. Explain how triangular numbers are formed. (2)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "What is the next triangular number after 15?"
+                },
+                {
+                  "label": "b",
+                  "text": "How many chairs are there in the 4th row of the triangular arrangement?"
+                },
+                {
+                  "label": "c",
+                  "text": "Explain how triangular numbers are formed."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Draw a diagram to show the arrangement of chairs for the first 4 triangular numbers. (2)\n[4]",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nRead the following text carefully and answer the questions that follow:\nIn a school, students are arranging chairs in the auditorium for an event. They noticed that\narranging chairs in a triangular pattern helps save space. The number of chairs in each row\nforms a sequence: 1, 3, 6, 10, 15, ... These numbers are called triangular numbers.\na. What is the next triangular number after 15? (1)\nb. How many chairs are there in the 4th row of the triangular arrangement? (1)\nc. Explain how triangular numbers are formed. (2)\nOR\nDraw a diagram to show the arrangement of chairs for the first 4 triangular numbers. (2)\n[4]",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Read the following text carefully and answer the questions that follow:\nThe Ashoka Chakra on the Indian flag has 24 spokes. Each spoke is equally spaced, forming equal\nangles between them. Ravi wants to calculate the angle between two adjacent spokes. Since a\ncircle has 360 degrees, dividing it by 2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following text carefully and answer the questions that follow:\nThe Ashoka Chakra on the Indian flag has 24 spokes. Each spoke is equally spaced, forming equal\nangles between them. Ravi wants to calculate the angle between two adjacent spokes. Since a\ncircle has 360 degrees, dividing it by 24 spokes gives 15 degrees between each spoke. Ravi\ncalculates that the angle between two adjacent spokes is 15 degrees. This helps him understand\nthe symmetry of the Ashoka Chakra.\na. How many degrees are in a full circle? (1)\nb. What is the angle between two adjacent spokes of the Ashoka Chakra? (1)\n[4]\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n4 / 4\nc. Calculate the angle between two spokes that are 5 spokes apart. (2)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "How many degrees are in a full circle?"
+                },
+                {
+                  "label": "b",
+                  "text": "What is the angle between two adjacent spokes of the Ashoka Chakra?"
+                },
+                {
+                  "label": "c",
+                  "text": "Calculate the angle between two spokes that are 5 spokes apart."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "If the Ashoka Chakra had 12 spokes instead of 24, what would be the angle between two\nadjacent spokes? (2)\n<!-- PAGE 4 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nRead the following text carefully and answer the questions that follow:\nThe Ashoka Chakra on the Indian flag has 24 spokes. Each spoke is equally spaced, forming equal\nangles between them. Ravi wants to calculate the angle between two adjacent spokes. Since a\ncircle has 360 degrees, dividing it by 24 spokes gives 15 degrees between each spoke. Ravi\ncalculates that the angle between two adjacent spokes is 15 degrees. This helps him understand\nthe symmetry of the Ashoka Chakra.\na. How many degrees are in a full circle? (1)\nb. What is the angle between two adjacent spokes of the Ashoka Chakra? (1)\n[4]\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nhttps://mycbseguide.com | https://examin8.com | https://learn8.in\n4 / 4\nc. Calculate the angle between two spokes that are 5 spokes apart. (2)\nOR\nIf the Ashoka Chakra had 12 spokes instead of 24, what would be the angle between two\nadjacent spokes? (2)\n<!-- PAGE 4 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

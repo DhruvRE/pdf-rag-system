@@ -1,0 +1,146 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p2_1.png",
+    "relative_path": "5928d40a471a/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      191.4,
+      105.85,
+      411.0,
+      290.05
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Observe the schematic diagram that depicts a small section of nucleic acid. The bases in two strands are paired through hydrogen bonds that are shown by the dark lines. Identify the correct sequence o"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p5_1.png",
+    "relative_path": "5928d40a471a/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      126.0,
+      564.1,
+      475.9,
+      627.1
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "(ii) Which of the above mutation is more harmful? Give reason. OR B. Given below is a schematic representation of a mRNA strand (i) In the above sequence identify the translational unit in mRNA. (ii) "
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p5_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p5_2.png",
+    "relative_path": "5928d40a471a/images/img_p5_2.png",
+    "page": 5,
+    "bbox": [
+      121.8,
+      299.76,
+      480.6,
+      460.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "18 Attempt either option A or B. A. The schematic representation given below shows a DNA strand and two types of mutations in the DNA strand. (i) Identify the type of mutation exhibited in I and II. ("
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p6_1.png",
+    "relative_path": "5928d40a471a/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      120.48,
+      98.4,
+      481.2,
+      317.4
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "19 Given below is the relationship between the HIV levels in the blood and helper T cell count in a person detected with AIDS. Study the relationship and answer the questions that follow. A. What kind"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p7_1.png",
+    "relative_path": "5928d40a471a/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      154.8,
+      131.76,
+      447.6,
+      348.36
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Section - C 22 The image below shows two germinated seeds X and Y which belong to the same species. Seed X is produced by apomixis whereas seed Y is a product of sexual reproduction. A. Write the numb"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p8_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p8_1.png",
+    "relative_path": "5928d40a471a/images/img_p8_1.png",
+    "page": 8,
+    "bbox": [
+      162.48,
+      84.36,
+      440.04,
+      229.8
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "4 The schematic representation given below shows the concept of Central Dogma. A. During the process of replication and transcription the pairing of nitrogenous bases is not similar. Explain. B. How i"
+  },
+  "[IMAGE_PLACEHOLDER_7]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_7]",
+    "filename": "img_p9_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p9_1.png",
+    "relative_path": "5928d40a471a/images/img_p9_1.png",
+    "page": 9,
+    "bbox": [
+      136.8,
+      50.76,
+      465.6,
+      265.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "B. What does Gause\u2018s exclusion principle state? Does it apply in the case shown above? Explain. - - - - - - - - - - - - - - - - - - - For visually impaired students A. Name and explain the mechanism w"
+  },
+  "[IMAGE_PLACEHOLDER_8]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_8]",
+    "filename": "img_p10_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p10_1.png",
+    "relative_path": "5928d40a471a/images/img_p10_1.png",
+    "page": 10,
+    "bbox": [
+      155.04,
+      62.76,
+      447.36,
+      224.16
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "A. Explain the factor(s) responsible for this pattern of temperature. (1) B. How does this pathogen multiply in the human body? (2) Attempt either subpart C or D. C. How is this infection transmitted "
+  },
+  "[IMAGE_PLACEHOLDER_9]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_9]",
+    "filename": "img_p11_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/biology/2024-2025/5928d40a471a/images/img_p11_1.png",
+    "relative_path": "5928d40a471a/images/img_p11_1.png",
+    "page": 11,
+    "bbox": [
+      169.2,
+      50.76,
+      433.2,
+      140.16
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Embryo I Embryo II - - - - - - - - - - - - - - - - - - - For visually impaired students (iv) An infertile couple decided to use ART to conceive. After IVF they decided for Embryo transfer of the follo"
+  }
+}

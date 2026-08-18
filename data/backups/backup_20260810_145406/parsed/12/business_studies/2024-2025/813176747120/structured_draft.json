@@ -1,0 +1,2389 @@
+{
+  "exam_metadata": {
+    "subject": "business_studies",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_business_studies_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The newly appointed Production Manager of Saheb Ltd., a firm manufacturing\ntoys, Mr Ahrawat noticed that the workers in the factory were not giving their\nbest as the physical conditions in the factory were not good. He conducted an\nexperiment to see the effect of improvement in the physical conditio",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The newly appointed Production Manager of Saheb Ltd., a firm manufacturing\ntoys, Mr Ahrawat noticed that the workers in the factory were not giving their\nbest as the physical conditions in the factory were not good. He conducted an\nexperiment to see the effect of improvement in the physical conditions in the\nfactory on the performance of the workers, by providing adequate ventilation\nand water facilities. He observed that the fatigue level of the workers reduced.\nThe nature of management being highlighted in the above case is:\nA. Management as science\nB. Management as profession\nC. Management as art\nD. Both A. and C.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Management as science"
+                },
+                {
+                  "label": "b",
+                  "text": "Management as profession"
+                },
+                {
+                  "label": "c",
+                  "text": "Management as art"
+                },
+                {
+                  "label": "d",
+                  "text": "Both A. and C."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nThe newly appointed Production Manager of Saheb Ltd., a firm manufacturing\ntoys, Mr Ahrawat noticed that the workers in the factory were not giving their\nbest as the physical conditions in the factory were not good. He conducted an\nexperiment to see the effect of improvement in the physical conditions in the\nfactory on the performance of the workers, by providing adequate ventilation\nand water facilities. He observed that the fatigue level of the workers reduced.\nThe nature of management being highlighted in the above case is:\nA. Management as science\nB. Management as profession\nC. Management as art\nD. Both A. and C.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Jasmine Ahluwalia is the manager of an artefacts museum's marketing team,\nresponsible for promoting exhibitions and events. In the previous season, she\ndefined the total work of managing the events into graphic designing,\nregistration inquiries, bill payments, etc, in order to facilitate specialisat",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Jasmine Ahluwalia is the manager of an artefacts museum's marketing team,\nresponsible for promoting exhibitions and events. In the previous season, she\ndefined the total work of managing the events into graphic designing,\nregistration inquiries, bill payments, etc, in order to facilitate specialisation.\nHowever, instead of allocating work, she had assigned each team member the\nfull responsibility of managing the promotion of an entire event. Inspite of\nholding regular team meetings to take feedback, Jasmine found problems\nthroughout the events season in the quality of graphic design, registration\ninquiry, bill payments, etc,.\nFor the upcoming events season, Jasmine has decided to divide these\nresponsibilities on the basis of her observation of the areas in which the\nindividual team members have excelled in the  previous season and allocate\nthe roles based on their skills and competencies.\nIdentify the step in the organising process which was not  properly performed\nin the previous season but has been duly performed for the upcoming season.\nA. Identification and division of work\nB. Establishing reporting relationships\nC. Departmentalisation\nD. Assignment of duties\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Identification and division of work"
+                },
+                {
+                  "label": "b",
+                  "text": "Establishing reporting relationships"
+                },
+                {
+                  "label": "c",
+                  "text": "Departmentalisation"
+                },
+                {
+                  "label": "d",
+                  "text": "Assignment of duties"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nJasmine Ahluwalia is the manager of an artefacts museum's marketing team,\nresponsible for promoting exhibitions and events. In the previous season, she\ndefined the total work of managing the events into graphic designing,\nregistration inquiries, bill payments, etc, in order to facilitate specialisation.\nHowever, instead of allocating work, she had assigned each team member the\nfull responsibility of managing the promotion of an entire event. Inspite of\nholding regular team meetings to take feedback, Jasmine found problems\nthroughout the events season in the quality of graphic design, registration\ninquiry, bill payments, etc,.\nFor the upcoming events season, Jasmine has decided to divide these\nresponsibilities on the basis of her observation of the areas in which the\nindividual team members have excelled in the  previous season and allocate\nthe roles based on their skills and competencies.\nIdentify the step in the organising process which was not  properly performed\nin the previous season but has been duly performed for the upcoming season.\nA. Identification and division of work\nB. Establishing reporting relationships\nC. Departmentalisation\nD. Assignment of duties\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect alternative from those given below:\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\nAssertion(A):  Financial Planning aims at enabling the company to tackle\nthe uncertainty in respect of the availability and timing of the",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect alternative from those given below:\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\nAssertion(A):  Financial Planning aims at enabling the company to tackle\nthe uncertainty in respect of the availability and timing of the funds.\nReason(R):  Capital structure refers to the mix between owners\u2019 and borrowed\nfunds\nAlternatives :\nA.\nBoth Assertion (A) is false and Reason (R) are true.\nB.\nBoth Assertion (A) and Reason (R) are false.\nC. Both Assertion (A) and Reason (R) are true, but Reason (R) is not\nthe correct explanation of the Assertion.\nD. Both Assertion (A) and Reason (R) are true, and  Reason (R) is the\ncorrect explanation of the Assertion.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ":  Financial Planning aims at enabling the company to tackle"
+                },
+                {
+                  "label": "a",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is false and Reason"
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "c",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "d",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nRead the following statements: Assertion (A) and Reason (R). Choose the\ncorrect alternative from those given below:\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\nAssertion(A):  Financial Planning aims at enabling the company to tackle\nthe uncertainty in respect of the availability and timing of the funds.\nReason(R):  Capital structure refers to the mix between owners\u2019 and borrowed\nfunds\nAlternatives :\nA.\nBoth Assertion (A) is false and Reason (R) are true.\nB.\nBoth Assertion (A) and Reason (R) are false.\nC. Both Assertion (A) and Reason (R) are true, but Reason (R) is not\nthe correct explanation of the Assertion.\nD. Both Assertion (A) and Reason (R) are true, and  Reason (R) is the\ncorrect explanation of the Assertion.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 10 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 10 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements carefully:\nStatement I: Secondary Market directly promotes capital formation.\nStatement lI: Capital market deals in medium and long term securities such\nas equity shares and debentures.\nIn the light of given statements, choose the correct alternative from the\nfollowing:",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements carefully:\nStatement I: Secondary Market directly promotes capital formation.\nStatement lI: Capital market deals in medium and long term securities such\nas equity shares and debentures.\nIn the light of given statements, choose the correct alternative from the\nfollowing:\nA. Both the statements are true.\nB. Both the statements are false.\nC. Statement I is true, Statement II is false.\nD. Statement II is true, Statement I is false.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both the statements are true."
+                },
+                {
+                  "label": "b",
+                  "text": "Both the statements are false."
+                },
+                {
+                  "label": "c",
+                  "text": "Statement I is true, Statement II is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Statement II is true, Statement I is false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nRead the following statements carefully:\nStatement I: Secondary Market directly promotes capital formation.\nStatement lI: Capital market deals in medium and long term securities such\nas equity shares and debentures.\nIn the light of given statements, choose the correct alternative from the\nfollowing:\nA. Both the statements are true.\nB. Both the statements are false.\nC. Statement I is true, Statement II is false.\nD. Statement II is true, Statement I is false.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Choose the statement that correctly highlights the benefit of using external\nsources of recruitment.\nA. Competitive spirit among the existing staff\nB. Reduction in employees turnover\nC. Helps in increasing employees satisfaction\nD. Develops a sense of security amongst employees\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Choose the statement that correctly highlights the benefit of using external\nsources of recruitment.\nA. Competitive spirit among the existing staff\nB. Reduction in employees turnover\nC. Helps in increasing employees satisfaction\nD. Develops a sense of security amongst employees\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Competitive spirit among the existing staff"
+                },
+                {
+                  "label": "b",
+                  "text": "Reduction in employees turnover"
+                },
+                {
+                  "label": "c",
+                  "text": "Helps in increasing employees satisfaction"
+                },
+                {
+                  "label": "d",
+                  "text": "Develops a sense of security amongst employees"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nChoose the statement that correctly highlights the benefit of using external\nsources of recruitment.\nA. Competitive spirit among the existing staff\nB. Reduction in employees turnover\nC. Helps in increasing employees satisfaction\nD. Develops a sense of security amongst employees\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Goodwill Enterprises is a large-scale automobile manufacturer, who fulfills the\nneeds of both industrial users and consumers. The company is providing easy\nfinance facilities at a low rate of interest, which has considerably increased the\ndemand for the product. The company has installed a new branc",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Goodwill Enterprises is a large-scale automobile manufacturer, who fulfills the\nneeds of both industrial users and consumers. The company is providing easy\nfinance facilities at a low rate of interest, which has considerably increased the\ndemand for the product. The company has installed a new branch\nmanagement software to efficiently manage and coordinate activities across\ntheir multiple branches and locations.\nIdentify the components of the business environment from the above case\nstudy.\nA. Political and economic environment\nB. Economic and social environment\nC. Technological and legal environment\nD. Economic and technological environment\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Political and economic environment"
+                },
+                {
+                  "label": "b",
+                  "text": "Economic and social environment"
+                },
+                {
+                  "label": "c",
+                  "text": "Technological and legal environment"
+                },
+                {
+                  "label": "d",
+                  "text": "Economic and technological environment"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nGoodwill Enterprises is a large-scale automobile manufacturer, who fulfills the\nneeds of both industrial users and consumers. The company is providing easy\nfinance facilities at a low rate of interest, which has considerably increased the\ndemand for the product. The company has installed a new branch\nmanagement software to efficiently manage and coordinate activities across\ntheir multiple branches and locations.\nIdentify the components of the business environment from the above case\nstudy.\nA. Political and economic environment\nB. Economic and social environment\nC. Technological and legal environment\nD. Economic and technological environment\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3\nIdentify the responsibility that a consumer fulfills when he looks for the quality\nmarks given above:\nA. Assert yourself to ensure that you get a fair deal\nB. Getting a proper receipt\nC. Buy only standardised products\nD. Be honest in your dealings\nFor V",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3\nIdentify the responsibility that a consumer fulfills when he looks for the quality\nmarks given above:\nA. Assert yourself to ensure that you get a fair deal\nB. Getting a proper receipt\nC. Buy only standardised products\nD. Be honest in your dealings\nFor Visually Impaired Candidates:\nWhen a consumer looks for FPO mark while purchasing a bottle of jam or\nhallmark when purchasing jewellery, which consumer responsibility has he\nkept in mind:\nA. Assert yourself to ensure that you get a fair deal\nB. Getting a proper receipt\nC. Buy only standardised products\nD. Be honest in your dealings\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Assert yourself to ensure that you get a fair deal"
+                },
+                {
+                  "label": "b",
+                  "text": "Getting a proper receipt"
+                },
+                {
+                  "label": "c",
+                  "text": "Buy only standardised products"
+                },
+                {
+                  "label": "d",
+                  "text": "Be honest in your dealings"
+                },
+                {
+                  "label": "a",
+                  "text": "Assert yourself to ensure that you get a fair deal"
+                },
+                {
+                  "label": "b",
+                  "text": "Getting a proper receipt"
+                },
+                {
+                  "label": "c",
+                  "text": "Buy only standardised products"
+                },
+                {
+                  "label": "d",
+                  "text": "Be honest in your dealings"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3\nIdentify the responsibility that a consumer fulfills when he looks for the quality\nmarks given above:\nA. Assert yourself to ensure that you get a fair deal\nB. Getting a proper receipt\nC. Buy only standardised products\nD. Be honest in your dealings\nFor Visually Impaired Candidates:\nWhen a consumer looks for FPO mark while purchasing a bottle of jam or\nhallmark when purchasing jewellery, which consumer responsibility has he\nkept in mind:\nA. Assert yourself to ensure that you get a fair deal\nB. Getting a proper receipt\nC. Buy only standardised products\nD. Be honest in your dealings\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect alternative from those given below:\nASSERTION (A): Controlling can prevent deviations.\nREASON (R): Controlling helps in minimising deviations by taking actions\nand decisions that reduce their recurrence.\nA. Both Assertio",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements: Assertion (A) and Reason (R). Choose the\ncorrect alternative from those given below:\nASSERTION (A): Controlling can prevent deviations.\nREASON (R): Controlling helps in minimising deviations by taking actions\nand decisions that reduce their recurrence.\nA. Both Assertion (A) and Reason (R) are true and Reason is the correct\nexplanation of Assertion.\nB. Both Assertion(A) and Reason (R) are true and Reason is not the\ncorrect explanation of Assertion.\nC. Assertion (A) is true, Reason (R) is false.\nD. Assertion(A) is false, Reason(R) is true.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": ": Controlling can prevent deviations."
+                },
+                {
+                  "label": "a",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is true, Reason"
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is false, Reason"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nRead the following statements: Assertion (A) and Reason (R). Choose the\ncorrect alternative from those given below:\nASSERTION (A): Controlling can prevent deviations.\nREASON (R): Controlling helps in minimising deviations by taking actions\nand decisions that reduce their recurrence.\nA. Both Assertion (A) and Reason (R) are true and Reason is the correct\nexplanation of Assertion.\nB. Both Assertion(A) and Reason (R) are true and Reason is not the\ncorrect explanation of Assertion.\nC. Assertion (A) is true, Reason (R) is false.\nD. Assertion(A) is false, Reason(R) is true.\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 10 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 10 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "\u2018Joining a job marks the beginning of socialisation of employees at the\nworkplace. The employee should be given a post for which he has been\nselected.\u2019\nPlace the subsequent steps of staffing in a small organisation in  the correct\norder:\nA. Training\nand\ndevelopment,\npromotion\nand\ncareer\nplanning,\npe",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "\u2018Joining a job marks the beginning of socialisation of employees at the\nworkplace. The employee should be given a post for which he has been\nselected.\u2019\nPlace the subsequent steps of staffing in a small organisation in  the correct\norder:\nA. Training\nand\ndevelopment,\npromotion\nand\ncareer\nplanning,\nperformance appraisal, compensation\nB. Performance appraisal, training and development, promotion and\ncareer planning, compensation\nC. Training and development, performance appraisal, promotion and\ncareer planning, compensation\nD. Training and development, performance appraisal, compensation,\npromotion and career planning\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Training"
+                },
+                {
+                  "label": "b",
+                  "text": "Performance appraisal, training and development, promotion and"
+                },
+                {
+                  "label": "c",
+                  "text": "Training and development, performance appraisal, promotion and"
+                },
+                {
+                  "label": "d",
+                  "text": "Training and development, performance appraisal, compensation,"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\n\u2018Joining a job marks the beginning of socialisation of employees at the\nworkplace. The employee should be given a post for which he has been\nselected.\u2019\nPlace the subsequent steps of staffing in a small organisation in  the correct\norder:\nA. Training\nand\ndevelopment,\npromotion\nand\ncareer\nplanning,\nperformance appraisal, compensation\nB. Performance appraisal, training and development, promotion and\ncareer planning, compensation\nC. Training and development, performance appraisal, promotion and\ncareer planning, compensation\nD. Training and development, performance appraisal, compensation,\npromotion and career planning\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Spiceworks, a company providing financial services to its clients is keeping a\nclose check on the employee\u2019s activities by using biometric and retina\nscanning as modes of accessing the office premises, in order to ensure greater\nsecurity of information in the organisation.\nChoose the correct point o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Spiceworks, a company providing financial services to its clients is keeping a\nclose check on the employee\u2019s activities by using biometric and retina\nscanning as modes of accessing the office premises, in order to ensure greater\nsecurity of information in the organisation.\nChoose the correct point of significance of controlling highlighted above:\nA. controlling helps in achievement of organisational goals\nB. controlling helps in ensuring order and discipline\nC. controlling helps in improving employees motivation\nD. controlling enables optimum utilisation of resources\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "controlling helps in achievement of organisational goals"
+                },
+                {
+                  "label": "b",
+                  "text": "controlling helps in ensuring order and discipline"
+                },
+                {
+                  "label": "c",
+                  "text": "controlling helps in improving employees motivation"
+                },
+                {
+                  "label": "d",
+                  "text": "controlling enables optimum utilisation of resources"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nSpiceworks, a company providing financial services to its clients is keeping a\nclose check on the employee\u2019s activities by using biometric and retina\nscanning as modes of accessing the office premises, in order to ensure greater\nsecurity of information in the organisation.\nChoose the correct point of significance of controlling highlighted above:\nA. controlling helps in achievement of organisational goals\nB. controlling helps in ensuring order and discipline\nC. controlling helps in improving employees motivation\nD. controlling enables optimum utilisation of resources\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify the incorrect statement with respect to  \u2018Investment decision\u2019:\nA. Net working capital refers to excess of current assets over current\nliabilities\nB. Current assets are those assets which get converted into cash within\none year\nC. Capital budgeting decisions are irreversible.\nD. Size of the",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify the incorrect statement with respect to  \u2018Investment decision\u2019:\nA. Net working capital refers to excess of current assets over current\nliabilities\nB. Current assets are those assets which get converted into cash within\none year\nC. Capital budgeting decisions are irreversible.\nD. Size of the assets, Profitability and competitiveness are not affected\nby capital budgeting decisions.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Net working capital refers to excess of current assets over current"
+                },
+                {
+                  "label": "b",
+                  "text": "Current assets are those assets which get converted into cash within"
+                },
+                {
+                  "label": "c",
+                  "text": "Capital budgeting decisions are irreversible."
+                },
+                {
+                  "label": "d",
+                  "text": "Size of the assets, Profitability and competitiveness are not affected"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nIdentify the incorrect statement with respect to  \u2018Investment decision\u2019:\nA. Net working capital refers to excess of current assets over current\nliabilities\nB. Current assets are those assets which get converted into cash within\none year\nC. Capital budgeting decisions are irreversible.\nD. Size of the assets, Profitability and competitiveness are not affected\nby capital budgeting decisions.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "State Commission has the jurisdiction to entertain complaints where value of\ngoods and services paid as consideration is ________\nA. More than \u20b91 crore and not more than \u20b9 5 crore\nB. More than \u20b910 crore\nC. Less than \u20b91 crore\nD. More than \u20b91 crore and not more than \u20b910 crore\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "State Commission has the jurisdiction to entertain complaints where value of\ngoods and services paid as consideration is ________\nA. More than \u20b91 crore and not more than \u20b9 5 crore\nB. More than \u20b910 crore\nC. Less than \u20b91 crore\nD. More than \u20b91 crore and not more than \u20b910 crore\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "More than \u20b91 crore and not more than \u20b9 5 crore"
+                },
+                {
+                  "label": "b",
+                  "text": "More than \u20b910 crore"
+                },
+                {
+                  "label": "c",
+                  "text": "Less than \u20b91 crore"
+                },
+                {
+                  "label": "d",
+                  "text": "More than \u20b91 crore and not more than \u20b910 crore"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\nState Commission has the jurisdiction to entertain complaints where value of\ngoods and services paid as consideration is ________\nA. More than \u20b91 crore and not more than \u20b9 5 crore\nB. More than \u20b910 crore\nC. Less than \u20b91 crore\nD. More than \u20b91 crore and not more than \u20b910 crore\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "match_the_following",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Match the statements given in column I with the characteristic of business\nenvironment given in column II\nCOLUMN I\nCOLUMN II\n(a) Increased demand of Khakhra and Thepla\nin the region of Gujarat as compared to\nDelhi region\ni.\nUncertainty\n(b) Digital academic certificates are issued to\nstudents accessi",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Match the statements given in column I with the characteristic of business\nenvironment given in column II\nCOLUMN I\nCOLUMN II\n(a) Increased demand of Khakhra and Thepla\nin the region of Gujarat as compared to\nDelhi region\ni.\nUncertainty\n(b) Digital academic certificates are issued to\nstudents accessible in a secured manner to\neliminate\nundesirable\npractices\nlike\ncorruption and manipulation of records\nunder\nDigital\nIndia\nInitiative.\nSuch\ntechnological improvements are happening\nat a very fast pace.\nii.\nDynamic\n(c) Fashion market is facing both opportunities\nand challenges. Therefore it is difficult to\npredict the future of the fashion market.\nIii.\nRelativity\n(d) A new government will result in changing\ngovernment rules, fiscal policies, market\nconditions etc\nIv.\nInterrelatedness\nChoose the correct option from the following:\nA. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)\nB. (a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)\nC. (a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)\nD. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Increased demand of Khakhra and Thepla"
+                },
+                {
+                  "label": "b",
+                  "text": "Digital academic certificates are issued to"
+                },
+                {
+                  "label": "c",
+                  "text": "Fashion market is facing both opportunities"
+                },
+                {
+                  "label": "d",
+                  "text": "A new government will result in changing"
+                },
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "-"
+                },
+                {
+                  "label": "b",
+                  "text": "-"
+                },
+                {
+                  "label": "c",
+                  "text": "-"
+                },
+                {
+                  "label": "d",
+                  "text": "-"
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "-"
+                },
+                {
+                  "label": "b",
+                  "text": "-"
+                },
+                {
+                  "label": "c",
+                  "text": "-"
+                },
+                {
+                  "label": "d",
+                  "text": "-"
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "-"
+                },
+                {
+                  "label": "b",
+                  "text": "-"
+                },
+                {
+                  "label": "c",
+                  "text": "-"
+                },
+                {
+                  "label": "d",
+                  "text": "-"
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": "-"
+                },
+                {
+                  "label": "b",
+                  "text": "-"
+                },
+                {
+                  "label": "c",
+                  "text": "-"
+                },
+                {
+                  "label": "d",
+                  "text": "-"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "match_the_following",
+                "requires_image": false,
+                "requires_table_data": true,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\nMatch the statements given in column I with the characteristic of business\nenvironment given in column II\nCOLUMN I\nCOLUMN II\n(a) Increased demand of Khakhra and Thepla\nin the region of Gujarat as compared to\nDelhi region\ni.\nUncertainty\n(b) Digital academic certificates are issued to\nstudents accessible in a secured manner to\neliminate\nundesirable\npractices\nlike\ncorruption and manipulation of records\nunder\nDigital\nIndia\nInitiative.\nSuch\ntechnological improvements are happening\nat a very fast pace.\nii.\nDynamic\n(c) Fashion market is facing both opportunities\nand challenges. Therefore it is difficult to\npredict the future of the fashion market.\nIii.\nRelativity\n(d) A new government will result in changing\ngovernment rules, fiscal policies, market\nconditions etc\nIv.\nInterrelatedness\nChoose the correct option from the following:\nA. (a)-(iii), (b)-(ii), (c)-(i), (d)-(iv)\nB. (a)-(ii), (b)-(i), (c)-(iii), (d)-(iv)\nC. (a)-(iv), (b)-(ii), (c)-(i), (d)-(iii)\nD. (a)-(iii), (b)-(i), (c)-(ii), (d)-(iv)\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 24 options from raw source span (fixed label split/spacing); match_the_following question has no structured column table_data",
+          "corrected": true,
+          "correction_note": "Reconciled 24 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The process of classification of products into different groups, on the basis of\nsome of the important characteristics such as quality, size, etc. is known as:\nA. Branding\nB. Standardisation\nC. Grading\nD. Marketing planning\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The process of classification of products into different groups, on the basis of\nsome of the important characteristics such as quality, size, etc. is known as:\nA. Branding\nB. Standardisation\nC. Grading\nD. Marketing planning\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Branding"
+                },
+                {
+                  "label": "b",
+                  "text": "Standardisation"
+                },
+                {
+                  "label": "c",
+                  "text": "Grading"
+                },
+                {
+                  "label": "d",
+                  "text": "Marketing planning"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nThe process of classification of products into different groups, on the basis of\nsome of the important characteristics such as quality, size, etc. is known as:\nA. Branding\nB. Standardisation\nC. Grading\nD. Marketing planning\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Shiwakumar runs a legal consultancy firm in Chhattisgarh. Whenever the firm\nhires new employees, on the first day of joining, they are welcomed to the\norganisation and are given details about the dress code, lunch timings,\nintroduction to daily operations and fellow colleagues. They are also\nfamilia",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Shiwakumar runs a legal consultancy firm in Chhattisgarh. Whenever the firm\nhires new employees, on the first day of joining, they are welcomed to the\norganisation and are given details about the dress code, lunch timings,\nintroduction to daily operations and fellow colleagues. They are also\nfamiliarised with the organisational policies and procedures, emergency exits,\nevacuation procedure, etc.\nName the type of training which is provided by Shiwakumar in his firm.\nA. Apprenticeship training\nB. Vestibule training\nC. Induction training\nD. Internship training\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Apprenticeship training"
+                },
+                {
+                  "label": "b",
+                  "text": "Vestibule training"
+                },
+                {
+                  "label": "c",
+                  "text": "Induction training"
+                },
+                {
+                  "label": "d",
+                  "text": "Internship training"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nShiwakumar runs a legal consultancy firm in Chhattisgarh. Whenever the firm\nhires new employees, on the first day of joining, they are welcomed to the\norganisation and are given details about the dress code, lunch timings,\nintroduction to daily operations and fellow colleagues. They are also\nfamiliarised with the organisational policies and procedures, emergency exits,\nevacuation procedure, etc.\nName the type of training which is provided by Shiwakumar in his firm.\nA. Apprenticeship training\nB. Vestibule training\nC. Induction training\nD. Internship training\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify the incorrect statement with respect to Consumer Protection in India.\nA. It not only includes educating consumers about their rights and\nresponsibilities but also helps in getting their grievances redressed\nB. It not only requires a judicial machinery for protecting the interest of\nconsumer",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify the incorrect statement with respect to Consumer Protection in India.\nA. It not only includes educating consumers about their rights and\nresponsibilities but also helps in getting their grievances redressed\nB. It not only requires a judicial machinery for protecting the interest of\nconsumers but also requires the consumers to get together and form\nthemselves into Consumer associations for protection and promotion of\ntheir interests.\nC. It is the moral duty of any business to take care of consumers' interest\nand avoid any form of exploitation.\nD. The provisions of Consumer Protection Act came into force from",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "It not only includes educating consumers about their rights and"
+                },
+                {
+                  "label": "b",
+                  "text": "It not only requires a judicial machinery for protecting the interest of"
+                },
+                {
+                  "label": "c",
+                  "text": "It is the moral duty of any business to take care of consumers' interest"
+                },
+                {
+                  "label": "d",
+                  "text": "The provisions of Consumer Protection Act came into force from"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nIdentify the incorrect statement with respect to Consumer Protection in India.\nA. It not only includes educating consumers about their rights and\nresponsibilities but also helps in getting their grievances redressed\nB. It not only requires a judicial machinery for protecting the interest of\nconsumers but also requires the consumers to get together and form\nthemselves into Consumer associations for protection and promotion of\ntheir interests.\nC. It is the moral duty of any business to take care of consumers' interest\nand avoid any form of exploitation.\nD. The provisions of Consumer Protection Act came into force from",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1981",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1981.\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q1981 has suspiciously short stem text ('1')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Identify the decision which is not taken under financial management.\nA. Dividend Decision\nB. Capital Budgeting Decision\nC. Pricing Decision\nD. Both B. and C.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Identify the decision which is not taken under financial management.\nA. Dividend Decision\nB. Capital Budgeting Decision\nC. Pricing Decision\nD. Both B. and C.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Dividend Decision"
+                },
+                {
+                  "label": "b",
+                  "text": "Capital Budgeting Decision"
+                },
+                {
+                  "label": "c",
+                  "text": "Pricing Decision"
+                },
+                {
+                  "label": "d",
+                  "text": "Both B. and C."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\nIdentify the decision which is not taken under financial management.\nA. Dividend Decision\nB. Capital Budgeting Decision\nC. Pricing Decision\nD. Both B. and C.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "What are the factors that affect financing decisions?\n(a) Cash flow position of the company\n(b) Stability of earnings\n(c) Degree of financial risk\n(d) Contractual constraints\n(e) State of capital market\n(f) Level of competition\nChoose the correct alternative from the following:\nA. (b), (c) and (f)\nB",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "What are the factors that affect financing decisions?\n(a) Cash flow position of the company\n(b) Stability of earnings\n(c) Degree of financial risk\n(d) Contractual constraints\n(e) State of capital market\n(f) Level of competition\nChoose the correct alternative from the following:\nA. (b), (c) and (f)\nB. (d), (e) and (f)\nC. (a), (c) and (d)\nD. (a), (c) and (e)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Cash flow position of the company"
+                },
+                {
+                  "label": "b",
+                  "text": "Stability of earnings"
+                },
+                {
+                  "label": "c",
+                  "text": "Degree of financial risk"
+                },
+                {
+                  "label": "d",
+                  "text": "Contractual constraints"
+                },
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": "and"
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "a",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": "and"
+                },
+                {
+                  "label": "d",
+                  "text": "D."
+                },
+                {
+                  "label": "a",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": "and"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nWhat are the factors that affect financing decisions?\n(a) Cash flow position of the company\n(b) Stability of earnings\n(c) Degree of financial risk\n(d) Contractual constraints\n(e) State of capital market\n(f) Level of competition\nChoose the correct alternative from the following:\nA. (b), (c) and (f)\nB. (d), (e) and (f)\nC. (a), (c) and (d)\nD. (a), (c) and (e)\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 15 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 15 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Consumers can ask anything regarding the date of manufacturing, MRP, etc,\nabout the product that he intend to buy.\nIdentify the consumer right highlighted in the above lines.\nA. Right to be informed\nB. Right to be assured\nC. Right to be heard\nD. Right to safety\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Consumers can ask anything regarding the date of manufacturing, MRP, etc,\nabout the product that he intend to buy.\nIdentify the consumer right highlighted in the above lines.\nA. Right to be informed\nB. Right to be assured\nC. Right to be heard\nD. Right to safety\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Right to be informed"
+                },
+                {
+                  "label": "b",
+                  "text": "Right to be assured"
+                },
+                {
+                  "label": "c",
+                  "text": "Right to be heard"
+                },
+                {
+                  "label": "d",
+                  "text": "Right to safety"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nConsumers can ask anything regarding the date of manufacturing, MRP, etc,\nabout the product that he intend to buy.\nIdentify the consumer right highlighted in the above lines.\nA. Right to be informed\nB. Right to be assured\nC. Right to be heard\nD. Right to safety\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Read the following statements carefully:\nStatement I: Cost of debt is lower than cost of equity for  a company.\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\nStatement II: The objective of financial management is to increase\nshareholder\u2019s wealth.\nIn the light of given statements, choose the correct",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Read the following statements carefully:\nStatement I: Cost of debt is lower than cost of equity for  a company.\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\nStatement II: The objective of financial management is to increase\nshareholder\u2019s wealth.\nIn the light of given statements, choose the correct alternative from the\nfollowing:\nA. Both the statements are true.\nB. Both the statements are false.\nC. Statement I is true, Statement II is false.\nD. Statement II is true, Statement I is false.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both the statements are true."
+                },
+                {
+                  "label": "b",
+                  "text": "Both the statements are false."
+                },
+                {
+                  "label": "c",
+                  "text": "Statement I is true, Statement II is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Statement II is true, Statement I is false."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nRead the following statements carefully:\nStatement I: Cost of debt is lower than cost of equity for  a company.\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\nStatement II: The objective of financial management is to increase\nshareholder\u2019s wealth.\nIn the light of given statements, choose the correct alternative from the\nfollowing:\nA. Both the statements are true.\nB. Both the statements are false.\nC. Statement I is true, Statement II is false.\nD. Statement II is true, Statement I is false.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q21 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nState the meaning of single use plans and standing plans",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nState the meaning of single use plans and standing plans",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "State how planning\n(I) reduces creativity\n(II) leads to rigidity.\n3\n1 \u00bd\n1 \u00bd",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\n(B)\nState the meaning of single use plans and standing plans\nOR\nState how planning\n(I) reduces creativity\n(II) leads to rigidity.\n3\n1 \u00bd\n1 \u00bd",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q21 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q22 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nExplain the concept of leadership. Give two situations in which autocratic\nleadership style is most effective.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nExplain the concept of leadership. Give two situations in which autocratic\nleadership style is most effective.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Explain the concept of communication. Give the meaning of formal and\ninformal communication.\n3\n3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\n(B)\nExplain the concept of leadership. Give two situations in which autocratic\nleadership style is most effective.\nOR\nExplain the concept of communication. Give the meaning of formal and\ninformal communication.\n3\n3",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q22 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "From the following information regarding Aditya Ltd. which is in the business\nof manufacturing green tea, calculate the Return on Investment and Interest\nCoverage Ratio of the company: (Show working)\nEarning before interest and tax                                  \u20b9 15,00,000\n10% debentures         ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "From the following information regarding Aditya Ltd. which is in the business\nof manufacturing green tea, calculate the Return on Investment and Interest\nCoverage Ratio of the company: (Show working)\nEarning before interest and tax                                  \u20b9 15,00,000\n10% debentures                                                         \u20b9 12,00,000\nEquity Share Capital (\u20b910 each)                                \u20b9 18,00,000\nTax Rate                                                                             40%\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nFrom the following information regarding Aditya Ltd. which is in the business\nof manufacturing green tea, calculate the Return on Investment and Interest\nCoverage Ratio of the company: (Show working)\nEarning before interest and tax                                  \u20b9 15,00,000\n10% debentures                                                         \u20b9 12,00,000\nEquity Share Capital (\u20b910 each)                                \u20b9 18,00,000\nTax Rate                                                                             40%\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Mr Vivek Vaswani, a foodpreneur combined his passion for food with his\nentrepreneurial skills and started his innovative fast food outlet OH CHILLI! in",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Mr Vivek Vaswani, a foodpreneur combined his passion for food with his\nentrepreneurial skills and started his innovative fast food outlet OH CHILLI! in",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\nMr Vivek Vaswani, a foodpreneur combined his passion for food with his\nentrepreneurial skills and started his innovative fast food outlet OH CHILLI! in",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2021",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "He had started his career as a food blogger and had noticed that\nnumerous Indian consumers were  looking  for reasonable and pure vegetarian\nfast food options for dining out. The high end restaurants were not opted by\nmany as they were exorbitantly priced. Though many global fast food chains\nwere ru",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "He had started his career as a food blogger and had noticed that\nnumerous Indian consumers were  looking  for reasonable and pure vegetarian\nfast food options for dining out. The high end restaurants were not opted by\nmany as they were exorbitantly priced. Though many global fast food chains\nwere running across the country, yet not many outlets offered reasonable and\nhealthy pure vegetarian fast food options to consumers. OH CHILLI! became\na pioneer in offering a healthy and delicious variety of food.\nWhat came as a surprise for consumers was that even without using onion or\ngarlic in the pasta sauce, marinade and ketchup ,the food could actually taste\ngreat. The company witnessed an increase in  net profit of 26% in its second\nfinancial year and became a market leader.\n(I)  State the concept of business environment.\n(II)  Identify and explain in what way, a good understanding of business\nenvironment enabled Mr. Vivek Vaswani to improve the performance of the\nenterprise.\n1\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2021.\nHe had started his career as a food blogger and had noticed that\nnumerous Indian consumers were  looking  for reasonable and pure vegetarian\nfast food options for dining out. The high end restaurants were not opted by\nmany as they were exorbitantly priced. Though many global fast food chains\nwere running across the country, yet not many outlets offered reasonable and\nhealthy pure vegetarian fast food options to consumers. OH CHILLI! became\na pioneer in offering a healthy and delicious variety of food.\nWhat came as a surprise for consumers was that even without using onion or\ngarlic in the pasta sauce, marinade and ketchup ,the food could actually taste\ngreat. The company witnessed an increase in  net profit of 26% in its second\nfinancial year and became a market leader.\n(I)  State the concept of business environment.\n(II)  Identify and explain in what way, a good understanding of business\nenvironment enabled Mr. Vivek Vaswani to improve the performance of the\nenterprise.\n1\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The General manager of a reputed organisation, Mr. Agastaya Lokhande,\nmade the following announcement at the Annual General Meeting of the\ncompany- \u201cWhen we think of a brand,  we think of reputation, but the reputation\nis made or broken by the quality of products and customer representation. If\npeop",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The General manager of a reputed organisation, Mr. Agastaya Lokhande,\nmade the following announcement at the Annual General Meeting of the\ncompany- \u201cWhen we think of a brand,  we think of reputation, but the reputation\nis made or broken by the quality of products and customer representation. If\npeople are miserable, they can't give their best work and the brand suffers. On\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\nthe contrary, positive results can be observed if there is job satisfaction,\neffective and efficient functioning.\u201d\n(I) Identify and explain the feature of management discussed by Mr Agastaya\nin his announcement.\n(II) Explain any three reasons that make management important to any\norganisation.\n1\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\nThe General manager of a reputed organisation, Mr. Agastaya Lokhande,\nmade the following announcement at the Annual General Meeting of the\ncompany- \u201cWhen we think of a brand,  we think of reputation, but the reputation\nis made or broken by the quality of products and customer representation. If\npeople are miserable, they can't give their best work and the brand suffers. On\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\nthe contrary, positive results can be observed if there is job satisfaction,\neffective and efficient functioning.\u201d\n(I) Identify and explain the feature of management discussed by Mr Agastaya\nin his announcement.\n(II) Explain any three reasons that make management important to any\norganisation.\n1\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q26 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nIn order to streamline the selection procedure, so as to minimise the margin\nof errors, certain tests are carried out that attempt to measure the\ncharacteristics of individuals. Explain any four such tests.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nIn order to streamline the selection procedure, so as to minimise the margin\nof errors, certain tests are carried out that attempt to measure the\ncharacteristics of individuals. Explain any four such tests.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Since jobs have become more complex, the importance of employee training\nhas increased. Training programmes provide numerous benefits to workers.\nExplain any four points that support this statement.\n4\n4",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\n(B)\nIn order to streamline the selection procedure, so as to minimise the margin\nof errors, certain tests are carried out that attempt to measure the\ncharacteristics of individuals. Explain any four such tests.\nOR\nSince jobs have become more complex, the importance of employee training\nhas increased. Training programmes provide numerous benefits to workers.\nExplain any four points that support this statement.\n4\n4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q26 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "When Bhaanupriya joined as technical head of Logic Lotus Innovators, she\nwas keen on increasing the productivity and profitability of the company.\nHowever, she observed that the employees were demotivated as no attention\nwas given to their work.  Also, the workers were given little freedom to make\nd",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "When Bhaanupriya joined as technical head of Logic Lotus Innovators, she\nwas keen on increasing the productivity and profitability of the company.\nHowever, she observed that the employees were demotivated as no attention\nwas given to their work.  Also, the workers were given little freedom to make\ndecisions.\nBhaanupriya decided to stimulate the employees  by giving each worker T-\nshirts with their name on it. She also decided to include workers in work\ncommittees. This helped in improving the performance of the workers.\n(I)\nOn the basis of the understanding of Maslow\u2019s Need Hierarchy Theory\nof motivation, identify the human need that Bhaanupriya has recognised\nin order to make the subordinates act towards achievement of\norganisational goals.\n(II)\nIdentify and explain two incentives that have been provided by\nBhanupriya to improve the performance of the employees.\n1\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nWhen Bhaanupriya joined as technical head of Logic Lotus Innovators, she\nwas keen on increasing the productivity and profitability of the company.\nHowever, she observed that the employees were demotivated as no attention\nwas given to their work.  Also, the workers were given little freedom to make\ndecisions.\nBhaanupriya decided to stimulate the employees  by giving each worker T-\nshirts with their name on it. She also decided to include workers in work\ncommittees. This helped in improving the performance of the workers.\n(I)\nOn the basis of the understanding of Maslow\u2019s Need Hierarchy Theory\nof motivation, identify the human need that Bhaanupriya has recognised\nin order to make the subordinates act towards achievement of\norganisational goals.\n(II)\nIdentify and explain two incentives that have been provided by\nBhanupriya to improve the performance of the employees.\n1\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q28 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nExplain how Planning and controlling are both backward looking, as well as\nforward looking functions.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nExplain how Planning and controlling are both backward looking, as well as\nforward looking functions.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "The first step in the controlling process is setting up performance standards.\nExplain the subsequent two steps in the process of controlling.\n4\n4",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\n(B)\nExplain how Planning and controlling are both backward looking, as well as\nforward looking functions.\nOR\nThe first step in the controlling process is setting up performance standards.\nExplain the subsequent two steps in the process of controlling.\n4\n4",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q28 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "When Chandrashekhar Shukla returned to India after completing a Certificate\ncourse in Food Quality Assurance and Quality Control from the Netherlands,\nhe was convinced that he would fulfil his grandfather's dream of converting\ntheir 58 acre land into a fertile farm. He started by setting out specifi",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "When Chandrashekhar Shukla returned to India after completing a Certificate\ncourse in Food Quality Assurance and Quality Control from the Netherlands,\nhe was convinced that he would fulfil his grandfather's dream of converting\ntheir 58 acre land into a fertile farm. He started by setting out specific goals\nand laid down related activities to be performed to achieve the goals. Soon\nhe launched his own company \u2018Food and Agribusiness Solutions Private\nLimited\u2019.\nHe sought to ensure that the future events effectively meet the best interest\nof the company. He prepared an annual statement for production and sales,\nbased on sales forecasting. He noticed that the farmers grew only paddy due\nto which land remained idle for the subsequent 8 to 9 months of the year. He\nidentified and assessed various alternatives through which farms could be\nutilised for the remaining months of the year.\nThrough his accurate vision, judgement and systematic thinking based on\nanalysis of the facts, he presented a scheme to the farmers where both paddy\nand vegetables could be grown.\n4\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nIdentify and explain the features of one of the functions of Management\nhighlighted above.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nWhen Chandrashekhar Shukla returned to India after completing a Certificate\ncourse in Food Quality Assurance and Quality Control from the Netherlands,\nhe was convinced that he would fulfil his grandfather's dream of converting\ntheir 58 acre land into a fertile farm. He started by setting out specific goals\nand laid down related activities to be performed to achieve the goals. Soon\nhe launched his own company \u2018Food and Agribusiness Solutions Private\nLimited\u2019.\nHe sought to ensure that the future events effectively meet the best interest\nof the company. He prepared an annual statement for production and sales,\nbased on sales forecasting. He noticed that the farmers grew only paddy due\nto which land remained idle for the subsequent 8 to 9 months of the year. He\nidentified and assessed various alternatives through which farms could be\nutilised for the remaining months of the year.\nThrough his accurate vision, judgement and systematic thinking based on\nanalysis of the facts, he presented a scheme to the farmers where both paddy\nand vegetables could be grown.\n4\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nIdentify and explain the features of one of the functions of Management\nhighlighted above.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Give any four points of difference between advertising and personal selling.\n4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Give any four points of difference between advertising and personal selling.\n4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\nGive any four points of difference between advertising and personal selling.\n4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "It was established by the Government of India on 12 April 1988 as an interim\nadministrative body to promote orderly and healthy growth of the securities\nmarket and for investor protection. It was given statutory status in 1992\nthrough an Act of Parliament.\n(I)  Identify the regulatory body which has",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "It was established by the Government of India on 12 April 1988 as an interim\nadministrative body to promote orderly and healthy growth of the securities\nmarket and for investor protection. It was given statutory status in 1992\nthrough an Act of Parliament.\n(I)  Identify the regulatory body which has been highlighted above.\n(II)  State the three objectives of the regulatory body identified in part (I).\n(III)  State any two functions that are performed for the development of the\nsecurities market by the regulatory body identified in part (I).\n1\n3\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\nIt was established by the Government of India on 12 April 1988 as an interim\nadministrative body to promote orderly and healthy growth of the securities\nmarket and for investor protection. It was given statutory status in 1992\nthrough an Act of Parliament.\n(I)  Identify the regulatory body which has been highlighted above.\n(II)  State the three objectives of the regulatory body identified in part (I).\n(III)  State any two functions that are performed for the development of the\nsecurities market by the regulatory body identified in part (I).\n1\n3\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q32 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nDifferentiate between functional structure and divisional structure on the basis\nof:\n(I) Formation\n(II) Specialisation\n(III) Responsibility\n(IV) Managerial development\n(V) Cost\n(VI) Coordination",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nDifferentiate between functional structure and divisional structure on the basis\nof:\n(I) Formation\n(II) Specialisation\n(III) Responsibility\n(IV) Managerial development\n(V) Cost\n(VI) Coordination",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "\u2018Delegation helps a manager to extend his area of operations as without it, his\nactivities would be restricted to only what he  himself can do.\u2019\nIn light of the above statement, explain how effective delegation helps the\norganisation in achieving objectives.\n6\n6",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\n(B)\nDifferentiate between functional structure and divisional structure on the basis\nof:\n(I) Formation\n(II) Specialisation\n(III) Responsibility\n(IV) Managerial development\n(V) Cost\n(VI) Coordination\nOR\n\u2018Delegation helps a manager to extend his area of operations as without it, his\nactivities would be restricted to only what he  himself can do.\u2019\nIn light of the above statement, explain how effective delegation helps the\norganisation in achieving objectives.\n6\n6",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q32 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Leena has been appointed as the Operations Manager in a small trading\ncompany dealing in garments, with growing online sales. The company has\nrecently rented space in a warehouse to store garments and mail out orders.\nIn order to take over the responsibilities of order fulfilment, Leena promotes an\n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Leena has been appointed as the Operations Manager in a small trading\ncompany dealing in garments, with growing online sales. The company has\nrecently rented space in a warehouse to store garments and mail out orders.\nIn order to take over the responsibilities of order fulfilment, Leena promotes an\nassociate, Kushagra to the post of Inventory and Order fulfilment  Supervisor.\nKushagra has been given the task to assess whether it is best to process\norders as they come in or let them accumulate and then to process them in\nbatches. He concludes that accumulating and then processing them in\nbatches is the best way of fulfilling orders, in order to minimise cost and\nmaximise customer satisfaction.\nThrough several readings Leena  finds that the standard time taken from the\nplacement of order to the delivery of garments for a batch of  100 pieces is 72\nhours. This helped her to determine the labour cost.\nOn the basis of the understanding of concepts of scientific management,\nidentify and explain the techniques used by Leena and Kushagra to improve\nthe performance of the employees.\n6",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\nLeena has been appointed as the Operations Manager in a small trading\ncompany dealing in garments, with growing online sales. The company has\nrecently rented space in a warehouse to store garments and mail out orders.\nIn order to take over the responsibilities of order fulfilment, Leena promotes an\nassociate, Kushagra to the post of Inventory and Order fulfilment  Supervisor.\nKushagra has been given the task to assess whether it is best to process\norders as they come in or let them accumulate and then to process them in\nbatches. He concludes that accumulating and then processing them in\nbatches is the best way of fulfilling orders, in order to minimise cost and\nmaximise customer satisfaction.\nThrough several readings Leena  finds that the standard time taken from the\nplacement of order to the delivery of garments for a batch of  100 pieces is 72\nhours. This helped her to determine the labour cost.\nOn the basis of the understanding of concepts of scientific management,\nidentify and explain the techniques used by Leena and Kushagra to improve\nthe performance of the employees.\n6",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(A)",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\n(A)",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q34 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(B)\nExplain the four elements of marketing mix.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(B)\nExplain the four elements of marketing mix.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Explain any four factors affecting determination of the price of a product or\nservice.\n6\n6\n<!-- PAGE 8 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\n(B)\nExplain the four elements of marketing mix.\nOR\nExplain any four factors affecting determination of the price of a product or\nservice.\n6\n6\n<!-- PAGE 8 END -->",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q34 has suspiciously short stem text ('(A)')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

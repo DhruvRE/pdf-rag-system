@@ -1,0 +1,82 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2022-2023/173e8997897f/images/img_p2_1.png",
+    "relative_path": "173e8997897f/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      93.96,
+      270.48,
+      328.2,
+      464.04
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "( ) ( ) ( ) ( ) Q11. The corner points of the shaded unbounded feasible region of an (0.6, 1.6) and (3, 0) as shown in the figure. The minimum value function Z = 4x + 6y occurs at (a)(0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66 ("
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2022-2023/173e8997897f/images/img_p5_1.png",
+    "relative_path": "173e8997897f/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      209.88,
+      473.76,
+      241.2,
+      609.84
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "p of marks 1, 1, 2 respect marks each.) ase-Study 1: Read the fol e temperature of a person \ud835\udc65) = \u22120.1\ud835\udc65\u0b36+ \ud835\udc5a\ud835\udc65+ 98 mperature in \u00b0F at x days y tively. The third llowing passage an n during an intestin 8."
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p5_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2022-2023/173e8997897f/images/img_p5_2.png",
+    "relative_path": "173e8997897f/images/img_p5_2.png",
+    "page": 5,
+    "bbox": [
+      241.2,
+      473.76,
+      411.48,
+      628.56
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "p ks 1, 1, 2 respect each.) udy 1: Read the fol erature of a person 0.1\ud835\udc65\u0b36+ \ud835\udc5a\ud835\udc65+ 98 ure in \u00b0F at x days. s the function diffe y q p tively. The third case study question has two llowing passage and answ"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2022-2023/173e8997897f/images/img_p6_1.png",
+    "relative_path": "173e8997897f/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      154.56,
+      197.4,
+      492.24,
+      441.36
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "p [ , ] Also, find the corresponding local maximum/local minimum and the absolute maximum/absolute minimum values of the function. Q37. Case-Study 2: Read the following passage and answer the question"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2022-2023/173e8997897f/images/img_p7_1.png",
+    "relative_path": "173e8997897f/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      158.16,
+      80.76,
+      464.28,
+      246.48
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Q38. Case-Study 3: Read the following passage and answer the questions given below. There are two antiaircraft guns, named as A and B. The probabilities that the shell fired from them hits an airplane"
+  }
+}

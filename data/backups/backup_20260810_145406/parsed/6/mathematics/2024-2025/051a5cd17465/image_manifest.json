@@ -1,0 +1,98 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p1_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/6/mathematics/2024-2025/051a5cd17465/images/img_p1_1.png",
+    "relative_path": "051a5cd17465/images/img_p1_1.png",
+    "page": 1,
+    "bbox": [
+      30.25,
+      30.25,
+      565.75,
+      105.25
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Time Allowed: 1 hour and 30 minutes Maximum Marks: 40 PT - I SAMPLE PAPER (DEMO) Class 06 - Maths (NEW) G l I i"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/6/mathematics/2024-2025/051a5cd17465/images/img_p2_1.png",
+    "relative_path": "051a5cd17465/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      110.5,
+      220.0,
+      320.5,
+      311.5
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Section B like multiples. 4. Answer any THREE of the following questions: Name the line segments in Fig. Which of the five marked po the line segments? Which are on two of the line segments? (a) Const"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p2_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/6/mathematics/2024-2025/051a5cd17465/images/img_p2_2.png",
+    "relative_path": "051a5cd17465/images/img_p2_2.png",
+    "page": 2,
+    "bbox": [
+      110.5,
+      509.5,
+      260.5,
+      650.5
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "the sequence of complete graphs? What is the use of a compass in geometry? (b) What is the sum of the smallest and the largest (c) 6. Answer any TWO of the following questions: In figure, write anothe"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p3_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/6/mathematics/2024-2025/051a5cd17465/images/img_p3_1.png",
+    "relative_path": "051a5cd17465/images/img_p3_1.png",
+    "page": 3,
+    "bbox": [
+      110.5,
+      22.0,
+      260.5,
+      78.25
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "7. Answer any TWO of the following questions: How many supercells are possible for different (a)"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p3_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/6/mathematics/2024-2025/051a5cd17465/images/img_p3_2.png",
+    "relative_path": "051a5cd17465/images/img_p3_2.png",
+    "page": 3,
+    "bbox": [
+      260.5,
+      26.5,
+      410.5,
+      73.75
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "the following questions: percells are possible for different number of cells in a one dimen"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p3_3.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/6/mathematics/2024-2025/051a5cd17465/images/img_p3_3.png",
+    "relative_path": "051a5cd17465/images/img_p3_3.png",
+    "page": 3,
+    "bbox": [
+      110.5,
+      78.25,
+      260.5,
+      126.25
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "7. Answer any TWO of the following questions: How many supercells are possible for different slid? Do you notice any pattern? (a) Observe the pattern in the following and fill in t (b) 9 \u00d7 9 + 7 88"
+  }
+}

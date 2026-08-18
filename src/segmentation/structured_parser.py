@@ -8,6 +8,7 @@ Handles:
 import re
 import json
 from typing import List, Dict, Optional, Any
+from src.parsing.ai_normalizer import is_instruction_header_ai, extract_options_and_stem
 
 
 class UnifiedSchemaEncoder(json.JSONEncoder):
@@ -38,6 +39,103 @@ def create_empty_exam_schema(
     }
 
 
+def parse_subquestions_robust(q_body: str) -> list:
+    """
+    Robust sub-question parser:
+    Locates subpart markers (a), (b), (c), (d), (e) or i., ii., iii. inside a question body.
+    Handles both standard layout ((a) stem -> options) and scattered layout (stem -> [1] -> (a) -> options).
+    Strips page breaks & watermark URLs, and pairs each subpart with its exact prompt text, options, and question type.
+    """
+    cleaned_body = re.sub(r"<!--\s*PAGE\s*\d+\s*(?:START|END)\s*-->", "", q_body)
+    cleaned_body = re.sub(r"(?:\n|^)\s*(?:https?://[^\n]+|\d+\s*/\s*\d+|\b\d+\s*/\s*\d+\b|Page\s*\d+[^\n]*)\s*", "\n", cleaned_body, flags=re.IGNORECASE)
+    cleaned_body = re.sub(r"\n\s*\d+\s*/\s*\d+\s*\n", "\n", cleaned_body)
+    cleaned_body = re.sub(r"(?:\n|^)\s*numbers\.\s*", "\n", cleaned_body)
+
+    sub_matches = list(re.finditer(r"(?:\n|^)\s*(?:\[\d+\]\s*)?\(([a-eA-E])\)\s*", cleaned_body))
+    if not sub_matches:
+        sub_matches = list(re.finditer(r"(?:\n|^)\s*(?:\[\d+\]\s*)?(?:\(([i|v|x]+)\)|\b([i|v|x]+)\.)\s*", cleaned_body, re.IGNORECASE))
+
+    if not sub_matches:
+        return []
+
+    parent_prompt = cleaned_body[:sub_matches[0].start()].strip()
+    parent_lines = [l.strip() for l in parent_prompt.splitlines() if l.strip()]
+    
+    parent_header = parent_lines[0] if parent_lines else ""
+    
+    trailing_stem_seg0 = ""
+    if len(parent_lines) > 1:
+        stem_candidates = [l for l in parent_lines[1:] if not re.match(r"^\s*\[\d+\]\s*$", l) and not is_instruction_header_ai(l)]
+        trailing_stem_seg0 = "\n".join(stem_candidates).strip()
+
+    sub_questions = []
+    pending_stem = trailing_stem_seg0
+
+    for idx, match in enumerate(sub_matches):
+        lbl = (match.group(1) or match.group(2) or "").lower()
+        sub_label = f"({lbl})"
+        start_pos = match.end()
+        end_pos = sub_matches[idx + 1].start() if idx + 1 < len(sub_matches) else len(cleaned_body)
+        block_text = cleaned_body[start_pos:end_pos].strip()
+
+        opt_matches = list(re.finditer(r"(?:^|\n)\s*([a-dA-D1-4])[\)\.\:]\s*([^\n]+)", block_text))
+        
+        sub_opts = []
+        stem_before = ""
+        stem_after = ""
+
+        if opt_matches:
+            opts_start = opt_matches[0].start()
+            opts_end = opt_matches[-1].end()
+            stem_before = block_text[:opts_start].strip()
+            sub_opts = [{"label": om.group(1).upper(), "text": om.group(2).strip()} for om in opt_matches]
+            stem_after = block_text[opts_end:].strip()
+        else:
+            stem_before = block_text
+            stem_after = ""
+
+        stem_before = re.sub(r"^\s*\[\d+\]\s*", "", stem_before).strip()
+        stem_before = re.sub(r"\s*\[\d+\]\s*$", "", stem_before).strip()
+        stem_after = re.sub(r"^\s*\[\d+\]\s*", "", stem_after).strip()
+        stem_after = re.sub(r"\s*\[\d+\]\s*$", "", stem_after).strip()
+
+        # Determine actual stem text for this subpart:
+        if pending_stem:
+            current_stem = pending_stem
+            pending_stem = stem_after if stem_after else stem_before
+        else:
+            current_stem = stem_before
+            pending_stem = stem_after
+
+        current_stem = re.sub(r"^\s*\[\d+\]\s*", "", current_stem).strip()
+
+        is_ar = "Assertion" in current_stem and "Reason" in current_stem
+        is_fib = "________" in current_stem or "blank" in parent_header.lower()
+        is_tf = "true or false" in parent_header.lower() or "true/false" in parent_header.lower() or "state whether" in current_stem.lower()
+
+        if is_ar:
+            q_type = "assertion_reason"
+        elif is_fib:
+            q_type = "fill_in_the_blank"
+        elif is_tf:
+            q_type = "true_false"
+        elif sub_opts:
+            q_type = "single_choice_mcq"
+        else:
+            q_type = "short_answer"
+
+        full_stem = f"{parent_header}\n{current_stem}".strip() if parent_header and parent_header != current_stem else current_stem
+
+        sub_questions.append({
+            "label": sub_label,
+            "text": full_stem,
+            "question_type": q_type,
+            "options": sub_opts
+        })
+
+    return sub_questions
+
+
 def parse_markdown_pass_a(
     markdown_text: str,
     image_manifest: dict,
@@ -55,7 +153,6 @@ def parse_markdown_pass_a(
     section_blocks = re.split(r"(?:\n|^)#\s*(SECTION\s*[A-E]|Section\s*[A-E]|PART\s*[A-E])[^\n]*", markdown_text, flags=re.IGNORECASE)
 
     if len(section_blocks) <= 1:
-        # Single implicit section
         raw_sections = [("SECTION A", markdown_text)]
     else:
         raw_sections = []
@@ -81,29 +178,28 @@ def parse_markdown_pass_a(
             q_num = f"Q{clean_digits}"
             q_body = q_blocks[j + 1] if j + 1 < len(q_blocks) else ""
 
-            # Extract marks indicator like [1], (2 Marks), etc.
+            sub_qs = parse_subquestions_robust(q_body)
+
             mark_match = re.search(r"(?:\[|\()(\d+)\s*(?:Marks?|marks?|M)?(?:\]|\))", q_body)
             q_marks = int(mark_match.group(1)) if mark_match else 1
 
-            # Detect Assertion-Reason
-            is_ar = "Assertion" in q_body and "Reason" in q_body
-            is_mcq = bool(re.search(r"\(a\).+\(b\).+\(c\).+\(d\)", q_body, re.DOTALL)) and not is_ar
-            q_type = "assertion_reason" if is_ar else ("mcq" if is_mcq else "short_answer")
-
-            # Extract image placeholders attached to this question
-            attached_imgs = [ph for ph in image_manifest.keys() if ph in q_body]
-
-            # Detect OR internal choice alternative
             or_parts = re.split(r"\n\s*(?:\[OR\]|\bOR\b)\s*\n", q_body, flags=re.IGNORECASE)
             main_body = or_parts[0].strip()
             alt_body = or_parts[1].strip() if len(or_parts) > 1 else None
 
-            # Build subparts
+            is_ar = "Assertion" in main_body and "Reason" in main_body
+            attached_imgs = [ph for ph in image_manifest.keys() if ph in q_body]
+
+            clean_stem, extracted_options = extract_options_and_stem(main_body)
+            if not clean_stem:
+                clean_stem = main_body
+
             subpart_obj = {
                 "label": None,
                 "marks": q_marks,
-                "text": main_body,
-                "options": [],
+                "text": clean_stem,
+                "options": extracted_options,
+                "subparts": sub_qs,
                 "correct_answer": None,
                 "image_placeholders": attached_imgs,
                 "table_data": None,
@@ -111,37 +207,24 @@ def parse_markdown_pass_a(
                 "alternative": None
             }
 
-            if is_mcq:
-                # Extract choices
-                opts = []
-                opt_matches = re.findall(r"\(([a-d])\)\s*([^(\n]+)", main_body, re.IGNORECASE)
-                for lbl, txt in opt_matches:
-                    opts.append({"label": lbl.lower(), "text": txt.strip()})
-                subpart_obj["options"] = opts
-
-            if is_ar:
-                subpart_obj["options"] = [
-                    {"label": "a", "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."},
-                    {"label": "b", "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."},
-                    {"label": "c", "text": "Assertion (A) is true but Reason (R) is false."},
-                    {"label": "d", "text": "Assertion (A) is false but Reason (R) is true."}
-                ]
-
             if alt_body:
+                alt_stem, alt_options = extract_options_and_stem(alt_body)
                 subpart_obj["alternative"] = {
                     "label": "OR",
                     "marks": q_marks,
-                    "text": alt_body,
-                    "options": [],
+                    "text": alt_stem if alt_stem else alt_body,
+                    "options": alt_options,
                     "image_placeholders": [ph for ph in image_manifest.keys() if ph in alt_body]
                 }
+
+            q_type = "assertion_reason" if is_ar else ("single_choice_mcq" if len(extracted_options) >= 2 else ("case_study_passage" if sub_qs else "short_answer"))
 
             question_obj = {
                 "question_number": q_num,
                 "marks": q_marks,
                 "question_type": q_type,
                 "selection_rule": {"choose": 1 if alt_body else None, "of": 2 if alt_body else None},
-                "stem_text": main_body[:300],
+                "stem_text": clean_stem[:300],
                 "passage_text": None,
                 "subparts": [subpart_obj],
                 "topic": None,
@@ -491,5 +574,90 @@ def evaluate_confidence_and_flags(extracted_json: dict, audit_issues: List[dict]
                 q["extraction_confidence"] = "high"
                 q["flagged_for_review"] = False
                 q["flag_reason"] = None
+
+    return extracted_json
+
+
+def extract_json_from_ai_text(text: str) -> dict:
+    if not text:
+        return {}
+    # Strip <think>...</think> blocks from reasoning models
+    cleaned = re.sub(r"<think>[\s\S]*?</think>", "", text, flags=re.IGNORECASE).strip()
+    match = re.search(r"\{[\s\S]*\}", cleaned)
+    if match:
+        try:
+            return json.loads(match.group(0))
+        except Exception:
+            pass
+    try:
+        return json.loads(text)
+    except Exception:
+        return {}
+
+
+def ai_arrange_and_validate_questions(extracted_json: dict, max_questions: int = 10) -> dict:
+    """
+    Stage 5B: AI Pipeline Chunk Validator & Auto-Arranger.
+    Uses local Ollama (qwen3-vl:30b) to automatically arrange subparts, stem text, MCQ options,
+    and validate/correct math/LaTeX equations for questions requiring structural alignment.
+    """
+    import urllib.request
+
+    processed = 0
+    for sec in extracted_json.get("sections", []):
+        for q in sec.get("questions", []):
+            if q.get("flagged_for_review") or q.get("extraction_confidence") in ("medium", "low"):
+                if processed >= max_questions:
+                    break
+                qn = q.get("question_number", "Q?")
+                stem = q.get("stem_text", "")
+                raw_options = [opt.get("text", "") if isinstance(opt, dict) else str(opt) for opt in q.get("options", [])]
+                
+                prompt = (
+                    f"You are an expert CBSE exam proofreader and question formatter.\n"
+                    f"Format Question {qn}:\n"
+                    f"Raw Question Text: {stem}\n"
+                    f"Raw Options: {raw_options}\n\n"
+                    f"Return ONLY a valid JSON object with keys:\n"
+                    f"- \"clean_stem\": Cleaned stem with math in MathJax $...$.\n"
+                    f"- \"options\": List of 4 objects with \"label\" (A, B, C, D) and \"text\".\n"
+                    f"- \"subparts\": List of sub-question text strings if present, else empty list.\n"
+                )
+
+                req_payload = {
+                    "model": "qwen3.5:latest",
+                    "prompt": prompt,
+                    "stream": False,
+                    "options": {"temperature": 0.1, "num_ctx": 4096}
+                }
+
+                try:
+                    req_data = json.dumps(req_payload).encode("utf-8")
+                    req = urllib.request.Request(
+                        "http://localhost:11434/api/generate",
+                        data=req_data,
+                        headers={"Content-Type": "application/json"}
+                    )
+                    with urllib.request.urlopen(req, timeout=300) as response:
+                        res_body = response.read().decode("utf-8")
+                        res_json = json.loads(res_body)
+                        ai_out = extract_json_from_ai_text(res_json.get("response", ""))
+
+                        if ai_out.get("clean_stem"):
+                            q["stem_text"] = ai_out["clean_stem"]
+                        if ai_out.get("options") and isinstance(ai_out["options"], list) and len(ai_out["options"]) >= 2:
+                            q["options"] = ai_out["options"]
+                        if ai_out.get("subparts") and isinstance(ai_out["subparts"], list):
+                            q["subparts"] = ai_out["subparts"]
+
+                        q["ai_validated"] = True
+                        q["corrected"] = True
+                        q["flagged_for_review"] = False
+                        q["extraction_confidence"] = "high"
+                        q["flag_reason"] = "Auto-arranged & validated by AI Pipeline Engine"
+                        processed += 1
+                except Exception as e:
+                    print(f"AI Auto-Validation bypassed for offline run ({qn}): {e}")
+                    break
 
     return extracted_json

@@ -1,0 +1,2075 @@
+{
+  "exam_metadata": {
+    "subject": "mathematics",
+    "class_level": "10",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class10_mathematics_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The graph of a quadratic polynomial p(x) passes through the points (-6,0), (0, -30),\n(4,-20) and (6,0). The zeroes of the polynomial are\nA) - 6,0                   B) 4, 6                     C) - 30,-20                        D) - 6,6\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The graph of a quadratic polynomial p(x) passes through the points (-6,0), (0, -30),\n(4,-20) and (6,0). The zeroes of the polynomial are\nA) - 6,0                   B) 4, 6                     C) - 30,-20                        D) - 6,6\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nThe graph of a quadratic polynomial p(x) passes through the points (-6,0), (0, -30),\n(4,-20) and (6,0). The zeroes of the polynomial are\nA) - 6,0                   B) 4, 6                     C) - 30,-20                        D) - 6,6\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The value of k for which the system of equations 3x-ky= 7 and 6x+ 10y =3 is\ninconsistent, is\nA) -10                    B) -5                        C) 5                                  D) 7\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The value of k for which the system of equations 3x-ky= 7 and 6x+ 10y =3 is\ninconsistent, is\nA) -10                    B) -5                        C) 5                                  D) 7\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nThe value of k for which the system of equations 3x-ky= 7 and 6x+ 10y =3 is\ninconsistent, is\nA) -10                    B) -5                        C) 5                                  D) 7\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following statements is not true?\nA) A number of secants can be drawn at any point on the circle.\nB) Only one tangent can be drawn at any point on a circle.\nC) A chord is a line segment joining two points on the circle\nD) From a point inside a circle only two tangents can be drawn.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following statements is not true?\nA) A number of secants can be drawn at any point on the circle.\nB) Only one tangent can be drawn at any point on a circle.\nC) A chord is a line segment joining two points on the circle\nD) From a point inside a circle only two tangents can be drawn.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "A number of secants can be drawn at any point on the circle."
+                },
+                {
+                  "label": "b",
+                  "text": "Only one tangent can be drawn at any point on a circle."
+                },
+                {
+                  "label": "c",
+                  "text": "A chord is a line segment joining two points on the circle"
+                },
+                {
+                  "label": "d",
+                  "text": "From a point inside a circle only two tangents can be drawn."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nWhich of the following statements is not true?\nA) A number of secants can be drawn at any point on the circle.\nB) Only one tangent can be drawn at any point on a circle.\nC) A chord is a line segment joining two points on the circle\nD) From a point inside a circle only two tangents can be drawn.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "If nth term of an A.P. is 7n-4 then the common difference of the A.P. is\nA) 7                         B) 7n                        C) - 4                               D) 4\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "If nth term of an A.P. is 7n-4 then the common difference of the A.P. is\nA) 7                         B) 7n                        C) - 4                               D) 4\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "P. is 7n-4 then the common difference of the A.P. is"
+                },
+                {
+                  "label": "a",
+                  "text": "7                         B) 7n                        C) - 4                               D) 4"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nIf nth term of an A.P. is 7n-4 then the common difference of the A.P. is\nA) 7                         B) 7n                        C) - 4                               D) 4\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The radius of the base of a right circular cone and the radius of a sphere are each 5 cm\nin length. If the volume of the cone is equal to the volume of the sphere then the height\nof the cone is\nA) 5 cm            B)    20 cm                       C)  10 cm                      D)    4 cm\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The radius of the base of a right circular cone and the radius of a sphere are each 5 cm\nin length. If the volume of the cone is equal to the volume of the sphere then the height\nof the cone is\nA) 5 cm            B)    20 cm                       C)  10 cm                      D)    4 cm\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nThe radius of the base of a right circular cone and the radius of a sphere are each 5 cm\nin length. If the volume of the cone is equal to the volume of the sphere then the height\nof the cone is\nA) 5 cm            B)    20 cm                       C)  10 cm                      D)    4 cm\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "If tan\ud835\udf03 =\n5\n2 then\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03 + \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03  \u2212 \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03 is equal to\nA)\n11\n9                  B)\n3\n2                         C)\n9\n11                             D) 4\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "If tan\ud835\udf03 =\n5\n2 then\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03 + \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03  \u2212 \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03 is equal to\nA)\n11\n9                  B)\n3\n2                         C)\n9\n11                             D) 4\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "11"
+                },
+                {
+                  "label": "b",
+                  "text": "3"
+                },
+                {
+                  "label": "c",
+                  "text": "9"
+                },
+                {
+                  "label": "d",
+                  "text": "4"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nIf tan\ud835\udf03 =\n5\n2 then\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03 + \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03  \u2212 \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03 is equal to\nA)\n11\n9                  B)\n3\n2                         C)\n9\n11                             D) 4\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "In the given figure, a tangent has been drawn at a point P on the circle centred at O.\nIf \u2220 TPQ= 110\ud835\udc42 then \u2220POQ is equal to\nA) 110\ud835\udc42                             B) 70\ud835\udc42                       C) 140\ud835\udc42                           D)55\ud835\udc42\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "In the given figure, a tangent has been drawn at a point P on the circle centred at O.\nIf \u2220 TPQ= 110\ud835\udc42 then \u2220POQ is equal to\nA) 110\ud835\udc42                             B) 70\ud835\udc42                       C) 140\ud835\udc42                           D)55\ud835\udc42\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nIn the given figure, a tangent has been drawn at a point P on the circle centred at O.\nIf \u2220 TPQ= 110\ud835\udc42 then \u2220POQ is equal to\nA) 110\ud835\udc42                             B) 70\ud835\udc42                       C) 140\ud835\udc42                           D)55\ud835\udc42\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A quadratic polynomial having zeroes - \u221a5\n2   and  \u221a5\n2  is\nA)  \ud835\udc652 \u2212 5\u221a2 x +1           B) 8\ud835\udc652 - 20      C) 15\ud835\udc652- 6               D) \ud835\udc652 - 2\u221a5  x -1\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A quadratic polynomial having zeroes - \u221a5\n2   and  \u221a5\n2  is\nA)  \ud835\udc652 \u2212 5\u221a2 x +1           B) 8\ud835\udc652 - 20      C) 15\ud835\udc652- 6               D) \ud835\udc652 - 2\u221a5  x -1\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nA quadratic polynomial having zeroes - \u221a5\n2   and  \u221a5\n2  is\nA)  \ud835\udc652 \u2212 5\u221a2 x +1           B) 8\ud835\udc652 - 20      C) 15\ud835\udc652- 6               D) \ud835\udc652 - 2\u221a5  x -1\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Consider the frequency distribution of 45 observations.\nClass\n0-10\n10-20\n20-30\n30-40\n40-50\nFrequency\n5\n9\n15\n10\n6\nThe upper limit of median class is\nA) 20                           B) 10                          C) 30                                D) 40\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Consider the frequency distribution of 45 observations.\nClass\n0-10\n10-20\n20-30\n30-40\n40-50\nFrequency\n5\n9\n15\n10\n6\nThe upper limit of median class is\nA) 20                           B) 10                          C) 30                                D) 40\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nConsider the frequency distribution of 45 observations.\nClass\n0-10\n10-20\n20-30\n30-40\n40-50\nFrequency\n5\n9\n15\n10\n6\nThe upper limit of median class is\nA) 20                           B) 10                          C) 30                                D) 40\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "O is the point of intersection of two chords AB and CD of a circle.\nIf  \u2220\ud835\udc35\ud835\udc42\ud835\udc36= 80\ud835\udc42 and OA = OD then \ud835\udee5\ud835\udc42\ud835\udc37\ud835\udc34 \ud835\udc4e\ud835\udc5b\ud835\udc51  \ud835\udee5\ud835\udc42\ud835\udc35\ud835\udc36 are\nA) equilateral and similar                       B) isosceles and similar\nC) isosceles but not similar                    D) not similar\n1\nQ\nO\nP\nT\nA\nD\nB\nC\nO\n<!-- PAGE 2 END -->\n\n<!--",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "O is the point of intersection of two chords AB and CD of a circle.\nIf  \u2220\ud835\udc35\ud835\udc42\ud835\udc36= 80\ud835\udc42 and OA = OD then \ud835\udee5\ud835\udc42\ud835\udc37\ud835\udc34 \ud835\udc4e\ud835\udc5b\ud835\udc51  \ud835\udee5\ud835\udc42\ud835\udc35\ud835\udc36 are\nA) equilateral and similar                       B) isosceles and similar\nC) isosceles but not similar                    D) not similar\n1\nQ\nO\nP\nT\nA\nD\nB\nC\nO\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "equilateral and similar                       B) isosceles and similar"
+                },
+                {
+                  "label": "c",
+                  "text": "isosceles but not similar                    D) not similar"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nO is the point of intersection of two chords AB and CD of a circle.\nIf  \u2220\ud835\udc35\ud835\udc42\ud835\udc36= 80\ud835\udc42 and OA = OD then \ud835\udee5\ud835\udc42\ud835\udc37\ud835\udc34 \ud835\udc4e\ud835\udc5b\ud835\udc51  \ud835\udee5\ud835\udc42\ud835\udc35\ud835\udc36 are\nA) equilateral and similar                       B) isosceles and similar\nC) isosceles but not similar                    D) not similar\n1\nQ\nO\nP\nT\nA\nD\nB\nC\nO\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The roots of the quadratic equation \ud835\udc652+x-1 = 0 are\nA) Irrational and distinct                               B) not real\nC ) rational and distinct                                D) real and equal\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The roots of the quadratic equation \ud835\udc652+x-1 = 0 are\nA) Irrational and distinct                               B) not real\nC ) rational and distinct                                D) real and equal\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Irrational and distinct                               B) not real"
+                },
+                {
+                  "label": "c",
+                  "text": "rational and distinct                                D) real and equal"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nThe roots of the quadratic equation \ud835\udc652+x-1 = 0 are\nA) Irrational and distinct                               B) not real\nC ) rational and distinct                                D) real and equal\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "If \ud835\udf03 = 30\ud835\udc5c   then the value of 3tan\ud835\udf03   is\nA)1                        B)\n1\n\u221a3                     C )\n3\n\u221a3               (D) not defined\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "If \ud835\udf03 = 30\ud835\udc5c   then the value of 3tan\ud835\udf03   is\nA)1                        B)\n1\n\u221a3                     C )\n3\n\u221a3               (D) not defined\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1                        B)"
+                },
+                {
+                  "label": "c",
+                  "text": "3"
+                },
+                {
+                  "label": "d",
+                  "text": "not defined"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\nIf \ud835\udf03 = 30\ud835\udc5c   then the value of 3tan\ud835\udf03   is\nA)1                        B)\n1\n\u221a3                     C )\n3\n\u221a3               (D) not defined\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The  volume of a solid hemisphere is\n396\n7 \ud835\udc50\ud835\udc5a3.The total surface area of the solid\nhemisphere (in sq.cm) is\nA)\n396\n7                   B)\n594\n7                       C)\n549\n7                     D)\n604\n7\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The  volume of a solid hemisphere is\n396\n7 \ud835\udc50\ud835\udc5a3.The total surface area of the solid\nhemisphere (in sq.cm) is\nA)\n396\n7                   B)\n594\n7                       C)\n549\n7                     D)\n604\n7\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "396"
+                },
+                {
+                  "label": "b",
+                  "text": "594"
+                },
+                {
+                  "label": "c",
+                  "text": "549"
+                },
+                {
+                  "label": "d",
+                  "text": "604"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\nThe  volume of a solid hemisphere is\n396\n7 \ud835\udc50\ud835\udc5a3.The total surface area of the solid\nhemisphere (in sq.cm) is\nA)\n396\n7                   B)\n594\n7                       C)\n549\n7                     D)\n604\n7\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "In a bag containing 24 balls, 4 are blue, 11 are green and the rest are white. One ball is\ndrawn at random. The probability that drawn ball is white in colour is\n\ud835\udc34)\n1\n6               B)\n3\n8                  C )\n11\n24                    D)\n5\n8\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "In a bag containing 24 balls, 4 are blue, 11 are green and the rest are white. One ball is\ndrawn at random. The probability that drawn ball is white in colour is\n\ud835\udc34)\n1\n6               B)\n3\n8                  C )\n11\n24                    D)\n5\n8\n1",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "3"
+                },
+                {
+                  "label": "c",
+                  "text": "11"
+                },
+                {
+                  "label": "d",
+                  "text": "5"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nIn a bag containing 24 balls, 4 are blue, 11 are green and the rest are white. One ball is\ndrawn at random. The probability that drawn ball is white in colour is\n\ud835\udc34)\n1\n6               B)\n3\n8                  C )\n11\n24                    D)\n5\n8\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The point on the x- axis nearest to the point (-4,-5) is\nA) (0, 0)             B) (-4, 0)                     C ) (-5, 0)               D) (\u221a41, 0)\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The point on the x- axis nearest to the point (-4,-5) is\nA) (0, 0)             B) (-4, 0)                     C ) (-5, 0)               D) (\u221a41, 0)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nThe point on the x- axis nearest to the point (-4,-5) is\nA) (0, 0)             B) (-4, 0)                     C ) (-5, 0)               D) (\u221a41, 0)\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following gives the middle most observation of the data?\nA) Median          B) Mean                       C) Range              D) Mode\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following gives the middle most observation of the data?\nA) Median          B) Mean                       C) Range              D) Mode\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nWhich of the following gives the middle most observation of the data?\nA) Median          B) Mean                       C) Range              D) Mode\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A point on the x-axis divides the line segment joining the points A(2, -3) and B(5, 6) in\nthe ratio 1:2. The point is\nA) (4, 0)             B) (\n7\n2 ,\n3\n2 )                C) (3, 0)                   D) (0,3)\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A point on the x-axis divides the line segment joining the points A(2, -3) and B(5, 6) in\nthe ratio 1:2. The point is\nA) (4, 0)             B) (\n7\n2 ,\n3\n2 )                C) (3, 0)                   D) (0,3)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ""
+                },
+                {
+                  "label": "b",
+                  "text": ""
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                },
+                {
+                  "label": "d",
+                  "text": ""
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\nA point on the x-axis divides the line segment joining the points A(2, -3) and B(5, 6) in\nthe ratio 1:2. The point is\nA) (4, 0)             B) (\n7\n2 ,\n3\n2 )                C) (3, 0)                   D) (0,3)\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A card is drawn from a well shuffled deck of playing cards. The probability of getting red\nface card is\n\ud835\udc34)\n3\n13                B)\n1\n2                      C)\n3\n52                           D)\n3\n26\n1\nDIRECTION: In the question number 19 and 20, a statement of Assertion (A) is\nfollowed by a statement ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A card is drawn from a well shuffled deck of playing cards. The probability of getting red\nface card is\n\ud835\udc34)\n3\n13                B)\n1\n2                      C)\n3\n52                           D)\n3\n26\n1\nDIRECTION: In the question number 19 and 20, a statement of Assertion (A) is\nfollowed by a statement of Reason (R).\nChoose the correct option\nA)Both assertion (A) and reason (R) are true and reason (R) is the correct\nexplanation of assertion (A)\nB)Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\nC)Assertion (A) is true but reason (R)  is false.\nD)Assertion (A)  is false but reason (R) is true.",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "1"
+                },
+                {
+                  "label": "c",
+                  "text": "3"
+                },
+                {
+                  "label": "d",
+                  "text": "3"
+                },
+                {
+                  "label": "a",
+                  "text": "is"
+                },
+                {
+                  "label": "a",
+                  "text": "Both assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and reason"
+                },
+                {
+                  "label": "a",
+                  "text": "B)Both assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "and reason"
+                },
+                {
+                  "label": "a",
+                  "text": "C)Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is true but reason"
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion"
+                },
+                {
+                  "label": "a",
+                  "text": "is false but reason"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nA card is drawn from a well shuffled deck of playing cards. The probability of getting red\nface card is\n\ud835\udc34)\n3\n13                B)\n1\n2                      C)\n3\n52                           D)\n3\n26\n1\nDIRECTION: In the question number 19 and 20, a statement of Assertion (A) is\nfollowed by a statement of Reason (R).\nChoose the correct option\nA)Both assertion (A) and reason (R) are true and reason (R) is the correct\nexplanation of assertion (A)\nB)Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\nC)Assertion (A) is true but reason (R)  is false.\nD)Assertion (A)  is false but reason (R) is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 12 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 12 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion (A): HCF of any two consecutive even natural numbers is always 2.\nReason (R): Even natural numbers are divisible by 2.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion (A): HCF of any two consecutive even natural numbers is always 2.\nReason (R): Even natural numbers are divisible by 2.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nAssertion (A): HCF of any two consecutive even natural numbers is always 2.\nReason (R): Even natural numbers are divisible by 2.\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion (A): If the radius of sector of a circle is reduced to its half and angle is\ndoubled then the perimeter of the sector remains the same.\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nReason (R): The length of the arc subtending angle \u03b8 at the centre of a circle of radius r\n=\n\ud835\udef1\ud835\udc5f\ud835\udf03",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion (A): If the radius of sector of a circle is reduced to its half and angle is\ndoubled then the perimeter of the sector remains the same.\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nReason (R): The length of the arc subtending angle \u03b8 at the centre of a circle of radius r\n=\n\ud835\udef1\ud835\udc5f\ud835\udf03",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nAssertion (A): If the radius of sector of a circle is reduced to its half and angle is\ndoubled then the perimeter of the sector remains the same.\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nReason (R): The length of the arc subtending angle \u03b8 at the centre of a circle of radius r\n=\n\ud835\udef1\ud835\udc5f\ud835\udf03",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q180",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 180.\n",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q180 has suspiciously short stem text ('')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A)Find the H.C.F and L.C.M of 480 and 720 using the Prime factorisation method.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A)Find the H.C.F and L.C.M of 480 and 720 using the Prime factorisation method.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Find the H.C.F and L.C.M of 480 and 720 using the Prime factorisation method."
+                },
+                {
+                  "label": "a",
+                  "text": "The H.C.F of 85 and 238 is expressible in the form 85m -238. Find the value of"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(A) The H.C.F of 85 and 238 is expressible in the form 85m -238. Find the value of\nm.\n2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\n(A)Find the H.C.F and L.C.M of 480 and 720 using the Prime factorisation method.\nOR\n(A) The H.C.F of 85 and 238 is expressible in the form 85m -238. Find the value of\nm.\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A) Two dice are rolled together bearing numbers 4, 6, 7, 9, 11, 12. Find the\nprobability that the product of numbers obtained is an odd number",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A) Two dice are rolled together bearing numbers 4, 6, 7, 9, 11, 12. Find the\nprobability that the product of numbers obtained is an odd number",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Two dice are rolled together bearing numbers 4, 6, 7, 9, 11, 12. Find the"
+                },
+                {
+                  "label": "b",
+                  "text": "How many positive three digit integers have the hundredths digit 8 and unit\u2019s"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B) How many positive three digit integers have the hundredths digit 8 and unit\u2019s\ndigit 5? Find the probability of selecting one such number out of all three digit\nnumbers.\n2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\n(A) Two dice are rolled together bearing numbers 4, 6, 7, 9, 11, 12. Find the\nprobability that the product of numbers obtained is an odd number\nOR\n(B) How many positive three digit integers have the hundredths digit 8 and unit\u2019s\ndigit 5? Find the probability of selecting one such number out of all three digit\nnumbers.\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Evaluate:\n2\ud835\udc60\ud835\udc56\ud835\udc5b 260\ud835\udc5c   \u2212 \ud835\udc61\ud835\udc4e\ud835\udc5b230\ud835\udc5c\n\ud835\udc60\ud835\udc52\ud835\udc502 45\ud835\udc5c\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Evaluate:\n2\ud835\udc60\ud835\udc56\ud835\udc5b 260\ud835\udc5c   \u2212 \ud835\udc61\ud835\udc4e\ud835\udc5b230\ud835\udc5c\n\ud835\udc60\ud835\udc52\ud835\udc502 45\ud835\udc5c\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nEvaluate:\n2\ud835\udc60\ud835\udc56\ud835\udc5b 260\ud835\udc5c   \u2212 \ud835\udc61\ud835\udc4e\ud835\udc5b230\ud835\udc5c\n\ud835\udc60\ud835\udc52\ud835\udc502 45\ud835\udc5c\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Find the point(s) on the x-axis which is at a distance of \u221a41   units from the point (8, -5).\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Find the point(s) on the x-axis which is at a distance of \u221a41   units from the point (8, -5).\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\nFind the point(s) on the x-axis which is at a distance of \u221a41   units from the point (8, -5).\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Show that the points A(-5,6), B(3, 0) and C( 9, 8) are the vertices of an isosceles\ntriangle.\n2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Show that the points A(-5,6), B(3, 0) and C( 9, 8) are the vertices of an isosceles\ntriangle.\n2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\nShow that the points A(-5,6), B(3, 0) and C( 9, 8) are the vertices of an isosceles\ntriangle.\n2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A) In \ud835\udee5ABC, D, E and F are midpoints of BC,CA and AB respectively. Prove that\n\u25b3\ud835\udc39\ud835\udc35\ud835\udc37 \u223c \u25b3 DEF and   \u25b3 DEF \u223c \u25b3 ABC",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A) In \ud835\udee5ABC, D, E and F are midpoints of BC,CA and AB respectively. Prove that\n\u25b3\ud835\udc39\ud835\udc35\ud835\udc37 \u223c \u25b3 DEF and   \u25b3 DEF \u223c \u25b3 ABC",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "In \ud835\udee5ABC, D, E and F are midpoints of BC,CA and AB respectively. Prove that"
+                },
+                {
+                  "label": "b",
+                  "text": "In \ud835\udee5ABC, P and Q are points on AB and AC respectively such that PQ is parallel"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B) In \ud835\udee5ABC, P and Q are points on AB and AC respectively such that PQ is parallel\nto BC.\n3\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nProve that the median AD drawn from A on BC bisects PQ.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\n(A) In \ud835\udee5ABC, D, E and F are midpoints of BC,CA and AB respectively. Prove that\n\u25b3\ud835\udc39\ud835\udc35\ud835\udc37 \u223c \u25b3 DEF and   \u25b3 DEF \u223c \u25b3 ABC\nOR\n(B) In \ud835\udee5ABC, P and Q are points on AB and AC respectively such that PQ is parallel\nto BC.\n3\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nProve that the median AD drawn from A on BC bisects PQ.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The sum of two numbers is 18 and the sum of their reciprocals is 9/40. Find the\nnumbers.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The sum of two numbers is 18 and the sum of their reciprocals is 9/40. Find the\nnumbers.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nThe sum of two numbers is 18 and the sum of their reciprocals is 9/40. Find the\nnumbers.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "If \ud835\udefc  and \ud835\udefd are zeroes of a polynomial 6\ud835\udc652 -5x+1 then form a quadratic\npolynomial whose zeroes are \ud835\udefc2 and \ud835\udefd2.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "If \ud835\udefc  and \ud835\udefd are zeroes of a polynomial 6\ud835\udc652 -5x+1 then form a quadratic\npolynomial whose zeroes are \ud835\udefc2 and \ud835\udefd2.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\nIf \ud835\udefc  and \ud835\udefd are zeroes of a polynomial 6\ud835\udc652 -5x+1 then form a quadratic\npolynomial whose zeroes are \ud835\udefc2 and \ud835\udefd2.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "If cos\u03b8 + sin\u03b8 = 1 , then prove that cos\u03b8 - sin\u03b8 = \u00b11\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "If cos\u03b8 + sin\u03b8 = 1 , then prove that cos\u03b8 - sin\u03b8 = \u00b11\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nIf cos\u03b8 + sin\u03b8 = 1 , then prove that cos\u03b8 - sin\u03b8 = \u00b11\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A) The minute hand of a wall clock is 18 cm long. Find the area of the face\nof the clock described by the minute hand in 35 minutes.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A) The minute hand of a wall clock is 18 cm long. Find the area of the face\nof the clock described by the minute hand in 35 minutes.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "The minute hand of a wall clock is 18 cm long. Find the area of the face"
+                },
+                {
+                  "label": "b",
+                  "text": "AB is a chord of a circle centred at O such that \u2220AOB=60\u02da.  If OA = 14 cm"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B) AB is a chord of a circle centred at O such that \u2220AOB=60\u02da.  If OA = 14 cm\nthen find the area of the minor segment. (take \u221a3 =1.73)\n3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\n(A) The minute hand of a wall clock is 18 cm long. Find the area of the face\nof the clock described by the minute hand in 35 minutes.\nOR\n(B) AB is a chord of a circle centred at O such that \u2220AOB=60\u02da.  If OA = 14 cm\nthen find the area of the minor segment. (take \u221a3 =1.73)\n3",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Prove that \u221a3 is an irrational number.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Prove that \u221a3 is an irrational number.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\nProve that \u221a3 is an irrational number.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "(A) Solve the following system of linear equations graphically:\nx+2y = 3, 2x-3y+8 = 0",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(A) Solve the following system of linear equations graphically:\nx+2y = 3, 2x-3y+8 = 0",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Solve the following system of linear equations graphically:"
+                },
+                {
+                  "label": "b",
+                  "text": "Places A and B are 180 km apart on a highway. One car starts from A and"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(B) Places A and B are 180 km apart on a highway. One car starts from A and\nanother from B at the same time. If the car travels in the same direction at\n5\nA\nP\nR\nQ\nB\nD\nC\nO\nA\nB\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\ndifferent speeds, they meet in 9 hours. If they travel towards each other with the\nsame speeds as before, they meet in an hour. What are the speeds of the two\ncars?",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\n(A) Solve the following system of linear equations graphically:\nx+2y = 3, 2x-3y+8 = 0\nOR\n(B) Places A and B are 180 km apart on a highway. One car starts from A and\nanother from B at the same time. If the car travels in the same direction at\n5\nA\nP\nR\nQ\nB\nD\nC\nO\nA\nB\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\ndifferent speeds, they meet in 9 hours. If they travel towards each other with the\nsame speeds as before, they meet in an hour. What are the speeds of the two\ncars?",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Prove that the lengths of tangents drawn from an external point to a circle are equal.\nUsing above result, find the length BC of \ud835\udee5ABC. Given that, a circle is inscribed in\n\ud835\udee5ABC touching the sides AB, BC and CA at R, P and Q respectively and AB= 10 cm,\nAQ= 7cm ,CQ= 5cm.\n5",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Prove that the lengths of tangents drawn from an external point to a circle are equal.\nUsing above result, find the length BC of \ud835\udee5ABC. Given that, a circle is inscribed in\n\ud835\udee5ABC touching the sides AB, BC and CA at R, P and Q respectively and AB= 10 cm,\nAQ= 7cm ,CQ= 5cm.\n5",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\nProve that the lengths of tangents drawn from an external point to a circle are equal.\nUsing above result, find the length BC of \ud835\udee5ABC. Given that, a circle is inscribed in\n\ud835\udee5ABC touching the sides AB, BC and CA at R, P and Q respectively and AB= 10 cm,\nAQ= 7cm ,CQ= 5cm.\n5",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A boy whose eye level is 1.35 m from the ground, spots a balloon moving with the wind\nin a horizontal line at some height from the ground. The angle of elevation of the\nballoon from the eyes of the boy at an instant is 60\ud835\udc5c. After 12 seconds, the angle of\nelevation reduces to 30\u00b0. If the speed of the",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A boy whose eye level is 1.35 m from the ground, spots a balloon moving with the wind\nin a horizontal line at some height from the ground. The angle of elevation of the\nballoon from the eyes of the boy at an instant is 60\ud835\udc5c. After 12 seconds, the angle of\nelevation reduces to 30\u00b0. If the speed of the wind is 3m/s then find the height of the\nballoon from the ground. (Use \u221a3= 1.73)\n5",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\nA boy whose eye level is 1.35 m from the ground, spots a balloon moving with the wind\nin a horizontal line at some height from the ground. The angle of elevation of the\nballoon from the eyes of the boy at an instant is 60\ud835\udc5c. After 12 seconds, the angle of\nelevation reduces to 30\u00b0. If the speed of the wind is 3m/s then find the height of the\nballoon from the ground. (Use \u221a3= 1.73)\n5",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q35",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Find the mean and median of the following data:\nClass\n85-90\n90-95\n95-100\n100-105\n105-110\n110-115\nfrequency\n15\n22\n20\n18\n20\n25",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Find the mean and median of the following data:\nClass\n85-90\n90-95\n95-100\n100-105\n105-110\n110-115\nfrequency\n15\n22\n20\n18\n20\n25",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "The monthly expenditure on milk in 200 families of a Housing Society is given below\nMonthly\nExpendit\nure\n(in Rs.)\n1000-\n1500\n1500-\n2000\n2000-\n2500\n2500-\n3000\n3000-\n3500\n3500-\n4000\n4000-\n4500\n4500-\n5000\nNumber\nof\nfamilies\n24\n40\n33\nx\n30\n22\n16\n7\nFind the value of x and also find the mean expenditure\n5",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 35.\nFind the mean and median of the following data:\nClass\n85-90\n90-95\n95-100\n100-105\n105-110\n110-115\nfrequency\n15\n22\n20\n18\n20\n25\nOR\nThe monthly expenditure on milk in 200 families of a Housing Society is given below\nMonthly\nExpendit\nure\n(in Rs.)\n1000-\n1500\n1500-\n2000\n2000-\n2500\n2500-\n3000\n3000-\n3500\n3500-\n4000\n4000-\n4500\n4500-\n5000\nNumber\nof\nfamilies\n24\n40\n33\nx\n30\n22\n16\n7\nFind the value of x and also find the mean expenditure\n5",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q36",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Ms. Sheela visited a store near her house and found that the glass jars are arranged\none above the other in a specific pattern.\nA\nB\nC\nP\nQ\nR\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nOn the top layer there are 3 jars. In the next layer there are 6 jars. In the 3rd layer from\nthe top there are 9 jars",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Ms. Sheela visited a store near her house and found that the glass jars are arranged\none above the other in a specific pattern.\nA\nB\nC\nP\nQ\nR\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nOn the top layer there are 3 jars. In the next layer there are 6 jars. In the 3rd layer from\nthe top there are 9 jars and so on till the 8th layer.\nOn the basis of the above situation answer the following questions.\n(i) Write an A.P whose terms represent the number of jars in different layers starting\nfrom top . Also, find the common difference.\n(ii) Is it possible to arrange 34 jars in a layer if this pattern is continued? Justify your\nanswer.\n(iii) (A) If there are \u2018n\u2019  number of rows in a layer then find the expression for finding the\ntotal number of jars in terms of n. Hence find \ud835\udc468 .",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "P whose terms represent the number of jars in different layers starting"
+                },
+                {
+                  "label": "a",
+                  "text": "If there are \u2018n\u2019  number of rows in a layer then find the expression for finding the"
+                },
+                {
+                  "label": "b",
+                  "text": "The shopkeeper added 3 jars in each layer. How many jars are there in the 5th"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii) (B) The shopkeeper added 3 jars in each layer. How many jars are there in the 5th\nlayer from the top?\n.\n1\n1\n2\n2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 36.\nMs. Sheela visited a store near her house and found that the glass jars are arranged\none above the other in a specific pattern.\nA\nB\nC\nP\nQ\nR\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nOn the top layer there are 3 jars. In the next layer there are 6 jars. In the 3rd layer from\nthe top there are 9 jars and so on till the 8th layer.\nOn the basis of the above situation answer the following questions.\n(i) Write an A.P whose terms represent the number of jars in different layers starting\nfrom top . Also, find the common difference.\n(ii) Is it possible to arrange 34 jars in a layer if this pattern is continued? Justify your\nanswer.\n(iii) (A) If there are \u2018n\u2019  number of rows in a layer then find the expression for finding the\ntotal number of jars in terms of n. Hence find \ud835\udc468 .\nOR\n(iii) (B) The shopkeeper added 3 jars in each layer. How many jars are there in the 5th\nlayer from the top?\n.\n1\n1\n2\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 3 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q37",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Triangle is a very popular shape used in interior designing. The picture given above\nshows a cabinet designed by a famous interior designer.\nHere the largest triangle is represented by \u25b3 ABC and smallest one with shelf is\nrepresented by \u25b3 DEF. PQ is parallel to EF.\n(i) Show that \u25b3 DPQ \u223c \u25b3 DEF.\n1\nA\nB",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Triangle is a very popular shape used in interior designing. The picture given above\nshows a cabinet designed by a famous interior designer.\nHere the largest triangle is represented by \u25b3 ABC and smallest one with shelf is\nrepresented by \u25b3 DEF. PQ is parallel to EF.\n(i) Show that \u25b3 DPQ \u223c \u25b3 DEF.\n1\nA\nB\nC\nD\nE\nF\nP\nQ\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n(ii) If DP= 50 cm and PE = 70 cm then find\n\ud835\udc43\ud835\udc44\n\ud835\udc38\ud835\udc39 .\n(iii) (A) If 2AB = 5DE and \u25b3 ABC \u223c \u25b3 DEF then show that\n\ud835\udc5d\ud835\udc52\ud835\udc5f\ud835\udc56\ud835\udc5a\ud835\udc52\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc5c\ud835\udc53 \u25b3\ud835\udc34\ud835\udc35\ud835\udc36\n\ud835\udc5d\ud835\udc52\ud835\udc5f\ud835\udc56\ud835\udc5a\ud835\udc52\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc5c\ud835\udc53 \u25b3\ud835\udc37\ud835\udc38\ud835\udc39 is constant.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "If 2AB = 5DE and \u25b3 ABC \u223c \u25b3 DEF then show that"
+                },
+                {
+                  "label": "b",
+                  "text": "If AM and DN are medians of triangles ABC and DEF respectively then prove"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii) (B) If AM and DN are medians of triangles ABC and DEF respectively then prove\nthat  \u25b3 ABM \u223c \u25b3 DEN.\n1\n2\n2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 37.\nTriangle is a very popular shape used in interior designing. The picture given above\nshows a cabinet designed by a famous interior designer.\nHere the largest triangle is represented by \u25b3 ABC and smallest one with shelf is\nrepresented by \u25b3 DEF. PQ is parallel to EF.\n(i) Show that \u25b3 DPQ \u223c \u25b3 DEF.\n1\nA\nB\nC\nD\nE\nF\nP\nQ\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n(ii) If DP= 50 cm and PE = 70 cm then find\n\ud835\udc43\ud835\udc44\n\ud835\udc38\ud835\udc39 .\n(iii) (A) If 2AB = 5DE and \u25b3 ABC \u223c \u25b3 DEF then show that\n\ud835\udc5d\ud835\udc52\ud835\udc5f\ud835\udc56\ud835\udc5a\ud835\udc52\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc5c\ud835\udc53 \u25b3\ud835\udc34\ud835\udc35\ud835\udc36\n\ud835\udc5d\ud835\udc52\ud835\udc5f\ud835\udc56\ud835\udc5a\ud835\udc52\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc5c\ud835\udc53 \u25b3\ud835\udc37\ud835\udc38\ud835\udc39 is constant.\nOR\n(iii) (B) If AM and DN are medians of triangles ABC and DEF respectively then prove\nthat  \u25b3 ABM \u223c \u25b3 DEN.\n1\n2\n2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q38",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Metallic silos are used by farmers for storing grains. Farmer Girdhar has decided to\nbuild a new metallic silo to store his harvested grains. It is in the shape of a cylinder\nmounted by a cone.\nDimensions of the conical part of a silo is as follows:\nRadius of base = 1.5 m\nHeight = 2 m\nDimensions of ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Metallic silos are used by farmers for storing grains. Farmer Girdhar has decided to\nbuild a new metallic silo to store his harvested grains. It is in the shape of a cylinder\nmounted by a cone.\nDimensions of the conical part of a silo is as follows:\nRadius of base = 1.5 m\nHeight = 2 m\nDimensions of the cylindrical part of a silo is as follows:\nRadius = 1.5 m\nHeight = 7 m\nOn the basis of the above information answer the following questions.\n(i)  Calculate the slant height of the conical part of one silo.\n(ii) Find the curved surface area of the conical part of one silo.\n(iii)(A) Find the cost of metal sheet used to make the curved cylindrical part of 1 silo at\nthe rate of  \u20b92000 per \ud835\udc5a2.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Find the cost of metal sheet used to make the curved cylindrical part of 1 silo at"
+                },
+                {
+                  "label": "b",
+                  "text": "Find the total capacity of one silo to store grains."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii) (B) Find the total capacity of one silo to store grains.\n1\n1\n2\n2\n<!-- PAGE 8 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 38.\nMetallic silos are used by farmers for storing grains. Farmer Girdhar has decided to\nbuild a new metallic silo to store his harvested grains. It is in the shape of a cylinder\nmounted by a cone.\nDimensions of the conical part of a silo is as follows:\nRadius of base = 1.5 m\nHeight = 2 m\nDimensions of the cylindrical part of a silo is as follows:\nRadius = 1.5 m\nHeight = 7 m\nOn the basis of the above information answer the following questions.\n(i)  Calculate the slant height of the conical part of one silo.\n(ii) Find the curved surface area of the conical part of one silo.\n(iii)(A) Find the cost of metal sheet used to make the curved cylindrical part of 1 silo at\nthe rate of  \u20b92000 per \ud835\udc5a2.\nOR\n(iii) (B) Find the total capacity of one silo to store grains.\n1\n1\n2\n2\n<!-- PAGE 8 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}
