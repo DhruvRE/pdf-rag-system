@@ -1,0 +1,1189 @@
+{
+  "exam_metadata": {
+    "subject": "mathematics",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_mathematics_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If \ud835\udc50\ud835\udc5c\ud835\udc61\u22121(3\ud835\udc65+ 5) >\n\ud835\udf0b\n4,\nthen find the range of the values of\n.\nx",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If \ud835\udc50\ud835\udc5c\ud835\udc61\u22121(3\ud835\udc65+ 5) >\n\ud835\udf0b\n4,\nthen find the range of the values of\n.\nx",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.21\n. If \ud835\udc50\ud835\udc5c\ud835\udc61\u22121(3\ud835\udc65+ 5) >\n\ud835\udf0b\n4,\nthen find the range of the values of\n.\nx",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The cost (in rupees) of producing x items in factory, each day is given by\n\ud835\udc36(\ud835\udc65) = 0.00013\ud835\udc653 + 0.002 \ud835\udc652 + 5\ud835\udc65+ 2200\nFind the marginal cost when 150 items are produced.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The cost (in rupees) of producing x items in factory, each day is given by\n\ud835\udc36(\ud835\udc65) = 0.00013\ud835\udc653 + 0.002 \ud835\udc652 + 5\ud835\udc65+ 2200\nFind the marginal cost when 150 items are produced.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.22\n. The cost (in rupees) of producing x items in factory, each day is given by\n\ud835\udc36(\ud835\udc65) = 0.00013\ud835\udc653 + 0.002 \ud835\udc652 + 5\ud835\udc65+ 2200\nFind the marginal cost when 150 items are produced.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (a) Find the derivative of\n1\ntan\uf02dx with respect to log\n;\nx (where\n\uf028\n\uf029\n1,\nx \uf0ce\n\uf0a5).",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (a) Find the derivative of\n1\ntan\uf02dx with respect to log\n;\nx (where\n\uf028\n\uf029\n1,\nx \uf0ce\n\uf0a5).",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.23\n. (a) Find the derivative of\n1\ntan\uf02dx with respect to log\n;\nx (where\n\uf028\n\uf029\n1,\nx \uf0ce\n\uf0a5).\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) Differentiate the following function with respect to x : (\ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc65)\ud835\udc65; (where\ud835\udc65\u2208(0,\n\ud835\udf0b\n2)).",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) Differentiate the following function with respect to x : (\ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc65)\ud835\udc65; (where\ud835\udc65\u2208(0,\n\ud835\udf0b\n2)).",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.23\n. (b) Differentiate the following function with respect to x : (\ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc65)\ud835\udc65; (where\ud835\udc65\u2208(0,\n\ud835\udf0b\n2)).",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (a) If vectors \ud835\udc4e\u20d7 = 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302, \ud835\udc4f\u20d7\u20d7 = \u2212 \u0131\u0302 + 2\u0237\u0302 + k\u0302 and \ud835\udc50\u20d7 = 3\u0131\u0302 + \u0237\u0302 are such that \ud835\udc4f\u20d7\u20d7 + \u03bb\ud835\udc50\u20d7 is perpendicular\nto \ud835\udc4e\u20d7 , then find the value of \u03bb.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (a) If vectors \ud835\udc4e\u20d7 = 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302, \ud835\udc4f\u20d7\u20d7 = \u2212 \u0131\u0302 + 2\u0237\u0302 + k\u0302 and \ud835\udc50\u20d7 = 3\u0131\u0302 + \u0237\u0302 are such that \ud835\udc4f\u20d7\u20d7 + \u03bb\ud835\udc50\u20d7 is perpendicular\nto \ud835\udc4e\u20d7 , then find the value of \u03bb.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.24\n. (a) If vectors \ud835\udc4e\u20d7 = 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302, \ud835\udc4f\u20d7\u20d7 = \u2212 \u0131\u0302 + 2\u0237\u0302 + k\u0302 and \ud835\udc50\u20d7 = 3\u0131\u0302 + \u0237\u0302 are such that \ud835\udc4f\u20d7\u20d7 + \u03bb\ud835\udc50\u20d7 is perpendicular\nto \ud835\udc4e\u20d7 , then find the value of \u03bb.\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) A person standing at O\uf028\n\uf029\n0 0 0\n, ,\nis watching an aeroplane which is at the coordinate point\n\uf028\n\uf029\nA\n, ,\n4 0 3 .  At the same time he saw a bird at the coordinate point\n\uf028\n\uf029\nB\n, ,\n.\n0 0 1\nFind the angles which\n\ud835\udc35\ud835\udc34\u20d7\u20d7\u20d7\u20d7\u20d7\u20d7 makes with the x,y and z axes.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) A person standing at O\uf028\n\uf029\n0 0 0\n, ,\nis watching an aeroplane which is at the coordinate point\n\uf028\n\uf029\nA\n, ,\n4 0 3 .  At the same time he saw a bird at the coordinate point\n\uf028\n\uf029\nB\n, ,\n.\n0 0 1\nFind the angles which\n\ud835\udc35\ud835\udc34\u20d7\u20d7\u20d7\u20d7\u20d7\u20d7 makes with the x,y and z axes.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.24\n. (b) A person standing at O\uf028\n\uf029\n0 0 0\n, ,\nis watching an aeroplane which is at the coordinate point\n\uf028\n\uf029\nA\n, ,\n4 0 3 .  At the same time he saw a bird at the coordinate point\n\uf028\n\uf029\nB\n, ,\n.\n0 0 1\nFind the angles which\n\ud835\udc35\ud835\udc34\u20d7\u20d7\u20d7\u20d7\u20d7\u20d7 makes with the x,y and z axes.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The two co-initial adjacent sides of a parallelogram are 2\u0131\u0302 \u2212 4\u0237\u0302 \u2212 5k\u0302 and 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302. Find its\ndiagonals and use them to find the area of the parallelogram.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 6 of 9",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The two co-initial adjacent sides of a parallelogram are 2\u0131\u0302 \u2212 4\u0237\u0302 \u2212 5k\u0302 and 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302. Find its\ndiagonals and use them to find the area of the parallelogram.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 6 of 9",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.25\n. The two co-initial adjacent sides of a parallelogram are 2\u0131\u0302 \u2212 4\u0237\u0302 \u2212 5k\u0302 and 2\u0131\u0302 + 2\u0237\u0302 + 3k\u0302. Find its\ndiagonals and use them to find the area of the parallelogram.\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 6 of 9",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". A kite is flying at a height of 3 metres and 5 metres of string is out. If the kite is moving away\nhorizontally at the rate of 200 cm/s, find the rate at which the string is being released.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". A kite is flying at a height of 3 metres and 5 metres of string is out. If the kite is moving away\nhorizontally at the rate of 200 cm/s, find the rate at which the string is being released.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.26\n. A kite is flying at a height of 3 metres and 5 metres of string is out. If the kite is moving away\nhorizontally at the rate of 200 cm/s, find the rate at which the string is being released.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". According to a psychologist, the ability of a person to understand spatial concepts is given by\n1\n3\nA\nt\n\uf03d\n,    where t is the age in years,\n\uf05b\n\uf05d\n5,18\nt \uf0ce\n. Show that the rate of increase of the ability to\nunderstand spatial concepts decreases with age in between 5 and 18.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". According to a psychologist, the ability of a person to understand spatial concepts is given by\n1\n3\nA\nt\n\uf03d\n,    where t is the age in years,\n\uf05b\n\uf05d\n5,18\nt \uf0ce\n. Show that the rate of increase of the ability to\nunderstand spatial concepts decreases with age in between 5 and 18.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.27\n. According to a psychologist, the ability of a person to understand spatial concepts is given by\n1\n3\nA\nt\n\uf03d\n,    where t is the age in years,\n\uf05b\n\uf05d\n5,18\nt \uf0ce\n. Show that the rate of increase of the ability to\nunderstand spatial concepts decreases with age in between 5 and 18.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".  (a) An ant is moving along the vector \ud835\udc591\u20d7\u20d7\u20d7= \ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + 3\ud835\udc58\u0302. Few sugar crystals are kept along the vector\n\ud835\udc592\u20d7\u20d7\u20d7\u20d7= 3\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302   which is inclined at an angle \uf071 with the vector \ud835\udc591\u20d7\u20d7\u20d7.  Then find the angle \uf071. Also find\nthe scalar projection of \ud835\udc591\u20d7\u20d7\u20d7 \ud835\udc5c\ud835\udc5b \ud835\udc592\u20d7\u20d7\u20d7\u20d7.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".  (a) An ant is moving along the vector \ud835\udc591\u20d7\u20d7\u20d7= \ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + 3\ud835\udc58\u0302. Few sugar crystals are kept along the vector\n\ud835\udc592\u20d7\u20d7\u20d7\u20d7= 3\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302   which is inclined at an angle \uf071 with the vector \ud835\udc591\u20d7\u20d7\u20d7.  Then find the angle \uf071. Also find\nthe scalar projection of \ud835\udc591\u20d7\u20d7\u20d7 \ud835\udc5c\ud835\udc5b \ud835\udc592\u20d7\u20d7\u20d7\u20d7.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.28\n.  (a) An ant is moving along the vector \ud835\udc591\u20d7\u20d7\u20d7= \ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + 3\ud835\udc58\u0302. Few sugar crystals are kept along the vector\n\ud835\udc592\u20d7\u20d7\u20d7\u20d7= 3\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302   which is inclined at an angle \uf071 with the vector \ud835\udc591\u20d7\u20d7\u20d7.  Then find the angle \uf071. Also find\nthe scalar projection of \ud835\udc591\u20d7\u20d7\u20d7 \ud835\udc5c\ud835\udc5b \ud835\udc592\u20d7\u20d7\u20d7\u20d7.\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) Find the vector and the cartesian equation of the line that passes through (\u22121, 2, 7) and is\nperpendicular to the lines \ud835\udc5f\u20d7 = 2\u0131\u0302 + \u0237\u0302 \u2212 3k\u0302 + \u03bb(\u0131\u0302 + 2\u0237\u0302 + 5k\u0302) and \ud835\udc5f\u20d7 = 3\u0131\u0302 + 3\u0237\u0302 \u2212 7k\u0302 + \u03bc(3\u0131\u0302 \u2212 2\u0237\u0302 + 5k\u0302).",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) Find the vector and the cartesian equation of the line that passes through (\u22121, 2, 7) and is\nperpendicular to the lines \ud835\udc5f\u20d7 = 2\u0131\u0302 + \u0237\u0302 \u2212 3k\u0302 + \u03bb(\u0131\u0302 + 2\u0237\u0302 + 5k\u0302) and \ud835\udc5f\u20d7 = 3\u0131\u0302 + 3\u0237\u0302 \u2212 7k\u0302 + \u03bc(3\u0131\u0302 \u2212 2\u0237\u0302 + 5k\u0302).",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.28\n. (b) Find the vector and the cartesian equation of the line that passes through (\u22121, 2, 7) and is\nperpendicular to the lines \ud835\udc5f\u20d7 = 2\u0131\u0302 + \u0237\u0302 \u2212 3k\u0302 + \u03bb(\u0131\u0302 + 2\u0237\u0302 + 5k\u0302) and \ud835\udc5f\u20d7 = 3\u0131\u0302 + 3\u0237\u0302 \u2212 7k\u0302 + \u03bc(3\u0131\u0302 \u2212 2\u0237\u0302 + 5k\u0302).",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (a) Evaluate:\n\u222b{\n\ud835\udfcf\n\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99\u2212\n\ud835\udfcf\n(\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99)\ud835\udfd0} \ud835\udc85\ud835\udc99; (where\ud835\udc99> \ud835\udfcf).",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (a) Evaluate:\n\u222b{\n\ud835\udfcf\n\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99\u2212\n\ud835\udfcf\n(\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99)\ud835\udfd0} \ud835\udc85\ud835\udc99; (where\ud835\udc99> \ud835\udfcf).",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.29\n. (a) Evaluate:\n\u222b{\n\ud835\udfcf\n\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99\u2212\n\ud835\udfcf\n(\ud835\udc8d\ud835\udc90\ud835\udc88\ud835\udc99)\ud835\udfd0} \ud835\udc85\ud835\udc99; (where\ud835\udc99> \ud835\udfcf).\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) Evaluate : \u222b\ud835\udc99(\ud835\udfcf\u2212\ud835\udc99)\ud835\udc8f\ud835\udc85\ud835\udc99;  (\ud835\udc30\ud835\udc21\ud835\udc1e\ud835\udc2b\ud835\udc1e \ud835\udc8f \u2208\ud835\udc75).\n\ud835\udfcf\n\ud835\udfce",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) Evaluate : \u222b\ud835\udc99(\ud835\udfcf\u2212\ud835\udc99)\ud835\udc8f\ud835\udc85\ud835\udc99;  (\ud835\udc30\ud835\udc21\ud835\udc1e\ud835\udc2b\ud835\udc1e \ud835\udc8f \u2208\ud835\udc75).\n\ud835\udfcf\n\ud835\udfce",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.29\n. (b) Evaluate : \u222b\ud835\udc99(\ud835\udfcf\u2212\ud835\udc99)\ud835\udc8f\ud835\udc85\ud835\udc99;  (\ud835\udc30\ud835\udc21\ud835\udc1e\ud835\udc2b\ud835\udc1e \ud835\udc8f \u2208\ud835\udc75).\n\ud835\udfcf\n\ud835\udfce",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ".   Consider the following Linear Programming Problem:\nMinimise\n2\nZ\nx\ny\n\uf03d\n\uf02b\nSubject to 2\n3,\n2\n6,\n,",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ".   Consider the following Linear Programming Problem:\nMinimise\n2\nZ\nx\ny\n\uf03d\n\uf02b\nSubject to 2\n3,\n2\n6,\n,",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.30\n.   Consider the following Linear Programming Problem:\nMinimise\n2\nZ\nx\ny\n\uf03d\n\uf02b\nSubject to 2\n3,\n2\n6,\n,",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "x\ny\nx\ny\nx y\n\uf02b\n\uf0b3\n\uf02b\n\uf0b3\n\uf0b3\nShow graphically that the minimum of Z occurs at more than two points",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "x\ny\nx\ny\nx y\n\uf02b\n\uf0b3\n\uf02b\n\uf0b3\n\uf0b3\nShow graphically that the minimum of Z occurs at more than two points",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\nx\ny\nx\ny\nx y\n\uf02b\n\uf0b3\n\uf02b\n\uf0b3\n\uf0b3\nShow graphically that the minimum of Z occurs at more than two points",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (a) The probability that it rains today is 0.4. If it rains today, the probability that it will rain tomorrow\nis 0.8. If it does not rain today, the probability that it will rain tomorrow is 0.7. If\n\ud835\udc431: denotes the probability that it does not rain today.\n\ud835\udc432: denotes the probability that it will n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (a) The probability that it rains today is 0.4. If it rains today, the probability that it will rain tomorrow\nis 0.8. If it does not rain today, the probability that it will rain tomorrow is 0.7. If\n\ud835\udc431: denotes the probability that it does not rain today.\n\ud835\udc432: denotes the probability that it will not rain tomorrow, if it rains today.\n\ud835\udc433: denotes the probability that it will rain tomorrow, if it does not rain today.\n\ud835\udc434: denotes the probability that it will not rain tomorrow, if it does not rain today.\n(i) Find the value of\n1\n4\n2\n3 .\nP\nP\nP\nP\n\uf0b4\n\uf02d\n\uf0b4\n\uf05b\n\uf05d\n2Marks\n(ii) Calculate the probability of raining tomorrow.\n\uf05b\n\uf05d\n1Mark",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.31\n. (a) The probability that it rains today is 0.4. If it rains today, the probability that it will rain tomorrow\nis 0.8. If it does not rain today, the probability that it will rain tomorrow is 0.7. If\n\ud835\udc431: denotes the probability that it does not rain today.\n\ud835\udc432: denotes the probability that it will not rain tomorrow, if it rains today.\n\ud835\udc433: denotes the probability that it will rain tomorrow, if it does not rain today.\n\ud835\udc434: denotes the probability that it will not rain tomorrow, if it does not rain today.\n(i) Find the value of\n1\n4\n2\n3 .\nP\nP\nP\nP\n\uf0b4\n\uf02d\n\uf0b4\n\uf05b\n\uf05d\n2Marks\n(ii) Calculate the probability of raining tomorrow.\n\uf05b\n\uf05d\n1Mark\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) A random variable X can take all non \u2013 negative integral values and the probability that X takes\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 7 of 9\nthe value r is proportional to  5\u2212\ud835\udc5f . Find\n\uf028\n\uf029\n3 .\nP X \uf03c",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) A random variable X can take all non \u2013 negative integral values and the probability that X takes\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 7 of 9\nthe value r is proportional to  5\u2212\ud835\udc5f . Find\n\uf028\n\uf029\n3 .\nP X \uf03c",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.31\n. (b) A random variable X can take all non \u2013 negative integral values and the probability that X takes\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 7 of 9\nthe value r is proportional to  5\u2212\ud835\udc5f . Find\n\uf028\n\uf029\n3 .\nP X \uf03c",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Draw the rough sketch of the curve  \ud835\udc66= 20 \ud835\udc50\ud835\udc5c\ud835\udc602 \ud835\udc65; (where\n\ud835\udf0b\n6 \u2264\ud835\udc65\u2264\n\ud835\udf0b\n3).\nUsing integration, find the area of the region bounded by the curve y = 20 cos2x from the ordinates\n\ud835\udc65=\n\ud835\udf0b\n6 to \ud835\udc65=\n\ud835\udf0b\n3  and the x \uf02daxis.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Draw the rough sketch of the curve  \ud835\udc66= 20 \ud835\udc50\ud835\udc5c\ud835\udc602 \ud835\udc65; (where\n\ud835\udf0b\n6 \u2264\ud835\udc65\u2264\n\ud835\udf0b\n3).\nUsing integration, find the area of the region bounded by the curve y = 20 cos2x from the ordinates\n\ud835\udc65=\n\ud835\udf0b\n6 to \ud835\udc65=\n\ud835\udf0b\n3  and the x \uf02daxis.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.32\n. Draw the rough sketch of the curve  \ud835\udc66= 20 \ud835\udc50\ud835\udc5c\ud835\udc602 \ud835\udc65; (where\n\ud835\udf0b\n6 \u2264\ud835\udc65\u2264\n\ud835\udf0b\n3).\nUsing integration, find the area of the region bounded by the curve y = 20 cos2x from the ordinates\n\ud835\udc65=\n\ud835\udf0b\n6 to \ud835\udc65=\n\ud835\udf0b\n3  and the x \uf02daxis.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". The equation of the path traversed by the ball headed by the footballer is\n\ud835\udc66= \ud835\udc4e\ud835\udc652 + \ud835\udc4f\ud835\udc65+ \ud835\udc50; (\ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 0 \u2264\ud835\udc65\u226414 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e, \ud835\udc4f, \ud835\udc50 \u2208\ud835\udc45 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e \u22600) with respect to a XY-coordinate\nsystem in the vertical plane. The ball passes through the points \uf028\n\uf029\uf028\n\uf029\n\uf028\n\uf029\n2,15 , 4,25 and 14,15 . Determine\nthe values of a, b and c ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". The equation of the path traversed by the ball headed by the footballer is\n\ud835\udc66= \ud835\udc4e\ud835\udc652 + \ud835\udc4f\ud835\udc65+ \ud835\udc50; (\ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 0 \u2264\ud835\udc65\u226414 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e, \ud835\udc4f, \ud835\udc50 \u2208\ud835\udc45 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e \u22600) with respect to a XY-coordinate\nsystem in the vertical plane. The ball passes through the points \uf028\n\uf029\uf028\n\uf029\n\uf028\n\uf029\n2,15 , 4,25 and 14,15 . Determine\nthe values of a, b and c by solving the system of linear equations in a, b and c, using matrix method.\nAlso find the equation of the path traversed by the ball.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.33\n. The equation of the path traversed by the ball headed by the footballer is\n\ud835\udc66= \ud835\udc4e\ud835\udc652 + \ud835\udc4f\ud835\udc65+ \ud835\udc50; (\ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 0 \u2264\ud835\udc65\u226414 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e, \ud835\udc4f, \ud835\udc50 \u2208\ud835\udc45 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e \u22600) with respect to a XY-coordinate\nsystem in the vertical plane. The ball passes through the points \uf028\n\uf029\uf028\n\uf029\n\uf028\n\uf029\n2,15 , 4,25 and 14,15 . Determine\nthe values of a, b and c by solving the system of linear equations in a, b and c, using matrix method.\nAlso find the equation of the path traversed by the ball.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (a) If \ud835\udc53: \ud835\udc45\u2192\ud835\udc45 is defined by \ud835\udc53(\ud835\udc65) = |\ud835\udc65|3, show that \ud835\udc53\"(\ud835\udc65) exists for all real x and find it.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (a) If \ud835\udc53: \ud835\udc45\u2192\ud835\udc45 is defined by \ud835\udc53(\ud835\udc65) = |\ud835\udc65|3, show that \ud835\udc53\"(\ud835\udc65) exists for all real x and find it.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.34\n. (a) If \ud835\udc53: \ud835\udc45\u2192\ud835\udc45 is defined by \ud835\udc53(\ud835\udc65) = |\ud835\udc65|3, show that \ud835\udc53\"(\ud835\udc65) exists for all real x and find it.\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "long_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) If (\ud835\udc65\u2212\ud835\udc4e)2 + (\ud835\udc66\u2212\ud835\udc4f)2 = \ud835\udc502, for some c\n0,\n\uf03e\nprove that\n[1+(\ud835\udc51\ud835\udc66\n\ud835\udc51\ud835\udc65)\n2\n]\n3\n2\n\ud835\udc512\ud835\udc66\n\ud835\udc51\ud835\udc652\nis a constant independent\nof a and b .",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) If (\ud835\udc65\u2212\ud835\udc4e)2 + (\ud835\udc66\u2212\ud835\udc4f)2 = \ud835\udc502, for some c\n0,\n\uf03e\nprove that\n[1+(\ud835\udc51\ud835\udc66\n\ud835\udc51\ud835\udc65)\n2\n]\n3\n2\n\ud835\udc512\ud835\udc66\n\ud835\udc51\ud835\udc652\nis a constant independent\nof a and b .",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "long_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.34\n. (b) If (\ud835\udc65\u2212\ud835\udc4e)2 + (\ud835\udc66\u2212\ud835\udc4f)2 = \ud835\udc502, for some c\n0,\n\uf03e\nprove that\n[1+(\ud835\udc51\ud835\udc66\n\ud835\udc51\ud835\udc65)\n2\n]\n3\n2\n\ud835\udc512\ud835\udc66\n\ud835\udc51\ud835\udc652\nis a constant independent\nof a and b .",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q35",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (a) Find the shortest distance between the lines 1l and 2l whose vector equations are\n\ud835\udc5f\u20d7= (\u2212\ud835\udc56\u0302 \u2212\ud835\udc57\u0302 \u2212\ud835\udc58\u0302) + \ud835\udf06(7\ud835\udc56\u0302 \u22126\ud835\udc57\u0302 + \ud835\udc58\u0302) and \ud835\udc5f\u20d7= (3\ud835\udc56\u0302 + 5\ud835\udc57\u0302 + 7\ud835\udc58\u0302) + \ud835\udf07(\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302)\nwhere \uf06cand \uf06d are parameters.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (a) Find the shortest distance between the lines 1l and 2l whose vector equations are\n\ud835\udc5f\u20d7= (\u2212\ud835\udc56\u0302 \u2212\ud835\udc57\u0302 \u2212\ud835\udc58\u0302) + \ud835\udf06(7\ud835\udc56\u0302 \u22126\ud835\udc57\u0302 + \ud835\udc58\u0302) and \ud835\udc5f\u20d7= (3\ud835\udc56\u0302 + 5\ud835\udc57\u0302 + 7\ud835\udc58\u0302) + \ud835\udf07(\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302)\nwhere \uf06cand \uf06d are parameters.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.35\n. (a) Find the shortest distance between the lines 1l and 2l whose vector equations are\n\ud835\udc5f\u20d7= (\u2212\ud835\udc56\u0302 \u2212\ud835\udc57\u0302 \u2212\ud835\udc58\u0302) + \ud835\udf06(7\ud835\udc56\u0302 \u22126\ud835\udc57\u0302 + \ud835\udc58\u0302) and \ud835\udc5f\u20d7= (3\ud835\udc56\u0302 + 5\ud835\udc57\u0302 + 7\ud835\udc58\u0302) + \ud835\udf07(\ud835\udc56\u0302 \u22122\ud835\udc57\u0302 + \ud835\udc58\u0302)\nwhere \uf06cand \uf06d are parameters.\nOR",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q35",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". (b) Find the image of the point \uf028\n\uf029\n1,2, 1 with respect to the line\n\ud835\udc65\u22123\n1 =\n\ud835\udc66+1\n2 =\n\ud835\udc67\u22121\n3 .  Also find the\nequation of the line joining the given point and its image.\nSECTION- E\n\uf05b\n\uf05d\n4 3\n12\n\uf0b4\n\uf03d\n(This section comprises of 3 case-study/passage-based questions of 4 marks each with subparts. The first\n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". (b) Find the image of the point \uf028\n\uf029\n1,2, 1 with respect to the line\n\ud835\udc65\u22123\n1 =\n\ud835\udc66+1\n2 =\n\ud835\udc67\u22121\n3 .  Also find the\nequation of the line joining the given point and its image.\nSECTION- E\n\uf05b\n\uf05d\n4 3\n12\n\uf0b4\n\uf03d\n(This section comprises of 3 case-study/passage-based questions of 4 marks each with subparts. The first\ntwo case study questions have three subparts (i), (ii), (iii) of marks 1, 1, 2 respectively. The third case study\nquestion has two subparts of 2 marks each)\nCase Study-1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.35\n. (b) Find the image of the point \uf028\n\uf029\n1,2, 1 with respect to the line\n\ud835\udc65\u22123\n1 =\n\ud835\udc66+1\n2 =\n\ud835\udc67\u22121\n3 .  Also find the\nequation of the line joining the given point and its image.\nSECTION- E\n\uf05b\n\uf05d\n4 3\n12\n\uf0b4\n\uf03d\n(This section comprises of 3 case-study/passage-based questions of 4 marks each with subparts. The first\ntwo case study questions have three subparts (i), (ii), (iii) of marks 1, 1, 2 respectively. The third case study\nquestion has two subparts of 2 marks each)\nCase Study-1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q36",
+          "marks": 1,
+          "question_type": "case_study_passage",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". Ramesh, the owner of a sweet selling shop, purchased some rectangular card board sheets of\ndimension 25\nby 40\ncm\ncm to make container packets without top. Let x cm be the length of the side of the\nsquare to be cut out from each corner to give that sheet the shape of the container by folding up the",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Ramesh, the owner of a sweet selling shop, purchased some rectangular card board sheets of\ndimension 25\nby 40\ncm\ncm to make container packets without top. Let x cm be the length of the side of the\nsquare to be cut out from each corner to give that sheet the shape of the container by folding up the flaps.\nBased on the above information answer the following questions.\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 8 of 9\n(i)\nExpress the volume (V) of each container as function of x only.\n\uf05b\n\uf05d\n1Mark\n(ii)\nFind\n\ud835\udc51\ud835\udc49\n\ud835\udc51\ud835\udc65\n\uf05b\n\uf05d\n1Mark\n(iii)\n(a) For what value of\n,\nx the volume of each container is maximum?\n\uf05b\n\uf05d\n2Marks",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "For what value of"
+                },
+                {
+                  "label": "b",
+                  "text": "Check whether V has a point of inflection at x ="
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii)\n(b) Check whether V has a point of inflection at x =\n65\n6  or not?\n\uf05b\n\uf05d\n2Marks\nCase Study-2",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "case_study_passage",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.36\n. Ramesh, the owner of a sweet selling shop, purchased some rectangular card board sheets of\ndimension 25\nby 40\ncm\ncm to make container packets without top. Let x cm be the length of the side of the\nsquare to be cut out from each corner to give that sheet the shape of the container by folding up the flaps.\nBased on the above information answer the following questions.\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 8 of 9\n(i)\nExpress the volume (V) of each container as function of x only.\n\uf05b\n\uf05d\n1Mark\n(ii)\nFind\n\ud835\udc51\ud835\udc49\n\ud835\udc51\ud835\udc65\n\uf05b\n\uf05d\n1Mark\n(iii)\n(a) For what value of\n,\nx the volume of each container is maximum?\n\uf05b\n\uf05d\n2Marks\nOR\n(iii)\n(b) Check whether V has a point of inflection at x =\n65\n6  or not?\n\uf05b\n\uf05d\n2Marks\nCase Study-2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q37",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": ". An organization conducted bike race under 2 different categories-boys and girls. In all, there were 250\nparticipants. Among all of them finally three from Category 1 and two from Category 2 were selected for the\nfinal race. Ravi forms two sets B and G with these participants for his college projec",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". An organization conducted bike race under 2 different categories-boys and girls. In all, there were 250\nparticipants. Among all of them finally three from Category 1 and two from Category 2 were selected for the\nfinal race. Ravi forms two sets B and G with these participants for his college project.\nLet\n\uf07b\n\uf07d\n\uf07b\n\uf07d\n1\n2\n3\n1\n2\n,\n,\n,\n,\nB\nb b b\nG\ng g\n\uf03d\n\uf03d\nwhere B represents the set of boys selected and G the set of girls who\nwere selected for the final race.\nRavi decides to explore these sets for various types of relations and functions.\nOn the basis of the above information, answer the following questions:\n(i) Ravi wishes to form all the relations possible from B to G . How many such relations are possible?\n\uf05b\n\uf05d\n1Mark\n(ii) Write the smallest equivalence relation on G.\n\uf05b\n\uf05d\n1Mark\n(iii) (a) Ravi defines a relation from B to B as \ud835\udc79\ud835\udfcf = {(\ud835\udc83\ud835\udfcf, \ud835\udc83\ud835\udfd0), (\ud835\udc83\ud835\udfd0, \ud835\udc83\ud835\udfcf)}.  Write the minimum ordered\npairs to be added in \ud835\udc79\ud835\udfcf so that it becomes (A) reflexive but not symmetric, (B) reflexive and\nsymmetric but not transitive.\n\uf05b\n\uf05d\n2Marks",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Ravi defines a relation from B to B as \ud835\udc79\ud835\udfcf = {"
+                },
+                {
+                  "label": "a",
+                  "text": "reflexive but not symmetric,"
+                },
+                {
+                  "label": "b",
+                  "text": "reflexive and"
+                },
+                {
+                  "label": "b",
+                  "text": "If the track of the final race"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(iii) (b) If the track of the final race (for the biker\n1b ) follows the curve\n\ud835\udc652 = 4\ud835\udc66; (where0 \u2264\ud835\udc65\u226420\u221a2&0 \u2264\ud835\udc66\u2264200), then state whether the track represents a\none-one and onto function or not.  (Justify).\n\uf05b\n\uf05d\n2Marks\nCase Study- 3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.37\n. An organization conducted bike race under 2 different categories-boys and girls. In all, there were 250\nparticipants. Among all of them finally three from Category 1 and two from Category 2 were selected for the\nfinal race. Ravi forms two sets B and G with these participants for his college project.\nLet\n\uf07b\n\uf07d\n\uf07b\n\uf07d\n1\n2\n3\n1\n2\n,\n,\n,\n,\nB\nb b b\nG\ng g\n\uf03d\n\uf03d\nwhere B represents the set of boys selected and G the set of girls who\nwere selected for the final race.\nRavi decides to explore these sets for various types of relations and functions.\nOn the basis of the above information, answer the following questions:\n(i) Ravi wishes to form all the relations possible from B to G . How many such relations are possible?\n\uf05b\n\uf05d\n1Mark\n(ii) Write the smallest equivalence relation on G.\n\uf05b\n\uf05d\n1Mark\n(iii) (a) Ravi defines a relation from B to B as \ud835\udc79\ud835\udfcf = {(\ud835\udc83\ud835\udfcf, \ud835\udc83\ud835\udfd0), (\ud835\udc83\ud835\udfd0, \ud835\udc83\ud835\udfcf)}.  Write the minimum ordered\npairs to be added in \ud835\udc79\ud835\udfcf so that it becomes (A) reflexive but not symmetric, (B) reflexive and\nsymmetric but not transitive.\n\uf05b\n\uf05d\n2Marks\nOR\n(iii) (b) If the track of the final race (for the biker\n1b ) follows the curve\n\ud835\udc652 = 4\ud835\udc66; (where0 \u2264\ud835\udc65\u226420\u221a2&0 \u2264\ud835\udc66\u2264200), then state whether the track represents a\none-one and onto function or not.  (Justify).\n\uf05b\n\uf05d\n2Marks\nCase Study- 3",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q38",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Arka bought two cages of birds: Cage-I contains 5 parrots and 1 owl and Cage \u2013II contains 6 parrots.\nOne day Arka forgot to lock both cages and two birds flew from Cage-I to Cage-II (simultaneously). Then\ntwo birds flew back from cage-II to cage-I(simultaneously).\nAssume that all the birds have eq",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Arka bought two cages of birds: Cage-I contains 5 parrots and 1 owl and Cage \u2013II contains 6 parrots.\nOne day Arka forgot to lock both cages and two birds flew from Cage-I to Cage-II (simultaneously). Then\ntwo birds flew back from cage-II to cage-I(simultaneously).\nAssume that all the birds have equal chances of flying.\nOn the basis of the above information, answer the following questions:-\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 9 of 9\n(i)\nWhen two birds flew from Cage-I to Cage-II and two birds flew back from Cage-II to Cage-I then\nfind the probability that the owl is still in Cage-I.\n\uf05b\n\uf05d\n2Marks\n(ii)\nWhen two birds flew from Cage-I to Cage-II and two birds flew back from Cage-II to Cage-I, the\nowl is still seen in Cage-I, what is the probability that one parrot and the owl flew from Cage-I to\nCage-II?\n\uf05b\n\uf05d\n2Marks\n*******************************************************************************\n<!-- PAGE 9 END -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q.38\n. Arka bought two cages of birds: Cage-I contains 5 parrots and 1 owl and Cage \u2013II contains 6 parrots.\nOne day Arka forgot to lock both cages and two birds flew from Cage-I to Cage-II (simultaneously). Then\ntwo birds flew back from cage-II to cage-I(simultaneously).\nAssume that all the birds have equal chances of flying.\nOn the basis of the above information, answer the following questions:-\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nClass-XII/Sample Paper/2024-25/Mathematics/Page 9 of 9\n(i)\nWhen two birds flew from Cage-I to Cage-II and two birds flew back from Cage-II to Cage-I then\nfind the probability that the owl is still in Cage-I.\n\uf05b\n\uf05d\n2Marks\n(ii)\nWhen two birds flew from Cage-I to Cage-II and two birds flew back from Cage-II to Cage-I, the\nowl is still seen in Cage-I, what is the probability that one parrot and the owl flew from Cage-I to\nCage-II?\n\uf05b\n\uf05d\n2Marks\n*******************************************************************************\n<!-- PAGE 9 END -->",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

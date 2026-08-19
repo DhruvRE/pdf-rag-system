@@ -1,0 +1,136 @@
+{
+  "exam_metadata": {
+    "subject": "computer_science",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_computer_science_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q36",
+          "marks": 5,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Surya is a manager working in a recruitment agency. He needs to manage\nthe records of various candidates. For this, he wants the following\ninformation of each candidate to be stored:\n- Candidate_ID \u2013 integer\n- Candidate_Name \u2013 string\n- Designation \u2013 string\n- Experience \u2013 float\nYou, as a programmer o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 5,
+              "text": "Surya is a manager working in a recruitment agency. He needs to manage\nthe records of various candidates. For this, he wants the following\ninformation of each candidate to be stored:\n- Candidate_ID \u2013 integer\n- Candidate_Name \u2013 string\n- Designation \u2013 string\n- Experience \u2013 float\nYou, as a programmer of the company, have been assigned to do this job\nfor Surya.\n(I) Write a function to input the data of a candidate and append it in a\nbinary file.\n(5)\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nPage: 10/11\n(II) Write a function to update the data of candidates whose experience\nis more than 10 years and change their designation to \"Senior\nManager\".\n(III) Write a function to read the data from the binary file and display the\ndata of all those candidates who are not \"Senior Manager\".",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 36.\nSurya is a manager working in a recruitment agency. He needs to manage\nthe records of various candidates. For this, he wants the following\ninformation of each candidate to be stored:\n- Candidate_ID \u2013 integer\n- Candidate_Name \u2013 string\n- Designation \u2013 string\n- Experience \u2013 float\nYou, as a programmer of the company, have been assigned to do this job\nfor Surya.\n(I) Write a function to input the data of a candidate and append it in a\nbinary file.\n(5)\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nPage: 10/11\n(II) Write a function to update the data of candidates whose experience\nis more than 10 years and change their designation to \"Senior\nManager\".\n(III) Write a function to read the data from the binary file and display the\ndata of all those candidates who are not \"Senior Manager\".",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q37",
+          "marks": 5,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Event Horizon Enterprises is an event planning organization. It is planning\nto set up its India campus in Mumbai with its head office in Delhi. The\nMumbai campus will have four blocks/buildings - ADMIN, FOOD, MEDIA,\nDECORATORS. You, as a network expert, need to suggest the best\nnetwork-related solut",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 5,
+              "text": "Event Horizon Enterprises is an event planning organization. It is planning\nto set up its India campus in Mumbai with its head office in Delhi. The\nMumbai campus will have four blocks/buildings - ADMIN, FOOD, MEDIA,\nDECORATORS. You, as a network expert, need to suggest the best\nnetwork-related solutions for them to resolve the issues/problems\nmentioned in points (I) to (V), keeping in mind the distances between\nvarious blocks/buildings and other given parameters.\nBlock to Block distances (in Mtrs.)\nFrom\nTo\nDistance\nADMIN\nFOOD\n42 m\nADMIN\nMEDIA\n96 m\nADMIN\nDECORATORS\n48 m\nFOOD\nMEDIA\n58 m\nFOOD\nDECORATORS\n46 m\nMEDIA\nDECORATORS\n42 m\nDistance of Delhi Head Office from Mumbai Campus = 1500 km\nNumber of computers in each of the blocks/Center is as follows:\nADMIN\n30\nFOOD\n18\nMEDIA\n25\nDECORATORS\n20\nDELHI HEAD\nOFFICE\n18\n(5)\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nPage: 11/11\n(I)\nSuggest the most appropriate location of the server inside the\nMUMBAI campus. Justify your choice.\n(II)\nWhich hardware device will you suggest to connect all the\ncomputers within each building?\n(III)\nDraw the cable layout to efficiently connect various buildings\nwithin the MUMBAI campus. Which cable would you suggest for\nthe most efficient data transfer over the network?\n(IV)\nIs there a requirement of a repeater in the given cable layout?\nWhy/ Why not?\n(V)\nA) What would be your recommendation for enabling live visual\ncommunication between the Admin Office at the Mumbai campus\nand the DELHI Head Office from the following options:\na) Video Conferencing\nb) Email\nc) Telephony\nd) Instant Messaging",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "What would be your recommendation for enabling live visual"
+                },
+                {
+                  "label": "a",
+                  "text": "Video Conferencing"
+                },
+                {
+                  "label": "b",
+                  "text": "Email"
+                },
+                {
+                  "label": "c",
+                  "text": "Telephony"
+                },
+                {
+                  "label": "d",
+                  "text": "Instant Messaging"
+                },
+                {
+                  "label": "b",
+                  "text": "What type of network"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 5,
+                "text": "B) What type of network (PAN, LAN, MAN, or WAN) will be set up\namong the computers connected in  the MUMBAI campus?\n<!-- PAGE 11 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 37.\nEvent Horizon Enterprises is an event planning organization. It is planning\nto set up its India campus in Mumbai with its head office in Delhi. The\nMumbai campus will have four blocks/buildings - ADMIN, FOOD, MEDIA,\nDECORATORS. You, as a network expert, need to suggest the best\nnetwork-related solutions for them to resolve the issues/problems\nmentioned in points (I) to (V), keeping in mind the distances between\nvarious blocks/buildings and other given parameters.\nBlock to Block distances (in Mtrs.)\nFrom\nTo\nDistance\nADMIN\nFOOD\n42 m\nADMIN\nMEDIA\n96 m\nADMIN\nDECORATORS\n48 m\nFOOD\nMEDIA\n58 m\nFOOD\nDECORATORS\n46 m\nMEDIA\nDECORATORS\n42 m\nDistance of Delhi Head Office from Mumbai Campus = 1500 km\nNumber of computers in each of the blocks/Center is as follows:\nADMIN\n30\nFOOD\n18\nMEDIA\n25\nDECORATORS\n20\nDELHI HEAD\nOFFICE\n18\n(5)\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\nPage: 11/11\n(I)\nSuggest the most appropriate location of the server inside the\nMUMBAI campus. Justify your choice.\n(II)\nWhich hardware device will you suggest to connect all the\ncomputers within each building?\n(III)\nDraw the cable layout to efficiently connect various buildings\nwithin the MUMBAI campus. Which cable would you suggest for\nthe most efficient data transfer over the network?\n(IV)\nIs there a requirement of a repeater in the given cable layout?\nWhy/ Why not?\n(V)\nA) What would be your recommendation for enabling live visual\ncommunication between the Admin Office at the Mumbai campus\nand the DELHI Head Office from the following options:\na) Video Conferencing\nb) Email\nc) Telephony\nd) Instant Messaging\nOR\nB) What type of network (PAN, LAN, MAN, or WAN) will be set up\namong the computers connected in  the MUMBAI campus?\n<!-- PAGE 11 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

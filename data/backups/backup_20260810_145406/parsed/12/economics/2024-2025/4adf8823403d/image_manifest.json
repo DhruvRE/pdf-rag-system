@@ -1,0 +1,66 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/economics/2024-2025/4adf8823403d/images/img_p2_1.png",
+    "relative_path": "4adf8823403d/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      97.05,
+      128.3,
+      480.0,
+      219.1
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Aggregate Expenditure Aggregate demand A. fixed B. flexible C. managed floating D. dirty floating 5. From the given diagrams, identify the correct option that indicates the \u2018Reference Line\u2019 passing th"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p2_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/economics/2024-2025/4adf8823403d/images/img_p2_2.png",
+    "relative_path": "4adf8823403d/images/img_p2_2.png",
+    "page": 2,
+    "bbox": [
+      181.8,
+      135.4,
+      203.79,
+      214.1
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Aggregate demand C. managed floating om the given diagrams, identify the eference Line\u2019 passing through the (i) (ii) A. (i) B. (ii) C. ( r Visually Impaired Candidates: der the Keynesian theory, \u2018Refe"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p3_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/economics/2024-2025/4adf8823403d/images/img_p3_1.png",
+    "relative_path": "4adf8823403d/images/img_p3_1.png",
+    "page": 3,
+    "bbox": [
+      121.5,
+      240.58,
+      373.45,
+      384.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "10. Based on the given diagram: The trade under current account during January 2024 reflects a _____ of USD _____ billion. (Choose the correct option to fill up the bla A. surplus, 0.74 B. surplus, 3."
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p8_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/economics/2024-2025/4adf8823403d/images/img_p8_1.png",
+    "relative_path": "4adf8823403d/images/img_p8_1.png",
+    "page": 8,
+    "bbox": [
+      113.75,
+      601.0,
+      472.6,
+      769.59
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "8 (B) for economic growth of a nation.\u2019 Do you agree with the given statement? Support your answer with valid illustrations. 4 32. (I) Interpret the given picture based on the Saansad Adarsh Gram Yoja"
+  }
+}

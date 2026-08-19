@@ -1,0 +1,1070 @@
+{
+  "total_pages": 2,
+  "pages": [
+    {
+      "page_num": 1,
+      "width": 612.0,
+      "height": 792.0,
+      "blocks": [
+        {
+          "block_id": 0,
+          "type": "text",
+          "bbox": [
+            154.31700134277344,
+            41.02000045776367,
+            457.68292236328125,
+            60.29800033569336
+          ],
+          "lines": [
+            {
+              "bbox": [
+                154.31700134277344,
+                41.02000045776367,
+                457.68292236328125,
+                60.29800033569336
+              ],
+              "text": "CENTRAL BOARD EXAMINATION - 2022-2023",
+              "spans": [
+                {
+                  "text": "CENTRAL BOARD EXAMINATION - 2022-2023",
+                  "bbox": [
+                    154.31700134277344,
+                    41.02000045776367,
+                    457.68292236328125,
+                    60.29800033569336
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 14.0,
+                  "color": 1713022,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 1,
+          "type": "text",
+          "bbox": [
+            230.9250030517578,
+            65.0199966430664,
+            381.0750427246094,
+            84.29800415039062
+          ],
+          "lines": [
+            {
+              "bbox": [
+                230.9250030517578,
+                65.0199966430664,
+                381.0750427246094,
+                84.29800415039062
+              ],
+              "text": "CLASS 10 \u2014 PHYSICS",
+              "spans": [
+                {
+                  "text": "CLASS 10 \u2014 PHYSICS",
+                  "bbox": [
+                    230.9250030517578,
+                    65.0199966430664,
+                    381.0750427246094,
+                    84.29800415039062
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 14.0,
+                  "color": 1713022,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 2,
+          "type": "text",
+          "bbox": [
+            191.7949981689453,
+            93.25,
+            420.2049560546875,
+            107.06999969482422
+          ],
+          "lines": [
+            {
+              "bbox": [
+                191.7949981689453,
+                93.25,
+                420.2049560546875,
+                107.06999969482422
+              ],
+              "text": "Time Allowed: 3 Hours          Maximum Marks: 80",
+              "spans": [
+                {
+                  "text": "Time Allowed:",
+                  "bbox": [
+                    191.7949981689453,
+                    93.30000305175781,
+                    259.5849914550781,
+                    107.06999969482422
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                },
+                {
+                  "text": " 3 Hours          ",
+                  "bbox": [
+                    259.5849914550781,
+                    93.25,
+                    325.17498779296875,
+                    106.98999786376953
+                  ],
+                  "font": "Helvetica",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 0
+                },
+                {
+                  "text": "Maximum Marks:",
+                  "bbox": [
+                    325.17498779296875,
+                    93.30000305175781,
+                    406.3049621582031,
+                    107.06999969482422
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                },
+                {
+                  "text": " 80",
+                  "bbox": [
+                    406.3049621582031,
+                    93.25,
+                    420.2049560546875,
+                    106.98999786376953
+                  ],
+                  "font": "Helvetica",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 3,
+          "type": "text",
+          "bbox": [
+            42.0,
+            119.30000305175781,
+            407.199951171875,
+            188.99000549316406
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                119.30000305175781,
+                142.5800018310547,
+                133.07000732421875
+              ],
+              "text": "General Instructions:",
+              "spans": [
+                {
+                  "text": "General Instructions:",
+                  "bbox": [
+                    42.0,
+                    119.30000305175781,
+                    142.5800018310547,
+                    133.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            },
+            {
+              "bbox": [
+                42.0,
+                133.25,
+                407.199951171875,
+                146.99000549316406
+              ],
+              "text": "1. This question paper contains 10 questions divided into Section A and Section B.",
+              "spans": [
+                {
+                  "text": "1. This question paper contains 10 questions divided into Section A and Section B.",
+                  "bbox": [
+                    42.0,
+                    133.25,
+                    407.199951171875,
+                    146.99000549316406
+                  ],
+                  "font": "Helvetica",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            },
+            {
+              "bbox": [
+                42.0,
+                147.25,
+                362.12994384765625,
+                160.99000549316406
+              ],
+              "text": "2. Section A contains 5 Multiple Choice Questions carrying 1 mark each.",
+              "spans": [
+                {
+                  "text": "2. Section A contains 5 Multiple Choice Questions carrying 1 mark each.",
+                  "bbox": [
+                    42.0,
+                    147.25,
+                    362.12994384765625,
+                    160.99000549316406
+                  ],
+                  "font": "Helvetica",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            },
+            {
+              "bbox": [
+                42.0,
+                161.25,
+                396.0498962402344,
+                174.99000549316406
+              ],
+              "text": "3. Section B contains short & long answer questions carrying 3 to 5 marks each.",
+              "spans": [
+                {
+                  "text": "3. Section B contains short & long answer questions carrying 3 to 5 marks each.",
+                  "bbox": [
+                    42.0,
+                    161.25,
+                    396.0498962402344,
+                    174.99000549316406
+                  ],
+                  "font": "Helvetica",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            },
+            {
+              "bbox": [
+                42.0,
+                175.25,
+                384.9099426269531,
+                188.99000549316406
+              ],
+              "text": "4. All questions are compulsory. Read the diagrams carefully where provided.",
+              "spans": [
+                {
+                  "text": "4. All questions are compulsory. Read the diagrams carefully where provided.",
+                  "bbox": [
+                    42.0,
+                    175.25,
+                    384.9099426269531,
+                    188.99000549316406
+                  ],
+                  "font": "Helvetica",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 4,
+          "type": "text",
+          "bbox": [
+            42.0,
+            211.22999572753906,
+            250.4169464111328,
+            226.3769989013672
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                211.22999572753906,
+                250.4169464111328,
+                226.3769989013672
+              ],
+              "text": "SECTION A (Multiple Choice Questions)",
+              "spans": [
+                {
+                  "text": "SECTION A (Multiple Choice Questions)",
+                  "bbox": [
+                    42.0,
+                    211.22999572753906,
+                    250.4169464111328,
+                    226.3769989013672
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 11.0,
+                  "color": 870305,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 5,
+          "type": "text",
+          "bbox": [
+            42.0,
+            232.3000030517578,
+            240.9399871826172,
+            246.07000732421875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                232.3000030517578,
+                240.9399871826172,
+                246.07000732421875
+              ],
+              "text": "Q1. What is the SI unit of electric current?",
+              "spans": [
+                {
+                  "text": "Q1. What is the SI unit of electric current?",
+                  "bbox": [
+                    42.0,
+                    232.3000030517578,
+                    240.9399871826172,
+                    246.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 6,
+          "type": "text",
+          "bbox": [
+            57.0,
+            248.3249969482422,
+            236.05496215820312,
+            260.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                248.3249969482422,
+                236.05496215820312,
+                260.6910095214844
+              ],
+              "text": "(a) Volt     (b) Ampere     (c) Ohm     (d) Joule",
+              "spans": [
+                {
+                  "text": "(a) Volt     (b) Ampere     (c) Ohm     (d) Joule",
+                  "bbox": [
+                    57.0,
+                    248.3249969482422,
+                    236.05496215820312,
+                    260.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 7,
+          "type": "text",
+          "bbox": [
+            42.0,
+            265.29998779296875,
+            329.2998962402344,
+            279.07000732421875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                265.29998779296875,
+                329.2998962402344,
+                279.07000732421875
+              ],
+              "text": "Q2. Which of the following is a balanced chemical equation?",
+              "spans": [
+                {
+                  "text": "Q2. Which of the following is a balanced chemical equation?",
+                  "bbox": [
+                    42.0,
+                    265.29998779296875,
+                    329.2998962402344,
+                    279.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 8,
+          "type": "text",
+          "bbox": [
+            57.0,
+            281.32501220703125,
+            333.614990234375,
+            293.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                281.32501220703125,
+                333.614990234375,
+                293.6910095214844
+              ],
+              "text": "(a) H2 + O2 -> H2O     (b) 2H2 + O2 -> 2H2O     (c) H2 + 2O2 -> H2O",
+              "spans": [
+                {
+                  "text": "(a) H2 + O2 -> H2O     (b) 2H2 + O2 -> 2H2O     (c) H2 + 2O2 -> H2O",
+                  "bbox": [
+                    57.0,
+                    281.32501220703125,
+                    333.614990234375,
+                    293.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 9,
+          "type": "text",
+          "bbox": [
+            42.0,
+            298.29998779296875,
+            404.3498840332031,
+            312.07000732421875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                298.29998779296875,
+                404.3498840332031,
+                312.07000732421875
+              ],
+              "text": "Q3. The focal length of a spherical mirror is 20 cm. Its radius of curvature is:",
+              "spans": [
+                {
+                  "text": "Q3. The focal length of a spherical mirror is 20 cm. Its radius of curvature is:",
+                  "bbox": [
+                    42.0,
+                    298.29998779296875,
+                    404.3498840332031,
+                    312.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 10,
+          "type": "text",
+          "bbox": [
+            57.0,
+            314.32501220703125,
+            241.04995727539062,
+            326.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                314.32501220703125,
+                241.04995727539062,
+                326.6910095214844
+              ],
+              "text": "(a) 10 cm     (b) 20 cm     (c) 40 cm     (d) 5 cm",
+              "spans": [
+                {
+                  "text": "(a) 10 cm     (b) 20 cm     (c) 40 cm     (d) 5 cm",
+                  "bbox": [
+                    57.0,
+                    314.32501220703125,
+                    241.04995727539062,
+                    326.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 11,
+          "type": "text",
+          "bbox": [
+            42.0,
+            331.29998779296875,
+            433.7998352050781,
+            345.07000732421875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                331.29998779296875,
+                433.7998352050781,
+                345.07000732421875
+              ],
+              "text": "Q4. Which gas is evolved when dilute hydrochloric acid reacts with zinc granules?",
+              "spans": [
+                {
+                  "text": "Q4. Which gas is evolved when dilute hydrochloric acid reacts with zinc granules?",
+                  "bbox": [
+                    42.0,
+                    331.29998779296875,
+                    433.7998352050781,
+                    345.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 12,
+          "type": "text",
+          "bbox": [
+            57.0,
+            347.32501220703125,
+            312.5909423828125,
+            359.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                347.32501220703125,
+                312.5909423828125,
+                359.6910095214844
+              ],
+              "text": "(a) Oxygen     (b) Hydrogen     (c) Carbon dioxide     (d) Nitrogen",
+              "spans": [
+                {
+                  "text": "(a) Oxygen     (b) Hydrogen     (c) Carbon dioxide     (d) Nitrogen",
+                  "bbox": [
+                    57.0,
+                    347.32501220703125,
+                    312.5909423828125,
+                    359.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 13,
+          "type": "text",
+          "bbox": [
+            42.0,
+            364.29998779296875,
+            283.7399597167969,
+            378.07000732421875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                364.29998779296875,
+                283.7399597167969,
+                378.07000732421875
+              ],
+              "text": "Q5. The speed of light in vacuum is approximately:",
+              "spans": [
+                {
+                  "text": "Q5. The speed of light in vacuum is approximately:",
+                  "bbox": [
+                    42.0,
+                    364.29998779296875,
+                    283.7399597167969,
+                    378.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 14,
+          "type": "text",
+          "bbox": [
+            57.0,
+            380.32501220703125,
+            358.5,
+            392.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                380.32501220703125,
+                358.5,
+                392.6910095214844
+              ],
+              "text": "(a) 3 x 10^8 m/s     (b) 3 x 10^5 m/s     (c) 1.5 x 10^8 m/s     (d) 3 x 10^6 m/s",
+              "spans": [
+                {
+                  "text": "(a) 3 x 10^8 m/s     (b) 3 x 10^5 m/s     (c) 1.5 x 10^8 m/s     (d) 3 x 10^6 m/s",
+                  "bbox": [
+                    57.0,
+                    380.32501220703125,
+                    358.5,
+                    392.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 15,
+          "type": "text",
+          "bbox": [
+            42.0,
+            417.2300109863281,
+            281.5799255371094,
+            432.37701416015625
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                417.2300109863281,
+                281.5799255371094,
+                432.37701416015625
+              ],
+              "text": "SECTION B (Short & Long Answer Questions)",
+              "spans": [
+                {
+                  "text": "SECTION B (Short & Long Answer Questions)",
+                  "bbox": [
+                    42.0,
+                    417.2300109863281,
+                    281.5799255371094,
+                    432.37701416015625
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 11.0,
+                  "color": 870305,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 16,
+          "type": "text",
+          "bbox": [
+            42.0,
+            438.29998779296875,
+            311.1299743652344,
+            452.07000732421875
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                438.29998779296875,
+                311.1299743652344,
+                452.07000732421875
+              ],
+              "text": "Q6. State Ohm's Law and write its mathematical formula.",
+              "spans": [
+                {
+                  "text": "Q6. State Ohm's Law and write its mathematical formula.",
+                  "bbox": [
+                    42.0,
+                    438.29998779296875,
+                    311.1299743652344,
+                    452.07000732421875
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 17,
+          "type": "text",
+          "bbox": [
+            57.0,
+            454.32501220703125,
+            202.06198120117188,
+            466.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                454.32501220703125,
+                202.06198120117188,
+                466.6910095214844
+              ],
+              "text": "(a) Define resistance of a conductor.",
+              "spans": [
+                {
+                  "text": "(a) Define resistance of a conductor.",
+                  "bbox": [
+                    57.0,
+                    454.32501220703125,
+                    202.06198120117188,
+                    466.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 18,
+          "type": "text",
+          "bbox": [
+            57.0,
+            471.32501220703125,
+            245.57696533203125,
+            483.6910095214844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                471.32501220703125,
+                245.57696533203125,
+                483.6910095214844
+              ],
+              "text": "(b) What factors affect the resistance of a wire?",
+              "spans": [
+                {
+                  "text": "(b) What factors affect the resistance of a wire?",
+                  "bbox": [
+                    57.0,
+                    471.32501220703125,
+                    245.57696533203125,
+                    483.6910095214844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 19,
+          "type": "text",
+          "bbox": [
+            42.0,
+            498.29998779296875,
+            424.849853515625,
+            512.0700073242188
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                498.29998779296875,
+                424.849853515625,
+                512.0700073242188
+              ],
+              "text": "Q7. Differentiate between autotrophic and heterotrophic nutrition with examples.",
+              "spans": [
+                {
+                  "text": "Q7. Differentiate between autotrophic and heterotrophic nutrition with examples.",
+                  "bbox": [
+                    42.0,
+                    498.29998779296875,
+                    424.849853515625,
+                    512.0700073242188
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 20,
+          "type": "text",
+          "bbox": [
+            42.0,
+            524.2999877929688,
+            232.61997985839844,
+            538.0700073242188
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                524.2999877929688,
+                232.61997985839844,
+                538.0700073242188
+              ],
+              "text": "Q8. Define refractive index of a medium.",
+              "spans": [
+                {
+                  "text": "Q8. Define refractive index of a medium.",
+                  "bbox": [
+                    42.0,
+                    524.2999877929688,
+                    232.61997985839844,
+                    538.0700073242188
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 21,
+          "type": "text",
+          "bbox": [
+            42.0,
+            550.2999877929688,
+            313.7599182128906,
+            564.0700073242188
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                550.2999877929688,
+                313.7599182128906,
+                564.0700073242188
+              ],
+              "text": "Q9. Study the ray diagram given below for a convex lens:",
+              "spans": [
+                {
+                  "text": "Q9. Study the ray diagram given below for a convex lens:",
+                  "bbox": [
+                    42.0,
+                    550.2999877929688,
+                    313.7599182128906,
+                    564.0700073242188
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 22,
+          "type": "image",
+          "bbox": [
+            146.0,
+            571.0,
+            466.0,
+            731.0
+          ],
+          "lines": []
+        },
+        {
+          "block_id": 23,
+          "type": "text",
+          "bbox": [
+            57.0,
+            736.3250122070312,
+            278.6159362792969,
+            748.6909790039062
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                736.3250122070312,
+                278.6159362792969,
+                748.6909790039062
+              ],
+              "text": "(a) Identify the position and nature of the image formed.",
+              "spans": [
+                {
+                  "text": "(a) Identify the position and nature of the image formed.",
+                  "bbox": [
+                    57.0,
+                    736.3250122070312,
+                    278.6159362792969,
+                    748.6909790039062
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_num": 2,
+      "width": 612.0,
+      "height": 792.0,
+      "blocks": [
+        {
+          "block_id": 0,
+          "type": "text",
+          "bbox": [
+            57.0,
+            41.32500076293945,
+            406.9200744628906,
+            53.691001892089844
+          ],
+          "lines": [
+            {
+              "bbox": [
+                57.0,
+                41.32500076293945,
+                406.9200744628906,
+                53.691001892089844
+              ],
+              "text": "(b) Calculate the magnification if object distance u = -30 cm and focal length f = +15 cm.",
+              "spans": [
+                {
+                  "text": "(b) Calculate the magnification if object distance u = -30 cm and focal length f = +15 cm.",
+                  "bbox": [
+                    57.0,
+                    41.32500076293945,
+                    406.9200744628906,
+                    53.691001892089844
+                  ],
+                  "font": "Helvetica",
+                  "size": 9.0,
+                  "color": 0,
+                  "flags": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "block_id": 1,
+          "type": "text",
+          "bbox": [
+            42.0,
+            68.30000305175781,
+            419.89984130859375,
+            82.06999969482422
+          ],
+          "lines": [
+            {
+              "bbox": [
+                42.0,
+                68.30000305175781,
+                419.89984130859375,
+                82.06999969482422
+              ],
+              "text": "Q10. Explain the process of photosynthesis with a balanced chemical equation.",
+              "spans": [
+                {
+                  "text": "Q10. Explain the process of photosynthesis with a balanced chemical equation.",
+                  "bbox": [
+                    42.0,
+                    68.30000305175781,
+                    419.89984130859375,
+                    82.06999969482422
+                  ],
+                  "font": "Helvetica-Bold",
+                  "size": 10.0,
+                  "color": 0,
+                  "flags": 16
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "paper_id": "f15a1e9751e2",
+  "class": "10",
+  "subject": "physics",
+  "year": "2022-2023",
+  "filename": "class10_physics_2022_2023_paper1.pdf"
+}

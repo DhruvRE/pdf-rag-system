@@ -1,0 +1,28 @@
+<!-- TopNavBar Header -->
+<header class="top-header docked full-width top-0 sticky z-30 flex justify-between items-center h-16 px-6 border-b border-slate-800">
+  <!-- Left: Search Input Container -->
+  <div class="flex items-center gap-3 w-full max-w-2xl">
+    <div class="search-container flex-1 flex items-center relative bg-slate-900 border border-slate-700/70 rounded-full px-4 py-2">
+      <span class="material-symbols-outlined text-slate-400 mr-2.5 text-[20px] flex-shrink-0">search</span>
+      <input id="searchInput" class="w-full bg-transparent border-none outline-none text-slate-100 placeholder-slate-400 text-sm font-medium focus:ring-0 focus:outline-none p-0" placeholder="Search questions by keyword, topic, formula..." type="text" autocomplete="off" value=""/>
+      <button id="clearSearchBtn" class="text-slate-400 hover:text-rose-400 text-xs font-bold ml-2 flex-shrink-0 hidden">✕</button>
+    </div>
+    <button id="searchBtn" class="search-btn whitespace-nowrap flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold rounded-full shadow-md transition-all">
+      <span class="material-symbols-outlined text-[17px]">travel_explore</span>
+      <span>Search RAG Pipeline</span>
+    </button>
+  </div>
+
+  <!-- Right Actions & System Status (Profile Removed as requested) -->
+  <div class="flex items-center gap-4">
+    <!-- Live Status Pill -->
+    <div class="flex items-center gap-2 px-3.5 py-1.5 bg-slate-900 border border-slate-700/60 rounded-full text-[11px] font-semibold text-slate-300 shadow-sm">
+      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+      <span>Vector Store DB Active</span>
+    </div>
+
+    <button id="copyPromptBtn" class="hidden px-3.5 py-1.5 bg-indigo-950/80 text-indigo-300 border border-indigo-700/60 rounded-lg text-xs font-bold flex items-center gap-1.5 hover:bg-indigo-900 transition-colors shadow-sm">
+      <span class="material-symbols-outlined text-[16px]">content_copy</span> Copy RAG Prompt
+    </button>
+  </div>
+</header>

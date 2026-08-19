@@ -1,0 +1,1007 @@
+{
+  "paper_id": "1b1cf329a32e",
+  "class": "10",
+  "subject": "social_science",
+  "year": "2023-2024",
+  "total_questions": 42,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.48,
+        683.32,
+        485.72,
+        767.76
+      ],
+      "raw_text": "1.\nIdentify the correct option that describes the act given below.\ni.\nThe Act was passed by the Imperial Legislative Council.\nii.\nIt gave power to the government to repress political activities.\niii.\nIt empowered the government to detain political prisoners without trial.\nOptions:\na. Rowlatt Act\nb. Vernacular Press Act\nc. Government of India Act",
+      "options": [
+        "(a) Rowlatt Act",
+        "(b) Vernacular Press Act",
+        "(c) Government of India Act",
+        "(d) Inland Emigration Act"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q1_1.png",
+          "relative_path": "images/q1_1.png",
+          "bounding_box": [
+            33.96,
+            38.04,
+            85.68,
+            94.92
+          ],
+          "width": 51.72,
+          "height": 56.88
+        },
+        {
+          "filename": "q1_2.png",
+          "relative_path": "images/q1_2.png",
+          "bounding_box": [
+            469.56,
+            38.28,
+            564.6,
+            102.0
+          ],
+          "width": 95.04,
+          "height": 63.72
+        }
+      ]
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.48,
+        130.16,
+        513.7,
+        237.65
+      ],
+      "raw_text": "2.\nWhich place in India has an artificial lake to conserve water that dates to 11th\ncentury?\na. Delhi\nb. Bhopal\nc. Mumbai",
+      "options": [
+        "(a) Delhi",
+        "(b) Bhopal",
+        "(c) Mumbai",
+        "(d) Kolhapur"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.48,
+        245.15,
+        508.4,
+        525.31
+      ],
+      "raw_text": "3.\nRead the data given below and answer the question.\nEducational Achievement of Rural Population of Uttar Pradesh\nAs per the data given above who has the least percentage of literacy rate in\nrural population?\na. Male\nb. Children\nc. Male& Female",
+      "options": [
+        "(a) Male",
+        "(b) Children",
+        "(c) Male& Female",
+        "(d) Female"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q3_1.png",
+          "relative_path": "images/q3_1.png",
+          "bounding_box": [
+            79.68,
+            282.12,
+            513.0,
+            404.88
+          ],
+          "width": 433.32,
+          "height": 122.76
+        },
+        {
+          "filename": "q3_2.png",
+          "relative_path": "images/q3_2.png",
+          "bounding_box": [
+            84.72,
+            287.04,
+            504.0,
+            395.88
+          ],
+          "width": 419.28,
+          "height": 108.84
+        }
+      ]
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.48,
+        534.4,
+        512.38,
+        734.76
+      ],
+      "raw_text": "4.\nWhich of the following options represent potential measures that can be\ntaken to mitigate the threats posed on the tiger population and biodiversity?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "i. Banning hunting, giving legal protection to their habitats, and restricting trade\nin wildlife",
+        "ii. Prohibiting the visit of public into forest area.",
+        "iii. Establishing wildlife sanctuaries and National Parks",
+        "iv. Converting forests into Reserved and Protected forests\nOptions:",
+        "a. Statement i and ii are correct.",
+        "b. Statement ii, iii & iv are correct",
+        "c. Statement ii is correct.",
+        "d. Statement (i), (iii) & (iv) are correct."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.48,
+        46.86,
+        513.7,
+        154.34
+      ],
+      "raw_text": "5.\nWhen many countries of Europe came together to form the European Union,\nwas chosen as its headquarters.\na. Brussels\nb. Paris\nc. London",
+      "options": [
+        "(a) Brussels",
+        "(b) Paris",
+        "(c) London",
+        "(d) Zurich"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.48,
+        161.84,
+        512.98,
+        373.25
+      ],
+      "raw_text": "6.\nWhich of the following statements accurately distinguishes between\nMajoritarianism and Power sharing?\na. Majoritarianism emphasizes the dominance of the majority community, while\nPower sharing emphasizes the sharing of power among different groups.\nb. Majoritarianism emphasizes the need for consensus building, while Power\nsharing emphasizes the exclusion of minority groups.\nc. Majoritarianism emphasizes the importance of accommodating minority\ninterests, while Power sharing emphasizes the need for majority rule.\nd. Majoritarianism emphasizes the need for peaceful resolution of conflicts,\nwhile Power sharing emphasizes the use of force to impose the majority's\nwill.",
+      "options": [
+        "(a) Majoritarianism emphasizes the dominance of the majority community, while",
+        "(b) Majoritarianism emphasizes the need for consensus building, while Power",
+        "(c) Majoritarianism emphasizes the importance of accommodating minority",
+        "(d) Majoritarianism emphasizes the need for peaceful resolution of conflicts,"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.48,
+        380.41,
+        512.38,
+        529.15
+      ],
+      "raw_text": "7.\nThere are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): Democracies are based on political equality\nReason(R): All individuals have equal say in electing representatives.\na. Both (A) and (R) are true and (R) is the correct explanation of (A)\nb. Both A and R are true and R is the correct explanation of A.\nc. (A) is correct but (R) is wrong",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.48,
+        537.04,
+        518.62,
+        739.56
+      ],
+      "raw_text": "8.\nRahul has a sack of cotton but he is in need of wheat and Anush has a sack\nof wheat and is in need of cotton, under this situation both will be able to\nexchange their goods. In case of absence of such coincidence of wants, they\nmay not exchange their goods.\nWhich one of the following would be the best option that describes the mutual\nexchange of goods and eliminate the exchange of goods?\nOptions:\na. Double coincidence of want, Exchanging commodity for commodity.\nb. Double Coincidence of want, Credit on Commodity\nc. Double coincidence of want, Loan on commodity.",
+      "options": [
+        "(a) Double coincidence of want, Exchanging commodity for commodity.",
+        "(b) Double Coincidence of want, Credit on Commodity",
+        "(c) Double coincidence of want, Loan on commodity.",
+        "(d) Double coincidence of want, Money"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "bounding_box": [
+        49.08,
+        46.86,
+        517.78,
+        269.33
+      ],
+      "raw_text": "9.\nYou are a citizen of a country that has a democratic form of government. You\nwant to ensure that the system of power-sharing in your country is effective\nand that no one branch of government has absolute power.\nWhich of the following measures would best meet this goal?\na. All power is concentrated in the hands of the legislature only.\nb. Power is divided between the central government and the states or\nprovinces, with each level having its own sphere of influence.\nc. Power is separated among the legislative, executive, and judicial branches,\nwith each branch having its own responsibilities and powers.\nd. Power is shared among different levels of government, such as the national,\nregional, and local governments, with each level having some degree of\nautonomy.",
+      "options": [
+        "(a) All power is concentrated in the hands of the legislature only.",
+        "(b) Power is divided between the central government and the states or",
+        "(c) Power is separated among the legislative, executive, and judicial branches,",
+        "(d) Power is shared among different levels of government, such as the national,"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "bounding_box": [
+        49.32,
+        276.47,
+        512.74,
+        708.84
+      ],
+      "raw_text": "10. Identify the painting from the options given below.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Frankfurt Parliament",
+        "b. Reichstag",
+        "c. Duma",
+        "d. The House of Parliament\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 10\nQ. Which of the following does the symbol \u201ccrown of oak leaves \u201cstand for?",
+        "a. Freedom",
+        "b. Shows readiness to fight.",
+        "c. Willingness to make peace.",
+        "d. Heroism."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q10_1.png",
+          "relative_path": "images/q10_1.png",
+          "bounding_box": [
+            79.68,
+            293.64,
+            515.28,
+            484.08
+          ],
+          "width": 435.6,
+          "height": 190.44
+        },
+        {
+          "filename": "q10_2.png",
+          "relative_path": "images/q10_2.png",
+          "bounding_box": [
+            84.72,
+            298.68,
+            506.28,
+            474.96
+          ],
+          "width": 421.56,
+          "height": 176.28
+        }
+      ]
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "bounding_box": [
+        49.32,
+        717.9,
+        513.1,
+        763.44
+      ],
+      "raw_text": "11. Evaluate the impacts of opening foreign trade on the global economy by\nidentifying the appropriate statements among the following options:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "I. The choice of goods in the markets increase.",
+        "ii. Producers from two countries closely compete against each other despite the\ndistance between their locations.",
+        "iii. Foreign trade thus results in connecting the markets or integration of markets\nin different countries.",
+        "iv. The quality of the product is always good.\nOptions:",
+        "a. Statements i and ii are appropriate.",
+        "b. Statements i, ii and iii are appropriate.",
+        "c. All the statements are appropriate.",
+        "d. Only statement iv is appropriate."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "bounding_box": [
+        49.32,
+        239.15,
+        505.04,
+        362.33
+      ],
+      "raw_text": "12. Choose the correction option to complete the statement.\nIf a government provides its citizens a right and means to examine the\nprocess of decision, it is\n.\na. An accountable government.\nb. A responsible government.\nc. A transparent government.",
+      "options": [
+        "(a) An accountable government.",
+        "(b) A responsible government.",
+        "(c) A transparent government.",
+        "(d) A stable government."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "bounding_box": [
+        49.32,
+        370.31,
+        512.14,
+        615.94
+      ],
+      "raw_text": "13. Arrange the following statements in sequential order based on the events\nthat shaped the Non-cooperation movement.\ni. General Dyer opened fire at the large crowd gathered in the enclosed ground of\nJallianwala Bagh.\nii. \u201cForced recruitment\u201d carried out by the British government and the economic\nhardships faced by the people during the first world war.\niii. The defeat of the Ottoman Emperor of Turkey led to the formation of the Khilafat\nmovement.\niv. Gandhiji launched a nationwide satyagraha against the Rowlatt act.\nOptions:\na. iv, iii, ii, i\nb. ii, i, iv,iii\nc. i, iv, iii, ii",
+      "options": [
+        "(a) iv, iii, ii, i",
+        "(b) ii, i, iv,iii",
+        "(c) i, iv, iii, ii",
+        "(d) i, ii, iii, iv"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "bounding_box": [
+        49.32,
+        623.8,
+        517.9,
+        779.04
+      ],
+      "raw_text": "14. If there is a disruption by transporters and lorries refuse to transport\nvegetables, milk, etc. from rural areas to urban areas, food will become\nscarce in urban areas, whereas farmers will be unable to sell their products.\nWhich of the following sectors will be affected due to this situation stated\nabove?\na. Primary and Secondary\nb. Secondary and Tertiary\nc. Tertiary, Primary and Secondary",
+      "options": [
+        "(a) Primary and Secondary",
+        "(b) Secondary and Tertiary",
+        "(c) Tertiary, Primary and Secondary",
+        "(d) Tertiary and Primary."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "bounding_box": [
+        47.16,
+        49.5,
+        518.24,
+        224.06
+      ],
+      "raw_text": "15.\nConsider the statements given below and choose the correct answer\nStatement I: Western printing techniques and mechanical press were imported in\nthe late 19th Century as western powers established their outposts in China.\nStatement II: Beijing became the hub of the new print culture, catering to western-\nstyle schools.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Statement (i) is correct and (ii) is incorrect.",
+        "b. Statement (i) is incorrect and (ii) is correct",
+        "c. Both (i) & (ii) are incorrect",
+        "d. Both (i) & (ii) are correct"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "bounding_box": [
+        47.16,
+        231.59,
+        515.96,
+        453.67
+      ],
+      "raw_text": "16.\n\u201cM\u201d gave his friend clues about a type of soil that suits for growing cotton.\nWhich of the following clues provided by \"M\" would be most useful in\nidentifying the ideal type of soil?\nClues:\ni. It is well-known for its capacity to hold moisture.\nii. It turns yellow when it is hydrated.\niii. It is rich in kankur and bhangar nodules.\niv. It is a well-drained loamy soil.\na. Clue i\nb. Clue i and iii\nc. Clue i and ii",
+      "options": [
+        "(a) Clue i",
+        "(b) Clue i and iii",
+        "(c) Clue i and ii",
+        "(d) Clue iv"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "bounding_box": [
+        47.16,
+        461.17,
+        518.72,
+        568.63
+      ],
+      "raw_text": "17.\nChoose the right option to fill in the blank.\nThe emergence of\nis directly connected to the rise of political parties.\na. Monitory democracies\nb. Direct democracies\nc. Representative democracies",
+      "options": [
+        "(a) Monitory democracies",
+        "(b) Direct democracies",
+        "(c) Representative democracies",
+        "(d) Constitutional democracies"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "bounding_box": [
+        47.16,
+        576.28,
+        517.88,
+        668.02
+      ],
+      "raw_text": "18.\nThe process of integration between different countries is called as________.\na. Privatization\nb. Globalization\nc. Liberalization",
+      "options": [
+        "(a) Privatization",
+        "(b) Globalization",
+        "(c) Liberalization",
+        "(d) Competition"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "SECTIONA",
+      "page_num": 7,
+      "bounding_box": [
+        47.16,
+        49.5,
+        517.76,
+        271.73
+      ],
+      "raw_text": "19.\nWhich of the following statements Is correct keeping the requirement of\nformation of government in view.\nStatement i: It is possible for independent candidates to form a government.\nStatement ii: Government formation is exclusively reserved for political parties.\nStatement iii: The formation of government is limited to only elected political\nparties.\nStatement iv: Government can only be formed by political parties that are elected\nand hold a majority.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Statement i and ii are right.",
+        "b. Statement i, ii and iii are right.",
+        "c. Statement iii is right.",
+        "d. Only statement iv is right."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "SECTIONA",
+      "page_num": 7,
+      "bounding_box": [
+        47.16,
+        272.03,
+        517.52,
+        426.79
+      ],
+      "raw_text": "20.\nThere are two statements marked as Assertion (A) and Reason (R). Mark your\nanswer as per the codes provided below:\nAssertion (A): India is a country with a multi-party system set up.\nReason (R): The multi-party system often appears very messy and leads to\npolitical instability.\na. Both (A) and (R) are true and (R) is the correct explanation of (A)\nb. Both (A) and (R) are true but (R) is not the correct explanation of (A)\nc. (A) is correct but (R) is wrong",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "bounding_box": [
+        47.16,
+        460.21,
+        511.94,
+        516.19
+      ],
+      "raw_text": "21.\nQ: Study the map thoroughly and answer the question given below.\nWhat can be inferred about the linguistic diversity and its potential impact\non social and political life in Belgium?\"\nFor Visually impaired students in lieu of the above question.\nQ: Mention the languages that are dominantly present in Belgium;",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q21_1.png",
+          "relative_path": "images/q21_1.png",
+          "bounding_box": [
+            86.28,
+            521.16,
+            507.93,
+            765.81
+          ],
+          "width": 421.65,
+          "height": 244.65
+        },
+        {
+          "filename": "q21_2.png",
+          "relative_path": "images/q21_2.png",
+          "bounding_box": [
+            91.32,
+            526.2,
+            499.32,
+            757.2
+          ],
+          "width": 408.0,
+          "height": 231.0
+        }
+      ]
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        83.24,
+        518.24,
+        173.3
+      ],
+      "raw_text": "22.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A): \u201cThe most powerful weapon of the Spanish conqueror was not a\nconventional military weapon at all.\u201d Justify the above statement by giving\ntwo reasons.",
+        "OR",
+        "(B): \u201cTraders and travelers introduced new crops to lands they travelled.\n\u201cSubstantiate this statement with illustrations."
+      ],
+      "is_valid": false
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        175.16,
+        518.36,
+        220.1
+      ],
+      "raw_text": "23.\nMr. Palani is from Tamil N\u0101du, wishes to cultivate either Tea or Wheat. Which\none of the crops out of the two can he cultivate in his state? Substantiate\nyour answer with any two reasons.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        221.72,
+        443.24,
+        235.1
+      ],
+      "raw_text": "24.\nMention any two reasons to state that India is a federal country.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        285.35,
+        517.88,
+        313.37
+      ],
+      "raw_text": "25.\nProvide evidence to support the claim that print culture had a significant\nimpact on the social lives of women in India?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        313.43,
+        515.6,
+        451.75
+      ],
+      "raw_text": "26.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) ; A worker in an urban area, who was working in a small factory, was not\npaid his wages properly, he was forced to work extra hours under poor\nworking conditions, there was no job security, recently he lost his job and\nwas found selling electrical items in a pushcart.\nAnalyze the role of the government in protecting the workers working in an\nUnorganized sector.",
+        "OR",
+        "(B) : Mr Pawan, a village head wanted to create more job opportunities to\nincrease the income of the people of his village under MNREGA act, Suggest\nany three activities, so that Mr Pawan could initiate in his village."
+      ],
+      "is_valid": false
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        451.81,
+        518.0,
+        481.39
+      ],
+      "raw_text": "27.\n\u201cAgriculture gives boost to the industrial sector\u2019. Justify the statement with\nany three relevant points.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        481.69,
+        515.36,
+        526.99
+      ],
+      "raw_text": "28.\nThe Indian constitution provides three lists to distribute the legislative\npower. State any two subjects that are included in the union list. In which list\nthe subject \u201cEducation\u201d is included and why?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTIONC",
+      "page_num": 8,
+      "bounding_box": [
+        47.16,
+        529.21,
+        516.32,
+        768.12
+      ],
+      "raw_text": "29.\nCompare Tables \u201cA\u201d & \u201cB\u201d and answer the question given below.\nTable- A\nShare of sectors in employment in %\nYear\nTertiary\nSecondary\nPrimary\nYear\n1977-78\n1977-78\n2017-18\n2017-18\nTable \u2013B\nShare of Sectors in GDP in %\nYear\nTertiary\nSecondary\nPrimary\n1973-74\n2013-14\nA remarkable fact about India is that while there has been a change in the share\nof the three sectors in GDP, a similar shift has not taken place in employment. Why\ndidn\u2019t a similar shift out of primary sector happen in case of employment?\nSubstantiate your answer.\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No29\nQ. Tertiary sector activities help in the development of Primary and\nSecondary sectors. Substantiate your answer.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTIOND",
+      "page_num": 9,
+      "bounding_box": [
+        50.4,
+        169.76,
+        514.88,
+        246.29
+      ],
+      "raw_text": "(A) : Analyze the impact of mining activities on the local environment and the\nhealth of the surrounding communities.\nOR\n(B) : \u201cNon-conventional resources are the best option to conserve the natural\nresources\u201d Substantiate this statement with Examples.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) : Analyze the impact of mining activities on the local environment and the\nhealth of the surrounding communities.",
+        "OR",
+        "(B) : \u201cNon-conventional resources are the best option to conserve the natural\nresources\u201d Substantiate this statement with Examples."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTIOND",
+      "page_num": 9,
+      "bounding_box": [
+        50.4,
+        247.79,
+        514.52,
+        329.09
+      ],
+      "raw_text": "(A) : How would you evaluate Napoleon as an administrator who created\na more rational and efficient system? Elucidate with suitable examples.\nOR\n(B) : Analyze the decisions taken by the conservatives at the Congress\nof Vienna in the year 1815.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) : How would you evaluate Napoleon as an administrator who created\na more rational and efficient system? Elucidate with suitable examples.",
+        "OR",
+        "(B) : Analyze the decisions taken by the conservatives at the Congress\nof Vienna in the year 1815."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTIOND",
+      "page_num": 9,
+      "bounding_box": [
+        50.4,
+        330.95,
+        512.12,
+        396.17
+      ],
+      "raw_text": "(A) : Analyse the role of a multiparty system in a democratic country like India.\nOR\n(B) : Evaluate the differences between the national and regional parties and\nassess the requirements for a regional party to become a national party.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) : Analyse the role of a multiparty system in a democratic country like India.",
+        "OR",
+        "(B) : Evaluate the differences between the national and regional parties and\nassess the requirements for a regional party to become a national party."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTIOND",
+      "page_num": 9,
+      "bounding_box": [
+        48.36,
+        398.65,
+        516.2,
+        507.19
+      ],
+      "raw_text": "33.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) : A farmer has borrowed money from a money lender at a high rate of\ninterest, as he could not pay the interest, he was forced to borrow from\nanother landlord to settle the amount for the interest borrowed to the money\nlender. State the consequences he may face in this situation.",
+        "OR",
+        "(B) : \u201cSelf \u2013help groups eliminates poverty and empowers women\u201d.\nSubstantiate with suitable answer."
+      ],
+      "is_valid": false
+    },
+    {
+      "question_id": "q34",
+      "question_number": "Q34",
+      "section": "SECTIONE",
+      "page_num": 9,
+      "bounding_box": [
+        48.6,
+        538.69,
+        516.68,
+        763.44
+      ],
+      "raw_text": "Read the source given below and answer the questions that follow:\nIt is said of \u201cpassive resistance\u201d that it is the weapon of the weak, but the power\nwhich is the subject of this article can be used only by the strong. This power is\nnot passive resistance; indeed, it calls for intense activity. The movement in South\nAfrica was not passive but active \u2026\n'Satyagraha is not physical force. A satyagrahi does not inflict pain on the adversary;\nhe does not seek his destruction \u2026 In the use of satyagraha, there is no ill will\nwhatever. 'Satyagraha is pure soul force. Truth is the very substance of the soul.\nThat is why this force is called satyagraha. The soul is informed with knowledge.\nIn it burns the flame of love. \u2026 Nonviolence is the supreme dharma \u2026' It is certain\nthat India cannot rival Britain or Europe in force of arms. The British worship the war\ngod and they can all of them become, as they are becoming, bearers of arms. The\nhundreds of millions in India can never carry arms. They have made the religion of\nnon-violence their own \u2026\nIn his famous book Hind Swaraj (1909) Mahatma Gandhi declared that British rule\nwas established in India, with the cooperation of Indians, and had survived only\nbecause of this cooperation. If Indians refused to cooperate, British rule will collapse\nwithin a year.\n1. Why did Gandhiji say that passive resistance is not the weapon of\nthe weak?\n2. \u201cSatyagraha is pure soul-force.\u201d Substantiate this statement in 20\nwords.\n3. What according to Mahatma Gandhi is the best weapon to use to\ncollapse British rule in India?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q35",
+      "question_number": "Q35",
+      "section": "SECTIONE",
+      "page_num": 10,
+      "bounding_box": [
+        42.12,
+        202.64,
+        518.72,
+        517.63
+      ],
+      "raw_text": "Read the source given below and answer the questions that follow:\nMaharashtra is a state located in western India, with a population of over 110 million\npeople. The state is home to several large cities, including Mumbai, and has a\nsignificant agricultural sector. However, the state is facing a severe water crisis, with\nits water resources coming under increasing pressure due to climate change,\nindustrialization, and urbanization. The main challenges faced by water resource\nmanagement in Maharashtra are:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "i. Overexploitation of groundwater: Maharashtra is one of the most groundwater-\nstressed states in India, with the demand for water exceeding the supply.\nOverexploitation of groundwater for agriculture and urban use has led to a\ndecline in water levels, which has severe implications for the sustainability of\nwater resources.",
+        "ii. Pollution of surface water: Industrialization and urbanization have led to the\npollution of surface water bodies such as rivers and lakes. The pollution has\nled to water quality degradation, which poses risks to human health and the\nenvironment.",
+        "iii. Inefficient irrigation practices: The agricultural sector is the largest user of water\nin Maharashtra, accounting for around 80% of total water use. However,\ntraditional irrigation practices such as flood irrigation are inefficient and lead to\nthe wastage of water."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONE",
+      "page_num": 10,
+      "bounding_box": [
+        84.26,
+        520.09,
+        470.6,
+        549.43
+      ],
+      "raw_text": "1. Mention any one reasons for the water crisis faced by the state\nof Maharashtra.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONE",
+      "page_num": 10,
+      "bounding_box": [
+        84.26,
+        552.01,
+        448.4,
+        581.02
+      ],
+      "raw_text": "2. Propose any one solution to mitigate the water crisis faced by\nMaharashtra state.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTIONE",
+      "page_num": 10,
+      "bounding_box": [
+        84.26,
+        583.36,
+        508.64,
+        627.94
+      ],
+      "raw_text": "3. Despite being the second highest rainfall-receiving state of the country,\nMaharashtra still faces water crisis. Substantiate this statement in 40\nwords.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q36",
+      "question_number": "Q36",
+      "section": "SECTIONE",
+      "page_num": 10,
+      "bounding_box": [
+        42.12,
+        629.8,
+        516.32,
+        752.16
+      ],
+      "raw_text": "Read the source given below and answer the questions that follow:\nFor comparing countries, their income is considered to be one of the most important\nattributes. Countries with higher income are more developed than others with less\nincome. This is based on the understanding that more income means more of all\nthings that human beings need. Whatever people like, and should have, they will\nbe able to get with greater income. So, greater income itself is considered to be\none important goal. Now, what is the income of a country? Intuitively, the income\nof the country is the income of all the residents of the country. This gives us the\ntotal income of the country. However, for comparison between countries, total\nincome is not such a useful measure. Since, countries have different populations,\ncomparing total income will not tell us what an average person is likely to earn.\nAre people in one country better off than others in a different country? Hence, we\ncompare the average income which is the total income of the country divided by\nits total population. The average income is also called per capita income. In World\nDevelopment Reports, brought out by the World Bank, this criterion is used in\nclassifying countries. Countries with per capita income of US$ 49,300 per annum\nand above in 2019, are called high income or rich countries and those with per capita\nincome of US$ 2500 or less are called low-income countries. The rich countries,\nexcluding countries of Middle East and certain other small countries are generally\ncalled developed countries.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONE",
+      "page_num": 11,
+      "bounding_box": [
+        84.38,
+        246.35,
+        363.05,
+        259.73
+      ],
+      "raw_text": "1. Explain the significance of per capita Income.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONE",
+      "page_num": 11,
+      "bounding_box": [
+        48.12,
+        243.59,
+        542.12,
+        355.61
+      ],
+      "raw_text": "2. What are the classifications of countries based on per capita income, and\nwhich entity is responsible for determining these classifications?\"\nSECTION F\nMAP SKILL-BASED QUESTION (2+3=5)",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Two places A and B have been marked on the given outline map of India.\nIdentify them and write their correct names on the lines drawn near them.",
+        "i. Indian National congress session at this place in 1920.",
+        "ii. The place where Mahatma Gandhi broke the salt law.",
+        "b. On the same outline map of India locate and label any 3 of the following\nwith suitable symbols.",
+        "i. A Coal mine in Tamil N\u0101du",
+        "ii. A dam built on river Chenab in India.",
+        "iii. A largest natural major seaport located at Andhra Pradesh",
+        "iv. Noida software technology park\nNote: The following question is for Visually Impaired Candidates only in lieu\nof Q. No. 37 a & b.\n37 a. i. Name the place where the Indian National Congress session was held in\nSeptember 1920.",
+        "ii. Name the place where Mahatma Gandhi Broke the salt law.\nAnswer any 3 of the following."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q2_1.png",
+          "relative_path": "images/q2_1.png",
+          "bounding_box": [
+            119.16,
+            390.0,
+            486.36,
+            743.64
+          ],
+          "width": 367.2,
+          "height": 353.64
+        },
+        {
+          "filename": "q2_2.png",
+          "relative_path": "images/q2_2.png",
+          "bounding_box": [
+            124.2,
+            394.8,
+            477.36,
+            735.12
+          ],
+          "width": 353.16,
+          "height": 340.32
+        }
+      ]
+    },
+    {
+      "question_id": "q37",
+      "question_number": "Q37",
+      "section": "SECTIONE",
+      "page_num": 12,
+      "bounding_box": [
+        82.94,
+        304.07,
+        497.6,
+        379.37
+      ],
+      "raw_text": "37. b. i. Name the coal mine located at Tamil N\u0101du",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "ii. Name the dam built on the river Chenab.",
+        "iii. Name the largest natural seaport located at Andhra Pradesh.",
+        "iv. Mention the state where Noida software technology park is located."
+      ],
+      "is_valid": true
+    }
+  ]
+}

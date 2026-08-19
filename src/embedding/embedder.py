@@ -238,6 +238,7 @@ def embed_paper_chunks(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict:
             "paper_id": str(chunk["paper_id"]),
             "question_id": str(chunk["question_id"]),
             "question_number": str(chunk["question_number"]),
+            "question_type": str(chunk.get("question_type", "short_answer")),
             "class": str(chunk["class"]),
             "subject": str(chunk["subject"]),
             "year": str(chunk["year"]),
@@ -272,7 +273,7 @@ def embed_paper_chunks(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict:
     }
 
 
-def query_vector_store(query_text: str = "", n_results: int = 5, subject_filter: str = None, class_filter: str = None, random_order: bool = False) -> list[dict]:
+def query_vector_store(query_text: str = "", n_results: int = None, subject_filter: str = None, class_filter: str = None, random_order: bool = False) -> list[dict]:
     """
     Queries the LocalVectorStore for top-k matching questions with optional metadata filtering and random ordering.
     """

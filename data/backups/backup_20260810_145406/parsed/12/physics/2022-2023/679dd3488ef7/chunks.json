@@ -1,0 +1,1003 @@
+{
+  "paper_id": "679dd3488ef7",
+  "class": "12",
+  "subject": "physics",
+  "year": "2022-2023",
+  "total_chunks": 34,
+  "chunks": [
+    {
+      "chunk_id": "679dd3488ef7_q5",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONE",
+      "page_num": 1,
+      "content": "5. Use of calculators is not allowed.",
+      "raw_text": "5. Use of calculators is not allowed.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        72.0,
+        358.04,
+        263.25,
+        371.41
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q1",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "According to Coulomb's law, which is the correct relation for the\nfollowing figure?",
+      "raw_text": "According to Coulomb's law, which is the correct relation for the\nfollowing figure?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) q1 q2> 0",
+        "(ii) q1 q2<0",
+        "(iii) q1 q2 =0",
+        "(iv) 1> q1/ q2 > 0"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        466.16,
+        514.82,
+        595.47
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q2",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "The electric potential on the axis of an electric dipole at a distance\n\u2018r from it\u2019s centre is V. Then the potential at a point at the same\ndistance on its equatorial line will be",
+      "raw_text": "The electric potential on the axis of an electric dipole at a distance\n\u2018r from it\u2019s centre is V. Then the potential at a point at the same\ndistance on its equatorial line will be",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)  2V",
+        "(ii)   -V",
+        "(iii)  V/2",
+        "(iv) Zero"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        606.8,
+        514.82,
+        702.97
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q3",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "The temperature (T) dependence of resistivity of materials A and\nmaterial B is represented by fig (i) and fig (ii) respectively.\nIdentify material A and material B.",
+      "raw_text": "The temperature (T) dependence of resistivity of materials A and\nmaterial B is represented by fig (i) and fig (ii) respectively.\nIdentify material A and material B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) material A is copper and material B is germanium",
+        "(ii)  material A is germanium and material B is copper",
+        "(iii) material A is nichrome and material B is germanium",
+        "(iv)  material A is copper and material B is nichrome"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        103.28,
+        514.82,
+        317.53
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q4",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Two concentric and coplanar circular loops P and Q have their\nradii in the ratio 2:3. Loop Q carries a current 9 A in the\nanticlockwise direction. For the magnetic field to be zero at the\ncommon centre, loop P must carry",
+      "raw_text": "Two concentric and coplanar circular loops P and Q have their\nradii in the ratio 2:3. Loop Q carries a current 9 A in the\nanticlockwise direction. For the magnetic field to be zero at the\ncommon centre, loop P must carry",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)  3A in clockwise direction",
+        "(ii) 9A in clockwise direction",
+        "(iii) 6 A in anti-clockwise direction",
+        "(iv) 6 A in the clockwise direction."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        342.68,
+        514.82,
+        452.65
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q5",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "A long straight wire of circular cross section of radius a carries a\nsteady current I. The current is uniformly distributed across its\ncross section. The ratio of the magnitudes of magnetic field at a\npoint distant a/2 above the surface of wire to that at a point distant\na/2 below its surface is",
+      "raw_text": "A long straight wire of circular cross section of radius a carries a\nsteady current I. The current is uniformly distributed across its\ncross section. The ratio of the magnitudes of magnetic field at a\npoint distant a/2 above the surface of wire to that at a point distant\na/2 below its surface is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)    4 :1",
+        "(ii)   1:1",
+        "(iii)  4: 3",
+        "(iv)  3 :4"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        464.12,
+        514.82,
+        587.89
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q6",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "If the magnetizing field on a ferromagnetic material is increased,\nits permeability",
+      "raw_text": "If the magnetizing field on a ferromagnetic material is increased,\nits permeability",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) decreases",
+        "(ii) increases",
+        "(iii) remains unchanged",
+        "(iv) first decreases and then increases"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q6_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        599.36,
+        514.82,
+        681.73
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q7",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "An iron cored coil is connected in series with an electric bulb with\nan AC source as shown in figure. When iron piece is taken out of\nthe coil, the brightness of the bulb will",
+      "raw_text": "An iron cored coil is connected in series with an electric bulb with\nan AC source as shown in figure. When iron piece is taken out of\nthe coil, the brightness of the bulb will",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) decrease",
+        "(ii) increase",
+        "(iii) remain unaffected",
+        "(iv) fluctuate"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        78.44,
+        514.82,
+        309.25
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q8",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Which of the following statement is NOT true about the properties\nof electromagnetic waves?",
+      "raw_text": "Which of the following statement is NOT true about the properties\nof electromagnetic waves?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(I) These waves do not require any material medium for their\npropagation",
+        "(ii) Both electric and magnetic field vectors attain the maxima and\nminima at the same time",
+        "(iii) The energy in electromagnetic wave is divided equally between\nelectric and magnetic fields",
+        "(iv) Both electric and magnetic field vectors are parallel to each other"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        330.68,
+        514.82,
+        471.01
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q9",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "A rectangular, a square, a circular and an elliptical loop, all in the\n(x-y) plane, are moving out of a uniform magnetic field with a\nconstant velocity \ud835\udc63\u20d7 = v\ud835\udea4\u0302.The magnetic field is directed along the\nnegative z-axis direction. The induced emf, during the passage of\nthese loops, out of the field region, will not remain constant for",
+      "raw_text": "A rectangular, a square, a circular and an elliptical loop, all in the\n(x-y) plane, are moving out of a uniform magnetic field with a\nconstant velocity \ud835\udc63\u20d7 = v\ud835\udea4\u0302.The magnetic field is directed along the\nnegative z-axis direction. The induced emf, during the passage of\nthese loops, out of the field region, will not remain constant for",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) any of the four loops",
+        "(ii) the circular and elliptical loops",
+        "(iii)  the rectangular, circular and elliptical loops",
+        "(iv) only the elliptical loops"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        484.52,
+        514.82,
+        648.63
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q10",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "In a Young\u2019s double slit experiment, the path difference at a certain\npoint on the screen between two interfering waves is\n\ud835\udfd6th of the\nwavelength. The ratio of intensity at this point to that at the centre\nof a bright fringe is close to",
+      "raw_text": "In a Young\u2019s double slit experiment, the path difference at a certain\npoint on the screen between two interfering waves is\n\ud835\udfd6th of the\nwavelength. The ratio of intensity at this point to that at the centre\nof a bright fringe is close to",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)  0.80",
+        "(ii)  0.74",
+        "(iii)  0.94",
+        "(iv)  0.85"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        78.44,
+        514.82,
+        227.53
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q11",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "The work function for a metal surface is 4.14 eV. The threshold\nwavelength for this metal surface is:",
+      "raw_text": "The work function for a metal surface is 4.14 eV. The threshold\nwavelength for this metal surface is:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)  4125 \u00c5",
+        "(ii)  2062.5 \u00c5",
+        "(iii)  3000 \u00c5",
+        "(iv)  6000 \u00c5"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        246.92,
+        514.82,
+        343.57
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q12",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "The radius of the innermost electron orbit of a hydrogen atom is\n5.3\u00d710\u201311 m. The radius of the  n =3 orbit is",
+      "raw_text": "The radius of the innermost electron orbit of a hydrogen atom is\n5.3\u00d710\u201311 m. The radius of the  n =3 orbit is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) 1.01 x 10-10m",
+        "(ii) 1.59 X 10-10m",
+        "(iii) 2.12 x 10-10m",
+        "(iv) 4.77 X 10-10m"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        357.08,
+        514.82,
+        487.45
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q13",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "Which of the following statements about nuclear forces is not\ntrue?",
+      "raw_text": "Which of the following statements about nuclear forces is not\ntrue?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) The nuclear force between two nucleons falls rapidly to zero as\ntheir distance is more than a few femtometres.",
+        "(ii) The nuclear force is much weaker than the Coulomb force.",
+        "(iii) The force is attractive for distances larger than 0.8 fm and\nrepulsive if they are separated by distances less than 0.8 fm.",
+        "(iv) The nuclear force between neutron-neutron, proton-neutron\nand proton-proton is approximately the same."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        510.8,
+        514.82,
+        642.61
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q14",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "If the reading of the voltmeter V1 is 40 V, then  the reading of\nvoltmeter V2 is",
+      "raw_text": "If the reading of the voltmeter V1 is 40 V, then  the reading of\nvoltmeter V2 is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) 30 V  (ii) 58 V  (iii) 29 V    (iv) 15 V"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q14_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        662.0,
+        514.82,
+        689.17
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q15",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "The electric potential V as a function of distance X is shown in the\nfigure.\nThe graph of the magnitude of electric field intensity E as a\nfunction of X is",
+      "raw_text": "The electric potential V as a function of distance X is shown in the\nfigure.\nThe graph of the magnitude of electric field intensity E as a\nfunction of X is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)",
+        "(ii)",
+        "(iii)",
+        "(iv)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        221.72,
+        514.82,
+        570.37
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q16",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "Two statements are given-one labelled Assertion (A) and the other\nlabelled Reason (R). Select the correct answer to these  questions\nfrom the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION(A):\nThe electrical conductivity of a semiconductor increases on doping.\nREASON:\nDoping\nalways\nincreases the number\nof\nelectrons\nin the\nsemiconductor.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Two statements are given-one labelled Assertion (A) and the other\nlabelled Reason (R). Select the correct answer to these  questions\nfrom the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION(A):\nThe electrical conductivity of a semiconductor increases on doping.\nREASON:\nDoping\nalways\nincreases the number\nof\nelectrons\nin the\nsemiconductor.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        605.12,
+        514.82,
+        697.81
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q17",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "content": "Two statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION:\nIn an interference pattern observed in Young's double slit experiment,\nif the separation (d) between coherent sources as well as the distance\n(D) of the screen from the coherent sources both are reduced to 1/3rd,\nthen new fringe width remains the same.\nREASON:\nFringe width is proportional to (d/D).\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Two statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION:\nIn an interference pattern observed in Young's double slit experiment,\nif the separation (d) between coherent sources as well as the distance\n(D) of the screen from the coherent sources both are reduced to 1/3rd,\nthen new fringe width remains the same.\nREASON:\nFringe width is proportional to (d/D).",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        218.72,
+        514.82,
+        478.81
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q18",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "content": "Two statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb Both A and R are true and R is NOT the correct explanation of A\nc) A is true but R is false\nd) A is false and R is also false\nAssertion(A) :\nThe photoelectrons produced by a monochromatic light beam incident\non a metal surface have a spread in their kinetic energies.\nReason(R) :\nThe energy of electrons emitted from inside the metal surface, is lost\nin collision with the other atoms in the metal.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Two statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb Both A and R are true and R is NOT the correct explanation of A\nc) A is true but R is false\nd) A is false and R is also false\nAssertion(A) :\nThe photoelectrons produced by a monochromatic light beam incident\non a metal surface have a spread in their kinetic energies.\nReason(R) :\nThe energy of electrons emitted from inside the metal surface, is lost\nin collision with the other atoms in the metal.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        491.6,
+        514.82,
+        678.61
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q19",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "Electromagnetic waves with wavelength",
+      "raw_text": "Electromagnetic waves with wavelength",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) \u03bb1 is suitable for radar systems used in aircraft navigation.",
+        "(ii) \u03bb2 is used to kill germs in water purifiers.",
+        "(iii) \u03bb3 is used to improve visibility in runways during fog and mist\nconditions.\nIdentify and name the part of the electromagnetic spectrum to which these\nradiations belong.Also arrange these wavelengths in ascending order of their\nmagnitude."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        193.64,
+        524.66,
+        303.55
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q20",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "A uniform magnetic field gets modified as shown in figure when two\nspecimens A and B are placed in it.\n(i)Identify the specimen A and B.",
+      "raw_text": "A uniform magnetic field gets modified as shown in figure when two\nspecimens A and B are placed in it.\n(i)Identify the specimen A and B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(ii) How is the magnetic susceptibility of specimen A different from\nthat of specimen B?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q20_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        315.08,
+        524.66,
+        508.45
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q21",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "What is the nuclear radius of 125Fe ,if that of 27 Al is 3.6 fermi?.",
+      "raw_text": "What is the nuclear radius of 125Fe ,if that of 27 Al is 3.6 fermi?.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "The short wavelength limit for the Lyman series of the hydrogen\nspectrum is 913.4 A0. Calculate the  short wavelength limit for the\nBalmer series of the hydrogen spectrum."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        519.54,
+        524.66,
+        618.49
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q22",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "A biconvex lens made of a transparent material of refractive index 1.25\nis immersed in water of refractive index 1.33. Will the lens behave as a\nconverging or a diverging lens? Justify your answer.",
+      "raw_text": "A biconvex lens made of a transparent material of refractive index 1.25\nis immersed in water of refractive index 1.33. Will the lens behave as a\nconverging or a diverging lens? Justify your answer.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q22_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        649.88,
+        524.66,
+        703.33
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q23",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "content": "The figure shows a piece of pure semiconductor S in series with a\nvariable resistor R and a source of constant voltage V. Should the value\nof R be increased or decreased to keep the reading of the ammeter\nconstant, when semiconductor S is heated? Justify your answer",
+      "raw_text": "The figure shows a piece of pure semiconductor S in series with a\nvariable resistor R and a source of constant voltage V. Should the value\nof R be increased or decreased to keep the reading of the ammeter\nconstant, when semiconductor S is heated? Justify your answer",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "The graph of potential barrier versus width of depletion region for an\nunbiased diode is shown in graph A. In comparison to A ,graphs B and\nC are obtained after biasing  the diode in different ways .Identify the\ntype of biasing in B and C and justify your answer."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        78.44,
+        524.66,
+        289.69
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q24",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "content": "A narrow slit is illuminated by a parallel beam of monochromatic light\nof wavelength \u03bb equal to 6000 \u00c5 and the angular width of the central\nmaximum in the resulting diffraction pattern is measured. When the slit\nis next illuminated by light of wavelength \u03bb\u2019, the angular width\ndecreases by 30%. Calculate the value of the wavelength \u03bb\u2019.",
+      "raw_text": "A narrow slit is illuminated by a parallel beam of monochromatic light\nof wavelength \u03bb equal to 6000 \u00c5 and the angular width of the central\nmaximum in the resulting diffraction pattern is measured. When the slit\nis next illuminated by light of wavelength \u03bb\u2019, the angular width\ndecreases by 30%. Calculate the value of the wavelength \u03bb\u2019.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        407.6,
+        524.66,
+        496.45
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q25",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "content": "Two large, thin metal plates are parallel and close to each other. On\ntheir inner faces, the plates have surface charge densities of opposite\nsigns and of magnitude 17.7 \u00d7 10-22 C/m2. What is electric field intensity\nE:",
+      "raw_text": "Two large, thin metal plates are parallel and close to each other. On\ntheir inner faces, the plates have surface charge densities of opposite\nsigns and of magnitude 17.7 \u00d7 10-22 C/m2. What is electric field intensity\nE:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) in the outer region of the first plate, and",
+        "(b) between the plates?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        527.96,
+        507.86,
+        668.65
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q26",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 9,
+      "content": "Two long straight parallel conductors carrying currents I1 and I2 are\nseparated by a distance d. If the currents are flowing in the same\ndirection, show how the magnetic field produced by one exerts an\nattractive force on the other. Obtain the expression for this force and\nhence define 1 ampere.",
+      "raw_text": "Two long straight parallel conductors carrying currents I1 and I2 are\nseparated by a distance d. If the currents are flowing in the same\ndirection, show how the magnetic field produced by one exerts an\nattractive force on the other. Obtain the expression for this force and\nhence define 1 ampere.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        141.92,
+        529.58,
+        210.49
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q27",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 9,
+      "content": "27.\nThe magnetic field through a circular loop of wire, 12cm in radius and\n8.5\u2126 resistance, changes with time as shown in the figure. The\nmagnetic field is perpendicular to the plane of the loop. Calculate the\ncurrent induced in the loop and plot a graph showing induced current\nas a function of time.",
+      "raw_text": "27.\nThe magnetic field through a circular loop of wire, 12cm in radius and\n8.5\u2126 resistance, changes with time as shown in the figure. The\nmagnetic field is perpendicular to the plane of the loop. Calculate the\ncurrent induced in the loop and plot a graph showing induced current\nas a function of time.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q27_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        221.96,
+        529.58,
+        290.53
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q28",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 9,
+      "content": "An a.c. source generating a voltage \u03b5 = \u03b50 sin \u03c9t is connected to a\ncapacitor of capacitance C. Find the expression for the current I flowing\nthrough it. Plot a graph of \u03b5 and I versus \uf077t to show that the current is\nahead of the voltage by \u03c0/2.",
+      "raw_text": "An a.c. source generating a voltage \u03b5 = \u03b50 sin \u03c9t is connected to a\ncapacitor of capacitance C. Find the expression for the current I flowing\nthrough it. Plot a graph of \u03b5 and I versus \uf077t to show that the current is\nahead of the voltage by \u03c0/2.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "An ac voltage V = V0 sin \uf077t is applied across a pure inductor of\ninductance L. Find an expression for the current i, flowing in the circuit\nand show mathematically that the current flowing through it lags behind\nthe applied voltage by a phase angle of\n\u03c0. Also draw graphs of V and\ni versus \uf077t for the circuit."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        442.64,
+        529.58,
+        609.22
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q29",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 9,
+      "content": "Radiation of frequency 1015 Hz is incident on three photosensitive\nsurfaces A, B and C. Following observations are recorded:\nSurface A: no photoemission occurs\nSurface B: photoemission occurs but the photoelectrons have zero\nkinetic energy.\nSurface C: photo emission occurs and photoelectrons have some\nkinetic energy.\nUsing Einstein\u2019s photo-electric equation, explain the three\nobservations.",
+      "raw_text": "Radiation of frequency 1015 Hz is incident on three photosensitive\nsurfaces A, B and C. Following observations are recorded:\nSurface A: no photoemission occurs\nSurface B: photoemission occurs but the photoelectrons have zero\nkinetic energy.\nSurface C: photo emission occurs and photoelectrons have some\nkinetic energy.\nUsing Einstein\u2019s photo-electric equation, explain the three\nobservations.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "The graph shows the variation of photocurrent for a\nphotosensitive metal\n(a)What does X and A on the horizontal axis represent?\n(b)Draw this graph for three different values of frequencies of incident\nradiation \u028b1, \u028b 2 and \u028b 3 (\u028b 3>\u028b 2>\u028b1) for the same intensity.",
+        "(c) Draw this graph for three different values of intensities of incident\nradiation I1, I2 and I3 (I3> I2>I1) having the same frequency."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        640.02,
+        529.58,
+        708.97
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q30",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 10,
+      "content": "The ground state energy of hydrogen atom is -13.6 eV. The photon\nemitted during the transition of electron from n=3 to n=1 state, is\nincident on a photosensitive material of unknown work function .The\nphotoelectrons are  emitted from the material with the maximum kinetic\nenergy of 9eV.Calculate the threshold wavelength of the material used.",
+      "raw_text": "The ground state energy of hydrogen atom is -13.6 eV. The photon\nemitted during the transition of electron from n=3 to n=1 state, is\nincident on a photosensitive material of unknown work function .The\nphotoelectrons are  emitted from the material with the maximum kinetic\nenergy of 9eV.Calculate the threshold wavelength of the material used.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q30_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        402.8,
+        529.58,
+        471.25
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q31",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 10,
+      "content": "(a)Draw equipotential surfaces for (i)an electric dipole and (ii) two\nidentical positive charges placed near each other.",
+      "raw_text": "(a)Draw equipotential surfaces for (i)an electric dipole and (ii) two\nidentical positive charges placed near each other.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) In a parallel plate capacitor with air between the plates, each\nplate has an area of 6 x 10-3m2 and the separation between the\nplates is 3 mm.",
+        "(i) Calculate the capacitance of the capacitor.",
+        "(ii) If the capacitor is connected to 100V supply, what would be the\nthe charge on each plate?",
+        "(iii) How would charge on the plate be affected if a 3 mm thick mica\nsheet of k=6 is inserted between the plates while the voltage supply\nremains connected ?.",
+        "OR",
+        "(a)Three charges \u2013q, Q and \u2013q are placed at equal distances on a\nstraight line. If the potential energy of the system of these charges\nis zero, then what is the ratio Q:q?\n(b)(i) Obtain the expression for the electric field intensity due to a\nuniformly charged spherical shell of radius R at a point distant r from\nthe centre of the shell outside it.",
+        "(ii) Draw a graph showing the variation of electric field intensity E\nwith r, for r > R and r < R."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        531.32,
+        515.54,
+        703.45
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q32",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 11,
+      "content": "(a) Explain the term drift velocity of electrons in a conductor .Hence\nobtain the expression for the current through a conductor in terms\nof drift velocity.\n(b)  Two cells of emfs E1 and E2 and internal resistances \ud835\udc5fand \ud835\udc5f\nrespectively are connected in parallel as shown in the figure.\nDeduce the expression for the\n(i)     equivalent emf of the combination\n(ii)    equivalent internal resistance of the combination\n(iii)   potential difference between the points A and B.\nOR\n(a) State the two Kirchhoff\u2019s rules used in the analysis of\nelectric circuits and explain them.\n(b) Derive the equation of the balanced state in a Wheatstone\nbridge using Kirchhoff\u2019s laws.",
+      "raw_text": "(a) Explain the term drift velocity of electrons in a conductor .Hence\nobtain the expression for the current through a conductor in terms\nof drift velocity.\n(b)  Two cells of emfs E1 and E2 and internal resistances \ud835\udc5fand \ud835\udc5f\nrespectively are connected in parallel as shown in the figure.\nDeduce the expression for the\n(i)     equivalent emf of the combination\n(ii)    equivalent internal resistance of the combination\n(iii)   potential difference between the points A and B.\nOR\n(a) State the two Kirchhoff\u2019s rules used in the analysis of\nelectric circuits and explain them.\n(b) Derive the equation of the balanced state in a Wheatstone\nbridge using Kirchhoff\u2019s laws.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Explain the term drift velocity of electrons in a conductor .Hence\nobtain the expression for the current through a conductor in terms\nof drift velocity.",
+        "(b)  Two cells of emfs E1 and E2 and internal resistances \ud835\udc5fand \ud835\udc5f\nrespectively are connected in parallel as shown in the figure.\nDeduce the expression for the",
+        "(i)     equivalent emf of the combination",
+        "(ii)    equivalent internal resistance of the combination",
+        "(iii)   potential difference between the points A and B.",
+        "OR",
+        "(a) State the two Kirchhoff\u2019s rules used in the analysis of\nelectric circuits and explain them.",
+        "(b) Derive the equation of the balanced state in a Wheatstone\nbridge using Kirchhoff\u2019s laws."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q32_1.png"
+      ],
+      "bounding_box": [
+        77.52,
+        246.08,
+        515.54,
+        594.49
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "679dd3488ef7_q33",
+      "paper_id": "679dd3488ef7",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "12",
+      "subject": "physics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 11,
+      "content": "a) Draw the graph showing intensity distribution of fringes with\nphase angle due to diffraction through a single slit. What is\nthe width of the central maximum in comparison to that of  a\nsecondary maximum?\nb) A ray PQ is incident normally on the face AB of a\ntriangular prism of refracting angle 600 as shown in figure.\nThe prism is made of a transparent material of refractive\nindex\n\u221a . Trace the path of the ray as it passes through\nthe prism. Calculate the angle of emergence and the\nangle of deviation.",
+      "raw_text": "a) Draw the graph showing intensity distribution of fringes with\nphase angle due to diffraction through a single slit. What is\nthe width of the central maximum in comparison to that of  a\nsecondary maximum?\nb) A ray PQ is incident normally on the face AB of a\ntriangular prism of refracting angle 600 as shown in figure.\nThe prism is made of a transparent material of refractive\nindex\n\u221a . Trace the path of the ray as it passes through\nthe prism. Calculate the angle of emergence and the\nangle of deviation.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "a) Write two points of difference between an interference\npattern\nand a diffraction pattern.\nb) (i) A ray of light incident on face AB of an equilateral glass\nprism, shows minimum deviation of 30\u00b0. Calculate the\nspeed of light through the prism.",
+        "(ii) Find the angle of incidence at face AB so that the\nemergent ray grazes along the face AC."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        77.52,
+        619.76,
+        515.54,
+        692.3
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

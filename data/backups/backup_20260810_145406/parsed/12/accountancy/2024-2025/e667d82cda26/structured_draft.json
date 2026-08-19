@@ -1,0 +1,3158 @@
+{
+  "exam_metadata": {
+    "subject": "accountancy",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_accountancy_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "PART A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Anthony a partner was being guaranteed that his share of profits will not be less than \u20b9\n60,000 p.a. Deficiency, if any was to be borne by other partners Amar and Akbar\nequally. For the year ended 31st March, 2024 the firm incurred loss of \u20b9 1,80,000.\nWhat amount will be debited to Amar\u2019s Capital Ac",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Anthony a partner was being guaranteed that his share of profits will not be less than \u20b9\n60,000 p.a. Deficiency, if any was to be borne by other partners Amar and Akbar\nequally. For the year ended 31st March, 2024 the firm incurred loss of \u20b9 1,80,000.\nWhat amount will be debited to Amar\u2019s Capital Account in total at the end of the year?\nA.\n\u20b9 60,000\nB.\n\u20b9 1,20,000\nC.\n\u20b9 90,000\nD.\n\u20b9 80,000\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Deficiency, if any was to be borne by other partners Amar and Akbar"
+                },
+                {
+                  "label": "a",
+                  "text": "\u20b9 60,000"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 1,20,000"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 90,000"
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 80,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nAnthony a partner was being guaranteed that his share of profits will not be less than \u20b9\n60,000 p.a. Deficiency, if any was to be borne by other partners Amar and Akbar\nequally. For the year ended 31st March, 2024 the firm incurred loss of \u20b9 1,80,000.\nWhat amount will be debited to Amar\u2019s Capital Account in total at the end of the year?\nA.\n\u20b9 60,000\nB.\n\u20b9 1,20,000\nC.\n\u20b9 90,000\nD.\n\u20b9 80,000\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion: Partner\u2019s current accounts are opened when their capital are fluctuating.\nReasoning: In case of Fixed capitals all the transactions other than Capital are done\nthrough Current account of the partner.\nA. Both A and R are true and R is the correct explanation of A.\nB. Both A and R are true ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion: Partner\u2019s current accounts are opened when their capital are fluctuating.\nReasoning: In case of Fixed capitals all the transactions other than Capital are done\nthrough Current account of the partner.\nA. Both A and R are true and R is the correct explanation of A.\nB. Both A and R are true but R is not the correct explanation of A.\nC. A is true but R is false\nD. A is false but R is true\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nAssertion: Partner\u2019s current accounts are opened when their capital are fluctuating.\nReasoning: In case of Fixed capitals all the transactions other than Capital are done\nthrough Current account of the partner.\nA. Both A and R are true and R is the correct explanation of A.\nB. Both A and R are true but R is not the correct explanation of A.\nC. A is true but R is false\nD. A is false but R is true\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Forfeiture of shares leads to reduction of _________________Capital.\nA.\nAuthorised\nB.\nIssued\nC.\nSubscribed\nD.\nCalled up\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Forfeiture of shares leads to reduction of _________________Capital.\nA.\nAuthorised\nB.\nIssued\nC.\nSubscribed\nD.\nCalled up\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Authorised"
+                },
+                {
+                  "label": "b",
+                  "text": "Issued"
+                },
+                {
+                  "label": "c",
+                  "text": "Subscribed"
+                },
+                {
+                  "label": "d",
+                  "text": "Called up"
+                },
+                {
+                  "label": "a",
+                  "text": "10%"
+                },
+                {
+                  "label": "b",
+                  "text": "5%"
+                },
+                {
+                  "label": "c",
+                  "text": "25%"
+                },
+                {
+                  "label": "d",
+                  "text": "15%"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Moon ltd. issued 40,000, 10% debentures of \u20b9100 each at certain rate of discount and\nwere to be redeemed at20% premium. Exiting balance of Securities premium before\nissuing of these debentures was \u20b912,00,000 and after writing off loss on issue of\ndebentures , the balance in Securities Premium was \u20b92,00,000. At what rate of discount\nthese debentures were issued?\nA.\n10%\nB.\n5%\nC.\n25%\nD.\n15%",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\nForfeiture of shares leads to reduction of _________________Capital.\nA.\nAuthorised\nB.\nIssued\nC.\nSubscribed\nD.\nCalled up\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\nOR\nMoon ltd. issued 40,000, 10% debentures of \u20b9100 each at certain rate of discount and\nwere to be redeemed at20% premium. Exiting balance of Securities premium before\nissuing of these debentures was \u20b912,00,000 and after writing off loss on issue of\ndebentures , the balance in Securities Premium was \u20b92,00,000. At what rate of discount\nthese debentures were issued?\nA.\n10%\nB.\n5%\nC.\n25%\nD.\n15%",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "At the time of admission of new partner Vasu, Old partners Paresh and Prabhav had\ndebtors of \u20b9 6,20,000 and a provision for doubtful debts (PDD) of \u20b9 20,000 in their\nbooks. As per terms of admission, assets were revalued, and it was found that debtors\nworth \u20b9 15,000 had turned bad and hence should b",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "At the time of admission of new partner Vasu, Old partners Paresh and Prabhav had\ndebtors of \u20b9 6,20,000 and a provision for doubtful debts (PDD) of \u20b9 20,000 in their\nbooks. As per terms of admission, assets were revalued, and it was found that debtors\nworth \u20b9 15,000 had turned bad and hence should be written off. Which journal entry\nreflects the correct accounting treatment of the above situation?\nA.\nBad Debts A/c Dr.\nTo Debtors A/c\nProv for D. debts  A/c Dr.\nTo Bad Debts A/c\n15,000\n15,000\n15,000\n15,000\nB.\nBad Debts A/c Dr.\nTo Debtors A/c\nRevaluation A/c Dr.\nTo Prov for doubt debtsA/c\n15,000\n15,000\n15,000\n15,000\nC.\nRevaluation A/c Dr.\nTo Debtors A/c\n15,000\n15,000\nD.\nBad Debts A/c Dr.\nTo Revaluation A/c\n15,000\n15,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Bad Debts A/c Dr."
+                },
+                {
+                  "label": "d",
+                  "text": "debts  A/c Dr."
+                },
+                {
+                  "label": "b",
+                  "text": "Bad Debts A/c Dr."
+                },
+                {
+                  "label": "c",
+                  "text": "Revaluation A/c Dr."
+                },
+                {
+                  "label": "d",
+                  "text": "Bad Debts A/c Dr."
+                },
+                {
+                  "label": "a",
+                  "text": "Gain \u20b9 12,800, Value\u20b9 1,92,000"
+                },
+                {
+                  "label": "b",
+                  "text": "Loss \u20b9 12,800, Value\u20b9 1,28,000"
+                },
+                {
+                  "label": "c",
+                  "text": "Gain \u20b9 16,000, Value\u20b9 2,00,000"
+                },
+                {
+                  "label": "d",
+                  "text": "Gain \u20b9 40,000, Value\u20b9 2,00,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Ram and Shyam were partners sharing profits and losses in the ratio of 3:2. Their\nbalance sheet shows building at \u20b9 1,60,000. They admitted Mohan as a new partner for\n1/4th share. In additional information it is given that building is undervalued by 20%.\nThe share of loss/gain of revaluation of Shyam is ____________ & current value of\nbuilding shown in new balance sheet is _______.\nA. Gain \u20b9 12,800, Value\u20b9 1,92,000\nB. Loss \u20b9 12,800, Value\u20b9 1,28,000\nC. Gain \u20b9 16,000, Value\u20b9 2,00,000\nD. Gain \u20b9 40,000, Value\u20b9 2,00,000\n1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 4.\nAt the time of admission of new partner Vasu, Old partners Paresh and Prabhav had\ndebtors of \u20b9 6,20,000 and a provision for doubtful debts (PDD) of \u20b9 20,000 in their\nbooks. As per terms of admission, assets were revalued, and it was found that debtors\nworth \u20b9 15,000 had turned bad and hence should be written off. Which journal entry\nreflects the correct accounting treatment of the above situation?\nA.\nBad Debts A/c Dr.\nTo Debtors A/c\nProv for D. debts  A/c Dr.\nTo Bad Debts A/c\n15,000\n15,000\n15,000\n15,000\nB.\nBad Debts A/c Dr.\nTo Debtors A/c\nRevaluation A/c Dr.\nTo Prov for doubt debtsA/c\n15,000\n15,000\n15,000\n15,000\nC.\nRevaluation A/c Dr.\nTo Debtors A/c\n15,000\n15,000\nD.\nBad Debts A/c Dr.\nTo Revaluation A/c\n15,000\n15,000\nOR\nRam and Shyam were partners sharing profits and losses in the ratio of 3:2. Their\nbalance sheet shows building at \u20b9 1,60,000. They admitted Mohan as a new partner for\n1/4th share. In additional information it is given that building is undervalued by 20%.\nThe share of loss/gain of revaluation of Shyam is ____________ & current value of\nbuilding shown in new balance sheet is _______.\nA. Gain \u20b9 12,800, Value\u20b9 1,92,000\nB. Loss \u20b9 12,800, Value\u20b9 1,28,000\nC. Gain \u20b9 16,000, Value\u20b9 2,00,000\nD. Gain \u20b9 40,000, Value\u20b9 2,00,000\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 9 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 9 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The profit earned by a firm after retaining \u20b9 15,000 to its reserve was \u20b9 75,000. The\nfirm had total tangible assets worth \u20b9 10,00,000 and outside liabilities \u20b9 3,00,000. The\nvalue of the goodwill as per capitalization of average profit method was valued as \u20b9\n50,000. Determine the rate of Normal Rat",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The profit earned by a firm after retaining \u20b9 15,000 to its reserve was \u20b9 75,000. The\nfirm had total tangible assets worth \u20b9 10,00,000 and outside liabilities \u20b9 3,00,000. The\nvalue of the goodwill as per capitalization of average profit method was valued as \u20b9\n50,000. Determine the rate of Normal Rate of Return.\nA. 10 %\nB. 5 %\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nC. 12 %\nD. 8 %",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "10 %"
+                },
+                {
+                  "label": "b",
+                  "text": "5 %"
+                },
+                {
+                  "label": "c",
+                  "text": "12 %"
+                },
+                {
+                  "label": "d",
+                  "text": "8 %"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nThe profit earned by a firm after retaining \u20b9 15,000 to its reserve was \u20b9 75,000. The\nfirm had total tangible assets worth \u20b9 10,00,000 and outside liabilities \u20b9 3,00,000. The\nvalue of the goodwill as per capitalization of average profit method was valued as \u20b9\n50,000. Determine the rate of Normal Rate of Return.\nA. 10 %\nB. 5 %\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\nC. 12 %\nD. 8 %",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Mohit had applied for 900 shares, and was allotted in the ratio 3 : 2. He had paid\napplication money of \u20b9 3 per share and couldn\u2019t pay allotment money of \u20b9 5 per share.\nFirst and Final call of \u20b9 2 per share was not yet made by the company. His shares were\nforfeited. The following entry will be passe",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Mohit had applied for 900 shares, and was allotted in the ratio 3 : 2. He had paid\napplication money of \u20b9 3 per share and couldn\u2019t pay allotment money of \u20b9 5 per share.\nFirst and Final call of \u20b9 2 per share was not yet made by the company. His shares were\nforfeited. The following entry will be passed\nShare Capital A/c Dr.                    X\nTo Share Forfeited A/c                        Y\nTo Share Allotment A/c                       Z\nHere X, Y and Z are:\nA. \u20b9 6,000; \u20b9 2,700; \u20b9 3,300\nB. \u20b9 4,800; \u20b9 2,700; \u20b9 2,100\nC. \u20b9 4,800; \u20b9 1,800; \u20b9 3,000\nD. \u20b9 6,000; \u20b9 1,800; \u20b9 4,200",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u20b9 6,000; \u20b9 2,700; \u20b9 3,300"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 4,800; \u20b9 2,700; \u20b9 2,100"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 4,800; \u20b9 1,800; \u20b9 3,000"
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 6,000; \u20b9 1,800; \u20b9 4,200"
+                },
+                {
+                  "label": "a",
+                  "text": "\u20b9 18,000"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 12,000"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 30,000"
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 24,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "A company forfeited 6,000 shares of \u20b9 10 each, on which only application money of \u20b9 3\nhas been paid. 4,000 of these shares were re-issued at \u20b9 12 per share as fully paid up.\nAmount of Capital Reserve will be _______.\nA. \u20b9 18,000\nB. \u20b9 12,000\nC. \u20b9 30,000\nD. \u20b9 24,000\n1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nMohit had applied for 900 shares, and was allotted in the ratio 3 : 2. He had paid\napplication money of \u20b9 3 per share and couldn\u2019t pay allotment money of \u20b9 5 per share.\nFirst and Final call of \u20b9 2 per share was not yet made by the company. His shares were\nforfeited. The following entry will be passed\nShare Capital A/c Dr.                    X\nTo Share Forfeited A/c                        Y\nTo Share Allotment A/c                       Z\nHere X, Y and Z are:\nA. \u20b9 6,000; \u20b9 2,700; \u20b9 3,300\nB. \u20b9 4,800; \u20b9 2,700; \u20b9 2,100\nC. \u20b9 4,800; \u20b9 1,800; \u20b9 3,000\nD. \u20b9 6,000; \u20b9 1,800; \u20b9 4,200\nOr\nA company forfeited 6,000 shares of \u20b9 10 each, on which only application money of \u20b9 3\nhas been paid. 4,000 of these shares were re-issued at \u20b9 12 per share as fully paid up.\nAmount of Capital Reserve will be _______.\nA. \u20b9 18,000\nB. \u20b9 12,000\nC. \u20b9 30,000\nD. \u20b9 24,000\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "On 1st April 2019 a company took a loan of \u20b980,00,000 on security of land and building.\nThis loan was further secured by issue of 40,000, 12% Debentures of \u20b9100 each as\ncollateral security. On 31st March 2024 the company defaulted on repayment of the\nprincipal amount of this loan consequently on 1st",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "On 1st April 2019 a company took a loan of \u20b980,00,000 on security of land and building.\nThis loan was further secured by issue of 40,000, 12% Debentures of \u20b9100 each as\ncollateral security. On 31st March 2024 the company defaulted on repayment of the\nprincipal amount of this loan consequently on 1st April 2024 the land and building were\ntaken over and sold by the bank for \u20b970,00,000. For the balance amount debentures\nwere sold in the market on 1st May 2024. From which date would the interest on\ndebentures become payable by the company?\nA. 1st April 2019.\nB. 31st March 2024.\nC. 1st April 2024.\nD. 1st May 2024.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "1st April 2019."
+                },
+                {
+                  "label": "b",
+                  "text": "31st March 2024."
+                },
+                {
+                  "label": "c",
+                  "text": "1st April 2024."
+                },
+                {
+                  "label": "d",
+                  "text": "1st May 2024."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nOn 1st April 2019 a company took a loan of \u20b980,00,000 on security of land and building.\nThis loan was further secured by issue of 40,000, 12% Debentures of \u20b9100 each as\ncollateral security. On 31st March 2024 the company defaulted on repayment of the\nprincipal amount of this loan consequently on 1st April 2024 the land and building were\ntaken over and sold by the bank for \u20b970,00,000. For the balance amount debentures\nwere sold in the market on 1st May 2024. From which date would the interest on\ndebentures become payable by the company?\nA. 1st April 2019.\nB. 31st March 2024.\nC. 1st April 2024.\nD. 1st May 2024.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Rama, a partner took over Machinery of \u20b9 50,000 in full settlement of her Loan of \u20b9\n60,000. Machinery was already transferred to Realisation Account.\nHow it will effect the Realisation Account?\nA. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 60,000\nB. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 10,000\nC.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Rama, a partner took over Machinery of \u20b9 50,000 in full settlement of her Loan of \u20b9\n60,000. Machinery was already transferred to Realisation Account.\nHow it will effect the Realisation Account?\nA. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 60,000\nB. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 10,000\nC. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 50,000\nD. No effect on Realisation Account",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Realisation"
+                },
+                {
+                  "label": "b",
+                  "text": "Realisation"
+                },
+                {
+                  "label": "c",
+                  "text": "Realisation"
+                },
+                {
+                  "label": "d",
+                  "text": "No effect on Realisation Account"
+                },
+                {
+                  "label": "a",
+                  "text": "Only \u20b9 40,000 will be distributed amongst partner\u2019s capital account"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 1,00,000 will be credited to Realisation Account and \u20b9 60,000 will be paid"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 60,000 will be credited to Realisation Account and will be even paid off."
+                },
+                {
+                  "label": "d",
+                  "text": "Only \u20b9 60,000 will be credited to Realisation Account and will be even paid off"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Dada, Yuvi and Viru were partners sharing profits and losses in the ratio 3:2:1. Their\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nbooks showed Workmen Compensation Reserve of \u20b9 1,00,000. Workmen Claim\namounted to \u20b9 60,000. How it will affect the books of Accounts at the time of\ndissolution of firm?\nA. Only \u20b9 40,000 will be distributed amongst partner\u2019s capital account\nB. \u20b9 1,00,000 will be credited to Realisation Account and \u20b9 60,000 will be paid\noff.\nC. \u20b9 60,000 will be credited to Realisation Account and will be even paid off.\nBalance \u20b9 40,000 will be distributed amongst partners.\nD. Only \u20b9 60,000 will be credited to Realisation Account and will be even paid off",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nRama, a partner took over Machinery of \u20b9 50,000 in full settlement of her Loan of \u20b9\n60,000. Machinery was already transferred to Realisation Account.\nHow it will effect the Realisation Account?\nA. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 60,000\nB. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 10,000\nC. Realisation\nAccount\nwill\nbe\ncredited by \u20b9 50,000\nD. No effect on Realisation Account\nOR\nDada, Yuvi and Viru were partners sharing profits and losses in the ratio 3:2:1. Their\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\nbooks showed Workmen Compensation Reserve of \u20b9 1,00,000. Workmen Claim\namounted to \u20b9 60,000. How it will affect the books of Accounts at the time of\ndissolution of firm?\nA. Only \u20b9 40,000 will be distributed amongst partner\u2019s capital account\nB. \u20b9 1,00,000 will be credited to Realisation Account and \u20b9 60,000 will be paid\noff.\nC. \u20b9 60,000 will be credited to Realisation Account and will be even paid off.\nBalance \u20b9 40,000 will be distributed amongst partners.\nD. Only \u20b9 60,000 will be credited to Realisation Account and will be even paid off",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Ikka, Dukka and Teeka were partners sharing profits and losses in the ratio of 2:2:1.\nTheir fixed Capital balances were \u20b9 5,00,000; \u20b9 4,00,000 and \u20b9 3,00,000 respectively.\nFor the year ended March 31, 2024 profits of \u20b9 84,000 were distributed without\nproviding for Interest on Capital @ 10% p.a as pe",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Ikka, Dukka and Teeka were partners sharing profits and losses in the ratio of 2:2:1.\nTheir fixed Capital balances were \u20b9 5,00,000; \u20b9 4,00,000 and \u20b9 3,00,000 respectively.\nFor the year ended March 31, 2024 profits of \u20b9 84,000 were distributed without\nproviding for Interest on Capital @ 10% p.a as per the partnership deed.\nWhile passing an adjustment entry, which of the following is correct?\nA. Teeka will be debited by \u20b9 4,200\nB. Teeka will be credited by \u20b9 4,200\nC. Teeka will be credited by \u20b9 6,000\nD. Teeka will be debited by \u20b9 6,000\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Teeka will be debited by \u20b9 4,200"
+                },
+                {
+                  "label": "b",
+                  "text": "Teeka will be credited by \u20b9 4,200"
+                },
+                {
+                  "label": "c",
+                  "text": "Teeka will be credited by \u20b9 6,000"
+                },
+                {
+                  "label": "d",
+                  "text": "Teeka will be debited by \u20b9 6,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nIkka, Dukka and Teeka were partners sharing profits and losses in the ratio of 2:2:1.\nTheir fixed Capital balances were \u20b9 5,00,000; \u20b9 4,00,000 and \u20b9 3,00,000 respectively.\nFor the year ended March 31, 2024 profits of \u20b9 84,000 were distributed without\nproviding for Interest on Capital @ 10% p.a as per the partnership deed.\nWhile passing an adjustment entry, which of the following is correct?\nA. Teeka will be debited by \u20b9 4,200\nB. Teeka will be credited by \u20b9 4,200\nC. Teeka will be credited by \u20b9 6,000\nD. Teeka will be debited by \u20b9 6,000\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "At the time of dissolution Machinery appears at \u20b9 10,00,000 and accumulated\ndepreciation for the machinery appears at \u20b9 6,00,000 in the balance sheet of a firm.\nThis machine is taken over by a creditor of \u20b9 5,40,000 at 5% below the net value. The\nbalance amount of the creditor was paid through bank.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "At the time of dissolution Machinery appears at \u20b9 10,00,000 and accumulated\ndepreciation for the machinery appears at \u20b9 6,00,000 in the balance sheet of a firm.\nThis machine is taken over by a creditor of \u20b9 5,40,000 at 5% below the net value. The\nbalance amount of the creditor was paid through bank. By what amount should the\nbank account be credited for this transaction?\nA. \u20b9 60,000.\nB. \u20b9 1,60,000.\nC. \u20b9 5,40,000.\nD. \u20b9 4,00,000.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u20b9 60,000."
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 1,60,000."
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 5,40,000."
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 4,00,000."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nAt the time of dissolution Machinery appears at \u20b9 10,00,000 and accumulated\ndepreciation for the machinery appears at \u20b9 6,00,000 in the balance sheet of a firm.\nThis machine is taken over by a creditor of \u20b9 5,40,000 at 5% below the net value. The\nbalance amount of the creditor was paid through bank. By what amount should the\nbank account be credited for this transaction?\nA. \u20b9 60,000.\nB. \u20b9 1,60,000.\nC. \u20b9 5,40,000.\nD. \u20b9 4,00,000.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Rahul, Samarth and Ayaan were partners sharing profits and losses in the ratio of 5:4:3.\nAyaan\u2019s fixed Capital balance as on March 31, 2024 was \u20b9 2,70,000. Which of the\nfollowing items would have affected this Capital balance?\nA. Profit/Loss for the year\nB. Additional Capital introduced\nC. Reduction",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Rahul, Samarth and Ayaan were partners sharing profits and losses in the ratio of 5:4:3.\nAyaan\u2019s fixed Capital balance as on March 31, 2024 was \u20b9 2,70,000. Which of the\nfollowing items would have affected this Capital balance?\nA. Profit/Loss for the year\nB. Additional Capital introduced\nC. Reduction in Capital due to\nCapital Adjustment\nD. Both B and C\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Profit/Loss for the year"
+                },
+                {
+                  "label": "b",
+                  "text": "Additional Capital introduced"
+                },
+                {
+                  "label": "c",
+                  "text": "Reduction in Capital due to"
+                },
+                {
+                  "label": "d",
+                  "text": "Both B and C"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nRahul, Samarth and Ayaan were partners sharing profits and losses in the ratio of 5:4:3.\nAyaan\u2019s fixed Capital balance as on March 31, 2024 was \u20b9 2,70,000. Which of the\nfollowing items would have affected this Capital balance?\nA. Profit/Loss for the year\nB. Additional Capital introduced\nC. Reduction in Capital due to\nCapital Adjustment\nD. Both B and C\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q12",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Shares issued as sweat equity can be\n(I) Issued at par.\n(ii) Issued at discount.\n(iii) Issued at a premium.\nWhich of the following is correct?\nA. Only (i) is correct.\nB. Both (i) and (iii) are correct.\nC. All are correct.\nD. Only (ii) is correct.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Shares issued as sweat equity can be\n(I) Issued at par.\n(ii) Issued at discount.\n(iii) Issued at a premium.\nWhich of the following is correct?\nA. Only (i) is correct.\nB. Both (i) and (iii) are correct.\nC. All are correct.\nD. Only (ii) is correct.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Only"
+                },
+                {
+                  "label": "b",
+                  "text": "Both"
+                },
+                {
+                  "label": "c",
+                  "text": "All are correct."
+                },
+                {
+                  "label": "d",
+                  "text": "Only"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 12.\nShares issued as sweat equity can be\n(I) Issued at par.\n(ii) Issued at discount.\n(iii) Issued at a premium.\nWhich of the following is correct?\nA. Only (i) is correct.\nB. Both (i) and (iii) are correct.\nC. All are correct.\nD. Only (ii) is correct.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "2,000 shares allotted to Ms. Regal, on which \u20b9 80 each called up and \u20b9 50 paid were\nforfeited and reissued for \u20b9 70 each as \u20b9 90 paid up. Amount transferred to capital\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nreserve A/c is\nA. \u20b9 1,00,000\nB. \u20b9 60,000\nC. \u20b9 40,000\nD. \u20b9 20,000",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "2,000 shares allotted to Ms. Regal, on which \u20b9 80 each called up and \u20b9 50 paid were\nforfeited and reissued for \u20b9 70 each as \u20b9 90 paid up. Amount transferred to capital\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nreserve A/c is\nA. \u20b9 1,00,000\nB. \u20b9 60,000\nC. \u20b9 40,000\nD. \u20b9 20,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u20b9 1,00,000"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 60,000"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 40,000"
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 20,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\n2,000 shares allotted to Ms. Regal, on which \u20b9 80 each called up and \u20b9 50 paid were\nforfeited and reissued for \u20b9 70 each as \u20b9 90 paid up. Amount transferred to capital\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\nreserve A/c is\nA. \u20b9 1,00,000\nB. \u20b9 60,000\nC. \u20b9 40,000\nD. \u20b9 20,000",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Joey, Sam and Tex were partners sharing profits and losses in the ratio 5:3:2. W.e.f 01\nApril, 2024 they decided to share future profits and losses in the ratio 2:1:1. For which\nof the following balances Tex will be credited at the time of reconstitution of firm, if\nthe firm decided to continue with",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Joey, Sam and Tex were partners sharing profits and losses in the ratio 5:3:2. W.e.f 01\nApril, 2024 they decided to share future profits and losses in the ratio 2:1:1. For which\nof the following balances Tex will be credited at the time of reconstitution of firm, if\nthe firm decided to continue with available accumulated profits and losses balances.\nA. General Reserve \u20b9 2,00,000\nand Profit and Loss (Dr.) \u20b9\n1,20,000\nB. General Reserve \u20b9 2,00,000\nand Profit and Loss (Cr.) \u20b9\n2,50,000\nC. Deferred Revenue Expenditure\n\u20b9 50,000 and Profit and Loss\n(Cr.) \u20b9 80,000\nD. Deferred Revenue Expenditure\n\u20b9 50,000 and Profit and Loss\n(Dr.) \u20b9 80,000\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "General Reserve \u20b9 2,00,000"
+                },
+                {
+                  "label": "b",
+                  "text": "General Reserve \u20b9 2,00,000"
+                },
+                {
+                  "label": "c",
+                  "text": "Deferred Revenue Expenditure"
+                },
+                {
+                  "label": "d",
+                  "text": "Deferred Revenue Expenditure"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nJoey, Sam and Tex were partners sharing profits and losses in the ratio 5:3:2. W.e.f 01\nApril, 2024 they decided to share future profits and losses in the ratio 2:1:1. For which\nof the following balances Tex will be credited at the time of reconstitution of firm, if\nthe firm decided to continue with available accumulated profits and losses balances.\nA. General Reserve \u20b9 2,00,000\nand Profit and Loss (Dr.) \u20b9\n1,20,000\nB. General Reserve \u20b9 2,00,000\nand Profit and Loss (Cr.) \u20b9\n2,50,000\nC. Deferred Revenue Expenditure\n\u20b9 50,000 and Profit and Loss\n(Cr.) \u20b9 80,000\nD. Deferred Revenue Expenditure\n\u20b9 50,000 and Profit and Loss\n(Dr.) \u20b9 80,000\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Rohit, Virat and Shikhar were partners sharing profits and losses in the ratio 3:1:1.\nTheir Capital balance as on March 31, 2024 was \u20b9 3,00,000; \u20b9 2,70,000 and \u20b9 2,50,000\nrespectively. On the same date, they admitted Hardik as a new partner for 20% share.\nHardik was to bring \u20b9 80,000 for his share o",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Rohit, Virat and Shikhar were partners sharing profits and losses in the ratio 3:1:1.\nTheir Capital balance as on March 31, 2024 was \u20b9 3,00,000; \u20b9 2,70,000 and \u20b9 2,50,000\nrespectively. On the same date, they admitted Hardik as a new partner for 20% share.\nHardik was to bring \u20b9 80,000 for his share of goodwill and 1/5 of the combined capital\nof all the partners of new firm. What will be the amount of capital brought in by Hardik\non his admission as a new partner?\nA. \u20b9 2,25,000\nB. \u20b9 1,80,000\nC. \u20b9 2,60,000\nD. \u20b9 3,05,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "\u20b9 2,25,000"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 1,80,000"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 2,60,000"
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 3,05,000"
+                },
+                {
+                  "label": "a",
+                  "text": "Total amount of interest to be"
+                },
+                {
+                  "label": "a",
+                  "text": "\u20b9 70,000"
+                },
+                {
+                  "label": "b",
+                  "text": "\u20b9 67,500"
+                },
+                {
+                  "label": "c",
+                  "text": "\u20b9 60,000"
+                },
+                {
+                  "label": "d",
+                  "text": "\u20b9 77,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "A, B and C were partners sharing profits and losses equally. B died on 31 August, 2023\nand total amount transferred to B\u2019s executors was \u20b9 13,20,000. B\u2019s executors were\nbeing paid \u20b9 1,20,000 immediately and balance was to be paid in four equal semi-\nannual instalments together with interest @ 10% p.a.  Total amount of interest to be\ncredited to B\u2019s executors Account for the year ended March 31, 2024 will be?\nA. \u20b9 70,000\nB. \u20b9 67,500\nC. \u20b9 60,000\nD. \u20b9 77,000\n1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nRohit, Virat and Shikhar were partners sharing profits and losses in the ratio 3:1:1.\nTheir Capital balance as on March 31, 2024 was \u20b9 3,00,000; \u20b9 2,70,000 and \u20b9 2,50,000\nrespectively. On the same date, they admitted Hardik as a new partner for 20% share.\nHardik was to bring \u20b9 80,000 for his share of goodwill and 1/5 of the combined capital\nof all the partners of new firm. What will be the amount of capital brought in by Hardik\non his admission as a new partner?\nA. \u20b9 2,25,000\nB. \u20b9 1,80,000\nC. \u20b9 2,60,000\nD. \u20b9 3,05,000\nOR\nA, B and C were partners sharing profits and losses equally. B died on 31 August, 2023\nand total amount transferred to B\u2019s executors was \u20b9 13,20,000. B\u2019s executors were\nbeing paid \u20b9 1,20,000 immediately and balance was to be paid in four equal semi-\nannual instalments together with interest @ 10% p.a.  Total amount of interest to be\ncredited to B\u2019s executors Account for the year ended March 31, 2024 will be?\nA. \u20b9 70,000\nB. \u20b9 67,500\nC. \u20b9 60,000\nD. \u20b9 77,000\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 9 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 9 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "String and Kite were partners sharing profits and losses in the ratio 5:3. They admitted\nspinner as a new partner. String sacrificed \u00bc from his share and Kite sacrificed 1/6 of\nhis share. What will be the new ratio?\nA. 6:5:5\nB. 9:5:10\nC. 15:10:7\nD. 35:21:40\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "String and Kite were partners sharing profits and losses in the ratio 5:3. They admitted\nspinner as a new partner. String sacrificed \u00bc from his share and Kite sacrificed 1/6 of\nhis share. What will be the new ratio?\nA. 6:5:5\nB. 9:5:10\nC. 15:10:7\nD. 35:21:40\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "6:5:5"
+                },
+                {
+                  "label": "b",
+                  "text": "9:5:10"
+                },
+                {
+                  "label": "c",
+                  "text": "15:10:7"
+                },
+                {
+                  "label": "d",
+                  "text": "35:21:40"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nString and Kite were partners sharing profits and losses in the ratio 5:3. They admitted\nspinner as a new partner. String sacrificed \u00bc from his share and Kite sacrificed 1/6 of\nhis share. What will be the new ratio?\nA. 6:5:5\nB. 9:5:10\nC. 15:10:7\nD. 35:21:40\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Rusting, a partner of a firm under dissolution was to get a remuneration 2% of the total\nassets realised other than cash and 10% of the amount distributed to the partners.\nSundry assets (including Cash \u20b9 8,000) realised at \u20b9 1,16,000 and sundry liabilities to be\npaid \u20b9 31,340. Calculate Rustings\u2019s r",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Rusting, a partner of a firm under dissolution was to get a remuneration 2% of the total\nassets realised other than cash and 10% of the amount distributed to the partners.\nSundry assets (including Cash \u20b9 8,000) realised at \u20b9 1,16,000 and sundry liabilities to be\npaid \u20b9 31,340. Calculate Rustings\u2019s remuneration and Show your workings clearly. Also\npass necessary journal entry for remuneration.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\nRusting, a partner of a firm under dissolution was to get a remuneration 2% of the total\nassets realised other than cash and 10% of the amount distributed to the partners.\nSundry assets (including Cash \u20b9 8,000) realised at \u20b9 1,16,000 and sundry liabilities to be\npaid \u20b9 31,340. Calculate Rustings\u2019s remuneration and Show your workings clearly. Also\npass necessary journal entry for remuneration.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "A, B and C were partners sharing profits, and losses in the ratio of 2:2:1. C died on 1st\nJuly, 2023 on which date the capitals of A, B and C after all necessary adjustments\nstood at  \u20b974,000, \u20b9 63,750 and 42,250 respectively. A and B continued to carry on the\nbusiness for six months without settlin",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A, B and C were partners sharing profits, and losses in the ratio of 2:2:1. C died on 1st\nJuly, 2023 on which date the capitals of A, B and C after all necessary adjustments\nstood at  \u20b974,000, \u20b9 63,750 and 42,250 respectively. A and B continued to carry on the\nbusiness for six months without settling the accounts of C. During the period of six\nmonths from 1 -7-2023, a profit of \u20b9 20,500 is earned using the firm\u2019s property. State\n3\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nwhich of the two options available u/s 37 of the Indian Partnership Act, 1932 should be\nexercised by executors of C and why?.",
+              "options": [
+                {
+                  "label": "c",
+                  "text": "During the period of six"
+                },
+                {
+                  "label": "a",
+                  "text": "Average profit of the firm for the last four years"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Amit and Kartik are partners sharing profits and losses equally. They decided to admit\nSaurabh for an equal share in the profits. For this purpose, the goodwill of the firm was\nto be valued at four years' purchase of super profits.\nThe Balance Sheet of the firm on Saurabh's admission was as follows:\nLiabilities\nAmount (\u20b9)\nAssets\nAmount(\u20b9)\nCapital Accounts\nFixed Assets (Tangible)\n75,000\nAmit\n90,000\nFurniture\n15,000\nKartik\n50,000\n1,40,000  Stock\n30,000\nCreditors\n5,000  Debtors\n20,000\nGeneral Reserve\n20,000    Cash\n50,000\nBills payable\n25,000\n1,90,000\n1,90,000\nThe normal rate of return is 12% p.a. Average profit of the firm for the last four years\nwas \u20b930,000. Calculate Saurabh\u2019s share of goodwill.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nA, B and C were partners sharing profits, and losses in the ratio of 2:2:1. C died on 1st\nJuly, 2023 on which date the capitals of A, B and C after all necessary adjustments\nstood at  \u20b974,000, \u20b9 63,750 and 42,250 respectively. A and B continued to carry on the\nbusiness for six months without settling the accounts of C. During the period of six\nmonths from 1 -7-2023, a profit of \u20b9 20,500 is earned using the firm\u2019s property. State\n3\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nwhich of the two options available u/s 37 of the Indian Partnership Act, 1932 should be\nexercised by executors of C and why?.\nOr\nAmit and Kartik are partners sharing profits and losses equally. They decided to admit\nSaurabh for an equal share in the profits. For this purpose, the goodwill of the firm was\nto be valued at four years' purchase of super profits.\nThe Balance Sheet of the firm on Saurabh's admission was as follows:\nLiabilities\nAmount (\u20b9)\nAssets\nAmount(\u20b9)\nCapital Accounts\nFixed Assets (Tangible)\n75,000\nAmit\n90,000\nFurniture\n15,000\nKartik\n50,000\n1,40,000  Stock\n30,000\nCreditors\n5,000  Debtors\n20,000\nGeneral Reserve\n20,000    Cash\n50,000\nBills payable\n25,000\n1,90,000\n1,90,000\nThe normal rate of return is 12% p.a. Average profit of the firm for the last four years\nwas \u20b930,000. Calculate Saurabh\u2019s share of goodwill.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q19",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Buddha Limited took over assets of \u20b9 40,00,000 and liabilities of \u20b9 6,50,000 of Ginny\nLimited. Buddha Limited issued 30,000, 8% Debentures of \u20b9 100 each at 10% discount,\nto be redeemed at 5% premium along with cheque of \u20b9 5,00,000. Pass necessary\njournal entries in the books of Buddha Ltd.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Buddha Limited took over assets of \u20b9 40,00,000 and liabilities of \u20b9 6,50,000 of Ginny\nLimited. Buddha Limited issued 30,000, 8% Debentures of \u20b9 100 each at 10% discount,\nto be redeemed at 5% premium along with cheque of \u20b9 5,00,000. Pass necessary\njournal entries in the books of Buddha Ltd.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "A company forfeited 8,000 shares of \u20b9 10 each on which \u20b9 8 were called (including \u20b9 1\npremium) and \u20b9 6 was paid (including \u20b9 1 premium). Out of these 5,000 shares were re-\nissued at maximum possible discount. Pass necessary journal entries.\n3",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 19.\nBuddha Limited took over assets of \u20b9 40,00,000 and liabilities of \u20b9 6,50,000 of Ginny\nLimited. Buddha Limited issued 30,000, 8% Debentures of \u20b9 100 each at 10% discount,\nto be redeemed at 5% premium along with cheque of \u20b9 5,00,000. Pass necessary\njournal entries in the books of Buddha Ltd.\nOr\nA company forfeited 8,000 shares of \u20b9 10 each on which \u20b9 8 were called (including \u20b9 1\npremium) and \u20b9 6 was paid (including \u20b9 1 premium). Out of these 5,000 shares were re-\nissued at maximum possible discount. Pass necessary journal entries.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q20",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Bat, Cat and Rat were partners sharing profits and losses in the ratio 5:3:2. Cat\nretired and on that date there was a balance of Investment of \u20b9 4,00,000 and\nInvestment Fluctuation Reserve of \u20b9 1,00,000 was appearing in the balance\nsheet.\nPass necessary journal entries for Investment Fluctuation re",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Bat, Cat and Rat were partners sharing profits and losses in the ratio 5:3:2. Cat\nretired and on that date there was a balance of Investment of \u20b9 4,00,000 and\nInvestment Fluctuation Reserve of \u20b9 1,00,000 was appearing in the balance\nsheet.\nPass necessary journal entries for Investment Fluctuation reserve in the\nfollowing cases.\n(i) Market Value of Investments was \u20b9 4,80,000.\n(ii) Market Value of Investments was \u20b9 3,80,000.\n(iii) Market Value of Investments was \u20b9 2,90,000\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 20.\nBat, Cat and Rat were partners sharing profits and losses in the ratio 5:3:2. Cat\nretired and on that date there was a balance of Investment of \u20b9 4,00,000 and\nInvestment Fluctuation Reserve of \u20b9 1,00,000 was appearing in the balance\nsheet.\nPass necessary journal entries for Investment Fluctuation reserve in the\nfollowing cases.\n(i) Market Value of Investments was \u20b9 4,80,000.\n(ii) Market Value of Investments was \u20b9 3,80,000.\n(iii) Market Value of Investments was \u20b9 2,90,000\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q21",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "A company forfeited certain number of shares of Face Value \u20b9 10 each, for non-\npayment of final call money of \u20b9 4. These shares were reissued at a discount of\n\u20b9 5 and amount of \u20b9 4500 was transferred to capital Reserve account. Pass the\nnecessary journal entries to show the above transactions and pr",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A company forfeited certain number of shares of Face Value \u20b9 10 each, for non-\npayment of final call money of \u20b9 4. These shares were reissued at a discount of\n\u20b9 5 and amount of \u20b9 4500 was transferred to capital Reserve account. Pass the\nnecessary journal entries to show the above transactions and prepare Share\nforfeited account.\n4",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 21.\nA company forfeited certain number of shares of Face Value \u20b9 10 each, for non-\npayment of final call money of \u20b9 4. These shares were reissued at a discount of\n\u20b9 5 and amount of \u20b9 4500 was transferred to capital Reserve account. Pass the\nnecessary journal entries to show the above transactions and prepare Share\nforfeited account.\n4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q22",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "X, Y and Z were partners sharing profits and losses equally. Y died on 1st October, 2023\nand total amount transferred to Y\u2019s executors was \u20b9 15,60,000. Y\u2019s executors were\nbeing paid \u20b9 3,60,000 immediately and balance was to be paid in four equal quarterly\ninstalments, together with Interest @ 6% p.a",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "X, Y and Z were partners sharing profits and losses equally. Y died on 1st October, 2023\nand total amount transferred to Y\u2019s executors was \u20b9 15,60,000. Y\u2019s executors were\nbeing paid \u20b9 3,60,000 immediately and balance was to be paid in four equal quarterly\ninstalments, together with Interest @ 6% p.a. Pass entries till payment of first two\n4\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\ninstalments.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 22.\nX, Y and Z were partners sharing profits and losses equally. Y died on 1st October, 2023\nand total amount transferred to Y\u2019s executors was \u20b9 15,60,000. Y\u2019s executors were\nbeing paid \u20b9 3,60,000 immediately and balance was to be paid in four equal quarterly\ninstalments, together with Interest @ 6% p.a. Pass entries till payment of first two\n4\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\ninstalments.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q23",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "K.N. Ltd. invited applications for issuing 6,00,000 equity shares of \u20b910 each at a\npremium of \u20b93 per share. The amount was payable as follows: On Application and\nAllotment - \u20b93 per share; On First Call -\u20b94 per share; On Second and Final Call \u2014\nBalance (including premium). The issue was oversubscribe",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "K.N. Ltd. invited applications for issuing 6,00,000 equity shares of \u20b910 each at a\npremium of \u20b93 per share. The amount was payable as follows: On Application and\nAllotment - \u20b93 per share; On First Call -\u20b94 per share; On Second and Final Call \u2014\nBalance (including premium). The issue was oversubscribed by 1,50,000 shares.\nApplications for 50,000 shares were rejected and the application money was refunded.\nShares were allotted to the remaining applicants as follows:\nCategory I: Those who had applied for 4,00,000 shares were allotted 3,00,000 shares\non pro-          rata basis.\nCategory II: The remaining applicants were allotted the remaining shares.\nExcess application money received with applications was adjusted towards sums due\non first call. Rakesh to whom 6,000 shares were allotted (out of Category I) failed to\npay the first call money. His shares were forfeited. The forfeited shares were re-issued\nat \u20b913 per share fully paid up after the second call. Pass necessary journal entries for\nthe above transactions in the books of K.N. Ltd.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Pass the necessary journal entries for 'Issue of Debenture' for the following:"
+                },
+                {
+                  "label": "b",
+                  "text": "X Ltd. obtained a loan of \u20b94,00,000 from IDBI Bank. The company issued 5,000 9%."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "a) Pass the necessary journal entries for 'Issue of Debenture' for the following:\ni.\nArman Ltd. issued 750, 12% Debentures of \u20b9100 each at a discount of 10%\nredeemable at a premium of 5%.\nii.\nSohan Ltd. issued 800, 9% Debentures of \u20b9100 each at a premium of 20 per\ndebenture redeemable at a premium of \u20b910 per Debenture.\nb) X Ltd. obtained a loan of \u20b94,00,000 from IDBI Bank. The company issued 5,000 9%.\nDebentures of \u20b9100 each as a collateral security for the same. Show how these\nitems will be presented in the Balance Sheet of the company.\n6",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 23.\nK.N. Ltd. invited applications for issuing 6,00,000 equity shares of \u20b910 each at a\npremium of \u20b93 per share. The amount was payable as follows: On Application and\nAllotment - \u20b93 per share; On First Call -\u20b94 per share; On Second and Final Call \u2014\nBalance (including premium). The issue was oversubscribed by 1,50,000 shares.\nApplications for 50,000 shares were rejected and the application money was refunded.\nShares were allotted to the remaining applicants as follows:\nCategory I: Those who had applied for 4,00,000 shares were allotted 3,00,000 shares\non pro-          rata basis.\nCategory II: The remaining applicants were allotted the remaining shares.\nExcess application money received with applications was adjusted towards sums due\non first call. Rakesh to whom 6,000 shares were allotted (out of Category I) failed to\npay the first call money. His shares were forfeited. The forfeited shares were re-issued\nat \u20b913 per share fully paid up after the second call. Pass necessary journal entries for\nthe above transactions in the books of K.N. Ltd.\nOR\na) Pass the necessary journal entries for 'Issue of Debenture' for the following:\ni.\nArman Ltd. issued 750, 12% Debentures of \u20b9100 each at a discount of 10%\nredeemable at a premium of 5%.\nii.\nSohan Ltd. issued 800, 9% Debentures of \u20b9100 each at a premium of 20 per\ndebenture redeemable at a premium of \u20b910 per Debenture.\nb) X Ltd. obtained a loan of \u20b94,00,000 from IDBI Bank. The company issued 5,000 9%.\nDebentures of \u20b9100 each as a collateral security for the same. Show how these\nitems will be presented in the Balance Sheet of the company.\n6",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q24",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Meghna, Mehak and Mandeep were partners in a firm whose Balance Sheet as on 31st\nMarch, 2023 was as under:\nBalance Sheet\nLiabilities\nAmount\nAssets\nAmount\nCreditors\n28,000 Cash\n27,000\nGeneral Reserve\n7,500 Debtors\n20,000\nCapitals:\nStock\n28,000\nMeghna\n20,000\nFurniture\n5,000\nMehak\n14,500\nMandeep\n10,000",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Meghna, Mehak and Mandeep were partners in a firm whose Balance Sheet as on 31st\nMarch, 2023 was as under:\nBalance Sheet\nLiabilities\nAmount\nAssets\nAmount\nCreditors\n28,000 Cash\n27,000\nGeneral Reserve\n7,500 Debtors\n20,000\nCapitals:\nStock\n28,000\nMeghna\n20,000\nFurniture\n5,000\nMehak\n14,500\nMandeep\n10,000\n44,500\n80,000\n80,000\nMehak retired on this date under following terms:\n(i) To reduce stock and furniture by 5% and 10% respectively.\n(ii) To provide for doubtful debts at 10% on debtors.\n(iii) Goodwill was valued at `12,000.\n(iv) Creditors of Rs.8,000 were settled at Rs.7,100.\n(v) Mehak should be paid off and the entire sum payable to Mehak shall be\nbrought in by Meghna and Mandeep in such a way that their capitals should be in\ntheir new profit-sharing ratio and a balance of Rs.25,000 is maintained in the\ncash account.\nPrepare Revaluation Account and  partners\u2019 capital accounts of the new firm.\n6\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Varun and Vivek were partners in a firm sharing profits in the ratio of 3:2. The balance\nin their capital and current accounts as on 1st April, 2022 were as under:\nParticulars\nVarun(\u20b9)\nVivek(\u20b9)\nCapital accounts\nCurrent accounts\n3,00,000 (Cr.)\n1,00,000 (Cr.)\n2,00,000 (Cr.)\n28,000 (Dr)\nThe partnership deed provided that Varun was to be paid a salary of \u20b9 5,000 p.m.\nwhereas Vivek was to get a commission of \u20b9 30,000 for the year. Interest on capital was\nto be allowed @ 8% p.a. whereas interest on drawings was to be charged @ 6% p.a.\nThe drawings of Varun were \u20b9 3,000 at the beginning of each quarter while Vivek\nwithdrew \u20b9 30,000 on 1st September, 2022. The net profit of the firm for the year,\n2022-23, before making the above adjustments was \u20b9 1,20,000.\nPrepare Profit and Loss Appropriation Account and Partners' Capital and Current\nAccounts.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 24.\nMeghna, Mehak and Mandeep were partners in a firm whose Balance Sheet as on 31st\nMarch, 2023 was as under:\nBalance Sheet\nLiabilities\nAmount\nAssets\nAmount\nCreditors\n28,000 Cash\n27,000\nGeneral Reserve\n7,500 Debtors\n20,000\nCapitals:\nStock\n28,000\nMeghna\n20,000\nFurniture\n5,000\nMehak\n14,500\nMandeep\n10,000\n44,500\n80,000\n80,000\nMehak retired on this date under following terms:\n(i) To reduce stock and furniture by 5% and 10% respectively.\n(ii) To provide for doubtful debts at 10% on debtors.\n(iii) Goodwill was valued at `12,000.\n(iv) Creditors of Rs.8,000 were settled at Rs.7,100.\n(v) Mehak should be paid off and the entire sum payable to Mehak shall be\nbrought in by Meghna and Mandeep in such a way that their capitals should be in\ntheir new profit-sharing ratio and a balance of Rs.25,000 is maintained in the\ncash account.\nPrepare Revaluation Account and  partners\u2019 capital accounts of the new firm.\n6\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\nOr\nVarun and Vivek were partners in a firm sharing profits in the ratio of 3:2. The balance\nin their capital and current accounts as on 1st April, 2022 were as under:\nParticulars\nVarun(\u20b9)\nVivek(\u20b9)\nCapital accounts\nCurrent accounts\n3,00,000 (Cr.)\n1,00,000 (Cr.)\n2,00,000 (Cr.)\n28,000 (Dr)\nThe partnership deed provided that Varun was to be paid a salary of \u20b9 5,000 p.m.\nwhereas Vivek was to get a commission of \u20b9 30,000 for the year. Interest on capital was\nto be allowed @ 8% p.a. whereas interest on drawings was to be charged @ 6% p.a.\nThe drawings of Varun were \u20b9 3,000 at the beginning of each quarter while Vivek\nwithdrew \u20b9 30,000 on 1st September, 2022. The net profit of the firm for the year,\n2022-23, before making the above adjustments was \u20b9 1,20,000.\nPrepare Profit and Loss Appropriation Account and Partners' Capital and Current\nAccounts.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q25",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Sunny and Bobby were partners in a firm sharing profits and losses in the ratio of 3:2,\ntheir balance sheet as at 31st March, 2012:\nLiabilities\nAmount\nAssets\nAmount\nCreditors\n1,90,000 Bank\n5,000\nBills Payable\n1,10,000 Fixed Deposits\n70,000\nEmployees provident fund\n50,000 Stock\n86,000\nMrs. Sunny\u2019s Lo",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Sunny and Bobby were partners in a firm sharing profits and losses in the ratio of 3:2,\ntheir balance sheet as at 31st March, 2012:\nLiabilities\nAmount\nAssets\nAmount\nCreditors\n1,90,000 Bank\n5,000\nBills Payable\n1,10,000 Fixed Deposits\n70,000\nEmployees provident fund\n50,000 Stock\n86,000\nMrs. Sunny\u2019s Loan\n55,000 Investments\n1,04,000\nBobby\u2019s Loan\n85,000 Debtors\n1,77,000\nInvestment Fluctuation Fund\nCapitals:\nSunny\n2,20,000\nBobby\n1,20,000\n30,000\n3,40,000\n(-) Provision for D/D\n12,000\nOther Fixed Assets\nDeferred Revenue Expenditure\nSunny\u2019s Loan\n1,65,000\n3,80,000\n35,000\n15,000\n8,60,000\n8,60,000\nThe firm was dissolved on 31st March, 2012. The assets were realized and the liabilities\nwere paid as under:\n(a) Sunny promised to pay off Mrs. Sunny\u2019s Loan\n(b) Bobby took away stock at 20% discount and 80% of the investments at 10%\ndiscount.\n(c) Dharam, a debtor of Rs. 60,000 had to pay the amount due 2 months after\nthe date of dissolution. He was allowed a discount of 9% p.a. for making\nimmediate payment.\n(d) Creditors were paid Rs.1,75,000 in full settlement of their claim.\n(e) 90% of Other fixed assets realised Rs. 1,98,000 and remaining were\nrealised at discount of 15%.\n(f) Balance of investments were sold at 75% value and Fixed Deposits were\nrealised at 110%.\n(g) There was an old furniture which has been written off completely from the\nbooks, Bobby took away the same for Rs. 41,000 against his loan and balance to\n6\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nhim was given in cash.\n(h) Realisation expenses Rs. 20,000 were paid by Sunny and Bobby\nequally on behalf of the firm.\nYou are required to prepare Realisation A/c",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Sunny promised to pay off Mrs. Sunny\u2019s Loan"
+                },
+                {
+                  "label": "b",
+                  "text": "Bobby took away stock at 20% discount and 80% of the investments at 10%"
+                },
+                {
+                  "label": "c",
+                  "text": "Dharam, a debtor of Rs. 60,000 had to pay the amount due 2 months after"
+                },
+                {
+                  "label": "a",
+                  "text": "for making"
+                },
+                {
+                  "label": "d",
+                  "text": "Creditors were paid Rs.1,75,000 in full settlement of their claim."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 25.\nSunny and Bobby were partners in a firm sharing profits and losses in the ratio of 3:2,\ntheir balance sheet as at 31st March, 2012:\nLiabilities\nAmount\nAssets\nAmount\nCreditors\n1,90,000 Bank\n5,000\nBills Payable\n1,10,000 Fixed Deposits\n70,000\nEmployees provident fund\n50,000 Stock\n86,000\nMrs. Sunny\u2019s Loan\n55,000 Investments\n1,04,000\nBobby\u2019s Loan\n85,000 Debtors\n1,77,000\nInvestment Fluctuation Fund\nCapitals:\nSunny\n2,20,000\nBobby\n1,20,000\n30,000\n3,40,000\n(-) Provision for D/D\n12,000\nOther Fixed Assets\nDeferred Revenue Expenditure\nSunny\u2019s Loan\n1,65,000\n3,80,000\n35,000\n15,000\n8,60,000\n8,60,000\nThe firm was dissolved on 31st March, 2012. The assets were realized and the liabilities\nwere paid as under:\n(a) Sunny promised to pay off Mrs. Sunny\u2019s Loan\n(b) Bobby took away stock at 20% discount and 80% of the investments at 10%\ndiscount.\n(c) Dharam, a debtor of Rs. 60,000 had to pay the amount due 2 months after\nthe date of dissolution. He was allowed a discount of 9% p.a. for making\nimmediate payment.\n(d) Creditors were paid Rs.1,75,000 in full settlement of their claim.\n(e) 90% of Other fixed assets realised Rs. 1,98,000 and remaining were\nrealised at discount of 15%.\n(f) Balance of investments were sold at 75% value and Fixed Deposits were\nrealised at 110%.\n(g) There was an old furniture which has been written off completely from the\nbooks, Bobby took away the same for Rs. 41,000 against his loan and balance to\n6\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\nhim was given in cash.\n(h) Realisation expenses Rs. 20,000 were paid by Sunny and Bobby\nequally on behalf of the firm.\nYou are required to prepare Realisation A/c",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q26",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Balance Sheet (Extract)\nOf  XYZEE ltd as at 31.03.2024 (as per schedule -III of Companies Act 2013)\nNote no.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Balance Sheet (Extract)\nOf  XYZEE ltd as at 31.03.2024 (as per schedule -III of Companies Act 2013)\nNote no.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 26.\nBalance Sheet (Extract)\nOf  XYZEE ltd as at 31.03.2024 (as per schedule -III of Companies Act 2013)\nNote no.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "03.2023",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "03.2023",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\n03.2023",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('03.2023'); Question Q31 has suspiciously short stem text ('03.2023')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "03.2024\nI- Equity & Liabilities",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "03.2024\nI- Equity & Liabilities",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\n03.2024\nI- Equity & Liabilities",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('03.2023'); Question Q31 has suspiciously short stem text ('03.2023')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Shareholders Funds\na). Share Capital\n1\n44,90,000\n54,90,000\nb). Reserves and\nSurplus\n2\n2,00,000\n3,60,000\nNote no.1 (For year ending 31.03.2023)\nShare Capital\n1).  Authorised Share Capital\n8,00,000 Equity Shares of Rs. 10 each\n80,00,000\n2). Issued Share Capital\n4,50,000 Equity Shares of Rs. 10 each\n45",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Shareholders Funds\na). Share Capital\n1\n44,90,000\n54,90,000\nb). Reserves and\nSurplus\n2\n2,00,000\n3,60,000\nNote no.1 (For year ending 31.03.2023)\nShare Capital\n1).  Authorised Share Capital\n8,00,000 Equity Shares of Rs. 10 each\n80,00,000\n2). Issued Share Capital\n4,50,000 Equity Shares of Rs. 10 each\n45,00,000\n3). Subscribed Share Capital\na). Subscribed and Fully paid\nRs.10 per share on 4,45,000 Equity Shares\n44,50,000\nb). Subscribed and not Fully paid\nRs. 10 per share on 5,000 Equity shares\n50,000\nLess not paid: Rs. 2 per share on 5,000 Equity\nshares\n-10,000\n44,90,000\nNote no.1 (For year ending 31.03.2024)\nShare Capital\n1).  Authorised Share Capital\n8,00,000 Equity Shares of Rs. 10 each\n80,00,000\n2). Issued Share Capital\n5,50,000 Equity Shares of Rs. 10 each\n55,00,000\n(Out of these 40,000 shares were issued to the vendors as\nconsideration for Capital asset purchased)\n3). Subscribed Share Capital\na). Subscribed and Fully paid\n6\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nRs.10 per share on 5,45,000 Equity Shares\n54,50,000\nc) Subscribed and not Fully paid\nRs. 10 per share on 5,000 Equity shares\n50,000\nLess not paid: Rs. 2 per share on 5,000 Equity\nshares\n-10,000\n54,90,000\nNote no. 2 - Reserves and Surplus",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". Share Capital"
+                },
+                {
+                  "label": "b",
+                  "text": ". Reserves and"
+                },
+                {
+                  "label": "a",
+                  "text": ". Subscribed and Fully paid"
+                },
+                {
+                  "label": "b",
+                  "text": ". Subscribed and not Fully paid"
+                },
+                {
+                  "label": "a",
+                  "text": ". Subscribed and Fully paid"
+                },
+                {
+                  "label": "c",
+                  "text": "Subscribed and not Fully paid"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nShareholders Funds\na). Share Capital\n1\n44,90,000\n54,90,000\nb). Reserves and\nSurplus\n2\n2,00,000\n3,60,000\nNote no.1 (For year ending 31.03.2023)\nShare Capital\n1).  Authorised Share Capital\n8,00,000 Equity Shares of Rs. 10 each\n80,00,000\n2). Issued Share Capital\n4,50,000 Equity Shares of Rs. 10 each\n45,00,000\n3). Subscribed Share Capital\na). Subscribed and Fully paid\nRs.10 per share on 4,45,000 Equity Shares\n44,50,000\nb). Subscribed and not Fully paid\nRs. 10 per share on 5,000 Equity shares\n50,000\nLess not paid: Rs. 2 per share on 5,000 Equity\nshares\n-10,000\n44,90,000\nNote no.1 (For year ending 31.03.2024)\nShare Capital\n1).  Authorised Share Capital\n8,00,000 Equity Shares of Rs. 10 each\n80,00,000\n2). Issued Share Capital\n5,50,000 Equity Shares of Rs. 10 each\n55,00,000\n(Out of these 40,000 shares were issued to the vendors as\nconsideration for Capital asset purchased)\n3). Subscribed Share Capital\na). Subscribed and Fully paid\n6\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nRs.10 per share on 5,45,000 Equity Shares\n54,50,000\nc) Subscribed and not Fully paid\nRs. 10 per share on 5,000 Equity shares\n50,000\nLess not paid: Rs. 2 per share on 5,000 Equity\nshares\n-10,000\n54,90,000\nNote no. 2 - Reserves and Surplus",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "03.2023",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "03.2023",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\n03.2023",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('03.2023'); Question Q31 has suspiciously short stem text ('03.2023')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "03.2024\nCapital Reserve\nNil\n40,000\nSecurities Premium\n2,00,000\n3,20,000\nDuring the year the company took over the business of Quipa Ltd. with Assets of Rs.\n12,00,000/- and Liabilities of Rs.7,30,000. Purchase consideration was paid  in cash\nand by issue of  equity shares at par. The entire transacti",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "03.2024\nCapital Reserve\nNil\n40,000\nSecurities Premium\n2,00,000\n3,20,000\nDuring the year the company took over the business of Quipa Ltd. with Assets of Rs.\n12,00,000/- and Liabilities of Rs.7,30,000. Purchase consideration was paid  in cash\nand by issue of  equity shares at par. The entire transaction resulted in Capital\nreserve of Rs.40,000.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\n03.2024\nCapital Reserve\nNil\n40,000\nSecurities Premium\n2,00,000\n3,20,000\nDuring the year the company took over the business of Quipa Ltd. with Assets of Rs.\n12,00,000/- and Liabilities of Rs.7,30,000. Purchase consideration was paid  in cash\nand by issue of  equity shares at par. The entire transaction resulted in Capital\nreserve of Rs.40,000.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('03.2023'); Question Q31 has suspiciously short stem text ('03.2023')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". What is the total face value of Shares issued by the Company during the year\n2023-24.\nA). Rs.10,00,000\nB). Rs. 6,00,000\nC). Rs. 9,50,000\nD). Rs. 11,20,000",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". What is the total face value of Shares issued by the Company during the year\n2023-24.\nA). Rs.10,00,000\nB). Rs. 6,00,000\nC). Rs. 9,50,000\nD). Rs. 11,20,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". Rs.10,00,000"
+                },
+                {
+                  "label": "b",
+                  "text": ". Rs. 6,00,000"
+                },
+                {
+                  "label": "c",
+                  "text": ". Rs. 9,50,000"
+                },
+                {
+                  "label": "d",
+                  "text": ". Rs. 11,20,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q1\n. What is the total face value of Shares issued by the Company during the year\n2023-24.\nA). Rs.10,00,000\nB). Rs. 6,00,000\nC). Rs. 9,50,000\nD). Rs. 11,20,000",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". Shares issued for cash during the year were issued at _______. (assuming they\nwere issued together)?\nA). Rs.10\nB). Rs.8\nC). Rs.12\nD). Rs.11.20",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". Shares issued for cash during the year were issued at _______. (assuming they\nwere issued together)?\nA). Rs.10\nB). Rs.8\nC). Rs.12\nD). Rs.11.20",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". Rs.10"
+                },
+                {
+                  "label": "b",
+                  "text": ". Rs.8"
+                },
+                {
+                  "label": "c",
+                  "text": ". Rs.12"
+                },
+                {
+                  "label": "d",
+                  "text": ". Rs.11.20"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q2\n. Shares issued for cash during the year were issued at _______. (assuming they\nwere issued together)?\nA). Rs.10\nB). Rs.8\nC). Rs.12\nD). Rs.11.20",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". On April 1, 2024, the company forfeited all the defaulting shares. What amount\nwill appear in the Share Forfeiture account at the time of forfeiture?\nA). Rs.40,000\nB). Rs. 50,000\nC). Rs.10,000\nD). Rs. 60,000",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". On April 1, 2024, the company forfeited all the defaulting shares. What amount\nwill appear in the Share Forfeiture account at the time of forfeiture?\nA). Rs.40,000\nB). Rs. 50,000\nC). Rs.10,000\nD). Rs. 60,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". Rs.40,000"
+                },
+                {
+                  "label": "b",
+                  "text": ". Rs. 50,000"
+                },
+                {
+                  "label": "c",
+                  "text": ". Rs.10,000"
+                },
+                {
+                  "label": "d",
+                  "text": ". Rs. 60,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q3\n. On April 1, 2024, the company forfeited all the defaulting shares. What amount\nwill appear in the Share Forfeiture account at the time of forfeiture?\nA). Rs.40,000\nB). Rs. 50,000\nC). Rs.10,000\nD). Rs. 60,000",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q4",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". What will be the number of Issued shares, as on April 1,2024, after the forfeiture\nof these shares?\nA). 5,45,000 shares\nB). 5,50,000 shares.\nC). 4,45,000 shares.\nD). 5,05,000 shares.\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". What will be the number of Issued shares, as on April 1,2024, after the forfeiture\nof these shares?\nA). 5,45,000 shares\nB). 5,50,000 shares.\nC). 4,45,000 shares.\nD). 5,05,000 shares.\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". 5,45,000 shares"
+                },
+                {
+                  "label": "b",
+                  "text": ". 5,50,000 shares."
+                },
+                {
+                  "label": "c",
+                  "text": ". 4,45,000 shares."
+                },
+                {
+                  "label": "d",
+                  "text": ". 5,05,000 shares."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q4\n. What will be the number of Issued shares, as on April 1,2024, after the forfeiture\nof these shares?\nA). 5,45,000 shares\nB). 5,50,000 shares.\nC). 4,45,000 shares.\nD). 5,05,000 shares.\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 9 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". If 2,000 of the forfeited shares were issued at Rs. 14 per share, what will be the\namount of securities premium and Capital reserve respectively as on April 1, 2024?\nA). Rs, 3,20,000, Rs.40,000\nB). Rs.3,28,000, Rs.56,000\nC). Rs.3,28,000, Rs.80,000\nD). Rs.3,20,000, Rs.80,000",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". If 2,000 of the forfeited shares were issued at Rs. 14 per share, what will be the\namount of securities premium and Capital reserve respectively as on April 1, 2024?\nA). Rs, 3,20,000, Rs.40,000\nB). Rs.3,28,000, Rs.56,000\nC). Rs.3,28,000, Rs.80,000\nD). Rs.3,20,000, Rs.80,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". Rs, 3,20,000, Rs.40,000"
+                },
+                {
+                  "label": "b",
+                  "text": ". Rs.3,28,000, Rs.56,000"
+                },
+                {
+                  "label": "c",
+                  "text": ". Rs.3,28,000, Rs.80,000"
+                },
+                {
+                  "label": "d",
+                  "text": ". Rs.3,20,000, Rs.80,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q5\n. If 2,000 of the forfeited shares were issued at Rs. 14 per share, what will be the\namount of securities premium and Capital reserve respectively as on April 1, 2024?\nA). Rs, 3,20,000, Rs.40,000\nB). Rs.3,28,000, Rs.56,000\nC). Rs.3,28,000, Rs.80,000\nD). Rs.3,20,000, Rs.80,000",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": ". What will be the amount in the \"Subscribed and Fully paid\" after the reissue of\nthese 2000 shares?\nA). Rs.54,50,000\nB). Rs.55,00,000\nC). Rs.54,70,000\nD). Rs.54,80,000",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": ". What will be the amount in the \"Subscribed and Fully paid\" after the reissue of\nthese 2000 shares?\nA). Rs.54,50,000\nB). Rs.55,00,000\nC). Rs.54,70,000\nD). Rs.54,80,000",
+              "options": [
+                {
+                  "label": "a",
+                  "text": ". Rs.54,50,000"
+                },
+                {
+                  "label": "b",
+                  "text": ". Rs.55,00,000"
+                },
+                {
+                  "label": "c",
+                  "text": ". Rs.54,70,000"
+                },
+                {
+                  "label": "d",
+                  "text": ". Rs.54,80,000"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q6\n. What will be the amount in the \"Subscribed and Fully paid\" after the reissue of\nthese 2000 shares?\nA). Rs.54,50,000\nB). Rs.55,00,000\nC). Rs.54,70,000\nD). Rs.54,80,000",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "PART B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "When an analyst analysis the financial statements of an enterprise over a number of\nyears, the analysis is called ______________analysis.\nA.   Static\nB.  External\nC.   Horizontal\nD.   Vertical",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "When an analyst analysis the financial statements of an enterprise over a number of\nyears, the analysis is called ______________analysis.\nA.   Static\nB.  External\nC.   Horizontal\nD.   Vertical",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Static"
+                },
+                {
+                  "label": "b",
+                  "text": "External"
+                },
+                {
+                  "label": "c",
+                  "text": "Horizontal"
+                },
+                {
+                  "label": "d",
+                  "text": "Vertical"
+                },
+                {
+                  "label": "a",
+                  "text": "Sale of Stock at cost price"
+                },
+                {
+                  "label": "b",
+                  "text": "Sale of stock at loss"
+                },
+                {
+                  "label": "c",
+                  "text": "Sale of stock at profit"
+                },
+                {
+                  "label": "d",
+                  "text": "Sale of investments at cost"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "------------will result in increase in Liquid Ratio without affecting the Current Ratio.\nA. Sale of Stock at cost price\nB. Sale of stock at loss\nC. Sale of stock at profit\nD. Sale of investments at cost\n1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nWhen an analyst analysis the financial statements of an enterprise over a number of\nyears, the analysis is called ______________analysis.\nA.   Static\nB.  External\nC.   Horizontal\nD.   Vertical\nOR\n------------will result in increase in Liquid Ratio without affecting the Current Ratio.\nA. Sale of Stock at cost price\nB. Sale of stock at loss\nC. Sale of stock at profit\nD. Sale of investments at cost\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "As on 31.02.2024 the following information of Bartan Manfacturing ltd. is available  .\nNet profit ratio              40%\nOperating profit ratio 50%\nOn 1st April 2024 it was came to notice that the accountant had omitted recording the\ninterest received on investment of Rs. 2,00,000 for the financial ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "As on 31.02.2024 the following information of Bartan Manfacturing ltd. is available  .\nNet profit ratio              40%\nOperating profit ratio 50%\nOn 1st April 2024 it was came to notice that the accountant had omitted recording the\ninterest received on investment of Rs. 2,00,000 for the financial year 2023-24. The\nrequired rectification was done. What will be the effect of the same on Net Profit and\noperating profit ratio?\nA. Net Profit ratio will increase and Operating Profit ratio will decrease\nB. Both Net Profit ratio and  Operating Profit ratio will increase\nC. Net Profit ratio will increase and Operating Profit ratio will have no change\nD. Net Profit ratio will remain same and Operating Profit ratio will increase\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Net Profit ratio will increase and Operating Profit ratio will decrease"
+                },
+                {
+                  "label": "b",
+                  "text": "Both Net Profit ratio and  Operating Profit ratio will increase"
+                },
+                {
+                  "label": "c",
+                  "text": "Net Profit ratio will increase and Operating Profit ratio will have no change"
+                },
+                {
+                  "label": "d",
+                  "text": "Net Profit ratio will remain same and Operating Profit ratio will increase"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\nAs on 31.02.2024 the following information of Bartan Manfacturing ltd. is available  .\nNet profit ratio              40%\nOperating profit ratio 50%\nOn 1st April 2024 it was came to notice that the accountant had omitted recording the\ninterest received on investment of Rs. 2,00,000 for the financial year 2023-24. The\nrequired rectification was done. What will be the effect of the same on Net Profit and\noperating profit ratio?\nA. Net Profit ratio will increase and Operating Profit ratio will decrease\nB. Both Net Profit ratio and  Operating Profit ratio will increase\nC. Net Profit ratio will increase and Operating Profit ratio will have no change\nD. Net Profit ratio will remain same and Operating Profit ratio will increase\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "While computing cash from operating activities, which of the following item(s) will be\nadded to the net profit?\n(i) Decrease in value of inventory\n(ii)     Increase in share capital\n1\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->\n(iii)            Increase in the value of trade receivables\n(iv) Increa",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "While computing cash from operating activities, which of the following item(s) will be\nadded to the net profit?\n(i) Decrease in value of inventory\n(ii)     Increase in share capital\n1\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->\n(iii)            Increase in the value of trade receivables\n(iv) Increase in the amount of outstanding expenses\nA.\nOnly (i)\nB.\nOnly (i) and (ii)\nC.\nOnly (i) and (iii)\nD. Only (i) and (iv)",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Only"
+                },
+                {
+                  "label": "b",
+                  "text": "Only"
+                },
+                {
+                  "label": "c",
+                  "text": "Only"
+                },
+                {
+                  "label": "d",
+                  "text": "Only"
+                },
+                {
+                  "label": "a",
+                  "text": "Investments in shares are excluded from cash equivalents unless they are in,"
+                },
+                {
+                  "label": "b",
+                  "text": "Short-term marketable securities which can be readily converted into cash are"
+                },
+                {
+                  "label": "c",
+                  "text": "In case of a financial enterprise, interest received, and dividend received are"
+                },
+                {
+                  "label": "d",
+                  "text": "Provision for tax  made during the year should be classified as an outflow from"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Which of the following statements is correct?\nA. Investments in shares are excluded from cash equivalents unless they are in,\nsubstance, cash equivalents.\nB.\nShort-term marketable securities which can be readily converted into cash are\nnot treated as cash equivalents\nC.\nIn case of a financial enterprise, interest received, and dividend received are\nclassified as investing activities while dividend paid and interest paid on\ndebentures are operating activities.\nD. Provision for tax  made during the year should be classified as an outflow from\noperating activity.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nWhile computing cash from operating activities, which of the following item(s) will be\nadded to the net profit?\n(i) Decrease in value of inventory\n(ii)     Increase in share capital\n1\n<!-- PAGE 11 END -->\n\n<!-- PAGE 12 START -->\n(iii)            Increase in the value of trade receivables\n(iv) Increase in the amount of outstanding expenses\nA.\nOnly (i)\nB.\nOnly (i) and (ii)\nC.\nOnly (i) and (iii)\nD. Only (i) and (iv)\nOR\nWhich of the following statements is correct?\nA. Investments in shares are excluded from cash equivalents unless they are in,\nsubstance, cash equivalents.\nB.\nShort-term marketable securities which can be readily converted into cash are\nnot treated as cash equivalents\nC.\nIn case of a financial enterprise, interest received, and dividend received are\nclassified as investing activities while dividend paid and interest paid on\ndebentures are operating activities.\nD. Provision for tax  made during the year should be classified as an outflow from\noperating activity.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Statement-I: \u2018Shree Ltd.\u2019 was carrying on a business of packaging in Delhi and earned\ngood profits in the past years. The company wanted to expand its business and\nrequired additional funds. To meet its requirements the company issued equity shares\nof \u20b930,00,000. It purchased a computerized machine ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Statement-I: \u2018Shree Ltd.\u2019 was carrying on a business of packaging in Delhi and earned\ngood profits in the past years. The company wanted to expand its business and\nrequired additional funds. To meet its requirements the company issued equity shares\nof \u20b930,00,000. It purchased a computerized machine of \u20b920,00,000. During the current\nyear the Net Profit of the company was \u20b915,00,000. Cash flows from operating,\ninvesting and financing activities from the above transactions will be \u20b915,00,000:\n(\u20b920,00,000); \u20b930,00,000 respectively.\nStatement-II: The patents of X Ltd. increased from \u20b93,00,000 in 2021-22 to \u20b93,50,000\nin 2022-23. It will be taken as purchase of Patents of 50,000 and will be shown under\nCash outflow from Investing Activities.\nA. Both the statements are true.\nB. Both the statements are false.\nC. Only Statement-I is true.\nD. Only Statement-II is true.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both the statements are true."
+                },
+                {
+                  "label": "b",
+                  "text": "Both the statements are false."
+                },
+                {
+                  "label": "c",
+                  "text": "Only Statement-I is true."
+                },
+                {
+                  "label": "d",
+                  "text": "Only Statement-II is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\nStatement-I: \u2018Shree Ltd.\u2019 was carrying on a business of packaging in Delhi and earned\ngood profits in the past years. The company wanted to expand its business and\nrequired additional funds. To meet its requirements the company issued equity shares\nof \u20b930,00,000. It purchased a computerized machine of \u20b920,00,000. During the current\nyear the Net Profit of the company was \u20b915,00,000. Cash flows from operating,\ninvesting and financing activities from the above transactions will be \u20b915,00,000:\n(\u20b920,00,000); \u20b930,00,000 respectively.\nStatement-II: The patents of X Ltd. increased from \u20b93,00,000 in 2021-22 to \u20b93,50,000\nin 2022-23. It will be taken as purchase of Patents of 50,000 and will be shown under\nCash outflow from Investing Activities.\nA. Both the statements are true.\nB. Both the statements are false.\nC. Only Statement-I is true.\nD. Only Statement-II is true.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Find the heads and sub-heads under which the following items will appear in the\nbalance sheet of a company as per Schedule III, Part I of Companies Act, 2013?\na) Furniture and Fixture\nb) Advance paid to contractor for building under construction\nc) Accrued Income\nd) Loans repayable on demand to Bank",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Find the heads and sub-heads under which the following items will appear in the\nbalance sheet of a company as per Schedule III, Part I of Companies Act, 2013?\na) Furniture and Fixture\nb) Advance paid to contractor for building under construction\nc) Accrued Income\nd) Loans repayable on demand to Bank\ne) Employees earned leaves payable on retirement\nf) Employees earned leaves encash able\n3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Furniture and Fixture"
+                },
+                {
+                  "label": "b",
+                  "text": "Advance paid to contractor for building under construction"
+                },
+                {
+                  "label": "c",
+                  "text": "Accrued Income"
+                },
+                {
+                  "label": "d",
+                  "text": "Loans repayable on demand to Bank"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\nFind the heads and sub-heads under which the following items will appear in the\nbalance sheet of a company as per Schedule III, Part I of Companies Act, 2013?\na) Furniture and Fixture\nb) Advance paid to contractor for building under construction\nc) Accrued Income\nd) Loans repayable on demand to Bank\ne) Employees earned leaves payable on retirement\nf) Employees earned leaves encash able\n3",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('03.2023'); Question Q31 has suspiciously short stem text ('03.2023')",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Complete the Comparative Statement of Profit and Loss:\nParticulars\n2022-23\n2023-24\nAbsolute\nchange\n%\nchange\n3\n<!-- PAGE 12 END -->\n\n<!-- PAGE 13 START -->\nRevenue from\nOperations\n16,00,000 20,00,000\n?\n?\nLess: Employees\nBenefit\nExpenses\n8,00,000\n?\n?\n25%\nLess: Other\nExpenses\n2,00,000\n?\n(1,00,000)\n?\nPr",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Complete the Comparative Statement of Profit and Loss:\nParticulars\n2022-23\n2023-24\nAbsolute\nchange\n%\nchange\n3\n<!-- PAGE 12 END -->\n\n<!-- PAGE 13 START -->\nRevenue from\nOperations\n16,00,000 20,00,000\n?\n?\nLess: Employees\nBenefit\nExpenses\n8,00,000\n?\n?\n25%\nLess: Other\nExpenses\n2,00,000\n?\n(1,00,000)\n?\nProfit before tax\n6,00,000\n?\n?\n50%\nTax @30%\n?\n?\n90,000\n?\nProfit after tax\n4,20,000\n?\n2,10,000\n?",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\nComplete the Comparative Statement of Profit and Loss:\nParticulars\n2022-23\n2023-24\nAbsolute\nchange\n%\nchange\n3\n<!-- PAGE 12 END -->\n\n<!-- PAGE 13 START -->\nRevenue from\nOperations\n16,00,000 20,00,000\n?\n?\nLess: Employees\nBenefit\nExpenses\n8,00,000\n?\n?\n25%\nLess: Other\nExpenses\n2,00,000\n?\n(1,00,000)\n?\nProfit before tax\n6,00,000\n?\n?\n50%\nTax @30%\n?\n?\n90,000\n?\nProfit after tax\n4,20,000\n?\n2,10,000\n?",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Calculate Gross Profit Ratio from the following information\nRevenue from Operations \u20b9 10,00,000; Purchases \u20b9 3,60,000; Carriage Inwards \u20b9\n50,000; Employee benefit Expenses \u20b9 1,00,000 (including Wages of \u20b9 60,000); Opening\nInventory \u20b9 60,000 and Average Inventory \u20b9 80,000.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Calculate Gross Profit Ratio from the following information\nRevenue from Operations \u20b9 10,00,000; Purchases \u20b9 3,60,000; Carriage Inwards \u20b9\n50,000; Employee benefit Expenses \u20b9 1,00,000 (including Wages of \u20b9 60,000); Opening\nInventory \u20b9 60,000 and Average Inventory \u20b9 80,000.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Profit after tax amounted to \u20b9 6,00,000, and tax rate was 20%. If earnings before\ninterest and tax was \u20b9 10,00,000 and Nominal Value of Debentures amounted to \u20b9\n25,00,000 (assuming the only debt of the company), determine the rate of interest on\ndebentures\n4",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\nCalculate Gross Profit Ratio from the following information\nRevenue from Operations \u20b9 10,00,000; Purchases \u20b9 3,60,000; Carriage Inwards \u20b9\n50,000; Employee benefit Expenses \u20b9 1,00,000 (including Wages of \u20b9 60,000); Opening\nInventory \u20b9 60,000 and Average Inventory \u20b9 80,000.\nOR\nProfit after tax amounted to \u20b9 6,00,000, and tax rate was 20%. If earnings before\ninterest and tax was \u20b9 10,00,000 and Nominal Value of Debentures amounted to \u20b9\n25,00,000 (assuming the only debt of the company), determine the rate of interest on\ndebentures\n4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "(a) From the following information, calculate Cash flow from Operating Activities.\nParticulars\n31 March 2023 31 March 2024\nSurplus i.e Balance in Statement of Profit and Loss\n6,00,000\n5,00,000\nProvision for Tax\n1,00,000\n1,20,000\nTrade Receivables\n2,00,000\n2,40,000\nTrade Payables\n1,50,000\n2,00,000\nGo",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "(a) From the following information, calculate Cash flow from Operating Activities.\nParticulars\n31 March 2023 31 March 2024\nSurplus i.e Balance in Statement of Profit and Loss\n6,00,000\n5,00,000\nProvision for Tax\n1,00,000\n1,20,000\nTrade Receivables\n2,00,000\n2,40,000\nTrade Payables\n1,50,000\n2,00,000\nGoodwill\n2,00,000\n1,50,000\nAdditional Information:-\nProposed Dividend for the year ended March 31, 2023 and March 31, 2024 was \u20b9\n1,50,000 and \u20b9 1,80,000 respectively.\n(b) From the following information calculate the Cash from Investing Activities\nParticulars\n31 March 2023 31 March 2024\nMachinery (Cost)\n20,00,000\n28,00,000\nAccumulated Depreciation\n4,00,000\n6,50,000\nAdditional Information:-\n(i) Machinery costing \u20b9 50,000 (Book Value \u20b9 40,000) was lost by fire and\ninsurance claim of \u20b9 32,000 was received.\n(ii) Depreciation charged during the year was \u20b9 3,50,000.\n(iii) A part of Machinery costing \u20b9 2,50,000 was sold at a loss of \u20b9 20,000.\n6",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "From the following information, calculate Cash flow from Operating Activities."
+                },
+                {
+                  "label": "b",
+                  "text": "From the following information calculate the Cash from Investing Activities"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "medium"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\n(a) From the following information, calculate Cash flow from Operating Activities.\nParticulars\n31 March 2023 31 March 2024\nSurplus i.e Balance in Statement of Profit and Loss\n6,00,000\n5,00,000\nProvision for Tax\n1,00,000\n1,20,000\nTrade Receivables\n2,00,000\n2,40,000\nTrade Payables\n1,50,000\n2,00,000\nGoodwill\n2,00,000\n1,50,000\nAdditional Information:-\nProposed Dividend for the year ended March 31, 2023 and March 31, 2024 was \u20b9\n1,50,000 and \u20b9 1,80,000 respectively.\n(b) From the following information calculate the Cash from Investing Activities\nParticulars\n31 March 2023 31 March 2024\nMachinery (Cost)\n20,00,000\n28,00,000\nAccumulated Depreciation\n4,00,000\n6,50,000\nAdditional Information:-\n(i) Machinery costing \u20b9 50,000 (Book Value \u20b9 40,000) was lost by fire and\ninsurance claim of \u20b9 32,000 was received.\n(ii) Depreciation charged during the year was \u20b9 3,50,000.\n(iii) A part of Machinery costing \u20b9 2,50,000 was sold at a loss of \u20b9 20,000.\n6",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "PART B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "fill_in_the_blank",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "The syntax of PMT Function is ___________\nA. PMT (rate, pv, nper, [fv], [type])\nB. PMT (rate, nper, pv, [fv], [type])\nC. PMT (rate, pv, nper, [type], [fv])\n1\n<!-- PAGE 13 END -->\n\n<!-- PAGE 14 START -->\nD. PMT (rate, nper, pv, [type], [fv])",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The syntax of PMT Function is ___________\nA. PMT (rate, pv, nper, [fv], [type])\nB. PMT (rate, nper, pv, [fv], [type])\nC. PMT (rate, pv, nper, [type], [fv])\n1\n<!-- PAGE 13 END -->\n\n<!-- PAGE 14 START -->\nD. PMT (rate, nper, pv, [type], [fv])",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "PMT"
+                },
+                {
+                  "label": "b",
+                  "text": "PMT"
+                },
+                {
+                  "label": "c",
+                  "text": "PMT"
+                },
+                {
+                  "label": "d",
+                  "text": "PMT"
+                },
+                {
+                  "label": "a",
+                  "text": "Layout, Format, DataMaker"
+                },
+                {
+                  "label": "b",
+                  "text": "Design, Layout, Format"
+                },
+                {
+                  "label": "c",
+                  "text": "Format, Layout, Label"
+                },
+                {
+                  "label": "d",
+                  "text": "Design, DataMaker, Layout"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "In Excel, the chart tools provide three different options _________, _________ and\n__________ for formatting.\nA. Layout, Format, DataMaker\nB. Design, Layout, Format\nC. Format, Layout, Label\nD. Design, DataMaker, Layout",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "fill_in_the_blank",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nThe syntax of PMT Function is ___________\nA. PMT (rate, pv, nper, [fv], [type])\nB. PMT (rate, nper, pv, [fv], [type])\nC. PMT (rate, pv, nper, [type], [fv])\n1\n<!-- PAGE 13 END -->\n\n<!-- PAGE 14 START -->\nD. PMT (rate, nper, pv, [type], [fv])\nOr\nIn Excel, the chart tools provide three different options _________, _________ and\n__________ for formatting.\nA. Layout, Format, DataMaker\nB. Design, Layout, Format\nC. Format, Layout, Label\nD. Design, DataMaker, Layout",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q28",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which formulae would result in TRUE if C4 is less than 10 and D4 is less than 100?\nA. =AND(C4>10, D4>10)\nB. =AND(C4>10, C4<100).\nC. =AND(C4>10, D4<10).\nD. =AND (C4<10, D4,100)\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which formulae would result in TRUE if C4 is less than 10 and D4 is less than 100?\nA. =AND(C4>10, D4>10)\nB. =AND(C4>10, C4<100).\nC. =AND(C4>10, D4<10).\nD. =AND (C4<10, D4,100)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "=AND"
+                },
+                {
+                  "label": "b",
+                  "text": "=AND"
+                },
+                {
+                  "label": "c",
+                  "text": "=AND"
+                },
+                {
+                  "label": "d",
+                  "text": "=AND"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 28.\nWhich formulae would result in TRUE if C4 is less than 10 and D4 is less than 100?\nA. =AND(C4>10, D4>10)\nB. =AND(C4>10, C4<100).\nC. =AND(C4>10, D4<10).\nD. =AND (C4<10, D4,100)\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q29",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Which function results can be displayed in Auto Calculate?\nA. SUM and AVERAGE\nB. MAX and LOOK\nC. LABEL and AVERAGE\nD. MIN and BLANK",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which function results can be displayed in Auto Calculate?\nA. SUM and AVERAGE\nB. MAX and LOOK\nC. LABEL and AVERAGE\nD. MIN and BLANK",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "SUM and AVERAGE"
+                },
+                {
+                  "label": "b",
+                  "text": "MAX and LOOK"
+                },
+                {
+                  "label": "c",
+                  "text": "LABEL and AVERAGE"
+                },
+                {
+                  "label": "d",
+                  "text": "MIN and BLANK"
+                },
+                {
+                  "label": "a",
+                  "text": "[Ctrl]+[Home]"
+                },
+                {
+                  "label": "b",
+                  "text": "[Page Up]"
+                },
+                {
+                  "label": "c",
+                  "text": "[Home]"
+                },
+                {
+                  "label": "d",
+                  "text": "[Ctrl]+[Backspace]"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "When navigating in a workbook, which command is used to move to the beginning of\nthe current row?\nA. [Ctrl]+[Home]\nB. [Page Up]\nC. [Home]\nD. [Ctrl]+[Backspace]\n1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 29.\nWhich function results can be displayed in Auto Calculate?\nA. SUM and AVERAGE\nB. MAX and LOOK\nC. LABEL and AVERAGE\nD. MIN and BLANK\nOr\nWhen navigating in a workbook, which command is used to move to the beginning of\nthe current row?\nA. [Ctrl]+[Home]\nB. [Page Up]\nC. [Home]\nD. [Ctrl]+[Backspace]\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 8 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "What category of functions is used in this formula: =PMT (C10/12, C8, C9,1)\nA. Logical\nB. Financial\nC. Payment\nD. Statistical\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "What category of functions is used in this formula: =PMT (C10/12, C8, C9,1)\nA. Logical\nB. Financial\nC. Payment\nD. Statistical\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Logical"
+                },
+                {
+                  "label": "b",
+                  "text": "Financial"
+                },
+                {
+                  "label": "c",
+                  "text": "Payment"
+                },
+                {
+                  "label": "d",
+                  "text": "Statistical"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\nWhat category of functions is used in this formula: =PMT (C10/12, C8, C9,1)\nA. Logical\nB. Financial\nC. Payment\nD. Statistical\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing); Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q31",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "State any three types of Accounting Vouchers used for entry.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "State any three types of Accounting Vouchers used for entry.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 31.\nState any three types of Accounting Vouchers used for entry.\n3",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q31 has suspiciously short stem text ('03.2023'); Question Q31 has suspiciously short stem text ('03.2023')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "State any three requirements which should be considered before making an investing\ndecision to choose between \u2018Desktop database\u2019 or \u2018Server database\u2019.\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "State any three requirements which should be considered before making an investing\ndecision to choose between \u2018Desktop database\u2019 or \u2018Server database\u2019.\n3",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\nState any three requirements which should be considered before making an investing\ndecision to choose between \u2018Desktop database\u2019 or \u2018Server database\u2019.\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "State the features of Computerized Accounting system.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "State the features of Computerized Accounting system.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "4\n<!-- PAGE 14 END -->\n\n<!-- PAGE 15 START -->\nExplain the use of \u2018Conditional Formatting\u2019.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\nState the features of Computerized Accounting system.\nOr\n4\n<!-- PAGE 14 END -->\n\n<!-- PAGE 15 START -->\nExplain the use of \u2018Conditional Formatting\u2019.",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q34",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Describe two basic methods of charging depreciation. Differentiate between both of\nthem.\n6\n<!-- PAGE 15 END -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Describe two basic methods of charging depreciation. Differentiate between both of\nthem.\n6\n<!-- PAGE 15 END -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 34.\nDescribe two basic methods of charging depreciation. Differentiate between both of\nthem.\n6\n<!-- PAGE 15 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

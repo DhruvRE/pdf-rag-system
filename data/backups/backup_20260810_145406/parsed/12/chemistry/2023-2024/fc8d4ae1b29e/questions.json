@@ -1,0 +1,731 @@
+{
+  "paper_id": "fc8d4ae1b29e",
+  "class": "12",
+  "subject": "chemistry",
+  "year": "2023-2024",
+  "total_questions": 33,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        65.66,
+        362.44,
+        453.22,
+        411.77
+      ],
+      "raw_text": "1.\nWhich of the following solutions will have the highest conductivity at 298 K?\n(a) 0.01 M HCl solution\n(b) 0.1 M HCl solution\n(c) 0.01 M CH 3COOH solution",
+      "options": [
+        "(a) 0.01 M HCl solution",
+        "(b) 0.1 M HCl solution",
+        "(c) 0.01 M CH 3COOH solution",
+        "(d) 0.1 M CH 3COOH solution"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        65.78,
+        428.82,
+        512.53,
+        511.39
+      ],
+      "raw_text": "2.\nIdentify A and B:\n(a) A = 1-phenylethanal , B = acetophenone\n(b) A = Benzophenone B = formaldehyde\n(c) A= Benzaldehyde , B = Acetophenone",
+      "options": [
+        "(a) A = 1-phenylethanal , B = acetophenone",
+        "(b) A = Benzophenone B = formaldehyde",
+        "(c) A= Benzaldehyde , B = Acetophenone",
+        "(d) A = Benzophenone , B = Acetophenone"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        65.66,
+        516.3,
+        437.02,
+        564.91
+      ],
+      "raw_text": "3.\nThe vitamins which can be stored in our body are:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Vitamin A, B, D and E",
+        "(d) Vitamin A, C, D and K",
+        "(c) Vitamin A, B, C and D",
+        "(d) Vitamin A, D, E and K"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        65.66,
+        569.7,
+        457.91,
+        636.34
+      ],
+      "raw_text": "4.\nWhat is IUPAC name of the ketone A, which undergoes iodoform reaction to give\nCH 3 CH= C(CH 3)COONa and yellow precipitate of CHI 3 ?\n(a) 3-Methylpent-3-en-2one\n(b) 3-Methylbut-2-en- one\n(c) 2, 3-Dimethylethanone",
+      "options": [
+        "(a) 3-Methylpent-3-en-2one",
+        "(b) 3-Methylbut-2-en- one",
+        "(c) 2, 3-Dimethylethanone",
+        "(d) 3-Methylpent-4-one"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        65.66,
+        641.13,
+        546.73,
+        726.51
+      ],
+      "raw_text": "5.\nWhich of the following is not correct?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) In haloarenes, the electron pairs on halogen atom are in conjugation with \u03c0-electrons of the ring.",
+        "(b) The carbon-magnesium bond is covalent and non-polar in nature.",
+        "(c) During SN1 reaction, the carbocation formed in the slow step being sp2 hybridised is planar.",
+        "(d) Out of CH 2= CH-Cl and C6H 5CH 2Cl, C6H 5CH 2Cl is more reactive towards SN1 reaction"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.66,
+        42.35,
+        437.86,
+        167.3
+      ],
+      "raw_text": "6.\nMatch the properties with the elements of 3d series:\n(i) lowest enthalpy of atomisation\n(p) Sc\n(ii) shows maximum number of oxidation states\n(q) Mn\n(iii) transition metal that does not form coloured compounds\n(r) Zn\n(s) Ti\n(a) (i) (r), (ii) (q), (iii) (p)\n(b) (i) (r), (ii) (s), (iii) (p)\n(c) (i) (p), (ii) (q), (iii) (r)",
+      "options": [
+        "(a) (i) (r), (ii) (q), (iii) (p)",
+        "(b) (i) (r), (ii) (s), (iii) (p)",
+        "(c) (i) (p), (ii) (q), (iii) (r)",
+        "(d) (i) (s), (ii) (r), (iii) (p)"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.66,
+        172.45,
+        392.14,
+        256.78
+      ],
+      "raw_text": "7.\nWhich of the following statement is true?\n(a) molecularity of reaction can be zero or a fraction.\n(b) molecularity has no meaning for complex reactions.\n(c) molecularity of a reaction is an experimental quantity",
+      "options": [
+        "(a) molecularity of reaction can be zero or a fraction.",
+        "(b) molecularity has no meaning for complex reactions.",
+        "(c) molecularity of a reaction is an experimental quantity",
+        "(d) reactions with the molecularity three are very rare but are fast."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.66,
+        261.28,
+        508.93,
+        292.54
+      ],
+      "raw_text": "8.\nIn which of the following solvents, the C4H 8NH 3+X\u2013 is soluble;\n(a) ether\n(b) acetone\n(c) water",
+      "options": [
+        "(a) ether",
+        "(b) acetone",
+        "(c) water",
+        "(d) bromine water"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.66,
+        297.4,
+        496.57,
+        381.58
+      ],
+      "raw_text": "9.\nWhich of the following observation is shown by 2 -phenyl ethanol with Lucas Reagent?\n(a) Turbidity will be observed within five minutes\n(b) No turbidity will be observed\n(c) Turbidity will be observed immediately",
+      "options": [
+        "(a) Turbidity will be observed within five minutes",
+        "(b) No turbidity will be observed",
+        "(c) Turbidity will be observed immediately",
+        "(d) Turbidity will be observed at room temperature but will disappear after five minutes."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.66,
+        386.2,
+        547.94,
+        431.35
+      ],
+      "raw_text": "10. If the initial concentration of substance A is 1.5 M and after 120 seconds the\nconcentration of\nsubstance A is 0.75 M, the rate constant for the reaction if it follows zero - order kinetics is:\n(a) 0.00625 molL-1s-1\n(b) 0.00625 s-1\n(c) 0.00578 molL-1s-1",
+      "options": [
+        "(a) 0.00625 molL-1s-1",
+        "(b) 0.00625 s-1",
+        "(c) 0.00578 molL-1s-1",
+        "(d) 0.00578 s-1"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.66,
+        435.9,
+        545.89,
+        534.84
+      ],
+      "raw_text": "11. Anisole undergoes bromination with bromine in ethanoic acid even in the absence of iron (III)\nbromide catalyst\n(a) Due to the activation of benzene ring by the methoxy group.\n(b) Due to the de-activation of benzene ring by the methoxy group.\n(c) Due to the increase in electron density at ortho and para positions",
+      "options": [
+        "(a) Due to the activation of benzene ring by the methoxy group.",
+        "(b) Due to the de-activation of benzene ring by the methoxy group.",
+        "(c) Due to the increase in electron density at ortho and para positions",
+        "(d) Due to the formation of stable carbocation."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        65.78,
+        539.7,
+        394.18,
+        704.86
+      ],
+      "raw_text": "12. The trend of which property is represented by the following graph?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) ionization enthalpy",
+        "(b) atomic radii",
+        "(c) enthalpy of atomization",
+        "(d) melting point\nFor Visually Challenged Learners\n12.\nWhich of the following is not considered a transition element?",
+        "(a) Scandium",
+        "(b) Silver",
+        "(c) Vanadium",
+        "(d) Zinc"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q12_1.png",
+          "relative_path": "images/q12_1.png",
+          "bounding_box": [
+            195.84,
+            556.2,
+            361.8,
+            661.92
+          ],
+          "width": 165.96,
+          "height": 105.72
+        }
+      ]
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        65.66,
+        98.41,
+        464.3,
+        243.31
+      ],
+      "raw_text": "13. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Alcohols react both as nucleophiles and electrophiles.\nReason (R): The bond between C\u2013O is broken when alcohols react as nucleophiles.\nSelect the most appropriate answer from the options given below:\n(a) Both A and R are true and R is the correct explanation of A\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        65.66,
+        248.92,
+        546.73,
+        407.74
+      ],
+      "raw_text": "14. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Strong oxidising agents oxidise toluene and its derivatives to benzoic acids.\nReason (R): It is possible to stop the oxidation of toluene at the aldehyde stage with suitable\nreagents.\nSelect the most appropriate answer from the options given below:\n(a) Both A and R are true and R is the correct explanation of A\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        65.66,
+        413.44,
+        518.53,
+        558.36
+      ],
+      "raw_text": "15. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): Enzymes are very specific for a particular reaction and for a particular substrate.\nReason (R): Enzymes are biocatalysts.\nSelect the most appropriate answer from the options given below:\n(a) Both A and R are true and R is the correct explanation of A\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        65.66,
+        563.94,
+        543.62,
+        722.67
+      ],
+      "raw_text": "16. Given below are two statements labelled as Assertion (A) and Reason (R)\nAssertion (A): During electrolysis of aqueous copper sulphate solution using copper electrodes\nhydrogen gas is released at the cathode.\nReason (R): The electrode potential of Cu2+ /Cu is greater than that of H +/H 2\nSelect the most appropriate answer from the options given below:\n(a) Both A and R are true and R is the correct explanation of A\n(b) Both A and R are true but R is not the correct explanation of A.\n(c) A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        94.81,
+        546.38,
+        173.06
+      ],
+      "raw_text": "17. a. Radioactive decay follows first - order kinetics. The initial amount of two radioactive\nelements X and Y is 1 gm each. What will be the ratio of X and Y after two days if their half-\nlives are 12 hours and 16 hours respectively?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "b. The hypothetical reaction P + Q           R is half order w.r.t \u2018P\u2019 and zero order w.r.t \u2018Q\u2019. What\nis the unit of rate constant for this reaction?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        186.73,
+        542.5,
+        213.86
+      ],
+      "raw_text": "18. A 5% solution of Na2SO4.10H 2O (MW = 3 22) is isotonic with 2% solution of non- electrolytic, non\nvolatile substance X. Find out the molecular weight of X.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        220.81,
+        543.62,
+        281.57
+      ],
+      "raw_text": "19. (a) Arrange the isomeric dichlorobenzene in the increasing order of their boiling point and melting\npoints.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) Explain why the electrophilic substitution reactions in haloarenes occur slowly and require\nmore drastic conditions as compared to those in benzene."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        288.4,
+        492.01,
+        414.34
+      ],
+      "raw_text": "20. (a) Out of p-tolualdehyde and p-nitrobenzaldehyde, which one is more reactive towards\nnucleophilic addition reactions, why?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) Write the structure of the product formed when acetone reacts with 2,4 DNP reagent.",
+        "OR",
+        "Convert the following:",
+        "(a) Benzene to m-nitrobenzaldehyde",
+        "(b) Bromobenzene to benzoic acid"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        420.66,
+        523.46,
+        463.15
+      ],
+      "raw_text": "21. (a) DNA fingerprinting is used to determine paternity of an individual. Which property of DNA\nhelps in the procedure?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) What structural change will occur when a native protein is subjected to change in pH?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        534.06,
+        517.69,
+        629.43
+      ],
+      "raw_text": "22. (a) Write the formula for the following coordination compound\nBis(ethane-1,2-diamine) dihydroxidochromium(III) chloride",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) Does ionization isomer for the following compound exist? Justify your answer.\nHg[Co(SCN) 4]",
+        "(c) Is the central metal atom in coordination complexes a Lewis acid or a Lewis base? Explain."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "bounding_box": [
+        65.66,
+        636.81,
+        538.9,
+        741.1
+      ],
+      "raw_text": "23. (a) Can we construct an electrochemical cell with two half-cells composed of ZnSO4 solution and\nzinc electrodes? Explain your answer.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) Calculate the \u03bb0m for Cl- ion from the data given below:\n\u039b0m MgCl2 = 258.6 Scm2mol\u20131 and \u03bb0m Mg2+ = 106 Scm2mol\u20131",
+        "(c) The cell constant of a conductivity cell is 0.146 cm-1. What is the conductivity of 0.01 M solution\nof an electrolyte at 298 K, if the resistance of the cell is 1000 ohm?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        65.66,
+        42.11,
+        522.01,
+        130.82
+      ],
+      "raw_text": "24. Write the name of the reaction, structure and IUPAC name of the product formed when (any 2):",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) phenol reacts with CHCl3 in the presence of NaOH followed by hydrolysis.",
+        "(b) CH 3CH2CH(CH 3)CH(CH 3)ONa reacts with C2H 5Br",
+        "(c) CH 3CH2CN reacts with stannous chloride in the presence of hydrochloric acid followed by\nhydrolysis"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        65.66,
+        136.45,
+        547.93,
+        233.9
+      ],
+      "raw_text": "25. You are given four organic compounds \u201cA\u201d, \u201cB\u201d, \u201cC\u201d and \u201cD\u201d. The compounds \u201cA\u201d, \u201cB\u201d and \u201cC\u201d\nform an orange- red precipitate with 2,4 DNP reagent. Compounds \u201cA\u201d and \u201cB\u201d reduce Tollen\u2019s\nreagent while compounds \u201cC\u201d and \u201cD\u201d do not. Both \u201cB\u201d and \u201cC\u201d give a yellow precipitate when\nheated with iodine in the presence of NaOH. Compound \u201cD\u201d gives brisk effervescence with sodium\nbicarbonate solution. Identify \u201cA\u201d, \u201cB\u201d, \u201cC\u201d and \u201cD\u201d given the number of carbon atoms in three of\nthese carbon compounds is three while one has two carbon atoms. Give an explanation for y our\nanswer.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        65.66,
+        240.25,
+        547.21,
+        411.89
+      ],
+      "raw_text": "26. When sucrose is hydrolysed the optical rotation values are measured using a polarimeter and are\ngiven in the following table:\nS.No.\nTime (hours)\nSpecific Rotation\n+ 66.5o\n\u221e\n-39.9o",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Account for the two specific rotation values.",
+        "(b) What is the specific name given to sucrose based on the above observation?",
+        "(c) One of the products formed during the hydrolysis of sucrose is a glucose, that reacts with\nhydroxylamine to give compound A. Identify compound A."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        65.66,
+        418.62,
+        543.14,
+        446.59
+      ],
+      "raw_text": "27. An organic compound A with the molecular formula (+)C 4H 9Br undergoes hydrolysis to form (+)\nC4H 9OH. Give the structure of A and write the mechanism of the reaction.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        65.66,
+        452.34,
+        541.42,
+        479.47
+      ],
+      "raw_text": "28. The rate constants of a reaction at 200K and 500K are 0.02s\u20131 and 0.20s\u20131 respectively. Calculate the\nvalue of Ea (Given 2.303R = 19.15 JK -1mol-1)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTIOND",
+      "page_num": 5,
+      "bounding_box": [
+        65.78,
+        547.98,
+        548.66,
+        724.66
+      ],
+      "raw_text": "29.                                               Crystal field splitting by various ligands\nMetal complexes show different colours due to d-d transitions. The complex absorbs light of specific\nwavelength to promote the electron from t2g to eg level. The colour of the complex is due to the\ntransmitted light, which is complementary of the colour absorbed.\nThe wave number of light absorbed by different complexes of Cr ion are given below:\nComplex\nWavenumber of light absorbed (cm-1)\nEnergy of light absorbed (kJ/mol)\n[CrA6]3-\n[CrB6]3+\n[CrC6]3+\n[CrD6]3-\nAnswer the following questions:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Out of the ligands \u201cA\u201d, \u201cB\u201d, \u201cC\u201d and \u201cD\u201d, which ligand causes maximum crystal field splitting?\nWhy?",
+        "OR",
+        "Which of the two, \u201cA\u201d or \u201cD\u201d will be a weak field ligand? Why?",
+        "(b) Which of the complexes will be violet in colour? [CrA 6]3-  or [CrB6]3+ and why?  (Given: If 560 -\n570 nm of light is absorbed, the colour of the complex observed is violet.)",
+        "(c) If the ligands attached to Cr3+ ion in the complexes given in the table above are water, cyanide\nion, chloride ion, and ammonia (not in this order)\nIdentify the ligand, write the formula and IUPAC name of the following:",
+        "(i) [CrA 6]3-",
+        "(ii) [CrC6]3+"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTIOND",
+      "page_num": 6,
+      "bounding_box": [
+        60.0,
+        242.17,
+        548.44,
+        737.02
+      ],
+      "raw_text": "30. The lead-acid battery represents the oldest rechargeable battery technology. Lead acid batteries can\nbe found in a wide variety of applications including small-scale power storage such as UPS systems,\nignition power sources for automobiles, along with large, grid-scale power systems. The spongy\nlead act as the anode and lead dioxide as the cathode. Aqueous sulphuric acid is used as an\nelectrolyte. The half-reactions during discharging of lead storage cells are:\nAnode: Pb(s) + SO2- (aq)  \u2192  PbSO (s) + 2e-\nCathode: PbO  (s) +4H+ (aq) + SO2- (aq) + 2e-  \u2192   PbSO (s) + 2H O\nThere is no safe way of disposal and these batteries end - up in landfills. Lead and sulphuric\nacid are extremely hazardous and pollute soil, water as well as air. Irrespective of the\nenvironmental challenges it poses, lead-acid batteries have remained an important source of\nenergy.\nDesigning green and sustainable battery systems as alternatives to conventional means\nremains relevant. Fuel cells are seen as the future source of energy. Hydrogen is considered a\ngreen fuel. Problem with fuel cells at present is the storage of hydrogen. Currently, ammonia\nand methanol are being used as a source of hydrogen for fuel cell. These are obtained\nindustrially, so add to the environmental issues.\nIf the problem of storage of hydrogen is overcome, is it still a \u201cgreen fuel?\u201d Despite being the\nmost abundant element in the Universe, hydrogen does not exist on its own so needs to be\nextracted from the water using electrolysis or separated from carbon fossil fuels. Both of\nthese processes require a significant amount of energy which is currently more than that\ngained from the hydrogen itself. In addition, this extraction typically requires the use of fossil\nfuels. More research is being conducted in this field to solve these problems. Despite the\nproblem of no good means to extract Hydrogen, it is a uniquely abundant and renewable\nsource of energy, perfect for our future zero-carbon needs.\nAnswer the following questions:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) How many coulombs have been transferred from anode to cathode in order to consume one\nmole of sulphuric acid during the discharging of lead storage cell?",
+        "(b) How much work can be extracted by using lead storage cell if each cell delivers about\n2.0 V of  voltage? (1 F = 96500 C)",
+        "(c) Do you agree with the statement \u2013 \u201cHydrogen is a green fuel.\u201d  Give your comments for and\nagainst this statement and justify your views.",
+        "OR",
+        "Imagine you are a member of an agency funding scientific research. Which of the following\nprojects will you fund and why?",
+        "(i) safe recycling of lead batteries",
+        "(ii) extraction of hydrogen"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        65.66,
+        165.49,
+        547.82,
+        379.54
+      ],
+      "raw_text": "31. Attempt any five of the following:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) Which of the following ions will have a magnetic moment value of 1.73 BM.\nSc3+, Ti3+, Ti2+, Cu2+, Zn2+",
+        "(b) In order to protect iron from corrosion, which one will you prefer as a sacrificial electrode, Ni or\nZn? Why? (Given standard electrode potentials of Ni, Fe and Zn are -0.25 V, -0.44 V and -0.76 V\nrespectively.)",
+        "(c) The second ionization enthalpies of chromium and manganese are 1592 and 1509 kJ/mol\nrespectively. Explain the lower value of Mn.",
+        "(d) Give two similarities in the properties of Sc and Zn.",
+        "(e) What is actinoid contraction? What causes actinoid contraction?\n(f)\nWhat is the oxidation state of chromium in chromate ion and dichromate ion?\n(g) Write the ionic equation for reaction of KI with acidified KMnO 4."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        65.66,
+        385.6,
+        548.42,
+        623.26
+      ],
+      "raw_text": "32. (a) What is the effect of temperature on the solubility of glucose in water?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) Ibrahim collected a 10mL each of fresh water and ocean water. He observed that one sample\nlabeled \u201cP\u201d froze at 0 oC while the other \u201cQ\u201d at -1.3oC. Ibrahim forgot which of the two, \u201cP\u201d or\n\u201cQ\u201d was ocean water. Help him identify which container contains ocean water, giving\nrationalization for your answer.",
+        "(c) Calculate Van't Hoff factor for an aqueous solution of K3 [Fe(CN)6] if the degree of dissociation\n(\u03b1) is 0.852. What will be boiling point of this solution if its concentration is 1 molal? (Kb=0.52 K\nkg/mol)",
+        "OR",
+        "(a) What type of deviation from Roult\u2019s Law is expected when phenol and aniline are mixed with\neach other? What change in the net volume of the mixture is expected? Graphically represent\nthe deviation.",
+        "(b) The vapour pressure of pure water at a certain temperature is 23.80 mm Hg. If 1 mole of a non-\nvolatile non- electrolytic solute is dissolved in 100g water, Calculate the resultant vapour\npressure of the solution."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        65.66,
+        630.33,
+        551.19,
+        739.78
+      ],
+      "raw_text": "33. An organic compound with molecular formula C7H7NO2 exists in three isomeric forms, the\nisomer \u2018A\u2019 has the highest melting point of the three. \u2018A\u2019 on reduction gives compound \u2018B\u2019 with\nmolecular formula C7H9N. \u2018B\u2019 on treatment with NaNO2/HCl at 0-5 0C to form compound \u2018C\u2019.\nOn treating C with H3PO2 ,it gets converted to D with formula C7H8 , which on further reaction\nwith CrO2Cl2 followed by hydrolysis forms \u2018E\u2019   C7H6O . Write the structure of compounds A to\nE . Write the chemical equations involved.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(a) Account for the following:",
+        "(i) N-ethylbenzenesulphonyl amide is soluble in alkali .",
+        "(ii) Reduction of nitrobenzene using Fe and HCl is preferred over Sn and HCl.",
+        "(b) Arrange the following in:",
+        "(i) decreasing order of pKb values\nC6H5NH2, C6H5NHCH3, C6H5CH2NH2, CH3NH2, NH3",
+        "(ii) increasing order of solubility in water\nC2H5Cl, C2H5NH2, C2H5OH",
+        "(iii) decreasing boiling point\nCH3COOH, C2H5OH, CH3NH2, CH3OCH3\n------------------------------------------------------------------------------------"
+      ],
+      "is_valid": true
+    }
+  ]
+}

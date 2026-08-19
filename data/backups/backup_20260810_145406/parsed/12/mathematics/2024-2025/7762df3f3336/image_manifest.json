@@ -1,0 +1,50 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2024-2025/7762df3f3336/images/img_p2_1.png",
+    "relative_path": "7762df3f3336/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      182.6,
+      611.51,
+      411.3,
+      799.39
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Class-XII/Sample Paper/2024-25/Mathematics/Page 2 of 9 (B) 4 (C) 5 (D) 8 he linear programming problem (LPP), the objective function is 4 3 Z x y \uf03d \uf02b and ned by a set of constraints is shown in the gr"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p3_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2024-2025/7762df3f3336/images/img_p3_1.png",
+    "relative_path": "7762df3f3336/images/img_p3_1.png",
+    "page": 3,
+    "bbox": [
+      162.55,
+      519.78,
+      326.8,
+      729.03
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "\ud835\udc66 = \ud835\udc65\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc65+ \ud835\udc50 (B) \ud835\udc66 = \ud835\udc65\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc65\u2212\ud835\udc65+ \ud835\udc50 (C) \ud835\udc66 = \ud835\udc65\ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc65+ 5. The graph drawn below depicts ) y = \ud835\udc60\ud835\udc56\ud835\udc5b\u22121 \ud835\udc65 (B) y = \ud835\udc50\ud835\udc5c\ud835\udc60\u22121 \ud835\udc65 (C) y = \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udc52\ud835\udc50\u22121\ud835\udc65 6. A linear programming problem (LPP) along with the graph of its con"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p4_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/mathematics/2024-2025/7762df3f3336/images/img_p4_1.png",
+    "relative_path": "7762df3f3336/images/img_p4_1.png",
+    "page": 4,
+    "bbox": [
+      178.82,
+      77.32,
+      417.87,
+      299.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "responding objective function is: 18 10 Z x y \uf03d \uf02b , which has to be minimized. The sma ctive function Z is 134 and is obtained at the corner point \uf028 \uf029 3,8 , (Note: The figure is no imal solution of th"
+  }
+}

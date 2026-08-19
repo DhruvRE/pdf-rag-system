@@ -1,0 +1,66 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2024-2025/6c5d17877aea/images/img_p2_1.png",
+    "relative_path": "6c5d17877aea/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      131.76,
+      70.2,
+      465.24,
+      276.6
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Interpret the following pie diagram and choose the correct option for the following question? What is the significance of 43 percent land under plains? (A) It provides facilities for agriculture and i"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p4_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2024-2025/6c5d17877aea/images/img_p4_1.png",
+    "relative_path": "6c5d17877aea/images/img_p4_1.png",
+    "page": 4,
+    "bbox": [
+      192.96,
+      437.64,
+      404.28,
+      656.4
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "ue to their social and historical circumstances. s the people speak lot of different languages eon in the given picture is depicted as a postman. What do each letter is bag represent? Source-https://n"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p4_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2024-2025/6c5d17877aea/images/img_p4_2.png",
+    "relative_path": "6c5d17877aea/images/img_p4_2.png",
+    "page": 4,
+    "bbox": [
+      198.0,
+      442.68,
+      395.28,
+      647.4
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "e to their social and historical circumstances. the people speak lot of different languages on in the given picture is depicted as a postman. What do each lette s bag represent? Source-https://ncert.n"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p11_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2024-2025/6c5d17877aea/images/img_p11_1.png",
+    "relative_path": "6c5d17877aea/images/img_p11_1.png",
+    "page": 11,
+    "bbox": [
+      73.56,
+      170.16,
+      561.72,
+      726.72
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "11 Social Science-X SQP-2024-25 Answer any three of the following. i Name the tallest dam built in India. ii Name a seaport in west Bengal. iii Name the coal mine in Jharkhand. iv Name the Software Te"
+  }
+}

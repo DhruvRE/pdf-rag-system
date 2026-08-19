@@ -1,0 +1,1351 @@
+{
+  "exam_metadata": {
+    "subject": "biology",
+    "class_level": "12",
+    "year": "2022-2023",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_biology_2022_2023_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q1",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "An infertile couple was advised to undergo In vitro fertilization by the doctor. Out of\nthe options given below, select the correct stage for transfer to the fallopian tube for\nsuccessful results?\n(a) Zygote only\n(b) Zygote or early embryo upto 8 blastomeres\n(c) Embryos with more than 8 blastomeres\n",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "An infertile couple was advised to undergo In vitro fertilization by the doctor. Out of\nthe options given below, select the correct stage for transfer to the fallopian tube for\nsuccessful results?\n(a) Zygote only\n(b) Zygote or early embryo upto 8 blastomeres\n(c) Embryos with more than 8 blastomeres\n(d) Blastocyst Stage\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Zygote only"
+                },
+                {
+                  "label": "b",
+                  "text": "Zygote or early embryo upto 8 blastomeres"
+                },
+                {
+                  "label": "c",
+                  "text": "Embryos with more than 8 blastomeres"
+                },
+                {
+                  "label": "d",
+                  "text": "Blastocyst Stage"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 1.\nAn infertile couple was advised to undergo In vitro fertilization by the doctor. Out of\nthe options given below, select the correct stage for transfer to the fallopian tube for\nsuccessful results?\n(a) Zygote only\n(b) Zygote or early embryo upto 8 blastomeres\n(c) Embryos with more than 8 blastomeres\n(d) Blastocyst Stage\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Given below are four contraceptive methods and their modes of action. Select the\ncorrect match:\nS. No.\nMethod\nS. No\nMode of action\na)\nCondom\n(i)\nOvum not able to reach Fallopian\ntube\nb)\nVasectomy\n(ii)\nPrevents ovulation\nc)\nPill\n(iii)\nPrevents sperm reaching the cervix\nd)\nTubectomy\n(iv)\nSemen contain",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Given below are four contraceptive methods and their modes of action. Select the\ncorrect match:\nS. No.\nMethod\nS. No\nMode of action\na)\nCondom\n(i)\nOvum not able to reach Fallopian\ntube\nb)\nVasectomy\n(ii)\nPrevents ovulation\nc)\nPill\n(iii)\nPrevents sperm reaching the cervix\nd)\nTubectomy\n(iv)\nSemen contains no sperms\n(a)  a)\u2013(i)\nb)\u2013(ii)\nc)\u2013 (iii)\nd)\u2013(iv)\n(b)\na)\u2013(ii)\nb)\u2013(iii)\nc)\u2013(iii)\nd) \u2013 (i)\n(c)\na)\u2013(iii)\nb)\u2013(iv)\nc)\u2013(ii)\nd)\u2013(i)\n(d)\na)\u2013(iv)\nb)\u2013(i)\nc)\u2013 (iii)\nd)\u2013(ii)\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\n3\nWhich of the following amino acid residues will constitute the histone core?\n(a) Lysine and Arginine\n(b) Asparagine and Arginine\n(c) Glutamine and Lysine\n(d) Asparagine and Glutamine\n1\n4\nEvolutionary convergence is development of a\n(a) common set of functions in groups of different ancestry.\n(b) dissimilar set of functions in closely related groups.\n(c) common set of structures in closely related groups.\n(d) dissimilar set of functions in unrelated groups.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Condom"
+                },
+                {
+                  "label": "b",
+                  "text": "Vasectomy"
+                },
+                {
+                  "label": "c",
+                  "text": "Pill"
+                },
+                {
+                  "label": "d",
+                  "text": "Tubectomy"
+                },
+                {
+                  "label": "a",
+                  "text": "a)\u2013"
+                },
+                {
+                  "label": "b",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "c",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "d",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "b",
+                  "text": "a)\u2013"
+                },
+                {
+                  "label": "b",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "c",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "d",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "c",
+                  "text": "a)\u2013"
+                },
+                {
+                  "label": "b",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "c",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "d",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "d",
+                  "text": "a)\u2013"
+                },
+                {
+                  "label": "b",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "c",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "d",
+                  "text": "\u2013"
+                },
+                {
+                  "label": "a",
+                  "text": "Lysine and Arginine"
+                },
+                {
+                  "label": "b",
+                  "text": "Asparagine and Arginine"
+                },
+                {
+                  "label": "c",
+                  "text": "Glutamine and Lysine"
+                },
+                {
+                  "label": "d",
+                  "text": "Asparagine and Glutamine"
+                },
+                {
+                  "label": "a",
+                  "text": "common set of functions in groups of different ancestry."
+                },
+                {
+                  "label": "b",
+                  "text": "dissimilar set of functions in closely related groups."
+                },
+                {
+                  "label": "c",
+                  "text": "common set of structures in closely related groups."
+                },
+                {
+                  "label": "d",
+                  "text": "dissimilar set of functions in unrelated groups."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\nGiven below are four contraceptive methods and their modes of action. Select the\ncorrect match:\nS. No.\nMethod\nS. No\nMode of action\na)\nCondom\n(i)\nOvum not able to reach Fallopian\ntube\nb)\nVasectomy\n(ii)\nPrevents ovulation\nc)\nPill\n(iii)\nPrevents sperm reaching the cervix\nd)\nTubectomy\n(iv)\nSemen contains no sperms\n(a)  a)\u2013(i)\nb)\u2013(ii)\nc)\u2013 (iii)\nd)\u2013(iv)\n(b)\na)\u2013(ii)\nb)\u2013(iii)\nc)\u2013(iii)\nd) \u2013 (i)\n(c)\na)\u2013(iii)\nb)\u2013(iv)\nc)\u2013(ii)\nd)\u2013(i)\n(d)\na)\u2013(iv)\nb)\u2013(i)\nc)\u2013 (iii)\nd)\u2013(ii)\n1\n<!-- PAGE 1 END -->\n\n<!-- PAGE 2 START -->\n2\n3\nWhich of the following amino acid residues will constitute the histone core?\n(a) Lysine and Arginine\n(b) Asparagine and Arginine\n(c) Glutamine and Lysine\n(d) Asparagine and Glutamine\n1\n4\nEvolutionary convergence is development of a\n(a) common set of functions in groups of different ancestry.\n(b) dissimilar set of functions in closely related groups.\n(c) common set of structures in closely related groups.\n(d) dissimilar set of functions in unrelated groups.\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 28 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 28 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Apis mellifera are killer bees possessing toxic bee venom.  Identify the treatment and\nthe type of immunity developed from the given table to treat a person against the\nvenom of this bee.\nRemedy\nImmunity\n(a)\nInactivated proteins\nActive\n(b)\nProteins of the venom\nPassive\n(c)\nPreformed antibodies\nPassi",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Apis mellifera are killer bees possessing toxic bee venom.  Identify the treatment and\nthe type of immunity developed from the given table to treat a person against the\nvenom of this bee.\nRemedy\nImmunity\n(a)\nInactivated proteins\nActive\n(b)\nProteins of the venom\nPassive\n(c)\nPreformed antibodies\nPassive\n(d)\nDead micro-organisms\nActive\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Inactivated proteins"
+                },
+                {
+                  "label": "b",
+                  "text": "Proteins of the venom"
+                },
+                {
+                  "label": "c",
+                  "text": "Preformed antibodies"
+                },
+                {
+                  "label": "d",
+                  "text": "Dead micro-organisms"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nApis mellifera are killer bees possessing toxic bee venom.  Identify the treatment and\nthe type of immunity developed from the given table to treat a person against the\nvenom of this bee.\nRemedy\nImmunity\n(a)\nInactivated proteins\nActive\n(b)\nProteins of the venom\nPassive\n(c)\nPreformed antibodies\nPassive\n(d)\nDead micro-organisms\nActive\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q6",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Interferons are most effective in making non-infected cells resistant against the\nspread of which of the following diseases in humans?\n(a) ascariasis\n(b) ringworm\n(c) amoebiasis\n(d) AIDS\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Interferons are most effective in making non-infected cells resistant against the\nspread of which of the following diseases in humans?\n(a) ascariasis\n(b) ringworm\n(c) amoebiasis\n(d) AIDS\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "ascariasis"
+                },
+                {
+                  "label": "b",
+                  "text": "ringworm"
+                },
+                {
+                  "label": "c",
+                  "text": "amoebiasis"
+                },
+                {
+                  "label": "d",
+                  "text": "AIDS"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 6.\nInterferons are most effective in making non-infected cells resistant against the\nspread of which of the following diseases in humans?\n(a) ascariasis\n(b) ringworm\n(c) amoebiasis\n(d) AIDS\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following water samples in the table given below, will have a higher\nconcentration of organic matter?\nWater Sample\nLevel of pollution\nValue of BOD\n(a)\nHigh\nHigh\n(b)\nLow\nLow\n(c)\nLow\nHigh\n(d)\nHigh\nLow\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following water samples in the table given below, will have a higher\nconcentration of organic matter?\nWater Sample\nLevel of pollution\nValue of BOD\n(a)\nHigh\nHigh\n(b)\nLow\nLow\n(c)\nLow\nHigh\n(d)\nHigh\nLow\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "High"
+                },
+                {
+                  "label": "b",
+                  "text": "Low"
+                },
+                {
+                  "label": "c",
+                  "text": "Low"
+                },
+                {
+                  "label": "d",
+                  "text": "High"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\nWhich of the following water samples in the table given below, will have a higher\nconcentration of organic matter?\nWater Sample\nLevel of pollution\nValue of BOD\n(a)\nHigh\nHigh\n(b)\nLow\nLow\n(c)\nLow\nHigh\n(d)\nHigh\nLow\n1\n<!-- PAGE 2 END -->\n\n<!-- PAGE 3 START -->\n3",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The figure below shows the structure of a plasmid.\nA foreign DNA was ligated at BamH1. The transformants were then grown in a\nmedium containing antibiotics tetracycline and ampicillin.\nChoose the correct observation for the growth of bacterial colonies from the given\ntable\nMedium with Tetracycline\nM",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The figure below shows the structure of a plasmid.\nA foreign DNA was ligated at BamH1. The transformants were then grown in a\nmedium containing antibiotics tetracycline and ampicillin.\nChoose the correct observation for the growth of bacterial colonies from the given\ntable\nMedium with Tetracycline\nMedium with  Ampicillin\n(a)\nGrowth\nNo growth\n(b)\nNo growth\nGrowth\n(c)\nNo growth\nNo Growth\n(d)\nGrowth\nGrowth\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Growth"
+                },
+                {
+                  "label": "b",
+                  "text": "No growth"
+                },
+                {
+                  "label": "c",
+                  "text": "No growth"
+                },
+                {
+                  "label": "d",
+                  "text": "Growth"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\nThe figure below shows the structure of a plasmid.\nA foreign DNA was ligated at BamH1. The transformants were then grown in a\nmedium containing antibiotics tetracycline and ampicillin.\nChoose the correct observation for the growth of bacterial colonies from the given\ntable\nMedium with Tetracycline\nMedium with  Ampicillin\n(a)\nGrowth\nNo growth\n(b)\nNo growth\nGrowth\n(c)\nNo growth\nNo Growth\n(d)\nGrowth\nGrowth\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Swathi was growing a bacterial colony in a culture flask under ideal laboratory\nconditions where the resources are replenished. Which of the following equations will\nrepresent the growth in this case?\n(Where population size is N, birth rate is b, death rate is d, unit time period is t, and\ncarrying ",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Swathi was growing a bacterial colony in a culture flask under ideal laboratory\nconditions where the resources are replenished. Which of the following equations will\nrepresent the growth in this case?\n(Where population size is N, birth rate is b, death rate is d, unit time period is t, and\ncarrying capacity is K).\n(a) dN/dt = KN\n(b) dN/dt = r N\n(c) dN/dt = r N(K-N/K)\n(d) dN/dt = r N(K+N/K)\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "dN/dt = KN"
+                },
+                {
+                  "label": "b",
+                  "text": "dN/dt = r N"
+                },
+                {
+                  "label": "c",
+                  "text": "dN/dt = r N"
+                },
+                {
+                  "label": "d",
+                  "text": "dN/dt = r N"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\nSwathi was growing a bacterial colony in a culture flask under ideal laboratory\nconditions where the resources are replenished. Which of the following equations will\nrepresent the growth in this case?\n(Where population size is N, birth rate is b, death rate is d, unit time period is t, and\ncarrying capacity is K).\n(a) dN/dt = KN\n(b) dN/dt = r N\n(c) dN/dt = r N(K-N/K)\n(d) dN/dt = r N(K+N/K)\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Sea Anemone gets attached to the surface of the hermit crab. The kind of population\ninteraction exhibited in this case is\n(a) amensalism.\n(b) commensalism.\n(c) mutualism.\n(d) parasitism.\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Sea Anemone gets attached to the surface of the hermit crab. The kind of population\ninteraction exhibited in this case is\n(a) amensalism.\n(b) commensalism.\n(c) mutualism.\n(d) parasitism.\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "amensalism."
+                },
+                {
+                  "label": "b",
+                  "text": "commensalism."
+                },
+                {
+                  "label": "c",
+                  "text": "mutualism."
+                },
+                {
+                  "label": "d",
+                  "text": "parasitism."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\nSea Anemone gets attached to the surface of the hermit crab. The kind of population\ninteraction exhibited in this case is\n(a) amensalism.\n(b) commensalism.\n(c) mutualism.\n(d) parasitism.\n1\n<!-- PAGE 3 END -->\n\n<!-- PAGE 4 START -->\n4",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Which of the following food chains is the major conduit for energy flow in terrestrial\nand aquatic ecosystems respectively?\nTerrestrial Ecosystem\nAquatic Ecosystem\n(a)  Grazing\nGrazing\n(b)\nDetritus\nDetritus\n(c)\nDetritus\nGrazing\n(d)\nGrazing\nDetritus\n1\n12\nWhich of the following is an example of ex sit",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Which of the following food chains is the major conduit for energy flow in terrestrial\nand aquatic ecosystems respectively?\nTerrestrial Ecosystem\nAquatic Ecosystem\n(a)  Grazing\nGrazing\n(b)\nDetritus\nDetritus\n(c)\nDetritus\nGrazing\n(d)\nGrazing\nDetritus\n1\n12\nWhich of the following is an example of ex situ conservation?\n(a) Sacred Groves\n(b) National Park\n(c) Biosphere Reserve\n(d) Seed Bank\n1\nQuestion No. 13 to 16 consist of two statements \u2013 Assertion (A) and Reason (R). Answer these\nquestions selecting the appropriate option given below:\nA.    Both A and R are true and R is the correct explanation of A.\nB.    Both A and R are true and R is not the correct explanation of A.\nC.    A is true but R is false.\nD.   A is False but R is true.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Grazing"
+                },
+                {
+                  "label": "b",
+                  "text": "Detritus"
+                },
+                {
+                  "label": "c",
+                  "text": "Detritus"
+                },
+                {
+                  "label": "d",
+                  "text": "Grazing"
+                },
+                {
+                  "label": "a",
+                  "text": "Sacred Groves"
+                },
+                {
+                  "label": "b",
+                  "text": "National Park"
+                },
+                {
+                  "label": "c",
+                  "text": "Biosphere Reserve"
+                },
+                {
+                  "label": "d",
+                  "text": "Seed Bank"
+                },
+                {
+                  "label": "a",
+                  "text": "and Reason"
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A."
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true and R is not the correct explanation of A."
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false."
+                },
+                {
+                  "label": "d",
+                  "text": "A is False but R is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\nWhich of the following food chains is the major conduit for energy flow in terrestrial\nand aquatic ecosystems respectively?\nTerrestrial Ecosystem\nAquatic Ecosystem\n(a)  Grazing\nGrazing\n(b)\nDetritus\nDetritus\n(c)\nDetritus\nGrazing\n(d)\nGrazing\nDetritus\n1\n12\nWhich of the following is an example of ex situ conservation?\n(a) Sacred Groves\n(b) National Park\n(c) Biosphere Reserve\n(d) Seed Bank\n1\nQuestion No. 13 to 16 consist of two statements \u2013 Assertion (A) and Reason (R). Answer these\nquestions selecting the appropriate option given below:\nA.    Both A and R are true and R is the correct explanation of A.\nB.    Both A and R are true and R is not the correct explanation of A.\nC.    A is true but R is false.\nD.   A is False but R is true.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 13 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 13 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q13",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion: Apomictic embryos are genetically identical to the parent plant.\nReason: Apomixis is the production of seeds without fertilization.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion: Apomictic embryos are genetically identical to the parent plant.\nReason: Apomixis is the production of seeds without fertilization.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 13.\nAssertion: Apomictic embryos are genetically identical to the parent plant.\nReason: Apomixis is the production of seeds without fertilization.\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q14",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion: When white eyed, yellow bodied Drosophila females were hybridized with\nred eyed, brown-bodied males; and F1 progeny was intercrossed, F2 ratio deviated\nfrom 9 : 3 : 3 : 1.\nReason: When two genes in a dihybrid are on the same chromosome, the\nproportion of parental gene combinations is much",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion: When white eyed, yellow bodied Drosophila females were hybridized with\nred eyed, brown-bodied males; and F1 progeny was intercrossed, F2 ratio deviated\nfrom 9 : 3 : 3 : 1.\nReason: When two genes in a dihybrid are on the same chromosome, the\nproportion of parental gene combinations is much higher than the non-parental type.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 14.\nAssertion: When white eyed, yellow bodied Drosophila females were hybridized with\nred eyed, brown-bodied males; and F1 progeny was intercrossed, F2 ratio deviated\nfrom 9 : 3 : 3 : 1.\nReason: When two genes in a dihybrid are on the same chromosome, the\nproportion of parental gene combinations is much higher than the non-parental type.\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q15",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Assertion: Functional ADA cDNA genes must be inserted in the lymphocytes at the\nearly embryonic stage.\nReason: Cells in the embryonic stage are mortal, differentiated and easy to\nmanipulate.\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Assertion: Functional ADA cDNA genes must be inserted in the lymphocytes at the\nearly embryonic stage.\nReason: Cells in the embryonic stage are mortal, differentiated and easy to\nmanipulate.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 15.\nAssertion: Functional ADA cDNA genes must be inserted in the lymphocytes at the\nearly embryonic stage.\nReason: Cells in the embryonic stage are mortal, differentiated and easy to\nmanipulate.\n1",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q16",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Given below is the Age Pyramid of population in one of the states in India as per\n2011 census. It depicts the male population on the left hand side, female population\non the right hand side, newborns towards the base and gradually increasing age\ngroups as we move from base to the top, with the oldes",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Given below is the Age Pyramid of population in one of the states in India as per\n2011 census. It depicts the male population on the left hand side, female population\non the right hand side, newborns towards the base and gradually increasing age\ngroups as we move from base to the top, with the oldest population at the top. Study\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\nthis pyramid and comment upon the appropriateness of the Assertionand\ntheReason.\nAssertion: It is a stable population.\nReason: The pre-reproductive and reproductive individuals are almost in equal\nnumbers and the post-reproductive individuals are relatively fewer.\nSECTION - B",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both Assertion (A) and Reason (R) are true and Reason (R) is correct explanation."
+                },
+                {
+                  "label": "b",
+                  "text": "Both Assertion (A) and Reason (R) are true but Reason (R) is NOT correct explanation."
+                },
+                {
+                  "label": "c",
+                  "text": "Assertion (A) is true but Reason (R) is false."
+                },
+                {
+                  "label": "d",
+                  "text": "Assertion (A) is false but Reason (R) is true."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 16.\nGiven below is the Age Pyramid of population in one of the states in India as per\n2011 census. It depicts the male population on the left hand side, female population\non the right hand side, newborns towards the base and gradually increasing age\ngroups as we move from base to the top, with the oldest population at the top. Study\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n5\nthis pyramid and comment upon the appropriateness of the Assertionand\ntheReason.\nAssertion: It is a stable population.\nReason: The pre-reproductive and reproductive individuals are almost in equal\nnumbers and the post-reproductive individuals are relatively fewer.\nSECTION - B",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q17",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "In the figure given below, parts A and B show the level of hormones which influence\nthe menstrual cycle. Study the figure and answer the questions that follow:\n(a) Name the organs which secrete the hormones represented in parts A and B.\n(b) State the impact of the hormones in part B on the uterus of",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "In the figure given below, parts A and B show the level of hormones which influence\nthe menstrual cycle. Study the figure and answer the questions that follow:\n(a) Name the organs which secrete the hormones represented in parts A and B.\n(b) State the impact of the hormones in part B on the uterus of the human female\nduring 6 to 15 days of menstrual cycle?\n2",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Name the organs which secrete the hormones represented in parts A and B."
+                },
+                {
+                  "label": "b",
+                  "text": "State the impact of the hormones in part B on the uterus of the human female"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 17.\nIn the figure given below, parts A and B show the level of hormones which influence\nthe menstrual cycle. Study the figure and answer the questions that follow:\n(a) Name the organs which secrete the hormones represented in parts A and B.\n(b) State the impact of the hormones in part B on the uterus of the human female\nduring 6 to 15 days of menstrual cycle?\n2",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 2 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        },
+        {
+          "question_number": "Q18",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "A true breeding pea plant, homozygous dominant for inflated green podsis crossed\nwith another pea plant with constricted yellow pods (ffgg). With the help of punnett\nsquare show the above cross and mention the results obtained phenotypically and\ngenotypically in F1 generation?\n2\n19\nDuring a field tr",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "A true breeding pea plant, homozygous dominant for inflated green podsis crossed\nwith another pea plant with constricted yellow pods (ffgg). With the help of punnett\nsquare show the above cross and mention the results obtained phenotypically and\ngenotypically in F1 generation?\n2\n19\nDuring a field trip, one of your friend in the group suddenly became unwell, she\nstarted sneezing and had trouble in breathing.\nName and explain the term associated with such sudden responses. What would\nthe doctor recommend for relief?\n2\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\n20\nCTTAAG\nGAATTC\n(a) What are such sequences called? Name the enzyme used that recognizes\nsuch nucleotide sequences.\n(b) What is their significance in biotechnology?\n2\n21\n(a) Given below is a pyramid of biomass in an ecosystem where each bar\nrepresents the standing crop available in the trophic level. With the help of an\nexample explain the conditions where this kind of pyramid is possible in\nnature?\n(b) Will the pyramid of energy be also of the same shape in this situation? Give\nreason for your response.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "What are such sequences called? Name the enzyme used that recognizes"
+                },
+                {
+                  "label": "b",
+                  "text": "What is their significance in biotechnology?"
+                },
+                {
+                  "label": "a",
+                  "text": "Given below is a pyramid of biomass in an ecosystem where each bar"
+                },
+                {
+                  "label": "b",
+                  "text": "Will the pyramid of energy be also of the same shape in this situation? Give"
+                },
+                {
+                  "label": "a",
+                  "text": "Draw a pyramid of numbers where a large number of insects are feeding on"
+                },
+                {
+                  "label": "b",
+                  "text": "Will the pyramid of energy be also of the same shape in this situation? Give"
+                },
+                {
+                  "label": "a",
+                  "text": "Scrotum"
+                },
+                {
+                  "label": "b",
+                  "text": "Leydig cells"
+                },
+                {
+                  "label": "c",
+                  "text": "Male accessory glands"
+                },
+                {
+                  "label": "a",
+                  "text": "Corn"
+                },
+                {
+                  "label": "b",
+                  "text": "Water hyacinth"
+                },
+                {
+                  "label": "c",
+                  "text": "Vallisneria"
+                },
+                {
+                  "label": "a",
+                  "text": "Identify the polarity of x to x\u2019 in the diagram below and mention how many more"
+                },
+                {
+                  "label": "b",
+                  "text": "Mention the codon and anticodon for alanine."
+                },
+                {
+                  "label": "c",
+                  "text": "Why are some untranslated sequences of bases seen in mRNA coding for a"
+                },
+                {
+                  "label": "a",
+                  "text": "How is Hardy-Weinberg's expression \u201c"
+                },
+                {
+                  "label": "b",
+                  "text": "List any two factors that can disturb the genetic equilibrium."
+                },
+                {
+                  "label": "a",
+                  "text": "Explain the Life cycle of Plasmodium starting from its entry in the body of female"
+                },
+                {
+                  "label": "b",
+                  "text": "Explain the cause of periodic recurrence of chill and high fever during malarial"
+                },
+                {
+                  "label": "a",
+                  "text": "What result will be obtained on staining with ethidium bromide? Explain with"
+                },
+                {
+                  "label": "b",
+                  "text": "The above set-up was modified and a band with 250 base pairs was obtained at"
+                },
+                {
+                  "label": "a",
+                  "text": "There was loss of biodiversity in an ecosystem due to a new construction"
+                },
+                {
+                  "label": "b",
+                  "text": "List any three major causes of loss of biodiversity?"
+                },
+                {
+                  "label": "a",
+                  "text": "On the basis of the inheritance pattern exhibited in this pedigree chart, what"
+                },
+                {
+                  "label": "b",
+                  "text": "If the female is homozygous for the affected trait in this pedigree chart, then"
+                },
+                {
+                  "label": "c",
+                  "text": "Give the genotype of offsprings 1,2,3 and 4 in III generation."
+                },
+                {
+                  "label": "c",
+                  "text": "In this type of inheritance pattern, out of male and female children which one"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(a) Draw a pyramid of numbers where a large number of insects are feeding on\nthe leaves of a tree. What is the shape of this pyramid?\n(b) Will the pyramid of energy be also of the same shape in this situation? Give\nreason for your response.\n2\nSECTION - C\n22\nExplain the functions of the following structures in the human male reproductive\nsystem.\n(a) Scrotum\n(b) Leydig cells\n(c) Male accessory glands\n3\n23\nState the agent(s) which helps in pollinating in the following plants. Explain the\nadaptations in these plants to ensure pollination:\n(a) Corn\n(b) Water hyacinth\n(c) Vallisneria\n3\n24\n(a) Identify the polarity of x to x\u2019 in the diagram below and mention how many more\namino acids are expected to be added to this polypeptide chain.\n3\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\n(b) Mention the codon and anticodon for alanine.\n(c) Why are some untranslated sequences of bases seen in mRNA coding for a\npolypeptide? Where exactly are they present on mRNA?\n25\n(a) How is Hardy-Weinberg's expression \u201c(p2 + 2pq+q 2) = 1\u201dderived?\n(b) List any two factors that can disturb the genetic equilibrium.\n3\n26\nHighlight the structural importance of an antibody molecule with a diagram. Name\nthe four types of antibodies found to give a humoral immune response, mentioning\nthe functions of two of them you have studied.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 18.\nA true breeding pea plant, homozygous dominant for inflated green podsis crossed\nwith another pea plant with constricted yellow pods (ffgg). With the help of punnett\nsquare show the above cross and mention the results obtained phenotypically and\ngenotypically in F1 generation?\n2\n19\nDuring a field trip, one of your friend in the group suddenly became unwell, she\nstarted sneezing and had trouble in breathing.\nName and explain the term associated with such sudden responses. What would\nthe doctor recommend for relief?\n2\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n6\n20\nCTTAAG\nGAATTC\n(a) What are such sequences called? Name the enzyme used that recognizes\nsuch nucleotide sequences.\n(b) What is their significance in biotechnology?\n2\n21\n(a) Given below is a pyramid of biomass in an ecosystem where each bar\nrepresents the standing crop available in the trophic level. With the help of an\nexample explain the conditions where this kind of pyramid is possible in\nnature?\n(b) Will the pyramid of energy be also of the same shape in this situation? Give\nreason for your response.\nOR\n(a) Draw a pyramid of numbers where a large number of insects are feeding on\nthe leaves of a tree. What is the shape of this pyramid?\n(b) Will the pyramid of energy be also of the same shape in this situation? Give\nreason for your response.\n2\nSECTION - C\n22\nExplain the functions of the following structures in the human male reproductive\nsystem.\n(a) Scrotum\n(b) Leydig cells\n(c) Male accessory glands\n3\n23\nState the agent(s) which helps in pollinating in the following plants. Explain the\nadaptations in these plants to ensure pollination:\n(a) Corn\n(b) Water hyacinth\n(c) Vallisneria\n3\n24\n(a) Identify the polarity of x to x\u2019 in the diagram below and mention how many more\namino acids are expected to be added to this polypeptide chain.\n3\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\n7\n(b) Mention the codon and anticodon for alanine.\n(c) Why are some untranslated sequences of bases seen in mRNA coding for a\npolypeptide? Where exactly are they present on mRNA?\n25\n(a) How is Hardy-Weinberg's expression \u201c(p2 + 2pq+q 2) = 1\u201dderived?\n(b) List any two factors that can disturb the genetic equilibrium.\n3\n26\nHighlight the structural importance of an antibody molecule with a diagram. Name\nthe four types of antibodies found to give a humoral immune response, mentioning\nthe functions of two of them you have studied.\nOR\n(a) Explain the Life cycle of Plasmodium starting from its entry in the body of female\nAnopheles till the completion of its life cycle in humans.\n(b) Explain the cause of periodic recurrence of chill and high fever during malarial\nattack in humans.\n3\n27\nCarefully observe the given picture. A mixture of DNA with fragments ranging from\n200 base pairs to 2500 base pairs was electrophoresed on agarose gel with the\nfollowing arrangement.\n(a) What result will be obtained on staining with ethidium bromide? Explain with\nreason.\n(b) The above set-up was modified and a band with 250 base pairs was obtained at\nX.\n3\n<!-- PAGE 7 END -->\n\n<!-- PAGE 8 START -->\n8\nWhat change(s) were made to the previous design to obtain a band at X? Why did\nthe band appear at the position X?\n28\n(a) There was loss of biodiversity in an ecosystem due to a new construction\nproject in that area. What would be its impact on the ecosystem? State any\nthree.\n(b) List any three major causes of loss of biodiversity?\n3\nSECTION - D\nQ.no 29 and 30 are case based questions. Each question has subparts with internal choice in one\nsubpart.\n29\nStudy the Pedigree chart given below and answer the questions that follow:\n(a) On the basis of the inheritance pattern exhibited in this pedigree chart, what\nconclusion can you draw about the pattern of inheritance?\n(b) If the female is homozygous for the affected trait in this pedigree chart, then\nwhat percentage of her sons will be affected ?\n4\n<!-- PAGE 8 END -->\n\n<!-- PAGE 9 START -->\n9\n(c) Give the genotype of offsprings 1,2,3 and 4 in III generation.\nOR\n(c) In this type of inheritance pattern, out of male and female children which one\nhas less probability of receiving the trait from the parents. Give a reason.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 27 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 27 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q30",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "The data below shows the concentration of nicotine smoked by a smoker taking 10\npuffs/ minute.\n(a) With reference to the above graph explain the concentration of nicotine in blood\nat 10 minutes.\n(b) How will this affect the concentration of carbon monoxide and haembound\noxygen at 10 minutes?\n(c) How",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The data below shows the concentration of nicotine smoked by a smoker taking 10\npuffs/ minute.\n(a) With reference to the above graph explain the concentration of nicotine in blood\nat 10 minutes.\n(b) How will this affect the concentration of carbon monoxide and haembound\noxygen at 10 minutes?\n(c) How does cigarette smoking result in high blood pressure and increase in heart\nrate?",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "With reference to the above graph explain the concentration of nicotine in blood"
+                },
+                {
+                  "label": "b",
+                  "text": "How will this affect the concentration of carbon monoxide and haembound"
+                },
+                {
+                  "label": "c",
+                  "text": "How does cigarette smoking result in high blood pressure and increase in heart"
+                },
+                {
+                  "label": "c",
+                  "text": "How does cigarette smoking result in lung cancer and emphysema?"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "(c) How does cigarette smoking result in lung cancer and emphysema?\n4\nSECTION - E\n31\nTrace the events from copulation to zygote formation in a human female.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 30.\nThe data below shows the concentration of nicotine smoked by a smoker taking 10\npuffs/ minute.\n(a) With reference to the above graph explain the concentration of nicotine in blood\nat 10 minutes.\n(b) How will this affect the concentration of carbon monoxide and haembound\noxygen at 10 minutes?\n(c) How does cigarette smoking result in high blood pressure and increase in heart\nrate?\nOR\n(c) How does cigarette smoking result in lung cancer and emphysema?\n4\nSECTION - E\n31\nTrace the events from copulation to zygote formation in a human female.\nOR\nTrace the development of a megaspore mother cell to the formation of mature\nembryo sac in a flowering plant.\n5",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 4 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q32",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Observe the segment of mRNA given below.\n5\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10\n(a) Explain and illustrate the steps involved to make fully processed hnRNA?\n(b) Gene encoding RNA Polymerase I and III have been affected by mutation in a\ncell. Explain its impact on the synthesis of polypepti",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Observe the segment of mRNA given below.\n5\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10\n(a) Explain and illustrate the steps involved to make fully processed hnRNA?\n(b) Gene encoding RNA Polymerase I and III have been affected by mutation in a\ncell. Explain its impact on the synthesis of polypeptide, stating reasons.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Explain and illustrate the steps involved to make fully processed hnRNA?"
+                },
+                {
+                  "label": "b",
+                  "text": "Gene encoding RNA Polymerase I and III have been affected by mutation in a"
+                },
+                {
+                  "label": "a",
+                  "text": "The active site of enzyme permease present in the cell membrane of a"
+                },
+                {
+                  "label": "b",
+                  "text": "The protein produced by the i gene has become abnormal due to unknown"
+                },
+                {
+                  "label": "c",
+                  "text": "If the nutrient medium for the bacteria contains only galactose; will operon be"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Study the schematic representation of the genes involved in the lac operon given\nbelow and answer the questions that follow:\n(a) The active site of enzyme permease present in the cell membrane of a\nbacterium has been blocked by an inhibitor, how will it affect the lac operon?\n(b) The protein produced by the i gene has become abnormal due to unknown\nreasons. Explain its impact on lactose metabolism stating the reason.\n(c) If the nutrient medium for the bacteria contains only galactose; will operon be\nexpressed? Justify your answer.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 32.\nObserve the segment of mRNA given below.\n5\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\n10\n(a) Explain and illustrate the steps involved to make fully processed hnRNA?\n(b) Gene encoding RNA Polymerase I and III have been affected by mutation in a\ncell. Explain its impact on the synthesis of polypeptide, stating reasons.\nOR\nStudy the schematic representation of the genes involved in the lac operon given\nbelow and answer the questions that follow:\n(a) The active site of enzyme permease present in the cell membrane of a\nbacterium has been blocked by an inhibitor, how will it affect the lac operon?\n(b) The protein produced by the i gene has become abnormal due to unknown\nreasons. Explain its impact on lactose metabolism stating the reason.\n(c) If the nutrient medium for the bacteria contains only galactose; will operon be\nexpressed? Justify your answer.",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 5 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q33",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "Oil spill is a major environmental issue. It has been found that different strains of\nPseudomonas bacteria have genes to break down the four major groups of\nhydrocarbons in oil. Trials are underway to use different biotechnological tools to\nincorporate these genes and create a genetically engineered",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Oil spill is a major environmental issue. It has been found that different strains of\nPseudomonas bacteria have genes to break down the four major groups of\nhydrocarbons in oil. Trials are underway to use different biotechnological tools to\nincorporate these genes and create a genetically engineered strain of Pseudomonas\n- a \u2018super-bug\u2019, to break down the four major groups of hydrocarbons in oil. Such\nbacteria might be sprayed onto surfaces polluted with oil to clean thin films of oil.\n(a) \u202fList two advantages of using bacteria for such biotechnological studies?\n(b) For amplification of the gene of interest PCR was carried out. The PCR was run\nwith the help of polymerase which was functional only at a very low\ntemperature. How will this impact the efficiency of the PCR? Justify.\n(c) If such bacteria are sprayed on water bodies with oil spills, how will this have a\npositive or negative effect on the environment? Discuss.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "List two advantages of using bacteria for such biotechnological studies?"
+                },
+                {
+                  "label": "b",
+                  "text": "For amplification of the gene of interest PCR was carried out. The PCR was run"
+                },
+                {
+                  "label": "c",
+                  "text": "If such bacteria are sprayed on water bodies with oil spills, how will this have a"
+                },
+                {
+                  "label": "a",
+                  "text": "Evaluate the efficacy of the Bt crop on the feeding habits of the three species of"
+                },
+                {
+                  "label": "b",
+                  "text": "Which species is most susceptible to Bt-maize, explain why?"
+                },
+                {
+                  "label": "c",
+                  "text": "Using the given information, suggest why similar effect was not seen in the"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "Insects in the Lepidopteran group lay eggs on maize crops. The larvae on hatching\nfeed on maize leaf and tender cob. In order to arrest the spread of three such\nLepidopteran pests, Bt maize crops were introduced in an experimental field.\nA study was carried out to see which of the three species of lepidopteran pests was\n5\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n11\nmost susceptible to Bt genes and its product.\nThe lepidopteran pests were allowed to feed on the same Bt-maize crops grown on\n5 fields (A-E).\nThe graph below shows the leaf area damaged by these three pests after feeding on\nmaize leaves for five days.\nInsect gut pH was recorded as 10, 8 and 6 respectively for Species I, II and III\nrespectively.\n(a) Evaluate the efficacy of the Bt crop on the feeding habits of the three species of\nstem borer and suggest which species is least susceptible to Bt toxin.\n(b) Which species is most susceptible to Bt-maize, explain why?\n(c) Using the given information, suggest why similar effect was not seen in the\nthree insect species?\n<!-- PAGE 11 END -->",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 33.\nOil spill is a major environmental issue. It has been found that different strains of\nPseudomonas bacteria have genes to break down the four major groups of\nhydrocarbons in oil. Trials are underway to use different biotechnological tools to\nincorporate these genes and create a genetically engineered strain of Pseudomonas\n- a \u2018super-bug\u2019, to break down the four major groups of hydrocarbons in oil. Such\nbacteria might be sprayed onto surfaces polluted with oil to clean thin films of oil.\n(a) \u202fList two advantages of using bacteria for such biotechnological studies?\n(b) For amplification of the gene of interest PCR was carried out. The PCR was run\nwith the help of polymerase which was functional only at a very low\ntemperature. How will this impact the efficiency of the PCR? Justify.\n(c) If such bacteria are sprayed on water bodies with oil spills, how will this have a\npositive or negative effect on the environment? Discuss.\nOR\nInsects in the Lepidopteran group lay eggs on maize crops. The larvae on hatching\nfeed on maize leaf and tender cob. In order to arrest the spread of three such\nLepidopteran pests, Bt maize crops were introduced in an experimental field.\nA study was carried out to see which of the three species of lepidopteran pests was\n5\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n11\nmost susceptible to Bt genes and its product.\nThe lepidopteran pests were allowed to feed on the same Bt-maize crops grown on\n5 fields (A-E).\nThe graph below shows the leaf area damaged by these three pests after feeding on\nmaize leaves for five days.\nInsect gut pH was recorded as 10, 8 and 6 respectively for Species I, II and III\nrespectively.\n(a) Evaluate the efficacy of the Bt crop on the feeding habits of the three species of\nstem borer and suggest which species is least susceptible to Bt toxin.\n(b) Which species is most susceptible to Bt-maize, explain why?\n(c) Using the given information, suggest why similar effect was not seen in the\nthree insect species?\n<!-- PAGE 11 END -->",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

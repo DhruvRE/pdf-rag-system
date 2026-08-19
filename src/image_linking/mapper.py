@@ -8,6 +8,7 @@ Handles:
 import os
 import fitz
 import re
+from src.config import PROJECT_ROOT
 
 
 def get_surrounding_caption(page: fitz.Page, img_bbox: list, context_margin: float = 80.0) -> str:
@@ -76,11 +77,12 @@ def crop_and_map_images(pdf_path: str, output_dir: str) -> dict:
                 caption = get_surrounding_caption(page, bbox)
                 placeholder_key = f"[IMAGE_PLACEHOLDER_{placeholder_counter}]"
 
+                rel_to_proj = os.path.relpath(img_path, PROJECT_ROOT)
                 placeholder_manifest[placeholder_key] = {
                     "placeholder": placeholder_key,
                     "filename": filename,
-                    "url": img_path,
-                    "relative_path": os.path.relpath(img_path, os.path.dirname(output_dir)),
+                    "url": rel_to_proj,
+                    "relative_path": rel_to_proj,
                     "page": page_num,
                     "bbox": bbox,
                     "width": pix.width if pix else 0,

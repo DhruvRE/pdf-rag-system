@@ -1,0 +1,157 @@
+/* Question Card & Content Formatting: Stem, Choice Cards, Subparts & AI Solution */
+
+.question-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  padding: 26px 28px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s ease, box-shadow 0.22s ease;
+  position: relative;
+}
+
+.question-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.45);
+  box-shadow: var(--shadow-glow);
+}
+
+.question-stem {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+  word-break: break-word;
+}
+
+/* MCQ Options Choice Grid */
+.options-container {
+  margin-bottom: 20px;
+}
+
+.options-title {
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 0.06em;
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+.option-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 13px 16px;
+  background: rgba(11, 17, 30, 0.7);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.option-card:hover {
+  background: rgba(99, 102, 241, 0.14);
+  border-color: var(--indigo-500);
+  box-shadow: inset 0 0 10px rgba(99, 102, 241, 0.15);
+}
+
+.option-label {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 800;
+  flex-shrink: 0;
+  box-shadow: 0 2px 6px rgba(79, 70, 229, 0.4);
+}
+
+.option-text {
+  font-size: 14.5px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.option-text p {
+  margin: 0;
+  display: inline;
+}
+
+/* Subparts Cards Grid */
+.subparts-container {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.subpart-card {
+  padding: 14px 18px;
+  background: rgba(11, 17, 30, 0.7);
+  border: 1px solid var(--border-medium);
+  border-left: 4.5px solid var(--indigo-500);
+  border-radius: var(--radius-md);
+  font-size: 14.5px;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+.or-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 0;
+}
+
+.or-badge {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fcd34d;
+  border: 1px solid rgba(245, 158, 11, 0.45);
+  font-weight: 800;
+  font-size: 11px;
+  padding: 3px 12px;
+  border-radius: 9999px;
+  letter-spacing: 0.06em;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.2);
+}
+
+/* AI Solution Button & Box */
+.btn-explain-ai {
+  padding: 9px 18px;
+  background: rgba(99, 102, 241, 0.16);
+  border: 1px solid rgba(99, 102, 241, 0.45);
+  color: #c7d2fe;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-explain-ai:hover {
+  background: var(--indigo-500);
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.45);
+  transform: translateY(-1px);
+}
+
+.explanation-box {
+  animation: slideUpFade 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

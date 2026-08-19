@@ -1,0 +1,1149 @@
+{
+  "paper_id": "83f2a5c03db2",
+  "class": "10",
+  "subject": "science",
+  "year": "2023-2024",
+  "total_chunks": 39,
+  "chunks": [
+    {
+      "chunk_id": "83f2a5c03db2_q1",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "Identify the product which represents the solid state in the above reaction.\na) Barium chloride\nb) Barium sulphate\nc) Sodium chloride\n\n\nOptions:\n(a) Barium chloride\n(b) Barium sulphate\n(c) Sodium chloride\n(d) Sodium sulphate",
+      "raw_text": "Identify the product which represents the solid state in the above reaction.\na) Barium chloride\nb) Barium sulphate\nc) Sodium chloride",
+      "options": [
+        "(a) Barium chloride",
+        "(b) Barium sulphate",
+        "(c) Sodium chloride",
+        "(d) Sodium sulphate"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q1_1.png"
+      ],
+      "bounding_box": [
+        66.98,
+        346.97,
+        427.78,
+        594.32
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q2",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "The colour of the solution observed after 30 minutes of placing zinc metal to copper\nsulphate solution is\na) Blue\nb) Colourless\nc) Dirty green\n\n\nOptions:\n(a) Blue\n(b) Colourless\n(c) Dirty green\n(d) Reddish Brown",
+      "raw_text": "The colour of the solution observed after 30 minutes of placing zinc metal to copper\nsulphate solution is\na) Blue\nb) Colourless\nc) Dirty green",
+      "options": [
+        "(a) Blue",
+        "(b) Colourless",
+        "(c) Dirty green",
+        "(d) Reddish Brown"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        598.3,
+        510.2,
+        688.76
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q3",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "Mild non-corrosive basic salt is\na) Ca (OH)2\nb) NaCl\nc) NaOH\n\n\nOptions:\n(a) Ca (OH)2\n(b) NaCl\n(c) NaOH\n(d) NaHCO3",
+      "raw_text": "Mild non-corrosive basic salt is\na) Ca (OH)2\nb) NaCl\nc) NaOH",
+      "options": [
+        "(a) Ca (OH)2",
+        "(b) NaCl",
+        "(c) NaOH",
+        "(d) NaHCO3"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        692.62,
+        241.37,
+        770.58
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q4",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "On adding dilute sulphuric acid to a test tube containing a metal \u2018X\u2019, a colourless gas is\nproduced when a burning match stick is brought near it. Which of the following correctly\nrepresents metal \u2018X\u2019?\na) Sodium\nb) Sulphur\nc) Copper\n\n\nOptions:\n(a) Sodium\n(b) Sulphur\n(c) Copper\n(d) Silver",
+      "raw_text": "On adding dilute sulphuric acid to a test tube containing a metal \u2018X\u2019, a colourless gas is\nproduced when a burning match stick is brought near it. Which of the following correctly\nrepresents metal \u2018X\u2019?\na) Sodium\nb) Sulphur\nc) Copper",
+      "options": [
+        "(a) Sodium",
+        "(b) Sulphur",
+        "(c) Copper",
+        "(d) Silver"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        36.6,
+        510.34,
+        139.8
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q5",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "Which one of the following correctly represents Sodium oxide?",
+      "raw_text": "Which one of the following correctly represents Sodium oxide?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q5_1.png"
+      ],
+      "bounding_box": [
+        66.98,
+        143.66,
+        385.27,
+        158.88
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q6",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "An element with atomic number_____ will form a basic oxide.\na) 7 (2,5)\nb) 17  (2,8,7)\nc) 14  (2,8,4)\n\n\nOptions:\n(a) 7 (2,5)\n(b) 17  (2,8,7)\n(c) 14  (2,8,4)\n(d) 11  (2,8,1)",
+      "raw_text": "An element with atomic number_____ will form a basic oxide.\na) 7 (2,5)\nb) 17  (2,8,7)\nc) 14  (2,8,4)",
+      "options": [
+        "(a) 7 (2,5)",
+        "(b) 17  (2,8,7)",
+        "(c) 14  (2,8,4)",
+        "(d) 11  (2,8,1)"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        304.25,
+        379.39,
+        381.99
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q7",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "An element \u2018M' has 50% of the electrons filled in the 3rd shell as in the 2nd shell.  The\natomic number of \u2018M\u2019 is:\na) 10\nb) 12\nc) 14\n\n\nOptions:\n(a) 10\n(b) 12\n(c) 14\n(d) 18",
+      "raw_text": "An element \u2018M' has 50% of the electrons filled in the 3rd shell as in the 2nd shell.  The\natomic number of \u2018M\u2019 is:\na) 10\nb) 12\nc) 14",
+      "options": [
+        "(a) 10",
+        "(b) 12",
+        "(c) 14",
+        "(d) 18"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        385.97,
+        510.19,
+        476.45
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q8",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "Generally food is broken and absorbed within the body of organisms. In which of the\nfollowing organisms is it done outside the body?\na) Amoeba\nb) Mushroom\nc) Paramoecium\n\n\nOptions:\n(a) Amoeba\n(b) Mushroom\n(c) Paramoecium\n(d) Lice",
+      "raw_text": "Generally food is broken and absorbed within the body of organisms. In which of the\nfollowing organisms is it done outside the body?\na) Amoeba\nb) Mushroom\nc) Paramoecium",
+      "options": [
+        "(a) Amoeba",
+        "(b) Mushroom",
+        "(c) Paramoecium",
+        "(d) Lice"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        480.31,
+        509.91,
+        570.89
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q9",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "Receptors are usually located in sense organs. Gustatory receptors are present in\na) tongue\nb) nose\nc) eye\n\n\nOptions:\n(a) tongue\n(b) nose\n(c) eye\n(d) ear",
+      "raw_text": "Receptors are usually located in sense organs. Gustatory receptors are present in\na) tongue\nb) nose\nc) eye",
+      "options": [
+        "(a) tongue",
+        "(b) nose",
+        "(c) eye",
+        "(d) ear"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.98,
+        574.78,
+        455.86,
+        652.64
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q10",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "A farmer wants to grow banana plants genetically similar enough to the plants  already\navailable in his field. Which one of the following methods would you suggest for this\npurpose?\na) Regeneration\nb) Budding\nc) Vegetative propagation\n\n\nOptions:\n(a) Regeneration\n(b) Budding\n(c) Vegetative propagation\n(d) Sexual reproduction",
+      "raw_text": "A farmer wants to grow banana plants genetically similar enough to the plants  already\navailable in his field. Which one of the following methods would you suggest for this\npurpose?\na) Regeneration\nb) Budding\nc) Vegetative propagation",
+      "options": [
+        "(a) Regeneration",
+        "(b) Budding",
+        "(c) Vegetative propagation",
+        "(d) Sexual reproduction"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        656.5,
+        510.26,
+        764.74
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q11",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Height of a plant is regulated by:\na) DNA which is directly influenced by growth hormone.\nb) Genes which regulate the proteins directly.\nc) Growth hormones under the influence of the enzymes coded by a gene.\n\n\nOptions:\n(a) DNA which is directly influenced by growth hormone.\n(b) Genes which regulate the proteins directly.\n(c) Growth hormones under the influence of the enzymes coded by a gene.\n(d) Growth hormones directly under the influence a gene.",
+      "raw_text": "Height of a plant is regulated by:\na) DNA which is directly influenced by growth hormone.\nb) Genes which regulate the proteins directly.\nc) Growth hormones under the influence of the enzymes coded by a gene.",
+      "options": [
+        "(a) DNA which is directly influenced by growth hormone.",
+        "(b) Genes which regulate the proteins directly.",
+        "(c) Growth hormones under the influence of the enzymes coded by a gene.",
+        "(d) Growth hormones directly under the influence a gene."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        36.6,
+        433.18,
+        115.56
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q12",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "A sportsman, after a long break of his routine exercise, suffered muscular cramps during a\nheavy exercise session. This happened due to:\na) lack of carbon dioxide and formation of pyruvate.\nb) presence of oxygen and formation of ethanol.\nc) lack of oxygen and formation of lactic aci\n\n\nOptions:\n(a) lack of carbon dioxide and formation of pyruvate.\n(b) presence of oxygen and formation of ethanol.\n(c) lack of oxygen and formation of lactic acid.\n(d) lack of oxygen and formation of carbon dioxide.",
+      "raw_text": "A sportsman, after a long break of his routine exercise, suffered muscular cramps during a\nheavy exercise session. This happened due to:\na) lack of carbon dioxide and formation of pyruvate.\nb) presence of oxygen and formation of ethanol.\nc) lack of oxygen and formation of lactic aci",
+      "options": [
+        "(a) lack of carbon dioxide and formation of pyruvate.",
+        "(b) presence of oxygen and formation of ethanol.",
+        "(c) lack of oxygen and formation of lactic acid.",
+        "(d) lack of oxygen and formation of carbon dioxide."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        120.38,
+        509.93,
+        211.92
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q13",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "An object is placed in front of a convex mirror. Its image is formed :\na) at a distance equal to the object distance in front of the mirror.\nb) at twice the distance of the object in front of the mirror.\nc) half the distance of the object in front of the mirror.\n\n\nOptions:\n(a) at a distance equal to the object distance in front of the mirror.\n(b) at twice the distance of the object in front of the mirror.\n(c) half the distance of the object in front of the mirror.\n(d) behind the mirror and it\u2019s position varies according to the object distance.",
+      "raw_text": "An object is placed in front of a convex mirror. Its image is formed :\na) at a distance equal to the object distance in front of the mirror.\nb) at twice the distance of the object in front of the mirror.\nc) half the distance of the object in front of the mirror.",
+      "options": [
+        "(a) at a distance equal to the object distance in front of the mirror.",
+        "(b) at twice the distance of the object in front of the mirror.",
+        "(c) half the distance of the object in front of the mirror.",
+        "(d) behind the mirror and it\u2019s position varies according to the object distance."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        216.74,
+        444.34,
+        299.67
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q14",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "When light enters the atmosphere it strikes on extremely fine particles, which deflect the\nrays of light in all possible directions, This is due to -\na) reflection of light\nb) atmospheric refraction\nc)  scattering of light\n\n\nOptions:\n(a) reflection of light\n(b) atmospheric refraction\n(c) scattering of light\n(d) dispersion of light",
+      "raw_text": "When light enters the atmosphere it strikes on extremely fine particles, which deflect the\nrays of light in all possible directions, This is due to -\na) reflection of light\nb) atmospheric refraction\nc)  scattering of light",
+      "options": [
+        "(a) reflection of light",
+        "(b) atmospheric refraction",
+        "(c) scattering of light",
+        "(d) dispersion of light"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        304.61,
+        509.92,
+        400.11
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q15",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "In 1987, an agreement was formulated by the United Nations Environment Programme\n(UNEP) to freeze the production of \u201cX\u201d to prevent depletion of \u201cY\u201d. \u201cX\u201d and \u201cY\u201d\nrespectively referred here are:\na) Ozone; CFCs\nb) CFCs; rays  UV\nc) CFCs; Ozone\n\n\nOptions:\n(a) Ozone; CFCs\n(b) CFCs; rays  UV\n(c) CFCs; Ozone\n(d) UV rays; Diatomic oxygen",
+      "raw_text": "In 1987, an agreement was formulated by the United Nations Environment Programme\n(UNEP) to freeze the production of \u201cX\u201d to prevent depletion of \u201cY\u201d. \u201cX\u201d and \u201cY\u201d\nrespectively referred here are:\na) Ozone; CFCs\nb) CFCs; rays  UV\nc) CFCs; Ozone",
+      "options": [
+        "(a) Ozone; CFCs",
+        "(b) CFCs; rays  UV",
+        "(c) CFCs; Ozone",
+        "(d) UV rays; Diatomic oxygen"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        403.99,
+        510.02,
+        512.21
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q16",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Which of the following features relates to biodegradable substances?\na) Broken down by biological processes\nb) Remain inert\nc) Persist in environment for long time\nd) May harm the ecosystem\nQuestion No. 17 to 20 consist of two statements \u2013 Assertion (A) and Reason (R). Answer\nthese questions selecting the appropriate option given below:\na) Both A and R are true, and R is the correct explanation of A.\nb) Both A and R are true, and R is not the correct explanation of A.\nc) A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Which of the following features relates to biodegradable substances?\na) Broken down by biological processes\nb) Remain inert\nc) Persist in environment for long time\nd) May harm the ecosystem\nQuestion No. 17 to 20 consist of two statements \u2013 Assertion (A) and Reason (R). Answer\nthese questions selecting the appropriate option given below:\na) Both A and R are true, and R is the correct explanation of A.\nb) Both A and R are true, and R is not the correct explanation of A.\nc) A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        515.95,
+        543.36,
+        677.6
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q17",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Assertion: Rusting of Iron is endothermic in nature.\nReason:  As the reaction is slow, the release of heat is barely evident.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Rusting of Iron is endothermic in nature.\nReason:  As the reaction is slow, the release of heat is barely evident.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        697.18,
+        409.99,
+        728.0
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q18",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Assertion: Probability of survival of an organism produced through sexual reproduction is\nmore  than that of organism produced through asexual mode.\nReason: Variations provide advantages to individuals for survival.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Probability of survival of an organism produced through sexual reproduction is\nmore  than that of organism produced through asexual mode.\nReason: Variations provide advantages to individuals for survival.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        732.0,
+        510.21,
+        775.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q19",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "Assertion : A compass needle is placed near a current carrying wire. The deflection of the\ncompass needle decreases when the magnitude of the current in the wire is increased.\nReason : The strength of a magnetic field at a point near the conductor increases on\nincreasing the current.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion : A compass needle is placed near a current carrying wire. The deflection of the\ncompass needle decreases when the magnitude of the current in the wire is increased.\nReason : The strength of a magnetic field at a point near the conductor increases on\nincreasing the current.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        36.6,
+        510.05,
+        92.76
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q20",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "Assertion: Biodegradable substances result in the formation of compost and natural\nreplenishment.\nReason: It is due to breakdown of complex inorganic substances into simple organic\nsubstances.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Biodegradable substances result in the formation of compost and natural\nreplenishment.\nReason: It is due to breakdown of complex inorganic substances into simple organic\nsubstances.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        96.74,
+        473.35,
+        152.88
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q21",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "Dil. HCl is added to Zn granules.\u201d How will you prove that chemical change has taken place\nhere?  Support your response with two arguments.",
+      "raw_text": "Dil. HCl is added to Zn granules.\u201d How will you prove that chemical change has taken place\nhere?  Support your response with two arguments.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        188.66,
+        510.34,
+        216.48
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q22",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "State the post-fertilisation changes that lead to fruit formation in plants.",
+      "raw_text": "State the post-fertilisation changes that lead to fruit formation in plants.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        220.46,
+        417.07,
+        235.68
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q23",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "What is the purpose of making urine in the human body? Name the organs that stores and\nreleases the urine.",
+      "raw_text": "What is the purpose of making urine in the human body? Name the organs that stores and\nreleases the urine.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Why do arteries have thick and elastic walls whereas veins have valves?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        239.57,
+        510.34,
+        298.83
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q24",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "The refractive indices of three media are given below:\nMedium\nRefractive Index\nA\n1.6\nB\n1.8\nC\n1.5\nA ray of light is travelling from A to B and another ray is travelling from B to C.",
+      "raw_text": "The refractive indices of three media are given below:\nMedium\nRefractive Index\nA\n1.6\nB\n1.8\nC\n1.5\nA ray of light is travelling from A to B and another ray is travelling from B to C.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) In which of the two cases the refracted ray bends towards the normal?",
+        "(b) In which case does the speed of light increase in the second medium?\nGive reasons for your answer."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        302.69,
+        465.82,
+        436.61
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q25",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "A piece of wire of resistance R is cut into three equal parts. These parts are then connected\nin parallel. If the equivalent resistance of this parallel combination is R1, what is the value\nof the ratio R1 : R?",
+      "raw_text": "A piece of wire of resistance R is cut into three equal parts. These parts are then connected\nin parallel. If the equivalent resistance of this parallel combination is R1, what is the value\nof the ratio R1 : R?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Refer to the image below and state how the magnetic field pattern indicates regions where\nthe magnetic field is stronger outside the magnet? What happens to the magnetic field\nwhen the current in the circuit is reversed?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q25_1.png"
+      ],
+      "bounding_box": [
+        64.22,
+        440.59,
+        510.27,
+        537.65
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q26",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 5,
+      "content": "Study the food chain given below and answer the questions that follow:\na)\nIf the amount of energy available at the third trophic level is 100 joules, then how\nmuch energy will be available at the producer level? Justify your answer.\nb)\nIs it possible to have 2 more trophic levels in this food chain just before the fourth\ntrophic level? Justify your answer.",
+      "raw_text": "Study the food chain given below and answer the questions that follow:\na)\nIf the amount of energy available at the third trophic level is 100 joules, then how\nmuch energy will be available at the producer level? Justify your answer.\nb)\nIs it possible to have 2 more trophic levels in this food chain just before the fourth\ntrophic level? Justify your answer.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        36.6,
+        510.2,
+        230.4
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q27",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 5,
+      "content": "The given reaction shows one of the processes to extract the metals like Iron and\nManganese.\nMnO\u2082 (s) + Al(s) \u2192 Mn(l) + Al\u2082O\u2083(s) + Heat\na)\nGive reason why the  above reaction is known as a thermite reaction.\nb)\nIdentify the substance oxidised and reduced in the above reaction.\nc)\nGive a reason why Aluminium is  preferably used in thermite reactions.",
+      "raw_text": "The given reaction shows one of the processes to extract the metals like Iron and\nManganese.\nMnO\u2082 (s) + Al(s) \u2192 Mn(l) + Al\u2082O\u2083(s) + Heat\na)\nGive reason why the  above reaction is known as a thermite reaction.\nb)\nIdentify the substance oxidised and reduced in the above reaction.\nc)\nGive a reason why Aluminium is  preferably used in thermite reactions.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        266.21,
+        509.96,
+        356.67
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q28",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 5,
+      "content": "An element \u2018M\u2019 with electronic configuration 2 8 3 combines separately with Cl-, SO4-2\nanions.  Write the chemical formulae of the compounds formed. Predict with the suitable\nreason the nature of the bond formed by element \u2018M\u2019 in general. How will the electrical\nconductivity of the compounds formed vary with respect to \u2018M\u2019?",
+      "raw_text": "An element \u2018M\u2019 with electronic configuration 2 8 3 combines separately with Cl-, SO4-2\nanions.  Write the chemical formulae of the compounds formed. Predict with the suitable\nreason the nature of the bond formed by element \u2018M\u2019 in general. How will the electrical\nconductivity of the compounds formed vary with respect to \u2018M\u2019?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "A reddish-brown metal \u2018X\u2019, when heated in air, gives a black compound \u2018Y\u2019, which when\nheated in presence of H\u2082 gas gives \u2018X\u2019 back.   \u2018X\u2019 is refined by the process of electrolysis;\nthis refined form of \u2018X\u2019 is used in electrical wiring.\nIdentify \u2018X\u2019 and \u2018Y\u2019. Draw a well-labeled diagram to represent the process of refining \u2018X\u2019."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        360.65,
+        510.34,
+        486.05
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q29",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 5,
+      "content": "We are advised to take iodised salt in our diet by doctors. Justify it's importance in our\nbody.",
+      "raw_text": "We are advised to take iodised salt in our diet by doctors. Justify it's importance in our\nbody.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        489.91,
+        509.85,
+        517.85
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q30",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 5,
+      "content": "What is the probability of a girl or a boy being born in a family? Justify your answer.",
+      "raw_text": "What is the probability of a girl or a boy being born in a family? Justify your answer.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        521.71,
+        477.22,
+        536.93
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q31",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 5,
+      "content": "(i) Explain why the refractive index of any material with respect to air is always greater 1.\n(ii) In the figure below a light ray travels from air into the semi-circular plastic block. Give\na reason why the ray does not deviate at the semi-circular boundary of the plastic\nblock.\n(iii) Complete the ray diagram of the above scenario when the light ray comes out of the\nplastic block from the top flat end.\n1+1+1",
+      "raw_text": "(i) Explain why the refractive index of any material with respect to air is always greater 1.\n(ii) In the figure below a light ray travels from air into the semi-circular plastic block. Give\na reason why the ray does not deviate at the semi-circular boundary of the plastic\nblock.\n(iii) Complete the ray diagram of the above scenario when the light ray comes out of the\nplastic block from the top flat end.\n1+1+1",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Explain why the refractive index of any material with respect to air is always greater 1.",
+        "(ii) In the figure below a light ray travels from air into the semi-circular plastic block. Give\na reason why the ray does not deviate at the semi-circular boundary of the plastic\nblock.",
+        "(iii) Complete the ray diagram of the above scenario when the light ray comes out of the\nplastic block from the top flat end.\n1+1+1"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q31_1.png",
+        "images/q31_2.png"
+      ],
+      "bounding_box": [
+        64.22,
+        540.91,
+        510.31,
+        725.12
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q32",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 5,
+      "content": "(i) State the law that explains the heating effect of current with respect to the measurable\nproperties in an electrical circuit.\n(ii) List the factors on which the resistance of a conductor depends.",
+      "raw_text": "(i) State the law that explains the heating effect of current with respect to the measurable\nproperties in an electrical circuit.\n(ii) List the factors on which the resistance of a conductor depends.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) State the law that explains the heating effect of current with respect to the measurable\nproperties in an electrical circuit.",
+        "(ii) List the factors on which the resistance of a conductor depends."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        728.98,
+        509.97,
+        772.54
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q33",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 6,
+      "content": "Anannya responded to the question: Why do electrical appliances with metallic bodies are\nconnected to the mains through a three pin plug, whereas an electric bulb can be connected\nwith a two pin plug?\nShe wrote: Three pin connections reduce heating of connecting wires.",
+      "raw_text": "Anannya responded to the question: Why do electrical appliances with metallic bodies are\nconnected to the mains through a three pin plug, whereas an electric bulb can be connected\nwith a two pin plug?\nShe wrote: Three pin connections reduce heating of connecting wires.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Is her answer correct or incorrect? Justify.",
+        "(ii) What is the function of a fuse in a domestic circuit?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        36.6,
+        510.32,
+        124.08
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q34",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q34",
+      "question_number": "Q34",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION D",
+      "page_num": 6,
+      "content": "a) Rehmat classified the reaction between Methane and Chlorine in presence of sunlight as\na substitution reaction.  Support Rehmat\u2019s view with suitable justification and illustrate\nthe reaction with the help of a balanced chemical equation.\nb) Chlorine gas was prepared using electrolysis of brine solution.  Write the chemical\nequation to represent the change. Identify the other products formed in the process and\ngive one application of each.",
+      "raw_text": "a) Rehmat classified the reaction between Methane and Chlorine in presence of sunlight as\na substitution reaction.  Support Rehmat\u2019s view with suitable justification and illustrate\nthe reaction with the help of a balanced chemical equation.\nb) Chlorine gas was prepared using electrolysis of brine solution.  Write the chemical\nequation to represent the change. Identify the other products formed in the process and\ngive one application of each.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Raina while doing certain reactions observed that heating of substance \u2018X\u2019 with vinegar like\nsmell with a substance \u2018Y\u2019 (which is used as an industrial solvent) in presence of conc.\nSulphuric acid on a water bath gives a sweet-smelling liquid \u2018Z\u2019 having molecular formula\nC4H8O2. When heated with caustic soda (NaOH), \u2018Z\u2019 gives back the sodium salt of and the\ncompound \u2018Y\u2019.\nIdentify \u2018X\u2019, \u2018Y\u2019, and \u2018Z\u2019. Illustrate the changes with the help of suitable chemical\nequations."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        159.86,
+        510.34,
+        351.51
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q35",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q35",
+      "question_number": "Q35",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION D",
+      "page_num": 6,
+      "content": "Given below are certain situations. Analyze and describe its possible impact on a person:\na) Testes of a male boy are not able to descend into scrotum during his embryonic\ndevelopment.\nb) Vas deferens of a man is plugged.\nc)  Prostate and seminal vesicles are not functional.\nd)  Egg is not fertilised in a human female.\ne)  Placenta does not attach to the uterus optimally.",
+      "raw_text": "Given below are certain situations. Analyze and describe its possible impact on a person:\na) Testes of a male boy are not able to descend into scrotum during his embryonic\ndevelopment.\nb) Vas deferens of a man is plugged.\nc)  Prostate and seminal vesicles are not functional.\nd)  Egg is not fertilised in a human female.\ne)  Placenta does not attach to the uterus optimally.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "a) A doctor has advised Sameer to reduce sugar intake in his diet and do regular exercise\nafter checking his blood test reports. Which disease do you think Sameer is suffering\nfrom? Name the hormone responsible for this disease and the organ producing the\nhormone.\nb) Which hormone is present in the areas of rapid cell division in a plant and which\nhormone inhibits the growth?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        355.49,
+        510.33,
+        559.13
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q36",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q36",
+      "question_number": "Q36",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION D",
+      "page_num": 6,
+      "content": "The above image shows a thin lens of focal length 5m.",
+      "raw_text": "The above image shows a thin lens of focal length 5m.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) What is the kind of lens shown in the above figure?",
+        "(ii) If a real inverted image is to be formed by this lens at a distance of 7m from the optical\ncentre, then show with calculation where should the object be placed?",
+        "(iii)  Draw a neatly labelled diagram of the image formation mentioned in (ii)",
+        "OR",
+        "A 10 cm long pencil is placed 5 cm in front of a concave mirror having a radius of curvature\nof 40 cm.\n1+2+2\n2+1+2",
+        "(i) Determine the position of the image formed by this mirror.",
+        "(ii) What is the size of the image?",
+        "(iii) Draw a ray diagram to show the formation of the image as mentioned in the part (i)."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q36_1.png"
+      ],
+      "bounding_box": [
+        64.22,
+        563.11,
+        510.34,
+        765.82
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q37",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q37",
+      "question_number": "Q37",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION E",
+      "page_num": 7,
+      "content": "The table given below shows the hints given by the quiz master in a quiz.\nS.NO\nHINT",
+      "raw_text": "The table given below shows the hints given by the quiz master in a quiz.\nS.NO\nHINT",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Substance \u2018C\u2019 is used as a preservative.",
+        "(ii) \u2018C\u2019 has two carbon atoms; \u2018C\u2019 is obtained by the reaction of \u2018A\u2019 in presence of\nalkaline Potassium permanganate followed by acidification.",
+        "(iii) Misuse of \u2018A\u2019 in industries is prevented by adding Methanol, Benzene, and\npyridine to \u2018A\u2019.",
+        "(iv) \u2018F\u2019 is formed on heating \u2018A\u2019 in presence of conc Sulphuric acid.",
+        "(v) \u2018F\u2019 reacts with Hydrogen gas in presence of Nickel and Palladium catalyst.\nBased on the above hints answer the following questions\na) Give the IUPAC names of A and F\nb) Illustrate with the help of chemical equations the changes taking place. (A  \u2192  C and A \u2192  F)",
+        "OR",
+        "Name the chemical reactions which occur in steps 2 and 5.  Identify the compounds\nformed in these steps if \u2018A\u2019 is replaced with its next homologue."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        64.22,
+        122.42,
+        510.0,
+        336.27
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q38",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q38",
+      "question_number": "Q38",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION E",
+      "page_num": 7,
+      "content": "Figures (a) to (d) given below represent the type of ear lobes present in a family consisting\nof 2 children \u2013 Rahul, Nisha and their parents.\nExcited by his observation of different types of ear lobes present in his family, Rahul\nconducted a survey of the type of ear lobes found {Figure (e) and (f)} in his classmates. He\nfound two types of ear lobes in his classmates as per the frequency given below:\nSex\nFree\nAttached\nMale\nFemale\nOn the basis of above data answer the following questions.\na) Which of the two characteristics - \u2018free ear lobe\u2019 or \u2018attached ear lobe\u2019 appears to be\ndominant in this case? Why?\nb)  Is the inheritance of the free ear lobe linked with sex of the individual? Give reason for\nyour answer.\nc) What type of ear lobe is present in father, mother, Rahul and his sister Nisha? Write the\ngenetic constitution of each of these family members which explains the inheritance of\nthis character in this family?\n(Gene for Free ear lobe is represented by F and gene for attached ear lobe is represented\nby f for writing the genetic constitution).",
+      "raw_text": "Figures (a) to (d) given below represent the type of ear lobes present in a family consisting\nof 2 children \u2013 Rahul, Nisha and their parents.\nExcited by his observation of different types of ear lobes present in his family, Rahul\nconducted a survey of the type of ear lobes found {Figure (e) and (f)} in his classmates. He\nfound two types of ear lobes in his classmates as per the frequency given below:\nSex\nFree\nAttached\nMale\nFemale\nOn the basis of above data answer the following questions.\na) Which of the two characteristics - \u2018free ear lobe\u2019 or \u2018attached ear lobe\u2019 appears to be\ndominant in this case? Why?\nb)  Is the inheritance of the free ear lobe linked with sex of the individual? Give reason for\nyour answer.\nc) What type of ear lobe is present in father, mother, Rahul and his sister Nisha? Write the\ngenetic constitution of each of these family members which explains the inheritance of\nthis character in this family?\n(Gene for Free ear lobe is represented by F and gene for attached ear lobe is represented\nby f for writing the genetic constitution).",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Suresh\u2019s parents have attached earl obes. What type of ear lobe can be seen in Suresh\nand his sister Siya? Explain by giving the genetic composition of all."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q38_1.png",
+        "images/q38_2.png"
+      ],
+      "bounding_box": [
+        64.22,
+        340.13,
+        510.24,
+        774.1
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "83f2a5c03db2_q39",
+      "paper_id": "83f2a5c03db2",
+      "question_id": "q39",
+      "question_number": "Q39",
+      "class": "10",
+      "subject": "science",
+      "year": "2023-2024",
+      "section": "SECTION E",
+      "page_num": 8,
+      "content": "Vinita and Ahmed demonstrated a circuit that operates the two headlights and the two\nsidelights of a car, in their school exhibition. Based on their demonstrated circuit, answer\nthe following questions.",
+      "raw_text": "Vinita and Ahmed demonstrated a circuit that operates the two headlights and the two\nsidelights of a car, in their school exhibition. Based on their demonstrated circuit, answer\nthe following questions.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) State what happens when switch A is connected to\na) Position 2\nb) Position 3",
+        "(ii) Find the potential difference across each lamp when lit.",
+        "(iii)  Calculate the current\na) in each 12 \u03a9 lamp when lit.\nb) In each 4 \u03a9 lamp when lit.",
+        "OR",
+        "(iv) Show, with calculations, which type of lamp, 4.0 \u03a9 or 12 \u03a9, has the higher power.\n1+1+2\n*******"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q39_1.png"
+      ],
+      "bounding_box": [
+        64.22,
+        65.4,
+        550.2,
+        365.79
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

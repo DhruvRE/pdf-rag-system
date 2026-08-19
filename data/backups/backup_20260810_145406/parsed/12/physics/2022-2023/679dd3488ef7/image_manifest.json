@@ -1,0 +1,178 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p3_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p3_1.png",
+    "relative_path": "679dd3488ef7/images/img_p3_1.png",
+    "page": 3,
+    "bbox": [
+      238.08,
+      129.12,
+      381.36,
+      214.32
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "n cored coil is connected in series with an electric bulb source as shown in figure. When iron piece is taken il, the brightness of the bulb will rease rease main unaffected"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p5_1.png",
+    "relative_path": "679dd3488ef7/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      214.08,
+      77.76,
+      403.92,
+      196.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "30 V (ii) 58 V (iii) 29 V (iv) 15 V he electric potential V as a function of distance X is shown in th gure."
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p7_1.png",
+    "relative_path": "679dd3488ef7/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      132.0,
+      355.68,
+      480.48,
+      467.28
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "y p g p radiations belong.Also arrange these wavelengths in ascending order of their magnitude. 20 A uniform magnetic field gets modified as shown in figure when two specimens A and B are placed in it"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p8_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p8_1.png",
+    "relative_path": "679dd3488ef7/images/img_p8_1.png",
+    "page": 8,
+    "bbox": [
+      234.72,
+      132.96,
+      402.0,
+      202.8
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "figure shows a piece of pure semiconductor S in series wi able resistor R and a source of constant voltage V. Should the v R be increased or decreased to keep the reading of the amm stant, when semico"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p9_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p9_1.png",
+    "relative_path": "679dd3488ef7/images/img_p9_1.png",
+    "page": 9,
+    "bbox": [
+      233.28,
+      304.08,
+      414.0,
+      417.6
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "e magnetic field through a circular loop of wire, 12cm in radius a \u2126 resistance, changes with time as shown in the figure. T gnetic field is perpendicular to the plane of the loop. Calculate t rent in"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p10_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p10_1.png",
+    "relative_path": "679dd3488ef7/images/img_p10_1.png",
+    "page": 10,
+    "bbox": [
+      221.28,
+      192.24,
+      426.0,
+      309.84
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Using Einstein s photo-electric equation, explain the three observations. OR The graph shows the variation of photocurrent for a photosensitive metal a)What does X and A on the horizontal axis represe"
+  },
+  "[IMAGE_PLACEHOLDER_7]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_7]",
+    "filename": "img_p11_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p11_1.png",
+    "relative_path": "679dd3488ef7/images/img_p11_1.png",
+    "page": 11,
+    "bbox": [
+      245.04,
+      403.92,
+      394.08,
+      493.92
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "respectively are connected in parallel as shown in the figu Deduce the expression for the (i) equivalent emf of the combination (ii) equivalent internal resistance of the combination (iii) potential d"
+  },
+  "[IMAGE_PLACEHOLDER_8]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_8]",
+    "filename": "img_p12_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p12_1.png",
+    "relative_path": "679dd3488ef7/images/img_p12_1.png",
+    "page": 12,
+    "bbox": [
+      248.28,
+      190.44,
+      390.48,
+      305.64
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "The prism is made of a transparent material of refrac index \u0b36 \u221a\u0b37 . Trace the path of the ray as it passes thro the prism. Calculate the angle of emergence and angle of deviation. OR rite two points of"
+  },
+  "[IMAGE_PLACEHOLDER_9]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_9]",
+    "filename": "img_p12_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p12_2.png",
+    "relative_path": "679dd3488ef7/images/img_p12_2.png",
+    "page": 12,
+    "bbox": [
+      251.52,
+      471.12,
+      385.68,
+      590.64
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "d a diffraction pattern. A ray of light incident on face AB of an equilateral gla prism, shows minimum deviation of 30\u00b0. Calculate the speed of light through the prism. (ii) Find the angle of incidenc"
+  },
+  "[IMAGE_PLACEHOLDER_10]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_10]",
+    "filename": "img_p14_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p14_1.png",
+    "relative_path": "679dd3488ef7/images/img_p14_1.png",
+    "page": 14,
+    "bbox": [
+      255.6,
+      78.0,
+      420.12,
+      223.92
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "of different kinds hy are LEDs made of compound semiconductor and not of elem onductors? hat should be the order of bandgap of an LED, if it is required t light in the visible range?"
+  },
+  "[IMAGE_PLACEHOLDER_11]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_11]",
+    "filename": "img_p14_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2022-2023/679dd3488ef7/images/img_p14_2.png",
+    "relative_path": "679dd3488ef7/images/img_p14_2.png",
+    "page": 14,
+    "bbox": [
+      201.36,
+      351.6,
+      414.0,
+      504.96
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "semiconductors? (ii) What should be the order of bandgap of an LED, if it is required to emit light in the visible range? (iii) A student connects the blue coloured LED as shown in the figu The LED di"
+  }
+}

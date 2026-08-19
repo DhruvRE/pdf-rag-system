@@ -1,0 +1,864 @@
+{
+  "paper_id": "d744f3baadd1",
+  "class": "10",
+  "subject": "mathematics",
+  "year": "2024-2025",
+  "total_questions": 38,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.02,
+        473.01,
+        537.98,
+        514.62
+      ],
+      "raw_text": "1.\nThe graph of a quadratic polynomial p(x) passes through the points (-6,0), (0, -30),\n(4,-20) and (6,0). The zeroes of the polynomial are",
+      "options": [
+        "(a) - 6,0",
+        "(b) 4, 6",
+        "(c) - 30,-20",
+        "(d) - 6,6"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.02,
+        542.39,
+        537.98,
+        583.77
+      ],
+      "raw_text": "2.\nThe value of k for which the system of equations 3x-ky= 7 and 6x+ 10y =3 is\ninconsistent, is\nA) -10                    B) -5                        C) 5                                  D) 7",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.02,
+        611.3,
+        537.98,
+        681.95
+      ],
+      "raw_text": "3.\nWhich of the following statements is not true?\nA) A number of secants can be drawn at any point on the circle.\nB) Only one tangent can be drawn at any point on a circle.\nC) A chord is a line segment joining two points on the circle",
+      "options": [
+        "(a) A number of secants can be drawn at any point on the circle.",
+        "(b) Only one tangent can be drawn at any point on a circle.",
+        "(c) A chord is a line segment joining two points on the circle",
+        "(d) From a point inside a circle only two tangents can be drawn."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "bounding_box": [
+        48.02,
+        695.32,
+        537.98,
+        722.27
+      ],
+      "raw_text": "4.\nIf nth term of an A.P. is 7n-4 then the common difference of the A.P. is\nA) 7                         B) 7n                        C) - 4                               D) 4",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.02,
+        48.59,
+        537.98,
+        104.58
+      ],
+      "raw_text": "5.\nThe radius of the base of a right circular cone and the radius of a sphere are each 5 cm\nin length. If the volume of the cone is equal to the volume of the sphere then the height\nof the cone is",
+      "options": [
+        "(a) 5 cm",
+        "(b) 20 cm",
+        "(c) 10 cm",
+        "(d) 4 cm"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.02,
+        117.71,
+        537.98,
+        178.05
+      ],
+      "raw_text": "6.\nIf tan\ud835\udf03 =\n2 then\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03 + \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03\n4 \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03  \u2212 \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03 is equal to\nA)\n9                  B)\n2                         C)\n11                             D) 4",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.02,
+        189.5,
+        537.98,
+        365.43
+      ],
+      "raw_text": "7.\nIn the given figure, a tangent has been drawn at a point P on the circle centred at O.\nIf \u2220 TPQ= 110\ud835\udc42 then \u2220POQ is equal to",
+      "options": [
+        "(a) 110\ud835\udc42",
+        "(b) 70\ud835\udc42",
+        "(c) 140\ud835\udc42",
+        "(d) 55\ud835\udc42"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q7_1.png",
+          "relative_path": "images/q7_1.png",
+          "bounding_box": [
+            105.6,
+            239.04,
+            170.88,
+            286.8
+          ],
+          "width": 65.28,
+          "height": 47.76
+        }
+      ]
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.02,
+        378.43,
+        537.98,
+        422.57
+      ],
+      "raw_text": "8.\nA quadratic polynomial having zeroes - \u221a5\n2   and  \u221a5\n2  is",
+      "options": [
+        "(a) \ud835\udc652 \u2212 5\u221a2 x +1",
+        "(b) 8\ud835\udc652 - 20",
+        "(c) 15\ud835\udc652- 6",
+        "(d) \ud835\udc652 - 2\u221a5  x -1"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.02,
+        449.73,
+        537.98,
+        553.98
+      ],
+      "raw_text": "9.\nConsider the frequency distribution of 45 observations.\nClass\n0-10\n10-20\n20-30\n30-40\n40-50\nFrequency\nThe upper limit of median class is",
+      "options": [
+        "(a) 20",
+        "(b) 10",
+        "(c) 30",
+        "(d) 40"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "bounding_box": [
+        48.02,
+        211.87,
+        537.98,
+        730.91
+      ],
+      "raw_text": "10.\nO is the point of intersection of two chords AB and CD of a circle.\nIf  \u2220\ud835\udc35\ud835\udc42\ud835\udc36= 80\ud835\udc42 and OA = OD then \ud835\udee5\ud835\udc42\ud835\udc37\ud835\udc34 \ud835\udc4e\ud835\udc5b\ud835\udc51  \ud835\udee5\ud835\udc42\ud835\udc35\ud835\udc36 are\nA) equilateral and similar                       B) isosceles and similar\nC) isosceles but not similar                    D) not similar\nQ O P T A D B C O",
+      "options": [
+        "(a) equilateral and similar",
+        "(b) isosceles and similar",
+        "(c) isosceles but not similar",
+        "(d) not similar"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q10_1.png",
+          "relative_path": "images/q10_1.png",
+          "bounding_box": [
+            126.96,
+            614.4,
+            196.08,
+            664.08
+          ],
+          "width": 69.12,
+          "height": 49.68
+        }
+      ]
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        48.59,
+        537.98,
+        90.66
+      ],
+      "raw_text": "11.\nThe roots of the quadratic equation \ud835\udc652+x-1 = 0 are\nA) Irrational and distinct                               B) not real\nC ) rational and distinct                                D) real and equal",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        103.77,
+        537.98,
+        145.33
+      ],
+      "raw_text": "12.\nIf \ud835\udf03 = 30\ud835\udc5c   then the value of 3tan\ud835\udf03   is\nA)1                        B)\n\u221a3                     C )\n\u221a3               (D) not defined",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        156.86,
+        537.98,
+        230.87
+      ],
+      "raw_text": "13.\nThe  volume of a solid hemisphere is\n7 \ud835\udc50\ud835\udc5a3.The total surface area of the solid\nhemisphere (in sq.cm) is\nA)\n7                   B)\n7                       C)\n7                     D)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        256.96,
+        537.98,
+        312.15
+      ],
+      "raw_text": "14.\nIn a bag containing 24 balls, 4 are blue, 11 are green and the rest are white. One ball is\ndrawn at random. The probability that drawn ball is white in colour is\n\ud835\udc34)\n6               B)\n8                  C )\n24                    D)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        323.47,
+        537.98,
+        352.95
+      ],
+      "raw_text": "15.\nThe point on the x- axis nearest to the point (-4,-5) is\nA) (0, 0)             B) (-4, 0)                     C ) (-5, 0)               D) (\u221a41, 0)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        365.47,
+        537.98,
+        392.18
+      ],
+      "raw_text": "16.\nWhich of the following gives the middle most observation of the data?",
+      "options": [
+        "(a) Median",
+        "(b) Mean",
+        "(c) Range",
+        "(d) Mode"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        405.57,
+        537.98,
+        460.28
+      ],
+      "raw_text": "17.\nA point on the x-axis divides the line segment joining the points A(2, -3) and B(5, 6) in\nthe ratio 1:2. The point is\nA) (4, 0)             B) (\n2 ,\n2 )                C) (3, 0)                   D) (0,3)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        471.81,
+        537.98,
+        526.78
+      ],
+      "raw_text": "18.\nA card is drawn from a well shuffled deck of playing cards. The probability of getting red\nface card is\n\ud835\udc34)\n13                B)\n2                      C)\n52                           D)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "DIRECTION:",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        679.72,
+        537.98,
+        706.43
+      ],
+      "raw_text": "19.\nAssertion (A): HCF of any two consecutive even natural numbers is always 2.\nReason (R): Even natural numbers are divisible by 2.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "DIRECTION:",
+      "page_num": 3,
+      "bounding_box": [
+        48.02,
+        48.59,
+        537.98,
+        746.51
+      ],
+      "raw_text": "20.\nAssertion (A): If the radius of sector of a circle is reduced to its half and angle is\ndoubled then the perimeter of the sector remains the same.\nReason (R): The length of the arc subtending angle \u03b8 at the centre of a circle of radius r\n=\n\ud835\udef1\ud835\udc5f\ud835\udf03\n180.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        48.02,
+        162.38,
+        537.98,
+        218.37
+      ],
+      "raw_text": "21.\n(A)Find the H.C.F and L.C.M of 480 and 720 using the Prime factorisation method.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(A) The H.C.F of 85 and 238 is expressible in the form 85m -238. Find the value of\nm."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        48.02,
+        231.76,
+        537.98,
+        316.82
+      ],
+      "raw_text": "22.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) Two dice are rolled together bearing numbers 4, 6, 7, 9, 11, 12. Find the\nprobability that the product of numbers obtained is an odd number",
+        "OR",
+        "(B) How many positive three digit integers have the hundredths digit 8 and unit\u2019s\ndigit 5? Find the probability of selecting one such number out of all three digit\nnumbers."
+      ],
+      "is_valid": false
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        48.02,
+        329.95,
+        537.98,
+        358.02
+      ],
+      "raw_text": "23.\nEvaluate:\n2\ud835\udc60\ud835\udc56\ud835\udc5b 260\ud835\udc5c   \u2212 \ud835\udc61\ud835\udc4e\ud835\udc5b230\ud835\udc5c\n\ud835\udc60\ud835\udc52\ud835\udc502 45\ud835\udc5c",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        48.02,
+        369.31,
+        537.98,
+        384.15
+      ],
+      "raw_text": "24.\nFind the point(s) on the x-axis which is at a distance of \u221a41   units from the point (8, -5).",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "bounding_box": [
+        48.02,
+        396.69,
+        537.98,
+        423.64
+      ],
+      "raw_text": "25.\nShow that the points A(-5,6), B(3, 0) and C( 9, 8) are the vertices of an isosceles\ntriangle.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "bounding_box": [
+        48.02,
+        48.59,
+        537.98,
+        714.11
+      ],
+      "raw_text": "26.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) In \ud835\udee5ABC, D, E and F are midpoints of BC,CA and AB respectively. Prove that\n\ud835\udc39\ud835\udc35\ud835\udc37 \u223c  DEF and    DEF \u223c  ABC",
+        "OR",
+        "(B) In \ud835\udee5ABC, P and Q are points on AB and AC respectively such that PQ is parallel\nto BC.\nProve that the median AD drawn from A on BC bisects PQ."
+      ],
+      "is_valid": false,
+      "images": [
+        {
+          "filename": "q26_1.png",
+          "relative_path": "images/q26_1.png",
+          "bounding_box": [
+            91.44,
+            527.52,
+            224.16,
+            655.68
+          ],
+          "width": 132.72,
+          "height": 128.16
+        }
+      ]
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        48.02,
+        267.52,
+        537.98,
+        296.83
+      ],
+      "raw_text": "27.\nThe sum of two numbers is 18 and the sum of their reciprocals is 9/40. Find the\nnumbers.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        48.02,
+        310.27,
+        537.98,
+        340.44
+      ],
+      "raw_text": "28.\nIf \ud835\udefc  and \ud835\udefd are zeroes of a polynomial 6\ud835\udc652 -5x+1 then form a quadratic\npolynomial whose zeroes are \ud835\udefc2 and \ud835\udefd2.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        48.02,
+        367.15,
+        537.98,
+        380.62
+      ],
+      "raw_text": "29.\nIf cos\u03b8 + sin\u03b8 = 1 , then prove that cos\u03b8 - sin\u03b8 = \u00b11",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        48.02,
+        394.05,
+        537.98,
+        483.98
+      ],
+      "raw_text": "30.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) The minute hand of a wall clock is 18 cm long. Find the area of the face\nof the clock described by the minute hand in 35 minutes.",
+        "OR",
+        "(B) AB is a chord of a circle centred at O such that \u2220AOB=60\u02da.  If OA = 14 cm\nthen find the area of the minor segment. (take \u221a3 =1.73)"
+      ],
+      "is_valid": false
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "bounding_box": [
+        48.02,
+        624.5,
+        537.98,
+        639.34
+      ],
+      "raw_text": "31.\nProve that \u221a3 is an irrational number.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTIOND",
+      "page_num": 5,
+      "bounding_box": [
+        48.02,
+        48.59,
+        537.98,
+        774.85
+      ],
+      "raw_text": "32.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) Solve the following system of linear equations graphically:\nx+2y = 3, 2x-3y+8 = 0",
+        "OR",
+        "(B) Places A and B are 180 km apart on a highway. One car starts from A and\nanother from B at the same time. If the car travels in the same direction at\nA P R Q B D C O A B\ndifferent speeds, they meet in 9 hours. If they travel towards each other with the\nsame speeds as before, they meet in an hour. What are the speeds of the two\ncars?"
+      ],
+      "is_valid": false,
+      "images": [
+        {
+          "filename": "q32_1.png",
+          "relative_path": "images/q32_1.png",
+          "bounding_box": [
+            126.24,
+            156.0,
+            190.8,
+            206.16
+          ],
+          "width": 64.56,
+          "height": 50.16
+        },
+        {
+          "filename": "q32_2.png",
+          "relative_path": "images/q32_2.png",
+          "bounding_box": [
+            107.04,
+            510.72,
+            180.24,
+            560.64
+          ],
+          "width": 73.2,
+          "height": 49.92
+        }
+      ]
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTIOND",
+      "page_num": 6,
+      "bounding_box": [
+        48.02,
+        103.31,
+        537.98,
+        174.45
+      ],
+      "raw_text": "33.\nProve that the lengths of tangents drawn from an external point to a circle are equal.\nUsing above result, find the length BC of \ud835\udee5ABC. Given that, a circle is inscribed in\n\ud835\udee5ABC touching the sides AB, BC and CA at R, P and Q respectively and AB= 10 cm,\nAQ= 7cm ,CQ= 5cm.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q34",
+      "question_number": "Q34",
+      "section": "SECTIOND",
+      "page_num": 6,
+      "bounding_box": [
+        48.02,
+        363.31,
+        537.98,
+        436.73
+      ],
+      "raw_text": "34.\nA boy whose eye level is 1.35 m from the ground, spots a balloon moving with the wind\nin a horizontal line at some height from the ground. The angle of elevation of the\nballoon from the eyes of the boy at an instant is 60\ud835\udc5c. After 12 seconds, the angle of\nelevation reduces to 30\u00b0. If the speed of the wind is 3m/s then find the height of the\nballoon from the ground. (Use \u221a3= 1.73)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q35",
+      "question_number": "Q35",
+      "section": "SECTIOND",
+      "page_num": 6,
+      "bounding_box": [
+        48.02,
+        449.25,
+        538.22,
+        684.11
+      ],
+      "raw_text": "35.\nFind the mean and median of the following data:\nClass\n85-90\n90-95\n95-100\n100-105\n105-110\n110-115\nfrequency",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "The monthly expenditure on milk in 200 families of a Housing Society is given below\nMonthly\nExpendit\nure\n(in Rs.)\n1000-\n1500-\n2000-\n2500-\n3000-\n3500-\n4000-\n4500-\nNumber\nof\nfamilies\nx\nFind the value of x and also find the mean expenditure"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q36",
+      "question_number": "Q36",
+      "section": "SECTIONE",
+      "page_num": 6,
+      "bounding_box": [
+        48.02,
+        48.59,
+        538.22,
+        776.77
+      ],
+      "raw_text": "36.\nMs. Sheela visited a store near her house and found that the glass jars are arranged\none above the other in a specific pattern.\nA B C P Q R\nOn the top layer there are 3 jars. In the next layer there are 6 jars. In the 3rd layer from\nthe top there are 9 jars and so on till the 8th layer.\nOn the basis of the above situation answer the following questions.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Write an A.P whose terms represent the number of jars in different layers starting\nfrom top . Also, find the common difference.",
+        "(ii) Is it possible to arrange 34 jars in a layer if this pattern is continued? Justify your\nanswer.",
+        "(iii) (A) If there are \u2018n\u2019  number of rows in a layer then find the expression for finding the\ntotal number of jars in terms of n. Hence find \ud835\udc468 .",
+        "OR",
+        "(iii) (B) The shopkeeper added 3 jars in each layer. How many jars are there in the 5th\nlayer from the top?\n."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q36_1.png",
+          "relative_path": "images/q36_1.png",
+          "bounding_box": [
+            149.28,
+            269.52,
+            212.16,
+            316.08
+          ],
+          "width": 62.88,
+          "height": 46.56
+        },
+        {
+          "filename": "q36_2.png",
+          "relative_path": "images/q36_2.png",
+          "bounding_box": [
+            152.16,
+            266.88,
+            208.32,
+            305.04
+          ],
+          "width": 56.16,
+          "height": 38.16
+        }
+      ]
+    },
+    {
+      "question_id": "q37",
+      "question_number": "Q37",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        48.02,
+        48.81,
+        538.22,
+        754.91
+      ],
+      "raw_text": "37.\nTriangle is a very popular shape used in interior designing. The picture given above\nshows a cabinet designed by a famous interior designer.\nHere the largest triangle is represented by  ABC and smallest one with shelf is\nrepresented by  DEF. PQ is parallel to EF.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Show that  DPQ \u223c  DEF.\nA B C D E F P Q",
+        "(ii) If DP= 50 cm and PE = 70 cm then find\n\ud835\udc43\ud835\udc44\n\ud835\udc38\ud835\udc39 .",
+        "(iii) (A) If 2AB = 5DE and  ABC \u223c  DEF then show that\n\ud835\udc5d\ud835\udc52\ud835\udc5f\ud835\udc56\ud835\udc5a\ud835\udc52\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc5c\ud835\udc53 \ud835\udc34\ud835\udc35\ud835\udc36\n\ud835\udc5d\ud835\udc52\ud835\udc5f\ud835\udc56\ud835\udc5a\ud835\udc52\ud835\udc61\ud835\udc52\ud835\udc5f \ud835\udc5c\ud835\udc53 \ud835\udc37\ud835\udc38\ud835\udc39 is constant.",
+        "OR",
+        "(iii) (B) If AM and DN are medians of triangles ABC and DEF respectively then prove\nthat   ABM \u223c  DEN."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q37_1.png",
+          "relative_path": "images/q37_1.png",
+          "bounding_box": [
+            91.44,
+            337.44,
+            362.88,
+            489.36
+          ],
+          "width": 271.44,
+          "height": 151.92
+        },
+        {
+          "filename": "q37_2.png",
+          "relative_path": "images/q37_2.png",
+          "bounding_box": [
+            141.12,
+            588.72,
+            213.6,
+            638.4
+          ],
+          "width": 72.48,
+          "height": 49.68
+        }
+      ]
+    },
+    {
+      "question_id": "q38",
+      "question_number": "Q38",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "bounding_box": [
+        48.02,
+        183.26,
+        538.22,
+        461.32
+      ],
+      "raw_text": "38.\nMetallic silos are used by farmers for storing grains. Farmer Girdhar has decided to\nbuild a new metallic silo to store his harvested grains. It is in the shape of a cylinder\nmounted by a cone.\nDimensions of the conical part of a silo is as follows:\nRadius of base = 1.5 m\nHeight = 2 m\nDimensions of the cylindrical part of a silo is as follows:\nRadius = 1.5 m\nHeight = 7 m\nOn the basis of the above information answer the following questions.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i)  Calculate the slant height of the conical part of one silo.",
+        "(ii) Find the curved surface area of the conical part of one silo.\n(iii)(A) Find the cost of metal sheet used to make the curved cylindrical part of 1 silo at\nthe rate of  \u20b92000 per \ud835\udc5a2.",
+        "OR",
+        "(iii) (B) Find the total capacity of one silo to store grains."
+      ],
+      "is_valid": true
+    }
+  ]
+}

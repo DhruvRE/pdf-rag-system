@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PDF Question-Paper RAG System | CBSE Question Bank</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-  
-  <!-- MathJax 3 Configuration & Library for LaTeX rendering -->
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>EduBank Pro - Question Bank RAG System</title>
+
+  <!-- Google Fonts & Material Icons -->
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+
+  <!-- MathJax 3 & Marked Libraries for LaTeX & Markdown Rendering -->
   <script>
     window.MathJax = {
       tex: {
@@ -22,249 +25,51 @@
     };
   </script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
-  <link rel="stylesheet" href="style.css">
+  <!-- Master Stylesheet Importing Modular CSS Sections -->
+  <link rel="stylesheet" href="style.css?v=modular_v3">
 </head>
-<body>
-  <div class="background-globes">
-    <div class="globe globe-1"></div>
-    <div class="globe globe-2"></div>
-    <div class="globe globe-3"></div>
-  </div>
 
-  <div class="app-container">
-    <!-- Header Navbar -->
-    <header class="navbar">
-      <div class="logo-container">
-        <div class="logo-icon">⚡</div>
-        <div class="logo-text">
-          <h1>Question Bank RAG Engine</h1>
-          <span class="badge-tag">Multimodal PDF Pipeline</span>
-        </div>
-      </div>
-      
-      <div class="stats-bar" id="statsBar">
-        <div class="stat-item">
-          <span class="stat-value" id="statPapers">10</span>
-          <span class="stat-label">PDF Papers</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <span class="stat-value" id="statQuestions">361</span>
-          <span class="stat-label">Vector Questions</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat-item">
-          <span class="stat-value" id="statImages">101</span>
-          <span class="stat-label">Extracted Diagrams</span>
-        </div>
-      </div>
-    </header>
+<body class="bg-slate-950 text-slate-100 font-sans overflow-hidden flex h-screen">
 
-    <!-- Main Content -->
-    <main class="main-content">
-      <!-- Navigation Tabs -->
-      <div class="nav-tabs">
-        <button id="tabSearchBtn" class="nav-tab active">
-          <span>🔍 Question Search & RAG</span>
-        </button>
-        <button id="tabDraftsBtn" class="nav-tab">
-          <span>📋 Drafts Review Queue</span>
-          <span id="draftsBadge" class="tab-badge">0</span>
-        </button>
-        <button id="tabDedupBtn" class="nav-tab">
-          <span>🔄 Duplicate Detection</span>
-          <span id="dedupBadge" class="tab-badge">0</span>
-        </button>
-      </div>
+  <!-- Sidebar Partial Section -->
+  <div data-partial="partials/sidebar.html"></div>
 
-      <!-- Search Hero Card -->
-      <section id="searchTabSection" class="tab-content active">
-        <div class="search-hero-card">
-        <h2 class="search-title">Semantic RAG Question Search & LaTeX Engine</h2>
-        <p class="search-subtitle">Query vectorized Class 6, 10 & 12 examination papers with live step-by-step pipeline execution, MCQ options grid, and MathJax formula rendering.</p>
+  <!-- Main Workspace Area -->
+  <div class="flex-1 flex flex-col ml-64 overflow-hidden relative">
 
-        <div class="search-form">
-          <div class="search-input-wrapper">
-            <span class="search-icon">🔍</span>
-            <input 
-              type="text" 
-              id="searchInput" 
-              placeholder="e.g. Which of the following gives the middle most observation of data..." 
-              value="Which of the following gives the middle most observation of data"
-              autocomplete="off"
-            />
-            <button id="clearSearchBtn" class="clear-btn" style="display: none;">✕</button>
-          </div>
+    <!-- Top Header Navigation Partial -->
+    <div data-partial="partials/header.html"></div>
 
-          <div class="filters-row">
-            <div class="filter-group">
-              <label for="classFilter">Class</label>
-              <select id="classFilter">
-                <option value="all">All Classes</option>
-                <option value="6">Class 6</option>
-                <option value="10">Class 10</option>
-                <option value="12">Class 12</option>
-              </select>
-            </div>
+    <!-- Main Container Canvas -->
+    <main class="main-content-canvas flex-1 overflow-hidden flex gap-6 p-6">
 
-            <div class="filter-group">
-              <label for="subjectFilter">Subject</label>
-              <select id="subjectFilter">
-                <option value="all">All Subjects</option>
-                <option value="physics">Physics</option>
-                <option value="chemistry">Chemistry</option>
-                <option value="mathematics">Mathematics</option>
-                <option value="science">Science</option>
-              </select>
-            </div>
+      <!-- Left Filter Sidebar Partial -->
+      <div data-partial="partials/filters.html"></div>
 
-            <div class="filter-group">
-              <label for="pageSizeSelect">Per Page</label>
-              <select id="pageSizeSelect">
-                <option value="5">5 / Page</option>
-                <option value="10" selected>10 / Page</option>
-                <option value="20">20 / Page</option>
-                <option value="50">50 / Page</option>
-                <option value="-1">All Questions</option>
-              </select>
-            </div>
+      <!-- Tab Content Canvas -->
+      <section class="flex-1 flex flex-col h-full overflow-hidden">
+        <!-- Question Search Tab Partial -->
+        <div data-partial="partials/question_search.html"></div>
 
-            <button id="searchBtn" class="btn-primary">
-              <span>Execute RAG Pipeline</span>
-            </button>
-            <button id="randomBtn" class="btn-secondary">
-              <span>🎲 Randomize</span>
-            </button>
-          </div>
+        <!-- Drafts Queue Tab Partial -->
+        <div data-partial="partials/drafts_queue.html"></div>
 
-          <!-- Sample Queries -->
-          <div class="sample-pills">
-            <span class="sample-label">Try sample queries:</span>
-            <button class="sample-pill" data-query="representation of an obtuse angle digit sum">Obtuse Angle (Class 6)</button>
-            <button class="sample-pill" data-query="middle most observation of data Median Mean Range Mode">Median & Mean (Maths)</button>
-            <button class="sample-pill" data-query="Assertion HCF of any two consecutive even natural numbers is 2">Assertion-Reason HCF</button>
-            <button class="sample-pill" data-query="Ohm law electric current resistance circuit diagram">Ohm's Law (Physics)</button>
-            <button class="sample-pill" data-query="tangent drawn from external point to circle">Circle Tangent (Maths)</button>
-            <button class="sample-pill" data-query="capacitance parallel plate capacitor dielectric constant">Capacitor Formula (Physics)</button>
-          </div>
-        </div>
-      </section>
+        <!-- Deduplication Tab Partial -->
+        <div data-partial="partials/dedup_queue.html"></div>
 
-      <!-- Step-by-Step RAG Pipeline Progress Loader -->
-      <section id="pipelineLoaderCard" class="pipeline-loader-card" style="display: none;">
-        <div class="loader-header">
-          <div class="spinner"></div>
-          <h4>RAG Pipeline Execution in Progress...</h4>
-        </div>
-        
-        <div class="steps-timeline">
-          <div class="timeline-step" id="step1">
-            <div class="step-icon">1</div>
-            <div class="step-details">
-              <span class="step-title">Vectorizing Query Text</span>
-              <span class="step-desc">Generating 384-dimensional dense subword vector embedding</span>
-            </div>
-            <span class="step-status" id="step1Status">Waiting...</span>
-          </div>
-
-          <div class="timeline-step" id="step2">
-            <div class="step-icon">2</div>
-            <div class="step-details">
-              <span class="step-title">Querying LocalVectorStore DB</span>
-              <span class="step-desc">Performing L2 normalized cosine similarity search over question chunks</span>
-            </div>
-            <span class="step-status" id="step2Status">Waiting...</span>
-          </div>
-
-          <div class="timeline-step" id="step3">
-            <div class="step-icon">3</div>
-            <div class="step-details">
-              <span class="step-title">Resolving Extracted Diagram Figures</span>
-              <span class="step-desc">Linking spatial diagram PNG images and bounding box metadata</span>
-            </div>
-            <span class="step-status" id="step3Status">Waiting...</span>
-          </div>
-
-          <div class="timeline-step" id="step4">
-            <div class="step-icon">4</div>
-            <div class="step-details">
-              <span class="step-title">Formatting LaTeX & Options Grid</span>
-              <span class="step-desc">Parsing MCQ choice cards and invoking MathJax LaTeX typesetting engine</span>
-            </div>
-            <span class="step-status" id="step4Status">Waiting...</span>
-          </div>
-        </div>
-      </section>
-
-      <!-- Results Section -->
-      <section class="results-section">
-        <div class="results-header">
-          <div class="results-title-group">
-            <h3 id="resultsCountHeader">Questions (0)</h3>
-            <span id="paginationInfo" class="pagination-info">Page 1 of 1</span>
-          </div>
-          <div class="results-header-actions">
-            <button id="copyPromptBtn" class="btn-secondary" style="display: none;">
-              📋 Copy Formatted RAG Prompt Context
-            </button>
-          </div>
-        </div>
-
-        <div id="resultsGrid" class="results-grid">
-          <div class="empty-state">
-            <div class="empty-icon">🔎</div>
-            <h3>Loading questions...</h3>
-          </div>
-        </div>
-
-        <!-- Pagination Controls Bar -->
-        <div id="paginationBar" class="pagination-bar" style="display: none;">
-          <button id="firstPageBtn" class="page-btn">⏮ First</button>
-          <button id="prevPageBtn" class="page-btn">◀ Prev</button>
-          <span id="pageIndicator" class="page-indicator">Page 1 of 1</span>
-          <button id="nextPageBtn" class="page-btn">Next ▶</button>
-          <button id="lastPageBtn" class="page-btn">Last ⏭</button>
-        </div>
-      </section>
-
-      <!-- Drafts Review Queue Tab Content -->
-      <section id="draftsTabSection" class="tab-content" style="display: none;">
-        <div class="search-hero-card">
-          <h2 class="search-title">Drafts Review Queue & Quality Gate</h2>
-          <p class="search-subtitle">Review papers, low-confidence extractions, self-validation flags, and approve structured drafts before final indexing.</p>
-        </div>
-
-        <div id="draftsQueueGrid" class="results-grid" style="margin-top: 1.5rem;">
-          <div class="empty-state">
-            <div class="empty-icon">📋</div>
-            <h3>Loading draft review queue...</h3>
-          </div>
-        </div>
-      </section>
-
-      <!-- Deduplication Queue Tab Content -->
-      <section id="dedupTabSection" class="tab-content" style="display: none;">
-        <div class="search-hero-card">
-          <h2 class="search-title">🔄 Cross-Paper Question Deduplication</h2>
-          <p class="search-subtitle">Pairwise cosine vector similarity analysis detecting identical or near-duplicate questions across board exam years.</p>
-        </div>
-
-        <div id="dedupQueueGrid" class="results-grid" style="margin-top: 1.5rem;">
-          <div class="empty-state">
-            <div class="empty-icon">🔄</div>
-            <h3>Loading duplicate question queue...</h3>
-          </div>
-        </div>
+        <!-- Upload PDF Tab Partial -->
+        <div data-partial="partials/upload_pdf.html"></div>
       </section>
     </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <p>PDF Question-Paper RAG Engine • PyMuPDF + LocalVectorStore + MathJax + FastAPI</p>
-    </footer>
   </div>
 
-  <script src="app.js"></script>
+  <!-- Image Lightbox Modal Partial -->
+  <div data-partial="partials/lightbox_modal.html"></div>
+
+  <!-- Main Frontend JavaScript Logic -->
+  <script src="app.js?v=modular_v3"></script>
 </body>
 </html>

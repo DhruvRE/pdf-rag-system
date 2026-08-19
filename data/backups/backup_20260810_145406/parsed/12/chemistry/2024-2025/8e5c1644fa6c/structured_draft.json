@@ -1,0 +1,862 @@
+{
+  "exam_metadata": {
+    "subject": "chemistry",
+    "class_level": "12",
+    "year": "2024-2025",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_chemistry_2024_2025_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION B",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q76",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "48 kbar . How would the solubility of nitrogen vary (increase, decrease or\nremain the same) at a temperature above 293 K , if the value of KH rises to",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "48 kbar . How would the solubility of nitrogen vary (increase, decrease or\nremain the same) at a temperature above 293 K , if the value of KH rises to",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 76.\n48 kbar . How would the solubility of nitrogen vary (increase, decrease or\nremain the same) at a temperature above 293 K , if the value of KH rises to",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q88",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "8 kbar.\nb. Chloroform (b.p. 61.2oC) and acetone (b.p. 56oC ) are mixed to form an\nazeotrope. The mole fraction of acetone in this mixture is 0.339. Predict\nwhether the boiling point of the azeotrope formed will be (i) 60oC (ii)64.5 oC\nor (iii)54 oC. Defend your answer with reason.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "8 kbar.\nb. Chloroform (b.p. 61.2oC) and acetone (b.p. 56oC ) are mixed to form an\nazeotrope. The mole fraction of acetone in this mixture is 0.339. Predict\nwhether the boiling point of the azeotrope formed will be (i) 60oC (ii)64.5 oC\nor (iii)54 oC. Defend your answer with reason.",
+              "options": [
+                {
+                  "label": "b",
+                  "text": "Chloroform"
+                },
+                {
+                  "label": "b",
+                  "text": "p. 61.2oC) and acetone"
+                },
+                {
+                  "label": "b",
+                  "text": "p. 56oC ) are mixed to form an"
+                },
+                {
+                  "label": "a",
+                  "text": "A soda bottle will go flat"
+                },
+                {
+                  "label": "b",
+                  "text": "How does sugar help in increasing the shelf life of the product?"
+                },
+                {
+                  "label": "a",
+                  "text": "Write the IUPAC name of the following complex: K[Cr"
+                },
+                {
+                  "label": "b",
+                  "text": "Name the metal present in the complex compound of"
+                },
+                {
+                  "label": "a",
+                  "text": "Represent the cell shown in the figure."
+                },
+                {
+                  "label": "b",
+                  "text": "Name the carriers of the current in the salt bridge"
+                },
+                {
+                  "label": "c",
+                  "text": "Write the reaction taking place at the anode."
+                },
+                {
+                  "label": "a",
+                  "text": "Identify the cathode and the anode"
+                },
+                {
+                  "label": "b",
+                  "text": "Write the overall reaction"
+                },
+                {
+                  "label": "a",
+                  "text": "CH3CH2Br + KCN \u2192"
+                },
+                {
+                  "label": "b",
+                  "text": "CH3CH2CH = CH2 + HBr \ud83e\udc6a"
+                },
+                {
+                  "label": "c",
+                  "text": ""
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "a. A soda bottle will go flat (loose its fizz) faster in Srinagar than in Delhi. Is this\nstatement correct? Why or why not?\nb. How does sugar help in increasing the shelf life of the product?\n1\n1\n1\n1\n18\na. Write the IUPAC name of the following complex: K[Cr(H2O)2(C2O4)2]H2O\nb. Name the metal present in the complex compound of\n(i) Haemoglobin (ii) Vitamin B-12\n1\n\u00bd+\u00bd\n5\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n19\nObserve the following cell and answer the questions that follow:\na. Represent the cell shown in the figure.\nb. Name the carriers of the current in the salt bridge\nc. Write the reaction taking place at the anode.\n(for visually challenged learners)\nFor the cell represented as:\nMg(s)/Mg2+(aq)//Ag+(aq)/Ag(s)\na. Identify the cathode and the anode\nb. Write the overall reaction\n1\n\u00bd\n\u00bd\n1\n1\n20\nComplete the following reactions by writing the major and minor product in each\ncase (any 2)\na. CH3CH2Br + KCN \u2192\nb. CH3CH2CH = CH2 + HBr \ud83e\udc6a\nc. (CH3)2CHCHClCH3 + alc KOH \u2192\n1\n1\n1\n21\nThe presence of Carbonyl group in glucose is confirmed by its reaction with\nhydroxylamine. Identify the type of carbonyl group present and its position. Give\na chemical reaction in support of your answer.\n1\n1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 88.\n8 kbar.\nb. Chloroform (b.p. 61.2oC) and acetone (b.p. 56oC ) are mixed to form an\nazeotrope. The mole fraction of acetone in this mixture is 0.339. Predict\nwhether the boiling point of the azeotrope formed will be (i) 60oC (ii)64.5 oC\nor (iii)54 oC. Defend your answer with reason.\nOR\na. A soda bottle will go flat (loose its fizz) faster in Srinagar than in Delhi. Is this\nstatement correct? Why or why not?\nb. How does sugar help in increasing the shelf life of the product?\n1\n1\n1\n1\n18\na. Write the IUPAC name of the following complex: K[Cr(H2O)2(C2O4)2]H2O\nb. Name the metal present in the complex compound of\n(i) Haemoglobin (ii) Vitamin B-12\n1\n\u00bd+\u00bd\n5\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n19\nObserve the following cell and answer the questions that follow:\na. Represent the cell shown in the figure.\nb. Name the carriers of the current in the salt bridge\nc. Write the reaction taking place at the anode.\n(for visually challenged learners)\nFor the cell represented as:\nMg(s)/Mg2+(aq)//Ag+(aq)/Ag(s)\na. Identify the cathode and the anode\nb. Write the overall reaction\n1\n\u00bd\n\u00bd\n1\n1\n20\nComplete the following reactions by writing the major and minor product in each\ncase (any 2)\na. CH3CH2Br + KCN \u2192\nb. CH3CH2CH = CH2 + HBr \ud83e\udc6a\nc. (CH3)2CHCHClCH3 + alc KOH \u2192\n1\n1\n1\n21\nThe presence of Carbonyl group in glucose is confirmed by its reaction with\nhydroxylamine. Identify the type of carbonyl group present and its position. Give\na chemical reaction in support of your answer.\n1\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 15 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 15 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q0",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "15 V.\n2\n1",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "15 V.\n2\n1",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 0.\n15 V.\n2\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q0 has suspiciously short stem text ('15 V.\n2\n1')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION D",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q2",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "55",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "55",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 2.\n55",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q2 has suspiciously short stem text ('55')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q11",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "13\nCH3CH2CH2NH2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "13\nCH3CH2CH2NH2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 11.\n13\nCH3CH2CH2NH2",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "67\nNH",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "67\nNH",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\n67\nNH",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q10 has suspiciously short stem text ('67\nNH'); Question Q10 has suspiciously short stem text ('08\nO')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "12",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "12",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n12",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('12'); Question Q3 has suspiciously short stem text ('44'); Question Q3 has suspiciously short stem text ('6'); Question Q3 has suspiciously short stem text ('7')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "81\nNH2CH2CH2NH2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "81\nNH2CH2CH2NH2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\n81\nNH2CH2CH2NH2",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q9 has suspiciously short stem text ('45\nCH3CON'); Question Q9 has suspiciously short stem text ('28\nC6H5CON')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q10",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "08\nO",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "08\nO",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 10.\n08\nO",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q10 has suspiciously short stem text ('67\nNH'); Question Q10 has suspiciously short stem text ('08\nO')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "44",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "44",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n44",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('12'); Question Q3 has suspiciously short stem text ('44'); Question Q3 has suspiciously short stem text ('6'); Question Q3 has suspiciously short stem text ('7')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "36\nHOCH2CH2NH2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "36\nHOCH2CH2NH2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\n36\nHOCH2CH2NH2",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q8 has suspiciously short stem text ('36\nHOCH2CH2NH2')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "45\nCH3CON",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "45\nCH3CON",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\n45\nCH3CON",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q9 has suspiciously short stem text ('45\nCH3CON'); Question Q9 has suspiciously short stem text ('28\nC6H5CON')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "6",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "6",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n6",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('12'); Question Q3 has suspiciously short stem text ('44'); Question Q3 has suspiciously short stem text ('6'); Question Q3 has suspiciously short stem text ('7')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "94\nCH3CONHCH2CH2NH2",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "94\nCH3CONHCH2CH2NH2",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\n94\nCH3CONHCH2CH2NH2",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q9",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "28\nC6H5CON",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "28\nC6H5CON",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 9.\n28\nC6H5CON",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q9 has suspiciously short stem text ('45\nCH3CON'); Question Q9 has suspiciously short stem text ('28\nC6H5CON')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q3",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "7",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "7",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 3.\n7",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "Question Q3 has suspiciously short stem text ('12'); Question Q3 has suspiciously short stem text ('44'); Question Q3 has suspiciously short stem text ('6'); Question Q3 has suspiciously short stem text ('7')",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q7",
+          "marks": 1956,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "78\nC6H5CONHCH2CH2NH2\n___\n(source: Hall Jr, H. K. (1956). Field and inductive effects on the base strengths\nof amines.\u00a0Journal of the American Chemical Society,\u00a078(11), 2570-2572.)\nStudy the above data and answer the following questions:\na. Plot a graph between the electronegativity of the substituen",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1956,
+              "text": "78\nC6H5CONHCH2CH2NH2\n___\n(source: Hall Jr, H. K. (1956). Field and inductive effects on the base strengths\nof amines.\u00a0Journal of the American Chemical Society,\u00a078(11), 2570-2572.)\nStudy the above data and answer the following questions:\na. Plot a graph between the electronegativity of the substituent vs pKb value of\nthe corresponding substituted propyl amine (given that pKa + pKb =14). Is there\nany relation between the electronegativity of the substituent and its basic\nstrength?\nb. The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the\nexpected pKa value of compound C6H5CONHCH2CH2NH2?\n2\n1\n10\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n(i) 9.9\n(ii) 9.5\n(iii) 9.3\n(iv) 9.1\nc. The pKa value of the substituted piperidine formed with substituent \u201cX\u201d is\nfound to be 8.28. What is the expected electronegativity of \u201cX\u201d\n(i)3.5 (ii)3.4 (iii)3.8 (iv) 3.1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Plot a graph between the electronegativity of the substituent vs pKb value of"
+                },
+                {
+                  "label": "b",
+                  "text": "The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the"
+                },
+                {
+                  "label": "c",
+                  "text": "The pKa value of the substituted piperidine formed with substituent \u201cX\u201d is"
+                },
+                {
+                  "label": "a",
+                  "text": "How does the electronegativity of the substituent affect the pKb value and the"
+                },
+                {
+                  "label": "b",
+                  "text": "The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the"
+                },
+                {
+                  "label": "c",
+                  "text": "The pKa value of the substituted piperidine"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1956,
+                "text": "What is the most suitable pKa value of the substituted propylamine formed with\nsubstituent \u201cX\u201d with electronegativity 3.0\n(i)10.67 (ii)10.08 (iii)10.15 (iv)11.10\n(for visually challenged learners)\na.How does the electronegativity of the substituent affect the pKb value and the\nbasic strength of the substituted propyl amine (given that pKa + pKb =14).? Give\na reason to support your answer.\nb. The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the\nexpected pKa value of compound C6H5CONHCH2CH2NH2?\n(i) 9.9\n(ii) 9.5\n(iii) 9.3\n(iv) 9.1\nc. The pKa value of the substituted piperidine (compound 1) formed with\nsubstituent \u201cX\u201d is found to be 8.28. What is the expected electronegativity of \u201cX\u201d\n(i)3.5 (ii)3.4 (iii)3.8 (iv) 3.1",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 7.\n78\nC6H5CONHCH2CH2NH2\n___\n(source: Hall Jr, H. K. (1956). Field and inductive effects on the base strengths\nof amines.\u00a0Journal of the American Chemical Society,\u00a078(11), 2570-2572.)\nStudy the above data and answer the following questions:\na. Plot a graph between the electronegativity of the substituent vs pKb value of\nthe corresponding substituted propyl amine (given that pKa + pKb =14). Is there\nany relation between the electronegativity of the substituent and its basic\nstrength?\nb. The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the\nexpected pKa value of compound C6H5CONHCH2CH2NH2?\n2\n1\n10\n<!-- PAGE 10 END -->\n\n<!-- PAGE 11 START -->\n(i) 9.9\n(ii) 9.5\n(iii) 9.3\n(iv) 9.1\nc. The pKa value of the substituted piperidine formed with substituent \u201cX\u201d is\nfound to be 8.28. What is the expected electronegativity of \u201cX\u201d\n(i)3.5 (ii)3.4 (iii)3.8 (iv) 3.1\nOR\nWhat is the most suitable pKa value of the substituted propylamine formed with\nsubstituent \u201cX\u201d with electronegativity 3.0\n(i)10.67 (ii)10.08 (iii)10.15 (iv)11.10\n(for visually challenged learners)\na.How does the electronegativity of the substituent affect the pKb value and the\nbasic strength of the substituted propyl amine (given that pKa + pKb =14).? Give\na reason to support your answer.\nb. The electronegativity of the substituent \u201cC6H5CON\u201d is 3.7, what is the\nexpected pKa value of compound C6H5CONHCH2CH2NH2?\n(i) 9.9\n(ii) 9.5\n(iii) 9.3\n(iv) 9.1\nc. The pKa value of the substituted piperidine (compound 1) formed with\nsubstituent \u201cX\u201d is found to be 8.28. What is the expected electronegativity of \u201cX\u201d\n(i)3.5 (ii)3.4 (iii)3.8 (iv) 3.1\nOR\nWhat is the most suitable pKa value of the substituted propylamine formed with\nsubstituent \u201cX\u201d with electronegativity 3.0\n(i)10.67 (ii)10.08 (iii)10.15 (iv)11.10\n1\n2\n1\n1",
+          "extraction_confidence": "medium",
+          "flagged_for_review": true,
+          "flag_reason": "Pass B-0 Source Reconciliation: Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

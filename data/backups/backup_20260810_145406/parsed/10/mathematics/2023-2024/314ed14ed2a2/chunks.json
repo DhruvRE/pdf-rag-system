@@ -1,0 +1,1041 @@
+{
+  "paper_id": "314ed14ed2a2",
+  "class": "10",
+  "subject": "mathematics",
+  "year": "2023-2024",
+  "total_chunks": 36,
+  "chunks": [
+    {
+      "chunk_id": "314ed14ed2a2_q1",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "1.\nIf two positive integers a and b are written as a = x3y2 and b = xy3, where x, y are prime\nnumbers, then the result obtained by dividing the product of the positive integers by the\nLCM (a, b) is",
+      "raw_text": "1.\nIf two positive integers a and b are written as a = x3y2 and b = xy3, where x, y are prime\nnumbers, then the result obtained by dividing the product of the positive integers by the\nLCM (a, b) is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) xy                              (b) xy2                                           (c) x3y3                                        (d) x2y2"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        387.48,
+        543.27,
+        467.78
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q2",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "2.\nThe given linear polynomial y = f(x) has\n(a) 2 zeros\n(b) 1 zero and the zero is \u20183\u2019\n(c) 1 zero and the zero is \u20184\u2019",
+      "raw_text": "2.\nThe given linear polynomial y = f(x) has\n(a) 2 zeros\n(b) 1 zero and the zero is \u20183\u2019\n(c) 1 zero and the zero is \u20184\u2019",
+      "options": [
+        "(a) 2 zeros",
+        "(b) 1 zero and the zero is \u20183\u2019",
+        "(c) 1 zero and the zero is \u20184\u2019",
+        "(d) No zero"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q2_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        475.32,
+        281.84,
+        594.98
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q3",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "3.\nThe lines representing the given pair of linear equations are non-intersecting.  Which of the\nfollowing statements is true?",
+      "raw_text": "3.\nThe lines representing the given pair of linear equations are non-intersecting.  Which of the\nfollowing statements is true?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) = = (b) =\n\u2260",
+        "(c) \u2260\n= (d)\n\u2260\n\u2260"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q3_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        42.96,
+        543.3,
+        229.48
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q4",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "4.\nThe nature of roots of the quadratic equation 9x2 \u2013 6x \u2013 2 = 0 is:\n(a) No real roots                                                   (b) 2 equal real roots",
+      "raw_text": "4.\nThe nature of roots of the quadratic equation 9x2 \u2013 6x \u2013 2 = 0 is:\n(a) No real roots                                                   (b) 2 equal real roots",
+      "options": [
+        "(a) No real roots",
+        "(b) 2 equal real roots",
+        "(c) 2 distinct real roots",
+        "(d) More than 2 real roots"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        239.04,
+        448.41,
+        298.22
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q5",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "5.\nTwo APs have the same common difference. The first term of one of these is \u20131 and that of\nthe other is \u2013 8. The difference between their 4th terms is",
+      "raw_text": "5.\nTwo APs have the same common difference. The first term of one of these is \u20131 and that of\nthe other is \u2013 8. The difference between their 4th terms is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 1                                (b) -7                                (c)  7                          (d) 9"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        312.84,
+        543.21,
+        374.78
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q6",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "6.\nWhat is the ratio in which the line segment joining (2,-3) and (5, 6) is divided by x-axis?\n\n\nOptions:\n(a) 1:2\n(b) 2:1\n(c) 2:5\n(d) 5:2",
+      "raw_text": "6.\nWhat is the ratio in which the line segment joining (2,-3) and (5, 6) is divided by x-axis?",
+      "options": [
+        "(a) 1:2",
+        "(b) 2:1",
+        "(c) 2:5",
+        "(d) 5:2"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        385.08,
+        525.1,
+        423.02
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q7",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "7.\nA point (x,y) is at a distance of 5 units from the origin.  How many such points lie in the third\nquadrant?",
+      "raw_text": "7.\nA point (x,y) is at a distance of 5 units from the origin.  How many such points lie in the third\nquadrant?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 0                                 (b)  1                               (c)  2                             (d)  infinitely many"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        433.44,
+        546.63,
+        495.38
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q8",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "8.\nIn \ud835\udee5 ABC, DE \u2016 AB.  If AB = a, DE = x, BE = b and EC = c.\nThen x expressed in terms of a, b and c is:",
+      "raw_text": "8.\nIn \ud835\udee5 ABC, DE \u2016 AB.  If AB = a, DE = x, BE = b and EC = c.\nThen x expressed in terms of a, b and c is:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) (b) (c) (d)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        505.68,
+        359.7,
+        630.72
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q9",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "9.\nIf O is centre of a circle and Chord PQ makes an angle 50\u00b0 with the tangent PR at the point of contact\nP, then the angle subtended by the chord at the centre is\n(a) 130\u00b0                         (b) 100\u00b0\n(c) 50\u00b0                           (d) 30\u00b0\nA B C D E O P Q R",
+      "raw_text": "9.\nIf O is centre of a circle and Chord PQ makes an angle 50\u00b0 with the tangent PR at the point of contact\nP, then the angle subtended by the chord at the centre is\n(a) 130\u00b0                         (b) 100\u00b0\n(c) 50\u00b0                           (d) 30\u00b0\nA B C D E O P Q R",
+      "options": [
+        "(a) 130\u00b0",
+        "(b) 100\u00b0",
+        "(c) 50\u00b0",
+        "(d) 30\u00b0"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q9_1.png",
+        "images/q9_2.png"
+      ],
+      "bounding_box": [
+        48.12,
+        530.35,
+        560.68,
+        739.0
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q10",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "10.\nA quadrilateral PQRS is drawn to circumscribe a circle.\nIf PQ = 12 cm, QR = 15 cm and RS = 14 cm, then find the length of SP is\n(a) 15 cm                             (b)  14 cm",
+      "raw_text": "10.\nA quadrilateral PQRS is drawn to circumscribe a circle.\nIf PQ = 12 cm, QR = 15 cm and RS = 14 cm, then find the length of SP is\n(a) 15 cm                             (b)  14 cm",
+      "options": [
+        "(a) 15 cm",
+        "(b) 14 cm",
+        "(c) 12 cm",
+        "(d) 11 cm"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        43.08,
+        436.59,
+        128.9
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q11",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "11.\nGiven that sin \u03b8 =\n, then cos \u03b8 is.",
+      "raw_text": "11.\nGiven that sin \u03b8 =\n, then cos \u03b8 is.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \u221a                 (b)",
+        "(c) \u221a",
+        "(d) \u221a"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        138.12,
+        546.6,
+        217.36
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q12",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "12.\n(sec A + tan A) (1 \u2013 sin A) equals:",
+      "raw_text": "12.\n(sec A + tan A) (1 \u2013 sin A) equals:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) sec A                                (b) sin A                                     (c) cosec A                             (d) cos A"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        228.55,
+        508.84,
+        263.45
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q13",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "13.\nIf a pole 6 m high casts a shadow 2 \u221a3m long on the ground, then the Sun\u2019s elevation is\n\n\nOptions:\n(a) 60\u00b0\n(b) 45\u00b0\n(c) 30\u00b0\n(d) 90\u00b0",
+      "raw_text": "13.\nIf a pole 6 m high casts a shadow 2 \u221a3m long on the ground, then the Sun\u2019s elevation is",
+      "options": [
+        "(a) 60\u00b0",
+        "(b) 45\u00b0",
+        "(c) 30\u00b0",
+        "(d) 90\u00b0"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        272.88,
+        520.84,
+        312.62
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q14",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "14.\nIf the perimeter and the area of a circle are numerically equal, then the radius of the circle\nis\n\n\nOptions:\n(a) 2 units\n(b) \u03c0 units\n(c) 4 units\n(d) 7 units",
+      "raw_text": "14.\nIf the perimeter and the area of a circle are numerically equal, then the radius of the circle\nis",
+      "options": [
+        "(a) 2 units",
+        "(b) \u03c0 units",
+        "(c) 4 units",
+        "(d) 7 units"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        322.92,
+        543.2,
+        384.86
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q15",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "15.\nIt is proposed to build a new circular park equal in area to the sum of areas of two circular\nparks of diameters 16 m and 12 m in a locality. The radius of the new park is\n\n\nOptions:\n(a) 10m\n(b) 15m\n(c) 20m\n(d) 24m",
+      "raw_text": "15.\nIt is proposed to build a new circular park equal in area to the sum of areas of two circular\nparks of diameters 16 m and 12 m in a locality. The radius of the new park is",
+      "options": [
+        "(a) 10m",
+        "(b) 15m",
+        "(c) 20m",
+        "(d) 24m"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        395.16,
+        543.2,
+        457.1
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q16",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "16.\nThere is a square board of side \u20182a\u2019 units circumscribing a red circle. Jayadev is asked to\nkeep a dot on the above said board.  The probability that he keeps the dot on the shaded\nregion is.",
+      "raw_text": "16.\nThere is a square board of side \u20182a\u2019 units circumscribing a red circle. Jayadev is asked to\nkeep a dot on the above said board.  The probability that he keeps the dot on the shaded\nregion is.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(b) (c) (d) (a)"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q16_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        467.4,
+        543.29,
+        572.28
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q17",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "17.\n2 cards of hearts and 4 cards of spades are missing from a pack of 52 cards.  A card is drawn at\nrandom from the remaining pack. What is the probability of getting a black card?",
+      "raw_text": "17.\n2 cards of hearts and 4 cards of spades are missing from a pack of 52 cards.  A card is drawn at\nrandom from the remaining pack. What is the probability of getting a black card?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) -\\frac{5}{2}                                 (b)",
+        "(c) -\\frac{5}{2}                               (d)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        584.88,
+        543.05,
+        658.24
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q18",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "18.\nThe upper limit of the modal class of the given distribution is:\nHeight\n[in cm]\nBelow 140\nBelow 145\nBelow 150\nBelow 155\nBelow 160\nBelow 165\nNumber of\ngirls\n\n\nOptions:\n(a) 165\n(b) 160\n(c) 155\n(d) 150",
+      "raw_text": "18.\nThe upper limit of the modal class of the given distribution is:\nHeight\n[in cm]\nBelow 140\nBelow 145\nBelow 150\nBelow 155\nBelow 160\nBelow 165\nNumber of\ngirls",
+      "options": [
+        "(a) 165",
+        "(b) 160",
+        "(c) 155",
+        "(d) 150"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        665.76,
+        532.95,
+        761.66
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q20",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "DIRECTION:",
+      "page_num": 4,
+      "content": "20.\nStatement A (Assertion): -5,\n-\\frac{5}{2} ,  0,\n-\\frac{5}{2} , \u2026. is in Arithmetic Progression.\nStatement R (Reason) : The terms of an Arithmetic Progression cannot have both positive\nand negative rational numbers.\n(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation\nof assertion (A)\n(b) Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\n(c) Assertion (A) is true but reason (R) is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "20.\nStatement A (Assertion): -5,\n-\\frac{5}{2} ,  0,\n-\\frac{5}{2} , \u2026. is in Arithmetic Progression.\nStatement R (Reason) : The terms of an Arithmetic Progression cannot have both positive\nand negative rational numbers.\n(a) Both assertion (A) and reason (R) are true and reason (R) is the correct explanation\nof assertion (A)\n(b) Both assertion (A) and reason (R) are true and reason (R) is not the correct\nexplanation of assertion (A)\n(c) Assertion (A) is true but reason (R) is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        391.08,
+        543.25,
+        589.46
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q21",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "21.\nProve that \u221a2 is an irrational number.",
+      "raw_text": "21.\nProve that \u221a2 is an irrational number.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q21_1.png",
+        "images/q21_2.png",
+        "images/q21_3.png",
+        "images/q21_4.png",
+        "images/q21_5.png",
+        "images/q21_6.png",
+        "images/q21_7.png",
+        "images/q21_8.png"
+      ],
+      "bounding_box": [
+        48.12,
+        646.8,
+        273.15,
+        663.15
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q22",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "22.\nABCD is a parallelogram. Point P divides AB in the\nratio 2:3 and point Q divides DC in the ratio 4:1.\nProve that OC is half of OA.",
+      "raw_text": "22.\nABCD is a parallelogram. Point P divides AB in the\nratio 2:3 and point Q divides DC in the ratio 4:1.\nProve that OC is half of OA.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        42.96,
+        354.0,
+        99.14
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q23",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "23.\nFrom an external point P, two tangents, PA\nand PB are drawn to a circle with centre O.\nAt a point E on the circle, a tangent is drawn\nto intersect PA and PB at C and D,\nrespectively. If PA = 10 cm, find the\nperimeter of \u2206PCD.",
+      "raw_text": "23.\nFrom an external point P, two tangents, PA\nand PB are drawn to a circle with centre O.\nAt a point E on the circle, a tangent is drawn\nto intersect PA and PB at C and D,\nrespectively. If PA = 10 cm, find the\nperimeter of \u2206PCD.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q23_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        166.44,
+        300.87,
+        285.99
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q24",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "24.\nIf tan (A + B) = \u221a3 and tan (A \u2013 B) =\n\u221a; 0\u00b0 < A + B < 90\u00b0; A > B, find A and B.",
+      "raw_text": "24.\nIf tan (A + B) = \u221a3 and tan (A \u2013 B) =\n\u221a; 0\u00b0 < A + B < 90\u00b0; A > B, find A and B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Find the value of x if\n2 cosec230 + x sin260 \u2013\ntan230 = 10"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        308.04,
+        558.04,
+        405.74
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q25",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 5,
+      "content": "25.\nWith vertices A, B and C of \u0394ABC as centres, arcs are drawn with radii 14 cm and the three\nportions of the triangle so obtained are removed. Find the total area removed from the\ntriangle.",
+      "raw_text": "25.\nWith vertices A, B and C of \u0394ABC as centres, arcs are drawn with radii 14 cm and the three\nportions of the triangle so obtained are removed. Find the total area removed from the\ntriangle.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Find the area of the unshaded region shown in the\ngiven figure."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        430.92,
+        558.04,
+        551.42
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q26",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 5,
+      "content": "26.\nNational Art convention got registrations from students from all parts of the country, of\nwhich 60 are interested in music, 84 are interested in dance and 108 students are interested\nA B C D P Q O\nin handicrafts.  For optimum cultural exchange, organisers wish to keep them in minimum\nnumber of groups such that each group consists of students interested in the same artform\nand the number of students in each group is the same.  Find the number of students in each\ngroup.  Find the number of groups in each art form.  How many rooms are required if each\ngroup will be allotted a room?",
+      "raw_text": "26.\nNational Art convention got registrations from students from all parts of the country, of\nwhich 60 are interested in music, 84 are interested in dance and 108 students are interested\nA B C D P Q O\nin handicrafts.  For optimum cultural exchange, organisers wish to keep them in minimum\nnumber of groups such that each group consists of students interested in the same artform\nand the number of students in each group is the same.  Find the number of students in each\ngroup.  Find the number of groups in each art form.  How many rooms are required if each\ngroup will be allotted a room?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q26_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        60.91,
+        558.04,
+        776.18
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q27",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "27.\nIf \ud835\udefc, \u03b2 are zeroes of quadratic polynomial 5x2 + 5x + 1, find the value of\n1. \ud835\udefc + \ud835\udefd\n2. \ud835\udefc\n+ \ud835\udefd",
+      "raw_text": "27.\nIf \ud835\udefc, \u03b2 are zeroes of quadratic polynomial 5x2 + 5x + 1, find the value of\n1. \ud835\udefc + \ud835\udefd\n2. \ud835\udefc\n+ \ud835\udefd",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        170.04,
+        441.12,
+        228.03
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q28",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "28.\nThe sum of a two digit number and the number obtained by reversing the digits is 66. If the\ndigits of the number differ by 2, find the number. How many such numbers are there?",
+      "raw_text": "28.\nThe sum of a two digit number and the number obtained by reversing the digits is 66. If the\ndigits of the number differ by 2, find the number. How many such numbers are there?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Solve : -\n\u221a +\n\u221a = 2 ;\n\u221a -\n\u221a = -1,  x, y>o"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        235.56,
+        558.04,
+        331.36
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q29",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "29.\nPA and PB are tangents drawn to a circle of centre O from an external point P.  Chord AB\nmakes an angle of 30\u00b0 with the radius at the point of contact.\nIf length of the chord is 6 cm, find the length of the tangent PA and the length of the radius\nOA.",
+      "raw_text": "29.\nPA and PB are tangents drawn to a circle of centre O from an external point P.  Chord AB\nmakes an angle of 30\u00b0 with the radius at the point of contact.\nIf length of the chord is 6 cm, find the length of the tangent PA and the length of the radius\nOA.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Two tangents TP and TQ are drawn to a circle with centre O from an external point T. Prove\nthat \u2220PTQ = 2 \u2220 OPQ."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q29_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        339.12,
+        558.04,
+        565.22
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q30",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "30.\nIf 1 + sin2\u03b8 = 3sin\u03b8 cos\u03b8 , then prove that tan\u03b8 = 1 or",
+      "raw_text": "30.\nIf 1 + sin2\u03b8 = 3sin\u03b8 cos\u03b8 , then prove that tan\u03b8 = 1 or",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        597.36,
+        354.75,
+        626.92
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q31",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 6,
+      "content": "31.\nThe length of 40 leaves of a plant are measured correct to nearest millimetre, and the data\nobtained is represented in the following table.\nLength [in mm]\nNumber of leaves\n118 \u2013 126\n127 \u2013 135\n136 \u2013 144\n145 \u2013 153\n154 \u2013 162\n163 \u2013 171\n172 \u2013 180\nFind the mean length of the leaves.",
+      "raw_text": "31.\nThe length of 40 leaves of a plant are measured correct to nearest millimetre, and the data\nobtained is represented in the following table.\nLength [in mm]\nNumber of leaves\n118 \u2013 126\n127 \u2013 135\n136 \u2013 144\n145 \u2013 153\n154 \u2013 162\n163 \u2013 171\n172 \u2013 180\nFind the mean length of the leaves.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        634.32,
+        543.28,
+        763.7
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q32",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "content": "32.\nA motor boat whose speed is 18 km/h in still water takes 1 hour more to go 24 km upstream\nthan to return downstream to the same spot. Find the speed of stream.",
+      "raw_text": "32.\nA motor boat whose speed is 18 km/h in still water takes 1 hour more to go 24 km upstream\nthan to return downstream to the same spot. Find the speed of stream.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Two water taps together can fill a tank in 9\nhours. The tap of larger diameter takes 10\nhours less than the smaller one to fill the tank separately. Find the time in which each tap\ncan separately fill the tank."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        210.12,
+        558.04,
+        324.98
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q34",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q34",
+      "question_number": "Q34",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIOND",
+      "page_num": 7,
+      "content": "34.\nWater is flowing at the rate of 15 km/h through a pipe of diameter 14 cm into a cuboidal\npond which is 50 m long and 44 m wide. In what time will the level of water in pond rise by\n21 cm?\nWhat should be the speed of water if the rise in water level is to be attained in 1 hour?",
+      "raw_text": "34.\nWater is flowing at the rate of 15 km/h through a pipe of diameter 14 cm into a cuboidal\npond which is 50 m long and 44 m wide. In what time will the level of water in pond rise by\n21 cm?\nWhat should be the speed of water if the rise in water level is to be attained in 1 hour?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "A tent is in the shape of a cylinder surmounted by a conical top. If the height and radius of\nthe cylindrical part are 3 m and 14 m respectively, and the total height of the tent is 13.5 m,\nfind the area of the canvas required for making the tent, keeping a provision of 26 m2 of\ncanvas for stitching and wastage. Also, find the cost of the canvas to be purchased at the rate\nof \u20b9 500 per m2."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        457.8,
+        558.04,
+        641.66
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q35",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q35",
+      "question_number": "Q35",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIOND",
+      "page_num": 8,
+      "content": "35.\nThe median of the following data is 50.  Find the values of \u2018p\u2019 and \u2018q\u2019, if the sum of all frequencies is\n90.  Also find the mode of the data.\nMarks obtained\nNumber of students\n20 \u2013 30\np\n30 \u2013 40\n40 \u2013 50\n50 \u2013 60\n60 \u2013 70\nq\n70 \u2013 80\n80 - 90",
+      "raw_text": "35.\nThe median of the following data is 50.  Find the values of \u2018p\u2019 and \u2018q\u2019, if the sum of all frequencies is\n90.  Also find the mode of the data.\nMarks obtained\nNumber of students\n20 \u2013 30\np\n30 \u2013 40\n40 \u2013 50\n50 \u2013 60\n60 \u2013 70\nq\n70 \u2013 80\n80 - 90",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        42.96,
+        543.03,
+        247.34
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q36",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q36",
+      "question_number": "Q36",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "content": "36.\nManpreet Kaur is the national record holder for women in the shot-put discipline. Her throw of\n18.86m at the Asian Grand Prix in 2017 is the\nmaximum distance for an Indian female athlete.\nKeeping her as a role model, Sanjitha is determined\nto earn gold in Olympics one day.\nInitially her throw reached 7.56m only.  Being an\nathlete in school, she regularly practiced both in the\nmornings and in the evenings and was able to\nimprove the distance by 9cm every week.\nDuring the special camp for 15 days, she started with\n40 throws and every day kept increasing the number\nof throws by 12 to achieve this remarkable progress.",
+      "raw_text": "36.\nManpreet Kaur is the national record holder for women in the shot-put discipline. Her throw of\n18.86m at the Asian Grand Prix in 2017 is the\nmaximum distance for an Indian female athlete.\nKeeping her as a role model, Sanjitha is determined\nto earn gold in Olympics one day.\nInitially her throw reached 7.56m only.  Being an\nathlete in school, she regularly practiced both in the\nmornings and in the evenings and was able to\nimprove the distance by 9cm every week.\nDuring the special camp for 15 days, she started with\n40 throws and every day kept increasing the number\nof throws by 12 to achieve this remarkable progress.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) How many throws Sanjitha practiced on 11th day of the camp?",
+        "(ii) What would be Sanjitha\u2019s throw distance at the end of 6 weeks?\n(or)\nWhen will she be able to achieve a throw of 11.16 m?",
+        "(iii) How many throws did she do during the entire camp of 15 days ?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q36_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        314.04,
+        558.04,
+        633.05
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q37",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q37",
+      "question_number": "Q37",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "content": "37.\nTharunya was thrilled to know that the football tournament is fixed with a monthly timeframe from\n20th July to 20th August 2023 and for the first time in the FIFA Women\u2019s World Cup\u2019s history, two\nnations host in 10 venues.  Her father felt that the game can be better understood if the position of\nplayers is represented as points on a coordinate plane.",
+      "raw_text": "37.\nTharunya was thrilled to know that the football tournament is fixed with a monthly timeframe from\n20th July to 20th August 2023 and for the first time in the FIFA Women\u2019s World Cup\u2019s history, two\nnations host in 10 venues.  Her father felt that the game can be better understood if the position of\nplayers is represented as points on a coordinate plane.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) At an instance, the midfielders and forward formed a parallelogram.  Find the\nposition of the central midfielder (D) if the position of other players who formed\nthe parallelogram are :-  A(1,2), B(4,3) and C(6,6)",
+        "(ii) Check if the Goal keeper G(-3,5), Sweeper H(3,1) and Wing-back K(0,3) fall on a\nsame straight line.",
+        "OR",
+        "Check if the Full-back J(5,-3) and centre-back I(-4,6) are equidistant from\nforward C(0,1) and if C is the mid-point of IJ.",
+        "(iii) If Defensive midfielder A(1,4), Attacking midfielder B(2,-3) and Striker E(a,b) lie on\nthe same straight line and B is equidistant from A and E, find the position of E."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q37_1.png"
+      ],
+      "bounding_box": [
+        48.12,
+        674.52,
+        543.12,
+        745.61
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "314ed14ed2a2_q38",
+      "paper_id": "314ed14ed2a2",
+      "question_id": "q38",
+      "question_number": "Q38",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2023-2024",
+      "section": "SECTIONE",
+      "page_num": 9,
+      "content": "38.\nOne evening, Kaushik was in a park.  Children were playing cricket. Birds were singing on a\nnearby tree of height 80m.  He observed a bird on the tree at an angle of elevation of 45\u00b0.\nWhen a sixer was hit, a ball flew through the tree frightening the bird to fly away.  In 2\nseconds, he observed the bird flying at the same height at an angle of elevation of 30\u00b0 and\nthe ball flying towards him at the same height at an angle of elevation of 60\u00b0.",
+      "raw_text": "38.\nOne evening, Kaushik was in a park.  Children were playing cricket. Birds were singing on a\nnearby tree of height 80m.  He observed a bird on the tree at an angle of elevation of 45\u00b0.\nWhen a sixer was hit, a ball flew through the tree frightening the bird to fly away.  In 2\nseconds, he observed the bird flying at the same height at an angle of elevation of 30\u00b0 and\nthe ball flying towards him at the same height at an angle of elevation of 60\u00b0.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) At what distance from the foot of the tree was he observing the bird sitting on the\ntree?",
+        "(ii) How far did the bird fly in the mentioned time?\n(or)\nAfter hitting the tree, how far did the ball travel in the sky when Kaushik saw the\nball?",
+        "(iii) What is the speed of the bird in m/min if it had flown 20(\u221a3 + 1) m?"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        48.12,
+        522.72,
+        543.24,
+        645.14
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

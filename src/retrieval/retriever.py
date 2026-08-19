@@ -40,16 +40,30 @@ def format_rag_context(retrieved_results: list[dict]) -> str:
     formatted_blocks = []
     for idx, res in enumerate(retrieved_results, 1):
         meta = res.get("metadata", {})
-        doc = res.get("document", "")
-        sim = res.get("similarity", 0.0)
+        pid = res.get("paper_id") or meta.get("paper_id")
+        cls = res.get("class") or meta.get("class")
+        subj = res.get("subject") or meta.get("subject")
+        yr = res.get("year") or meta.get("year")
+        qn = res.get("question_number") or meta.get("question_number")
+        doc = res.get("stem_text") or res.get("content") or res.get("document", "")
+        sim = res.get("similarity", 1.0)
 
-        header = f"--- [Result {idx}] Paper: {meta.get('paper_id')} | Class {meta.get('class')} {meta.get('subject')} ({meta.get('year')}) | Question: {meta.get('question_number')} | Similarity: {sim:.4f} ---"
+        header = f"--- [Result {idx}] Paper: {pid} | Class {cls} {subj} ({yr}) | Question: {qn} | Similarity: {sim:.4f} ---"
         
         block_parts = [header, doc]
         
-        linked_imgs = meta.get("linked_images")
-        if linked_imgs and linked_imgs != "[]":
-            block_parts.append(f"Linked Diagram Images: {linked_imgs}")
+        opts = res.get("options")
+        if opts:
+            if isinstance(opts, list):
+                opts_formatted = []
+                for o in opts:
+                    if isinstance(o, dict):
+                        opts_formatted.append(f"({o.get('label')}) {o.get('text')}")
+                    else:
+                        opts_formatted.append(str(o))
+                block_parts.append("Options:\n" + "\n".join(opts_formatted))
+            elif isinstance(opts, str) and opts != "[]":
+                block_parts.append(f"Options: {opts}")
 
         formatted_blocks.append("\n".join(block_parts))
 

@@ -1,0 +1,34 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/business_studies/2024-2025/813176747120/images/img_p2_1.png",
+    "relative_path": "813176747120/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      167.0,
+      588.03,
+      311.96,
+      709.38
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Identify the components of the business environme study. A. Political and economic environment B. Economic and social environment C. Technological and legal environment D. Economic and technological e"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p2_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/business_studies/2024-2025/813176747120/images/img_p2_2.png",
+    "relative_path": "813176747120/images/img_p2_2.png",
+    "page": 2,
+    "bbox": [
+      312.0,
+      588.64,
+      464.65,
+      709.37
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "2 ts of the business environment from the above case onomic environment ocial environment nd legal environment echnological environment"
+  }
+}

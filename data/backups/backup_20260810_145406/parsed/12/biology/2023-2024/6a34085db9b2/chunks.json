@@ -1,0 +1,949 @@
+{
+  "paper_id": "6a34085db9b2",
+  "class": "12",
+  "subject": "biology",
+  "year": "2023-2024",
+  "total_chunks": 33,
+  "chunks": [
+    {
+      "chunk_id": "6a34085db9b2_q1",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "Remnants of nucellus are persistent during seed development in:\na) pea\nb) groundnut\nc) wheat\n\n\nOptions:\n(a) pea\n(b) groundnut\n(c) wheat\n(d) black pepper",
+      "raw_text": "Remnants of nucellus are persistent during seed development in:\na) pea\nb) groundnut\nc) wheat",
+      "options": [
+        "(a) pea",
+        "(b) groundnut",
+        "(c) wheat",
+        "(d) black pepper"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        360.78,
+        421.37,
+        436.39
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q2",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "The wall layer of microsporangium which nourishes the pollen grain is:\na) epidermis\nb) endothecium\nc) middle layers\n\n\nOptions:\n(a) epidermis\n(b) endothecium\n(c) middle layers\n(d) tapetum",
+      "raw_text": "The wall layer of microsporangium which nourishes the pollen grain is:\na) epidermis\nb) endothecium\nc) middle layers",
+      "options": [
+        "(a) epidermis",
+        "(b) endothecium",
+        "(c) middle layers",
+        "(d) tapetum"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        447.44,
+        446.45,
+        522.91
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q3",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 1,
+      "content": "A short piece of DNA, having 20 base pairs, was analyzed to find the number of\nnucleotide bases in each of the polynucleotide strands. Some of the results are\nshown in the table.\nNumber of nucleotide bases\nAdenine\nCytosine Guanine Thymine\nStrand 1\nStrand 2\nHow many nucleotides containing Adenine were present in strand 2?\na) 2\nb) 4\nc) 5\nd) 7",
+      "raw_text": "A short piece of DNA, having 20 base pairs, was analyzed to find the number of\nnucleotide bases in each of the polynucleotide strands. Some of the results are\nshown in the table.\nNumber of nucleotide bases\nAdenine\nCytosine Guanine Thymine\nStrand 1\nStrand 2\nHow many nucleotides containing Adenine were present in strand 2?\na) 2\nb) 4\nc) 5\nd) 7",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        533.96,
+        514.33,
+        715.54
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q4",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "In a certain species of insects, some have 13 chromosomes, and the others have\n14chromosomes.The 13 and 14 chromosome bearing organisms are\na) males and females, respectively\nb) females and males, respectively\nc) all males\n\n\nOptions:\n(a) males and females, respectively\n(b) females and males, respectively\n(c) all males\n(d) all females",
+      "raw_text": "In a certain species of insects, some have 13 chromosomes, and the others have\n14chromosomes.The 13 and 14 chromosome bearing organisms are\na) males and females, respectively\nb) females and males, respectively\nc) all males",
+      "options": [
+        "(a) males and females, respectively",
+        "(b) females and males, respectively",
+        "(c) all males",
+        "(d) all females"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        40.57,
+        512.0,
+        130.1
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q5",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "At a particular locus, the frequency of allele A is 0.8 and that of allele a is 0.2.\nWhat would be the frequency of heterozygotes in a random mating population at\nequilibrium?\na) 0.32\nb) 0.16\nc) 0.24\n\n\nOptions:\n(a) 0.32\n(b) 0.16\n(c) 0.24\n(d) 0.48",
+      "raw_text": "At a particular locus, the frequency of allele A is 0.8 and that of allele a is 0.2.\nWhat would be the frequency of heterozygotes in a random mating population at\nequilibrium?\na) 0.32\nb) 0.16\nc) 0.24",
+      "options": [
+        "(a) 0.32",
+        "(b) 0.16",
+        "(c) 0.24",
+        "(d) 0.48"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        144.63,
+        511.37,
+        247.94
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q6",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "Variations caused due to  mutations are\na) random and directionless\nb) random and directional\nc) random and small\n\n\nOptions:\n(a) random and directionless\n(b) random and directional\n(c) random and small\n(d) random, small and directional",
+      "raw_text": "Variations caused due to  mutations are\na) random and directionless\nb) random and directional\nc) random and small",
+      "options": [
+        "(a) random and directionless",
+        "(b) random and directional",
+        "(c) random and small",
+        "(d) random, small and directional"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        259.02,
+        301.23,
+        334.61
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q7",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "What is the smallest part of a DNA molecule that can be changed by a point\nmutation?\na) Oligonucleotide\nb) Codon\nc) Gene\n\n\nOptions:\n(a) Oligonucleotide\n(b) Codon\n(c) Gene\n(d) Nucleotide",
+      "raw_text": "What is the smallest part of a DNA molecule that can be changed by a point\nmutation?\na) Oligonucleotide\nb) Codon\nc) Gene",
+      "options": [
+        "(a) Oligonucleotide",
+        "(b) Codon",
+        "(c) Gene",
+        "(d) Nucleotide"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        347.7,
+        511.0,
+        437.23
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q8",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 2,
+      "content": "What should be the genotype of the indicated member?\na) AA\nb) Aa\nc) XY\n\n\nOptions:\n(a) AA\n(b) Aa\n(c) XY\n(d) aa",
+      "raw_text": "What should be the genotype of the indicated member?\na) AA\nb) Aa\nc) XY",
+      "options": [
+        "(a) AA",
+        "(b) Aa",
+        "(c) XY",
+        "(d) aa"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q8_1.png"
+      ],
+      "bounding_box": [
+        66.74,
+        454.28,
+        378.89,
+        690.34
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q9",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "A patient was advised to have a kidney transplant. To suppress the immune\nreaction, the doctor would administer him:\na) statins produced from Monascus purpureus\nb) statins produced from Streptococcus thermophilus\nc) cyclosporin A produced from Trichoderma polysporum\n\n\nOptions:\n(a) statins produced from Monascus purpureus\n(b) statins produced from Streptococcus thermophilus\n(c) cyclosporin A produced from Trichoderma polysporum\n(d) cyclosporin A produced from Clostridium butylicum",
+      "raw_text": "A patient was advised to have a kidney transplant. To suppress the immune\nreaction, the doctor would administer him:\na) statins produced from Monascus purpureus\nb) statins produced from Streptococcus thermophilus\nc) cyclosporin A produced from Trichoderma polysporum",
+      "options": [
+        "(a) statins produced from Monascus purpureus",
+        "(b) statins produced from Streptococcus thermophilus",
+        "(c) cyclosporin A produced from Trichoderma polysporum",
+        "(d) cyclosporin A produced from Clostridium butylicum"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        66.74,
+        40.57,
+        511.31,
+        130.1
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q10",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Identify the activity of endonuclease and exonuclease in the given image.",
+      "raw_text": "Identify the activity of endonuclease and exonuclease in the given image.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        147.03,
+        453.53,
+        160.94
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q11",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "The main objective of production of pest resistant GM crops is to\na) encourage eco-friendly pesticides\nb) reduce pesticide accumulation in food chain\nc) eliminate pests from the field without the use of manual labour\nd) retain maximum nutritional content in the crop that would be otherwise\nconsumed by pest\n\n\nOptions:\n(a) encourage eco-friendly pesticides\n(b) reduce pesticide accumulation in food chain\n(c) eliminate pests from the field without the use of manual labour\n(d) retain maximum nutritional content in the crop that would be otherwise",
+      "raw_text": "The main objective of production of pest resistant GM crops is to\na) encourage eco-friendly pesticides\nb) reduce pesticide accumulation in food chain\nc) eliminate pests from the field without the use of manual labour\nd) retain maximum nutritional content in the crop that would be otherwise\nconsumed by pest",
+      "options": [
+        "(a) encourage eco-friendly pesticides",
+        "(b) reduce pesticide accumulation in food chain",
+        "(c) eliminate pests from the field without the use of manual labour",
+        "(d) retain maximum nutritional content in the crop that would be otherwise"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        374.7,
+        511.17,
+        464.23
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q12",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 3,
+      "content": "Observe the contents 1,2,3 and 4 of soil samples A,B and C shown in the graph. If\nthe temperature and soil moisture of all soil samples are identical, which soil\nsample (s) will show faster decomposition?\na) Soil Sample A\nb) Soil Sample B\nc) Soil Samples A and B both\nd) Soil Sample C\nQuestion No. 13 to 16 consist of two statements \u2013 Assertion (A) and Reason (R). Answer these\nquestions selecting the appropriate option given below:\na) Both A and R are true and R is the correct explanation of A.\nb) Both A and R are true and R is not the correct explanation of A.\nc) A is true but R is false.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Observe the contents 1,2,3 and 4 of soil samples A,B and C shown in the graph. If\nthe temperature and soil moisture of all soil samples are identical, which soil\nsample (s) will show faster decomposition?\na) Soil Sample A\nb) Soil Sample B\nc) Soil Samples A and B both\nd) Soil Sample C\nQuestion No. 13 to 16 consist of two statements \u2013 Assertion (A) and Reason (R). Answer these\nquestions selecting the appropriate option given below:\na) Both A and R are true and R is the correct explanation of A.\nb) Both A and R are true and R is not the correct explanation of A.\nc) A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q12_1.png",
+        "images/q12_2.png"
+      ],
+      "bounding_box": [
+        63.72,
+        481.28,
+        511.12,
+        523.03
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q13",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "Assertion: Primary endosperm nucleus is diploi\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Primary endosperm nucleus is diploi",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        249.78,
+        340.85,
+        283.61
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q14",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "Assertion:Ribosomal RNA is synthesized in the nucleus of the cell.\nReason: It is translated with the enzyme RNA polymerase III.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion:Ribosomal RNA is synthesized in the nucleus of the cell.\nReason: It is translated with the enzyme RNA polymerase III.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        297.66,
+        425.81,
+        331.49
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q15",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "Assertion: Smoking can raise blood pressure and increase heart rate.\nReason: Nicotine stimulates adrenal glands to release adrenaline and nor-\nadrenaline into the blood circulation, both of which raise blood pressure and\nincrease heart rate.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: Smoking can raise blood pressure and increase heart rate.\nReason: Nicotine stimulates adrenal glands to release adrenaline and nor-\nadrenaline into the blood circulation, both of which raise blood pressure and\nincrease heart rate.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        345.42,
+        504.0,
+        407.09
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q16",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION A",
+      "page_num": 4,
+      "content": "Assertion: PCR is a powerful technique to identify genetic disorders.\nReason: PCR can detect mutations in low amounts of DNA.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion: PCR is a powerful technique to identify genetic disorders.\nReason: PCR can detect mutations in low amounts of DNA.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        421.14,
+        436.61,
+        454.99
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q17",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "Explain the process of hormonal regulation of spermatogenesis.",
+      "raw_text": "Explain the process of hormonal regulation of spermatogenesis.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        496.04,
+        412.13,
+        509.95
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q18",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 4,
+      "content": "The diagram below shows the sequence of amino acids in part of a haemoglobin\nmolecule.\na)\nIf the base T* was substituted with A, how would it affect the haemoglobin\nchain?\nb)\nName the condition and the effects associated with the above substitution.",
+      "raw_text": "The diagram below shows the sequence of amino acids in part of a haemoglobin\nmolecule.\na)\nIf the base T* was substituted with A, how would it affect the haemoglobin\nchain?\nb)\nName the condition and the effects associated with the above substitution.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q18_1.png"
+      ],
+      "bounding_box": [
+        63.72,
+        527.6,
+        492.19,
+        555.43
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q19",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 5,
+      "content": "The graph given below indicates the administration of the first (L) and second dose\n(M) of a vaccine. The corresponding response of the body is indicated by X and Y.\nInterpret the graph and explain the reason for such a response shown by the\nbody.",
+      "raw_text": "The graph given below indicates the administration of the first (L) and second dose\n(M) of a vaccine. The corresponding response of the body is indicated by X and Y.\nInterpret the graph and explain the reason for such a response shown by the\nbody.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q19_1.png",
+        "images/q19_2.png"
+      ],
+      "bounding_box": [
+        63.72,
+        119.07,
+        506.72,
+        174.74
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q20",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 5,
+      "content": "The image below shows the result of plating bacteria in chromogenic medium after\nincorporating the gene of interest in plasmid. Some plates had blue colonies; some\nplates had white colonies. A single bacterium extracted from Plate I,II,III is shown\nbelow:\nOn the basis of your observations\na)    Identify the plate(s) which is/are white. Give a reason.\nb)    Identify the plate(s) which is/are blue. Give a reason.",
+      "raw_text": "The image below shows the result of plating bacteria in chromogenic medium after\nincorporating the gene of interest in plasmid. Some plates had blue colonies; some\nplates had white colonies. A single bacterium extracted from Plate I,II,III is shown\nbelow:\nOn the basis of your observations\na)    Identify the plate(s) which is/are white. Give a reason.\nb)    Identify the plate(s) which is/are blue. Give a reason.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        344.82,
+        506.94,
+        699.46
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q21",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION B",
+      "page_num": 6,
+      "content": "Biomass of a standing crop of phytoplankton is 4 kg/m2 which supports a large\nstanding crop of zooplankton having a biomass 11 kg/m2. This is consumed by\nsmall fishes having biomass 25 kg/m2 which are then consumed by large fishes with\nthe biomass 37 kg/m2.\nDraw an ecological pyramid indicating the biomass at each stage and also name the\ntrophic levels. Mention whether it is an upright or inverted pyramid.",
+      "raw_text": "Biomass of a standing crop of phytoplankton is 4 kg/m2 which supports a large\nstanding crop of zooplankton having a biomass 11 kg/m2. This is consumed by\nsmall fishes having biomass 25 kg/m2 which are then consumed by large fishes with\nthe biomass 37 kg/m2.\nDraw an ecological pyramid indicating the biomass at each stage and also name the\ntrophic levels. Mention whether it is an upright or inverted pyramid.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Use the information provided in the table given below to answer the following\nquestions:\nTropic level\nNet Production(KJm-2y-1 )\nRespiration (KJm-2y-1 )\nTop Carnivore\nCarnivores\nHerbivores\nProducers\n40,367\na) Calculate the gross primary productivity.\nb) Analyze the trend in the Net Production from Producers to Top\nCarnivore. Give a reason for your observation."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        46.21,
+        506.87,
+        374.45
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q22",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 6,
+      "content": "The figure given below shows 3 sperms A, B and C.\na) Which one of the three sperms will gain entry into the ovum?\nb) Describe the associated changes induced by it on P and Q.",
+      "raw_text": "The figure given below shows 3 sperms A, B and C.\na) Which one of the three sperms will gain entry into the ovum?\nb) Describe the associated changes induced by it on P and Q.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q22_1.png"
+      ],
+      "bounding_box": [
+        63.72,
+        426.32,
+        443.57,
+        480.07
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q23",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "Explain the phases in embryonic development from the morula stage till the\nestablishment of pregnancy in a human female.",
+      "raw_text": "Explain the phases in embryonic development from the morula stage till the\nestablishment of pregnancy in a human female.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        46.57,
+        471.03,
+        74.4
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q24",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "A pregnant human female was advised to undergo MTP. It was diagnosed that the\nfetus she was carrying had developed from a zygote having 45 chromosomes with\nonly one X chromosome.\na) What is this condition called and how does it arise?\nb) Why was she advised to undergo MTP?",
+      "raw_text": "A pregnant human female was advised to undergo MTP. It was diagnosed that the\nfetus she was carrying had developed from a zygote having 45 chromosomes with\nonly one X chromosome.\na) What is this condition called and how does it arise?\nb) Why was she advised to undergo MTP?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        97.47,
+        500.23,
+        178.94
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q25",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "The graphs below show three types of natural selection. The shaded areas\nmarked with arrows show the individuals in the population which are not\nselected. The dotted vertical lines show the statistical means.\na) What names are given to the types of selection shown in graphs A, B\nand C.\nb) After the selection has operated for several generations in the above\npopulations indicated as Graph A, B and C, graphically illustrate the probable\nresults.",
+      "raw_text": "The graphs below show three types of natural selection. The shaded areas\nmarked with arrows show the individuals in the population which are not\nselected. The dotted vertical lines show the statistical means.\na) What names are given to the types of selection shown in graphs A, B\nand C.\nb) After the selection has operated for several generations in the above\npopulations indicated as Graph A, B and C, graphically illustrate the probable\nresults.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q25_1.png"
+      ],
+      "bounding_box": [
+        63.72,
+        204.63,
+        499.29,
+        461.95
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q26",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "The aeration tank of a sewage treatment plant is not functioning properly. Explain\nin detail the impact of this on the treatment of sewage and BOD of the effluent.",
+      "raw_text": "The aeration tank of a sewage treatment plant is not functioning properly. Explain\nin detail the impact of this on the treatment of sewage and BOD of the effluent.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        478.88,
+        504.2,
+        506.71
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q27",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 7,
+      "content": "A farmer grew 2 varieties of corn crop in field A and B. He grew normal corn\ncrops in field A and GM corn crops in field B. He observed corn borers attacked\nonly in field A. To control it, spores of Bt were sprayed in field A.\na) Name the gene in the spores responsible for the control of this pest.\nb) What effect will the spores of Bt have on the insect pest?\nc) How has field B developed resistance against this pest?",
+      "raw_text": "A farmer grew 2 varieties of corn crop in field A and B. He grew normal corn\ncrops in field A and GM corn crops in field B. He observed corn borers attacked\nonly in field A. To control it, spores of Bt were sprayed in field A.\na) Name the gene in the spores responsible for the control of this pest.\nb) What effect will the spores of Bt have on the insect pest?\nc) How has field B developed resistance against this pest?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Lipoprotein lipase deficiency (LPLD)is a genetic disorder in which a person has a\ndefective gene for lipase. This leads to high triglycerides, stomach pain, fat\ndeposits under the skin. It may eventually affect the liver, pancreas and may also\ncause diabetes. The disorder occurs if a child acquires defective genes from both\nparents (autosomal recessive). ERT (enzyme replacement treatment) is one of the\ntreatments offered to patients with LPLD.\na) (i)  What procedure is followed in ERT?",
+        "(ii) What could be one possible drawback of ERT?\nb) How can LPLD be treated using Biotechnology? Elaborate."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        531.68,
+        504.03,
+        710.62
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q28",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION C",
+      "page_num": 8,
+      "content": "Give three reasons as to why the prokaryotes are not given any figures for their\ndiversity by the ecologists.",
+      "raw_text": "Give three reasons as to why the prokaryotes are not given any figures for their\ndiversity by the ecologists.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        63.72,
+        145.23,
+        503.94,
+        172.94
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q29",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION D",
+      "page_num": 8,
+      "content": "The structure below shows pUC18 which is similar to pBR322 in its function.\nHowever, they differ in some of their restriction sites and number of ori. The ori\nnumber for pBR322 is approximately 20.\na)    How are puc18 and pBR322 used in biotechnological studies?",
+      "raw_text": "The structure below shows pUC18 which is similar to pBR322 in its function.\nHowever, they differ in some of their restriction sites and number of ori. The ori\nnumber for pBR322 is approximately 20.\na)    How are puc18 and pBR322 used in biotechnological studies?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "What will be the impact if oriin the above structure gets damaged?\nb)  The lac z gene has many recognition sites. Study the segment of DNA\ngiven below and answer the questions\n5\u2019... ATC GTA AAG CTT CAT\u20263\u2019\n3\u2019... TAG CAT TTC GAA GTA\u20265\u2019\ni) Applying your knowledge of palindrome sequences identify and mark\nthe possible region where the restriction enzyme X will act.\nii) Restriction enzyme Y was used to extract gene of interest from a plant.\nThis gene needs to be inserted in the given DNA segment which has\nbeen treated with restriction enzyme X. Will there be a successful\nrecombination? Explain with a reason.\nc)\nWhich one of the two (pUC18 and pBR322) would you prefer for\nbiotechnological studies? Justify."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q29_1.png"
+      ],
+      "bounding_box": [
+        63.72,
+        259.38,
+        506.96,
+        706.06
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q30",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION D",
+      "page_num": 9,
+      "content": "Observe the graph given below.\nThe graph represents inter-specific interaction between two species of Paramecia\ncompeting for the same resource in a culture medium. Paramecium caudatum and\nParamecium aurelia were grown in separate cultures as well as in mixed cultures. It\nwas found that each species grew in numbers according to the logistic equation.\na) Which species is competitively superior? Support it with the data provided in\nthe graph.\nb) State the underlying principle for the above result and name the scientist\nassociated with this principle.\nc) Explain the mechanism in which two or more species competing with each\nother can co - exist.",
+      "raw_text": "Observe the graph given below.\nThe graph represents inter-specific interaction between two species of Paramecia\ncompeting for the same resource in a culture medium. Paramecium caudatum and\nParamecium aurelia were grown in separate cultures as well as in mixed cultures. It\nwas found that each species grew in numbers according to the logistic equation.\na) Which species is competitively superior? Support it with the data provided in\nthe graph.\nb) State the underlying principle for the above result and name the scientist\nassociated with this principle.\nc) Explain the mechanism in which two or more species competing with each\nother can co - exist.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Graphs A and B shown below depict interaction of two species. Which graph\nindicates Mutualism? Give reason."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q30_1.png",
+        "images/q30_2.png"
+      ],
+      "bounding_box": [
+        63.72,
+        40.57,
+        506.92,
+        484.39
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q31",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION E",
+      "page_num": 10,
+      "content": "Placed below are case studies of some couples who were not able to have\nkids. These couples are not ready for adoption or taking gametes from\ndonors. After thoroughly examining the cases, which Assisted\nReproductive Technology will you suggest to these couples as a medical\nexpert? Explain briefly with justification of each case.\nCouple\nTest reports of Female\npartner\nTest reports of male partner\nCouple 1\nNormal reports\nNormal sperms in testes,\nMissing\nconnection\nin\nepididymis and Vas deferens\nCouple 2\nBlockage in the fallopian\ntube\nNormal reports\nCouple 3\nNormal reports\nPoor semen parameters in\nterms of count, motility and\nmorphology\nCouple 4\nlow ovarian reserve\nNormal reports\nCouple 5\nSterilization in male\nMorphologically\nabnormal\nsperms",
+      "raw_text": "Placed below are case studies of some couples who were not able to have\nkids. These couples are not ready for adoption or taking gametes from\ndonors. After thoroughly examining the cases, which Assisted\nReproductive Technology will you suggest to these couples as a medical\nexpert? Explain briefly with justification of each case.\nCouple\nTest reports of Female\npartner\nTest reports of male partner\nCouple 1\nNormal reports\nNormal sperms in testes,\nMissing\nconnection\nin\nepididymis and Vas deferens\nCouple 2\nBlockage in the fallopian\ntube\nNormal reports\nCouple 3\nNormal reports\nPoor semen parameters in\nterms of count, motility and\nmorphology\nCouple 4\nlow ovarian reserve\nNormal reports\nCouple 5\nSterilization in male\nMorphologically\nabnormal\nsperms",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Given below are certain situations. Analyse the situation and suggest the\nname of suitable contraceptive device along with mode of action.\nSituation\nRequirement of contraceptive\nfor -\nName of\ncontraceptive\ndevice\nMode of\naction\nblocking the entry of sperms\nthrough cervix\nspacing between children\neffective emergency\ncontraceptive\nterminal method to prevent any\nmore pregnancy in female\nsterilization in male"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        78.38,
+        74.05,
+        494.04,
+        675.71
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q32",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION E",
+      "page_num": 11,
+      "content": "Given below is a stretch of DNA showing the coding strand of a\nstructural gene of a transcription unit?\n5\u2019--ATG ACC GTA TTT TCT GTA GTG CCC GTA CTT CAG GCA\nTAA\u20143\u2019\na) Write the corresponding template strand and the mRNA strand that\nwill be transcribed, along with its polarity.\nb) If GUA of the transcribed mRNA is an intron, depict the sequence\ninvolved in the formation of mRNA /the mature processed hnRNA\nstrand.",
+      "raw_text": "Given below is a stretch of DNA showing the coding strand of a\nstructural gene of a transcription unit?\n5\u2019--ATG ACC GTA TTT TCT GTA GTG CCC GTA CTT CAG GCA\nTAA\u20143\u2019\na) Write the corresponding template strand and the mRNA strand that\nwill be transcribed, along with its polarity.\nb) If GUA of the transcribed mRNA is an intron, depict the sequence\ninvolved in the formation of mRNA /the mature processed hnRNA\nstrand.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "i. In a bacterium",
+        "ii. In humans\nc) Upon translation, how many amino acids will the resulting polypeptide\nhave? Justify.",
+        "OR",
+        "In shorthorn cattle, the coat colours red or white are controlled by a\nsingle pair of alleles. A calf which receives the allele for red coat from its\nmother and the allele for white coat from its father is called a 'roan'. It has\nan equal number of red and white hairs in its coat.\na) Is this an example of codominance or of incomplete dominance?\nb) Give a reason for your answer.\nc) With the help of genetic cross explain what will be the consequent\nphenotype of the calf when",
+        "i. red is dominant over white",
+        "ii. red is incompletely dominant."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        78.38,
+        40.57,
+        494.24,
+        400.61
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "6a34085db9b2_q33",
+      "paper_id": "6a34085db9b2",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "12",
+      "subject": "biology",
+      "year": "2023-2024",
+      "section": "SECTION E",
+      "page_num": 11,
+      "content": "Explain the role of Primary and Secondary Lymphoid organs with the help\nof suitable examples.",
+      "raw_text": "Explain the role of Primary and Secondary Lymphoid organs with the help\nof suitable examples.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "With the help of a flow chart illustrate how an infected animal cell can\nsurvive while viruses are being replicated or released.\n*********"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        78.38,
+        411.66,
+        535.52,
+        481.15
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

@@ -1,0 +1,1131 @@
+{
+  "paper_id": "773df508bb5f",
+  "class": "10",
+  "subject": "science",
+  "year": "2024-2025",
+  "total_questions": 39,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTION A",
+      "page_num": 1,
+      "bounding_box": [
+        61.7,
+        385.31,
+        382.49,
+        499.87
+      ],
+      "raw_text": "Identify \u2018p\u2019, \u2018q\u2019 and \u2018r\u2019 in the following balanced reaction\nHeat\np Pb (NO3)2(s) ------> q PbO(s) + r NO2(g) + O2(g)\nA. 2,2,4\nB. 2,4,2\nC. 2,4,4",
+      "options": [
+        "(a) 2,2,4",
+        "(b) 2,4,2",
+        "(c) 2,4,4",
+        "(d) 4,2,2"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTION A",
+      "page_num": 1,
+      "bounding_box": [
+        61.7,
+        513.25,
+        507.65,
+        762.46
+      ],
+      "raw_text": "Match column I with column II and select the correct option using the given\ncodes.\nColumn I\nColumn II",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. A metal that forms amphoteric oxides",
+        "(i) Ga",
+        "b. A metal which melts when kept on our palm",
+        "(ii) Au",
+        "c. A metal that reacts with nitric acid",
+        "(iii) Al",
+        "d. A metal which cannot displace hydrogen from\nacids",
+        "(iv) Mn",
+        "A. a \u2013 (ii), b \u2013 (i), c \u2013 (iii), d \u2013 (iv)",
+        "B. a \u2013 (iii), b \u2013 (i), c \u2013 (iv), d \u2013 (ii)",
+        "C. a \u2013 (iv), b \u2013 (ii), c \u2013 (iii), d \u2013 (i)",
+        "D. a \u2013 (iii), b \u2013 (ii), c \u2013 (i), d \u2013 (iv)"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q2_1.png",
+          "relative_path": "images/q2_1.png",
+          "bounding_box": [
+            203.76,
+            73.2,
+            417.36,
+            169.2
+          ],
+          "width": 213.6,
+          "height": 96.0
+        }
+      ]
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        61.7,
+        69.18,
+        477.32,
+        367.49
+      ],
+      "raw_text": "The solution in the given figure is likely to be",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. HNO3",
+        "B. C2H5OH",
+        "C. H2SO4",
+        "D. CO2 in water\n- - - - - - - - - - - - - -\nFor Visual Impaired Students\nWhich among the following is considered as the strongest electrolyte?",
+        "A. Dilute acid",
+        "B. Dilute sugar solution",
+        "C. Glucose solution",
+        "D. Ethanol in water"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        61.7,
+        380.87,
+        507.78,
+        483.31
+      ],
+      "raw_text": "An aqueous solution \u2018A\u2019 turns the phenolphthalein solution pink. On addition of\nan aqueous solution \u2018B\u2019 to \u2018A\u2019, the pink colour disappears. Which of the following\nstatement is true for the solutions \u2018A\u2019 and \u2018B\u2019.\nA.  A is strongly basic and B is a weak base.\nB. A is strongly acidic and B is a weak acid.\nC. A has a pH greater than 7 and B has a pH less than 7.",
+      "options": [
+        "(a) A is strongly basic and B is a weak base.",
+        "(b) A is strongly acidic and B is a weak acid.",
+        "(c) A has a pH greater than 7 and B has a pH less than 7.",
+        "(d) A has a pH less than 7 and B has a pH greater than 7."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        61.7,
+        496.21,
+        507.67,
+        598.75
+      ],
+      "raw_text": "When 50g of lead powder is added to 300 ml of blue copper sulphate\nsolution, after a few hours, the solution becomes colourless. This is an\nexample of\nA. Combination reaction\nB. Decomposition reaction\nC. Displacement reaction",
+      "options": [
+        "(a) Combination reaction",
+        "(b) Decomposition reaction",
+        "(c) Displacement reaction",
+        "(d) Double displacement reaction"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        61.7,
+        611.68,
+        502.14,
+        700.06
+      ],
+      "raw_text": "The electronic configuration of three elements X, Y and Z are X- 2, 8, 7; Y- 2,\n8, 2; and Z - 2, 8\nA. Y and Z are metals\nB. Y and X are non-metals\nC. X is a non -metal and Y is a metal",
+      "options": [
+        "(a) Y and Z are metals",
+        "(b) Y and X are non-metals",
+        "(c) X is a non -metal and Y is a metal",
+        "(d) Y is a non-metal and Z is a metal"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTION A",
+      "page_num": 2,
+      "bounding_box": [
+        61.7,
+        710.92,
+        360.41,
+        779.5
+      ],
+      "raw_text": "Which of the following is an endothermic reaction?\nA. Burning of candle.\nB. Cooking of food.\nC. Decomposition of Vegetable matter.",
+      "options": [
+        "(a) Burning of candle.",
+        "(b) Cooking of food.",
+        "(c) Decomposition of Vegetable matter.",
+        "(d) Reaction of Sodium with air"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        61.7,
+        68.7,
+        508.03,
+        193.34
+      ],
+      "raw_text": "During cellular oxidation of Glucose, ATP is produced along with formation of\nother products in this reaction. Which of the following events is associated with\nproduction of maximum ATP molecules per molecule of Glucose during this\nprocess? Synthesis of\nA. ethanol in yeast\nB. lactic acid in muscle cells\nC. carbon dioxide in yeast cells",
+      "options": [
+        "(a) ethanol in yeast",
+        "(b) lactic acid in muscle cells",
+        "(c) carbon dioxide in yeast cells",
+        "(d) carbon dioxide in human cells"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        61.7,
+        206.12,
+        507.72,
+        298.97
+      ],
+      "raw_text": "During which of the following stages of the circulation of blood in a normal\nhuman being, the oxygenated blood is pumped to all parts of the body?\nA. contraction of the left atrium\nB. contraction of left ventricle\nC. relaxation of the right atrium",
+      "options": [
+        "(a) contraction of the left atrium",
+        "(b) contraction of left ventricle",
+        "(c) relaxation of the right atrium",
+        "(d) relaxation of the right ventricle"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        61.7,
+        312.35,
+        507.67,
+        405.29
+      ],
+      "raw_text": "Which of the following adaptations in herbivores helps in digestions of\ncellulose?\nA. Longer large intestine\nB. Smaller large intestine\nC. Smaller small intestine",
+      "options": [
+        "(a) Longer large intestine",
+        "(b) Smaller large intestine",
+        "(c) Smaller small intestine",
+        "(d) Longer small intestine"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        61.7,
+        418.55,
+        507.76,
+        511.51
+      ],
+      "raw_text": "There was a cerebellar dysfunction in a patient. Which of the following activities\nwill get disturbed in this patient as a result of this?\nA. Salivation\nB. Hunger control\nC. Posture and balance",
+      "options": [
+        "(a) Salivation",
+        "(b) Hunger control",
+        "(c) Posture and balance",
+        "(d) Regulation of blood pressure"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        61.7,
+        524.89,
+        507.67,
+        617.71
+      ],
+      "raw_text": "In snails individuals can begin life as male and depending on environmental\nconditions they can become female as they grow. This is because\nA. male snails have dominant genetic makeup.\nB. female snails have dominant genetic makeup.\nC. expression of sex chromosomes can change in a snail\u2019s life time.",
+      "options": [
+        "(a) male snails have dominant genetic makeup.",
+        "(b) female snails have dominant genetic makeup.",
+        "(c) expression of sex chromosomes can change in a snail\u2019s life time.",
+        "(d) sex is not genetically determined in snails."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTION A",
+      "page_num": 3,
+      "bounding_box": [
+        61.7,
+        631.12,
+        499.74,
+        723.94
+      ],
+      "raw_text": "In the following cases, a ray is incident on a concave mirror. In which case\nis the angle of incidence equal to zero?\nA. A ray parallel to the principal axis.\nB. A ray passing through the centre of curvature and incident obliquely.\nC. A ray passing through the principal focus and incident obliquely.",
+      "options": [
+        "(a) A ray parallel to the principal axis.",
+        "(b) A ray passing through the centre of curvature and incident obliquely.",
+        "(c) A ray passing through the principal focus and incident obliquely.",
+        "(d) A ray incident obliquely to the principal axis, at the pole of the mirror."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q13_1.png",
+          "relative_path": "images/q13_1.png",
+          "bounding_box": [
+            144.0,
+            85.8,
+            379.8,
+            193.8
+          ],
+          "width": 235.8,
+          "height": 108.0
+        }
+      ]
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        61.7,
+        69.18,
+        444.8,
+        332.93
+      ],
+      "raw_text": "Choose the correct option for the colour of rays for A and B.\nColour of Ray A\nColour of Ray B",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Blue\nRed",
+        "B. Green\nYellow",
+        "C. Red\nViolet",
+        "D. Violet\nIndigo"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        61.7,
+        350.63,
+        507.91,
+        474.43
+      ],
+      "raw_text": "Identify the incorrect statement\n\u2018The energy available to the producers is maximum\u2019 because:\nA. It is the first trophic level which absorbs1% of light energy directly from\nthe source.\nB. It utilizes the most of the chemical energy for its own respiration, growth,\nreproduction, movement etc.\nC. It utilizes 10% of light energy and transfers the rest to the next trophic\nlevel.",
+      "options": [
+        "(a) It is the first trophic level which absorbs1% of light energy directly from",
+        "(b) It utilizes the most of the chemical energy for its own respiration, growth,",
+        "(c) It utilizes 10% of light energy and transfers the rest to the next trophic",
+        "(d) It transfers only 10% of light energy to the next trophic level."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        61.7,
+        485.89,
+        537.04,
+        634.54
+      ],
+      "raw_text": "Which of the following is not a role of decomposers in the ecosystem?\nA. Natural replenishment of soil.\nB. Enrichment of oxygen in atmosphere.\nC. Waste decomposition.\nD. Break-down of dead remains.\nQuestion No. 17 to 20 consist of two statements \u2013 Assertion (A) and Reason (R). Answer\nthese questions by selecting the appropriate option given below:\nA. Both A and R are true, and R is the correct explanation of A.\nB. Both A and R are true, and R is not the correct explanation of A.\nC. A is true but R is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        61.7,
+        659.2,
+        507.85,
+        713.98
+      ],
+      "raw_text": "Assertion (A):  On adding dil. HCl to a test tube containing a substance \u2018X\u2019, a\ncolourless gas is produced which gives a pop sound when a burning match\nstick is brought near it.\nReason (R): In this reaction metal \u2018X\u2019 is displaced by Hydrogen.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTION A",
+      "page_num": 4,
+      "bounding_box": [
+        61.7,
+        725.44,
+        507.84,
+        780.22
+      ],
+      "raw_text": "Assertion (A): Generally, the number of chromosomes in a cell and in a germ\ncell is not the same in species.\nReason (R): When two germ cells combine, they restore the normal number of\nchromosomes in a species.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "SECTION A",
+      "page_num": 5,
+      "bounding_box": [
+        61.7,
+        69.18,
+        508.12,
+        123.98
+      ],
+      "raw_text": "Assertion (A): A convex mirror always forms an image behind it and the image\nformed is virtual.\nReason (R): According to the sign convention, the focal length of a convex\nmirror is positive.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "SECTION A",
+      "page_num": 5,
+      "bounding_box": [
+        61.7,
+        135.44,
+        507.98,
+        204.02
+      ],
+      "raw_text": "Assertion (A): If the lions are removed from a food chain it will not affect the\nfood chain, however if the plants are removed from a food chain it will disturb\nthe ecosystem.\nReason (R): Plants are producers who can make food using sunlight, while\nlions are consumers.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTION B",
+      "page_num": 5,
+      "bounding_box": [
+        61.7,
+        254.03,
+        507.59,
+        308.81
+      ],
+      "raw_text": "Identify the type of each of the following reactions stating the reason for your\nanswers.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Fe2O3 + 2Al \u2192 Al2O3 + 2Fe + heat",
+        "B. Pb (NO3)2 + 2KI \u2192 PbI2( )+ 2KNO3"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTION B",
+      "page_num": 5,
+      "bounding_box": [
+        61.7,
+        320.27,
+        504.68,
+        387.89
+      ],
+      "raw_text": "Differentiate between alveoli and nephron on the basis of the following points:\nS. No.\nFeature\nAlveoli\nNephron\nStructure and location\nFunction",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTION B",
+      "page_num": 5,
+      "bounding_box": [
+        61.7,
+        407.27,
+        507.82,
+        562.99
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. List the steps for the synthesis of glucose by the plants. What special\nfeature is found in desert plants related to this process?",
+        "OR",
+        "B. Explain the role of the following enzymes in the process of digestion of food\nin humans:",
+        "(i) Salivary amylase",
+        "(ii) Pepsin",
+        "(iii) Trypsin",
+        "(iv) Lipase"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTION B",
+      "page_num": 5,
+      "bounding_box": [
+        61.7,
+        574.33,
+        502.96,
+        769.54
+      ],
+      "raw_text": "The above figure shows the formation of an image by a lens shown by a thick\nline.\nAnalyse the figure and answer the following questions.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. What is the type of lens used?",
+        "B. What is the nature of the image?",
+        "C. If the image is formed at a distance of 30 cm from the lens and the\nimage is twice the size of the object, then where is the object placed?\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. What type of lens always forms a virtual erect and diminished image?",
+        "B. List two uses of such a lens."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q24_1.png",
+          "relative_path": "images/q24_1.png",
+          "bounding_box": [
+            161.04,
+            574.08,
+            446.64,
+            742.08
+          ],
+          "width": 285.6,
+          "height": 168.0
+        }
+      ]
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTION B",
+      "page_num": 6,
+      "bounding_box": [
+        61.7,
+        216.32,
+        507.69,
+        755.98
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. The electric circuit (above figure) in a clothes dryer contains two heaters X\nand Y in parallel. The above figure shows the circuit connected to a 230 V\npower supply. When both switches are closed, the current in X is 3.5 A.\nAnalyse the circuit given above and answer the following questions.",
+        "(i) Calculate the power developed in heater X.",
+        "(ii) If the resistance of X is double that of Y calculate the current in heater\nY.",
+        "OR",
+        "B. The above figure shows two resistors X and Y connected in series to a\nbattery. The power dissipated for this combination is P1. When these resistors\nare connected in parallel to the same battery then the power dissipated is\ngiven by P2. Find out the ratio\n\ud835\udc431\n\ud835\udc432.\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. We have four resistors A, B, C and D of resistance 3 \u2126, 6 \u2126 ,9 \u2126 and 12\n\u2126 respectively. Find out the lowest resistance which can be obtained by\ncombining these four resistors.",
+        "OR",
+        "B. You are given 2 fuse wires A and B with current ratings 2A and 5A\nrespectively. Justify with reason which of the two would you use with a\n1000W, 220V room heater?"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q25_1.png",
+          "relative_path": "images/q25_1.png",
+          "bounding_box": [
+            161.4,
+            543.72,
+            445.8,
+            728.52
+          ],
+          "width": 284.4,
+          "height": 184.8
+        },
+        {
+          "filename": "q25_2.png",
+          "relative_path": "images/q25_2.png",
+          "bounding_box": [
+            161.4,
+            236.4,
+            393.0,
+            391.2
+          ],
+          "width": 231.6,
+          "height": 154.8
+        }
+      ]
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTION B",
+      "page_num": 7,
+      "bounding_box": [
+        61.7,
+        258.11,
+        489.89,
+        610.51
+      ],
+      "raw_text": "The cartoon below addresses a growing concern:\nmain.jpg (1148\u00d7574) (frontiersin.org)\nWhat impact will the process shown in the image have on Humans if they\noccupy the last trophic level? Explain.\n- - - - - - - - - - - - - -\nFor visually impaired students\nCreate a food chain with more than 2 trophic levels that exists in the\ncabbage farm.  If Humans occupy the last trophic level, then how would\nspraying pesticide affect the humans? Explain.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q26_1.png",
+          "relative_path": "images/q26_1.png",
+          "bounding_box": [
+            143.28,
+            285.48,
+            451.08,
+            468.48
+          ],
+          "width": 307.8,
+          "height": 183.0
+        }
+      ]
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTION C",
+      "page_num": 7,
+      "bounding_box": [
+        61.7,
+        660.64,
+        502.83,
+        701.62
+      ],
+      "raw_text": "A. Anirudh took two metal oxides; aluminium oxide and magnesium oxide as\nshown in the pictures given below.  But he forgot to label them.  How will\nyou guide/ help Anirudh to identify the oxides and label them?\nB. In an activity Aishu was given two substances; Copper Sulphide (Cu2S)\nand Copper Oxide (Cu2O) to obtain copper from these compounds. She\nwas able to extract Copper successfully.  Illustrate with the help of chemical\nequations how Aishu might have completed the activity.\n- - - - - - - - - - - - - -\nFor visually impaired students\nGive reasons for the following\ni.\nCertain metals are used for making cooking utensils.\nii.\nHydrogen gas does not evolve when certain metals except Mg & Mn\nreact with nitric acid.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Anirudh took two metal oxides; aluminium oxide and magnesium oxide as\nshown in the pictures given below.  But he forgot to label them.  How will\nyou guide/ help Anirudh to identify the oxides and label them?",
+        "B. In an activity Aishu was given two substances; Copper Sulphide (Cu2S)\nand Copper Oxide (Cu2O) to obtain copper from these compounds. She\nwas able to extract Copper successfully.  Illustrate with the help of chemical\nequations how Aishu might have completed the activity.\n- - - - - - - - - - - - - -\nFor visually impaired students\nGive reasons for the following",
+        "i. Certain metals are used for making cooking utensils.",
+        "ii. Hydrogen gas does not evolve when certain metals except Mg & Mn\nreact with nitric acid."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q27_1.png",
+          "relative_path": "images/q27_1.png",
+          "bounding_box": [
+            308.16,
+            72.0,
+            457.32,
+            180.72
+          ],
+          "width": 149.16,
+          "height": 108.72
+        },
+        {
+          "filename": "q27_2.png",
+          "relative_path": "images/q27_2.png",
+          "bounding_box": [
+            130.2,
+            73.56,
+            251.76,
+            180.72
+          ],
+          "width": 121.56,
+          "height": 107.16
+        }
+      ]
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        61.7,
+        369.47,
+        507.85,
+        716.62
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A.",
+        "(i) In the given series of reactions, name the compounds X and Z.",
+        "(ii) Which type of reaction is X to Z?",
+        "(iii) You are given 3 unknown solutions A, B, and C with pH values of 6, 8\nand 9.5 respectively. In which solution will the maximum number of\nhydronium ions be present? Arrange the given samples in the\nincreasing order of H+ ion concentration.",
+        "OR",
+        "B. Comment on the following statements:",
+        "(i) Bee sting is treated with baking soda paste whereas wasp sting is\ntreated with dilute vinegar.",
+        "(ii) Farmers treat soil with quicklime when tilling.",
+        "(iii) Ancient sculptures and marble structures are conserved by treating\nthem with certain chemicals.\u201d"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q28_1.png",
+          "relative_path": "images/q28_1.png",
+          "bounding_box": [
+            125.52,
+            424.56,
+            447.96,
+            551.16
+          ],
+          "width": 322.44,
+          "height": 126.6
+        }
+      ]
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTION C",
+      "page_num": 8,
+      "bounding_box": [
+        61.7,
+        727.96,
+        507.64,
+        768.94
+      ],
+      "raw_text": "Water is used by the leaves of the plants for photosynthesis but rather than\nwatering the leaves, we water the plant through the soil. How does this water\nreach the leaves of the plant?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTION C",
+      "page_num": 9,
+      "bounding_box": [
+        61.7,
+        69.18,
+        508.16,
+        192.98
+      ],
+      "raw_text": "A. In a family of four individuals, the father possessed long ears and the mother\npossessed short ears. If the parents had pure dominant and recessive traits\nrespectively and F1 individual is married to an unrelated individual of the\nsame genotype, then calculate the ratio of genetic makeup of F2 generation.\nShow a suitable cross.                                                                                 (2)\nB. If father had short ears and the mother had long ears, and both the parents\nare homozygous for the allelic pair of genes, explain what effect it will have\non the ratio of genetic makeup in F2 generation, if F1 individual is married\nto an unrelated individual of the same genotype.                                      (1)",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. In a family of four individuals, the father possessed long ears and the mother\npossessed short ears. If the parents had pure dominant and recessive traits\nrespectively and F1 individual is married to an unrelated individual of the\nsame genotype, then calculate the ratio of genetic makeup of F2 generation.\nShow a suitable cross.                                                                                 (2)",
+        "B. If father had short ears and the mother had long ears, and both the parents\nare homozygous for the allelic pair of genes, explain what effect it will have\non the ratio of genetic makeup in F2 generation, if F1 individual is married\nto an unrelated individual of the same genotype.                                      (1)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTION C",
+      "page_num": 9,
+      "bounding_box": [
+        61.7,
+        204.44,
+        495.33,
+        470.95
+      ],
+      "raw_text": "A. What is the fundamental difference between hypermetropia and myopia\nin terms of the optical experience of a person?\nB. The diagram below shows a special case of an eye defect.\n(i) What is the defect that is shown in the figure?\n(ii) State one cause for such a defect?\n(iii) Explain with reason if a concave lens can be used to correct the\ndefect.\n- - - - - - - - - - - - - -\nFor visually impaired students\nA. What is the fundamental difference between hypermetropia and myopia\nin terms of the optical experience of a person?\nB. What are the causes of myopia in the human eye?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. What is the fundamental difference between hypermetropia and myopia\nin terms of the optical experience of a person?",
+        "B. The diagram below shows a special case of an eye defect.",
+        "(i) What is the defect that is shown in the figure?",
+        "(ii) State one cause for such a defect?",
+        "(iii) Explain with reason if a concave lens can be used to correct the\ndefect.\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. What is the fundamental difference between hypermetropia and myopia\nin terms of the optical experience of a person?",
+        "B. What are the causes of myopia in the human eye?"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q31_1.png",
+          "relative_path": "images/q31_1.png",
+          "bounding_box": [
+            173.4,
+            300.84,
+            422.76,
+            390.12
+          ],
+          "width": 249.36,
+          "height": 89.28
+        },
+        {
+          "filename": "q31_2.png",
+          "relative_path": "images/q31_2.png",
+          "bounding_box": [
+            184.44,
+            548.28,
+            423.24,
+            689.28
+          ],
+          "width": 238.8,
+          "height": 141.0
+        }
+      ]
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTION C",
+      "page_num": 9,
+      "bounding_box": [
+        61.7,
+        482.41,
+        488.68,
+        537.19
+      ],
+      "raw_text": "A. State the relationship between the resistance R of a wire to its length l\nand cross sectional area A. Use the mathematical symbols to arrive at\nthe final formula.\nB. Using the formula define the resistivity of a material.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. State the relationship between the resistance R of a wire to its length l\nand cross sectional area A. Use the mathematical symbols to arrive at\nthe final formula.",
+        "B. Using the formula define the resistivity of a material."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTION C",
+      "page_num": 9,
+      "bounding_box": [
+        61.7,
+        548.53,
+        508.16,
+        758.14
+      ],
+      "raw_text": "Mona was doing an experiment with a magnetic compass and a straight\ncurrent-carrying wire. She observed that as she moved the compass away\nfrom the current-carrying wire, the deflection of the compass needle reduced.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Explain why the deflection of the compass needle reduced as Mona moved\naway the compass needle from the current carrying wire.",
+        "B. Mention one thing that could have changed in the circuit of the wire that\ncould increase the deflection of the needle.",
+        "C. Explain with reason what will be the direction of the magnetic field\nassociated with the wire for the case described by the above figure.\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. Explain why the deflection of the compass needle reduced as Mona moved\naway the compass needle from the current carrying wire.",
+        "B. Mention one thing that could have changed in the circuit of the wire that\ncould increase the deflection of the needle.",
+        "C. Explain with reason how the direction of the magnetic field associated with\nthe wire changes if the polarity of battery reversed."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q34",
+      "question_number": "Q34",
+      "section": "SECTION D",
+      "page_num": 10,
+      "bounding_box": [
+        61.7,
+        290.39,
+        508.12,
+        613.87
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A.",
+        "(i) \u201cKeerthi thinks that Substitution reaction occurs in saturated\nHydrocarbons, on the contrary Krishi thinks, it occurs in unsaturated\nHydrocarbons.\u201d Justify with valid reasoning whose thinking is correct.",
+        "(ii) \u201cMethane and Propane and their Isomers are used as fuels\u201d Comment.\nDraw the electron dot structure of the immediate lower homologue of\nPropane.  Give any two characteristics of homologues of a given\nhomologous series.",
+        "(iii) A mixture of oxygen and ethyne is burnt for welding. Can you predict\nwhy a mixture of ethyne and air is not used?",
+        "OR",
+        "B.",
+        "(i) \u2018A\u2019 & \u2018B\u2019 are sodium salts of long-chain carboxylic acid and long chain\nSulphonic acid respectively. Which one of A or B will you prefer as a\ncleansing agent while using underground water (hand pump water)?\nGive the reason for your answer.",
+        "(ii) Elaborate on the process of cleansing action.  Illustrate micelle with the\nhelp of labelled diagram.",
+        "(iii) Write the chemical equation of the preparation of soap from an ester\nCH3COOCH3. What is the name of this process?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q35",
+      "question_number": "Q35",
+      "section": "SECTION D",
+      "page_num": 10,
+      "bounding_box": [
+        61.7,
+        625.24,
+        502.83,
+        699.94
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. The image below shows a banana plant which is growing with the help of\nsuckers. These suckers are small plant stem outgrowths which can be\nseparated from the main plant and planted separately and they will grow\ninto a new plant subsequently.\nFig.-1-Parts-of-Banana-plant-FAO-2021.png (623\u00d7609) (wp.com)",
+        "(i) Give the name and type of reproduction that is shown in the image\nabove.                                                                                                  (1)",
+        "(ii) List two advantages the farmer will have on using the type of\nreproduction mentioned above.                                                            (2)",
+        "(iii) The above plant produces male flowers. Explain how this plant will be\ninvolved in the process of pollination.                                                       (1)",
+        "(iv) Why is the offspring of this banana plant not absolutely identical to its\nparent plant?                                                                                          (1)\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. A banana plant is growing with the help of suckers. These suckers are\nsmall plant stem outgrowths which can be separated from the main plant\nand planted separately and they will grow into a new plant subsequently.",
+        "(i) Give the name and type of reproduction.                                                       (1)",
+        "(ii) List two advantages the farmer will have on using the type of\nreproduction mentioned above.                                                            (2)",
+        "(iii) The above plant produces only male flower. Explain how this plant will\nbe involved in the process of pollination.                                                             (1)",
+        "(iv) Why is the offspring of this banana plant not absolutely identical to its\nparent plant?                                                                                          (1)",
+        "OR",
+        "B. The image below shows a developing fetus in the mother's womb. The\ndeveloping fetus is connected to the placenta by means of umbilical cord.\nThe Umbilical vein and artery run inside the umbilical cord.",
+        "(i) Name two substance that moves through the blood vessels.            (1)",
+        "(ii) If the placenta has less villi how will it affect the baby\u2019s growth?          (1)",
+        "(iii) Name the region where the embryo develops inside the female body.\nExplain how this region is adapted for nourishing the baby.                (1)",
+        "(iv) Some of the fetal cells fall off into the amniotic fluid and can be\ncollected by careful procedure. The cells were screened and found to\ncontain XY chromosome.  (2)\na) What is the sex of the foetus?\nb) How is this prenatal sex determination misused?\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "B. A developing fetus is connected to the placenta by means of umbilical cord.\nThe Umbilical vein and artery run inside the umbilical cord.",
+        "(i) Name two substance that moves through the blood vessels.            (1)",
+        "(ii) If the placenta has less villi how will it affect the baby\u2019s growth?           (1)",
+        "(iii) Name the region where the embryo develops inside the female body.\nExplain how this region is adapted for nourishing the baby.                   (1)",
+        "(iv) Some of the fetal cells fall off into the amniotic fluid and can be\ncollected by careful procedure. The cells were screened and found to\ncontain XY chromosome.\na) What is the sex of the foetus?\nb) How is this prenatal sex determination misused?                                    (2)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q36",
+      "question_number": "Q36",
+      "section": "SECTION D",
+      "page_num": 12,
+      "bounding_box": [
+        61.7,
+        593.05,
+        243.63,
+        634.18
+      ],
+      "raw_text": "Attempt either option A or B.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. The above circuit is a part of an electrical device. Use the information\ngiven in the question to calculate the following.",
+        "(i) Potential Difference across R2.",
+        "(ii) Value of the resistance R2.",
+        "(iii) Value of resistance R1",
+        "OR",
+        "B. As shown in the figure above A and B are two lamps. Lamp A is rated at 12 V,\n24W. Lamp B is rated at 6.0 V. When lamp B operates at its rated voltage, the\ncurrent in it is 3.0 A. The values of R1 and R2 are chosen so that both lamps\noperate at their rated voltages.\nBased on the information given, answer the following.",
+        "(i) Calculate the current in Lamp A.",
+        "(ii) State and give reason for the reading of the Voltmeter.",
+        "(iii) Calculate the resistance of R2.",
+        "(iv) Find the value of the resistance R1.\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A.",
+        "(i) State the law and write the formula connecting the electric current\nflowing through a conductor and voltage applied across it.",
+        "(ii) In a household five fans each of 100W are used for 4 hours and an\nelectric press of 500W for 2 hours every day. Calculate the cost of\nusing the fans and electric press for 60 days if the cost of 1 unit of\nelectrical energy is Rs. 6.5.",
+        "OR",
+        "B.",
+        "(i) State Joules law of heating and write its mathematical expression.",
+        "(ii) Two resistors of resistances 2\ud835\udefa and 4\ud835\udefa are connected in\na) series\nb) parallel\nwith a battery of given potential difference. Compute the ratio of total\nquantity of heat produced in the combination in the two cases if the\ntotal voltage and time are kept the same for both.\nSection \u2013 E\nQuestion No. 37 to 39 are case-based/data -based questions."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q36_1.png",
+          "relative_path": "images/q36_1.png",
+          "bounding_box": [
+            146.4,
+            69.0,
+            447.48,
+            260.4
+          ],
+          "width": 301.08,
+          "height": 191.4
+        },
+        {
+          "filename": "q36_2.png",
+          "relative_path": "images/q36_2.png",
+          "bounding_box": [
+            127.2,
+            636.12,
+            418.2,
+            758.52
+          ],
+          "width": 291.0,
+          "height": 122.4
+        }
+      ]
+    },
+    {
+      "question_id": "q37",
+      "question_number": "Q37",
+      "section": "SECTION D",
+      "page_num": 14,
+      "bounding_box": [
+        61.7,
+        110.0,
+        505.72,
+        621.1
+      ],
+      "raw_text": "A. Derive the names of A, Y, Z, M, P & R\nAttempt either subpart B or C.\nB. Improvise an activity to test Z.\nOR\nC. Name the process in which compounds X, Y & Z are formed from A.\nJustify your response.\n- - - - - - - - - - - - - -\nFor visually impaired students\nA. Distinguish between ethanol and ethanoic acid experimentally.\nAttempt either subpart B or C.\nB. Give the IUPAC name of the first member of Alkene which is formed by\naddition of conc. sulphuric acid to it. Illustrate the change with the help\nof a chemical equation.\nOR\nC. \u201cAll combustion reactions are oxidation but all oxidation reactions are\nnot combustion.\u201d Justify.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Derive the names of A, Y, Z, M, P & R\nAttempt either subpart B or C.",
+        "B. Improvise an activity to test Z.",
+        "OR",
+        "C. Name the process in which compounds X, Y & Z are formed from A.\nJustify your response.\n- - - - - - - - - - - - - -\nFor visually impaired students",
+        "A. Distinguish between ethanol and ethanoic acid experimentally.\nAttempt either subpart B or C.",
+        "B. Give the IUPAC name of the first member of Alkene which is formed by\naddition of conc. sulphuric acid to it. Illustrate the change with the help\nof a chemical equation.",
+        "OR",
+        "C. \u201cAll combustion reactions are oxidation but all oxidation reactions are\nnot combustion.\u201d Justify."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q37_1.png",
+          "relative_path": "images/q37_1.png",
+          "bounding_box": [
+            107.5,
+            109.8,
+            452.5,
+            318.1
+          ],
+          "width": 345.0,
+          "height": 208.3
+        }
+      ]
+    },
+    {
+      "question_id": "q38",
+      "question_number": "Q38",
+      "section": "SECTION D",
+      "page_num": 14,
+      "bounding_box": [
+        61.7,
+        632.44,
+        500.32,
+        687.22
+      ],
+      "raw_text": "Mohan and Rohit observed that shoots of a plant growing in shade bend\ntowards the sunlight. Whereas, leaves of \u2018Touch me not\u2019 plant fold and droop\nsoon after touching. They were curious to know how these movements occur\nin plants.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. Shoots of a plant bending towards light",
+        "B. Folding of leaves Touch me not plant\nIn order to help them understand the movements in the plants, answer the\nfollowing questions:\nAttempt either subpart A or B.",
+        "A. What causes the bending of shoots in the plants as shown in figure A?",
+        "OR",
+        "B. What causes the folding of the leaves in \u2018Touch me not\u2019 plant as shown\nin figure B?                                                                                          (2)",
+        "C. Compare the movement of growth of the pollen tube towards ovule with\nthe movements shown in part A of the above figure.                           (1)",
+        "D. Compare the movement shown in figure B with the movement of body\nparts in the animals.                                                                             (1)\n- - - - - - - - - - - - - -\nFor visually impaired students\nDuring a field trip, Mohan and Rohit observed that shoots of sunflower plants\nbend towards the sunlight. Whereas, leaves of \u2018Touch me not\u2019 plant begin to\nfold and droop soon after touching even during the day. They were curious to\nknow how these movements occur in plants.\nAttempt either subpart A or B.",
+        "A. What causes the bending of shoots in the sunflower plants towards\nsunlight?",
+        "OR",
+        "B. What causes the folding of the leaves in \u2018Touch me not\u2019 plants when\ntouched by hand?                                                                                (2)",
+        "C. Compare the movement of growth of the pollen tube towards ovule with\nthe bending of shoots of sunflower plant towards sunlight.                 (1)",
+        "D. Compare the movement in folding of leaves of \u2018Touch me not\u2019 plants with\nthe movement of body parts in the animals.                                          (1)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q39",
+      "question_number": "Q39",
+      "section": "SECTION D",
+      "page_num": 16,
+      "bounding_box": [
+        61.7,
+        135.44,
+        508.02,
+        762.46
+      ],
+      "raw_text": "The above image is that of a reflecting telescope. Reflecting telescopes\nrevolutionised our ways of looking into the sky. They employ mirrors to gather\nand focus light, rather than relying solely on lenses as in their refracting\ncounterparts. These telescopes utilise precisely shaped and polished mirrors\nto capture incoming light and reflect it to a focal point, where it forms an image\nfor observation.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "A. What kind of image of the star is seen by the observer at the eyepiece?",
+        "B. What kind of mirror is used in this reflecting telescope?\nAttempt either subpart C or D.",
+        "C. Explain with reason what kind of optical device (type of lens or mirror)\nthat is used at the eyepiece.",
+        "OR",
+        "D. What is the role of the plane mirror in the telescope?\n- - - - - - - - - - - - - -\nFor visually impaired students\nAzim Taraporewala was a traveller and science enthusiast. During one of his\ntravels he found himself on the edge of an island without any mode of\ncommunication. As he had read in many stories, he thought he would light a\nfire on the beach and travelling boats or ships could see that fire and come to\ngive him a ride. He had run out of lighters and match-sticks but had a reading\nglass. Being a science enthusiast he knew some tricks and used that lens and\na scrap of paper to light a fire, with the help of scorching rays from the sun.",
+        "A. Which lens can be used by Azim to create the fire?",
+        "B. What property of the lens helps Azim to create the fire?\nAttempt either subpart C or D.",
+        "C. List two more uses of this kind of lens.",
+        "OR",
+        "D. Explain with reason the condition under which the lens can form both\nreal as well as virtual images.\n***********"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q39_1.png",
+          "relative_path": "images/q39_1.png",
+          "bounding_box": [
+            116.28,
+            135.24,
+            478.08,
+            282.84
+          ],
+          "width": 361.8,
+          "height": 147.6
+        }
+      ]
+    }
+  ]
+}

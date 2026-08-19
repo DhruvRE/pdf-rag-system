@@ -1,0 +1,18 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p10_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/computer_science/2024-2025/82e9b74b52f9/images/img_p10_1.png",
+    "relative_path": "82e9b74b52f9/images/img_p10_1.png",
+    "page": 10,
+    "bbox": [
+      184.93,
+      250.24,
+      408.65,
+      375.44
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "DECORATORS. You, as a network expert, need to suggest the bes network-related solutions for them to resolve the issues/problem mentioned in points (I) to (V), keeping in mind the distances between var"
+  }
+}

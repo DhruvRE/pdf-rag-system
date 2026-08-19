@@ -1,0 +1,1027 @@
+{
+  "paper_id": "173e8997897f",
+  "class": "12",
+  "subject": "mathematics",
+  "year": "2022-2023",
+  "total_chunks": 37,
+  "chunks": [
+    {
+      "chunk_id": "173e8997897f_q1",
+      "paper_id": "173e8997897f",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q1. If A =[aij] is a skew-symmetric matrix of order n, then",
+      "raw_text": "Q1. If A =[aij] is a skew-symmetric matrix of order n, then",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \ud835\udc4e=\n\u2200 \ud835\udc56, \ud835\udc57   (b) \ud835\udc4e\u22600 \u2200 \ud835\udc56, \ud835\udc57   (c)\ud835\udc4e= 0, \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57  (d) \ud835\udc4e\u22600 \ud835\udc64\u210e\ud835\udc52\ud835\udc5f\ud835\udc52 \ud835\udc56= \ud835\udc57"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        369.29,
+        514.97,
+        404.41
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q2",
+      "paper_id": "173e8997897f",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q2. If A is a square matrix of order 3, |\ud835\udc34\u2032| = \u22123, then |\ud835\udc34\ud835\udc34\u2032| =",
+      "raw_text": "Q2. If A is a square matrix of order 3, |\ud835\udc34\u2032| = \u22123, then |\ud835\udc34\ud835\udc34\u2032| =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 9        (b) -9        (c) 3        (d) -3"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        404.69,
+        379.97,
+        430.11
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q3",
+      "paper_id": "173e8997897f",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q3. The area of a triangle with vertices A, B, C is given by",
+      "raw_text": "Q3. The area of a triangle with vertices A, B, C is given by",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7         (b)\n\ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7",
+        "(b) \ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7      (d)\n\ud835\udc34\ud835\udc36\n\u122c\u122c\u122c\u122c\u122c\u20d7\u00d7 \ud835\udc34\ud835\udc35\n\u122c\u122c\u122c\u122c\u122c\u20d7"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        430.61,
+        362.64,
+        482.98
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q4",
+      "paper_id": "173e8997897f",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q4. The value of \u2018k\u2019 for which the function f(x) =\u124a\n, \ud835\udc56\ud835\udc53 \ud835\udc65\u22600\n\ud835\udc58, \ud835\udc56\ud835\udc53 \ud835\udc65= 0\nis continuous at x = 0 is",
+      "raw_text": "Q4. The value of \u2018k\u2019 for which the function f(x) =\u124a\n, \ud835\udc56\ud835\udc53 \ud835\udc65\u22600\n\ud835\udc58, \ud835\udc56\ud835\udc53 \ud835\udc65= 0\nis continuous at x = 0 is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 0            (b) -1         (c)  1.          (d) 2"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        481.82,
+        515.49,
+        526.95
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q5",
+      "paper_id": "173e8997897f",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q5.  If \ud835\udc53\u11f1(\ud835\udc65) = \ud835\udc65+\n, then \ud835\udc53(\ud835\udc65) is\n\n\nOptions:\n(a) \ud835\udc65+ log |\ud835\udc65| + \ud835\udc36\n(b) + log |\ud835\udc65| + \ud835\udc36\n(c) + log |\ud835\udc65| + \ud835\udc36\n(d) \u2212log |\ud835\udc65| + \ud835\udc36",
+      "raw_text": "Q5.  If \ud835\udc53\u11f1(\ud835\udc65) = \ud835\udc65+\n, then \ud835\udc53(\ud835\udc65) is",
+      "options": [
+        "(a) \ud835\udc65+ log |\ud835\udc65| + \ud835\udc36",
+        "(b) + log |\ud835\udc65| + \ud835\udc36",
+        "(c) + log |\ud835\udc65| + \ud835\udc36",
+        "(d) \u2212log |\ud835\udc65| + \ud835\udc36"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        527.78,
+        489.05,
+        568.9
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "173e8997897f_q6",
+      "paper_id": "173e8997897f",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q6.  If m and n, respectively, are the order and the degree of the differential equation\n\u1242\u1240\n\u1241\u1243\n= 0, then m + n =",
+      "raw_text": "Q6.  If m and n, respectively, are the order and the degree of the differential equation\n\u1242\u1240\n\u1241\u1243\n= 0, then m + n =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 1            (b) 2         (c) 3              (d) 4"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        567.41,
+        482.75,
+        628.47
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q7",
+      "paper_id": "173e8997897f",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Q7. The solution set of the inequality 3x + 5y < 4 is\n(a) an open half-plane not containing the origin.\n(b) an open half-plane containing the origin.\n(c) the whole XY-plane not containing the line 3x + 5y = 4.",
+      "raw_text": "Q7. The solution set of the inequality 3x + 5y < 4 is\n(a) an open half-plane not containing the origin.\n(b) an open half-plane containing the origin.\n(c) the whole XY-plane not containing the line 3x + 5y = 4.",
+      "options": [
+        "(a) an open half-plane not containing the origin.",
+        "(b) an open half-plane containing the origin.",
+        "(c) the whole XY-plane not containing the line 3x + 5y = 4.",
+        "(d) a closed half plane containing the origin."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        628.97,
+        401.48,
+        706.35
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "173e8997897f_q8",
+      "paper_id": "173e8997897f",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q8. The scalar projection of the vector 3\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 \u22122\ud835\udc58 \ud835\udc5c\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc63\ud835\udc52\ud835\udc50\ud835\udc61\ud835\udc5c\ud835\udc5f \ud835\udea4\u0302 + 2\ud835\udea5\u0302 \u22123\ud835\udc58  is",
+      "raw_text": "Q8. The scalar projection of the vector 3\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 \u22122\ud835\udc58 \ud835\udc5c\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc63\ud835\udc52\ud835\udc50\ud835\udc61\ud835\udc5c\ud835\udc5f \ud835\udea4\u0302 + 2\ud835\udea5\u0302 \u22123\ud835\udc58  is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \u221a              (b)",
+        "(c) (d)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        67.8,
+        466.27,
+        102.94
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q9",
+      "paper_id": "173e8997897f",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q9. The value of \u222b\ndx is",
+      "raw_text": "Q9. The value of \u222b\ndx is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) log4           (b)  \ud835\udc59\ud835\udc5c\ud835\udc54",
+        "(c) \ud835\udc59\ud835\udc5c\ud835\udc542        (d) \ud835\udc59\ud835\udc5c\ud835\udc54"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        115.1,
+        377.69,
+        154.66
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q10",
+      "paper_id": "173e8997897f",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q10. If A, B are non-singular square matrices of the same order, then (\ud835\udc34\ud835\udc35)=\n(a)\ud835\udc34\ud835\udc35         (b)\ud835\udc34\ud835\udc35             (c)\ud835\udc35\ud835\udc34         (d) \ud835\udc34\ud835\udc35",
+      "raw_text": "Q10. If A, B are non-singular square matrices of the same order, then (\ud835\udc34\ud835\udc35)=\n(a)\ud835\udc34\ud835\udc35         (b)\ud835\udc34\ud835\udc35             (c)\ud835\udc35\ud835\udc34         (d) \ud835\udc34\ud835\udc35",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        165.98,
+        469.97,
+        192.22
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q11",
+      "paper_id": "173e8997897f",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q11. The corner points of the shaded unbounded feasible region of an LPP are (0, 4),\n(0.6, 1.6) and (3, 0) as shown in the figure. The minimum value of the objective\nfunction Z = 4x + 6y occurs at\n(a)(0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66                 (b) (3, 0) only                (c) (0.6, 1.6) and (3, 0) only",
+      "raw_text": "Q11. The corner points of the shaded unbounded feasible region of an LPP are (0, 4),\n(0.6, 1.6) and (3, 0) as shown in the figure. The minimum value of the objective\nfunction Z = 4x + 6y occurs at\n(a)(0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66                 (b) (3, 0) only                (c) (0.6, 1.6) and (3, 0) only",
+      "options": [
+        "(a) (0.6, 1.6) \ud835\udc5c\ud835\udc5b\ud835\udc59\ud835\udc66",
+        "(b) (3, 0) only",
+        "(c) (0.6, 1.6) and (3, 0) only",
+        "(d) at every point of the line-segment joining the points (0.6, 1.6) and (3, 0)"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q11_1.png"
+      ],
+      "bounding_box": [
+        93.84,
+        205.49,
+        484.77,
+        489.75
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "173e8997897f_q12",
+      "paper_id": "173e8997897f",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q12. If \u125a2\n1\u125a= \u125a2\ud835\udc65\n\ud835\udc65\u125a, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc5d\ud835\udc5c\ud835\udc60\ud835\udc60\ud835\udc56\ud835\udc4f\ud835\udc59\ud835\udc52 value(s) of \u2018x\u2019 is/are",
+      "raw_text": "Q12. If \u125a2\n1\u125a= \u125a2\ud835\udc65\n\ud835\udc65\u125a, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc61\u210e\ud835\udc52 \ud835\udc5d\ud835\udc5c\ud835\udc60\ud835\udc60\ud835\udc56\ud835\udc4f\ud835\udc59\ud835\udc52 value(s) of \u2018x\u2019 is/are",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 3                    (b) \u221a3                (c) -\u221a3                  (d) \u221a3, \u2212\u221a3"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        503.64,
+        414.53,
+        540.82
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q13",
+      "paper_id": "173e8997897f",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q13. If A is a square matrix of order 3 and |A| = 5, then |\ud835\udc4e\ud835\udc51\ud835\udc57\ud835\udc34| =",
+      "raw_text": "Q13. If A is a square matrix of order 3 and |A| = 5, then |\ud835\udc4e\ud835\udc51\ud835\udc57\ud835\udc34| =",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 5               (b) 25      (c) 125      (d)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        553.85,
+        393.05,
+        587.26
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q14",
+      "paper_id": "173e8997897f",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q14. Given two independent events A and B such that P(A) =0.3, P(B) = 0.6 and P(\ud835\udc34\u11f1\u2229\ud835\udc35\u11f1) is",
+      "raw_text": "Q14. Given two independent events A and B such that P(A) =0.3, P(B) = 0.6 and P(\ud835\udc34\u11f1\u2229\ud835\udc35\u11f1) is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 0.9           (b) 0.18    (c) 0.28      (d) 0.1"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        598.7,
+        525.32,
+        624.39
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q15",
+      "paper_id": "173e8997897f",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q15. The general solution of the differential equation \ud835\udc66\ud835\udc51\ud835\udc65\u2212\ud835\udc65\ud835\udc51\ud835\udc66= 0 \ud835\udc56\ud835\udc60",
+      "raw_text": "Q15. The general solution of the differential equation \ud835\udc66\ud835\udc51\ud835\udc65\u2212\ud835\udc65\ud835\udc51\ud835\udc66= 0 \ud835\udc56\ud835\udc60",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \ud835\udc65\ud835\udc66= \ud835\udc36      (b) \ud835\udc65= \ud835\udc36\ud835\udc66          (c) \ud835\udc66= \ud835\udc36\ud835\udc65        (d) \ud835\udc66= \ud835\udc36\ud835\udc65"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        638.21,
+        424.73,
+        664.18
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q16",
+      "paper_id": "173e8997897f",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Q16. If \ud835\udc66= \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udc65, then (1 \u2212\ud835\udc65)\ud835\udc66 \ud835\udc56\ud835\udc60 equal to",
+      "raw_text": "Q16. If \ud835\udc66= \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udc65, then (1 \u2212\ud835\udc65)\ud835\udc66 \ud835\udc56\ud835\udc60 equal to",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \ud835\udc65\ud835\udc66            (b) \ud835\udc65\ud835\udc66                (c) \ud835\udc65\ud835\udc66          (d) \ud835\udc65"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        677.54,
+        351.53,
+        705.34
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q17",
+      "paper_id": "173e8997897f",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Q17. If two vectors \ud835\udc4e\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7 are such that |\ud835\udc4e\u20d7| = 2 , \ud835\udc4f\u122c\u20d7= 3 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7. \ud835\udc4f\u122c\u20d7= 4, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc4e\u20d7\u22122\ud835\udc4f\u122c\u20d7 is\nequal to",
+      "raw_text": "Q17. If two vectors \ud835\udc4e\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7 are such that |\ud835\udc4e\u20d7| = 2 , \ud835\udc4f\u122c\u20d7= 3 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7. \ud835\udc4f\u122c\u20d7= 4, \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc4e\u20d7\u22122\ud835\udc4f\u122c\u20d7 is\nequal to",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) \u221a2              (b) 2\u221a6             (c) 24            (d) 2\u221a2"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        69.36,
+        508.22,
+        112.3
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q18",
+      "paper_id": "173e8997897f",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Q18. P is a point on the line joining the points \ud835\udc34(0,5, \u22122) and  \ud835\udc35(3, \u22121,2). If the x-coordinate\nof P is 6, then its z-coordinate is",
+      "raw_text": "Q18. P is a point on the line joining the points \ud835\udc34(0,5, \u22122) and  \ud835\udc35(3, \u22121,2). If the x-coordinate\nof P is 6, then its z-coordinate is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) 10              (b) 6                  (c) -6             (d) -10"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        125.45,
+        522.5,
+        176.67
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q19",
+      "paper_id": "173e8997897f",
+      "question_id": "q19",
+      "question_number": "Q19",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "ASSERTION REASON",
+      "page_num": 3,
+      "content": "Q19. Assertion (A): The domain of the function \ud835\udc60\ud835\udc52\ud835\udc50\n2\ud835\udc65 is \u1240\u2212\u221e, \u2212\n\u1243\u222a[\n, \u221e)\nReason (R): \ud835\udc60\ud835\udc52\ud835\udc50\n(\u22122) = \u2212\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Q19. Assertion (A): The domain of the function \ud835\udc60\ud835\udc52\ud835\udc50\n2\ud835\udc65 is \u1240\u2212\u221e, \u2212\n\u1243\u222a[\n, \u221e)\nReason (R): \ud835\udc60\ud835\udc52\ud835\udc50\n(\u22122) = \u2212",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        321.14,
+        459.89,
+        359.74
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "173e8997897f_q20",
+      "paper_id": "173e8997897f",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "ASSERTION REASON",
+      "page_num": 3,
+      "content": "Q20.  Assertion (A): The acute angle between the line \ud835\udc5f\u0305 = \ud835\udea4\u0302 + \ud835\udea5\u0302 + 2\ud835\udc58+ \ud835\udf06(\ud835\udea4\u0302 \u2212\ud835\udea5\u0302) and the x-axis\nis\nReason(R): The acute angle \ud835\udf03 between the lines\n\ud835\udc5f\u0305 = \ud835\udc65\ud835\udea4\u0302 + \ud835\udc66\ud835\udea5\u0302 + \ud835\udc67\ud835\udc58+ \ud835\udf06\ud835\udc4e\ud835\udea4\u0302 + \ud835\udc4f\ud835\udea5\u0302 + \ud835\udc50\ud835\udc58 and\n\ud835\udc5f\u0305 = \ud835\udc65\ud835\udea4\u0302 + \ud835\udc66\ud835\udea5\u0302 + \ud835\udc67\ud835\udc58+ \ud835\udf07\ud835\udc4e\ud835\udea4\u0302 + \ud835\udc4f\ud835\udea5\u0302 + \ud835\udc50\ud835\udc58 is given by \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03=\n||\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Q20.  Assertion (A): The acute angle between the line \ud835\udc5f\u0305 = \ud835\udea4\u0302 + \ud835\udea5\u0302 + 2\ud835\udc58+ \ud835\udf06(\ud835\udea4\u0302 \u2212\ud835\udea5\u0302) and the x-axis\nis\nReason(R): The acute angle \ud835\udf03 between the lines\n\ud835\udc5f\u0305 = \ud835\udc65\ud835\udea4\u0302 + \ud835\udc66\ud835\udea5\u0302 + \ud835\udc67\ud835\udc58+ \ud835\udf06\ud835\udc4e\ud835\udea4\u0302 + \ud835\udc4f\ud835\udea5\u0302 + \ud835\udc50\ud835\udc58 and\n\ud835\udc5f\u0305 = \ud835\udc65\ud835\udea4\u0302 + \ud835\udc66\ud835\udea5\u0302 + \ud835\udc67\ud835\udc58+ \ud835\udf07\ud835\udc4e\ud835\udea4\u0302 + \ud835\udc4f\ud835\udea5\u0302 + \ud835\udc50\ud835\udc58 is given by \ud835\udc50\ud835\udc5c\ud835\udc60\ud835\udf03=\n||",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        358.2,
+        535.24,
+        446.53
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "173e8997897f_q21",
+      "paper_id": "173e8997897f",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 3,
+      "content": "Q21. Find the value of \ud835\udc60\ud835\udc56\ud835\udc5b[\ud835\udc60\ud835\udc56\ud835\udc5b\u1240\n\u1241]",
+      "raw_text": "Q21. Find the value of \ud835\udc60\ud835\udc56\ud835\udc5b[\ud835\udc60\ud835\udc56\ud835\udc5b\u1240\n\u1241]",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Prove that the function f is surjective, where \ud835\udc53: \ud835\udc41\u2192\ud835\udc41 such that\n\ud835\udc53(\ud835\udc5b) =\n\ud835\udc5b+ 1\n, \ud835\udc56\ud835\udc53 \ud835\udc5b \ud835\udc56\ud835\udc60 \ud835\udc5c\ud835\udc51\ud835\udc51\n\ud835\udc5b\n2 , \ud835\udc56\ud835\udc53 \ud835\udc5b \ud835\udc56\ud835\udc60 \ud835\udc52\ud835\udc63\ud835\udc52\ud835\udc5b\nIs the function injective? Justify your answer."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        502.22,
+        412.14,
+        610.23
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q22",
+      "paper_id": "173e8997897f",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 3,
+      "content": "Q22.  A man 1.6 m tall walks at the rate of 0.3 m/sec away from a street light that is 4 m above\nthe ground. At what rate is the tip of his shadow moving? At what rate is his shadow\nlengthening?",
+      "raw_text": "Q22.  A man 1.6 m tall walks at the rate of 0.3 m/sec away from a street light that is 4 m above\nthe ground. At what rate is the tip of his shadow moving? At what rate is his shadow\nlengthening?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        623.69,
+        524.91,
+        662.07
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q23",
+      "paper_id": "173e8997897f",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 3,
+      "content": "Q23. If  \ud835\udc4e\u20d7= \ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + 7\ud835\udc58 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7= 5\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + \ud835\udf06\ud835\udc58, then find the value of \ud835\udf06 so that the vectors\n\ud835\udc4e\u20d7+ \ud835\udc4f\u122c\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7\u2212\ud835\udc4f\u122c\u20d7  are orthogonal.\n\ud835\udc76\ud835\udc79\nFind the direction ratio and direction cosines of a line parallel to the line whose equations\nare\n6\ud835\udc65\u221212 = 3\ud835\udc66+ 9 = 2\ud835\udc67\u22122",
+      "raw_text": "Q23. If  \ud835\udc4e\u20d7= \ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + 7\ud835\udc58 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4f\u122c\u20d7= 5\ud835\udea4\u0302 \u2212\ud835\udea5\u0302 + \ud835\udf06\ud835\udc58, then find the value of \ud835\udf06 so that the vectors\n\ud835\udc4e\u20d7+ \ud835\udc4f\u122c\u20d7 \ud835\udc4e\ud835\udc5b\ud835\udc51 \ud835\udc4e\u20d7\u2212\ud835\udc4f\u122c\u20d7  are orthogonal.\n\ud835\udc76\ud835\udc79\nFind the direction ratio and direction cosines of a line parallel to the line whose equations\nare\n6\ud835\udc65\u221212 = 3\ud835\udc66+ 9 = 2\ud835\udc67\u22122",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        676.92,
+        500.61,
+        719.86
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q24",
+      "paper_id": "173e8997897f",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "Q24. If \ud835\udc66\u221a1 \u2212\ud835\udc65+ \ud835\udc651 \u2212\ud835\udc66= 1 , \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc63\ud835\udc52 \ud835\udc61\u210e\ud835\udc4e\ud835\udc61\n= \u2212",
+      "raw_text": "Q24. If \ud835\udc66\u221a1 \u2212\ud835\udc65+ \ud835\udc651 \u2212\ud835\udc66= 1 , \ud835\udc61\u210e\ud835\udc52\ud835\udc5b \ud835\udc5d\ud835\udc5f\ud835\udc5c\ud835\udc63\ud835\udc52 \ud835\udc61\u210e\ud835\udc4e\ud835\udc61\n= \u2212",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        112.04,
+        412.97,
+        133.54
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q25",
+      "paper_id": "173e8997897f",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONB",
+      "page_num": 4,
+      "content": "Q25. Find |\ud835\udc65\u20d7| if  (\ud835\udc65\u20d7\u2212\ud835\udc4e\u20d7). (\ud835\udc65\u20d7+ \ud835\udc4e\u20d7) = 12, where \ud835\udc4e\u20d7 is a unit vector.",
+      "raw_text": "Q25. Find |\ud835\udc65\u20d7| if  (\ud835\udc65\u20d7\u2212\ud835\udc4e\u20d7). (\ud835\udc65\u20d7+ \ud835\udc4e\u20d7) = 12, where \ud835\udc4e\u20d7 is a unit vector.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        147.65,
+        391.31,
+        160.18
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q27",
+      "paper_id": "173e8997897f",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "content": "Q27. Three friends go for coffee. They decide who will pay the bill, by each tossing a coin and\nthen letting the \u201codd person\u201d pay. There is no odd person if all three tosses produce the\nsame result. If there is no odd person in the first round, they make a second round of\ntosses and they continue to do so until there is an odd person. What is the probability\nthat exactly three rounds of tosses are made?",
+      "raw_text": "Q27. Three friends go for coffee. They decide who will pay the bill, by each tossing a coin and\nthen letting the \u201codd person\u201d pay. There is no odd person if all three tosses produce the\nsame result. If there is no odd person in the first round, they make a second round of\ntosses and they continue to do so until there is an odd person. What is the probability\nthat exactly three rounds of tosses are made?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Find the mean number of defective items in a sample of two items drawn one-by-one\nwithout replacement from an urn containing 6 items, which include 2 defective items.\nAssume that the items are identical in shape and size."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        245.09,
+        529.44,
+        361.35
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q28",
+      "paper_id": "173e8997897f",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "content": "Q28. Evaluate: \u222b\n\u221a",
+      "raw_text": "Q28. Evaluate: \u222b\n\u221a",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Evaluate: \u222b|\ud835\udc65\u22121|\n\ud835\udc51\ud835\udc65"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        361.1,
+        321.5,
+        443.26
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q29",
+      "paper_id": "173e8997897f",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "content": "Q29. Solve the differential equation: \ud835\udc66\ud835\udc51\ud835\udc65+ (\ud835\udc65\u2212\ud835\udc66)\ud835\udc51\ud835\udc66= 0",
+      "raw_text": "Q29. Solve the differential equation: \ud835\udc66\ud835\udc51\ud835\udc65+ (\ud835\udc65\u2212\ud835\udc66)\ud835\udc51\ud835\udc66= 0",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Solve the differential equation: \ud835\udc65\ud835\udc51\ud835\udc66\u2212\ud835\udc66\ud835\udc51\ud835\udc65= \ud835\udc65+ \ud835\udc66 \ud835\udc51\ud835\udc65"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        454.7,
+        392.09,
+        509.62
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q30",
+      "paper_id": "173e8997897f",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "content": "Q30. Solve the following Linear Programming Problem graphically:\nMaximize Z = 400x + 300y subject to \ud835\udc65+ \ud835\udc66\u2264200, \ud835\udc65\u226440, \ud835\udc65\u226520, \ud835\udc66\u22650",
+      "raw_text": "Q30. Solve the following Linear Programming Problem graphically:\nMaximize Z = 400x + 300y subject to \ud835\udc65+ \ud835\udc66\u2264200, \ud835\udc65\u226440, \ud835\udc65\u226520, \ud835\udc66\u22650",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        523.49,
+        462.65,
+        562.3
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q31",
+      "paper_id": "173e8997897f",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONC",
+      "page_num": 4,
+      "content": "Q31. Find \u222b\n() \ud835\udc51\ud835\udc65",
+      "raw_text": "Q31. Find \u222b\n() \ud835\udc51\ud835\udc65",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        576.68,
+        206.21,
+        599.26
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q32",
+      "paper_id": "173e8997897f",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 4,
+      "content": "Q32. Make a rough sketch of the region {(\ud835\udc65, \ud835\udc66): 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc65\u22642} and find\nthe area of the region using integration.",
+      "raw_text": "Q32. Make a rough sketch of the region {(\ud835\udc65, \ud835\udc66): 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc66\u2264\ud835\udc65, 0 \u2264\ud835\udc65\u22642} and find\nthe area of the region using integration.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        637.7,
+        524.09,
+        663.39
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q33",
+      "paper_id": "173e8997897f",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 4,
+      "content": "Q33. Define the relation R in the set \ud835\udc41\u00d7 \ud835\udc41 as follows:\nFor (a, b), (c, d) \u2208\ud835\udc41\u00d7 \ud835\udc41, (a, b) R (c, d) iff ad = bc. Prove that R is an equivalence\nrelation in \ud835\udc41\u00d7 \ud835\udc41.",
+      "raw_text": "Q33. Define the relation R in the set \ud835\udc41\u00d7 \ud835\udc41 as follows:\nFor (a, b), (c, d) \u2208\ud835\udc41\u00d7 \ud835\udc41, (a, b) R (c, d) iff ad = bc. Prove that R is an equivalence\nrelation in \ud835\udc41\u00d7 \ud835\udc41.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Given a non-empty set X, d\nFor A, B \u2208\ud835\udc43(\ud835\udc4b), (\ud835\udc34, \ud835\udc35) \u2208\nsymmetric."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        664.25,
+        494.89,
+        716.07
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q34",
+      "paper_id": "173e8997897f",
+      "question_id": "q34",
+      "question_number": "Q34",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 5,
+      "content": "Q34. An insect is crawling along\ninsect is crawling along the\nlines should they reach so t\npossible distance between t\nThe equations of motion of\n\ud835\udc65= 2\ud835\udc61, \ud835\udc66= \u22124\ud835\udc61, \ud835\udc67= 4\ud835\udc61,  w\nmoving point in km. What\nfrom the starting point O(0\n\ud835\udc5f\u20d7= 20\ud835\udea4\u0302 \u221210\ud835\udea5\u0302 + 40\ud835\udc58+ \ud835\udf07(",
+      "raw_text": "Q34. An insect is crawling along\ninsect is crawling along the\nlines should they reach so t\npossible distance between t\nThe equations of motion of\n\ud835\udc65= 2\ud835\udc61, \ud835\udc66= \u22124\ud835\udc61, \ud835\udc67= 4\ud835\udc61,  w\nmoving point in km. What\nfrom the starting point O(0\n\ud835\udc5f\u20d7= 20\ud835\udea4\u0302 \u221210\ud835\udea5\u0302 + 40\ud835\udc58+ \ud835\udf07(",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        121.59,
+        247.41,
+        268.67
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q35",
+      "paper_id": "173e8997897f",
+      "question_id": "q35",
+      "question_number": "Q35",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 5,
+      "content": "Q35. If A =\n\u22123\n\u22124\n\u22122\n, find\n2\ud835\udc65\u22123\ud835\udc66+ 5\ud835\udc67= 11, 3\ud835\udc65+\n(This section comprises\nwith two sub-parts. Firs\nof marks 1, 1, 2 respect\nmarks each.)",
+      "raw_text": "Q35. If A =\n\u22123\n\u22124\n\u22122\n, find\n2\ud835\udc65\u22123\ud835\udc66+ 5\ud835\udc67= 11, 3\ud835\udc65+\n(This section comprises\nwith two sub-parts. Firs\nof marks 1, 1, 2 respect\nmarks each.)",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        93.84,
+        282.48,
+        243.64,
+        421.72
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "173e8997897f_q36",
+      "paper_id": "173e8997897f",
+      "question_id": "q36",
+      "question_number": "Q36",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIOND",
+      "page_num": 5,
+      "content": "Q36. Case-Study 1: Read the fol\nThe temperature of a person\n\ud835\udc53(\ud835\udc65) = \u22120.1\ud835\udc65+ \ud835\udc5a\ud835\udc65+ 98\ntemperature in \u00b0F at x days.",
+      "raw_text": "Q36. Case-Study 1: Read the fol\nThe temperature of a person\n\ud835\udc53(\ud835\udc65) = \u22120.1\ud835\udc65+ \ud835\udc5a\ud835\udc65+ 98\ntemperature in \u00b0F at x days.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Is the function diffe",
+        "(ii) If 6 is the critical p\ndefine the relation R in P(X) as follows:\n\ud835\udc45 iff \ud835\udc34\u2282\ud835\udc35. Prove that R is reflexive, transitive\ng the line \ud835\udc5f\u0305 = 6\ud835\udea4\u0302 + 2\ud835\udea5\u0302 + 2\ud835\udc58+ \ud835\udf06\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 + 2\ud835\udc58 an\ne line \ud835\udc5f\u0305 = \u22124\ud835\udea4\u0302 \u2212\ud835\udc58+ \ud835\udf073\ud835\udea4\u0302 \u22122\ud835\udea5\u0302 \u22122\ud835\udc58. At what\nthat the distance between them is the shortest? F\nthem.",
+        "OR",
+        "f a rocket are:\nwhere the time t is given in seconds, and the coo\nis the path of the rocket? At what distances will\n, 0, 0) and from the following line in 10 seconds\n(10\ud835\udea4\u0302 \u221220\ud835\udea5\u0302 + 10\ud835\udc58)\n\ud835\udc34. Use \ud835\udc34 to solve the following system of\n2\ud835\udc66\u22124\ud835\udc67= \u22125, \ud835\udc65+ \ud835\udc66\u22122\ud835\udc67= \u22123"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q36_1.png"
+      ],
+      "bounding_box": [
+        93.84,
+        67.71,
+        458.98,
+        719.56
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q37",
+      "paper_id": "173e8997897f",
+      "question_id": "q37",
+      "question_number": "Q37",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONE",
+      "page_num": 6,
+      "content": "Q37. Case-Study 2: Read the following passage and answer the questions given below.\nIn an elliptical sport field the authority wants to design a rectangular soccer field\nwith the maximum possible area. The sport field is given by the graph of\n+\n= 1.",
+      "raw_text": "Q37. Case-Study 2: Read the following passage and answer the questions given below.\nIn an elliptical sport field the authority wants to design a rectangular soccer field\nwith the maximum possible area. The sport field is given by the graph of\n+\n= 1.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) If the length and the breadth of the rectangular field be 2x and 2y respectively,\nthen find the area function in terms of x.",
+        "(ii) Find the critical point of the function.",
+        "(iii) Use First derivative Test to find the length 2x and width 2y of the soccer field (in\nterms of a and b) that maximize its area.",
+        "OR",
+        "(iii) Use Second Derivative Test to find the length 2x and width 2y of the soccer field\n(in terms of a and b) that maximize its area."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q37_1.png"
+      ],
+      "bounding_box": [
+        93.84,
+        171.41,
+        533.09,
+        612.14
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "173e8997897f_q38",
+      "paper_id": "173e8997897f",
+      "question_id": "q38",
+      "question_number": "Q38",
+      "class": "12",
+      "subject": "mathematics",
+      "year": "2022-2023",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "content": "Q38. Case-Study 3: Read the following passage and answer the questions given below.\nThere are two antiaircraft guns, named as A and B. The probabilities that the shell fired\nfrom them hits an airplane are 0.3 and 0.2 respectively. Both of them fired one shell at an\nairplane at the same time.",
+      "raw_text": "Q38. Case-Study 3: Read the following passage and answer the questions given below.\nThere are two antiaircraft guns, named as A and B. The probabilities that the shell fired\nfrom them hits an airplane are 0.3 and 0.2 respectively. Both of them fired one shell at an\nairplane at the same time.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) What is the probability that the shell fired from exactly one of them hit the plane?",
+        "(ii) If it is known that the shell fired from exactly one of them hit the plane, then what is\nthe probability that it was fired from B?"
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q38_1.png"
+      ],
+      "bounding_box": [
+        93.84,
+        67.73,
+        529.45,
+        349.59
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}

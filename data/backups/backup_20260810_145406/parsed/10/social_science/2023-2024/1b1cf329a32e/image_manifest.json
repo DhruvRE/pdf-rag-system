@@ -1,0 +1,162 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p1_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p1_1.png",
+    "relative_path": "1b1cf329a32e/images/img_p1_1.png",
+    "page": 1,
+    "bbox": [
+      33.96,
+      38.04,
+      85.68,
+      94.92
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "S C"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p1_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p1_2.png",
+    "relative_path": "1b1cf329a32e/images/img_p1_2.png",
+    "page": 1,
+    "bbox": [
+      469.56,
+      38.28,
+      564.6,
+      102.0
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "APER E 087) 23-24"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p2_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p2_1.png",
+    "relative_path": "1b1cf329a32e/images/img_p2_1.png",
+    "page": 2,
+    "bbox": [
+      79.68,
+      282.12,
+      513.0,
+      404.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "c. Mumbai d. Kolhapur 3. Read the data given below and answer the question. Educational Achievement of Rural Population of Uttar Pradesh As per the data given above who has the least percentage of lit"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p2_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p2_2.png",
+    "relative_path": "1b1cf329a32e/images/img_p2_2.png",
+    "page": 2,
+    "bbox": [
+      84.72,
+      287.04,
+      504.0,
+      395.88
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "c. Mumbai d. Kolhapur 3. Read the data given below and answer the question. Educational Achievement of Rural Population of Uttar Pradesh As per the data given above who has the least percentage of lit"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p4_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p4_1.png",
+    "relative_path": "1b1cf329a32e/images/img_p4_1.png",
+    "page": 4,
+    "bbox": [
+      79.68,
+      293.64,
+      515.28,
+      484.08
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "d. Power is shared among different levels of government, such as the national, regional, and local governments, with each level having some degree of autonomy. 10. Identify the painting from the optio"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p4_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p4_2.png",
+    "relative_path": "1b1cf329a32e/images/img_p4_2.png",
+    "page": 4,
+    "bbox": [
+      84.72,
+      298.68,
+      506.28,
+      474.96
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "d. Power is shared among different levels of government, such as the national, regional, and local governments, with each level having some degree of autonomy. 10. Identify the painting from the optio"
+  },
+  "[IMAGE_PLACEHOLDER_7]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_7]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p7_1.png",
+    "relative_path": "1b1cf329a32e/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      86.28,
+      521.16,
+      507.93,
+      765.81
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Page 7 of 12 Sample Question Paper Class-X 2023-24 VERY SHORT ANSWER QUESTION (2\uf0434=8) 21. Q: Study the map thoroughly and answer the question given below. What can be inferred about the linguistic div"
+  },
+  "[IMAGE_PLACEHOLDER_8]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_8]",
+    "filename": "img_p7_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p7_2.png",
+    "relative_path": "1b1cf329a32e/images/img_p7_2.png",
+    "page": 7,
+    "bbox": [
+      91.32,
+      526.2,
+      499.32,
+      757.2
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Page 7 of 12 Sample Question Paper Class-X 2023-24 VERY SHORT ANSWER QUESTION (2\uf0434=8) 21. Q: Study the map thoroughly and answer the question given below. What can be inferred about the linguistic div"
+  },
+  "[IMAGE_PLACEHOLDER_9]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_9]",
+    "filename": "img_p11_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p11_1.png",
+    "relative_path": "1b1cf329a32e/images/img_p11_1.png",
+    "page": 11,
+    "bbox": [
+      119.16,
+      390.0,
+      486.36,
+      743.64
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "Page 11 of 12 Sample Question Paper Class-X 2023-24 MAP SKILL-BASED QUESTION (2+3=5) 37 a. Two places A and B have been marked on the given outline map of India. Identify them and write their correct "
+  },
+  "[IMAGE_PLACEHOLDER_10]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_10]",
+    "filename": "img_p11_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/10/social_science/2023-2024/1b1cf329a32e/images/img_p11_2.png",
+    "relative_path": "1b1cf329a32e/images/img_p11_2.png",
+    "page": 11,
+    "bbox": [
+      124.2,
+      394.8,
+      477.36,
+      735.12
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "age 11 of 12 Sample Question Paper Class-X 2023-24 MAP SKILL-BASED QUESTION (2+3=5) 37 a. Two places A and B have been marked on the given outline map of India. Identify them and write their correct n"
+  }
+}

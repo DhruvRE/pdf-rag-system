@@ -2,6 +2,13 @@
 Phase 3 Segmenter: Question-Boundary Detection & Text Normalization.
 Handles Formats A, B, C, mid-paper subsection headers, font symbol replacements,
 universal multi-line subpart block aggregation, mark allocation stripping, and strict Section A MCQ isolation.
+
+Sub-question explosion strategy:
+  Each numbered block (Q1, Q2 ...) is forwarded to ai_split_question_block(),
+  which uses the configured LLM to dynamically:
+    - Strip meta-instruction wrappers ("Fill in the blank", "State whether T/F", etc.)
+    - Explode (a)/(b)/(c)/... into independent question strings
+  This is PDF-format agnostic and requires no font/bold heuristics.
 """
 
 import os
@@ -10,6 +17,7 @@ import json
 from datetime import datetime, timezone
 
 from src.config import PROJECT_ROOT, CONTEXT_PATH
+from src.parsing.ai_normalizer import ai_split_question_block
 
 
 SECTION_REGEX = re.compile(
@@ -340,7 +348,14 @@ def parse_question_blocks_from_lines(cleaned_lines: list[str], options: list[str
 
 
 def segment_questions_from_pages(pages_dict: dict) -> dict:
-    """Segments raw page layout blocks into question objects."""
+    """
+    Segments raw page layout blocks into question objects.
+
+    For each numbered block (Q1, Q2, ...) the raw collected text is sent to
+    ai_split_question_block(), which strips meta-instruction wrappers and
+    explodes sub-parts (a)/(b)/... into individual independent questions.
+    Sub-questions get IDs like q2a, q2b; single questions keep q1, q2, etc.
+    """
     paper_id = pages_dict.get("paper_id")
 
     all_lines = []
@@ -363,9 +378,12 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
 
     current_section = "HEADER"
     in_instructions = False
-    questions = []
-    current_q = None
-    current_q_num = None
+
+    # Each entry: {"question_number": int, "section": str, "page_num": int,
+    #              "lines": [str], "bboxes": [[x0,y0,x1,y1]]}
+    raw_blocks: list[dict] = []
+    current_block: dict | None = None
+    current_q_num: int | None = None
 
     for idx, item in enumerate(all_lines):
         txt = item["text"]
@@ -382,19 +400,20 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         if sec_m:
             current_section = sec_m.group(1).upper().replace(" ", "").replace("-", " ")
             in_instructions = False
-            if current_q:
-                questions.append(finalize_question(current_q))
-                current_q = None
+            if current_block:
+                raw_blocks.append(current_block)
+                current_block = None
                 current_q_num = None
             continue
 
         if current_section == "HEADER" or in_instructions:
             continue
 
+        # Right-margin mark labels (e.g. [1], [2]) — skip, they belong to blocks
         if x0 > (pwidth - 90):
-            if current_q is not None:
-                current_q["lines"].append(txt)
-                current_q["bboxes"].append(bbox)
+            if current_block is not None:
+                current_block["lines"].append(txt)
+                current_block["bboxes"].append(bbox)
             continue
 
         num_val = None
@@ -419,34 +438,94 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
                                 num_val = v
 
         if num_val and 1 <= num_val <= 50:
-            q_num_str = f"Q{num_val}"
-            q_id = q_num_str.lower()
-
-            if current_q_num != q_num_str:
-                if current_q:
-                    questions.append(finalize_question(current_q))
-
-                current_q_num = q_num_str
-                current_q = {
-                    "question_id": q_id,
-                    "question_number": q_num_str,
+            if current_q_num != num_val:
+                if current_block:
+                    raw_blocks.append(current_block)
+                current_q_num = num_val
+                current_block = {
+                    "question_number": num_val,
                     "section": current_section,
                     "page_num": pnum,
+                    "lines": [txt],
                     "bboxes": [bbox],
-                    "pages": [pnum],
-                    "lines": [txt]
                 }
             else:
-                current_q["lines"].append(txt)
-                current_q["bboxes"].append(bbox)
-                current_q.setdefault("pages", []).append(pnum)
-        elif current_q is not None:
-            current_q["lines"].append(txt)
-            current_q["bboxes"].append(bbox)
-            current_q.setdefault("pages", []).append(pnum)
+                current_block["lines"].append(txt)
+                current_block["bboxes"].append(bbox)
+        elif current_block is not None:
+            current_block["lines"].append(txt)
+            current_block["bboxes"].append(bbox)
 
-    if current_q:
-        questions.append(finalize_question(current_q))
+    if current_block:
+        raw_blocks.append(current_block)
+
+    # --- AI-powered explosion: one LLM call per numbered block ---
+    SUBPART_LABELS = list("abcdefghijklmnopqrstuvwxyz")
+    questions: list[dict] = []
+
+    for block in raw_blocks:
+        q_num = block["question_number"]
+        section = block["section"]
+        page_num = block["page_num"]
+        bboxes = block["bboxes"]
+
+        # Compute union bbox for the whole block
+        min_x = min(b[0] for b in bboxes)
+        min_y = min(b[1] for b in bboxes)
+        max_x = max(b[2] for b in bboxes)
+        max_y = max(b[3] for b in bboxes)
+        union_bbox = [round(min_x, 2), round(min_y, 2), round(max_x, 2), round(max_y, 2)]
+
+        # Build the raw text, skip bare mark lines like [1] [3] etc.
+        raw_text = "\n".join(
+            l for l in normalize_and_clean_lines(block["lines"])
+            if not MARK_JUNK_RE.match(l.strip())
+        ).strip()
+
+        if not raw_text or len(raw_text) < 10:
+            continue
+
+        print(f"  [segment] Q{q_num} → calling AI splitter ({len(raw_text)} chars)...")
+        split_texts = ai_split_question_block(raw_text)
+
+        if len(split_texts) == 1:
+            # Single question — keep as Q{n}
+            q_id = f"q{q_num}"
+            q_text = split_texts[0]
+            options = extract_options(q_text, section, str(q_num))
+            is_valid = len(q_text.strip()) > 15
+            questions.append({
+                "question_id": q_id,
+                "question_number": f"Q{q_num}",
+                "section": section,
+                "page_num": page_num,
+                "bounding_box": union_bbox,
+                "raw_text": q_text,
+                "options": options,
+                "has_subparts": False,
+                "subparts": [],
+                "is_valid": is_valid,
+            })
+        else:
+            # Multiple sub-questions — label as Q{n}a, Q{n}b, ...
+            for sub_idx, q_text in enumerate(split_texts):
+                suffix = SUBPART_LABELS[sub_idx] if sub_idx < len(SUBPART_LABELS) else str(sub_idx + 1)
+                q_id = f"q{q_num}{suffix}"
+                q_num_str = f"Q{q_num}{suffix.upper()}"
+                options = extract_options(q_text, section, str(q_num))
+                is_valid = len(q_text.strip()) > 10
+                questions.append({
+                    "question_id": q_id,
+                    "question_number": q_num_str,
+                    "section": section,
+                    "page_num": page_num,
+                    "bounding_box": union_bbox,
+                    "raw_text": q_text,
+                    "options": options,
+                    "has_subparts": False,
+                    "subparts": [],
+                    "is_valid": is_valid,
+                })
 
     return {
         "paper_id": paper_id,

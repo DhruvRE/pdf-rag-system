@@ -7,9 +7,42 @@ Outputs chunks.json under data/parsed/<class>/<subject>/<year>/<paper_id>/.
 
 import os
 import json
+import re
 from datetime import datetime, timezone
 
 from src.config import PROJECT_ROOT, CONTEXT_PATH
+from src.parsing.ai_normalizer import is_instruction_header_ai, extract_options_and_stem
+
+INSTRUCTION_HEADER_RE = re.compile(
+    r"^\s*(?:"
+    r"Answer\s+the\s+following\s+questions?\:?|"
+    r"Answer\s+any\s+(?:ONE|TWO|THREE|FOUR|FIVE|\d+)\s+(?:of\s+the\s+following\s+)?questions?\:?|"
+    r"Attempt\s+any\s+(?:ONE|TWO|THREE|FOUR|FIVE|\d+)\s+(?:of\s+the\s+following\s+)?questions?\:?|"
+    r"Fill\s+in\s+the\s+blanks?\s+with[^\n]*|"
+    r"State\s+whether\s+each\s+of\s+the\s+following[^\n]*|"
+    r"Read\s+the\s+following\s+passage[^\n]*|"
+    r"Choose\s+the\s+correct\s+option[^\n]*|"
+    r"General\s+Instructions?\:?|"
+    r"All\s+questions?\s+are\s+compulsory\.?"
+    r")\s*$",
+    re.IGNORECASE
+)
+
+
+def clean_instruction_headers(text: str) -> str:
+    """Strips generic section instruction titles from question stem text using hybrid AI NLP + regex rules."""
+    if not text:
+        return ""
+    lines = text.splitlines()
+    cleaned = []
+    for l in lines:
+        l_str = l.strip()
+        if not l_str:
+            continue
+        if INSTRUCTION_HEADER_RE.match(l_str) or is_instruction_header_ai(l_str):
+            continue
+        cleaned.append(l)
+    return "\n".join(cleaned).strip()
 
 
 def build_metadata_chunk_text(cls: str, subject: str, year: str, sec: str, q_num: str, text: str, options: list = None) -> str:
@@ -40,13 +73,17 @@ def create_question_chunks(questions_dict: dict) -> dict:
         q_id = q["question_id"]
         q_num = q["question_number"]
         sec = q.get("section", "GENERAL")
-        raw_txt = q.get("raw_text", "")
+        raw_txt = clean_instruction_headers(q.get("raw_text", ""))
         options = q.get("options", [])
         images = q.get("images", [])
         subparts = q.get("subparts", [])
 
+        # Skip chunks that have no actual question content, options, subparts, or images
+        if not raw_txt and not options and not subparts and not images:
+            continue
+
         # Format full chunk content (question text + formatted options)
-        formatted_parts = [raw_txt]
+        formatted_parts = [raw_txt] if raw_txt else []
         if options and not any(opt in raw_txt for opt in (options if isinstance(options[0], str) else [o.get("text", "") for o in options])):
             opt_str = "\n".join(options) if isinstance(options[0], str) else "\n".join(f"({o.get('label', '')}) {o.get('text', '')}" for o in options)
             formatted_parts.append("\nOptions:\n" + opt_str)
@@ -64,6 +101,7 @@ def create_question_chunks(questions_dict: dict) -> dict:
             "paper_id": paper_id,
             "question_id": q_id,
             "question_number": q_num,
+            "question_type": q.get("question_type", "short_answer"),
             "class": cls,
             "subject": subject,
             "year": year,
@@ -92,38 +130,99 @@ def create_question_chunks(questions_dict: dict) -> dict:
 
 
 def convert_structured_draft_to_questions_dict(draft_json: dict, paper_id: str, cls: str, subject: str, year: str) -> dict:
-    """Converts a Stage 4/5 structured_draft.json object into a standardized questions_dict."""
+    """Converts a Stage 4/5 structured_draft.json object into a standardized questions_dict with granular sub-question isolation."""
     questions = []
     for sec in draft_json.get("sections", []):
         sec_id = sec.get("section_id", "GENERAL")
         for q in sec.get("questions", []):
             q_num = q.get("question_number", "Q1")
-            q_id = q_num.lower()
-            stem = q.get("stem_text", "")
+            parent_stem = q.get("stem_text", "")
 
-            opts = []
-            subs = []
-            imgs = []
-            for sub in q.get("subparts", []):
-                if sub.get("text"):
-                    subs.append(sub["text"])
-                if sub.get("options"):
-                    for opt in sub["options"]:
-                        opts.append(f"({opt['label']}) {opt['text']}")
-                if sub.get("image_placeholders"):
-                    imgs.extend(sub["image_placeholders"])
+            # Check if this question has multi-part sub-questions (e.g. Q1(a), Q1(b), Q1(c)...)
+            has_explicit_subquestions = False
+            for container in q.get("subparts", []):
+                nested_subs = container.get("subparts", [])
+                if nested_subs and len(nested_subs) >= 2:
+                    has_explicit_subquestions = True
+                    first_line = parent_stem.splitlines()[0] if parent_stem else ""
+                    if INSTRUCTION_HEADER_RE.match(first_line.strip()):
+                        first_line = ""
+                    for sub_item in nested_subs:
+                        sub_lbl = sub_item.get("label", "").strip()
+                        sub_txt = sub_item.get("text", "").strip()
+                        sub_txt = clean_instruction_headers(sub_txt)
+                        sub_opts = []
+                        if sub_item.get("options"):
+                            for opt in sub_item["options"]:
+                                sub_opts.append(f"({opt.get('label', '')}) {opt.get('text', '')}")
+                        
+                        clean_lbl = sub_lbl.replace("(", "").replace(")", "").strip().lower()
+                        sub_id = f"{q_num.lower()}_{clean_lbl}" if clean_lbl else q_num.lower()
+                        sub_num = f"{q_num}{sub_lbl}" if sub_lbl else q_num
+                        
+                        full_sub_stem = sub_txt
+                        if first_line and not sub_txt.startswith(first_line):
+                            full_sub_stem = f"{first_line}\n{sub_txt}".strip()
+                        
+                        full_sub_stem = clean_instruction_headers(full_sub_stem)
+                        is_valid = bool(full_sub_stem or sub_opts or sub_item.get("images"))
+                        
+                        questions.append({
+                            "question_id": sub_id,
+                            "question_number": sub_num,
+                            "section": sec_id,
+                            "question_type": sub_item.get("question_type", q.get("question_type", "short_answer")),
+                            "raw_text": full_sub_stem,
+                            "options": sub_opts,
+                            "subparts": [],
+                            "has_subparts": False,
+                            "images": [],
+                            "is_valid": is_valid
+                        })
 
-            questions.append({
-                "question_id": q_id,
-                "question_number": q_num,
-                "section": sec_id,
-                "raw_text": stem,
-                "options": opts,
-                "subparts": subs,
-                "has_subparts": len(subs) > 0,
-                "images": [{"relative_path": img} for img in imgs],
-                "is_valid": not q.get("flagged_for_review", False) or len(stem) > 15
-            })
+            if not has_explicit_subquestions:
+                opts = []
+                subs = []
+                imgs = []
+                for sub in q.get("subparts", []):
+                    if sub.get("text"):
+                        clean_sub_text = clean_instruction_headers(sub["text"])
+                        if clean_sub_text:
+                            subs.append(clean_sub_text)
+                    if sub.get("options"):
+                        for opt in sub["options"]:
+                            if isinstance(opt, dict):
+                                opts.append(f"({opt.get('label', '')}) {opt.get('text', '')}")
+                            else:
+                                opts.append(str(opt))
+                    if sub.get("image_placeholders"):
+                        imgs.extend(sub["image_placeholders"])
+
+                cleaned_parent_stem = clean_instruction_headers(parent_stem)
+                
+                # If opts is empty, check if parent stem contains inline horizontal options
+                q_type = q.get("question_type", "short_answer")
+                if not opts and cleaned_parent_stem:
+                    clean_stem, extracted_opts = extract_options_and_stem(cleaned_parent_stem)
+                    if len(extracted_opts) >= 2:
+                        cleaned_parent_stem = clean_stem
+                        opts = [f"({o['label']}) {o['text']}" for o in extracted_opts]
+                        q_type = "single_choice_mcq"
+
+                is_valid = bool(cleaned_parent_stem or opts or subs or imgs)
+
+                questions.append({
+                    "question_id": q_num.lower(),
+                    "question_number": q_num,
+                    "section": sec_id,
+                    "question_type": q_type,
+                    "raw_text": cleaned_parent_stem,
+                    "options": opts,
+                    "subparts": subs,
+                    "has_subparts": len(subs) > 0,
+                    "images": [{"relative_path": img} for img in imgs],
+                    "is_valid": is_valid
+                })
 
     return {
         "paper_id": paper_id,

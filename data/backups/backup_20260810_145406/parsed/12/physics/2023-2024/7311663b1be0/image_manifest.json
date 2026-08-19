@@ -1,0 +1,98 @@
+{
+  "[IMAGE_PLACEHOLDER_1]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_1]",
+    "filename": "img_p5_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2023-2024/7311663b1be0/images/img_p5_1.png",
+    "relative_path": "7311663b1be0/images/img_p5_1.png",
+    "page": 5,
+    "bbox": [
+      220.63,
+      127.2,
+      444.06,
+      221.15
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "es (+q) and (\u2013q) are placed at the points A and B respectively which a ce 2L apart. C is the midpoint between A and B. What is the work do g a charge +Q along the semicircle CRD. otal energy of an ele"
+  },
+  "[IMAGE_PLACEHOLDER_2]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_2]",
+    "filename": "img_p5_2.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2023-2024/7311663b1be0/images/img_p5_2.png",
+    "relative_path": "7311663b1be0/images/img_p5_2.png",
+    "page": 5,
+    "bbox": [
+      311.05,
+      387.28,
+      382.05,
+      440.28
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "-section and resistance 4 ohm is bent in the ected to a point P on DC by a wire AP of re ence is applied between A and C, the points B ntial. What is the resistance of the part DP? s a long straight w"
+  },
+  "[IMAGE_PLACEHOLDER_3]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_3]",
+    "filename": "img_p5_3.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2023-2024/7311663b1be0/images/img_p5_3.png",
+    "relative_path": "7311663b1be0/images/img_p5_3.png",
+    "page": 5,
+    "bbox": [
+      204.4,
+      509.27,
+      424.5,
+      637.51
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "e given figure shows a long straight wire of a circular cross-section (radiu rrying steady current I. The current I is uniformly distributed across this c ction. Calculate the magnetic field in the re"
+  },
+  "[IMAGE_PLACEHOLDER_4]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_4]",
+    "filename": "img_p6_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2023-2024/7311663b1be0/images/img_p6_1.png",
+    "relative_path": "7311663b1be0/images/img_p6_1.png",
+    "page": 6,
+    "bbox": [
+      278.25,
+      485.36,
+      386.5,
+      572.33
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "on current. re, a diode D is connected to an external resistance V. If the barrier potential developed across the dio rcuit will be: (b) 20 mA (c) 35 mA (d) 30 m ollowing figures, the pn diode is reve"
+  },
+  "[IMAGE_PLACEHOLDER_5]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_5]",
+    "filename": "img_p7_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2023-2024/7311663b1be0/images/img_p7_1.png",
+    "relative_path": "7311663b1be0/images/img_p7_1.png",
+    "page": 7,
+    "bbox": [
+      215.38,
+      291.78,
+      448.83,
+      489.77
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "in the circuits (1) and (2) (b) in the circuits (2) and (3) in the circuits (1) and (3) (d) only in the circuit (1) V-I characteristic of a diode is shown in the figure. The ratio of the resistanc e d"
+  },
+  "[IMAGE_PLACEHOLDER_6]": {
+    "placeholder": "[IMAGE_PLACEHOLDER_6]",
+    "filename": "img_p10_1.png",
+    "url": "/home/harish/dhruv-work/pdf-rag-project/data/parsed/12/physics/2023-2024/7311663b1be0/images/img_p10_1.png",
+    "relative_path": "7311663b1be0/images/img_p10_1.png",
+    "page": 10,
+    "bbox": [
+      245.32,
+      72.0,
+      419.37,
+      178.5
+    ],
+    "width": 0,
+    "height": 0,
+    "caption_nearby": "hs showing the variations of inductive reactance and capacitive r ency of applied ac source. phasor diagram for a series LRC circuit connected to an AC sou lternating voltage of 220V is applied across"
+  }
+}

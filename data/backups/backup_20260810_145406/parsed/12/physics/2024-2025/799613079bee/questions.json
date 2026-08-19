@@ -1,0 +1,835 @@
+{
+  "paper_id": "799613079bee",
+  "class": "12",
+  "subject": "physics",
+  "year": "2024-2025",
+  "total_questions": 33,
+  "questions": [
+    {
+      "question_id": "q1",
+      "question_number": "Q1",
+      "section": "SECTIONE",
+      "page_num": 2,
+      "bounding_box": [
+        35.4,
+        119.89,
+        547.47,
+        201.32
+      ],
+      "raw_text": "Q1. A uniform electric field pointing in positive X-direction exists in a region. Let A be the origin, B be the\npoint on the X-axis at x = +1 cm and C be the point on the Y-axis at y = +1 cm. Then the potential at\npoints A, B and C satisfy.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) VA < VB",
+        "(B) VA > VB.                    (C) VA < VC",
+        "(D) VA > VC"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q2",
+      "question_number": "Q2",
+      "section": "SECTIONE",
+      "page_num": 2,
+      "bounding_box": [
+        35.4,
+        239.41,
+        547.5,
+        355.0
+      ],
+      "raw_text": "Q2. A conducting wire connects two charged conducting spheres of radii r1 and r2 such that they attain\nequilibrium with respect to each other. The distance of separation between the two spheres is very large\nas compared to either of their radii.\nThe ratio of the magnitudes of the electric fields at the surfaces of the spheres of radii r1 and r2 is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) \ud835\udc5f1\n\ud835\udc5f2                        (B)\n\ud835\udc5f2\n\ud835\udc5f1                           (C)\n\ud835\udc5f22\n\ud835\udc5f12                             (D)\n\ud835\udc5f12\n\ud835\udc5f22"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q3",
+      "question_number": "Q3",
+      "section": "SECTIONE",
+      "page_num": 2,
+      "bounding_box": [
+        35.4,
+        390.04,
+        547.5,
+        468.62
+      ],
+      "raw_text": "Q3. A long straight wire of circular cross section of radius \u0485a\u1fbf carries a steady current I. The current is\nuniformly distributed across its cross section. The ratio of magnitudes of the magnetic field at a point\na/2 above the surface of wire to that of a point a/2 below its surface is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A)    4:1                   (B)   1:1                     (C)  4: 3                          (D)  3 :4"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q4",
+      "question_number": "Q4",
+      "section": "SECTIONE",
+      "page_num": 2,
+      "bounding_box": [
+        35.4,
+        486.06,
+        515.5,
+        542.18
+      ],
+      "raw_text": "Q4. The diffraction effect can be observed in",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A)  sound waves only",
+        "(B)  light waves only",
+        "(C)  ultrasonic waves only",
+        "(D) sound waves as well as light waves"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q5",
+      "question_number": "Q5",
+      "section": "SECTIONE",
+      "page_num": 2,
+      "bounding_box": [
+        35.4,
+        569.27,
+        536.09,
+        656.13
+      ],
+      "raw_text": "Q5. A capacitor consists of two parallel plates, with an area of cross-section of 0.001 m2, separated by a\ndistance of 0.0001 m. If the voltage across the plates varies at the rate of 108 V/s, then the value of\ndisplacement current through the capacitor is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 8.85 \u00d7 10\u22123\ud835\udc34     (B) 8.85 \u00d7 10\u22124\ud835\udc34       (C) 7.85 \u00d7 10\u22123\ud835\udc34             (D) 9.85 \u00d7 10\u22123\ud835\udc34"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q6",
+      "question_number": "Q6",
+      "section": "SECTIONE",
+      "page_num": 2,
+      "bounding_box": [
+        35.4,
+        673.65,
+        547.2,
+        736.8
+      ],
+      "raw_text": "Q6. In a series LCR circuit, the voltage across the resistance, capacitance and inductance is 10 V each. If\nthe capacitance is short circuited the voltage across the inductance will be",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 10 V                  (B) 10\u221a2  V               (C) 10/\u221a2  V",
+        "(D) 20 V"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q7",
+      "question_number": "Q7",
+      "section": "SECTIONE",
+      "page_num": 3,
+      "bounding_box": [
+        35.4,
+        72.47,
+        545.81,
+        323.04
+      ],
+      "raw_text": "Q7. Correct match of column I with column II is\nC-l (waves)\nC-ll (Production)\n(1) Infra-red\nP . Rapid vibration of electrons in aerials\n(2) Radio\nQ . Electrons in atoms emit light when they move from higher to\nlower energy level.\n(3) Light\nR . Klystron valve\n(4) Microwave\nS . Vibration of atoms and molecules",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 1-P, 2-R, 3-S, 4-Q",
+        "(B) 1-S, 2-P, 3-O, 4-R",
+        "(C) 1-Q, 2-P, 3-S, 4-R                                  (D) 1-S. 2-R, 3-P, 4-Q"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q8",
+      "question_number": "Q8",
+      "section": "SECTIONE",
+      "page_num": 3,
+      "bounding_box": [
+        35.4,
+        363.16,
+        547.53,
+        465.91
+      ],
+      "raw_text": "Q8. The distance of closest approach of an alpha particle is d when it moves with a speed V towards a\nnucleus.\nAnother alpha particle is projected with higher energy such that the new distance of the closest\napproach is d/2. What is the speed of projection of the alpha particle in this case?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) V /2                      (B) \u221a2 V                      (C) 2 V                          (D) 4 V"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q9",
+      "question_number": "Q9",
+      "section": "SECTIONE",
+      "page_num": 3,
+      "bounding_box": [
+        35.4,
+        501.54,
+        595.4,
+        566.18
+      ],
+      "raw_text": "Q9. A point object is placed at the centre of a glass sphere of radius 6 cm and refractive index 1.5. The\ndistance of virtual image from the surface of the sphere is",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) 2 cm                     (B) 4 cm                      (C) 6 cm                        (D) 12 cm"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q10",
+      "question_number": "Q10",
+      "section": "SECTIONE",
+      "page_num": 3,
+      "bounding_box": [
+        35.4,
+        583.62,
+        467.5,
+        620.66
+      ],
+      "raw_text": "Q10. Colours observed on a CD (Compact Disk) is due to",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) Reflection         (B) Diffraction",
+        "(C) Dispersion              (D) Absorption"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q11",
+      "question_number": "Q11",
+      "section": "SECTIONE",
+      "page_num": 3,
+      "bounding_box": [
+        35.4,
+        651.81,
+        538.18,
+        706.49
+      ],
+      "raw_text": "Q11. The number of electrons made available for conduction by dopant atoms depends strongly upon",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(A) doping level                                                    (B) increase in ambient temperature",
+        "(C) energy gap                                                    (D) options (A) and (B) both"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q12",
+      "question_number": "Q12",
+      "section": "SECTIONE",
+      "page_num": 3,
+      "bounding_box": [
+        35.4,
+        734.6,
+        568.54,
+        768.53
+      ],
+      "raw_text": "Q12. If copper wire is stretched to make its radius decrease by 0.1%, then the percentage change in its\nresistance is approximately\n(A) \u20130.4%               (B) +0.8%                    (C) +0.4%\n(D) +0.2%\nFor Questions 13 to 16, two statements are given \u2013one labelled Assertion (A) and other labelled\nReason (R). Select the correct answer to these questions from the options as given below.\nA.  If both Assertion and Reason are true and Reason is the correct explanation of Assertion.\nB.  If both Assertion and Reason are true but Reason is not the correct explanation of Assertion.\nC. If Assertion is true but Reason is false.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q13",
+      "question_number": "Q13",
+      "section": "SECTIONE",
+      "page_num": 4,
+      "bounding_box": [
+        35.4,
+        256.09,
+        547.45,
+        331.44
+      ],
+      "raw_text": "Q13.  Assertion (A): On increasing the current sensitivity of a galvanometer by increasing the number of\nturns may not necessarily increase its voltage sensitivity.\nReason(R) : The resistance of the coil of the galvanometer increases on increasing the number of\nturns.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q14",
+      "question_number": "Q14",
+      "section": "SECTIONE",
+      "page_num": 4,
+      "bounding_box": [
+        35.4,
+        359.56,
+        553.54,
+        455.64
+      ],
+      "raw_text": "Q14.   Assertion (A): In a hydrogen atom there is only one electron but its emission spectrum shows many\nlines.\nReason (R): In a given sample of hydrogen there are many atoms each containing one electron;\nhence many electrons in different atoms may be in different orbits so many transitions from higher\nto lower orbits are possible.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q15",
+      "question_number": "Q15",
+      "section": "SECTIONE",
+      "page_num": 4,
+      "bounding_box": [
+        21.24,
+        483.78,
+        547.08,
+        538.46
+      ],
+      "raw_text": "Q15.  Assertion (A): Nuclei having mass number about 60 are least stable..\nReason (R): When two or more light nuclei are combined into a heavier nucleus then the binding\nenergy per nucleon will decrease.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q16",
+      "question_number": "Q16",
+      "section": "SECTIONE",
+      "page_num": 4,
+      "bounding_box": [
+        35.4,
+        557.94,
+        533.26,
+        647.3
+      ],
+      "raw_text": "Q16.  Assertion (A): de Broglie's wavelength of a freely falling body keeps decreasing with time.\nReason (R): The momentum of the freely falling body increases with time.\n[SECTION \u2013 B]                                (05x2=10 marks)",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q17",
+      "question_number": "Q17",
+      "section": "SECTIONE",
+      "page_num": 4,
+      "bounding_box": [
+        35.4,
+        664.77,
+        547.38,
+        698.69
+      ],
+      "raw_text": "Q17. A platinum surface having work function 5.63 eV is illuminated by a monochromatic source of 1.6\nx 10 15 Hz. What will be the minimum wavelength associated with the ejected electron.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q18",
+      "question_number": "Q18",
+      "section": "SECTIONE",
+      "page_num": 5,
+      "bounding_box": [
+        35.4,
+        72.47,
+        547.5,
+        215.97
+      ],
+      "raw_text": "Q18. (I)  A beam of light consisting of two wavelengths, 4000 \u00c5 and 6000 \u00c5, is used to obtain\ninterference fringes in a Young\u2019s double-slit experiment. What is the least distance from the\ncentral maximum where the dark fringe is obtained?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(II) In Young\u2019s double-slit experiment using monochromatic light of wavelength \u03bb, the intensities\nof two sources are I. What is the intensity of light at a point where path difference between\nwavefronts is \u03bb/4?"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q19",
+      "question_number": "Q19",
+      "section": "SECTIONE",
+      "page_num": 5,
+      "bounding_box": [
+        35.4,
+        275.73,
+        547.54,
+        673.73
+      ],
+      "raw_text": "Q19. P and Q are two identical charged particles each of mass 4 \u00d7 10\u201326 kg and charge 4.8 \u00d7 10\u201319 C,\neach moving with the same speed of 2.4 \u00d7 105 m/s as shown in the figure. The two particles are\nequidistant (0.5 m) from the vertical Y -axis. At some instant, a magnetic field B is switched on so\nthat the two particles undergo head-on collision.\nFind \u2013",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(I) the direction of the magnetic field and",
+        "(II) the magnitude of the magnetic field applied in the region.\n(for VI candidates)\nA proton is moving with speed of 2 x 105 m s\u20131 enters a uniform magnetic field B = 1.5 T. At the\nentry velocity vector makes an angle of 30\u00b0 to the direction of the magnetic field. Calculate",
+        "(a) the pitch of helical path described by the charge",
+        "(b) Kinetic energy after completing half of the circle."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q19_1.png",
+          "relative_path": "images/q19_1.png",
+          "bounding_box": [
+            134.45,
+            379.78,
+            359.95,
+            461.43
+          ],
+          "width": 225.5,
+          "height": 81.65
+        }
+      ]
+    },
+    {
+      "question_id": "q20",
+      "question_number": "Q20",
+      "section": "SECTIONE",
+      "page_num": 5,
+      "bounding_box": [
+        35.4,
+        701.85,
+        547.54,
+        756.53
+      ],
+      "raw_text": "Q.20. Binding energy per nucleon vs mass number curve for nuclei is shown in the figure. W, X, Y and Z\nare four nuclei indicated on the curve. Identify which of the following nuclei is most likely to undergo",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Nuclear Fission",
+        "(ii) Nuclear Fusion.\nJustify your answer.\n(for V.I. Candidates)\nBinding energy per nucleon and mass number of the following nuclei are given in the below table\nNuclei\nBinding energy per nucleon (MeV)\nMass number\nW\n7.5\nX\n8.0\nY\n8.5\nZ\n5.0\nIdentify which of the following nuclei is most likely to undergo",
+        "(i) Nuclear Fission",
+        "(ii) Nuclear Fusion.\nJustify your answer."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q20_1.png",
+          "relative_path": "images/q20_1.png",
+          "bounding_box": [
+            152.72,
+            127.4,
+            427.07,
+            333.55
+          ],
+          "width": 274.35,
+          "height": 206.15
+        }
+      ]
+    },
+    {
+      "question_id": "q21",
+      "question_number": "Q21",
+      "section": "SECTIONE",
+      "page_num": 6,
+      "bounding_box": [
+        35.4,
+        634.38,
+        547.53,
+        712.73
+      ],
+      "raw_text": "Q21.  A cylindrical conductor of length l and cross-section area A is connected to a DC source. Under the\ninfluence of electric field set up due to source, the free electrons begin to drift in the opposite direction\nof the electric field.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(I) Draw the curve showing the dependency of drift velocity on relaxation time.",
+        "(II) If the DC source is replaced by a source whose current changes its magnitude with time such\nthat I = Io sin 2\u03c0\u03bdt , where \u03bd is the frequency of variation of current, then determine the average drift\nvelocity of the free electrons over one complete cycle.\n[SECTION \u2013 C ]                                  (07x3=21 marks)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q22",
+      "question_number": "Q22",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        35.4,
+        168.25,
+        589.54,
+        580.82
+      ],
+      "raw_text": "Q22. (I) Identify the circuit elements X and Y as shown in the given block diagram and draw the output\nwaveforms of X and Y.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(II) If the centre tapping is shifted towards Diode D1 as shown in the diagram, draw the output\nwaveform of the given circuit.\n(for V.I. candidates)\nWhich device is used to convert AC into DC. State it\u2019s underlying principle and explain its working. If\nthe frequency of input AC to this device is 60 Hz, then what will be frequency of the output of this\ndevice."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q22_1.png",
+          "relative_path": "images/q22_1.png",
+          "bounding_box": [
+            193.97,
+            209.19,
+            385.31,
+            312.84
+          ],
+          "width": 191.34,
+          "height": 103.65
+        },
+        {
+          "filename": "q22_2.png",
+          "relative_path": "images/q22_2.png",
+          "bounding_box": [
+            165.47,
+            361.13,
+            414.22,
+            477.33
+          ],
+          "width": 248.75,
+          "height": 116.2
+        }
+      ]
+    },
+    {
+      "question_id": "q23",
+      "question_number": "Q23",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        35.4,
+        613.02,
+        547.46,
+        688.37
+      ],
+      "raw_text": "Q23. Find the expression for the capacitance of a parallel plate capacitor of plate area A and plate separation\nd when (I) a dielectric slab of thickness t and (II) a metallic slab of thickness t, where (t < d) are\nintroduced one by one between the plates of the capacitor. In which case would the capacitance be\nmore and why?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q24",
+      "question_number": "Q24",
+      "section": "SECTIONE",
+      "page_num": 7,
+      "bounding_box": [
+        35.4,
+        719.49,
+        526.3,
+        753.41
+      ],
+      "raw_text": "Q24.  (I) Draw a ray diagram for the formation of image by a Cassegrain telescope.\n(II)Why these types of telescopes are preferred over refracting type telescopes. (Write 2 points)\n(for V.I. Candidates)\nA Cassegrain telescope is built with an arrangement of two mirrors placing them 20 mm apart. If the radius\nof curvature of the large mirror is 200mm and the small mirror is 150mm, where will the final image of an\nobject at infinity be?",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q25",
+      "question_number": "Q25",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "bounding_box": [
+        35.4,
+        180.01,
+        547.08,
+        479.54
+      ],
+      "raw_text": "Q25.  (I) Draw the energy band diagram for P-type semiconductor at (i) T=0K and (ii) room temperature.\n(II)In the given diagram considering an ideal diode, in which condition will the bulb glow",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(a) when the switch is open",
+        "(b) when the switch is closed\nJustify your answer.\n(for V.I. Candidates)\nExplain briefly how",
+        "(i) barrier potential is formed in p-n junction diode.",
+        "(ii) Width of depletion region of the diode is affected when it is (a) forward biased, (b) reverse\nbiased."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q26",
+      "question_number": "Q26",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "bounding_box": [
+        35.4,
+        490.86,
+        547.58,
+        586.94
+      ],
+      "raw_text": "Q26. A boy is holding a smooth, hollow and non-conducting pipe vertically with charged spherical ball of\nmass 10 g carrying a charge of +10 mC inside it which is free to move along the axis of the pipe.\nThe boy is moving the pipe from East to West direction in the presence of magnetic field of 2T. With\nwhat minimum velocity, should the boy move the pipe such that the ball does not move along the\naxis. Also determine the direction of the magnetic field.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "is_valid": true
+    },
+    {
+      "question_id": "q27",
+      "question_number": "Q27",
+      "section": "SECTIONE",
+      "page_num": 8,
+      "bounding_box": [
+        35.4,
+        615.06,
+        525.94,
+        679.85
+      ],
+      "raw_text": "Q27. A light ray entering a right-angled prism undergoes refraction at the face AC as shown in Fig. 1.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(I) What is the refractive index of the material of the prism in\nFig. 1?",
+        "(II) (a) If the side AC of the above prism is now surrounded by a liquid of refractive index 2 ,\nas\nshown in Fig. 2, determine if the light ray continues to graze along the interface AC or undergoes\ntotal internal reflection or undergoes refraction into the liquid.",
+        "(b) Draw the ray diagram to represent the path followed by the incident ray with the corresponding\nangle values.\n(Given, \ud835\udc60\ud835\udc56\ud835\udc5b\u22121( \u221a2\n\u221a3) = 54.6\u00b0)\n(for V.I. candidates)\nA ray of light is incident on an equilateral prism at an angle 3/4 th of the angle of the prism. If the ray\npasses symmetrically through the prism, find the (a) angle of minimum deviation, and (b) refractive index\nof the material of the prism."
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q27_1.png",
+          "relative_path": "images/q27_1.png",
+          "bounding_box": [
+            235.7,
+            282.98,
+            344.25,
+            363.47
+          ],
+          "width": 108.55,
+          "height": 80.49
+        },
+        {
+          "filename": "q27_2.png",
+          "relative_path": "images/q27_2.png",
+          "bounding_box": [
+            393.0,
+            630.81,
+            544.0,
+            734.81
+          ],
+          "width": 151.0,
+          "height": 104.0
+        }
+      ]
+    },
+    {
+      "question_id": "q28",
+      "question_number": "Q28",
+      "section": "SECTIONE",
+      "page_num": 9,
+      "bounding_box": [
+        35.4,
+        511.98,
+        595.39,
+        668.81
+      ],
+      "raw_text": "Q28. (I)  State Gauss\u1fbfs theorem in electrostatics. Using this theorem, derive an expression for the electric\nfield due to an infinitely long straight wire of linear charge density \u03bb.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(II)       (a) Define electric flux and write its SI unit.",
+        "(b) Use Gauss\u1fbfs law to obtain the expression for the electric field due to a uniformly charged\ninfinite plane sheet of charge.\n[SECTION D]                                  (02x4=08 marks)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q29",
+      "question_number": "Q29",
+      "section": "SECTIONE",
+      "page_num": 9,
+      "bounding_box": [
+        35.4,
+        696.93,
+        525.11,
+        761.57
+      ],
+      "raw_text": "Q29. Case Study Based Question:      Motion of Charge in Magnetic Field\nAn electron with speed vo << c moves in a circle of radius ro in a uniform magnetic field. This\nelectron is able to traverse a circular path as the magnetic force acting on the electron is\nperpendicular to both vo and B ,as shown in the figure. This force continuously deflects the\nparticle sideways without changing its speed and the particle will move along a circle\nperpendicular to the field. The time required for one revolution of the electron is To",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) If the speed of the electron is now doubled to 2vo. The radius of the circle will change to",
+        "(A) 4ro",
+        "(B) 2 ro",
+        "(C) ro",
+        "(D) ro/2",
+        "(ii) If v = 2vo, then the time required for one revolution of the electron (To ) will change to",
+        "(A) 4 To",
+        "(B) 2 To",
+        "(C) To",
+        "(D) To/2",
+        "(iii) A charged particle is projected in a magnetic field B = (2 i + 4 j) X 102 T . The acceleration of the\nparticle is found to be a = ( x i + 2 j ) m/s2 . Find the value of x.",
+        "(A) 4 ms-2",
+        "(B) -4 ms-2",
+        "(C) -2 ms-2",
+        "(D) 2 ms-2",
+        "(iv) If the given electron has a velocity not perpendicular to B, then trajectory of the electron is",
+        "(A) straight line",
+        "(B) circular",
+        "(C) helical",
+        "(D) zig-zag",
+        "OR",
+        "If this electron of charge (e) is moving parallel to uniform magnetic field with constant velocity v, the\nforce acting on the electron is",
+        "(A) Bev",
+        "(B) Be/v",
+        "(C) B/ev",
+        "(D) Zero"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q29_1.png",
+          "relative_path": "images/q29_1.png",
+          "bounding_box": [
+            133.0,
+            165.3,
+            329.0,
+            287.8
+          ],
+          "width": 196.0,
+          "height": 122.5
+        },
+        {
+          "filename": "q29_2.png",
+          "relative_path": "images/q29_2.png",
+          "bounding_box": [
+            267.75,
+            144.09,
+            383.25,
+            264.59
+          ],
+          "width": 115.5,
+          "height": 120.5
+        }
+      ]
+    },
+    {
+      "question_id": "q30",
+      "question_number": "Q30",
+      "section": "SECTIONE",
+      "page_num": 10,
+      "bounding_box": [
+        35.4,
+        674.97,
+        547.26,
+        739.61
+      ],
+      "raw_text": "Q30. Case Study Based Question:   Photoelectric effect\nIt is the phenomenon of emission of electrons from a metallic surface when light of a suitable frequency\nis incident on it. The emitted electrons are called photoelectrons.\nNearly all metals exhibit this effect with ultraviolet light but alkali metals like lithium, sodium,\npotassium, cesium etc. show this effect even with visible light. It is an instantaneous process i.e.\nphotoelectrons are emitted as soon as the light is incident on the metal surface. The number of\nphotoelectrons emitted per second is directly proportional to the intensity of the incident radiation. The\nmaximum kinetic energy of the photoelectrons emitted from a given metal surface is independent of\nthe intensity of the incident light and depends only on the frequency of the incident light. For a given\nmetal surface there is a certain minimum value of the frequency of the incident light below which\nemission of photoelectrons does not occur.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(I) In a photoelectric experiment plate current is plotted against anode potential.",
+        "(A) A and B will have same intensities while B and C will have different frequencies",
+        "(B) B and C will have different intensities while A and B will have different frequencies",
+        "(C) A and B will have different intensities while B and C will have equal frequencies",
+        "(D) B and C will have equal intensities while A and B will have same frequencies.",
+        "(II) Photoelectrons are emitted when a zinc plate is",
+        "(A) Heated",
+        "(B) hammered",
+        "(C) Irradiated by ultraviolet light",
+        "(D)  subjected to a high pressure",
+        "(III) The threshold frequency for photoelectric effect on sodium corresponds to a wavelength of 500 nm.\nIts work function is about",
+        "(A) 4x10\u221219 J",
+        "(B) 1 J                    (C) 2x10\u221219 J             (D) 3x10\u221219 J",
+        "(IV) The maximum kinetic energy of photoelectrons emitted from a surface when photons of energy 6 eV\nfall on it is 4 eV. The stopping potential is",
+        "(A) 2 V",
+        "(B) 4 V                   (C) 6 V                       (D) 10 V",
+        "OR",
+        "The minimum energy required to remove an electron from a substance is called its",
+        "(A) work function          (B) kinetic energy   (C) stopping potential (D)  potential energy\n[SECTION E]\n(03X5=15)"
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q31",
+      "question_number": "Q31",
+      "section": "SECTIONE",
+      "page_num": 12,
+      "bounding_box": [
+        35.4,
+        226.69,
+        547.54,
+        755.93
+      ],
+      "raw_text": "Q31. (I) a) Write two limitations of ohm\u2019s law. Plot their I-V characteristics.\nb) A heating element connected across a battery of 100 V having an internal resistance of 1 \u03a9\ndraws an initial current of 10 A at room temperature 20.0 \u00b0C which settles after a few seconds to a\nsteady value. What is the power consumed by battery itself after the steady temperature of 320.0 \u00b0C\nis attained? Temperature coefficient of resistance averaged over the temperature range involved is\n3.70 \u00d7 10\u20134 \u00b0C\u20131.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(II)  a) Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge.\nb) A wire of uniform cross-section and resistance of 12 ohm is bent in the shape of circle as\nshown in the figure. A resistance of 10 ohms is connected to diametrically opposite ends C\nand D. A battery of emf 8V is connected between A and B. Determine the current flowing\nthrough arm AD.\n(for V.I. Candidates)",
+        "(II)  a) Using Kirchhoff'\u1fbfs laws obtain the equation of the balanced state in Wheatstone bridge.\nb) What do you understand by \u2018sensitivity of Wheatstone bridge\u2019 ? How the sensitivity of wheatstone\nbridge can be increased?"
+      ],
+      "is_valid": true,
+      "images": [
+        {
+          "filename": "q31_1.png",
+          "relative_path": "images/q31_1.png",
+          "bounding_box": [
+            238.97,
+            545.27,
+            371.77,
+            663.04
+          ],
+          "width": 132.8,
+          "height": 117.77
+        }
+      ]
+    },
+    {
+      "question_id": "q32",
+      "question_number": "Q32",
+      "section": "SECTIONE",
+      "page_num": 13,
+      "bounding_box": [
+        42.48,
+        123.85,
+        559.54,
+        409.56
+      ],
+      "raw_text": "Q32. (I) Explain briefly, with the help of a labelled diagram, the basic principle of the working of an a.c.\ngenerator. In an a.c. generator, coil of N turns and area A is rotated at an angular velocity \u03c9 in a\nuniform magnetic field B. Derive an expression for the instantaneous value of the emf induced\nin coil.  What is the source of energy generation in this device?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(II)  a) With the help of a diagram, explain the principle of a device which changes a low ac voltage\ninto a high voltage . Deduce the expression for the ratio of secondary voltage to the primary\nvoltage in terms of the ratio of the number of turns of primary and secondary winding. For an\nideal transformer, obtain the ratio of primary and secondary currents in terms of the ratio of\nthe voltages in the secondary and primary coils.\nb)   Write any two sources of the energy losses which occur in actual transformers.\nc)  A step-up transformer converts a low input voltage into a high output voltage. Does it violate\nlaw of conservation of energy? Explain."
+      ],
+      "is_valid": true
+    },
+    {
+      "question_id": "q33",
+      "question_number": "Q33",
+      "section": "SECTIONE",
+      "page_num": 13,
+      "bounding_box": [
+        35.4,
+        443.68,
+        550.54,
+        731.45
+      ],
+      "raw_text": "Q33. (I)  a) A giant refracting telescope at an observatory has an objective lens of focal length 15 m. If an\neyepiece of focal length 1.0 cm is used, what is angular magnification of the telescope in\nnormal adjustment?\nb)  If this telescope is used to view the moon, what is the diameter of the image of the moon formed\nby the objective lens? The diameter of the moon is 3.48 \u00d7 106 m, and the radius of lunar orbit\nis 3.8 \u00d7 108 m.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "(II)  A compound microscope consists of an objective lens of focal length 2.0 cm and an eyepiece of\nfocal length 6.25 cm separated by a distance of 15 cm. How far from the objective should an object\nbe placed in order to obtain the final image at\na) the least distance of distinct vision (25 cm) and\nb) infinity? What is the magnifying power of the microscope in each case?"
+      ],
+      "is_valid": true
+    }
+  ]
+}

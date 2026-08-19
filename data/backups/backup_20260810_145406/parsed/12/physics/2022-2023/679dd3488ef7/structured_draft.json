@@ -1,0 +1,361 @@
+{
+  "exam_metadata": {
+    "subject": "physics",
+    "class_level": "12",
+    "year": "2022-2023",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_physics_2022_2023_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Use of calculators is not allowed.",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Use of calculators is not allowed.",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\nUse of calculators is not allowed.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 31 options, expected exactly 4; question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q5",
+          "marks": 1,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "3\u00d710\u201311 m. The radius of the  n =3 orbit is\n(i) 1.01 x 10-10m\n(ii) 1.59 X 10-10m\n(iii) 2.12 x 10-10m\n(iv) 4.77 X 10-10m\n1\n13\nWhich of the following statements about nuclear forces is not\ntrue?\n(i) The nuclear force between two nucleons falls rapidly to zero as\ntheir distance is more than a few femto",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "3\u00d710\u201311 m. The radius of the  n =3 orbit is\n(i) 1.01 x 10-10m\n(ii) 1.59 X 10-10m\n(iii) 2.12 x 10-10m\n(iv) 4.77 X 10-10m\n1\n13\nWhich of the following statements about nuclear forces is not\ntrue?\n(i) The nuclear force between two nucleons falls rapidly to zero as\ntheir distance is more than a few femtometres.\n(ii) The nuclear force is much weaker than the Coulomb force.\n(iii) The force is attractive for distances larger than 0.8 fm and\nrepulsive if they are separated by distances less than 0.8 fm.\n(iv) The nuclear force between neutron-neutron, proton-neutron\nand proton-proton is approximately the same.\n1\n14\nIf the reading of the voltmeter V1 is 40 V, then  the reading of\nvoltmeter V2 is\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n(i) 30 V  (ii) 58 V  (iii) 29 V    (iv) 15 V\n15\nThe electric potential V as a function of distance X is shown in the\nfigure.\nThe graph of the magnitude of electric field intensity E as a\nfunction of X is\n1\n(i)\n(ii)\n(iii)\n(iv)\n16\nTwo statements are given-one labelled Assertion (A) and the other\nlabelled Reason (R). Select the correct answer to these  questions\nfrom the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION(A):\nThe electrical conductivity of a semiconductor increases on doping.\nREASON:\nDoping\nalways\nincreases the number\nof\nelectrons\nin the\nsemiconductor.\n17\nTwo statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION:\nIn an interference pattern observed in Young's double slit experiment,\nif the separation (d) between coherent sources as well as the distance\n(D) of the screen from the coherent sources both are reduced to 1/3rd,\nthen new fringe width remains the same.\nREASON:\nFringe width is proportional to (d/D).\n1\n18\nTwo statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb Both A and R are true and R is NOT the correct explanation of A\nc) A is true but R is false\nd) A is false and R is also false\nAssertion(A) :\nThe photoelectrons produced by a monochromatic light beam incident\non a metal surface have a spread in their kinetic energies.\nReason(R) :\n1\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nThe energy of electrons emitted from inside the metal surface, is lost\nin collision with the other atoms in the metal.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "and the other"
+                },
+                {
+                  "label": "a",
+                  "text": ","
+                },
+                {
+                  "label": "b",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": "and"
+                },
+                {
+                  "label": "d",
+                  "text": "as given below."
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true and R is NOT the correct explanation of"
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false"
+                },
+                {
+                  "label": "d",
+                  "text": "A is false and R is also false"
+                },
+                {
+                  "label": "a",
+                  "text": ":"
+                },
+                {
+                  "label": "a",
+                  "text": "and the"
+                },
+                {
+                  "label": "a",
+                  "text": ","
+                },
+                {
+                  "label": "b",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": "and"
+                },
+                {
+                  "label": "d",
+                  "text": "as given below."
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true and R is NOT the correct explanation of"
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false"
+                },
+                {
+                  "label": "d",
+                  "text": "A is false and R is also false"
+                },
+                {
+                  "label": "d",
+                  "text": "between coherent sources as well as the distance"
+                },
+                {
+                  "label": "d",
+                  "text": "of the screen from the coherent sources both are reduced to 1/3rd,"
+                },
+                {
+                  "label": "d",
+                  "text": "."
+                },
+                {
+                  "label": "a",
+                  "text": "and the"
+                },
+                {
+                  "label": "a",
+                  "text": ","
+                },
+                {
+                  "label": "b",
+                  "text": ","
+                },
+                {
+                  "label": "c",
+                  "text": "and"
+                },
+                {
+                  "label": "d",
+                  "text": "as given below."
+                },
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation of A"
+                },
+                {
+                  "label": "c",
+                  "text": "A is true but R is false"
+                },
+                {
+                  "label": "d",
+                  "text": "A is false and R is also false"
+                },
+                {
+                  "label": "a",
+                  "text": ":"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5.\n3\u00d710\u201311 m. The radius of the  n =3 orbit is\n(i) 1.01 x 10-10m\n(ii) 1.59 X 10-10m\n(iii) 2.12 x 10-10m\n(iv) 4.77 X 10-10m\n1\n13\nWhich of the following statements about nuclear forces is not\ntrue?\n(i) The nuclear force between two nucleons falls rapidly to zero as\ntheir distance is more than a few femtometres.\n(ii) The nuclear force is much weaker than the Coulomb force.\n(iii) The force is attractive for distances larger than 0.8 fm and\nrepulsive if they are separated by distances less than 0.8 fm.\n(iv) The nuclear force between neutron-neutron, proton-neutron\nand proton-proton is approximately the same.\n1\n14\nIf the reading of the voltmeter V1 is 40 V, then  the reading of\nvoltmeter V2 is\n1\n<!-- PAGE 4 END -->\n\n<!-- PAGE 5 START -->\n(i) 30 V  (ii) 58 V  (iii) 29 V    (iv) 15 V\n15\nThe electric potential V as a function of distance X is shown in the\nfigure.\nThe graph of the magnitude of electric field intensity E as a\nfunction of X is\n1\n(i)\n(ii)\n(iii)\n(iv)\n16\nTwo statements are given-one labelled Assertion (A) and the other\nlabelled Reason (R). Select the correct answer to these  questions\nfrom the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\n1\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION(A):\nThe electrical conductivity of a semiconductor increases on doping.\nREASON:\nDoping\nalways\nincreases the number\nof\nelectrons\nin the\nsemiconductor.\n17\nTwo statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb) Both A and R are true and R is NOT the correct explanation of\nA\nc) A is true but R is false\nd) A is false and R is also false\nASSERTION:\nIn an interference pattern observed in Young's double slit experiment,\nif the separation (d) between coherent sources as well as the distance\n(D) of the screen from the coherent sources both are reduced to 1/3rd,\nthen new fringe width remains the same.\nREASON:\nFringe width is proportional to (d/D).\n1\n18\nTwo statements are given-one labelled  Assertion (A) and the\nother labelled Reason (R). Select the correct answer to these\nquestions from the codes (a), (b), (c) and (d) as given below.\na) Both A and R are true and R is the correct explanation of A\nb Both A and R are true and R is NOT the correct explanation of A\nc) A is true but R is false\nd) A is false and R is also false\nAssertion(A) :\nThe photoelectrons produced by a monochromatic light beam incident\non a metal surface have a spread in their kinetic energies.\nReason(R) :\n1\n<!-- PAGE 6 END -->\n\n<!-- PAGE 7 START -->\nThe energy of electrons emitted from inside the metal surface, is lost\nin collision with the other atoms in the metal.",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 31 options, expected exactly 4; question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 31 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION C",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q27",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "The magnetic field through a circular loop of wire, 12cm in radius and",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "The magnetic field through a circular loop of wire, 12cm in radius and",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 27.\nThe magnetic field through a circular loop of wire, 12cm in radius and",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        },
+        {
+          "question_number": "Q8",
+          "marks": 1,
+          "question_type": "single_choice_mcq",
+          "selection_rule": {
+            "choose": 1,
+            "of": 2
+          },
+          "stem_text": "5\u2126 resistance, changes with time as shown in the figure. The\nmagnetic field is perpendicular to the plane of the loop. Calculate the\ncurrent induced in the loop and plot a graph showing induced current\nas a function of time.\n3\n28\nAn a.c. source generating a voltage \u03b5 = \u03b50 sin \u03c9t is connected to a\nca",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "5\u2126 resistance, changes with time as shown in the figure. The\nmagnetic field is perpendicular to the plane of the loop. Calculate the\ncurrent induced in the loop and plot a graph showing induced current\nas a function of time.\n3\n28\nAn a.c. source generating a voltage \u03b5 = \u03b50 sin \u03c9t is connected to a\ncapacitor of capacitance C. Find the expression for the current I flowing\nthrough it. Plot a graph of \u03b5 and I versus \uf077t to show that the current is\nahead of the voltage by \u03c0/2.",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "c. source generating a voltage \u03b5 = \u03b50 sin \u03c9t is connected to a"
+                },
+                {
+                  "label": "c",
+                  "text": "Find the expression for the current I flowing"
+                },
+                {
+                  "label": "c",
+                  "text": "Following observations are recorded:"
+                },
+                {
+                  "label": "a",
+                  "text": "What does X and A on the horizontal axis represent?"
+                },
+                {
+                  "label": "b",
+                  "text": "Draw this graph for three different values of frequencies of incident"
+                },
+                {
+                  "label": "c",
+                  "text": "Draw this graph for three different values of intensities of incident"
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": true,
+              "alternative": {
+                "label": "OR",
+                "marks": 1,
+                "text": "An ac voltage V = V0 sin \uf077t is applied across a pure inductor of\ninductance L. Find an expression for the current i, flowing in the circuit\nand show mathematically that the current flowing through it lags behind\nthe applied voltage by a phase angle of\n2\n\uf070. Also draw graphs of V and\ni versus \uf077t for the circuit.\n3\n29\nRadiation of frequency 1015 Hz is incident on three photosensitive\nsurfaces A, B and C. Following observations are recorded:\nSurface A: no photoemission occurs\nSurface B: photoemission occurs but the photoelectrons have zero\nkinetic energy.\n3\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nSurface C: photo emission occurs and photoelectrons have some\nkinetic energy.\nUsing Einstein\u2019s photo-electric equation, explain the three\nobservations.",
+                "options": [],
+                "image_placeholders": []
+              },
+              "classification": {
+                "primary_type": "single_choice_mcq",
+                "requires_image": true,
+                "requires_table_data": false,
+                "has_or_alternative": true,
+                "missing_image_reference": true,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 8.\n5\u2126 resistance, changes with time as shown in the figure. The\nmagnetic field is perpendicular to the plane of the loop. Calculate the\ncurrent induced in the loop and plot a graph showing induced current\nas a function of time.\n3\n28\nAn a.c. source generating a voltage \u03b5 = \u03b50 sin \u03c9t is connected to a\ncapacitor of capacitance C. Find the expression for the current I flowing\nthrough it. Plot a graph of \u03b5 and I versus \uf077t to show that the current is\nahead of the voltage by \u03c0/2.\nOR\nAn ac voltage V = V0 sin \uf077t is applied across a pure inductor of\ninductance L. Find an expression for the current i, flowing in the circuit\nand show mathematically that the current flowing through it lags behind\nthe applied voltage by a phase angle of\n2\n\uf070. Also draw graphs of V and\ni versus \uf077t for the circuit.\n3\n29\nRadiation of frequency 1015 Hz is incident on three photosensitive\nsurfaces A, B and C. Following observations are recorded:\nSurface A: no photoemission occurs\nSurface B: photoemission occurs but the photoelectrons have zero\nkinetic energy.\n3\n<!-- PAGE 9 END -->\n\n<!-- PAGE 10 START -->\nSurface C: photo emission occurs and photoelectrons have some\nkinetic energy.\nUsing Einstein\u2019s photo-electric equation, explain the three\nobservations.\nOR\nThe graph shows the variation of photocurrent for a\nphotosensitive metal\n(a)What does X and A on the horizontal axis represent?\n(b)Draw this graph for three different values of frequencies of incident\nradiation \u028b1, \u028b 2 and \u028b 3 (\u028b 3>\u028b 2>\u028b1) for the same intensity.\n(c) Draw this graph for three different values of intensities of incident\nradiation I1, I2 and I3 (I3> I2>I1) having the same frequency.\n30\nThe ground state energy of hydrogen atom is -13.6 eV. The photon\nemitted during the transition of electron from n=3 to n=1 state, is\nincident on a photosensitive material of unknown work function .The\nphotoelectrons are  emitted from the material with the maximum kinetic\nenergy of 9eV.Calculate the threshold wavelength of the material used.\n3",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "question references a figure/diagram but has no image_placeholder attached; text references a figure/diagram but no image was detected nearby in source PDF",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": true
+        }
+      ]
+    }
+  ]
+}

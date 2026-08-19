@@ -1,6 +1,32 @@
-// Frontend JavaScript Application Logic for PDF Question-Paper RAG Web UI with Pagination & Random Question Load
+// Frontend JavaScript Application Logic for PDF Question-Paper RAG Web UI
 
-document.addEventListener('DOMContentLoaded', () => {
+async function loadPartials() {
+  const elements = document.querySelectorAll('[data-partial]');
+  for (const el of elements) {
+    const file = el.getAttribute('data-partial');
+    if (!file) continue;
+    try {
+      const res = await fetch(file);
+      if (res.ok) {
+        const html = await res.text();
+        const temp = document.createElement('div');
+        temp.innerHTML = html.trim();
+        if (temp.firstElementChild) {
+          el.replaceWith(temp.firstElementChild);
+        } else {
+          el.innerHTML = html;
+        }
+      }
+    } catch (e) {
+      console.warn("Could not load partial file:", file, e);
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+  // Load HTML component partials first
+  await loadPartials();
+
   const searchInput = document.getElementById('searchInput');
   const classFilter = document.getElementById('classFilter');
   const subjectFilter = document.getElementById('subjectFilter');
@@ -35,19 +61,23 @@ document.addEventListener('DOMContentLoaded', () => {
   performSearch();
 
   // Event Listeners
-  searchBtn.addEventListener('click', () => {
-    isRandomMode = false;
-    currentPage = 1;
-    performSearch();
-  });
+  if (searchBtn) {
+    searchBtn.addEventListener('click', () => {
+      isRandomMode = false;
+      currentPage = 1;
+      performSearch();
+    });
+  }
 
-  randomBtn.addEventListener('click', () => {
-    searchInput.value = '';
-    clearSearchBtn.style.display = 'none';
-    isRandomMode = true;
-    currentPage = 1;
-    performSearch();
-  });
+  if (randomBtn) {
+    randomBtn.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      if (clearSearchBtn) clearSearchBtn.style.display = 'none';
+      isRandomMode = true;
+      currentPage = 1;
+      performSearch();
+    });
+  }
 
   searchInput.addEventListener('keypress', (e) => {
     if (e.key === 'Enter') {
@@ -79,6 +109,11 @@ document.addEventListener('DOMContentLoaded', () => {
     performSearch();
   });
 
+  typeFilter.addEventListener('change', () => {
+    currentPage = 1;
+    performSearch();
+  });
+
   pageSizeSelect.addEventListener('change', () => {
     currentPage = 1;
     performSearch();
@@ -94,10 +129,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  const scrollToTop = () => {
+    if (resultsGrid) resultsGrid.scrollTop = 0;
+    const searchSection = document.getElementById('searchTabSection');
+    if (searchSection) searchSection.scrollTop = 0;
+    const canvas = document.querySelector('.main-content-canvas');
+    if (canvas) canvas.scrollTop = 0;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   // Pagination Listeners
   firstPageBtn.addEventListener('click', () => {
     if (currentPage > 1) {
       currentPage = 1;
+      scrollToTop();
       performSearch();
     }
   });
@@ -105,6 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
   prevPageBtn.addEventListener('click', () => {
     if (currentPage > 1) {
       currentPage--;
+      scrollToTop();
       performSearch();
     }
   });
@@ -112,6 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
   nextPageBtn.addEventListener('click', () => {
     if (currentPage < totalPages) {
       currentPage++;
+      scrollToTop();
       performSearch();
     }
   });
@@ -119,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
   lastPageBtn.addEventListener('click', () => {
     if (currentPage < totalPages) {
       currentPage = totalPages;
+      scrollToTop();
       performSearch();
     }
   });
@@ -240,6 +288,7 @@ document.addEventListener('DOMContentLoaded', () => {
           page_size: page_size,
           class_filter: classFilter.value,
           subject_filter: subjectFilter.value,
+          type_filter: typeFilter.value,
           random_sample: isRandomMode && !query
         })
       });
@@ -262,6 +311,7 @@ document.addEventListener('DOMContentLoaded', () => {
       totalPages = data.total_pages || 1;
 
       renderResults(data);
+      scrollToTop();
 
       updateStep(4, "completed", "Done ✓");
       await delay(200);
@@ -289,21 +339,60 @@ document.addEventListener('DOMContentLoaded', () => {
   function formatQuestionTypeBadge(qType, requiresImage) {
     if (!qType) return '';
     const typeMap = {
-      'single_choice_mcq': '🎯 Single Choice MCQ',
-      'assertion_reason': '⚖️ Assertion-Reason',
-      'true_false': '✔️ True / False',
-      'fill_in_the_blank': '✏️ Fill in Blank',
-      'match_the_following': '🔗 Match Following',
-      'multiple_choice_multi': '☑️ Multi Choice',
-      'short_answer': '✍️ Short Answer',
-      'long_answer': '📝 Long Answer',
-      'case_study_passage': '📖 Case Study',
-      'diagram_based': '🖼️ Diagram Based',
-      'numeric_answer': '🔢 Numeric Calculation'
+      'single_choice_mcq': 'Multiple Choice',
+      'assertion_reason': 'Assertion & Reason',
+      'true_false': 'True / False',
+      'fill_in_the_blank': 'Fill in Blank',
+      'match_the_following': 'Match Following',
+      'multiple_choice_multi': 'Multiple Select',
+      'short_answer': 'Short Answer',
+      'long_answer': 'Long Answer',
+      'case_study_passage': 'Case Study',
+      'diagram_based': 'Diagram Based',
+      'numeric_answer': 'Calculation'
     };
     const label = typeMap[qType] || qType.replace('_', ' ').toUpperCase();
     const imgTag = requiresImage ? ' <span title="Diagram Figure Required">🖼️</span>' : '';
     return `<span class="badge badge-type">${label}${imgTag}</span>`;
+  }
+
+  
+  // Data Cleaning & Formatting Engine
+  function cleanStemText(text) {
+    if (!text) return '';
+    let cleaned = String(text);
+    // Strip page boundary tags
+    cleaned = cleaned.replace(/<!?--?\s*PAGE\s*\d+\s*(?:START|END)?\s*--?>/gi, '');
+    cleaned = cleaned.replace(/<-?\s*PAGE\s*\d+\s*(?:START|END)?\s*-?>/gi, '');
+    cleaned = cleaned.replace(/PAGE\s*\d+\s*(?:START|END)/gi, '');
+    // Strip raw image placeholder strings if present
+    cleaned = cleaned.replace(/\[IMAGE_PLACEHOLDER_\d+\]/gi, '');
+    // Strip Object Replacement Box (￼), Unknown Box (), PUA TrueType Font Glyphs (\ue000-\uf8ff), and Indic PUA Glyphs
+    cleaned = cleaned.replace(/[\ufffc\ufffd\ue000-\uf8ff]/g, '');
+    cleaned = cleaned.replace(/[\u0b00-\u0d7f]/g, '');
+    // Strip leading punctuation dots or hyphens
+    cleaned = cleaned.replace(/^[\s\.\:\-\–\—]+/, '');
+    return cleaned.replace(/\s{2,}/g, ' ').trim();
+  }
+
+  function cleanOptionText(optText, optLabel) {
+    if (!optText) return '';
+    let cleaned = String(optText).trim();
+    if (optLabel) {
+      const escapedLabel = String(optLabel).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const prefixPattern = new RegExp(`^\\s*(?:\\(${escapedLabel}\\)|${escapedLabel}[\\.\\)\\:]|#\\d+)\\s*`, 'i');
+      cleaned = cleaned.replace(prefixPattern, '');
+    }
+    cleaned = cleaned.replace(/^[\s\:\-\–\—]+/, '');
+    return cleaned.trim();
+  }
+
+  function renderMarkdownToHtml(md) {
+    if (!md) return '';
+    if (window.marked && typeof window.marked.parse === 'function') {
+      try { return window.marked.parse(md); } catch (e) { return md; }
+    }
+    return md;
   }
 
   function renderResults(data) {
@@ -313,7 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const pages = data.total_pages || 1;
     const isRand = data.is_random;
 
-    const titlePrefix = isRand ? "🎲 Random Question Bank" : "🔍 Search Results";
+    const titlePrefix = isRand ? "Random Sample" : "Search Results";
     resultsCountHeader.innerText = `${titlePrefix} (${total} questions)`;
     paginationInfo.innerText = `Page ${page} of ${pages}`;
     pageIndicator.innerText = `Page ${page} of ${pages}`;
@@ -351,7 +440,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const simPct = (item.similarity * 100).toFixed(1);
 
       const simBadgeHtml = isRand
-        ? `<span class="card-sim" style="background: rgba(16, 185, 129, 0.2); color: var(--accent-emerald);">🎲 Question Chunk</span>`
+        ? `<span class="card-sim" style="background: rgba(16, 185, 129, 0.2); color: var(--accent-emerald);">Question Chunk</span>`
         : `<span class="card-sim">${simPct}% Similarity</span>`;
 
       // Render Options Grid if options exist
@@ -360,7 +449,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const optionCards = item.options.map(opt => `
           <div class="option-card">
             <span class="option-label">${opt.label}</span>
-            <span class="option-text">${escapeHtml(opt.latex_text || opt.text)}</span>
+            <span class="option-text">${renderMarkdownToHtml(cleanOptionText(opt.latex_text || opt.text, opt.label))}</span>
           </div>
         `).join("");
 
@@ -377,37 +466,67 @@ document.addEventListener('DOMContentLoaded', () => {
       // Render Subparts Grid if subparts exist
       let subpartsHtml = "";
       if (item.subparts && item.subparts.length > 0) {
-        const subpartItems = item.subparts.map(sub => {
-          const s = sub.trim();
-          if (s === "OR" || s === "OR\n" || s === "[OR]" || s === "OR:") {
-            return `
-              <div class="or-divider">
-                <span class="or-badge">OR</span>
-              </div>
-            `;
+        const cleanStemLower = (item.stem_text || "").trim().toLowerCase();
+        const validSubparts = item.subparts.filter(sub => {
+          if (!sub) return false;
+          const sLower = sub.trim().toLowerCase();
+          if (sLower === cleanStemLower || (cleanStemLower.length > 20 && cleanStemLower.includes(sLower))) {
+            return false;
           }
-          return `
-            <div class="subpart-card">${escapeHtml(s)}</div>
-          `;
-        }).join("");
+          return true;
+        });
 
-        subpartsHtml = `
-          <div class="subparts-container">
-            ${subpartItems}
-          </div>
-        `;
+        if (validSubparts.length > 0) {
+          const subpartItems = validSubparts.map(sub => {
+            const s = sub.trim();
+            if (s === "OR" || s === "OR\n" || s === "[OR]" || s === "OR:") {
+              return `
+                <div class="or-divider">
+                  <span class="or-badge">OR</span>
+                </div>
+              `;
+            }
+            return `
+              <div class="subpart-card">${renderMarkdownToHtml(s)}</div>
+            `;
+          }).join("");
+
+          subpartsHtml = `
+            <div class="subparts-container">
+              ${subpartItems}
+            </div>
+          `;
+        }
       }
 
       // Render Diagram Figure Lightbox if diagrams exist
       let diagramHtml = "";
-      if (item.image_urls && item.image_urls.length > 0) {
-        const imgTags = item.image_urls.map(url => `
-          <img src="${url}" alt="Extracted Question Diagram" class="diagram-img" loading="lazy" />
+      let validUrls = (item.image_urls || []).map(u => {
+        if (!u) return "";
+        let str = String(u).trim();
+        if (str.startsWith("{") && str.includes("filename")) {
+          const match = str.match(/['"]filename['"]\s*:\s*['"]([^'"]+)['"]/);
+          if (match) {
+            return `/static/parsed/${item.class}/${item.subject}/${item.year}/${item.paper_id}/images/${match[1]}`;
+          }
+        }
+        return str.replace(/['"\}]/g, "");
+      }).filter(Boolean);
+
+      if (validUrls.length > 0) {
+        const imgTags = validUrls.map(url => `
+          <div class="diagram-img-wrapper" onclick="window.openImageLightbox('${url}')">
+            <img src="${url}" alt="Linked Diagram Figure" class="diagram-img" loading="lazy" onerror="window.handleImageError(this, '${url}')" />
+            <div class="diagram-zoom-hint">🔍 Click to Expand</div>
+          </div>
         `).join("");
 
         diagramHtml = `
           <div class="diagram-container">
-            <div class="diagram-header">🖼️ Linked Diagram Figure (${item.image_urls.length})</div>
+            <div class="diagram-header">
+              <span class="material-symbols-outlined text-[18px]">image</span>
+              <span>Linked Diagram Figures (${validUrls.length})</span>
+            </div>
             <div class="diagram-images-grid">
               ${imgTags}
             </div>
@@ -429,7 +548,7 @@ document.addEventListener('DOMContentLoaded', () => {
           ${simBadgeHtml}
         </div>
 
-        <div class="question-stem">${escapeHtml(item.latex_stem || item.stem_text)}</div>
+        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(item.latex_stem || item.stem_text))}</div>
 
         ${optionsHtml}
         ${subpartsHtml}
@@ -437,7 +556,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <div class="card-footer-actions" style="margin-top: 16px;">
           <button class="btn-explain-ai" data-target="exp-${item.chunk_id}">
-            💡 Generate AI Solution & Step-by-Step Explanation
+            Solution & Step-by-Step Explanation
           </button>
         </div>
         <div class="explanation-box" id="exp-${item.chunk_id}" style="display:none; margin-top:14px; padding:16px; background:rgba(15,23,42,0.75); border:1px solid rgba(99,102,241,0.4); border-radius:8px; font-size:14px; line-height:1.6; color:var(--text-primary);"></div>
@@ -469,7 +588,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.disabled = true;
         btn.textContent = '⏳ Generating AI Explanation...';
         expBox.style.display = 'block';
-        expBox.innerHTML = '<div style="color:var(--accent-cyan); font-weight:600;">🧠 Ollama AI is deriving step-by-step solution...</div>';
+        expBox.innerHTML = '<div style="color:var(--accent-cyan); font-weight:600;">Computing solution...</div>';
 
         try {
           const res = await fetch('/api/explain', {
@@ -507,24 +626,49 @@ document.addEventListener('DOMContentLoaded', () => {
   const dedupBadge = document.getElementById('dedupBadge');
   const draftsQueueGrid = document.getElementById('draftsQueueGrid');
   const dedupQueueGrid = document.getElementById('dedupQueueGrid');
+  const tabUploadBtn = document.getElementById('tabUploadBtn');
+  const uploadTabSection = document.getElementById('uploadTabSection');
+  const filtersAside = document.querySelector('.filters-aside');
+  const pdfFileInput = document.getElementById('pdfFileInput');
+  const pdfFileLabel = document.getElementById('pdfFileLabel');
+  const processPdfBtn = document.getElementById('processPdfBtn');
+  const uploadStatusCard = document.getElementById('uploadStatusCard');
+  const uploadStatusText = document.getElementById('uploadStatusText');
+  const contextReviewPanel = document.getElementById('contextReviewPanel');
+  const reviewPaperTitle = document.getElementById('reviewPaperTitle');
+  const aiRefineBtn = document.getElementById('aiRefineBtn');
+  const embedFinalBtn = document.getElementById('embedFinalBtn');
+  const contextQuestionsList = document.getElementById('contextQuestionsList');
+
+  let currentUploadedPaperId = null;
 
   if (tabSearchBtn && tabDraftsBtn && tabDedupBtn) {
+    const showSidebarFilter = (show) => {
+      if (filtersAside) filtersAside.style.display = show ? 'block' : 'none';
+    };
+
     tabSearchBtn.addEventListener('click', () => {
       tabSearchBtn.classList.add('active');
       tabDraftsBtn.classList.remove('active');
       tabDedupBtn.classList.remove('active');
+      if (tabUploadBtn) tabUploadBtn.classList.remove('active');
       searchTabSection.style.display = 'block';
       draftsTabSection.style.display = 'none';
       if (dedupTabSection) dedupTabSection.style.display = 'none';
+      if (uploadTabSection) uploadTabSection.style.display = 'none';
+      showSidebarFilter(true);
     });
 
     tabDraftsBtn.addEventListener('click', () => {
       tabDraftsBtn.classList.add('active');
       tabSearchBtn.classList.remove('active');
       tabDedupBtn.classList.remove('active');
+      if (tabUploadBtn) tabUploadBtn.classList.remove('active');
       searchTabSection.style.display = 'none';
       draftsTabSection.style.display = 'block';
       if (dedupTabSection) dedupTabSection.style.display = 'none';
+      if (uploadTabSection) uploadTabSection.style.display = 'none';
+      showSidebarFilter(true);
       fetchDraftsQueue();
     });
 
@@ -532,10 +676,179 @@ document.addEventListener('DOMContentLoaded', () => {
       tabDedupBtn.classList.add('active');
       tabSearchBtn.classList.remove('active');
       tabDraftsBtn.classList.remove('active');
+      if (tabUploadBtn) tabUploadBtn.classList.remove('active');
       searchTabSection.style.display = 'none';
       draftsTabSection.style.display = 'none';
       if (dedupTabSection) dedupTabSection.style.display = 'block';
+      if (uploadTabSection) uploadTabSection.style.display = 'none';
+      showSidebarFilter(true);
       fetchDedupQueue();
+    });
+
+    if (tabUploadBtn) {
+      tabUploadBtn.addEventListener('click', () => {
+        tabUploadBtn.classList.add('active');
+        tabSearchBtn.classList.remove('active');
+        tabDraftsBtn.classList.remove('active');
+        tabDedupBtn.classList.remove('active');
+        searchTabSection.style.display = 'none';
+        draftsTabSection.style.display = 'none';
+        if (dedupTabSection) dedupTabSection.style.display = 'none';
+        if (uploadTabSection) uploadTabSection.style.display = 'flex';
+        showSidebarFilter(false);
+      });
+    }
+  }
+
+  // File Upload Handlers
+  if (pdfFileInput) {
+    pdfFileInput.addEventListener('change', () => {
+      if (pdfFileInput.files && pdfFileInput.files[0]) {
+        pdfFileLabel.innerText = `Selected File: ${pdfFileInput.files[0].name}`;
+      }
+    });
+  }
+
+  if (processPdfBtn) {
+    processPdfBtn.addEventListener('click', async () => {
+      if (!pdfFileInput || !pdfFileInput.files || !pdfFileInput.files[0]) {
+        alert('Please select a PDF file to upload.');
+        return;
+      }
+
+      const file = pdfFileInput.files[0];
+      const uploadClassSelect = document.getElementById('uploadClassSelect');
+      const uploadSubjectSelect = document.getElementById('uploadSubjectSelect');
+      const uploadTypeSelect = document.getElementById('uploadTypeSelect');
+      const uploadYearSelect = document.getElementById('uploadYearSelect');
+
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('class_name', uploadClassSelect.value);
+      formData.append('subject', uploadSubjectSelect.value);
+      formData.append('pdf_type', uploadTypeSelect.value);
+      formData.append('year', uploadYearSelect.value);
+
+      processPdfBtn.disabled = true;
+      processPdfBtn.innerHTML = '<span>Processing PDF Pages...</span>';
+      uploadStatusCard.style.display = 'block';
+      uploadStatusText.innerText = 'Parsing PDF text, extracting pages & diagram figures...';
+
+      try {
+        const res = await fetch('/api/upload_pdf', {
+          method: 'POST',
+          body: formData
+        });
+
+        if (!res.ok) throw new Error('Failed to process PDF paper');
+
+        const data = await res.json();
+        currentUploadedPaperId = data.paper_id;
+
+        uploadStatusText.innerText = `✓ Processed ${data.total_questions} questions and ${data.total_images} diagrams!`;
+        reviewPaperTitle.innerText = `Paper #${data.paper_id} (${data.filename}) - ${data.total_questions} Questions Extracted`;
+        
+        contextReviewPanel.style.display = 'flex';
+        renderContextQuestionsPreview(data.questions_preview || []);
+
+      } catch (err) {
+        alert('Error processing PDF: ' + err.message);
+        uploadStatusText.innerText = '✕ Processing failed. Please check PDF file.';
+      } finally {
+        processPdfBtn.disabled = false;
+        processPdfBtn.innerHTML = '<span class="material-symbols-outlined text-[18px]">auto_fix_high</span><span>Process PDF Paper</span>';
+      }
+    });
+  }
+
+  // AI Context Refinement Handler
+  if (aiRefineBtn) {
+    aiRefineBtn.addEventListener('click', async () => {
+      if (!currentUploadedPaperId) return;
+
+      aiRefineBtn.disabled = true;
+      aiRefineBtn.innerHTML = '<span class="material-symbols-outlined text-[16px] animate-spin">refresh</span><span>✨ Improving Context with AI...</span>';
+
+      try {
+        const res = await fetch('/api/refine_context', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ paper_id: currentUploadedPaperId })
+        });
+
+        if (!res.ok) throw new Error('Context refinement failed');
+
+        const data = await res.json();
+        aiRefineBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check_circle</span><span>✓ AI Context Improved!</span>';
+        renderContextQuestionsPreview(data.questions_preview || []);
+      } catch (err) {
+        alert('Error refining context: ' + err.message);
+        aiRefineBtn.disabled = false;
+        aiRefineBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">auto_awesome</span><span>✨ Improve Context (AI Refine)</span>';
+      }
+    });
+  }
+
+  // Vector DB Embedding Handler
+  if (embedFinalBtn) {
+    embedFinalBtn.addEventListener('click', async () => {
+      if (!currentUploadedPaperId) return;
+
+      embedFinalBtn.disabled = true;
+      embedFinalBtn.innerHTML = '<span class="material-symbols-outlined text-[16px] animate-spin">database</span><span>⚡ Indexing into Vector DB...</span>';
+
+      try {
+        const res = await fetch('/api/embed_paper', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ paper_id: currentUploadedPaperId })
+        });
+
+        if (!res.ok) throw new Error('Vector store embedding failed');
+
+        const data = await res.json();
+        embedFinalBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check_circle</span><span>✓ Vector Indexing Complete!</span>';
+        alert(`Successfully embedded ${data.embedded_count} questions into the Vector Store DB!`);
+        fetchStats();
+      } catch (err) {
+        alert('Error embedding paper: ' + err.message);
+        embedFinalBtn.disabled = false;
+        embedFinalBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">database</span><span>⚡ Embed PDF into Vector Store</span>';
+      }
+    });
+  }
+
+  function renderContextQuestionsPreview(questions) {
+    if (!contextQuestionsList) return;
+    contextQuestionsList.innerHTML = '';
+
+    if (questions.length === 0) {
+      contextQuestionsList.innerHTML = '<div class="p-4 bg-slate-900 rounded-lg text-slate-400 text-xs">No extracted questions found.</div>';
+      return;
+    }
+
+    questions.forEach((q, idx) => {
+      const card = document.createElement('div');
+      card.className = 'question-card';
+
+      const imgBadge = (q.linked_images && q.linked_images.length > 0)
+        ? `<span class="badge badge-type">🖼️ ${q.linked_images.length} Diagram Linked</span>`
+        : `<span class="badge badge-year">No Diagram</span>`;
+
+      const refinedTag = q.context_refined ? '<span class="badge badge-type" style="background:rgba(99,102,241,0.2); color:#a5b4fc;">✨ AI Context Refined</span>' : '';
+
+      card.innerHTML = `
+        <div class="card-header">
+          <div class="card-badges">
+            <span class="badge badge-class">Class ${q.class} ${q.subject}</span>
+            <span class="badge badge-qnum">${q.question_number}</span>
+            ${imgBadge}
+            ${refinedTag}
+          </div>
+        </div>
+        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(q.stem_text || q.content))}</div>
+      `;
+      contextQuestionsList.appendChild(card);
     });
   }
 
@@ -588,7 +901,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div style="padding:12px; background:rgba(0,0,0,0.3); border-radius:6px; border:1px solid rgba(239,68,68,0.3);">
             <div style="font-weight:700; color:#f87171; margin-bottom:4px;">Duplicate Match (${c2.year} - ${c2.question_id}):</div>
             <div style="font-size:13px; color:var(--text-secondary);">${escapeHtml(c2.document_snippet)}...</div>
-            <button class="btn-remove-dedup" data-chunkid="${c2.chunk_id}" style="margin-top:10px; padding:6px 14px; background:rgba(239,68,68,0.2); border:1px solid #ef4444; color:#f87171; border-radius:4px; font-weight:700; cursor:pointer;">🗑️ Remove Duplicate Chunk</button>
+            <button class="btn-remove-dedup" data-chunkid="${c2.chunk_id}" style="margin-top:10px; padding:6px 14px; background:rgba(239,68,68,0.2); border:1px solid #ef4444; color:#f87171; border-radius:4px; font-weight:700; cursor:pointer;">Remove Duplicate</button>
           </div>
         </div>
       `;
@@ -731,4 +1044,62 @@ document.addEventListener('DOMContentLoaded', () => {
   function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
+
+  // Lightbox Modal & Image Fallback Helpers
+  window.openImageLightbox = function(url) {
+    const modal = document.getElementById('imageLightboxModal');
+    const img = document.getElementById('lightboxImage');
+    const downloadBtn = document.getElementById('downloadImageBtn');
+    if (modal && img) {
+      img.src = url;
+      if (downloadBtn) {
+        downloadBtn.href = url;
+      }
+      modal.classList.add('open');
+    }
+  };
+
+  window.closeImageLightbox = function() {
+    const modal = document.getElementById('imageLightboxModal');
+    if (modal) {
+      modal.classList.remove('open');
+    }
+  };
+
+  window.handleImageError = function(imgElement, originalUrl) {
+    const wrapper = imgElement.parentElement;
+    if (wrapper) {
+      const filename = originalUrl ? originalUrl.split('/').pop() : 'diagram.png';
+      wrapper.innerHTML = `
+        <div class="diagram-fallback">
+          <div style="font-weight:700; margin-bottom:4px; font-size:13px;">🖼️ Diagram Figure Attached</div>
+          <div style="font-size:11px; color:var(--text-muted); word-break:break-all;">${escapeHtml(filename)}</div>
+          <a href="${originalUrl}" target="_blank" style="display:inline-block; margin-top:6px; font-size:11px; color:var(--accent-cyan); font-weight:600;">Open Direct Image ↗</a>
+        </div>
+      `;
+      wrapper.onclick = null;
+    }
+  };
+
+  // Lightbox Event Listeners
+  const closeLightboxBtn = document.getElementById('closeLightboxBtn');
+  const imageLightboxModal = document.getElementById('imageLightboxModal');
+
+  if (closeLightboxBtn) {
+    closeLightboxBtn.addEventListener('click', window.closeImageLightbox);
+  }
+
+  if (imageLightboxModal) {
+    imageLightboxModal.addEventListener('click', (e) => {
+      if (e.target === imageLightboxModal) {
+        window.closeImageLightbox();
+      }
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      window.closeImageLightbox();
+    }
+  });
 });

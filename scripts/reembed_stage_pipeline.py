@@ -23,6 +23,7 @@ from src.segmentation.structured_parser import (
     parse_markdown_pass_a,
     audit_extraction_pass_b,
     evaluate_confidence_and_flags,
+    ai_arrange_and_validate_questions,
     create_empty_exam_schema
 )
 from src.chunking.chunker import chunk_paper
@@ -68,6 +69,9 @@ def process_paper_through_8stage_pipeline(paper_id: str, p_info: dict) -> dict:
     )
     issues = audit_extraction_pass_b(pass_a_json, md_dict["markdown"], manifest)
     structured_draft = evaluate_confidence_and_flags(pass_a_json, issues)
+
+    # --- Stage 5B: AI Pipeline Chunk Validator & Auto-Arranger ---
+    # structured_draft = ai_arrange_and_validate_questions(structured_draft, max_questions=5)
 
     draft_path = os.path.join(parsed_dir, "structured_draft.json")
     with open(draft_path, "w", encoding="utf-8") as f:

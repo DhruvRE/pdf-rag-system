@@ -1,0 +1,137 @@
+{
+  "exam_metadata": {
+    "subject": "computer_science",
+    "class_level": "12",
+    "year": "2023-2024",
+    "total_marks": 80,
+    "duration": "3 Hours",
+    "source_file": "class12_computer_science_2023_2024_sqp.pdf"
+  },
+  "sections": [
+    {
+      "section_id": "SECTION A",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q17",
+          "marks": 6,
+          "question_type": "assertion_reason",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "and 18 are ASSERTION AND REASONING based questions. Mark\nthe correct choice as\n(a) Both A and R are true and R is the correct explanation for A\n(b) Both A and R are true and R is not the correct explanation for A\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n[6]\n(c) A is True but R is False\n(d) A is fa",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 6,
+              "text": "and 18 are ASSERTION AND REASONING based questions. Mark\nthe correct choice as\n(a) Both A and R are true and R is the correct explanation for A\n(b) Both A and R are true and R is not the correct explanation for A\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n[6]\n(c) A is True but R is False\n(d) A is false but R is True\n17\nAssertion(A): List is an immutable data type\nReasoning(R): When an attempt is made to update the value of an\nimmutable variable, the old variable is destroyed and a new variable is\ncreated by the same name in memory.\n1\n18\nAssertion(A): Python Standard Library consists of various modules.\nReasoning(R): A function in a module is used to simplify the code and\navoids repetition.\n1",
+              "options": [
+                {
+                  "label": "a",
+                  "text": "Both A and R are true and R is the correct explanation for A"
+                },
+                {
+                  "label": "b",
+                  "text": "Both A and R are true and R is not the correct explanation for A"
+                },
+                {
+                  "label": "c",
+                  "text": "A is True but R is False"
+                },
+                {
+                  "label": "d",
+                  "text": "A is false but R is True"
+                },
+                {
+                  "label": "a",
+                  "text": ": List is an immutable data type"
+                },
+                {
+                  "label": "a",
+                  "text": ": Python Standard Library consists of various modules."
+                }
+              ],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "assertion_reason",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "low"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## Q17\nand 18 are ASSERTION AND REASONING based questions. Mark\nthe correct choice as\n(a) Both A and R are true and R is the correct explanation for A\n(b) Both A and R are true and R is not the correct explanation for A\n<!-- PAGE 5 END -->\n\n<!-- PAGE 6 START -->\n[6]\n(c) A is True but R is False\n(d) A is false but R is True\n17\nAssertion(A): List is an immutable data type\nReasoning(R): When an attempt is made to update the value of an\nimmutable variable, the old variable is destroyed and a new variable is\ncreated by the same name in memory.\n1\n18\nAssertion(A): Python Standard Library consists of various modules.\nReasoning(R): A function in a module is used to simplify the code and\navoids repetition.\n1",
+          "extraction_confidence": "low",
+          "flagged_for_review": true,
+          "flag_reason": "assertion_reason question has 6 options, expected exactly 4",
+          "corrected": true,
+          "correction_note": "Reconciled 6 options from raw source span (fixed label split/spacing)",
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    },
+    {
+      "section_id": "SECTION E",
+      "instruction": "All questions are compulsory unless internal choice is provided.",
+      "mark_scheme": "Refer to individual question mark allocations.",
+      "questions": [
+        {
+          "question_number": "Q5000",
+          "marks": 1,
+          "question_type": "short_answer",
+          "selection_rule": {
+            "choose": null,
+            "of": null
+          },
+          "stem_text": "Help Sartaj to write the program in Python.\n<!-- PAGE 17 END -->",
+          "passage_text": null,
+          "subparts": [
+            {
+              "label": null,
+              "marks": 1,
+              "text": "Help Sartaj to write the program in Python.\n<!-- PAGE 17 END -->",
+              "options": [],
+              "correct_answer": null,
+              "image_placeholders": [],
+              "table_data": null,
+              "has_or_alternative": false,
+              "alternative": null,
+              "classification": {
+                "primary_type": "short_answer",
+                "requires_image": false,
+                "requires_table_data": false,
+                "has_or_alternative": false,
+                "missing_image_reference": false,
+                "classification_confidence": "high"
+              }
+            }
+          ],
+          "topic": null,
+          "subtopic": null,
+          "raw_source_span": "## 5000.\nHelp Sartaj to write the program in Python.\n<!-- PAGE 17 END -->",
+          "extraction_confidence": "high",
+          "flagged_for_review": false,
+          "flag_reason": null,
+          "corrected": false,
+          "correction_note": null,
+          "needs_manual_review": false,
+          "review_reason": null,
+          "requires_image": false
+        }
+      ]
+    }
+  ]
+}

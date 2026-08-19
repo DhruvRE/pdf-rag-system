@@ -1,0 +1,96 @@
+/* Pipeline Progress Timeline, Quality Gate Draft Queue, Deduplication & Empty States */
+
+/* Pipeline Timeline Loader Steps */
+.timeline-step {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.timeline-step.active {
+  border-color: var(--indigo-500) !important;
+  background: rgba(99, 102, 241, 0.18) !important;
+  box-shadow: 0 0 12px rgba(99, 102, 241, 0.25) !important;
+}
+.timeline-step.completed {
+  border-color: var(--accent-emerald) !important;
+  background: rgba(16, 185, 129, 0.18) !important;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.2) !important;
+}
+
+/* Draft Cards (Draft Queue) */
+.draft-card, .dedup-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  box-shadow: var(--shadow-md);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.draft-card:hover, .dedup-card:hover {
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: var(--shadow-glow);
+}
+
+.flag-chip {
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.flag-chip.low { background: rgba(244, 63, 94, 0.2); color: #fda4af; border: 1px solid rgba(244, 63, 94, 0.45); }
+.flag-chip.medium { background: rgba(245, 158, 11, 0.2); color: #fcd34d; border: 1px solid rgba(245, 158, 11, 0.45); }
+.flag-chip.high { background: rgba(16, 185, 129, 0.2); color: #6ee7b7; border: 1px solid rgba(16, 185, 129, 0.45); }
+
+.draft-approve-btn {
+  padding: 8px 18px;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(16, 185, 129, 0.35);
+  transition: all 0.2s ease;
+}
+
+.draft-approve-btn:hover {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  box-shadow: 0 6px 18px rgba(16, 185, 129, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-remove-dedup {
+  margin-top: 12px;
+  padding: 7px 16px;
+  background: rgba(244, 63, 94, 0.18);
+  border: 1px solid rgba(244, 63, 94, 0.45);
+  color: #fda4af;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 12.5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-remove-dedup:hover {
+  background: rgba(244, 63, 94, 0.35);
+  box-shadow: 0 4px 12px rgba(244, 63, 94, 0.3);
+}
+
+/* Empty States */
+.empty-state {
+  text-align: center;
+  padding: 56px 28px;
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--border-medium);
+  box-shadow: var(--shadow-sm);
+}
+
+.empty-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}

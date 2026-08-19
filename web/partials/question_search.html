@@ -1,0 +1,65 @@
+<!-- Search & RAG Question Tab Content -->
+<div id="searchTabSection" class="tab-content flex-1 flex flex-col h-full overflow-hidden">
+  
+  <!-- Header Bar -->
+  <div class="flex justify-between items-center mb-3 flex-shrink-0">
+    <div>
+      <h2 id="resultsCountHeader" class="text-xl text-slate-100 font-bold tracking-tight">Question Search Results</h2>
+      <p id="paginationInfo" class="text-xs text-slate-400 font-medium">Page 1 of 1</p>
+    </div>
+  </div>
+
+  <!-- Pipeline Progress Loader Card -->
+  <div id="pipelineLoaderCard" class="bg-slate-900 border border-indigo-500/50 p-4 rounded-xl shadow-md mb-4" style="display: none;">
+    <div class="flex items-center gap-3 mb-3 border-b border-slate-700/60 pb-2">
+      <div class="w-4 h-4 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></div>
+      <h4 class="font-bold text-sm text-indigo-400">Executing RAG Pipeline...</h4>
+    </div>
+    <div class="grid grid-cols-4 gap-3 text-xs">
+      <div id="step1" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+        <span class="font-bold text-indigo-400">1. Embedding</span>
+        <div id="step1Status" class="text-slate-400 mt-0.5">Waiting...</div>
+      </div>
+      <div id="step2" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+        <span class="font-bold text-indigo-400">2. Vector Search</span>
+        <div id="step2Status" class="text-slate-400 mt-0.5">Waiting...</div>
+      </div>
+      <div id="step3" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+        <span class="font-bold text-indigo-400">3. Diagram Link</span>
+        <div id="step3Status" class="text-slate-400 mt-0.5">Waiting...</div>
+      </div>
+      <div id="step4" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+        <span class="font-bold text-indigo-400">4. Typesetting</span>
+        <div id="step4Status" class="text-slate-400 mt-0.5">Waiting...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scrollable Results Container -->
+  <div id="resultsGrid" class="flex-1 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md pb-stack-lg pr-2">
+    <div class="p-8 text-center bg-slate-900/60 rounded-xl border border-slate-700/60">
+      <h3 class="text-base font-semibold text-slate-300">Loading questions...</h3>
+    </div>
+  </div>
+
+  <!-- Pagination Controls -->
+  <div id="paginationBar" class="flex justify-center items-center gap-3 py-3 border-t border-slate-700/60" style="display: none;">
+    <button id="firstPageBtn" class="flex items-center gap-1">
+      <span class="material-symbols-outlined text-[16px]">first_page</span>
+      <span>First</span>
+    </button>
+    <button id="prevPageBtn" class="flex items-center gap-1">
+      <span class="material-symbols-outlined text-[16px]">chevron_left</span>
+      <span>Prev</span>
+    </button>
+    <span id="pageIndicator" class="text-xs font-bold px-3 py-1 bg-slate-900 border border-slate-700/60 rounded-full text-indigo-300">Page 1 of 1</span>
+    <button id="nextPageBtn" class="flex items-center gap-1">
+      <span>Next</span>
+      <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+    </button>
+    <button id="lastPageBtn" class="flex items-center gap-1">
+      <span>Last</span>
+      <span class="material-symbols-outlined text-[16px]">last_page</span>
+    </button>
+  </div>
+</div>

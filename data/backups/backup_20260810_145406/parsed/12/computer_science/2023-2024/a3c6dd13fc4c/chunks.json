@@ -1,0 +1,937 @@
+{
+  "paper_id": "a3c6dd13fc4c",
+  "class": "12",
+  "subject": "computer_science",
+  "year": "2023-2024",
+  "total_chunks": 32,
+  "chunks": [
+    {
+      "chunk_id": "a3c6dd13fc4c_q1",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q1",
+      "question_number": "Q1",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "State True or False:\n\u201cIn a Python program, if a break statement is given in a nested loop, it\nterminates the execution of all loops in one go.\u201d",
+      "raw_text": "State True or False:\n\u201cIn a Python program, if a break statement is given in a nested loop, it\nterminates the execution of all loops in one go.\u201d",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        384.74,
+        489.34,
+        441.68
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q2",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q2",
+      "question_number": "Q2",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "In a table in MYSQL database, an attribute A of datatype varchar(20)\nhas the value \u201cKeshav\u201d. The attribute B of datatype char(20) has value\n\u201cMeenakshi\u201d. How many characters are occupied by attribute A and\nattribute B?\na. 20,6\nb. 6,20\nc. 9,6\n\n\nOptions:\n(a) 20,6\n(b) 6,20\n(c) 9,6\n(d) 6,9",
+      "raw_text": "In a table in MYSQL database, an attribute A of datatype varchar(20)\nhas the value \u201cKeshav\u201d. The attribute B of datatype char(20) has value\n\u201cMeenakshi\u201d. How many characters are occupied by attribute A and\nattribute B?\na. 20,6\nb. 6,20\nc. 9,6",
+      "options": [
+        "(a) 20,6",
+        "(b) 6,20",
+        "(c) 9,6",
+        "(d) 6,9"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        442.7,
+        504.16,
+        580.78
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q3",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q3",
+      "question_number": "Q3",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "What will be the output of the following statement:\nprint(3-2**2**3+99/11)\na. 244\nb. 244.0\nc. -244.0\n\n\nOptions:\n(a) 244\n(b) 244.0\n(c) -244.0\n(d) Error",
+      "raw_text": "What will be the output of the following statement:\nprint(3-2**2**3+99/11)\na. 244\nb. 244.0\nc. -244.0",
+      "options": [
+        "(a) 244",
+        "(b) 244.0",
+        "(c) -244.0",
+        "(d) Error"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        613.96,
+        368.02,
+        698.65
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q4",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q4",
+      "question_number": "Q4",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 1,
+      "content": "Select the correct output of the code:\nOptions:\na. PYTHON-IS-Fun\nb. PYTHON-is-Fun\nc. Python-is-fun\n\n\nOptions:\n(a) PYTHON-IS-Fun\n(b) PYTHON-is-Fun\n(c) Python-is-fun\n(d) PYTHON-Is -Fun",
+      "raw_text": "Select the correct output of the code:\nOptions:\na. PYTHON-IS-Fun\nb. PYTHON-is-Fun\nc. Python-is-fun",
+      "options": [
+        "(a) PYTHON-IS-Fun",
+        "(b) PYTHON-is-Fun",
+        "(c) Python-is-fun",
+        "(d) PYTHON-Is -Fun"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q4_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        731.83,
+        287.0,
+        747.49
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q5",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q5",
+      "question_number": "Q5",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "In MYSQL database, if a table, Alpha has degree 5 and cardinality 3, and\nanother table, Beta has degree 3 and cardinality 5, what will be the degree\nand cardinality of the Cartesian product of Alpha and Beta?\na. 5,3\nb. 8,15\nc. 3,5\n\n\nOptions:\n(a) 5,3\n(b) 8,15\n(c) 3,5\n(d) 15,8",
+      "raw_text": "In MYSQL database, if a table, Alpha has degree 5 and cardinality 3, and\nanother table, Beta has degree 3 and cardinality 5, what will be the degree\nand cardinality of the Cartesian product of Alpha and Beta?\na. 5,3\nb. 8,15\nc. 3,5",
+      "options": [
+        "(a) 5,3",
+        "(b) 8,15",
+        "(c) 3,5",
+        "(d) 15,8"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        263.39,
+        502.87,
+        379.04
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q6",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q6",
+      "question_number": "Q6",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Riya wants to transfer pictures from her mobile phone to her laptop. She\nuses Bluetooth Technology to connect two devices. Which type of network\nwill be formed in this case?\na. PAN\nb. LAN\nc. MAN\n\n\nOptions:\n(a) PAN\n(b) LAN\n(c) MAN\n(d) WAN",
+      "raw_text": "Riya wants to transfer pictures from her mobile phone to her laptop. She\nuses Bluetooth Technology to connect two devices. Which type of network\nwill be formed in this case?\na. PAN\nb. LAN\nc. MAN",
+      "options": [
+        "(a) PAN",
+        "(b) LAN",
+        "(c) MAN",
+        "(d) WAN"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        396.26,
+        501.77,
+        508.42
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q7",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q7",
+      "question_number": "Q7",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Which of the following will delete key-value pair for key = \u201cRed\u201d from a\ndictionary D1?\na. delete D1(\"Red\")\nb. del D1[\"Red\"]\nc. del.D1[\"Red\"]\n\n\nOptions:\n(a) delete D1(\"Red\")\n(b) del D1[\"Red\"]\n(c) del.D1[\"Red\"]\n(d) D1.del[\"Red\"]",
+      "raw_text": "Which of the following will delete key-value pair for key = \u201cRed\u201d from a\ndictionary D1?\na. delete D1(\"Red\")\nb. del D1[\"Red\"]\nc. del.D1[\"Red\"]",
+      "options": [
+        "(a) delete D1(\"Red\")",
+        "(b) del D1[\"Red\"]",
+        "(c) del.D1[\"Red\"]",
+        "(d) D1.del[\"Red\"]"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        525.52,
+        494.54,
+        661.99
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q8",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q8",
+      "question_number": "Q8",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 2,
+      "content": "Consider the statements given below and then choose the correct output\nfrom the given options:\npride=\"#G20 Presidency\"\nprint(pride[-2:2:-2])\nOptions:\na. ndsr\nb. ceieP0\nc. ceieP",
+      "raw_text": "Consider the statements given below and then choose the correct output\nfrom the given options:\npride=\"#G20 Presidency\"\nprint(pride[-2:2:-2])\nOptions:\na. ndsr\nb. ceieP0\nc. ceieP",
+      "options": [
+        "a. ndsr",
+        "b. ceieP0",
+        "c. ceieP",
+        "d. yndsr"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        671.83,
+        483.21,
+        758.38
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q9",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q9",
+      "question_number": "Q9",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "Which of the following statement(s) would give an error during execution of\nthe following code?\ntup = (20,30,40,50,80,79)\nprint(tup)          #Statement 1\nprint(tup[3]+50)    #Statement 2\nprint(max(tup))     #Statement 3\ntup[4]=80           #Statement 4",
+      "raw_text": "Which of the following statement(s) would give an error during execution of\nthe following code?\ntup = (20,30,40,50,80,79)\nprint(tup)          #Statement 1\nprint(tup[3]+50)    #Statement 2\nprint(max(tup))     #Statement 3\ntup[4]=80           #Statement 4",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "a. Statement 1",
+        "b. Statement 2",
+        "c. Statement 3",
+        "d. Statement 4"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        171.83,
+        510.32,
+        475.3
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q10",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q10",
+      "question_number": "Q10",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 3,
+      "content": "What possible outputs(s) will be obtained when the following code is\nexecuted?\nOptions:\na.\nRED*\nWHITE*\nBLACK*\nb.\nWHITE*\nBLACK*\nc.\nWHITE* WHITE*\nBLACK* BLACK*\nd.\nYELLOW*\nWHITE*WHITE*\nBLACK* BLACK* BLACK*\n\n\nOptions:\n(a) RED*\n(b) WHITE*\n(c) WHITE* WHITE*\n(d) YELLOW*",
+      "raw_text": "What possible outputs(s) will be obtained when the following code is\nexecuted?\nOptions:\na.\nRED*\nWHITE*\nBLACK*\nb.\nWHITE*\nBLACK*\nc.\nWHITE* WHITE*\nBLACK* BLACK*\nd.\nYELLOW*\nWHITE*WHITE*\nBLACK* BLACK* BLACK*",
+      "options": [
+        "(a) RED*",
+        "(b) WHITE*",
+        "(c) WHITE* WHITE*",
+        "(d) YELLOW*"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q10_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        494.44,
+        462.32,
+        757.57
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q11",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q11",
+      "question_number": "Q11",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "Fill in the blank:\nThe modem at the sender\u2019s computer end acts as a ____________.\na. Model\nb. Modulator\nc. Demodulator\n\n\nOptions:\n(a) Model\n(b) Modulator\n(c) Demodulator\n(d) Convertor",
+      "raw_text": "Fill in the blank:\nThe modem at the sender\u2019s computer end acts as a ____________.\na. Model\nb. Modulator\nc. Demodulator",
+      "options": [
+        "(a) Model",
+        "(b) Modulator",
+        "(c) Demodulator",
+        "(d) Convertor"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        433.58,
+        453.85,
+        569.98
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q12",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q12",
+      "question_number": "Q12",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 4,
+      "content": "Consider the code given below:\nWhich of the following statements should be given in the blank for\n#Missing Statement, if the output produced is 110?\nOptions:\na. global a\nb. global b=100\nc. global b\n\n\nOptions:\n(a) global a\n(b) global b=100\n(c) global b\n(d) global a=100",
+      "raw_text": "Consider the code given below:\nWhich of the following statements should be given in the blank for\n#Missing Statement, if the output produced is 110?\nOptions:\na. global a\nb. global b=100\nc. global b",
+      "options": [
+        "(a) global a",
+        "(b) global b=100",
+        "(c) global b",
+        "(d) global a=100"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q12_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        589.0,
+        258.32,
+        604.54
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q13",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q13",
+      "question_number": "Q13",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "State whether the following statement is True or False:\nAn exception may be raised even if the program is syntactically correct.",
+      "raw_text": "State whether the following statement is True or False:\nAn exception may be raised even if the program is syntactically correct.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        244.67,
+        483.85,
+        284.33
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q14",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q14",
+      "question_number": "Q14",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "Which of the following statements is FALSE about keys in a relational\ndatabase?\na. Any candidate key is eligible to become a primary key.\nb. A primary key uniquely identifies the tuples in a relation.\nc. A candidate key that is not a primary key is a foreign key.\nd. A foreign key is an attribute whose value is derived from the primary\nkey of another relation.\n\n\nOptions:\n(a) Any candidate key is eligible to become a primary key.\n(b) A primary key uniquely identifies the tuples in a relation.\n(c) A candidate key that is not a primary key is a foreign key.\n(d) A foreign key is an attribute whose value is derived from the primary",
+      "raw_text": "Which of the following statements is FALSE about keys in a relational\ndatabase?\na. Any candidate key is eligible to become a primary key.\nb. A primary key uniquely identifies the tuples in a relation.\nc. A candidate key that is not a primary key is a foreign key.\nd. A foreign key is an attribute whose value is derived from the primary\nkey of another relation.",
+      "options": [
+        "(a) Any candidate key is eligible to become a primary key.",
+        "(b) A primary key uniquely identifies the tuples in a relation.",
+        "(c) A candidate key that is not a primary key is a foreign key.",
+        "(d) A foreign key is an attribute whose value is derived from the primary"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        293.42,
+        504.71,
+        453.92
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q15",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q15",
+      "question_number": "Q15",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "Fill in the blank:\nIn case of _____________ switching, before a communication starts, a\ndedicated path is identified between the sender and the receiver.",
+      "raw_text": "Fill in the blank:\nIn case of _____________ switching, before a communication starts, a\ndedicated path is identified between the sender and the receiver.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        472.96,
+        477.0,
+        536.86
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q16",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q16",
+      "question_number": "Q16",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 5,
+      "content": "Which of the following functions changes the position of file pointer and\nreturns its new position?\na. flush()\nb. tell()\nc. seek()\nd. offset()\nQ17 and 18 are ASSERTION AND REASONING based questions. Mark\nthe correct choice as\n(a) Both A and R are true and R is the correct explanation for A\n(b) Both A and R are true and R is not the correct explanation for A\n(c) A is True but R is False",
+      "raw_text": "Which of the following functions changes the position of file pointer and\nreturns its new position?\na. flush()\nb. tell()\nc. seek()\nd. offset()\nQ17 and 18 are ASSERTION AND REASONING based questions. Mark\nthe correct choice as\n(a) Both A and R are true and R is the correct explanation for A\n(b) Both A and R are true and R is not the correct explanation for A\n(c) A is True but R is False",
+      "options": [
+        "a. flush()",
+        "b. tell()",
+        "c. seek()",
+        "d. offset()"
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        545.92,
+        543.13,
+        747.61
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q17",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q17",
+      "question_number": "Q17",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "content": "Assertion(A): List is an immutable data type\nReasoning(R): When an attempt is made to update the value of an\nimmutable variable, the old variable is destroyed and a new variable is\ncreated by the same name in memory.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion(A): List is an immutable data type\nReasoning(R): When an attempt is made to update the value of an\nimmutable variable, the old variable is destroyed and a new variable is\ncreated by the same name in memory.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        71.97,
+        475.8,
+        160.01
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q18",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q18",
+      "question_number": "Q18",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONA",
+      "page_num": 6,
+      "content": "Assertion(A): Python Standard Library consists of various modules.\nReasoning(R): A function in a module is used to simplify the code and\navoids repetition.\n\n\nOptions:\n(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).\n(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).\n(c) Assertion (A) is true but Reason (R) is false.\n(d) Assertion (A) is false but Reason (R) is true.",
+      "raw_text": "Assertion(A): Python Standard Library consists of various modules.\nReasoning(R): A function in a module is used to simplify the code and\navoids repetition.",
+      "options": [
+        "(a) Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+        "(b) Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+        "(c) Assertion (A) is true but Reason (R) is false.",
+        "(d) Assertion (A) is false but Reason (R) is true."
+      ],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        169.07,
+        476.72,
+        232.85
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q20",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q20",
+      "question_number": "Q20",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 6,
+      "content": "The code given below accepts a number as an argument and returns the\nreverse number. Observe the following code carefully and rewrite it after\nremoving all syntax and logical errors. Underline all the corrections made.",
+      "raw_text": "The code given below accepts a number as an argument and returns the\nreverse number. Observe the following code carefully and rewrite it after\nremoving all syntax and logical errors. Underline all the corrections made.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q20_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        456.98,
+        508.69,
+        520.78
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q21",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q21",
+      "question_number": "Q21",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "Write a function countNow(PLACES) in Python, that takes the\ndictionary, PLACES as an argument and displays the names (in\nuppercase)of the places whose names are longer than 5 characters.\nFor example, Consider the following dictionary\nPLACES={1:\"Delhi\",2:\"London\",3:\"Paris\",4:\"New\nYork\",5:\"Doha\"}\nThe output should be:\nLONDON\nNEW YORK",
+      "raw_text": "Write a function countNow(PLACES) in Python, that takes the\ndictionary, PLACES as an argument and displays the names (in\nuppercase)of the places whose names are longer than 5 characters.\nFor example, Consider the following dictionary\nPLACES={1:\"Delhi\",2:\"London\",3:\"Paris\",4:\"New\nYork\",5:\"Doha\"}\nThe output should be:\nLONDON\nNEW YORK",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Write a function, lenWords(STRING), that takes a string as an argument\nand returns a tuple containing length of each word of a string.\nFor example, if the string is \"Come let us have some fun\", the\ntuple will have (4, 3, 2, 4, 4, 3)"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        36.69,
+        507.61,
+        370.88
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q22",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q22",
+      "question_number": "Q22",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "Predict the output of the following code:",
+      "raw_text": "Predict the output of the following code:",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q22_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        380.54,
+        308.0,
+        396.08
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q23",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q23",
+      "question_number": "Q23",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 7,
+      "content": "Write the Python statement for each of the following tasks using BUILT-IN\nfunctions/methods only:",
+      "raw_text": "Write the Python statement for each of the following tasks using BUILT-IN\nfunctions/methods only:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) To insert an element 200 at the third position, in the list L1.",
+        "(ii) To check whether a string named, message ends with a full stop\n/ period or not.\n1+1=",
+        "OR",
+        "A list named studentAge stores age of students of a class. Write the\nPython command to import the required module and  (using built-in\nfunction) to display the most common age value from the given list."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        652.03,
+        509.02,
+        752.77
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q24",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q24",
+      "question_number": "Q24",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "content": "Ms. Shalini has just created a table named \u201cEmployee\u201d containing\ncolumns Ename, Department and Salary.\nAfter creating the table, she realized that she has forgotten to add a primary\nkey column in the table. Help her in writing an SQL command to add a\nprimary key column EmpId of integer type to the table Employee.\nThereafter, write the command to insert the following record in the table:\nEmpId- 999\nEname- Shweta\nDepartment: Production\nSalary: 26900",
+      "raw_text": "Ms. Shalini has just created a table named \u201cEmployee\u201d containing\ncolumns Ename, Department and Salary.\nAfter creating the table, she realized that she has forgotten to add a primary\nkey column in the table. Help her in writing an SQL command to add a\nprimary key column EmpId of integer type to the table Employee.\nThereafter, write the command to insert the following record in the table:\nEmpId- 999\nEname- Shweta\nDepartment: Production\nSalary: 26900",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Zack is working in a database named SPORT, in which he has created a\ntable named \u201cSports\u201d containing columns SportId, SportName,\nno_of_players, and category.\nAfter creating the table, he realized that the attribute, category has to be\ndeleted from the table and a new attribute TypeSport of data type string\nhas to be added. This attribute TypeSport cannot be left blank. Help Zack\nwrite the commands to complete both the tasks."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        123.95,
+        511.0,
+        613.54
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q25",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q25",
+      "question_number": "Q25",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONB",
+      "page_num": 8,
+      "content": "Predict the output of the following code:",
+      "raw_text": "Predict the output of the following code:",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q25_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        646.84,
+        308.0,
+        662.38
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q26",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q26",
+      "question_number": "Q26",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 9,
+      "content": "Predict the output of the Python code given below:",
+      "raw_text": "Predict the output of the Python code given below:",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": true,
+      "linked_images": [
+        "images/q26_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        305.06,
+        365.62,
+        320.6
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q27",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q27",
+      "question_number": "Q27",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 9,
+      "content": "Consider the table CLUB given below and write the output of the SQL\nqueries that follow.\nCID CNAME AGE GENDER\nSPORTS\nPAY\nDOAPP\n5246 AMRITA\nFEMALE\nCHESS\n2006-\n03-27\n1*3=\n4687 SHYAM\nMALE\nCRICKET\n2004-\n04-15\n1245 MEENA\nFEMALE VOLLEYBALL 1000\n2007-\n06-18\nAMRIT\nMALE\nKARATE\n2007-\n09-05\n1256 AMINA\nFEMALE\nCHESS\n2003-\n08-15\n1720 MANJU\nFEMALE\nKARATE\n2004-\n04-10\nVIRAT\nMALE\nCRICKET\n2005-\n04-30",
+      "raw_text": "Consider the table CLUB given below and write the output of the SQL\nqueries that follow.\nCID CNAME AGE GENDER\nSPORTS\nPAY\nDOAPP\n5246 AMRITA\nFEMALE\nCHESS\n2006-\n03-27\n1*3=\n4687 SHYAM\nMALE\nCRICKET\n2004-\n04-15\n1245 MEENA\nFEMALE VOLLEYBALL 1000\n2007-\n06-18\nAMRIT\nMALE\nKARATE\n2007-\n09-05\n1256 AMINA\nFEMALE\nCHESS\n2003-\n08-15\n1720 MANJU\nFEMALE\nKARATE\n2004-\n04-10\nVIRAT\nMALE\nCRICKET\n2005-\n04-30",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) SELECT COUNT(DISTINCT SPORTS) FROM CLUB;",
+        "(ii) SELECT CNAME, SPORTS FROM CLUB WHERE\nDOAPP<\"2006-04-30\" AND CNAME LIKE \"%NA\";",
+        "(iii) SELECT CNAME, AGE, PAY FROM CLUB WHERE\nGENDER = \"MALE\" AND PAY BETWEEN 1000 AND\n1200;"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        606.4,
+        504.01,
+        734.17
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q28",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q28",
+      "question_number": "Q28",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 10,
+      "content": "Write a function in Python to read a text file, Alpha.txt and displays\nthose lines which begin with the word \u2018You\u2019.",
+      "raw_text": "Write a function in Python to read a text file, Alpha.txt and displays\nthose lines which begin with the word \u2018You\u2019.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "OR",
+        "Write a function, vowelCount() in Python that counts and displays the\nnumber of vowels in the text file named Poem.txt."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        514.0,
+        496.28,
+        630.34
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q29",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q29",
+      "question_number": "Q29",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 10,
+      "content": "Consider the table Personal given below:\nTable: Personal\nP_ID\nName\nDesig\nSalary\nAllowance\nP01\nRohit\nManager\n1*3=\nP02\nKashish\nClerk\nNULL\nP03\nMahesh\nSuperviser\nNULL\nP04\nSalil\nClerk\nP05\nRavina\nSuperviser\nNULL\nBased on the given table, write SQL queries for the following:",
+      "raw_text": "Consider the table Personal given below:\nTable: Personal\nP_ID\nName\nDesig\nSalary\nAllowance\nP01\nRohit\nManager\n1*3=\nP02\nKashish\nClerk\nNULL\nP03\nMahesh\nSuperviser\nNULL\nP04\nSalil\nClerk\nP05\nRavina\nSuperviser\nNULL\nBased on the given table, write SQL queries for the following:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Increase the salary by 5% of personals whose allowance is known.",
+        "(ii) Display Name and Total Salary (sum of Salary and Allowance) of\nall personals. The column heading \u2018Total Salary\u2019 should also be\ndisplayed.",
+        "(iii) Delete the record of personals who have salary greater than 25000"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        640.0,
+        447.61,
+        755.05
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q30",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q30",
+      "question_number": "Q30",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONC",
+      "page_num": 11,
+      "content": "A list, NList contains following record as list elements:\n[City, Country, distance from Delhi]\nEach of these records are nested together to form a nested list. Write the\nfollowing user defined functions in Python to perform the specified\noperations on the stack named travel.",
+      "raw_text": "A list, NList contains following record as list elements:\n[City, Country, distance from Delhi]\nEach of these records are nested together to form a nested list. Write the\nfollowing user defined functions in Python to perform the specified\noperations on the stack named travel.",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Push_element(NList): It takes the nested list as an\nargument and pushes a list object containing name of the city and\ncountry, which are not in India and distance is less than 3500 km\nfrom Delhi.",
+        "(ii) Pop_element(): It pops the objects from the stack and displays\nthem. Also, the function should display \u201cStack Empty\u201d when there\nare no elements in the stack.\nFor example: If the nested list contains the following data:\nNList=[[\"New York\", \"U.S.A.\", 11734],\n[\"Naypyidaw\", \"Myanmar\", 3219],\n[\"Dubai\", \"UAE\", 2194],\n[\"London\", \"England\", 6693],\n[\"Gangtok\", \"India\", 1580],\n[\"Columbo\", \"Sri Lanka\", 3405]]\nThe stack should contain:\n['Naypyidaw', 'Myanmar'],\n['Dubai', 'UAE'],\n['Columbo', 'Sri Lanka']\nThe output should be:\n['Columbo', 'Sri Lanka']\n['Dubai', 'UAE']\n['Naypyidaw', 'Myanmar']\nStack Empty"
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        357.5,
+        508.3,
+        760.42
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q31",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q31",
+      "question_number": "Q31",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIOND",
+      "page_num": 12,
+      "content": "Consider the tables PRODUCT and BRAND given below:\nTable: PRODUCT\nPCode PName\nUPrice Rating BID\nP01\nShampoo\nM03 P02\nToothpaste 54\nM02 P03\nSoap\nM03 P04\nToothpaste 65\nM04 P05\nSoap\nM05 P06\nShampoo\nM05\nTable: BRAND\nBID\nBName\nM02\nDant Kanti\nM03\nMedimix\nM04\nPepsodent\nM05\nDove\n1*4=\nWrite SQL queries for the following:",
+      "raw_text": "Consider the tables PRODUCT and BRAND given below:\nTable: PRODUCT\nPCode PName\nUPrice Rating BID\nP01\nShampoo\nM03 P02\nToothpaste 54\nM02 P03\nSoap\nM03 P04\nToothpaste 65\nM04 P05\nSoap\nM05 P06\nShampoo\nM05\nTable: BRAND\nBID\nBName\nM02\nDant Kanti\nM03\nMedimix\nM04\nPepsodent\nM05\nDove\n1*4=\nWrite SQL queries for the following:",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Display product name and brand name from the tables PRODUCT\nand BRAND.",
+        "(ii) Display the structure of the table PRODUCT.",
+        "(iii) Display the average rating of Medimix and Dove brands",
+        "(iv) Display the name, price, and rating of products in descending order\nof rating."
+      ],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        320.9,
+        409.54,
+        747.42
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q32",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q32",
+      "question_number": "Q32",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIOND",
+      "page_num": 13,
+      "content": "Vedansh is a Python programmer working in a school. For the Annual\nSports Event, he has created a csv file named Result.csv, to store the\nresults of students in different sports events. The structure of Result.csv\nis :\n[St_Id, St_Name, Game_Name, Result]\nWhere\nSt_Id is Student ID (integer)\nST_name is Student Name (string)\nGame_Name is name of game in which student is participating(string)\nResult is result of the game whose value can be either 'Won', 'Lost'\nor 'Tie'\nFor efficiently maintaining data of the event, Vedansh wants to write the\nfollowing user defined functions:\nAccept() \u2013 to accept a record from the user and add it to the file\nResult.csv. The column headings should also be added on top of the csv\nfile.\nwonCount() \u2013 to count the number of students who have won any event.\nAs a Python expert, help him complete the task.",
+      "raw_text": "Vedansh is a Python programmer working in a school. For the Annual\nSports Event, he has created a csv file named Result.csv, to store the\nresults of students in different sports events. The structure of Result.csv\nis :\n[St_Id, St_Name, Game_Name, Result]\nWhere\nSt_Id is Student ID (integer)\nST_name is Student Name (string)\nGame_Name is name of game in which student is participating(string)\nResult is result of the game whose value can be either 'Won', 'Lost'\nor 'Tie'\nFor efficiently maintaining data of the event, Vedansh wants to write the\nfollowing user defined functions:\nAccept() \u2013 to accept a record from the user and add it to the file\nResult.csv. The column headings should also be added on top of the csv\nfile.\nwonCount() \u2013 to count the number of students who have won any event.\nAs a Python expert, help him complete the task.",
+      "options": [],
+      "has_subparts": false,
+      "subparts": [],
+      "has_images": false,
+      "linked_images": [],
+      "bounding_box": [
+        41.64,
+        230.39,
+        513.24,
+        667.93
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "chunk_id": "a3c6dd13fc4c_q33",
+      "paper_id": "a3c6dd13fc4c",
+      "question_id": "q33",
+      "question_number": "Q33",
+      "class": "12",
+      "subject": "computer_science",
+      "year": "2023-2024",
+      "section": "SECTIONE",
+      "page_num": 14,
+      "content": "Meticulous EduServe is an educational organization. It is planning to setup\nits India campus at Chennai with its head office at Delhi. The Chennai campus\nhas 4 main buildings \u2013 ADMIN, ENGINEERING, BUSINESS and MEDIA\nBlock to Block distances (in Mtrs.)\nFrom\nTo\nDistance\nADMIN\nENGINEERING\n55 m\nADMIN\nBUSINESS\n90 m\nADMIN\nMEDIA\n50 m\nENGINEERING\nBUSINESS\n55 m\nENGINEERING\nMEDIA\n50 m\nBUSINESS\nMEDIA\n45 m\nDELHI HEAD\nOFFICE\nCHENNAI\nCAMPUS\n2175 km\nNumber of computers in each of the blocks/Center is as follows:\nADMIN\nENGINEERING 75\nBUSINESS\nMEDIA\nDELHI HEAD\na) Suggest and draw the cable layout to efficiently connect various blocks of\nbuildings within the CHENNAI campus for connecting the digital devices.\n1*5=\nb) Which network device will be used to connect computers in each block to\nform a local area network?\nc) Which block, in Chennai Campus should be made the server? Justify your\nanswer.\nd) Which fast and very effective wireless transmission medium\nshould preferably be used to connect the head office at DELHI with the\ncampus in CHENNAI?\ne) Is there a requirement of a repeater in the given cable layout? Why/\nWhy not?",
+      "raw_text": "Meticulous EduServe is an educational organization. It is planning to setup\nits India campus at Chennai with its head office at Delhi. The Chennai campus\nhas 4 main buildings \u2013 ADMIN, ENGINEERING, BUSINESS and MEDIA\nBlock to Block distances (in Mtrs.)\nFrom\nTo\nDistance\nADMIN\nENGINEERING\n55 m\nADMIN\nBUSINESS\n90 m\nADMIN\nMEDIA\n50 m\nENGINEERING\nBUSINESS\n55 m\nENGINEERING\nMEDIA\n50 m\nBUSINESS\nMEDIA\n45 m\nDELHI HEAD\nOFFICE\nCHENNAI\nCAMPUS\n2175 km\nNumber of computers in each of the blocks/Center is as follows:\nADMIN\nENGINEERING 75\nBUSINESS\nMEDIA\nDELHI HEAD\na) Suggest and draw the cable layout to efficiently connect various blocks of\nbuildings within the CHENNAI campus for connecting the digital devices.\n1*5=\nb) Which network device will be used to connect computers in each block to\nform a local area network?\nc) Which block, in Chennai Campus should be made the server? Justify your\nanswer.\nd) Which fast and very effective wireless transmission medium\nshould preferably be used to connect the head office at DELHI with the\ncampus in CHENNAI?\ne) Is there a requirement of a repeater in the given cable layout? Why/\nWhy not?",
+      "options": [],
+      "has_subparts": true,
+      "subparts": [
+        "(i) Differentiate between r+ and w+ file modes in Python.",
+        "(ii) Consider a file, SPORT.DAT, containing records of the following\nstructure:\n[SportName, TeamName, No_Players]\nWrite a function, copyData(), that reads contents from the file\nSPORT.DAT and copies the records with Sport name as \u201cBasket Ball\u201d\nto the file named BASKET.DAT. The function should return the total\nnumber of records copied to the file BASKET.DAT.\nOR (i)\nHow are text files different from binary files?",
+        "(ii) A Binary file, CINEMA.DAT has the following structure:\n{MNO:[MNAME, MTYPE]}\nWhere\nMNO \u2013 Movie Number\nMNAME \u2013 Movie Name\nMTYPE is Movie Type\nWrite a user defined function, findType(mtype), that accepts mtype\nas parameter and displays all the records from the binary file\nCINEMA.DAT, that have the value of Movie Type as mtype.\n2+3=",
+        "(i) Define the term Domain with respect to RDBMS. Give one example\nto support your answer.\n1+4=",
+        "(ii) Kabir wants to write a program in Python to insert the following record\nin the table named Student in MYSQL database, SCHOOL:\n\uf0b7 rno(Roll number )- integer\n\uf0b7 name(Name) -  string\n\uf0b7 DOB (Date of birth) \u2013 Date\n\uf0b7 Fee \u2013 float\nNote the following to establish connectivity between Python and\nMySQL:\n\uf0b7 Username  - root\n\uf0b7 Password - tiger\n\uf0b7 Host - localhost\nThe values of fields rno, name, DOB and fee has to be accepted from\nthe user. Help Kabir to write the program in Python.\nOR (i)\nGive one difference between alternate key and candidate key.",
+        "(ii) Sartaj has created a table named Student in MYSQL database,\nSCHOOL:\n\uf0b7 rno(Roll number )- integer\n\uf0b7 name(Name) -  string\n\uf0b7 DOB (Date of birth) \u2013 Date\n\uf0b7 Fee \u2013 float\nNote the following to establish connectivity between Python and\nMySQL:\n\uf0b7 Username  - root\n\uf0b7 Password - tiger\n\uf0b7 Host - localhost\nSartaj, now wants to display the records of students whose fee is more than\n5000. Help Sartaj to write the program in Python."
+      ],
+      "has_images": true,
+      "linked_images": [
+        "images/q33_1.png"
+      ],
+      "bounding_box": [
+        41.64,
+        36.69,
+        510.78,
+        735.61
+      ],
+      "difficulty": "hard"
+    }
+  ]
+}
