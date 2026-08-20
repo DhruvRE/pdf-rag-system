@@ -13,6 +13,38 @@ from src.segmentation.segmenter import is_english_dominant
 from src.config import PROJECT_ROOT, CONTEXT_PATH
 
 
+def spans_to_math_text(spans: list[dict]) -> str:
+    """Preserve basic PDF superscript/subscript layout as LaTeX."""
+    if not spans:
+        return ""
+
+    max_size = max(float(span.get("size", 0)) for span in spans)
+    normal_spans = [
+        span for span in spans
+        if float(span.get("size", 0)) >= max_size * 0.92
+    ]
+    if not normal_spans:
+        return "".join(span.get("text", "") for span in spans)
+
+    baseline_top = min(span["bbox"][1] for span in normal_spans)
+    baseline_bottom = max(span["bbox"][3] for span in normal_spans)
+    result = []
+
+    for span in spans:
+        text = span.get("text", "")
+        size = float(span.get("size", 0))
+        _, y0, _, y1 = span.get("bbox", [0, 0, 0, 0])
+        is_small = size < max_size * 0.90
+
+        if is_small and y1 < baseline_bottom - 2 and text.strip():
+            result.append(f"^{{{text}}}")
+        elif is_small and y0 > baseline_top + 2 and text.strip():
+            result.append(f"_{{{text}}}")
+        else:
+            result.append(text)
+
+    return "".join(result)
+
 
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
@@ -56,7 +88,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                             })
                         lines_data.append({
                             "bbox": l_bbox,
-                            "text": "".join(line_text_parts),
+                            "text": spans_to_math_text(line.get("spans", [])),
                             "spans": spans_data
                         })
 

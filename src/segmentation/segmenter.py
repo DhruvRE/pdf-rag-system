@@ -347,6 +347,57 @@ def parse_question_blocks_from_lines(cleaned_lines: list[str], options: list[str
     return main_stem, subparts_blocks
 
 
+def restore_spatial_fractions(lines: list[str], bboxes: list[list]) -> list[str]:
+    """Rebuild fractions whose denominators are separate, lower-positioned PDF lines."""
+    items = [
+        {"text": str(text).strip(), "bbox": bbox, "used": False}
+        for text, bbox in zip(lines, bboxes)
+    ]
+
+    for denominator in items:
+        denom_text = denominator["text"]
+        if not re.fullmatch(r"\d+", denom_text):
+            continue
+
+        dx0, dy0, _, _ = denominator["bbox"]
+        candidates = []
+
+        for numerator in items:
+            if numerator is denominator or numerator["used"]:
+                continue
+
+            nx0, ny0, nx1, ny1 = numerator["bbox"]
+            if not (ny0 <= dy0 <= ny1 + 25):
+                continue
+            # PDF boxes often include trailing whitespace; the denominator's
+            # left edge is therefore more reliable than its box centre.
+            if not (nx0 - 5 <= dx0 <= nx1 + 5):
+                continue
+
+            match = re.search(r"([−–-]?\s*\d+)\s*$", numerator["text"])
+            if match:
+                candidates.append((dy0 - ny0, numerator, match))
+
+        if not candidates:
+            continue
+
+        _, numerator, match = min(candidates, key=lambda candidate: candidate[0])
+        numerator_value = (
+            match.group(1)
+            .replace(" ", "")
+            .replace("–", "-")
+            .replace("−", "-")
+        )
+        numerator["text"] = (
+            numerator["text"][:match.start()]
+            + f"\\frac{{{numerator_value}}}{{{denom_text}}}"
+            + numerator["text"][match.end():]
+        )
+        denominator["used"] = True
+
+    return [item["text"] for item in items if not item["used"]]
+
+
 def segment_questions_from_pages(pages_dict: dict) -> dict:
     """
     Segments raw page layout blocks into question objects.
@@ -477,8 +528,11 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         union_bbox = [round(min_x, 2), round(min_y, 2), round(max_x, 2), round(max_y, 2)]
 
         # Build the raw text, skip bare mark lines like [1] [3] etc.
+        math_aware_lines = restore_spatial_fractions(
+            block["lines"], block["bboxes"]
+        )
         raw_text = "\n".join(
-            l for l in normalize_and_clean_lines(block["lines"])
+            l for l in normalize_and_clean_lines(math_aware_lines)
             if not MARK_JUNK_RE.match(l.strip())
         ).strip()
 

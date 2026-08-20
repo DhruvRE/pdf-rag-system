@@ -276,6 +276,14 @@ def format_to_latex(text: str) -> str:
     # 3. Greek symbols, Delta & Special Math Symbols
     t = t.replace("∆", r"\Delta").replace("𝛱", r"\pi").replace("π", r"\pi")
     t = t.replace("θ", r"\theta").replace("𝜃", r"\theta").replace("Ω", r"\Omega").replace("µ", r"\mu").replace("μ", r"\mu")
+    t = (
+        t.replace("α", r"\alpha")
+        .replace("β", r"\beta")
+        .replace("γ", r"\gamma")
+        .replace("Α", r"\Alpha")
+        .replace("Β", r"\Beta")
+        .replace("Γ", r"\Gamma")
+    )
     t = t.replace("±", r"\pm").replace("≈", r"\approx").replace("≠", r"\neq").replace("≤", r"\le").replace("≥", r"\ge").replace("∞", r"\infty")
 
     # 4. Degree symbols (e.g. 135° -> $135^\circ$, 90 deg -> $90^\circ$)

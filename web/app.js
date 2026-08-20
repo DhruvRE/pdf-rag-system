@@ -367,8 +367,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     cleaned = cleaned.replace(/PAGE\s*\d+\s*(?:START|END)/gi, '');
     // Strip raw image placeholder strings if present
     cleaned = cleaned.replace(/\[IMAGE_PLACEHOLDER_\d+\]/gi, '');
-    // Strip Object Replacement Box (￼), Unknown Box (), PUA TrueType Font Glyphs (\ue000-\uf8ff), and Indic PUA Glyphs
-    cleaned = cleaned.replace(/[\ufffc\ufffd\ue000-\uf8ff]/g, '');
+    // Strip only invalid replacement characters. Known private-font glyphs are
+    // converted by the backend before this text reaches the browser.
+    cleaned = cleaned.replace(/[\ufffc\ufffd]/g, '');
     cleaned = cleaned.replace(/[\u0b00-\u0d7f]/g, '');
     // Strip leading punctuation dots or hyphens
     cleaned = cleaned.replace(/^[\s\.\:\-\–\—]+/, '');
