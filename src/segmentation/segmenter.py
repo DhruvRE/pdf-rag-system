@@ -64,6 +64,7 @@ PUA_FONT_MAP = {
     "\uf020": " ", "\uf022": '"', "\uf023": "#", "\uf028": "(", "\uf029": ")",
     "\uf03c": "≤", "\uf03e": "≥", "\uf057": " Ω ", "\uf05b": "[", "\uf05d": "]",
     "\uf06c": "λ", "\uf06d": "μ", "\uf070": "π", "\uf071": "θ", "\uf07b": "{",
+    "\uf061": "α", "\uf062": "β", "\uf067": "γ",
     "\uf07d": "}", "\uf0a5": "∞", "\uf0ae": " → ", "\uf0b3": "∫", "\uf0c7": "×",
     "\uf0ce": " ∈ ", "\uf0e0": " → ", "\uf0e9": "[", "\uf0ea": " ", "\uf0eb": "]",
     "\uf0f9": "[", "\uf0fa": " ", "\uf0fb": "]",
@@ -235,9 +236,10 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
                 # Reject if starts with an instruction verb
                 if OPTION_INVALID_VERBS_RE.match(val_first_line):
                     continue
-                # Reject if it's just symbols/figures with no readable text (< 2 alphanumeric chars)
+                # One-digit signed numbers are valid MCQ answers, e.g. (B) 8.
                 alphanum = re.sub(r'[^a-zA-Z0-9]', '', val_first_line)
-                if len(alphanum) < 2:
+                is_numeric_option = bool(re.fullmatch(r"[−–-]?\s*\d+(?:\.\d+)?", val_first_line))
+                if len(alphanum) < 2 and not is_numeric_option:
                     continue
                 label = tok.strip().lower()
                 choices.append(f"({label}) {val_first_line}")
@@ -258,7 +260,8 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
         if OPTION_INVALID_VERBS_RE.match(val_first):
             continue
         alphanum = re.sub(r'[^a-zA-Z0-9]', '', val_first)
-        if len(alphanum) < 2:
+        is_numeric_option = bool(re.fullmatch(r"[−–-]?\s*\d+(?:\.\d+)?", val_first))
+        if len(alphanum) < 2 and not is_numeric_option:
             continue
         alt_choices.append(f"{label_part} {val_first}")
 

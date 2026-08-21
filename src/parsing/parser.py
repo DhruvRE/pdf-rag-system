@@ -6,6 +6,7 @@ writing pages.json under data/parsed/<class>/<subject>/<year>/<paper_id>/.
 
 import os
 import json
+import re
 import fitz
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
@@ -14,34 +15,43 @@ from src.config import PROJECT_ROOT, CONTEXT_PATH
 
 
 def spans_to_math_text(spans: list[dict]) -> str:
-    """Preserve basic PDF superscript/subscript layout as LaTeX."""
-    if not spans:
-        return ""
-
-    max_size = max(float(span.get("size", 0)) for span in spans)
-    normal_spans = [
-        span for span in spans
-        if float(span.get("size", 0)) >= max_size * 0.92
-    ]
-    if not normal_spans:
+    """Preserve mathematical super/subscripts without changing question labels."""
+    visible_spans = [span for span in spans if span.get("text", "").strip()]
+    if not visible_spans:
         return "".join(span.get("text", "") for span in spans)
 
-    baseline_top = min(span["bbox"][1] for span in normal_spans)
-    baseline_bottom = max(span["bbox"][3] for span in normal_spans)
+    max_size = max(float(span.get("size", 0)) for span in visible_spans)
+    baseline_spans = [
+        span for span in visible_spans
+        if float(span.get("size", 0)) >= max_size * 0.92
+    ]
+    baseline_bottom = max(span["bbox"][3] for span in baseline_spans)
     result = []
+    previous_visible = None
 
     for span in spans:
         text = span.get("text", "")
-        size = float(span.get("size", 0))
-        _, y0, _, y1 = span.get("bbox", [0, 0, 0, 0])
-        is_small = size < max_size * 0.90
-
-        if is_small and y1 < baseline_bottom - 2 and text.strip():
-            result.append(f"^{{{text}}}")
-        elif is_small and y0 > baseline_top + 2 and text.strip():
-            result.append(f"_{{{text}}}")
-        else:
+        if not text.strip():
             result.append(text)
+            continue
+
+        size = float(span.get("size", 0))
+        x0, _, _, y1 = span.get("bbox", [0, 0, 0, 0])
+        compact_math = bool(re.fullmatch(r"[0-9+\-−–=()]+", text.strip()))
+        follows_math_base = bool(
+            previous_visible
+            and re.search(r"[A-Za-z0-9)]$", previous_visible.get("text", "").strip())
+            and x0 - previous_visible["bbox"][2] <= 3
+        )
+        is_superscript = (
+            compact_math
+            and follows_math_base
+            and size < max_size * 0.90
+            and y1 < baseline_bottom - 2
+        )
+
+        result.append(f"^{{{text.strip()}}}" if is_superscript else text)
+        previous_visible = span
 
     return "".join(result)
 

@@ -207,6 +207,7 @@ PUA_FONT_MAP = {
     "\uf020": " ", "\uf022": '"', "\uf023": "#", "\uf028": "(", "\uf029": ")",
     "\uf03c": r"\le ", "\uf03e": r"\ge ", "\uf057": r" \Omega ", "\uf05b": "[", "\uf05d": "]",
     "\uf06c": r"\lambda ", "\uf06d": r"\mu ", "\uf070": r"\pi ", "\uf071": r"\theta ", "\uf07b": "{",
+    "\uf061": r"\alpha ", "\uf062": r"\beta ", "\uf067": r"\gamma ",
     "\uf07d": "}", "\uf0a5": r"\infty ", "\uf0ae": r" \rightarrow ", "\uf0b3": r"\int ", "\uf0c7": r"\times ",
     "\uf0ce": r" \in ", "\uf0e0": r" \rightarrow ", "\uf0e9": "[", "\uf0ea": " ", "\uf0eb": "]",
     "\uf0f9": "[", "\uf0fa": " ", "\uf0fb": "]",
