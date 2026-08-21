@@ -367,9 +367,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     cleaned = cleaned.replace(/PAGE\s*\d+\s*(?:START|END)/gi, '');
     // Strip raw image placeholder strings if present
     cleaned = cleaned.replace(/\[IMAGE_PLACEHOLDER_\d+\]/gi, '');
-    // Strip only invalid replacement characters. Known private-font glyphs are
-    // converted by the backend before this text reaches the browser.
-    cleaned = cleaned.replace(/[\ufffc\ufffd]/g, '');
+    // A bad extraction must never render unreadable private-font boxes. The
+    // backend selects the English page and converts known math glyphs first.
+    cleaned = cleaned.replace(/[\ufffc\ufffd\ue000-\uf8ff]/g, '');
     cleaned = cleaned.replace(/[\u0b00-\u0d7f]/g, '');
     // Strip leading punctuation dots or hyphens
     cleaned = cleaned.replace(/^[\s\.\:\-\–\—]+/, '');
@@ -832,6 +832,40 @@ document.addEventListener('DOMContentLoaded', async () => {
       const card = document.createElement('div');
       card.className = 'question-card';
 
+      // Upload previews receive a chunk whose `content` may contain both the
+      // original PDF option lines and a legacy `Options:` metadata block.
+      // Render the stem separately and use structured options exactly once.
+      let previewStem = String(q.stem_text || q.content || '');
+      previewStem = previewStem.split(/\n\s*Options\s*:/i)[0];
+      previewStem = previewStem
+        .split(/\r?\n/)
+        .filter(line => !/^\s*\(?[A-Da-d]\)\s+/.test(line))
+        .join('\n');
+
+      const previewOptions = (q.options || []).map((option, optionIndex) => {
+        const raw = typeof option === 'object'
+          ? `${option.label || ''}) ${option.text || option.latex_text || ''}`
+          : String(option);
+        const match = raw.match(/^\s*\(?([A-Da-d])\)?[\.:\)]?\s*(.*)$/);
+        return {
+          label: match ? match[1].toUpperCase() : String(optionIndex + 1),
+          text: (match ? match[2] : raw)
+            .replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, '$1/$2')
+        };
+      });
+      const previewOptionsHtml = previewOptions.length ? `
+        <div class="options-container">
+          <div class="options-title">MCQ Choice Options</div>
+          <div class="options-grid">
+            ${previewOptions.map(option => `
+              <div class="option-card">
+                <span class="option-label">${option.label}</span>
+                <span class="option-text">${renderMarkdownToHtml(cleanOptionText(option.text, option.label))}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>` : '';
+
       const imgBadge = (q.linked_images && q.linked_images.length > 0)
         ? `<span class="badge badge-type">🖼️ ${q.linked_images.length} Diagram Linked</span>`
         : `<span class="badge badge-year">No Diagram</span>`;
@@ -847,7 +881,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             ${refinedTag}
           </div>
         </div>
-        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(q.stem_text || q.content))}</div>
+        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(previewStem))}</div>
+        ${previewOptionsHtml}
       `;
       contextQuestionsList.appendChild(card);
     });

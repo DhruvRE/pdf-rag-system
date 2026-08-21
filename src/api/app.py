@@ -342,6 +342,12 @@ def is_assertion_reason(text: str = "", meta_type: str = "") -> bool:
     return False
 
 
+def format_option_for_display(text: str) -> str:
+    """Display extracted fractions in compact textbook form, e.g. 3/2."""
+    plain_fraction = re.sub(r"\\frac\{([^{}]+)\}\{([^{}]+)\}", r"\1/\2", text)
+    return format_to_latex(plain_fraction)
+
+
 def parse_structured_options(options_list: list, doc_text: str = "", meta_type: str = "") -> list:
     """
     Parses raw option strings/dicts into structured choice cards.
@@ -371,10 +377,11 @@ def parse_structured_options(options_list: list, doc_text: str = "", meta_type: 
             lbl = str(item.get("label", "")).strip().replace("(", "").replace(")", "").replace(".", "")
             txt = str(item.get("text") or item.get("latex_text") or "").strip()
             if txt:
+                display_txt = re.sub(r"\\frac\{([^{}]+)\}\{([^{}]+)\}", r"\1/\2", txt)
                 structured.append({
                     "label": lbl.upper() if len(lbl) == 1 and lbl.isalpha() else lbl,
-                    "text": txt,
-                    "latex_text": format_to_latex(txt)
+                    "text": display_txt,
+                    "latex_text": format_option_for_display(txt)
                 })
         elif isinstance(item, str) and item.strip():
             opt_str = item.strip()
@@ -382,10 +389,11 @@ def parse_structured_options(options_list: list, doc_text: str = "", meta_type: 
             if match:
                 lbl = match.group(1).strip()
                 txt = match.group(2).strip()
+                display_txt = re.sub(r"\\frac\{([^{}]+)\}\{([^{}]+)\}", r"\1/\2", txt)
                 structured.append({
                     "label": lbl.upper() if len(lbl) == 1 and lbl.isalpha() else lbl,
-                    "text": txt,
-                    "latex_text": format_to_latex(txt)
+                    "text": display_txt,
+                    "latex_text": format_option_for_display(txt)
                 })
             else:
                 structured.append({
@@ -470,6 +478,11 @@ def parse_question_blocks(doc_text: str, options_list: list[str], raw_subparts: 
             continue
 
         # Skip options lines
+        # When options have already been structured, their source lines must
+        # not remain in the question stem. This is case-insensitive so PDF
+        # labels such as (A) also match stored labels such as (a).
+        if options_list and re.match(r"^\s*\(?[A-Da-d]\)\s*", l_str):
+            continue
         opt_texts = []
         for opt in options_list:
             if isinstance(opt, str):
@@ -1221,7 +1234,16 @@ async def upload_pdf_paper(
     from src.image_linking.extractor import extract_and_link_images
     from src.chunking.chunker import chunk_paper
 
-    parse_paper(paper_id)
+    parsed_path = parse_paper(paper_id)
+    if not parsed_path:
+        raise HTTPException(
+            status_code=422,
+            detail=(
+                "This PDF does not contain an English text layer that can be "
+                "reliably extracted. Upload an English PDF or enable OCR for "
+                "scanned/non-English papers."
+            )
+        )
     segment_paper(paper_id)
     extract_and_link_images(paper_id)
     chunk_paper(paper_id)

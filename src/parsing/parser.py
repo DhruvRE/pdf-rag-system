@@ -152,13 +152,18 @@ def parse_paper(paper_id: str, root_dir: str = PROJECT_ROOT) -> str:
 
     # --- English-only guard ---
     # Collect all text from the PDF to check language dominance.
-    all_text = " ".join(
-        line["text"]
+    # Bilingual papers commonly contain an Indic private-font version followed
+    # by an English version. Accept the paper when at least one page is usable;
+    # Phase 3 selects only those English-dominant pages.
+    has_english_page = any(
+        is_english_dominant(" ".join(
+            line["text"]
+            for block in page["blocks"]
+            for line in block.get("lines", [])
+        ))
         for page in parsed_dict["pages"]
-        for block in page["blocks"]
-        for line in block.get("lines", [])
     )
-    if not is_english_dominant(all_text):
+    if not has_english_page:
         print(f"SKIPPED (non-English PDF): {paper_id} ({p_info['filename']})")
         p_info["phase_status"]["parse"] = "skipped_non_english"
         p_info["updated_at"] = datetime.now(timezone.utc).isoformat()

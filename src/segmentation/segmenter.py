@@ -90,6 +90,12 @@ INDIC_SCRIPT_RE = re.compile(
     r"\u1000-\u109f]"  # Myanmar
 )
 
+# Some bilingual PDFs encode Indic text as private-use glyphs instead of real
+# Unicode. These cannot be rendered or searched reliably; the corresponding
+# English page is processed instead.
+PRIVATE_FONT_GLYPH_RE = re.compile(r"[\ue000-\uf8ff]")
+PRIVATE_FONT_THRESHOLD = 0.20
+
 # A line is "Indic-contaminated" if more than 20% of its non-space chars are Indic.
 INDIC_THRESHOLD = 0.20
 
@@ -113,8 +119,10 @@ def is_english_dominant(text: str) -> bool:
     if total == 0:
         return False
     indic = len(INDIC_SCRIPT_RE.findall(text))
-    # If more than 30% of content is Indic script → skip this PDF
-    return (indic / total) < 0.30
+    private_font = len(PRIVATE_FONT_GLYPH_RE.findall(text))
+    # If more than 30% of content is Indic script, or 20% is undecodable
+    # private-font text, do not use it as the English searchable corpus.
+    return (indic / total) < 0.30 and (private_font / total) < PRIVATE_FONT_THRESHOLD
 
 
 def normalize_and_clean_lines(lines: list[str]) -> list[str]:
@@ -129,6 +137,9 @@ def normalize_and_clean_lines(lines: list[str]) -> list[str]:
     t = t.replace("", "=").replace("", "+").replace("", "-").replace("", "×").replace("", "÷")
     for k, v in PUA_FONT_MAP.items():
         t = t.replace(k, v)
+    # Any remaining PUA glyph has no reliable Unicode meaning. It belongs to a
+    # private-font language page that is filtered before segmentation.
+    t = PRIVATE_FONT_GLYPH_RE.sub("", t)
     # Remove non-printable boxes & zero-width spaces
     t = re.sub(r"[\u25a0-\u25ff\ufffd\u200b]", "", t)
     # Strip ALL remaining Indic-script characters (English-only corpus)
@@ -211,7 +222,9 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
     # Only Section A (Q1-Q20) can be MCQ
     in_mcq_section = sec_clean in {"SECTIONA", "MCQ", "DIRECTION:"} or q_val <= 20
     in_desc_section = any(s in sec_clean for s in ("SECTIONB", "SECTIONC", "SECTIOND", "SECTIONE", "CASESTUDY"))
-    if not in_mcq_section or in_desc_section:
+    # Some bilingual papers repeat Section A after another-language pages, and
+    # their running section label can be stale. Questions 1–20 remain MCQs.
+    if not in_mcq_section or (in_desc_section and q_val > 20):
         return []
 
     # Split on option markers: (a), (b), A), A. etc — but NOT (A) inside Assertion text
@@ -416,6 +429,14 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
     for page in pages_dict.get("pages", []):
         pnum = page["page_num"]
         pwidth = page.get("width", 612.0)
+        page_text = "\n".join(
+            line.get("text", "")
+            for block in page.get("blocks", [])
+            if block.get("type") == "text"
+            for line in block.get("lines", [])
+        )
+        if not is_english_dominant(page_text):
+            continue
         for block in page.get("blocks", []):
             if block.get("type") != "text":
                 continue
@@ -542,7 +563,7 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         if not raw_text or len(raw_text) < 10:
             continue
 
-        print(f"  [segment] Q{q_num} → calling AI splitter ({len(raw_text)} chars)...")
+        print(f"  [segment] Q{q_num} -> calling AI splitter ({len(raw_text)} chars)...")
         split_texts = ai_split_question_block(raw_text)
 
         if len(split_texts) == 1:
