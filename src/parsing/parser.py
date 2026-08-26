@@ -7,11 +7,154 @@ writing pages.json under data/parsed/<class>/<subject>/<year>/<paper_id>/.
 import os
 import json
 import fitz
+import re
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
 
 from src.config import PROJECT_ROOT, CONTEXT_PATH
 
+
+def _round_bbox(bbox: list[float]) -> list[float]:
+    return [round(float(c), 2) for c in bbox]
+
+
+def _union_bbox(bboxes: list[list[float]]) -> list[float]:
+    return [
+        min(b[0] for b in bboxes),
+        min(b[1] for b in bboxes),
+        max(b[2] for b in bboxes),
+        max(b[3] for b in bboxes),
+    ]
+
+
+def _same_visual_row(group_bbox: list[float], line_bbox: list[float]) -> bool:
+    group_height = max(1.0, group_bbox[3] - group_bbox[1])
+    line_height = max(1.0, line_bbox[3] - line_bbox[1])
+    group_mid = (group_bbox[1] + group_bbox[3]) / 2.0
+    line_mid = (line_bbox[1] + line_bbox[3]) / 2.0
+    overlap = max(0.0, min(group_bbox[3], line_bbox[3]) - max(group_bbox[1], line_bbox[1]))
+    overlap_ratio = overlap / min(group_height, line_height)
+    center_tol = max(3.0, min(group_height, line_height) * 0.35)
+    return abs(group_mid - line_mid) <= center_tol or overlap_ratio >= 0.65
+
+
+def _line_text_from_spans(spans: list[dict]) -> str:
+    """Rebuilds a visual line left-to-right while preserving PDF math fragments."""
+    ordered = sorted(spans, key=lambda s: (s["bbox"][0], s["bbox"][1]))
+    text = ""
+    prev_x1 = None
+    for span in ordered:
+        span_text = span.get("text", "")
+        if not span_text:
+            continue
+        x0, _, x1, _ = span["bbox"]
+        size = max(float(span.get("size") or 0.0), 1.0)
+        if (
+            prev_x1 is not None
+            and x0 - prev_x1 > max(1.8, size * 0.25)
+            and text
+            and not text.endswith(" ")
+            and not span_text.startswith((" ", ".", ",", ")", "]", "}", ":", ";"))
+        ):
+            text += " "
+        text += span_text
+        prev_x1 = max(prev_x1 if prev_x1 is not None else x1, x1)
+    return re.sub(r"[ \t]+", " ", text).strip()
+
+
+def _merge_visual_lines(raw_lines: list[dict]) -> list[dict]:
+    """
+    PyMuPDF often emits same-row math/text as separate logical lines. Merge only
+    consecutive stream items that share a visual row, preserving the PDF stream
+    order so raised matrix rows do not jump before their question number.
+    """
+    merged_lines = []
+    current_group: list[dict] = []
+    current_bbox: list[float] | None = None
+
+    def flush_current() -> None:
+        nonlocal current_group, current_bbox
+        if not current_group:
+            return
+        spans = [span for entry in current_group for span in entry["spans"]]
+        bboxes = [entry["bbox"] for entry in current_group]
+        union = _union_bbox(bboxes)
+        merged_lines.append({
+            "bbox": _round_bbox(union),
+            "text": _line_text_from_spans(spans),
+            "spans": spans,
+        })
+        current_group = []
+        current_bbox = None
+
+    for line in raw_lines:
+        if not line.get("text", "").strip():
+            continue
+        bbox = line["bbox"]
+        if current_group and current_bbox and _same_visual_row(current_bbox, bbox):
+            current_group.append(line)
+            current_bbox = _union_bbox([current_bbox, bbox])
+        else:
+            flush_current()
+            current_group = [line]
+            current_bbox = bbox
+
+    flush_current()
+    return merged_lines
+
+
+def _span_to_dict(span: dict) -> dict:
+    chars = span.get("chars", [])
+
+    # rawdict may not provide "text" directly.
+    # Reconstruct it from individual character records.
+    text = span.get("text", "")
+
+    if not text and chars:
+        text = "".join(
+            str(char.get("c", ""))
+            for char in chars
+        )
+
+    return {
+        "text": text,
+
+        "bbox": _round_bbox(
+            list(span.get("bbox", [0, 0, 0, 0]))
+        ),
+
+        "font": span.get("font", ""),
+
+        "size": round(
+            span.get("size", 0.0),
+            2
+        ),
+
+        "color": span.get("color", 0),
+
+        "flags": span.get("flags", 0),
+
+        # IMPORTANT:
+        # Preserve individual PDF character/glyph information.
+        "chars": [
+            {
+                "c": char.get("c", ""),
+                "bbox": _round_bbox(
+                    list(char.get("bbox", [0, 0, 0, 0]))
+                ),
+                "origin": char.get("origin"),
+            }
+            for char in chars
+        ]
+    }
+
+def _line_to_entry(line: dict) -> dict:
+    spans_data = [_span_to_dict(span) for span in line.get("spans", [])]
+    return {
+        "bbox": _round_bbox(list(line.get("bbox", [0, 0, 0, 0]))),
+        "text": _line_text_from_spans(spans_data),
+        "spans": spans_data
+    }
 
 
 def parse_pdf_layout(pdf_path: str) -> dict:
@@ -27,7 +170,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
 
     try:
         for page_idx, page in enumerate(doc):
-            raw_dict = page.get_text("dict")
+            raw_dict = page.get_text("rawdict")
             page_width = raw_dict.get("width", page.rect.width)
             page_height = raw_dict.get("height", page.rect.height)
 
@@ -37,33 +180,17 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 b_type = "text" if block.get("type") == 0 else "image"
                 b_bbox = list(block.get("bbox", [0, 0, 0, 0]))
 
-                lines_data = []
+                raw_lines_data = []
                 if b_type == "text":
                     for line in block.get("lines", []):
-                        l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
-                        spans_data = []
-                        line_text_parts = []
-                        for span in line.get("spans", []):
-                            s_text = span.get("text", "")
-                            line_text_parts.append(s_text)
-                            spans_data.append({
-                                "text": s_text,
-                                "bbox": list(span.get("bbox", [0, 0, 0, 0])),
-                                "font": span.get("font", ""),
-                                "size": round(span.get("size", 0.0), 2),
-                                "color": span.get("color", 0),
-                                "flags": span.get("flags", 0)
-                            })
-                        lines_data.append({
-                            "bbox": l_bbox,
-                            "text": "".join(line_text_parts),
-                            "spans": spans_data
-                        })
+                        raw_lines_data.append(_line_to_entry(line))
+
+                lines_data = _merge_visual_lines(raw_lines_data) if b_type == "text" else []
 
                 parsed_blocks.append({
                     "block_id": block_idx,
                     "type": b_type,
-                    "bbox": b_bbox,
+                    "bbox": _round_bbox(b_bbox),
                     "lines": lines_data
                 })
 

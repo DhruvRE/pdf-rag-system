@@ -358,26 +358,116 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   
   // Data Cleaning & Formatting Engine
-  function cleanStemText(text) {
-    if (!text) return '';
-    let cleaned = String(text);
-    // Strip page boundary tags
-    cleaned = cleaned.replace(/<!?--?\s*PAGE\s*\d+\s*(?:START|END)?\s*--?>/gi, '');
-    cleaned = cleaned.replace(/<-?\s*PAGE\s*\d+\s*(?:START|END)?\s*-?>/gi, '');
-    cleaned = cleaned.replace(/PAGE\s*\d+\s*(?:START|END)/gi, '');
-    // Strip raw image placeholder strings if present
-    cleaned = cleaned.replace(/\[IMAGE_PLACEHOLDER_\d+\]/gi, '');
-    // Strip Object Replacement Box (￼), Unknown Box (), PUA TrueType Font Glyphs (\ue000-\uf8ff), and Indic PUA Glyphs
-    cleaned = cleaned.replace(/[\ufffc\ufffd\ue000-\uf8ff]/g, '');
-    cleaned = cleaned.replace(/[\u0b00-\u0d7f]/g, '');
-    // Strip leading punctuation dots or hyphens
-    cleaned = cleaned.replace(/^[\s\.\:\-\–\—]+/, '');
-    return cleaned.replace(/\s{2,}/g, ' ').trim();
+  function cleanStemText(text, stripChoiceText = false) {
+  if (!text) return '';
+
+  let cleaned = String(text);
+
+  // ---------------------------------------------------------
+  // 1. Remove page boundary tags
+  // ---------------------------------------------------------
+  cleaned = cleaned.replace(
+    /<!?--?\s*PAGE\s*\d+\s*(?:START|END)?\s*--?>/gi,
+    ''
+  );
+
+  cleaned = cleaned.replace(
+    /<-?\s*PAGE\s*\d+\s*(?:START|END)?\s*-?>/gi,
+    ''
+  );
+
+  cleaned = cleaned.replace(
+    /PAGE\s*\d+\s*(?:START|END)/gi,
+    ''
+  );
+
+  // ---------------------------------------------------------
+  // 2. Remove image placeholders
+  // ---------------------------------------------------------
+  cleaned = cleaned.replace(
+    /\[IMAGE_PLACEHOLDER_\d+\]/gi,
+    ''
+  );
+
+  // ---------------------------------------------------------
+  // 3. Remove unwanted Unicode glyphs
+  // ---------------------------------------------------------
+  cleaned = cleaned.replace(
+    /[\ufffc\ufffd\ue000-\uf8ff]/g,
+    ''
+  );
+
+  cleaned = cleaned.replace(
+    /[\u0b00-\u0d7f]/g,
+    ''
+  );
+
+  // ---------------------------------------------------------
+  // 4. Remove leading punctuation
+  // ---------------------------------------------------------
+  cleaned = cleaned.replace(
+    /^[\s.:\-–—]+/,
+    ''
+  );
+
+  // ---------------------------------------------------------
+  // 5. Remove PDF page-number/footer artifacts
+  //
+  // Examples:
+  // 30/1/1 # 4 | Page
+  // 30/1/1 # 4 | P a g e
+  // 30/1/1 # 4 | Page 4
+  // ---------------------------------------------------------
+  cleaned = cleaned.replace(
+    /\s*\d+\s*\/\s*\d+\s*\/\s*\d+\s*#\s*\d+\s*\|\s*P\s*a\s*g\s*e(?:\s*\d+)?/gi,
+    ''
+  );
+
+  // ---------------------------------------------------------
+  // 6. Remove explicit Options section
+  //
+  // Example:
+  // Options: (A) 8 (B) 6 (C) 4 (D) 2
+  // ---------------------------------------------------------
+  cleaned = cleaned.replace(
+    /\s+Options?\s*:\s*[\s\S]*$/i,
+    ''
+  );
+
+  // ---------------------------------------------------------
+  // 7. Remove MCQ options from question stem
+  // ---------------------------------------------------------
+  if (
+    stripChoiceText &&
+    !/assertion\s*\(?a\)?[\s\S]*reason\s*\(?r\)?/i.test(cleaned)
+  ) {
+
+    // Format:
+    // (A) 8 (B) 8 (C) 4 (D) 4
+    cleaned = cleaned.replace(
+      /\s+\(A\)\s*.*?\s+\(B\)\s*.*?\s+\(C\)\s*.*?\s+\(D\)\s*.*$/is,
+      ''
+    );
+
+    // Format:
+    // A. 8 B. 8 C. 4 D. 4
+    cleaned = cleaned.replace(
+      /\s+A[\.\):]\s*.*?\s+B[\.\):]\s*.*?\s+C[\.\):]\s*.*?\s+D[\.\):]\s*.*$/is,
+      ''
+    );
   }
 
+  // ---------------------------------------------------------
+  // 8. Normalize whitespace
+  // ---------------------------------------------------------
+  return cleaned
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
   function cleanOptionText(optText, optLabel) {
     if (!optText) return '';
     let cleaned = String(optText).trim();
+    cleaned = cleaned.replace(/\s+\d+\/\d+\/\d+\s*#\s*\d+\s*\|\s*P\s*a\s*g\s*e(?:\s+P\.?\s*T\.?\s*O\.?)?\s*$/i, '');
     if (optLabel) {
       const escapedLabel = String(optLabel).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const prefixPattern = new RegExp(`^\\s*(?:\\(${escapedLabel}\\)|${escapedLabel}[\\.\\)\\:]|#\\d+)\\s*`, 'i');
@@ -446,7 +536,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       // Render Options Grid if options exist
       let optionsHtml = "";
       if (item.options && item.options.length > 0) {
-        const optionCards = item.options.map(opt => `
+        const seenOptionLabels = new Set();
+        const displayOptions = item.options.filter(opt => {
+          const label = String(opt?.label || '').trim().toUpperCase();
+          if (!label || seenOptionLabels.has(label)) return false;
+          seenOptionLabels.add(label);
+          return true;
+        }).slice(0, 4);
+        const optionCards = displayOptions.map(opt => `
           <div class="option-card">
             <span class="option-label">${opt.label}</span>
             <span class="option-text">${renderMarkdownToHtml(cleanOptionText(opt.latex_text || opt.text, opt.label))}</span>
@@ -548,7 +645,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           ${simBadgeHtml}
         </div>
 
-        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(item.latex_stem || item.stem_text))}</div>
+        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(item.latex_stem || item.stem_text, item.options && item.options.length > 0))}</div>
 
         ${optionsHtml}
         ${subpartsHtml}
