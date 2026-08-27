@@ -317,10 +317,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       await delay(200);
       pipelineLoaderCard.style.display = "none";
 
-      // Trigger MathJax LaTeX Typesetting
-      if (window.MathJax && window.MathJax.typesetPromise) {
-        window.MathJax.typesetPromise();
-      }
+      // Trigger MathJax LaTeX Typesetting after the async library is ready.
+      await typesetMath(resultsGrid);
     } catch (err) {
       console.error(err);
       updateStep(2, "active", "Failed ✕");
@@ -394,6 +392,19 @@ document.addEventListener('DOMContentLoaded', async () => {
       try { return window.marked.parse(md); } catch (e) { return md; }
     }
     return md;
+  }
+
+  async function typesetMath(container) {
+    if (!window.MathJax || !window.MathJax.typesetPromise) return;
+
+    try {
+      if (window.MathJax.startup && window.MathJax.startup.promise) {
+        await window.MathJax.startup.promise;
+      }
+      await window.MathJax.typesetPromise(container ? [container] : undefined);
+    } catch (err) {
+      console.warn('MathJax could not typeset the rendered content:', err);
+    }
   }
 
   function renderResults(data) {
@@ -603,9 +614,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           });
           const data = await res.json();
           expBox.innerHTML = `<div style="font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">💡 AI Solution & Concept Explanation (${data.model_used}):</div>${escapeHtml(data.explanation || data.latex_explanation)}`;
-          if (window.MathJax && window.MathJax.typesetPromise) {
-            window.MathJax.typesetPromise([expBox]);
-          }
+          await typesetMath(expBox);
         } catch (err) {
           expBox.innerHTML = `<div style="color:#f87171;">⚠️ Failed to fetch AI explanation: ${err.message}</div>`;
         } finally {
@@ -751,6 +760,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         contextReviewPanel.style.display = 'flex';
         renderContextQuestionsPreview(data.questions_preview || []);
+        await typesetMath(contextQuestionsList);
 
       } catch (err) {
         alert('Error processing PDF: ' + err.message);
@@ -782,6 +792,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const data = await res.json();
         aiRefineBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check_circle</span><span>✓ AI Context Improved!</span>';
         renderContextQuestionsPreview(data.questions_preview || []);
+        await typesetMath(contextQuestionsList);
       } catch (err) {
         alert('Error refining context: ' + err.message);
         aiRefineBtn.disabled = false;
@@ -849,8 +860,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const match = raw.match(/^\s*\(?([A-Da-d])\)?[\.:\)]?\s*(.*)$/);
         return {
           label: match ? match[1].toUpperCase() : String(optionIndex + 1),
-          text: (match ? match[2] : raw)
-            .replace(/\\frac\{([^{}]+)\}\{([^{}]+)\}/g, '$1/$2')
+          text: match ? match[2] : raw
         };
       });
       const previewOptionsHtml = previewOptions.length ? `
