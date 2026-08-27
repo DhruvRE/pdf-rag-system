@@ -8,6 +8,9 @@ import os
 import json
 import fitz
 import re
+import io
+import pytesseract
+from PIL import Image
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
 
@@ -149,19 +152,141 @@ def _span_to_dict(span: dict) -> dict:
     }
 
 def _line_to_entry(line: dict) -> dict:
-    spans_data = [_span_to_dict(span) for span in line.get("spans", [])]
+    spans_data = [
+        _span_to_dict(span)
+        for span in line.get("spans", [])
+    ]
+
     return {
-        "bbox": _round_bbox(list(line.get("bbox", [0, 0, 0, 0]))),
+        "bbox": _round_bbox(
+            list(line.get("bbox", [0, 0, 0, 0]))
+        ),
         "text": _line_text_from_spans(spans_data),
         "spans": spans_data
     }
+def _ocr_vector_glyph(page: fitz.Page, bbox: list[float]) -> str:
+    """
+    OCR a small vector glyph region from the rendered PDF page.
 
+    Some PDFs store mathematical symbols such as α, β, √, ±, etc.
+    as vector drawings instead of text characters. PyMuPDF therefore
+    returns an empty text span for those symbols.
+
+    This function renders the small region and uses Tesseract OCR
+    to recover the visible character.
+    """
+    try:
+        rect = fitz.Rect(*bbox)
+
+        # Add a small margin around the glyph.
+        rect.x0 -= 2
+        rect.y0 -= 2
+        rect.x1 += 2
+        rect.y1 += 2
+
+        # Render at high resolution for better OCR.
+        matrix = fitz.Matrix(4, 4)
+
+        pix = page.get_pixmap(
+            matrix=matrix,
+            clip=rect,
+            alpha=False
+        )
+
+        image = Image.open(
+            io.BytesIO(pix.tobytes("png"))
+        )
+
+        text = pytesseract.image_to_string(
+            image,
+            lang="eng+ell",
+            config="--psm 10"
+        )
+
+        return text.strip()
+
+    except Exception:
+        return ""
+    
+
+def _extract_vector_math_glyphs(
+    page: fitz.Page,
+    line_bbox: list[float]
+) -> list[dict]:
+    """
+    Find small vector drawings inside a text line that may represent
+    mathematical symbols or glyphs.
+
+    Returns glyph candidates with their x-position and OCR text.
+    """
+
+    line_rect = fitz.Rect(*line_bbox)
+    glyphs = []
+
+    for drawing in page.get_drawings():
+
+        rect = drawing.get("rect")
+
+        if not rect:
+            continue
+
+        # Only consider drawings that overlap this text line.
+        if not line_rect.intersects(rect):
+            continue
+
+        width = rect.width
+        height = rect.height
+
+        # Ignore long horizontal/vertical lines, borders, etc.
+        if width > 20 or height > 25:
+            continue
+
+        if width < 1 or height < 1:
+            continue
+
+        # Ignore extremely thin decorative lines.
+        if width > height * 8 or height > width * 8:
+            continue
+
+        text = _ocr_vector_glyph(
+            page,
+            [
+                rect.x0,
+                rect.y0,
+                rect.x1,
+                rect.y1
+            ]
+        )
+
+        if not text:
+            continue
+
+        # Keep only a short OCR result.
+        text = text.replace("\n", " ").strip()
+
+        if len(text) > 4:
+            continue
+
+        glyphs.append({
+            "bbox": [
+                round(rect.x0, 2),
+                round(rect.y0, 2),
+                round(rect.x1, 2),
+                round(rect.y1, 2)
+            ],
+            "text": text
+        })
+
+    glyphs.sort(key=lambda item: item["bbox"][0])
+
+    return glyphs
 
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
     Parses PDF layout and text using PyMuPDF (fitz).
     Returns a structured dict with page dimensions, text blocks, lines, and bounding boxes.
     """
+
     if not os.path.exists(pdf_path):
         raise FileNotFoundError(f"PDF not found at {pdf_path}")
 
@@ -170,22 +295,59 @@ def parse_pdf_layout(pdf_path: str) -> dict:
 
     try:
         for page_idx, page in enumerate(doc):
+
             raw_dict = page.get_text("rawdict")
-            page_width = raw_dict.get("width", page.rect.width)
-            page_height = raw_dict.get("height", page.rect.height)
+
+            page_width = raw_dict.get(
+                "width",
+                page.rect.width
+            )
+
+            page_height = raw_dict.get(
+                "height",
+                page.rect.height
+            )
 
             parsed_blocks = []
-            for block_idx, block in enumerate(raw_dict.get("blocks", [])):
+
+            for block_idx, block in enumerate(
+                raw_dict.get("blocks", [])
+            ):
+
                 # block type 0 = text, 1 = image
-                b_type = "text" if block.get("type") == 0 else "image"
-                b_bbox = list(block.get("bbox", [0, 0, 0, 0]))
+                b_type = (
+                    "text"
+                    if block.get("type") == 0
+                    else "image"
+                )
+
+                b_bbox = list(
+                    block.get(
+                        "bbox",
+                        [0, 0, 0, 0]
+                    )
+                )
 
                 raw_lines_data = []
-                if b_type == "text":
-                    for line in block.get("lines", []):
-                        raw_lines_data.append(_line_to_entry(line))
 
-                lines_data = _merge_visual_lines(raw_lines_data) if b_type == "text" else []
+                if b_type == "text":
+
+                    for line in block.get("lines", []):
+
+                        # Pass the current page so _line_to_entry()
+                        # can inspect vector math glyphs.
+                        raw_lines_data.append(
+                            _line_to_entry(
+                                line,
+                                
+                            )
+                        )
+
+                lines_data = (
+                    _merge_visual_lines(raw_lines_data)
+                    if b_type == "text"
+                    else []
+                )
 
                 parsed_blocks.append({
                     "block_id": block_idx,
@@ -200,6 +362,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 "height": round(page_height, 2),
                 "blocks": parsed_blocks
             })
+
     finally:
         doc.close()
 
@@ -207,7 +370,6 @@ def parse_pdf_layout(pdf_path: str) -> dict:
         "total_pages": len(pages_data),
         "pages": pages_data
     }
-
 
 def parse_paper(paper_id: str, root_dir: str = PROJECT_ROOT) -> str:
     """
