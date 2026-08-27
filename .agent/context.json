@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "current_phase": 1,
-  "updated_at": "2026-08-18T16:41:05.902579+00:00",
+  "updated_at": "2026-08-27T16:05:25.603922+00:00",
   "papers": {
     "799613079bee": {
       "paper_id": "799613079bee",
@@ -23,7 +23,8 @@
         "embed": "done",
         "dedup": "done",
         "structured_draft": "done",
-        "retrieval": "done"
+        "retrieval": "done",
+        "review": "approved"
       },
       "worker": null,
       "needs_review": false,
@@ -50,7 +51,8 @@
         "embed": "done",
         "dedup": "done",
         "structured_draft": "done",
-        "retrieval": "done"
+        "retrieval": "done",
+        "review": "approved"
       },
       "worker": null,
       "needs_review": false,
@@ -77,7 +79,8 @@
         "embed": "done",
         "dedup": "done",
         "structured_draft": "done",
-        "retrieval": "done"
+        "retrieval": "done",
+        "review": "approved"
       },
       "worker": null,
       "needs_review": false,
@@ -771,6 +774,74 @@
         "embed": "done"
       },
       "updated_at": "2026-08-18T16:41:05.902564+00:00"
+    },
+    "0175db0bd5cd": {
+      "filename": "class_10ChemCh1.pdf",
+      "relative_path": "data/raw_pdfs/10/mathematics/2024-2025/0175db0bd5cd.pdf",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "pdf_type": "Other",
+      "phase_status": {
+        "scrape": "done",
+        "parse": "done",
+        "segment": "done",
+        "image_link": "done",
+        "chunk": "done",
+        "embed": "pending"
+      },
+      "updated_at": "2026-08-20T08:01:32.909869+00:00"
+    },
+    "ae16994dbb10": {
+      "filename": "Maths standar class 10th.pdf",
+      "relative_path": "data/raw_pdfs/10/mathematics/2024-2025/ae16994dbb10.pdf",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "pdf_type": "Question Paper",
+      "phase_status": {
+        "scrape": "done",
+        "parse": "done",
+        "segment": "done",
+        "image_link": "done",
+        "chunk": "done",
+        "embed": "pending"
+      },
+      "updated_at": "2026-08-27T16:02:20.241262+00:00"
+    },
+    "082922b4eff6": {
+      "filename": "class 12 maths.pdf",
+      "relative_path": "data/raw_pdfs/10/mathematics/2024-2025/082922b4eff6.pdf",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "pdf_type": "Question Paper",
+      "phase_status": {
+        "scrape": "done",
+        "parse": "skipped_non_english",
+        "segment": "pending",
+        "image_link": "pending",
+        "chunk": "pending",
+        "embed": "pending"
+      },
+      "updated_at": "2026-08-27T16:05:25.602906+00:00"
+    },
+    "21b287cf2abb": {
+      "filename": "Math's Standard.pdf",
+      "relative_path": "data/raw_pdfs/10/mathematics/2024-2025/21b287cf2abb.pdf",
+      "class": "10",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "pdf_type": "Question Paper",
+      "phase_status": {
+        "scrape": "done",
+        "parse": "done",
+        "segment": "done",
+        "image_link": "done",
+        "chunk": "done",
+        "embed": "pending"
+      },
+      "updated_at": "2026-08-27T16:01:09.577076+00:00"
     }
   }
 }

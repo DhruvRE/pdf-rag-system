@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Question-Paper RAG System — Architecture & Sequence Diagrams</title>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-hover: #0ea5e9;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    .tabs {
+      display: flex;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .tab-btn {
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .tab-btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    .tab-btn.active {
+      background-color: var(--accent);
+      color: #0f172a;
+      border-color: var(--accent);
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+    }
+    .diagram-card {
+      display: none;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+      margin-bottom: 2rem;
+    }
+    .diagram-card.active {
+      display: block;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+    .diagram-header {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .diagram-header h2 {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin-bottom: 0.4rem;
+    }
+    .diagram-header p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .mermaid-wrapper {
+      background-color: #ffffff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      overflow-x: auto;
+      display: flex;
+      justify-content: center;
+    }
+    .mermaid-wrapper svg {
+      max-width: 100%;
+      height: auto;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PDF Question-Paper RAG System</h1>
+      <p class="subtitle">System Architecture, Workflows & Sequence Diagrams</p>
+    </header>
+
+    <div class="tabs">
+      <button class="tab-btn active" onclick="switchTab(0)">1. Master Sequence Diagram</button>
+      <button class="tab-btn" onclick="switchTab(1)">2. End-to-End Workflow Flowchart</button>
+      <button class="tab-btn" onclick="switchTab(2)">3. Ingestion & Indexing Pipeline</button>
+      <button class="tab-btn" onclick="switchTab(3)">4. RAG Search & AI Solver</button>
+      <button class="tab-btn" onclick="switchTab(4)">5. Deduplication Engine</button>
+    </div>
+
+    <!-- TAB 1: Master Sequence Diagram -->
+    <div class="diagram-card active" id="tab-0">
+      <div class="diagram-header">
+        <h2>1. Complete Master Sequence Diagram</h2>
+        <p>Full end-to-end lifecycle: Ingestion, Layout Detection, Diagram Linking, Multi-Pass Reconciliation, Hybrid Vector Store Indexing, Hybrid Search, and Step-by-Step AI Solution Generation.</p>
+      </div>
+      <div class="mermaid-wrapper">
+        <pre class="mermaid">
+sequenceDiagram
+    autonumber
+    actor User as User / Web Client / CLI
+    participant API as FastAPI Backend (src.api.app)
+    participant Detector as Layout & Type Parser (src.parsing)
+    participant ImgMapper as Image Linker & Cropper (src.image_linking)
+    participant StructParser as Multi-Pass Parser (src.segmentation)
+    participant Chunker as Question Chunker (src.chunking)
+    participant VectorStore as SQLite + FTS5 Store (src.embedding)
+    participant LLM as AI Solver (Ollama / Cloud Gemini)
+
+    rect rgb(240, 248, 255)
+    note right of User: Step 1: PDF Upload, Extraction & Multi-Pass Reconciliation
+    User->>API: Upload PDF / Ingest Paper (add_pdf.py)
+    API->>Detector: detect_pdf_type(pdf_path)
+    Detector-->>API: "native" (text streams) or "scanned"
+    API->>Detector: extract_native_structure(pdf_path)
+    Detector-->>API: Normalized Markdown + Bounding Boxes
+    
+    API->>ImgMapper: crop_and_map_images(pdf_path, output_dir)
+    ImgMapper->>ImgMapper: Filter glyphs (<35px / <1200 sq pt)
+    ImgMapper->>ImgMapper: Crop figures, save PNGs, extract nearby captions
+    ImgMapper-->>API: image_manifest.json + [IMAGE_PLACEHOLDER_N] tokens
+
+    API->>StructParser: parse_exam_markdown_to_cbse_json(markdown, manifest)
+    Note over StructParser: Pass A: Extract Questions + attach raw_source_span
+    Note over StructParser: Pass B-0: Source Reconciliation (compares JSON vs raw text)
+    Note over StructParser: Pass B-1: Question Type Classifier (11 types)
+    Note over StructParser: Pass B-2: Type-Aware Validator (runs rule checks)
+    StructParser-->>API: Validated questions.json + confidence score
+    end
+
+    rect rgb(255, 250, 240)
+    note right of User: Step 2: Question-Level Chunking & Hybrid Embedding
+    API->>Chunker: create_question_chunks(questions_dict)
+    Chunker->>Chunker: Strip section headers & tag metadata (1 chunk = 1 question)
+    Chunker-->>API: chunks.json
+    
+    API->>VectorStore: embed_paper_chunks(paper_id)
+    VectorStore->>VectorStore: Compute 384d Dense Vector (SQLite BLOB)
+    VectorStore->>VectorStore: Insert document into SQLite FTS5 index (BM25)
+    VectorStore-->>API: Upsert confirmation
+    API-->>User: Ingestion & Indexing Complete
+    end
+
+    rect rgb(240, 255, 240)
+    note right of User: Step 3: Hybrid Search (BM25 + Dense RRF Fusion)
+    User->>API: POST /api/search { query, class, subject, type }
+    API->>VectorStore: query_vector_store(query_text, filters)
+    
+    par Dense Vector Search
+        VectorStore->>VectorStore: Scan dense vectors & calculate Cosine Similarity (r_dense)
+    and Sparse BM25 Keyword Search
+        VectorStore->>VectorStore: Query FTS5 MATCH table for keyword matches (r_fts)
+    end
+
+    VectorStore->>VectorStore: Compute RRF Score = 1/(60 + r_dense) + 1/(60 + r_fts)
+    VectorStore->>VectorStore: Sort by fused RRF Score
+    VectorStore-->>API: Top-K Hybrid Results with metadata & image links
+    
+    API->>API: Resolve image URLs (/static/parsed/.../images/...)
+    API->>API: Convert math/chemistry to LaTeX (format_to_latex)
+    API-->>User: Search Results with LaTeX stems, options & diagram figures
+    end
+
+    rect rgb(255, 240, 245)
+    note right of User: Step 4: Step-by-Step AI Solution Generation
+    User->>API: POST /api/explain { question_text, options, class, subject }
+    API->>LLM: POST /api/generate with Pedagogical Prompt
+    LLM-->>API: Streamed Step-by-Step LaTeX Explanation
+    API->>API: Sanitize LaTeX & PUA Font Glyphs
+    API-->>User: Formatted Step-by-Step Solution & Correct Answer (MathJax)
+    end
+        </pre>
+      </div>
+    </div>
+
+    <!-- TAB 2: End-to-End Workflow Flowchart -->
+    <div class="diagram-card" id="tab-1">
+      <div class="diagram-header">
+        <h2>2. End-to-End Architecture Workflow (Stages 0–8)</h2>
+        <p>Architectural flowchart displaying the 8-stage transformation from raw examination PDF to interactive RAG vector retrieval and AI explanations.</p>
+      </div>
+      <div class="mermaid-wrapper">
+        <pre class="mermaid">
+flowchart TD
+    subgraph S01["Stages 0 & 1: PDF Layout Ingestion"]
+        PDF["Input PDF (Question Paper)"] --> Det["Stage 0: PDF Type Detector<br/>(src/parsing/detector.py)<br/>• Native text stream vs Scanned"]
+        Det --> Ext["Stage 1: Native Markdown Parser<br/>• Text spans, font sizes, bboxes<br/>• Section & page boundary normalization"]
+    end
+
+    subgraph S23["Stages 2 & 3: Spatial Diagram Extraction"]
+        PDF --> ImgExt["Stage 2/3: Image Cropper & Mapper<br/>(src/image_linking/mapper.py)<br/>• Glyph filter (<35px / <1200 sq pt)<br/>• Cropping & PNG storage<br/>• Spatial context & [IMAGE_PLACEHOLDER_N]"]
+    end
+
+    subgraph S45["Stages 4 & 5: Multi-Pass Structuring & Reconciliation"]
+        Ext & ImgExt --> PassA["Stage 4: Pass A JSON Extraction<br/>• Captures question stems & subparts<br/>• Attaches raw_source_span"]
+        PassA --> PassB0["Stage 5: Pass B-0 Source Reconciliation<br/>• Direct raw text vs JSON comparison<br/>• Fixes OCR splits, (c ) spacing, unattached images"]
+        PassB0 --> PassB1["Pass B-1: Question Type Classifier<br/>• 11 Types (MCQ, Assertion-Reason, Diagram...)<br/>• Flags: requires_image, etc."]
+        PassB1 --> PassB2["Pass B-2: Type-Aware Validator<br/>• Strict structural rule checks (opts==4, AR)"]
+        PassB2 --> Stage5Audit{"Validation Passed?"}
+        Stage5Audit -- No --> VLMEsc["Stage 5: VLM Diagram Escalation / Review Flag"]
+        Stage5Audit -- Yes --> Stage6["Stage 6: Drafts Review Queue & Quality Gate"]
+    end
+
+    subgraph S7["Stage 7: Chunking & Hybrid Vector Indexing"]
+        Stage6 --> Chunk["Question-Level Chunker<br/>(src/chunking/chunker.py)<br/>• 1 Chunk = 1 Question + Options + Images<br/>• Metadata tagging (class, subject, year, type)"]
+        Chunk --> Embed["Hybrid Vector Store<br/>(src/embedding/embedder.py)<br/>• 384-d Dense Vector Embeddings (SQLite BLOB)<br/>• SQLite FTS5 Full-Text Search (BM25)"]
+    end
+
+    subgraph S8["Stage 8: RAG Retrieval, Deduplication & AI Solver"]
+        Embed --> Dedup["Cross-Paper Deduplication<br/>(src/dedup/deduplicator.py)<br/>• Pairwise Cosine Matrix (threshold > 0.85)"]
+        Embed --> RAG["Hybrid RRF Search Engine<br/>• Dense Cosine + BM25 FTS5<br/>• Reciprocal Rank Fusion: 1/(60+r_dense) + 1/(60+r_fts)"]
+        RAG --> LLM["AI Solution Generator (/api/explain)<br/>• Local Ollama (qwen3.5:latest) / Cloud Gemini<br/>• Step-by-Step LaTeX Solutions"]
+        LLM --> UI["Interactive LaTeX Web UI (http://localhost:8000)<br/>• MathJax LaTeX Rendering<br/>• Diagram display & filter controls"]
+    end
+        </pre>
+      </div>
+    </div>
+
+    <!-- TAB 3: Ingestion Pipeline -->
+    <div class="diagram-card" id="tab-2">
+      <div class="diagram-header">
+        <h2>3. Ingestion & Indexing Pipeline Sequence Diagram</h2>
+        <p>Detailed sequence interactions between CLI/API, Type Detector, Image Cropper, Structured Parser, Chunker, and Local Vector Store.</p>
+      </div>
+      <div class="mermaid-wrapper">
+        <pre class="mermaid">
+sequenceDiagram
+    autonumber
+    actor User as User / Admin / CLI
+    participant API as FastAPI Backend (src.api.app)
+    participant Detector as Type Detector & Parser (src.parsing)
+    participant ImageMapper as Image Cropper & Mapper (src.image_linking)
+    participant StructParser as Multi-Pass Structured Parser (src.segmentation)
+    participant Chunker as Question Chunker (src.chunking)
+    participant VectorStore as LocalVectorStore (src.embedding)
+    participant Context as Shared State (.agent/context.json)
+
+    User->>API: Upload PDF / Trigger Pipeline (scripts/add_pdf.py)
+    API->>Context: Record paper metadata (class, subject, year, paper_id)
+
+    API->>Detector: detect_pdf_type(pdf_path)
+    Detector-->>API: Returns "native" or "scanned"
+    API->>Detector: extract_native_structure(pdf_path)
+    Detector-->>API: Normalized Markdown + Layout Bounding Boxes
+
+    API->>ImageMapper: crop_and_map_images(pdf_path, output_dir)
+    ImageMapper->>ImageMapper: Filter tiny glyphs (<35px or <1200 sq pt)
+    ImageMapper->>ImageMapper: Crop figures, save PNGs, extract captions
+    ImageMapper-->>API: image_manifest.json with [IMAGE_PLACEHOLDER_N] tokens
+
+    API->>StructParser: parse_exam_markdown_to_cbse_json(markdown, manifest)
+    Note over StructParser: Pass A: Extract Questions + attach raw_source_span
+    Note over StructParser: Pass B-0: Source Reconciliation (compares JSON vs raw span)
+    Note over StructParser: Pass B-1: Classify Question Type (11 classes)
+    Note over StructParser: Pass B-2: Run Type-Aware Validation Rules
+    StructParser-->>API: Validated questions.json + quality confidence score
+
+    API->>Chunker: create_question_chunks(questions_dict)
+    Chunker->>Chunker: Strip section headers & tag metadata (1 chunk = 1 question)
+    Chunker-->>API: chunks.json
+    
+    API->>VectorStore: embed_paper_chunks(paper_id)
+    VectorStore->>VectorStore: Generate 384d Dense Vector (SQLite BLOB)
+    VectorStore->>VectorStore: Insert document into SQLite FTS5 table
+    VectorStore-->>API: Upsert confirmation
+
+    API->>Context: Update phase status = "done"
+    API-->>User: Ingestion & Indexing Complete
+        </pre>
+      </div>
+    </div>
+
+    <!-- TAB 4: RAG Search & AI Solver -->
+    <div class="diagram-card" id="tab-3">
+      <div class="diagram-header">
+        <h2>4. Hybrid RAG Search & AI Solution Generation Sequence</h2>
+        <p>Execution flow of Hybrid Dense + BM25 FTS5 Reciprocal Rank Fusion (RRF) search and streamed LaTeX solution generation.</p>
+      </div>
+      <div class="mermaid-wrapper">
+        <pre class="mermaid">
+sequenceDiagram
+    autonumber
+    actor Client as Web UI User (Browser)
+    participant App as FastAPI App (src.api.app)
+    participant Embedder as Embedder & Hybrid Engine (src.embedding)
+    participant DB as SQLite DB (vector_index.db)
+    participant Retriever as RAG Context Formatter (src.retrieval)
+    participant LLM as Local Ollama / Cloud Gemini
+    participant MathJax as MathJax Renderer (Frontend)
+
+    Client->>App: POST /api/search { query, class_filter, subject_filter, type_filter }
+    
+    App->>Embedder: query_vector_store(query_text, filters)
+    Embedder->>Embedder: Compute query dense embedding vector (384d)
+    
+    par Dense Vector Search
+        Embedder->>DB: Scan dense embeddings & compute Cosine Similarity
+        DB-->>Embedder: Dense Ranked Results (r_dense)
+    and Sparse BM25 Keyword Search
+        Embedder->>DB: Query FTS5 MATCH table
+        DB-->>Embedder: Sparse Ranked Results (r_fts)
+    end
+
+    Embedder->>Embedder: Calculate RRF Score = 1/(60 + r_dense) + 1/(60 + r_fts)
+    Embedder->>Embedder: Sort results by RRF Score
+    Embedder-->>App: Top-K Hybrid Results with metadata & image links
+
+    App->>App: Resolve static image URLs (/static/parsed/.../images/...)
+    App->>App: Convert raw math notations to LaTeX via format_to_latex()
+    App-->>Client: JSON Response (Question stems, LaTeX, options, diagrams)
+    Client->>MathJax: Render dynamic LaTeX formulas & diagrams
+
+    Client->>App: POST /api/explain { question_text, options, class_level, subject }
+    App->>Retriever: format_rag_context(retrieved_chunks)
+    Retriever-->>App: Grounded prompt context
+    App->>LLM: POST /api/generate with Pedagogical Prompt
+    LLM-->>App: Streamed Step-by-Step LaTeX Explanation
+    App->>App: Sanitize LaTeX & PUA Font Glyphs
+    App-->>Client: Final LaTeX Explanation & Correct Answer
+    Client->>MathJax: Render Step-by-Step Solution on UI
+        </pre>
+      </div>
+    </div>
+
+    <!-- TAB 5: Deduplication Engine -->
+    <div class="diagram-card" id="tab-4">
+      <div class="diagram-header">
+        <h2>5. Cross-Paper Deduplication Sequence Diagram</h2>
+        <p>Computation of pairwise cosine similarity matrix across question vectors and one-click duplicate resolution.</p>
+      </div>
+      <div class="mermaid-wrapper">
+        <pre class="mermaid">
+sequenceDiagram
+    autonumber
+    actor Admin as Admin / Web UI
+    participant API as FastAPI Backend (src.api.app)
+    participant Dedup as Deduplication Engine (src.dedup)
+    participant DB as Vector Store (vector_index.db)
+
+    Admin->>API: GET /api/dedup (similarity_threshold = 0.85)
+    API->>Dedup: find_duplicate_questions(threshold=0.85)
+    Dedup->>DB: Fetch all embeddings (N, 384) & metadata
+    DB-->>Dedup: Vectors matrix & metadata records
+    
+    Dedup->>Dedup: Compute Pairwise Cosine Similarity: S = V · V^T
+    Dedup->>Dedup: Filter pairs where S[i,j] >= threshold AND papers/questions differ
+    Dedup-->>API: List of duplicate pairs with diff preview & similarity score
+    API-->>Admin: Render Duplicate Pairs in Web UI
+
+    opt One-Click Duplicate Cleanup
+        Admin->>API: POST /api/dedup/remove { chunk_id }
+        API->>DB: DELETE FROM vectors WHERE id = chunk_id
+        API->>DB: DELETE FROM vectors_fts WHERE id = chunk_id
+        DB-->>API: Deletion confirmed
+        API-->>Admin: { status: "success", deleted_chunk_id }
+    end
+        </pre>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'default',
+      securityLevel: 'loose',
+      flowchart: { curve: 'basis' }
+    });
+
+    function switchTab(index) {
+      document.querySelectorAll('.tab-btn').forEach((btn, idx) => {
+        btn.classList.toggle('active', idx === index);
+      });
+      document.querySelectorAll('.diagram-card').forEach((card, idx) => {
+        card.classList.toggle('active', idx === index);
+      });
+    }
+  </script>
+</body>
+</html>
