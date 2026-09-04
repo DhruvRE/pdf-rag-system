@@ -34,16 +34,18 @@ Q_PATTERN_A = re.compile(
     r"^\s*(?:<b>)?\s*(Q\.?\s*(\d{1,3})[\.\:]|Question\s+(\d{1,3})[\.\:])",
     re.IGNORECASE
 )
-# Format B: 1. / 21. / 38. / 33.a. at line start
-Q_PATTERN_B = re.compile(r"^\s*(?:<b>)?\s*(\d{1,3})\.(?:[a-zA-Z]\.|\s+|$)")
+# Format B: 1. / 21. / 38. / 33.a. / "1 Question text" at line start
+Q_PATTERN_B = re.compile(
+    r"^\s*(?:<b>)?\s*(\d{1,3})(?:\.(?:[a-zA-Z]\.|\s+|$)|\)\s+|(?=\s+[A-Z(]))"
+)
 # Format C: Standalone integer line '1', '2', '21'
 Q_PATTERN_C = re.compile(r"^\s*(\d{1,2})\s*$")
 
 HEADER_FOOTER_RE = re.compile(r"Class[\-\s]*XII|Class[\-\s]*X|Sample\s+Paper|Page\s+\d+\s+of\s+\d+|P\s*a\s*g\s*e\s*\d+\s*\|\s*\d+", re.IGNORECASE)
-PAGE_NUM_RE = re.compile(r"^(Page\s*\d+|\d+\s*of\s*\d+|\d+)$", re.IGNORECASE)
+PAGE_NUM_RE = re.compile(r"^(Page\s*\d+|\d+\s*of\s*\d+)$", re.IGNORECASE)
 
 MARK_JUNK_RE = re.compile(
-    r"^\s*(?:\[\s*\]|\(|\)|\[|\]|\,|\'|\"|\`|\d+\s*Marks?|\[\d+\s*Marks?\]|\(\d+\s*Marks?\)|\[\d+\]|\(\d+\)|\d+\s*[\+\:]\s*\d+)\s*$",
+    r"^\s*(?:\[\s*\]|\(|\)|\[|\]|\,|\'|\"|\`|\d+\s*Marks?|\[\d+\s*Marks?\]|\(\d+\s*Marks?\)|\[\d+\]|\(\d+\))\s*$",
     re.IGNORECASE
 )
 
@@ -190,6 +192,71 @@ OPTION_INVALID_VERBS_RE = re.compile(
     re.IGNORECASE
 )
 
+OPTION_MARKER_RE = re.compile(r"(?<![A-Za-z])\(?([A-Da-d])\)\s*")
+
+
+def _clean_option_value(value: str) -> str:
+    text = value
+    text = text.replace("", "=").replace("", "+").replace("", "-").replace("", "×").replace("", "÷")
+    for k, v in PUA_FONT_MAP.items():
+        text = text.replace(k, v)
+    text = INDIC_SCRIPT_RE.sub("", text)
+    text = re.sub(r"\s+", " ", text).strip(" ;,")
+    return text
+
+
+def _extract_multiline_options(raw_text: str) -> list[str]:
+    """
+    Extracts A-D options even when formula text is emitted on separate lines.
+    This is common in math PDFs where superscripts, fractions, and matrix cells
+    are independent PDF spans.
+    """
+    lines = [line.strip() for line in raw_text.splitlines() if line.strip()]
+    collected: list[tuple[str, str]] = []
+    current_label: str | None = None
+    current_parts: list[str] = []
+
+    def flush_current() -> None:
+        nonlocal current_label, current_parts
+        if current_label:
+            value = _clean_option_value(" ".join(current_parts))
+            if value:
+                collected.append((current_label.lower(), value))
+        current_label = None
+        current_parts = []
+
+    for line in lines:
+        matches = list(OPTION_MARKER_RE.finditer(line))
+        if matches:
+            leading = line[:matches[0].start()].strip()
+            if current_label and leading:
+                current_parts.append(leading)
+
+            for idx, match in enumerate(matches):
+                flush_current()
+                current_label = match.group(1).lower()
+                part_start = match.end()
+                part_end = matches[idx + 1].start() if idx + 1 < len(matches) else len(line)
+                option_piece = line[part_start:part_end].strip()
+                current_parts = [option_piece] if option_piece else []
+            continue
+
+        if current_label:
+            if Q_PATTERN_A.search(line) or SECTION_REGEX.search(line):
+                flush_current()
+                continue
+            current_parts.append(line)
+
+    flush_current()
+
+    by_label: dict[str, str] = {}
+    for label, value in collected:
+        by_label.setdefault(label, value)
+
+    if all(label in by_label for label in ("a", "b", "c", "d")):
+        return [f"({label}) {by_label[label]}" for label in ("a", "b", "c", "d")]
+    return []
+
 # Section header lines that bleed into the last question of a section
 SECTION_HDR_BLEED_RE = re.compile(
     r'\n\s*(?:SECTION\s*[\-\u2013\u2014]\s*[A-E]|Q\.?\s*(?:No\.?)?\s*\d+\s*to\s*\d+'
@@ -226,6 +293,10 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
     # their running section label can be stale. Questions 1–20 remain MCQs.
     if not in_mcq_section or (in_desc_section and q_val > 20):
         return []
+
+    multiline_choices = _extract_multiline_options(raw_text)
+    if len(multiline_choices) == 4:
+        return multiline_choices
 
     # Split on option markers: (a), (b), A), A. etc — but NOT (A) inside Assertion text
     # Use lookahead to avoid matching Assertion(A)/Reason(R) patterns
@@ -511,6 +582,14 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
                             next_txt = all_lines[idx + 1]["text"]
                             if len(next_txt) > 5 and not next_txt.startswith("Page") and not next_txt.startswith("Marks"):
                                 num_val = v
+
+        if num_val and 1 <= num_val <= 50:
+            if current_q_num != num_val:
+                last_seen_q_num = current_q_num
+                if last_seen_q_num is None and raw_blocks:
+                    last_seen_q_num = raw_blocks[-1]["question_number"]
+                if last_seen_q_num is not None and num_val != last_seen_q_num + 1:
+                    num_val = None
 
         if num_val and 1 <= num_val <= 50:
             if current_q_num != num_val:

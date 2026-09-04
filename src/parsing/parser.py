@@ -8,6 +8,10 @@ import os
 import json
 import re
 import fitz
+import re
+import io
+import pytesseract
+from PIL import Image
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
 
@@ -61,6 +65,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
     Parses PDF layout and text using PyMuPDF (fitz).
     Returns a structured dict with page dimensions, text blocks, lines, and bounding boxes.
     """
+
     if not os.path.exists(pdf_path):
         raise FileNotFoundError(f"PDF not found at {pdf_path}")
 
@@ -69,18 +74,43 @@ def parse_pdf_layout(pdf_path: str) -> dict:
 
     try:
         for page_idx, page in enumerate(doc):
-            raw_dict = page.get_text("dict")
-            page_width = raw_dict.get("width", page.rect.width)
-            page_height = raw_dict.get("height", page.rect.height)
+
+            raw_dict = page.get_text("rawdict")
+
+            page_width = raw_dict.get(
+                "width",
+                page.rect.width
+            )
+
+            page_height = raw_dict.get(
+                "height",
+                page.rect.height
+            )
 
             parsed_blocks = []
-            for block_idx, block in enumerate(raw_dict.get("blocks", [])):
-                # block type 0 = text, 1 = image
-                b_type = "text" if block.get("type") == 0 else "image"
-                b_bbox = list(block.get("bbox", [0, 0, 0, 0]))
 
-                lines_data = []
+            for block_idx, block in enumerate(
+                raw_dict.get("blocks", [])
+            ):
+
+                # block type 0 = text, 1 = image
+                b_type = (
+                    "text"
+                    if block.get("type") == 0
+                    else "image"
+                )
+
+                b_bbox = list(
+                    block.get(
+                        "bbox",
+                        [0, 0, 0, 0]
+                    )
+                )
+
+                raw_lines_data = []
+
                 if b_type == "text":
+
                     for line in block.get("lines", []):
                         l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
                         spans_data = []
@@ -105,7 +135,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 parsed_blocks.append({
                     "block_id": block_idx,
                     "type": b_type,
-                    "bbox": b_bbox,
+                    "bbox": _round_bbox(b_bbox),
                     "lines": lines_data
                 })
 
@@ -115,6 +145,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 "height": round(page_height, 2),
                 "blocks": parsed_blocks
             })
+
     finally:
         doc.close()
 
@@ -122,7 +153,6 @@ def parse_pdf_layout(pdf_path: str) -> dict:
         "total_pages": len(pages_data),
         "pages": pages_data
     }
-
 
 def parse_paper(paper_id: str, root_dir: str = PROJECT_ROOT) -> str:
     """

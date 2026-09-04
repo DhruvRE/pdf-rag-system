@@ -374,9 +374,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     return cleaned.replace(/\s{2,}/g, ' ').trim();
   }
 
+  // ---------------------------------------------------------
+  // 8. Normalize whitespace
+  // ---------------------------------------------------------
+  return cleaned
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
   function cleanOptionText(optText, optLabel) {
     if (!optText) return '';
     let cleaned = String(optText).trim();
+    cleaned = cleaned.replace(/\s+\d+\/\d+\/\d+\s*#\s*\d+\s*\|\s*P\s*a\s*g\s*e(?:\s+P\.?\s*T\.?\s*O\.?)?\s*$/i, '');
     if (optLabel) {
       const escapedLabel = String(optLabel).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       const prefixPattern = new RegExp(`^\\s*(?:\\(${escapedLabel}\\)|${escapedLabel}[\\.\\)\\:]|#\\d+)\\s*`, 'i');
@@ -458,7 +466,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       // Render Options Grid if options exist
       let optionsHtml = "";
       if (item.options && item.options.length > 0) {
-        const optionCards = item.options.map(opt => `
+        const seenOptionLabels = new Set();
+        const displayOptions = item.options.filter(opt => {
+          const label = String(opt?.label || '').trim().toUpperCase();
+          if (!label || seenOptionLabels.has(label)) return false;
+          seenOptionLabels.add(label);
+          return true;
+        }).slice(0, 4);
+        const optionCards = displayOptions.map(opt => `
           <div class="option-card">
             <span class="option-label">${opt.label}</span>
             <span class="option-text">${renderMarkdownToHtml(cleanOptionText(opt.latex_text || opt.text, opt.label))}</span>
@@ -560,7 +575,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           ${simBadgeHtml}
         </div>
 
-        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(item.latex_stem || item.stem_text))}</div>
+        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(item.latex_stem || item.stem_text, item.options && item.options.length > 0))}</div>
 
         ${optionsHtml}
         ${subpartsHtml}

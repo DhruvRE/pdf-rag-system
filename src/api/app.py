@@ -3,7 +3,6 @@ FastAPI Backend Server for PDF Question-Paper RAG System.
 Provides REST API endpoints with structured question metadata, step timeline info,
 and serves extracted diagram images for rich LaTeX Web UI rendering.
 """
-
 import os
 import json
 import re
@@ -216,7 +215,7 @@ PUA_FONT_MAP = {
 }
 
 MARK_JUNK_RE = re.compile(
-    r"^\s*(?:\[\s*\]|\(|\)|\[|\]|\,|\'|\"|\`|\d+\s*Marks?|\[\d+\s*Marks?\]|\(\d+\s*Marks?\)|\[\d+\]|\(\d+\)|\d+\s*[\+\:]\s*\d+)\s*$",
+    r"^\s*(?:\[\s*\]|\(|\)|\[|\]|\,|\'|\"|\`|\d+\s*Marks?|\[\d+\s*Marks?\]|\(\d+\s*Marks?\)|\[\d+\]|\(\d+\))\s*$",
     re.IGNORECASE
 )
 
@@ -1268,6 +1267,7 @@ async def upload_pdf_paper(
     from src.segmentation.segmenter import segment_paper
     from src.image_linking.extractor import extract_and_link_images
     from src.chunking.chunker import chunk_paper
+    from src.embedding.embedder import embed_paper_chunks
 
     parsed_path = parse_paper(paper_id)
     if not parsed_path:
@@ -1282,6 +1282,7 @@ async def upload_pdf_paper(
     segment_paper(paper_id)
     extract_and_link_images(paper_id)
     chunk_paper(paper_id)
+    embed_result = embed_paper_chunks(paper_id)
 
     # Load generated chunks.json
     parsed_dir = os.path.join(DATA_PARSED_DIR, cls, subj, yr, paper_id)
@@ -1315,6 +1316,7 @@ async def upload_pdf_paper(
         "pdf_type": pdf_type,
         "total_questions": len(chunks),
         "total_images": n_images,
+        "embedded_count": embed_result.get("total_embedded", 0),
         "questions_preview": chunks[:10]
     }
 

@@ -1,0 +1,61 @@
+{
+  "greek": {
+    "α": "\\alpha",
+    "β": "\\beta",
+    "γ": "\\gamma",
+    "δ": "\\delta",
+    "ε": "\\epsilon",
+    "θ": "\\theta",
+    "λ": "\\lambda",
+    "μ": "\\mu",
+    "π": "\\pi",
+    "ρ": "\\rho",
+    "σ": "\\sigma",
+    "φ": "\\phi",
+    "ω": "\\omega"
+  },
+
+  "operators": {
+    "±": "\\pm",
+    "∓": "\\mp",
+    "×": "\\times",
+    "÷": "\\div",
+    "·": "\\cdot",
+    "√": "\\sqrt",
+    "∞": "\\infty"
+  },
+
+  "relations": {
+    "≠": "\\neq",
+    "≈": "\\approx",
+    "≤": "\\le",
+    "≥": "\\ge",
+    "∝": "\\propto",
+    "≡": "\\equiv"
+  },
+
+  "sets": {
+    "∈": "\\in",
+    "∉": "\\notin",
+    "⊂": "\\subset",
+    "⊆": "\\subseteq",
+    "∪": "\\cup",
+    "∩": "\\cap",
+    "∅": "\\emptyset"
+  },
+
+  "logic": {
+    "∴": "\\therefore",
+    "∵": "\\because",
+    "∀": "\\forall",
+    "∃": "\\exists"
+  },
+
+  "arrows": {
+    "→": "\\rightarrow",
+    "←": "\\leftarrow",
+    "⇒": "\\Rightarrow",
+    "⇐": "\\Leftarrow",
+    "⇔": "\\Leftrightarrow"
+  }
+}
