@@ -317,10 +317,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       await delay(200);
       pipelineLoaderCard.style.display = "none";
 
-      // Trigger MathJax LaTeX Typesetting
-      if (window.MathJax && window.MathJax.typesetPromise) {
-        window.MathJax.typesetPromise();
-      }
+      // Trigger MathJax LaTeX Typesetting after the async library is ready.
+      await typesetMath(resultsGrid);
     } catch (err) {
       console.error(err);
       updateStep(2, "active", "Failed ✕");
@@ -358,103 +356,22 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   
   // Data Cleaning & Formatting Engine
-  function cleanStemText(text, stripChoiceText = false) {
-  if (!text) return '';
-
-  let cleaned = String(text);
-
-  // ---------------------------------------------------------
-  // 1. Remove page boundary tags
-  // ---------------------------------------------------------
-  cleaned = cleaned.replace(
-    /<!?--?\s*PAGE\s*\d+\s*(?:START|END)?\s*--?>/gi,
-    ''
-  );
-
-  cleaned = cleaned.replace(
-    /<-?\s*PAGE\s*\d+\s*(?:START|END)?\s*-?>/gi,
-    ''
-  );
-
-  cleaned = cleaned.replace(
-    /PAGE\s*\d+\s*(?:START|END)/gi,
-    ''
-  );
-
-  // ---------------------------------------------------------
-  // 2. Remove image placeholders
-  // ---------------------------------------------------------
-  cleaned = cleaned.replace(
-    /\[IMAGE_PLACEHOLDER_\d+\]/gi,
-    ''
-  );
-
-  // ---------------------------------------------------------
-  // 3. Remove unwanted Unicode glyphs
-  // ---------------------------------------------------------
-  cleaned = cleaned.replace(
-    /[\ufffc\ufffd\ue000-\uf8ff]/g,
-    ''
-  );
-
-  cleaned = cleaned.replace(
-    /[\u0b00-\u0d7f]/g,
-    ''
-  );
-
-  // ---------------------------------------------------------
-  // 4. Remove leading punctuation
-  // ---------------------------------------------------------
-  cleaned = cleaned.replace(
-    /^[\s.:\-–—]+/,
-    ''
-  );
-
-  // ---------------------------------------------------------
-  // 5. Remove PDF page-number/footer artifacts
-  //
-  // Examples:
-  // 30/1/1 # 4 | Page
-  // 30/1/1 # 4 | P a g e
-  // 30/1/1 # 4 | Page 4
-  // ---------------------------------------------------------
-  cleaned = cleaned.replace(
-    /\s*\d+\s*\/\s*\d+\s*\/\s*\d+\s*#\s*\d+\s*\|\s*P\s*a\s*g\s*e(?:\s*\d+)?/gi,
-    ''
-  );
-
-  // ---------------------------------------------------------
-  // 6. Remove explicit Options section
-  //
-  // Example:
-  // Options: (A) 8 (B) 6 (C) 4 (D) 2
-  // ---------------------------------------------------------
-  cleaned = cleaned.replace(
-    /\s+Options?\s*:\s*[\s\S]*$/i,
-    ''
-  );
-
-  // ---------------------------------------------------------
-  // 7. Remove MCQ options from question stem
-  // ---------------------------------------------------------
-  if (
-    stripChoiceText &&
-    !/assertion\s*\(?a\)?[\s\S]*reason\s*\(?r\)?/i.test(cleaned)
-  ) {
-
-    // Format:
-    // (A) 8 (B) 8 (C) 4 (D) 4
-    cleaned = cleaned.replace(
-      /\s+\(A\)\s*.*?\s+\(B\)\s*.*?\s+\(C\)\s*.*?\s+\(D\)\s*.*$/is,
-      ''
-    );
-
-    // Format:
-    // A. 8 B. 8 C. 4 D. 4
-    cleaned = cleaned.replace(
-      /\s+A[\.\):]\s*.*?\s+B[\.\):]\s*.*?\s+C[\.\):]\s*.*?\s+D[\.\):]\s*.*$/is,
-      ''
-    );
+  function cleanStemText(text) {
+    if (!text) return '';
+    let cleaned = String(text);
+    // Strip page boundary tags
+    cleaned = cleaned.replace(/<!?--?\s*PAGE\s*\d+\s*(?:START|END)?\s*--?>/gi, '');
+    cleaned = cleaned.replace(/<-?\s*PAGE\s*\d+\s*(?:START|END)?\s*-?>/gi, '');
+    cleaned = cleaned.replace(/PAGE\s*\d+\s*(?:START|END)/gi, '');
+    // Strip raw image placeholder strings if present
+    cleaned = cleaned.replace(/\[IMAGE_PLACEHOLDER_\d+\]/gi, '');
+    // A bad extraction must never render unreadable private-font boxes. The
+    // backend selects the English page and converts known math glyphs first.
+    cleaned = cleaned.replace(/[\ufffc\ufffd\ue000-\uf8ff]/g, '');
+    cleaned = cleaned.replace(/[\u0b00-\u0d7f]/g, '');
+    // Strip leading punctuation dots or hyphens
+    cleaned = cleaned.replace(/^[\s\.\:\-\–\—]+/, '');
+    return cleaned.replace(/\s{2,}/g, ' ').trim();
   }
 
   // ---------------------------------------------------------
@@ -483,6 +400,19 @@ document.addEventListener('DOMContentLoaded', async () => {
       try { return window.marked.parse(md); } catch (e) { return md; }
     }
     return md;
+  }
+
+  async function typesetMath(container) {
+    if (!window.MathJax || !window.MathJax.typesetPromise) return;
+
+    try {
+      if (window.MathJax.startup && window.MathJax.startup.promise) {
+        await window.MathJax.startup.promise;
+      }
+      await window.MathJax.typesetPromise(container ? [container] : undefined);
+    } catch (err) {
+      console.warn('MathJax could not typeset the rendered content:', err);
+    }
   }
 
   function renderResults(data) {
@@ -699,9 +629,7 @@ document.addEventListener('DOMContentLoaded', async () => {
           });
           const data = await res.json();
           expBox.innerHTML = `<div style="font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">💡 AI Solution & Concept Explanation (${data.model_used}):</div>${escapeHtml(data.explanation || data.latex_explanation)}`;
-          if (window.MathJax && window.MathJax.typesetPromise) {
-            window.MathJax.typesetPromise([expBox]);
-          }
+          await typesetMath(expBox);
         } catch (err) {
           expBox.innerHTML = `<div style="color:#f87171;">⚠️ Failed to fetch AI explanation: ${err.message}</div>`;
         } finally {
@@ -847,6 +775,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         contextReviewPanel.style.display = 'flex';
         renderContextQuestionsPreview(data.questions_preview || []);
+        await typesetMath(contextQuestionsList);
 
       } catch (err) {
         alert('Error processing PDF: ' + err.message);
@@ -878,6 +807,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const data = await res.json();
         aiRefineBtn.innerHTML = '<span class="material-symbols-outlined text-[16px]">check_circle</span><span>✓ AI Context Improved!</span>';
         renderContextQuestionsPreview(data.questions_preview || []);
+        await typesetMath(contextQuestionsList);
       } catch (err) {
         alert('Error refining context: ' + err.message);
         aiRefineBtn.disabled = false;
@@ -928,6 +858,39 @@ document.addEventListener('DOMContentLoaded', async () => {
       const card = document.createElement('div');
       card.className = 'question-card';
 
+      // Upload previews receive a chunk whose `content` may contain both the
+      // original PDF option lines and a legacy `Options:` metadata block.
+      // Render the stem separately and use structured options exactly once.
+      let previewStem = String(q.stem_text || q.content || '');
+      previewStem = previewStem.split(/\n\s*Options\s*:/i)[0];
+      previewStem = previewStem
+        .split(/\r?\n/)
+        .filter(line => !/^\s*\(?[A-Da-d]\)\s+/.test(line))
+        .join('\n');
+
+      const previewOptions = (q.options || []).map((option, optionIndex) => {
+        const raw = typeof option === 'object'
+          ? `${option.label || ''}) ${option.text || option.latex_text || ''}`
+          : String(option);
+        const match = raw.match(/^\s*\(?([A-Da-d])\)?[\.:\)]?\s*(.*)$/);
+        return {
+          label: match ? match[1].toUpperCase() : String(optionIndex + 1),
+          text: match ? match[2] : raw
+        };
+      });
+      const previewOptionsHtml = previewOptions.length ? `
+        <div class="options-container">
+          <div class="options-title">MCQ Choice Options</div>
+          <div class="options-grid">
+            ${previewOptions.map(option => `
+              <div class="option-card">
+                <span class="option-label">${option.label}</span>
+                <span class="option-text">${renderMarkdownToHtml(cleanOptionText(option.text, option.label))}</span>
+              </div>
+            `).join('')}
+          </div>
+        </div>` : '';
+
       const imgBadge = (q.linked_images && q.linked_images.length > 0)
         ? `<span class="badge badge-type">🖼️ ${q.linked_images.length} Diagram Linked</span>`
         : `<span class="badge badge-year">No Diagram</span>`;
@@ -943,7 +906,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             ${refinedTag}
           </div>
         </div>
-        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(q.stem_text || q.content))}</div>
+        <div class="question-stem">${renderMarkdownToHtml(cleanStemText(previewStem))}</div>
+        ${previewOptionsHtml}
       `;
       contextQuestionsList.appendChild(card);
     });

@@ -66,6 +66,7 @@ PUA_FONT_MAP = {
     "\uf020": " ", "\uf022": '"', "\uf023": "#", "\uf028": "(", "\uf029": ")",
     "\uf03c": "≤", "\uf03e": "≥", "\uf057": " Ω ", "\uf05b": "[", "\uf05d": "]",
     "\uf06c": "λ", "\uf06d": "μ", "\uf070": "π", "\uf071": "θ", "\uf07b": "{",
+    "\uf061": "α", "\uf062": "β", "\uf067": "γ",
     "\uf07d": "}", "\uf0a5": "∞", "\uf0ae": " → ", "\uf0b3": "∫", "\uf0c7": "×",
     "\uf0ce": " ∈ ", "\uf0e0": " → ", "\uf0e9": "[", "\uf0ea": " ", "\uf0eb": "]",
     "\uf0f9": "[", "\uf0fa": " ", "\uf0fb": "]",
@@ -91,6 +92,12 @@ INDIC_SCRIPT_RE = re.compile(
     r"\u1000-\u109f]"  # Myanmar
 )
 
+# Some bilingual PDFs encode Indic text as private-use glyphs instead of real
+# Unicode. These cannot be rendered or searched reliably; the corresponding
+# English page is processed instead.
+PRIVATE_FONT_GLYPH_RE = re.compile(r"[\ue000-\uf8ff]")
+PRIVATE_FONT_THRESHOLD = 0.20
+
 # A line is "Indic-contaminated" if more than 20% of its non-space chars are Indic.
 INDIC_THRESHOLD = 0.20
 
@@ -114,8 +121,10 @@ def is_english_dominant(text: str) -> bool:
     if total == 0:
         return False
     indic = len(INDIC_SCRIPT_RE.findall(text))
-    # If more than 30% of content is Indic script → skip this PDF
-    return (indic / total) < 0.30
+    private_font = len(PRIVATE_FONT_GLYPH_RE.findall(text))
+    # If more than 30% of content is Indic script, or 20% is undecodable
+    # private-font text, do not use it as the English searchable corpus.
+    return (indic / total) < 0.30 and (private_font / total) < PRIVATE_FONT_THRESHOLD
 
 
 def normalize_and_clean_lines(lines: list[str]) -> list[str]:
@@ -130,6 +139,9 @@ def normalize_and_clean_lines(lines: list[str]) -> list[str]:
     t = t.replace("", "=").replace("", "+").replace("", "-").replace("", "×").replace("", "÷")
     for k, v in PUA_FONT_MAP.items():
         t = t.replace(k, v)
+    # Any remaining PUA glyph has no reliable Unicode meaning. It belongs to a
+    # private-font language page that is filtered before segmentation.
+    t = PRIVATE_FONT_GLYPH_RE.sub("", t)
     # Remove non-printable boxes & zero-width spaces
     t = re.sub(r"[\u25a0-\u25ff\ufffd\u200b]", "", t)
     # Strip ALL remaining Indic-script characters (English-only corpus)
@@ -277,7 +289,9 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
     # Only Section A (Q1-Q20) can be MCQ
     in_mcq_section = sec_clean in {"SECTIONA", "MCQ", "DIRECTION:"} or q_val <= 20
     in_desc_section = any(s in sec_clean for s in ("SECTIONB", "SECTIONC", "SECTIOND", "SECTIONE", "CASESTUDY"))
-    if not in_mcq_section or in_desc_section:
+    # Some bilingual papers repeat Section A after another-language pages, and
+    # their running section label can be stale. Questions 1–20 remain MCQs.
+    if not in_mcq_section or (in_desc_section and q_val > 20):
         return []
 
     multiline_choices = _extract_multiline_options(raw_text)
@@ -306,9 +320,10 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
                 # Reject if starts with an instruction verb
                 if OPTION_INVALID_VERBS_RE.match(val_first_line):
                     continue
-                # Reject if it's just symbols/figures with no readable text (< 2 alphanumeric chars)
+                # One-digit signed numbers are valid MCQ answers, e.g. (B) 8.
                 alphanum = re.sub(r'[^a-zA-Z0-9]', '', val_first_line)
-                if len(alphanum) < 2:
+                is_numeric_option = bool(re.fullmatch(r"[−–-]?\s*\d+(?:\.\d+)?", val_first_line))
+                if len(alphanum) < 2 and not is_numeric_option:
                     continue
                 label = tok.strip().lower()
                 choices.append(f"({label}) {val_first_line}")
@@ -329,7 +344,8 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
         if OPTION_INVALID_VERBS_RE.match(val_first):
             continue
         alphanum = re.sub(r'[^a-zA-Z0-9]', '', val_first)
-        if len(alphanum) < 2:
+        is_numeric_option = bool(re.fullmatch(r"[−–-]?\s*\d+(?:\.\d+)?", val_first))
+        if len(alphanum) < 2 and not is_numeric_option:
             continue
         alt_choices.append(f"{label_part} {val_first}")
 
@@ -418,6 +434,57 @@ def parse_question_blocks_from_lines(cleaned_lines: list[str], options: list[str
     return main_stem, subparts_blocks
 
 
+def restore_spatial_fractions(lines: list[str], bboxes: list[list]) -> list[str]:
+    """Rebuild fractions whose denominators are separate, lower-positioned PDF lines."""
+    items = [
+        {"text": str(text).strip(), "bbox": bbox, "used": False}
+        for text, bbox in zip(lines, bboxes)
+    ]
+
+    for denominator in items:
+        denom_text = denominator["text"]
+        if not re.fullmatch(r"\d+", denom_text):
+            continue
+
+        dx0, dy0, _, _ = denominator["bbox"]
+        candidates = []
+
+        for numerator in items:
+            if numerator is denominator or numerator["used"]:
+                continue
+
+            nx0, ny0, nx1, ny1 = numerator["bbox"]
+            if not (ny0 <= dy0 <= ny1 + 25):
+                continue
+            # PDF boxes often include trailing whitespace; the denominator's
+            # left edge is therefore more reliable than its box centre.
+            if not (nx0 - 5 <= dx0 <= nx1 + 5):
+                continue
+
+            match = re.search(r"([−–-]?\s*\d+)\s*$", numerator["text"])
+            if match:
+                candidates.append((dy0 - ny0, numerator, match))
+
+        if not candidates:
+            continue
+
+        _, numerator, match = min(candidates, key=lambda candidate: candidate[0])
+        numerator_value = (
+            match.group(1)
+            .replace(" ", "")
+            .replace("–", "-")
+            .replace("−", "-")
+        )
+        numerator["text"] = (
+            numerator["text"][:match.start()]
+            + f"\\frac{{{numerator_value}}}{{{denom_text}}}"
+            + numerator["text"][match.end():]
+        )
+        denominator["used"] = True
+
+    return [item["text"] for item in items if not item["used"]]
+
+
 def segment_questions_from_pages(pages_dict: dict) -> dict:
     """
     Segments raw page layout blocks into question objects.
@@ -433,6 +500,14 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
     for page in pages_dict.get("pages", []):
         pnum = page["page_num"]
         pwidth = page.get("width", 612.0)
+        page_text = "\n".join(
+            line.get("text", "")
+            for block in page.get("blocks", [])
+            if block.get("type") == "text"
+            for line in block.get("lines", [])
+        )
+        if not is_english_dominant(page_text):
+            continue
         for block in page.get("blocks", []):
             if block.get("type") != "text":
                 continue
@@ -556,15 +631,18 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         union_bbox = [round(min_x, 2), round(min_y, 2), round(max_x, 2), round(max_y, 2)]
 
         # Build the raw text, skip bare mark lines like [1] [3] etc.
+        math_aware_lines = restore_spatial_fractions(
+            block["lines"], block["bboxes"]
+        )
         raw_text = "\n".join(
-            l for l in normalize_and_clean_lines(block["lines"])
+            l for l in normalize_and_clean_lines(math_aware_lines)
             if not MARK_JUNK_RE.match(l.strip())
         ).strip()
 
         if not raw_text or len(raw_text) < 10:
             continue
 
-        print(f"  [segment] Q{q_num} → calling AI splitter ({len(raw_text)} chars)...")
+        print(f"  [segment] Q{q_num} -> calling AI splitter ({len(raw_text)} chars)...")
         split_texts = ai_split_question_block(raw_text)
 
         if len(split_texts) == 1:

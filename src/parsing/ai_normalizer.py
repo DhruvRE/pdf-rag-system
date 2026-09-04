@@ -429,7 +429,7 @@ def ai_split_question_block(block_text: str, provider: str = None, use_llm: bool
                 if isinstance(items, list):
                     cleaned = _post_process_llm_items(items)
                     if cleaned:
-                        print(f"  [ai_split] → {len(cleaned)} question(s)")
+                        print(f"  [ai_split] -> {len(cleaned)} question(s)")
                         return cleaned
         except Exception as exc:
             print(f"  [ai_split] LLM failed: {exc} — using rule-based fallback")
