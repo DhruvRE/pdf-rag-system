@@ -7,18 +7,286 @@ writing pages.json under data/parsed/<class>/<subject>/<year>/<paper_id>/.
 import os
 import json
 import fitz
+import re
+import io
+import pytesseract
+from PIL import Image
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
 
 from src.config import PROJECT_ROOT, CONTEXT_PATH
 
 
+def _round_bbox(bbox: list[float]) -> list[float]:
+    return [round(float(c), 2) for c in bbox]
+
+
+def _union_bbox(bboxes: list[list[float]]) -> list[float]:
+    return [
+        min(b[0] for b in bboxes),
+        min(b[1] for b in bboxes),
+        max(b[2] for b in bboxes),
+        max(b[3] for b in bboxes),
+    ]
+
+
+def _same_visual_row(group_bbox: list[float], line_bbox: list[float]) -> bool:
+    group_height = max(1.0, group_bbox[3] - group_bbox[1])
+    line_height = max(1.0, line_bbox[3] - line_bbox[1])
+    group_mid = (group_bbox[1] + group_bbox[3]) / 2.0
+    line_mid = (line_bbox[1] + line_bbox[3]) / 2.0
+    overlap = max(0.0, min(group_bbox[3], line_bbox[3]) - max(group_bbox[1], line_bbox[1]))
+    overlap_ratio = overlap / min(group_height, line_height)
+    center_tol = max(3.0, min(group_height, line_height) * 0.35)
+    return abs(group_mid - line_mid) <= center_tol or overlap_ratio >= 0.65
+
+
+def _line_text_from_spans(spans: list[dict]) -> str:
+    """Rebuilds a visual line left-to-right while preserving PDF math fragments."""
+    ordered = sorted(spans, key=lambda s: (s["bbox"][0], s["bbox"][1]))
+    text = ""
+    prev_x1 = None
+    for span in ordered:
+        span_text = span.get("text", "")
+        if not span_text:
+            continue
+        x0, _, x1, _ = span["bbox"]
+        size = max(float(span.get("size") or 0.0), 1.0)
+        if (
+            prev_x1 is not None
+            and x0 - prev_x1 > max(1.8, size * 0.25)
+            and text
+            and not text.endswith(" ")
+            and not span_text.startswith((" ", ".", ",", ")", "]", "}", ":", ";"))
+        ):
+            text += " "
+        text += span_text
+        prev_x1 = max(prev_x1 if prev_x1 is not None else x1, x1)
+    return re.sub(r"[ \t]+", " ", text).strip()
+
+
+def _merge_visual_lines(raw_lines: list[dict]) -> list[dict]:
+    """
+    PyMuPDF often emits same-row math/text as separate logical lines. Merge only
+    consecutive stream items that share a visual row, preserving the PDF stream
+    order so raised matrix rows do not jump before their question number.
+    """
+    merged_lines = []
+    current_group: list[dict] = []
+    current_bbox: list[float] | None = None
+
+    def flush_current() -> None:
+        nonlocal current_group, current_bbox
+        if not current_group:
+            return
+        spans = [span for entry in current_group for span in entry["spans"]]
+        bboxes = [entry["bbox"] for entry in current_group]
+        union = _union_bbox(bboxes)
+        merged_lines.append({
+            "bbox": _round_bbox(union),
+            "text": _line_text_from_spans(spans),
+            "spans": spans,
+        })
+        current_group = []
+        current_bbox = None
+
+    for line in raw_lines:
+        if not line.get("text", "").strip():
+            continue
+        bbox = line["bbox"]
+        if current_group and current_bbox and _same_visual_row(current_bbox, bbox):
+            current_group.append(line)
+            current_bbox = _union_bbox([current_bbox, bbox])
+        else:
+            flush_current()
+            current_group = [line]
+            current_bbox = bbox
+
+    flush_current()
+    return merged_lines
+
+
+def _span_to_dict(span: dict) -> dict:
+    chars = span.get("chars", [])
+
+    # rawdict may not provide "text" directly.
+    # Reconstruct it from individual character records.
+    text = span.get("text", "")
+
+    if not text and chars:
+        text = "".join(
+            str(char.get("c", ""))
+            for char in chars
+        )
+
+    return {
+        "text": text,
+
+        "bbox": _round_bbox(
+            list(span.get("bbox", [0, 0, 0, 0]))
+        ),
+
+        "font": span.get("font", ""),
+
+        "size": round(
+            span.get("size", 0.0),
+            2
+        ),
+
+        "color": span.get("color", 0),
+
+        "flags": span.get("flags", 0),
+
+        # IMPORTANT:
+        # Preserve individual PDF character/glyph information.
+        "chars": [
+            {
+                "c": char.get("c", ""),
+                "bbox": _round_bbox(
+                    list(char.get("bbox", [0, 0, 0, 0]))
+                ),
+                "origin": char.get("origin"),
+            }
+            for char in chars
+        ]
+    }
+
+def _line_to_entry(line: dict) -> dict:
+    spans_data = [
+        _span_to_dict(span)
+        for span in line.get("spans", [])
+    ]
+
+    return {
+        "bbox": _round_bbox(
+            list(line.get("bbox", [0, 0, 0, 0]))
+        ),
+        "text": _line_text_from_spans(spans_data),
+        "spans": spans_data
+    }
+def _ocr_vector_glyph(page: fitz.Page, bbox: list[float]) -> str:
+    """
+    OCR a small vector glyph region from the rendered PDF page.
+
+    Some PDFs store mathematical symbols such as α, β, √, ±, etc.
+    as vector drawings instead of text characters. PyMuPDF therefore
+    returns an empty text span for those symbols.
+
+    This function renders the small region and uses Tesseract OCR
+    to recover the visible character.
+    """
+    try:
+        rect = fitz.Rect(*bbox)
+
+        # Add a small margin around the glyph.
+        rect.x0 -= 2
+        rect.y0 -= 2
+        rect.x1 += 2
+        rect.y1 += 2
+
+        # Render at high resolution for better OCR.
+        matrix = fitz.Matrix(4, 4)
+
+        pix = page.get_pixmap(
+            matrix=matrix,
+            clip=rect,
+            alpha=False
+        )
+
+        image = Image.open(
+            io.BytesIO(pix.tobytes("png"))
+        )
+
+        text = pytesseract.image_to_string(
+            image,
+            lang="eng+ell",
+            config="--psm 10"
+        )
+
+        return text.strip()
+
+    except Exception:
+        return ""
+    
+
+def _extract_vector_math_glyphs(
+    page: fitz.Page,
+    line_bbox: list[float]
+) -> list[dict]:
+    """
+    Find small vector drawings inside a text line that may represent
+    mathematical symbols or glyphs.
+
+    Returns glyph candidates with their x-position and OCR text.
+    """
+
+    line_rect = fitz.Rect(*line_bbox)
+    glyphs = []
+
+    for drawing in page.get_drawings():
+
+        rect = drawing.get("rect")
+
+        if not rect:
+            continue
+
+        # Only consider drawings that overlap this text line.
+        if not line_rect.intersects(rect):
+            continue
+
+        width = rect.width
+        height = rect.height
+
+        # Ignore long horizontal/vertical lines, borders, etc.
+        if width > 20 or height > 25:
+            continue
+
+        if width < 1 or height < 1:
+            continue
+
+        # Ignore extremely thin decorative lines.
+        if width > height * 8 or height > width * 8:
+            continue
+
+        text = _ocr_vector_glyph(
+            page,
+            [
+                rect.x0,
+                rect.y0,
+                rect.x1,
+                rect.y1
+            ]
+        )
+
+        if not text:
+            continue
+
+        # Keep only a short OCR result.
+        text = text.replace("\n", " ").strip()
+
+        if len(text) > 4:
+            continue
+
+        glyphs.append({
+            "bbox": [
+                round(rect.x0, 2),
+                round(rect.y0, 2),
+                round(rect.x1, 2),
+                round(rect.y1, 2)
+            ],
+            "text": text
+        })
+
+    glyphs.sort(key=lambda item: item["bbox"][0])
+
+    return glyphs
 
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
     Parses PDF layout and text using PyMuPDF (fitz).
     Returns a structured dict with page dimensions, text blocks, lines, and bounding boxes.
     """
+
     if not os.path.exists(pdf_path):
         raise FileNotFoundError(f"PDF not found at {pdf_path}")
 
@@ -27,43 +295,64 @@ def parse_pdf_layout(pdf_path: str) -> dict:
 
     try:
         for page_idx, page in enumerate(doc):
-            raw_dict = page.get_text("dict")
-            page_width = raw_dict.get("width", page.rect.width)
-            page_height = raw_dict.get("height", page.rect.height)
+
+            raw_dict = page.get_text("rawdict")
+
+            page_width = raw_dict.get(
+                "width",
+                page.rect.width
+            )
+
+            page_height = raw_dict.get(
+                "height",
+                page.rect.height
+            )
 
             parsed_blocks = []
-            for block_idx, block in enumerate(raw_dict.get("blocks", [])):
-                # block type 0 = text, 1 = image
-                b_type = "text" if block.get("type") == 0 else "image"
-                b_bbox = list(block.get("bbox", [0, 0, 0, 0]))
 
-                lines_data = []
+            for block_idx, block in enumerate(
+                raw_dict.get("blocks", [])
+            ):
+
+                # block type 0 = text, 1 = image
+                b_type = (
+                    "text"
+                    if block.get("type") == 0
+                    else "image"
+                )
+
+                b_bbox = list(
+                    block.get(
+                        "bbox",
+                        [0, 0, 0, 0]
+                    )
+                )
+
+                raw_lines_data = []
+
                 if b_type == "text":
+
                     for line in block.get("lines", []):
-                        l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
-                        spans_data = []
-                        line_text_parts = []
-                        for span in line.get("spans", []):
-                            s_text = span.get("text", "")
-                            line_text_parts.append(s_text)
-                            spans_data.append({
-                                "text": s_text,
-                                "bbox": list(span.get("bbox", [0, 0, 0, 0])),
-                                "font": span.get("font", ""),
-                                "size": round(span.get("size", 0.0), 2),
-                                "color": span.get("color", 0),
-                                "flags": span.get("flags", 0)
-                            })
-                        lines_data.append({
-                            "bbox": l_bbox,
-                            "text": "".join(line_text_parts),
-                            "spans": spans_data
-                        })
+
+                        # Pass the current page so _line_to_entry()
+                        # can inspect vector math glyphs.
+                        raw_lines_data.append(
+                            _line_to_entry(
+                                line,
+                                
+                            )
+                        )
+
+                lines_data = (
+                    _merge_visual_lines(raw_lines_data)
+                    if b_type == "text"
+                    else []
+                )
 
                 parsed_blocks.append({
                     "block_id": block_idx,
                     "type": b_type,
-                    "bbox": b_bbox,
+                    "bbox": _round_bbox(b_bbox),
                     "lines": lines_data
                 })
 
@@ -73,6 +362,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 "height": round(page_height, 2),
                 "blocks": parsed_blocks
             })
+
     finally:
         doc.close()
 
@@ -80,7 +370,6 @@ def parse_pdf_layout(pdf_path: str) -> dict:
         "total_pages": len(pages_data),
         "pages": pages_data
     }
-
 
 def parse_paper(paper_id: str, root_dir: str = PROJECT_ROOT) -> str:
     """

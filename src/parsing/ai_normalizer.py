@@ -14,6 +14,7 @@ Key entry points:
 import urllib.request
 import json
 import re
+from pathlib import Path
 
 from src.config import (
     LLM_PROVIDER,
@@ -29,15 +30,41 @@ from src.config import (
 
 MODEL_NAME = OLLAMA_MODEL_NAME
 
+# Central mathematical symbol mapping
+_SYMBOLS_PATH = (
+    Path(__file__).resolve().parents[1]
+    / "config"
+    / "math_symbols.json"
+)
+
+with open(_SYMBOLS_PATH, "r", encoding="utf-8") as f:
+    _MATH_SYMBOLS = json.load(f)
+
+MATH_SYMBOL_MAP = {}
+
+for category in _MATH_SYMBOLS.values():
+    MATH_SYMBOL_MAP.update(category)
+    
+
+def normalize_math_symbols(text: str) -> str:
+    """Convert known Unicode mathematical symbols to LaTeX."""
+    for symbol, latex in MATH_SYMBOL_MAP.items():
+        text = text.replace(symbol, latex)
+
+    return text
+
 
 def normalize_latex_rules(text: str) -> str:
     """Fast deterministic rule-based LaTeX & chemical formula normalizer."""
     if not text:
         return ""
+    t = text
     # 0. Strip Object Replacement Box (\ufffc), unknown box (\ufffd), PUA font range (\ue000-\uf8ff), and Indic PUA font glyphs
-    t = re.sub(r"[\ufffc\ufffd\ue000-\uf8ff]", "", t)
-    t = re.sub(r"[\u0b00-\u0d7f]", "", t)
-
+   # 3. Greek symbols, Delta & Special Math Symbols
+    t = t.replace("∆", r"\Delta").replace("𝛱", r"\pi").replace("π", r"\pi")
+    t = t.replace("θ", r"\theta").replace("𝜃", r"\theta").replace("Ω", r"\Omega").replace("µ", r"\mu").replace("μ", r"\mu")
+    t = t.replace("±", r"\pm").replace("≈", r"\approx").replace("≠", r"\neq").replace("≤", r"\le").replace("≥", r"\ge").replace("∞", r"\infty")
+    t = normalize_math_symbols(t)
     # 1. Clean nested '$' markers inside display math '$$ ... $$' blocks & replace underscores
     def fix_display_block(m):
         content = m.group(1).replace("$", "").strip()
@@ -213,36 +240,67 @@ def extract_options_and_stem(text: str) -> tuple[str, list[dict]]:
     stem_lines = []
     options = []
 
-    # Inline horizontal or stacked option pattern
-    inline_opt_re = re.compile(
-        r"(?:\(|\b)([a-dA-D1-4])[\)\.\:]\s*([^\(\)\n]+?)(?=\s*(?:\(|\b)[a-dA-D1-4][\)\.\:]|$)"
-    )
-
     mark_junk_re = re.compile(r"^\s*(?:\[\d+\]|\(\d+\)|\b\d+\b)\s*$")
+    option_marker_re = re.compile(r"(?<![A-Za-z])(?:\(([A-Da-d1-4])\)|\b([A-Da-d1-4])[\)\.\:])\s*")
+    label_map = {"1": "A", "2": "B", "3": "C", "4": "D"}
+    current_label = None
+    current_parts = []
+
+    def clean_option_value(value: str) -> str:
+        cleaned = re.sub(r"[\ufffc\ufffd\ue000-\uf8ff]", "", value)
+        cleaned = re.sub(r"\s+", " ", cleaned).strip(" ;,")
+        return cleaned
+
+    def flush_option() -> None:
+        nonlocal current_label, current_parts
+        if current_label:
+            opt_text = clean_option_value(" ".join(current_parts))
+            if opt_text:
+                options.append({"label": current_label, "text": opt_text})
+        current_label = None
+        current_parts = []
 
     for line in lines:
-        if mark_junk_re.match(line) and not stem_lines:
+        if mark_junk_re.match(line) and not stem_lines and not current_label:
             continue
-            
-        matches = list(inline_opt_re.finditer(line))
-        if len(matches) >= 2:
-            # Multi-option horizontal line (e.g. A) Median B) Mean C) Range D) Mode)
-            for m in matches:
-                lbl = m.group(1).upper()
-                opt_txt = m.group(2).strip()
-                options.append({"label": lbl, "text": opt_txt})
-        elif len(matches) == 1 and (options or re.match(r"^\s*(?:\(|\b)[a-dA-D1-4][\)\.\:]", line)):
-            m = matches[0]
-            lbl = m.group(1).upper()
-            opt_txt = m.group(2).strip()
-            options.append({"label": lbl, "text": opt_txt})
-        else:
-            if not options:
-                if not mark_junk_re.match(line):
-                    stem_lines.append(line)
+
+        matches = list(option_marker_re.finditer(line))
+        if matches:
+            leading = line[:matches[0].start()].strip()
+            if leading:
+                if current_label:
+                    current_parts.append(leading)
+                elif not options:
+                    stem_lines.append(leading)
+
+            for idx, match in enumerate(matches):
+                flush_option()
+                raw_label = (match.group(1) or match.group(2) or "").upper()
+                current_label = label_map.get(raw_label, raw_label)
+                part_start = match.end()
+                part_end = matches[idx + 1].start() if idx + 1 < len(matches) else len(line)
+                option_piece = line[part_start:part_end].strip()
+                current_parts = [option_piece] if option_piece else []
+            continue
+
+        if current_label:
+            current_parts.append(line)
+        elif not mark_junk_re.match(line):
+            stem_lines.append(line)
+
+    flush_option()
+
+    deduped_options = []
+    seen_labels = set()
+    for opt in options:
+        label = opt["label"]
+        if label in seen_labels:
+            continue
+        seen_labels.add(label)
+        deduped_options.append(opt)
 
     stem = "\n".join(stem_lines).strip()
-    return stem, options
+    return stem, deduped_options
 
 
 # Lines that are meta-instructions, not actual questions.
@@ -273,15 +331,14 @@ _WRAPPER_RE = re.compile(
 
 # Sub-part openers: (a), (b), a), a., (i), (ii), i., etc.
 _SUBPART_SPLIT_RE = re.compile(
-    r"(?m)^\s*(?:\(([a-zA-Z]|i{1,3}v?|vi{0,3}|ix|x)\)|([a-e])\.|([ivxIVX]{1,4})\.)\s+",
+    r"(?m)^\s*(?:\(([a-e])\)|\((i{1,3}v?|vi{0,3}|ix|x|I{1,3}V?|VI{0,3}|IX|X)\)|([a-e])\.|([ivxIVX]{1,4})\.)\s+",
 )
 
 
 # Standalone sub-part label on its own line: (a), (b), (i), (ii) etc.
 # These are DIVIDERS — content before (a) = Q1, between (a) and (b) = Q2, etc.
 _STANDALONE_LABEL_RE = re.compile(
-    r"^\s*(?:\(([a-eA-E]|i{1,3}v?|vi{0,3}|ix|x)\)|([a-e])\.\s*$)\s*$",
-    re.IGNORECASE,
+    r"^\s*(?:\(([a-e])\)|\((i{1,3}v?|vi{0,3}|ix|x|I{1,3}V?|VI{0,3}|IX|X)\)|([a-e])\.\s*)\s*$",
 )
 
 
