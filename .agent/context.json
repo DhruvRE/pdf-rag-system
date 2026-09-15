@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "current_phase": 1,
-  "updated_at": "2026-08-27T09:02:10.011849+00:00",
+  "updated_at": "2026-09-15T17:44:25.890223+00:00",
   "papers": {
     "799613079bee": {
       "paper_id": "799613079bee",
@@ -873,6 +873,58 @@
         "dedup": "done"
       },
       "updated_at": "2026-08-27T09:02:09.940320+00:00"
+    },
+    "873e7b814031": {
+      "paper_id": "873e7b814031",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2025-2026",
+      "filename": "CMO-Sample-Paper-for-Class-6 olmpiad.pdf",
+      "url": null,
+      "relative_path": "data/raw_pdfs/6/mathematics/2025-2026/CMO-Sample-Paper-for-Class-6 olmpiad.pdf",
+      "fixture_path": null,
+      "page_count": null,
+      "has_images": null,
+      "phase_status": {
+        "scrape": "done",
+        "parse": "done",
+        "segment": "done",
+        "image_link": "done",
+        "chunk": "done",
+        "embed": "done",
+        "dedup": "pending",
+        "retrieval": "pending"
+      },
+      "worker": null,
+      "needs_review": false,
+      "error_reason": null,
+      "updated_at": "2026-09-15T12:24:02.888694+00:00"
+    },
+    "861651971564": {
+      "paper_id": "861651971564",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2019-2020",
+      "filename": "IMO - Class 6 - 2019-20.pdf",
+      "url": null,
+      "relative_path": "data/raw_pdfs/6/mathematics/2019-2020/IMO - Class 6 - 2019-20.pdf",
+      "fixture_path": null,
+      "page_count": null,
+      "has_images": null,
+      "phase_status": {
+        "scrape": "done",
+        "parse": "done",
+        "segment": "done",
+        "image_link": "done",
+        "chunk": "done",
+        "embed": "done",
+        "dedup": "pending",
+        "retrieval": "pending"
+      },
+      "worker": null,
+      "needs_review": false,
+      "error_reason": null,
+      "updated_at": "2026-09-15T17:44:25.889995+00:00"
     }
   }
 }

@@ -21,11 +21,13 @@ from src.parsing.ai_normalizer import ai_split_question_block
 
 
 SECTION_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-E]|SECTION\s*[\-\:\s]*[A-E]|Direction[\s\:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study)",
+    r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-E]|Direction[\s:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study|LOGICAL\s+REASONING|MATHEMATICAL\s+REASONING|EVERYDAY\s+MATHEMATICS|ACHIEVERS?\s+SECTION)",
     re.IGNORECASE
 )
+
+
 INSTRUCTION_HEADER_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*General\s+Instructions",
+    r"^\s*(?:<b>)?\s*(General\s+Instructions|Guidelines\s+for\s+the\s+Candidate|Instructions\s+for\s+the\s+Candidate)",
     re.IGNORECASE
 )
 
@@ -508,13 +510,19 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
                             if len(next_txt) > 5 and not next_txt.startswith("Page") and not next_txt.startswith("Marks"):
                                 num_val = v
 
-        if num_val and 1 <= num_val <= 50:
-            if current_q_num != num_val:
-                last_seen_q_num = current_q_num
-                if last_seen_q_num is None and raw_blocks:
-                    last_seen_q_num = raw_blocks[-1]["question_number"]
-                if last_seen_q_num is not None and num_val != last_seen_q_num + 1:
-                    num_val = None
+        # if num_val and 1 <= num_val <= 50:
+        #     if current_q_num != num_val:
+        #         last_seen_q_num = current_q_num
+        #         if last_seen_q_num is None and raw_blocks:
+        #             last_seen_q_num = raw_blocks[-1]["question_number"]
+        #         if last_seen_q_num is not None and num_val != last_seen_q_num + 1:
+        #             num_val = None
+
+        # Accept valid question numbers independently.
+        # OCR from scanned/two-column papers may not preserve strict
+        # sequential reading order.
+        if num_val is not None and not (1 <= num_val <= 50):
+            num_val = None
 
         if num_val and 1 <= num_val <= 50:
             if current_q_num != num_val:
