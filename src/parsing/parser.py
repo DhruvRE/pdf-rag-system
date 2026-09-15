@@ -281,7 +281,7 @@ def _extract_vector_math_glyphs(
 
     return glyphs
 def _ocr_full_page(page: fitz.page)-> list[dict]:
-     """
+    """
     OCR a scanned page and return text lines with bounding boxes.
 
     Bounding boxes are preserved so downstream segmentation can
