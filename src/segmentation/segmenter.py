@@ -20,14 +20,27 @@ from src.config import PROJECT_ROOT, CONTEXT_PATH
 from src.parsing.ai_normalizer import ai_split_question_block
 
 
+
 SECTION_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-E]|Direction[\s:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study|LOGICAL\s+REASONING|MATHEMATICAL\s+REASONING|EVERYDAY\s+MATHEMATICS|ACHIEVERS?\s+SECTION)",
+    r"^\s*(?:<b>)?\s*("
+    r"Section\s*[\-\:\s]*[A-E]"
+    r"|ASSERTION\s*[\-\:\s]*REASON"
+    r"|Case\s+Study"
+    r"|LOGICAL(?:\s+REASONING)?"
+    r"|MATHEMATIC(?:AL)?(?:\s+REASONING)?"
+    r"|EVERYDAY\s+MATHEMATICS?"
+    r"|ACHIEVERS?\s+SECTION"
+    r")",
     re.IGNORECASE
 )
 
 
 INSTRUCTION_HEADER_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*(General\s+Instructions|Guidelines\s+for\s+the\s+Candidate|Instructions\s+for\s+the\s+Candidate)",
+    r"^\s*(?:<b>)?\s*("
+    r"General\s+Instructions"
+    r"|Guidelines\s+for"
+    r"|Instructions\s+for"
+    r")",
     re.IGNORECASE
 )
 
@@ -38,7 +51,7 @@ Q_PATTERN_A = re.compile(
 )
 # Format B: 1. / 21. / 38. / 33.a. / "1 Question text" at line start
 Q_PATTERN_B = re.compile(
-    r"^\s*(?:<b>)?\s*(\d{1,3})(?:\.(?:[a-zA-Z]\.|\s+|$)|\)\s+|(?=\s+[A-Z(]))"
+    r"^\s*(?:<b>)?\s*(\d{1,3})(?:[\.,:](?:[a-zA-Z]\.)?\s+|\)\s+|(?=\s+[A-Z(]))"
 )
 # Format C: Standalone integer line '1', '2', '21'
 Q_PATTERN_C = re.compile(r"^\s*(\d{1,2})\s*$")
@@ -420,6 +433,20 @@ def parse_question_blocks_from_lines(cleaned_lines: list[str], options: list[str
     return main_stem, subparts_blocks
 
 
+
+def section_for_question_number(q_num: int) -> str:
+    """Return the fixed section for SOF IMO Class 6 (2019-2020)."""
+    if 1 <= q_num <= 15:
+        return "LOGICALREASONING"
+    if 16 <= q_num <= 35:
+        return "MATHEMATICALREASONING"
+    if 36 <= q_num <= 45:
+        return "EVERYDAYMATHEMATICS"
+    if 46 <= q_num <= 50:
+        return "ACHIEVERSSECTION"
+    return "UNKNOWN"
+
+
 def segment_questions_from_pages(pages_dict: dict) -> dict:
     """
     Segments raw page layout blocks into question objects.
@@ -451,9 +478,11 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
 
     current_section = "HEADER"
     in_instructions = False
+    
+    # Each entry:
+    # {"question_number": int, "section": str, "page_num": int,
+    #  "lines": [str], "bboxes": [[x0,y0,x1,y1]]}
 
-    # Each entry: {"question_number": int, "section": str, "page_num": int,
-    #              "lines": [str], "bboxes": [[x0,y0,x1,y1]]}
     raw_blocks: list[dict] = []
     current_block: dict | None = None
     current_q_num: int | None = None
@@ -465,24 +494,35 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         bbox = item["bbox"]
         x0 = bbox[0]
 
+        # Ignore front page/sample instructions completely.
+        if pnum == 1:
+            continue
+
         if INSTRUCTION_HEADER_REGEX.search(txt):
             in_instructions = True
             continue
 
         sec_m = SECTION_REGEX.search(txt)
         if sec_m:
-            current_section = sec_m.group(1).upper().replace(" ", "").replace("-", " ")
+            current_section = (
+                sec_m.group(1)
+                .upper()
+                .replace(" ", "")
+                .replace("-", "")
+            )
             in_instructions = False
+
             if current_block:
                 raw_blocks.append(current_block)
                 current_block = None
                 current_q_num = None
+
             continue
 
         if current_section == "HEADER" or in_instructions:
             continue
 
-        # Right-margin mark labels (e.g. [1], [2]) — skip, they belong to blocks
+        # Right-margin mark labels such as [1], [2]
         if x0 > (pwidth - 90):
             if current_block is not None:
                 current_block["lines"].append(txt)
@@ -491,47 +531,73 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
 
         num_val = None
 
+        # ---------------------------------------------------------
+        # Q1 / Q.1 / Question 1
+        # ---------------------------------------------------------
         mA = Q_PATTERN_A.search(txt)
+
         if mA:
             n_str = [g for g in mA.groups()[1:] if g is not None][0]
             num_val = int(n_str)
+
         else:
-            if x0 < 85:
-                mB = Q_PATTERN_B.search(txt)
-                if mB:
-                    if not re.match(r"^[A-D]\.$", txt):
-                        num_val = int(mB.group(1))
-                else:
-                    mC = Q_PATTERN_C.search(txt)
-                    if mC:
-                        v = int(mC.group(1))
-                        if idx + 1 < len(all_lines):
-                            next_txt = all_lines[idx + 1]["text"]
-                            if len(next_txt) > 5 and not next_txt.startswith("Page") and not next_txt.startswith("Marks"):
-                                num_val = v
+            # -----------------------------------------------------
+            # 1. / 14. / 25. / 50.
+            # -----------------------------------------------------
+            mB = Q_PATTERN_B.search(txt)
 
-        # if num_val and 1 <= num_val <= 50:
-        #     if current_q_num != num_val:
-        #         last_seen_q_num = current_q_num
-        #         if last_seen_q_num is None and raw_blocks:
-        #             last_seen_q_num = raw_blocks[-1]["question_number"]
-        #         if last_seen_q_num is not None and num_val != last_seen_q_num + 1:
-        #             num_val = None
+            if mB:
+                if not re.match(r"^[A-D]\.$", txt):
+                    num_val = int(mB.group(1))
 
-        # Accept valid question numbers independently.
-        # OCR from scanned/two-column papers may not preserve strict
-        # sequential reading order.
+            else:
+                # -------------------------------------------------
+                # Standalone number
+                # -------------------------------------------------
+                mC = Q_PATTERN_C.search(txt)
+
+                if mC:
+                    v = int(mC.group(1))
+
+                    if idx + 1 < len(all_lines):
+                        next_txt = all_lines[idx + 1]["text"]
+
+                        if (
+                            len(next_txt) > 5
+                            and not next_txt.startswith("Page")
+                            and not next_txt.startswith("Marks")
+                        ):
+                            num_val = v
+
+        # Only accept valid question numbers.
         if num_val is not None and not (1 <= num_val <= 50):
             num_val = None
 
-        if num_val and 1 <= num_val <= 50:
+        # ---------------------------------------------------------
+        # Start / continue question block
+        # ---------------------------------------------------------
+        if num_val is not None:
+            candidate_text = txt.strip()
+
+            if len(candidate_text) < 4:
+                continue
+
+            if not re.search(r"[A-Za-z]{3,}", candidate_text):
+                continue
+
+            question_section = section_for_question_number(num_val)
+
+            if question_section == "UNKNOWN":
+                question_section = current_section
+
             if current_q_num != num_val:
                 if current_block:
                     raw_blocks.append(current_block)
+
                 current_q_num = num_val
                 current_block = {
                     "question_number": num_val,
-                    "section": current_section,
+                    "section": question_section,
                     "page_num": pnum,
                     "lines": [txt],
                     "bboxes": [bbox],
@@ -539,13 +605,24 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
             else:
                 current_block["lines"].append(txt)
                 current_block["bboxes"].append(bbox)
+
         elif current_block is not None:
             current_block["lines"].append(txt)
             current_block["bboxes"].append(bbox)
 
+    # Finish final block.
     if current_block:
         raw_blocks.append(current_block)
 
+    # OCR from two-column papers does not necessarily arrive
+    # in logical numerical order, so sort after collection.
+    raw_blocks.sort(
+        key=lambda block: (
+            block["question_number"],
+            block["page_num"],
+            block["bboxes"][0][1] if block["bboxes"] else 0,
+        )
+    )
     # --- AI-powered explosion: one LLM call per numbered block ---
     SUBPART_LABELS = list("abcdefghijklmnopqrstuvwxyz")
     questions: list[dict] = []

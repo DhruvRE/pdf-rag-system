@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "current_phase": 1,
-  "updated_at": "2026-09-15T17:44:25.890223+00:00",
+  "updated_at": "2026-09-19T20:49:21.142689+00:00",
   "papers": {
     "799613079bee": {
       "paper_id": "799613079bee",
@@ -924,7 +924,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-09-15T17:44:25.889995+00:00"
+      "updated_at": "2026-09-19T20:49:21.142479+00:00"
     }
   }
 }

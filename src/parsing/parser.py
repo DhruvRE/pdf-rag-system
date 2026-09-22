@@ -280,119 +280,151 @@ def _extract_vector_math_glyphs(
     glyphs.sort(key=lambda item: item["bbox"][0])
 
     return glyphs
-def _ocr_full_page(page: fitz.page)-> list[dict]:
+def _ocr_full_page(page: fitz.Page) -> list[dict]:
     """
-    OCR a scanned page and return text lines with bounding boxes.
+    OCR a scanned page while handling two-column layouts.
 
-    Bounding boxes are preserved so downstream segmentation can
-    reconstruct the reading order of multi-column question papers.
+    Returns OCR lines with bounding boxes in PDF coordinates.
     """
     try:
         matrix = fitz.Matrix(2, 2)
+        pix = page.get_pixmap(matrix=matrix, alpha=False)
+        image = Image.open(io.BytesIO(pix.tobytes("png")))
 
-        pix = page.get_pixmap(
-            matrix=matrix,
-            alpha=False
-        )
+        width, height = image.size
 
-        image = Image.open(
-            io.BytesIO(pix.tobytes("png"))
-        )
+        # Split page into two columns.
+        mid = width // 2
 
-        data = pytesseract.image_to_data(
-            image,
-            lang="eng",
-            config="--psm 6",
-            output_type=pytesseract.Output.DICT
-        )
+        left_image = image.crop((0, 0, mid, height))
+        right_image = image.crop((mid, 0, width, height))
 
-        lines = {}
-
-        n = len(data["text"])
-
-        for i in range(n):
-            text = data["text"][i].strip()
-
-            if not text:
-                continue
-
-            try:
-                confidence = float(data["conf"][i])
-            except (ValueError, TypeError):
-                confidence = -1
-
-            if confidence < 20:
-                continue
-
-            x = int(data["left"][i])
-            y = int(data["top"][i])
-            w = int(data["width"][i])
-            h = int(data["height"][i])
-
-            block_num = data["block_num"][i]
-            par_num = data["par_num"][i]
-            line_num = data["line_num"][i]
-
-            key = (block_num, par_num, line_num)
-
-            if key not in lines:
-                lines[key] = {
-                    "words": [],
-                    "x0": x,
-                    "y0": y,
-                    "x1": x + w,
-                    "y1": y + h
-                }
-
-            lines[key]["words"].append(text)
-
-            lines[key]["x0"] = min(lines[key]["x0"], x)
-            lines[key]["y0"] = min(lines[key]["y0"], y)
-            lines[key]["x1"] = max(lines[key]["x1"], x + w)
-            lines[key]["y1"] = max(lines[key]["y1"], y + h)
+        columns = [
+            (left_image, 0),
+            (right_image, mid),
+        ]
 
         result = []
 
-        for line in lines.values():
-            text = " ".join(line["words"]).strip()
+        for column_image, x_offset in columns:
 
-            if not text:
-                continue
+            data = pytesseract.image_to_data(
+                column_image,
+                lang="eng",
+                config="--psm 6",
+                output_type=pytesseract.Output.DICT,
+            )
 
-            result.append({
-                "text": text,
-                "bbox": [
-                    line["x0"] / 2,
+            lines = {}
+
+            n = len(data["text"])
+
+            for i in range(n):
+                text = data["text"][i].strip()
+
+                if not text:
+                    continue
+
+                try:
+                    confidence = float(data["conf"][i])
+                except (ValueError, TypeError):
+                    confidence = -1
+
+                if confidence < 20:
+                    continue
+
+                x = int(data["left"][i])
+                y = int(data["top"][i])
+                w = int(data["width"][i])
+                h = int(data["height"][i])
+
+                key = (
+                    data["block_num"][i],
+                    data["par_num"][i],
+                    data["line_num"][i],
+                )
+
+                if key not in lines:
+                    lines[key] = {
+                        "words": [],
+                        "x0": x,
+                        "y0": y,
+                        "x1": x + w,
+                        "y1": y + h,
+                    }
+
+                lines[key]["words"].append(text)
+
+                lines[key]["x0"] = min(
+                    lines[key]["x0"],
+                    x,
+                )
+
+                lines[key]["y0"] = min(
+                    lines[key]["y0"],
+                    y,
+                )
+
+                lines[key]["x1"] = max(
+                    lines[key]["x1"],
+                    x + w,
+                )
+
+                lines[key]["y1"] = max(
+                    lines[key]["y1"],
+                    y + h,
+                )
+
+            for line in lines.values():
+
+                text = " ".join(line["words"]).strip()
+
+                if not text:
+                    continue
+
+                # Convert 2x rendered coordinates back
+                # to original PDF coordinates.
+                bbox = [
+                    (line["x0"] + x_offset) / 2,
                     line["y0"] / 2,
-                    line["x1"] / 2,
-                    line["y1"] / 2
+                    (line["x1"] + x_offset) / 2,
+                    line["y1"] / 2,
                 ]
-            })
 
-        result.sort(key=lambda item: (
-            item["bbox"][1],
-            item["bbox"][0]
-        ))
+                result.append(
+                    {
+                        "text": text,
+                        "bbox": bbox,
+                    }
+                )
+
+        # Reading order:
+        # left column top -> bottom
+        # right column top -> bottom
+        result.sort(
+            key=lambda item: (
+                0 if item["bbox"][0] < page.rect.width / 2 else 1,
+                item["bbox"][1],
+            )
+        )
 
         return result
 
     except Exception as exc:
-        print(
-            f"WARNING: OCR failed for page {page.number + 1}: {exc}"
-        )
+        print(f"Full-page OCR failed: {exc}")
         return []
 def _parse_scanned_pdf(
     pdf_path: str,
-    pages_data: list[dict]
+    pages_data: list[dict],
 ) -> tuple[list[dict], str]:
-    """
-    OCR scanned PDF pages and preserve line-level bounding boxes.
-    """
+
     doc = fitz.open(pdf_path)
+
     ocr_text_parts = []
 
     try:
         for page_idx, page in enumerate(doc):
+
             ocr_lines = _ocr_full_page(page)
 
             if not ocr_lines:
@@ -405,24 +437,29 @@ def _parse_scanned_pdf(
 
             ocr_text_parts.append(page_text)
 
-            pages_data[page_idx]["blocks"].append({
-                "block_id": f"ocr_{page_idx}",
-                "type": "text",
-                "bbox": [
-                    0,
-                    0,
-                    pages_data[page_idx]["width"],
-                    pages_data[page_idx]["height"]
-                ],
-                "lines": [
-                    {
-                        "bbox": line["bbox"],
-                        "text": line["text"],
-                        "spans": []
-                    }
-                    for line in ocr_lines
-                ]
-            })
+            width = page.rect.width
+            height = page.rect.height
+
+            pages_data[page_idx]["blocks"].append(
+                {
+                    "block_id": f"ocr_{page_idx}",
+                    "type": "text",
+                    "bbox": [
+                        0,
+                        0,
+                        width,
+                        height,
+                    ],
+                    "lines": [
+                        {
+                            "bbox": line["bbox"],
+                            "text": line["text"],
+                            "spans": [],
+                        }
+                        for line in ocr_lines
+                    ],
+                }
+            )
 
     finally:
         doc.close()
