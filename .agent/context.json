@@ -23,7 +23,8 @@
         "embed": "done",
         "dedup": "done",
         "structured_draft": "done",
-        "retrieval": "done"
+        "retrieval": "done",
+        "review": "approved"
       },
       "worker": null,
       "needs_review": false,
@@ -50,7 +51,8 @@
         "embed": "done",
         "dedup": "done",
         "structured_draft": "done",
-        "retrieval": "done"
+        "retrieval": "done",
+        "review": "approved"
       },
       "worker": null,
       "needs_review": false,
@@ -77,7 +79,8 @@
         "embed": "done",
         "dedup": "done",
         "structured_draft": "done",
-        "retrieval": "done"
+        "retrieval": "done",
+        "review": "approved"
       },
       "worker": null,
       "needs_review": false,

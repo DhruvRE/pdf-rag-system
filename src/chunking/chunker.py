@@ -82,9 +82,19 @@ def create_question_chunks(questions_dict: dict) -> dict:
         if not raw_txt and not options and not subparts and not images:
             continue
 
-        # Format full chunk content (question text + formatted options)
+        # Keep each option exactly once. PDF source normally already contains
+        # the choices, while the structured `options` field is preserved as
+        # metadata for the UI and retrieval.
         formatted_parts = [raw_txt] if raw_txt else []
-        if options and not any(opt in raw_txt for opt in (options if isinstance(options[0], str) else [o.get("text", "") for o in options])):
+        raw_normalized = raw_txt.lower().replace(" ", "")
+        option_strings = options if options and isinstance(options[0], str) else [
+            f"({o.get('label', '')}) {o.get('text', '')}" for o in (options or [])
+        ]
+        options_already_present = bool(option_strings) and all(
+            opt.lower().replace(" ", "") in raw_normalized
+            for opt in option_strings
+        )
+        if options and not options_already_present:
             opt_str = "\n".join(options) if isinstance(options[0], str) else "\n".join(f"({o.get('label', '')}) {o.get('text', '')}" for o in options)
             formatted_parts.append("\nOptions:\n" + opt_str)
 
