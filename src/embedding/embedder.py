@@ -62,6 +62,28 @@ class LocalVectorStore:
                     UNIQUE(chunk_id, question_hash, prompt_version)
                 )
             """)
+            self.conn.execute("""
+                CREATE TABLE IF NOT EXISTS pattern_profiles (
+                    pattern_id TEXT PRIMARY KEY,
+                    pattern_name TEXT NOT NULL,
+                    class_level TEXT,
+                    subject TEXT,
+                    blueprint_json TEXT NOT NULL,
+                    created_at TEXT NOT NULL,
+                    updated_at TEXT NOT NULL
+                )
+            """)
+            self.conn.execute("""
+                CREATE TABLE IF NOT EXISTS generated_papers (
+                    paper_id TEXT PRIMARY KEY,
+                    pattern_id TEXT NOT NULL,
+                    title TEXT NOT NULL,
+                    class_level TEXT,
+                    subject TEXT,
+                    paper_json TEXT NOT NULL,
+                    created_at TEXT NOT NULL
+                )
+            """)
 
     def _embed_text(self, text: str) -> np.ndarray:
         vec = np.zeros(self.dim, dtype=np.float32)
@@ -237,6 +259,85 @@ class LocalVectorStore:
             ))
 
         return self.get_solution(chunk_id, question_hash, prompt_version)
+
+    def save_pattern_profile(self, pattern_id: str, pattern_name: str, class_level: str, subject: str, blueprint: dict) -> dict:
+        now = datetime.now(timezone.utc).isoformat()
+        with self.conn:
+            self.conn.execute("""
+                INSERT INTO pattern_profiles (
+                    pattern_id, pattern_name, class_level, subject, blueprint_json, created_at, updated_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(pattern_id) DO UPDATE SET
+                    pattern_name = excluded.pattern_name,
+                    class_level = excluded.class_level,
+                    subject = excluded.subject,
+                    blueprint_json = excluded.blueprint_json,
+                    updated_at = excluded.updated_at
+            """, (
+                pattern_id, pattern_name, class_level, subject,
+                json.dumps(blueprint, ensure_ascii=True), now, now
+            ))
+        return self.get_pattern_profile(pattern_id)
+
+    def get_pattern_profile(self, pattern_id: str) -> dict | None:
+        cursor = self.conn.cursor()
+        cursor.execute("""
+            SELECT pattern_id, pattern_name, class_level, subject, blueprint_json, created_at, updated_at
+            FROM pattern_profiles WHERE pattern_id = ?
+        """, (pattern_id,))
+        row = cursor.fetchone()
+        if not row:
+            return None
+        blueprint = json.loads(row[4])
+        return {
+            "pattern_id": row[0],
+            "pattern_name": row[1],
+            "class_level": row[2],
+            "subject": row[3],
+            "blueprint": blueprint,
+            "created_at": row[5],
+            "updated_at": row[6]
+        }
+
+    def save_generated_paper(self, paper_id: str, pattern_id: str, title: str, class_level: str, subject: str, paper: dict) -> dict:
+        created_at = datetime.now(timezone.utc).isoformat()
+        with self.conn:
+            self.conn.execute("""
+                INSERT OR REPLACE INTO generated_papers (
+                    paper_id, pattern_id, title, class_level, subject, paper_json, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?)
+            """, (
+                paper_id, pattern_id, title, class_level, subject,
+                json.dumps(paper, ensure_ascii=True), created_at
+            ))
+        return {
+            "paper_id": paper_id,
+            "pattern_id": pattern_id,
+            "title": title,
+            "class_level": class_level,
+            "subject": subject,
+            "paper": paper,
+            "created_at": created_at
+        }
+
+    def get_generated_paper(self, paper_id: str) -> dict | None:
+        cursor = self.conn.cursor()
+        cursor.execute("""
+            SELECT paper_id, pattern_id, title, class_level, subject, paper_json, created_at
+            FROM generated_papers WHERE paper_id = ?
+        """, (paper_id,))
+        row = cursor.fetchone()
+        if not row:
+            return None
+        return {
+            "paper_id": row[0],
+            "pattern_id": row[1],
+            "title": row[2],
+            "class_level": row[3],
+            "subject": row[4],
+            "paper": json.loads(row[5]),
+            "created_at": row[6]
+        }
 
     def clear(self):
         with self.conn:

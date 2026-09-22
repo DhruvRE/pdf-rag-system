@@ -374,13 +374,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     return cleaned.replace(/\s{2,}/g, ' ').trim();
   }
 
-  // ---------------------------------------------------------
-  // 8. Normalize whitespace
-  // ---------------------------------------------------------
-  return cleaned
-    .replace(/\s{2,}/g, ' ')
-    .trim();
-}
   function cleanOptionText(optText, optLabel) {
     if (!optText) return '';
     let cleaned = String(optText).trim();
@@ -659,7 +652,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   const draftsQueueGrid = document.getElementById('draftsQueueGrid');
   const dedupQueueGrid = document.getElementById('dedupQueueGrid');
   const tabUploadBtn = document.getElementById('tabUploadBtn');
+  const tabPatternBtn = document.getElementById('tabPatternBtn');
   const uploadTabSection = document.getElementById('uploadTabSection');
+  const patternTabSection = document.getElementById('patternTabSection');
   const filtersAside = document.querySelector('.filters-aside');
   const pdfFileInput = document.getElementById('pdfFileInput');
   const pdfFileLabel = document.getElementById('pdfFileLabel');
@@ -688,6 +683,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       draftsTabSection.style.display = 'none';
       if (dedupTabSection) dedupTabSection.style.display = 'none';
       if (uploadTabSection) uploadTabSection.style.display = 'none';
+      if (patternTabSection) patternTabSection.style.display = 'none';
       showSidebarFilter(true);
     });
 
@@ -700,6 +696,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       draftsTabSection.style.display = 'block';
       if (dedupTabSection) dedupTabSection.style.display = 'none';
       if (uploadTabSection) uploadTabSection.style.display = 'none';
+      if (patternTabSection) patternTabSection.style.display = 'none';
       showSidebarFilter(true);
       fetchDraftsQueue();
     });
@@ -713,6 +710,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       draftsTabSection.style.display = 'none';
       if (dedupTabSection) dedupTabSection.style.display = 'block';
       if (uploadTabSection) uploadTabSection.style.display = 'none';
+      if (patternTabSection) patternTabSection.style.display = 'none';
       showSidebarFilter(true);
       fetchDedupQueue();
     });
@@ -727,9 +725,93 @@ document.addEventListener('DOMContentLoaded', async () => {
         draftsTabSection.style.display = 'none';
         if (dedupTabSection) dedupTabSection.style.display = 'none';
         if (uploadTabSection) uploadTabSection.style.display = 'flex';
+        if (patternTabSection) patternTabSection.style.display = 'none';
         showSidebarFilter(false);
       });
     }
+
+    if (tabPatternBtn) {
+      tabPatternBtn.addEventListener('click', () => {
+        tabPatternBtn.classList.add('active');
+        tabSearchBtn.classList.remove('active');
+        tabDraftsBtn.classList.remove('active');
+        tabDedupBtn.classList.remove('active');
+        if (tabUploadBtn) tabUploadBtn.classList.remove('active');
+        searchTabSection.style.display = 'none';
+        draftsTabSection.style.display = 'none';
+        if (dedupTabSection) dedupTabSection.style.display = 'none';
+        if (uploadTabSection) uploadTabSection.style.display = 'none';
+        if (patternTabSection) patternTabSection.style.display = 'flex';
+        showSidebarFilter(false);
+      });
+    }
+  }
+
+  let activePatternId = null;
+  const analyzePatternBtn = document.getElementById('analyzePatternBtn');
+  const generatePatternPaperBtn = document.getElementById('generatePatternPaperBtn');
+  const patternAnalysisResult = document.getElementById('patternAnalysisResult');
+  const generatedPatternPaperResult = document.getElementById('generatedPatternPaperResult');
+
+  if (analyzePatternBtn) {
+    analyzePatternBtn.addEventListener('click', async () => {
+      analyzePatternBtn.disabled = true;
+      patternAnalysisResult.textContent = 'Analyzing indexed question examples...';
+      try {
+        const response = await fetch('/api/patterns/analyze', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            pattern_name: document.getElementById('patternNameInput').value.trim(),
+            class_level: document.getElementById('patternClassInput').value.trim(),
+            subject: document.getElementById('patternSubjectInput').value.trim()
+          })
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || 'Pattern analysis failed');
+        activePatternId = data.pattern_id;
+        generatePatternPaperBtn.disabled = false;
+        patternAnalysisResult.innerHTML = `<strong>Blueprint saved:</strong> ${escapeHtml(data.pattern_name)}<br>Examples analyzed: ${data.blueprint.sample_count}<br>Types: ${escapeHtml(JSON.stringify(data.blueprint.question_type_distribution))}`;
+      } catch (error) {
+        patternAnalysisResult.innerHTML = `<span class="text-rose-400">${escapeHtml(error.message)}</span>`;
+      } finally {
+        analyzePatternBtn.disabled = false;
+      }
+    });
+  }
+
+  if (generatePatternPaperBtn) {
+    generatePatternPaperBtn.addEventListener('click', async () => {
+      if (!activePatternId) return;
+      generatePatternPaperBtn.disabled = true;
+      generatedPatternPaperResult.innerHTML = '<div class="text-emerald-300 text-sm">Generating original questions and solutions...</div>';
+      try {
+        const response = await fetch('/api/papers/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            pattern_id: activePatternId,
+            class_level: document.getElementById('patternClassInput').value.trim(),
+            subject: document.getElementById('patternSubjectInput').value.trim(),
+            topic: document.getElementById('patternTopicInput').value.trim(),
+            difficulty: document.getElementById('patternDifficultyInput').value.trim(),
+            question_count: Number(document.getElementById('patternCountInput').value) || 5
+          })
+        });
+        const data = await response.json();
+        if (!response.ok) throw new Error(data.detail || 'Paper generation failed');
+        generatedPatternPaperResult.innerHTML = `<h3 class="text-base font-bold text-slate-100 mb-3">${escapeHtml(data.title)}</h3>${data.paper.questions.map(question => `
+          <div class="bg-slate-950/80 border border-slate-700/60 rounded-lg p-4 mb-3">
+            <div class="text-xs text-emerald-300 mb-2">${escapeHtml(question.question_number)} · ${escapeHtml(question.question_type || 'question')}</div>
+            <div class="text-sm text-slate-100">${renderMarkdownToHtml(question.question_text)}</div>
+            <details class="mt-3 text-xs text-slate-300"><summary class="cursor-pointer text-indigo-300">View saved solution</summary><div class="mt-2 whitespace-pre-wrap">${escapeHtml(question.solution)}</div></details>
+          </div>`).join('')}`;
+      } catch (error) {
+        generatedPatternPaperResult.innerHTML = `<span class="text-rose-400">${escapeHtml(error.message)}</span>`;
+      } finally {
+        generatePatternPaperBtn.disabled = false;
+      }
+    });
   }
 
   // File Upload Handlers
