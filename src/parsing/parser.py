@@ -59,6 +59,194 @@ def spans_to_math_text(spans: list[dict]) -> str:
 
     return "".join(result)
 
+    glyphs.sort(key=lambda item: item["bbox"][0])
+
+    return glyphs
+def _ocr_full_page(page: fitz.Page) -> list[dict]:
+    """
+    OCR a scanned page while handling two-column layouts.
+
+    Returns OCR lines with bounding boxes in PDF coordinates.
+    """
+    try:
+        matrix = fitz.Matrix(2, 2)
+        pix = page.get_pixmap(matrix=matrix, alpha=False)
+        image = Image.open(io.BytesIO(pix.tobytes("png")))
+
+        width, height = image.size
+
+        # Split page into two columns.
+        mid = width // 2
+
+        left_image = image.crop((0, 0, mid, height))
+        right_image = image.crop((mid, 0, width, height))
+
+        columns = [
+            (left_image, 0),
+            (right_image, mid),
+        ]
+
+        result = []
+
+        for column_image, x_offset in columns:
+
+            data = pytesseract.image_to_data(
+                column_image,
+                lang="eng",
+                config="--psm 6",
+                output_type=pytesseract.Output.DICT,
+            )
+
+            lines = {}
+
+            n = len(data["text"])
+
+            for i in range(n):
+                text = data["text"][i].strip()
+
+                if not text:
+                    continue
+
+                try:
+                    confidence = float(data["conf"][i])
+                except (ValueError, TypeError):
+                    confidence = -1
+
+                if confidence < 20:
+                    continue
+
+                x = int(data["left"][i])
+                y = int(data["top"][i])
+                w = int(data["width"][i])
+                h = int(data["height"][i])
+
+                key = (
+                    data["block_num"][i],
+                    data["par_num"][i],
+                    data["line_num"][i],
+                )
+
+                if key not in lines:
+                    lines[key] = {
+                        "words": [],
+                        "x0": x,
+                        "y0": y,
+                        "x1": x + w,
+                        "y1": y + h,
+                    }
+
+                lines[key]["words"].append(text)
+
+                lines[key]["x0"] = min(
+                    lines[key]["x0"],
+                    x,
+                )
+
+                lines[key]["y0"] = min(
+                    lines[key]["y0"],
+                    y,
+                )
+
+                lines[key]["x1"] = max(
+                    lines[key]["x1"],
+                    x + w,
+                )
+
+                lines[key]["y1"] = max(
+                    lines[key]["y1"],
+                    y + h,
+                )
+
+            for line in lines.values():
+
+                text = " ".join(line["words"]).strip()
+
+                if not text:
+                    continue
+
+                # Convert 2x rendered coordinates back
+                # to original PDF coordinates.
+                bbox = [
+                    (line["x0"] + x_offset) / 2,
+                    line["y0"] / 2,
+                    (line["x1"] + x_offset) / 2,
+                    line["y1"] / 2,
+                ]
+
+                result.append(
+                    {
+                        "text": text,
+                        "bbox": bbox,
+                    }
+                )
+
+        # Reading order:
+        # left column top -> bottom
+        # right column top -> bottom
+        result.sort(
+            key=lambda item: (
+                0 if item["bbox"][0] < page.rect.width / 2 else 1,
+                item["bbox"][1],
+            )
+        )
+
+        return result
+
+    except Exception as exc:
+        print(f"Full-page OCR failed: {exc}")
+        return []
+def _parse_scanned_pdf(
+    pdf_path: str,
+    pages_data: list[dict],
+) -> tuple[list[dict], str]:
+
+    doc = fitz.open(pdf_path)
+
+    ocr_text_parts = []
+
+    try:
+        for page_idx, page in enumerate(doc):
+
+            ocr_lines = _ocr_full_page(page)
+
+            if not ocr_lines:
+                continue
+
+            page_text = "\n".join(
+                line["text"]
+                for line in ocr_lines
+            )
+
+            ocr_text_parts.append(page_text)
+
+            width = page.rect.width
+            height = page.rect.height
+
+            pages_data[page_idx]["blocks"].append(
+                {
+                    "block_id": f"ocr_{page_idx}",
+                    "type": "text",
+                    "bbox": [
+                        0,
+                        0,
+                        width,
+                        height,
+                    ],
+                    "lines": [
+                        {
+                            "bbox": line["bbox"],
+                            "text": line["text"],
+                            "spans": [],
+                        }
+                        for line in ocr_lines
+                    ],
+                }
+            )
+
+    finally:
+        doc.close()
+
+    return pages_data, "\n".join(ocr_text_parts)
 
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
@@ -180,33 +368,75 @@ def parse_paper(paper_id: str, root_dir: str = PROJECT_ROOT) -> str:
 
     parsed_dict = parse_pdf_layout(abs_pdf_path)
 
-    # --- English-only guard ---
-    # Collect all text from the PDF to check language dominance.
-    # Bilingual papers commonly contain an Indic private-font version followed
-    # by an English version. Accept the paper when at least one page is usable;
-    # Phase 3 selects only those English-dominant pages.
-    has_english_page = any(
-        is_english_dominant(" ".join(
-            line["text"]
-            for block in page["blocks"]
-            for line in block.get("lines", [])
-        ))
+    # ---------------------------------------------------------
+    # Language detection + scanned PDF OCR fallback
+    # ---------------------------------------------------------
+
+    # First collect native PDF text.
+    all_text = " ".join(
+        line["text"]
         for page in parsed_dict["pages"]
     )
-    if not has_english_page:
-        print(f"SKIPPED (non-English PDF): {paper_id} ({p_info['filename']})")
+
+    # Scanned/image-only PDFs often have zero native text.
+    # In that case, OCR the complete pages before deciding
+    # whether the document is English.
+    if len(all_text.strip()) < 50:
+        print("Little/no native text detected.")
+        print("Running full-page OCR for scanned PDF...")
+
+        parsed_dict["pages"], ocr_text = _parse_scanned_pdf(
+            abs_pdf_path,
+            parsed_dict["pages"]
+        )
+
+        if ocr_text.strip():
+            all_text = ocr_text
+            print(
+                f"OCR extracted approximately "
+                f"{len(all_text)} characters."
+            )
+
+    # Only reject the PDF if we still have no usable English text.
+    if not all_text.strip():
+        print(
+            f"SKIPPED (no readable text): "
+            f"{paper_id} ({p_info['filename']})"
+        )
+
+        p_info["phase_status"]["parse"] = "skipped_no_text"
+        p_info["updated_at"] = datetime.now(timezone.utc).isoformat()
+        ctx["updated_at"] = datetime.now(timezone.utc).isoformat()
+
+        with open(context_path, 'w', encoding='utf-8') as f:
+            json.dump(ctx, f, indent=2)
+
+        return ""
+
+    if not is_english_dominant(all_text):
+        print(
+            f"SKIPPED (non-English PDF): "
+            f"{paper_id} ({p_info['filename']})"
+        )
+
         p_info["phase_status"]["parse"] = "skipped_non_english"
         p_info["updated_at"] = datetime.now(timezone.utc).isoformat()
         ctx["updated_at"] = datetime.now(timezone.utc).isoformat()
+
         with open(context_path, 'w', encoding='utf-8') as f:
             json.dump(ctx, f, indent=2)
+
         return ""
-    # --- End language guard ---
+
+    # ---------------------------------------------------------
+    # End language detection + OCR fallback
+    # ---------------------------------------------------------
 
     parsed_dict["paper_id"] = paper_id
     parsed_dict["class"] = cls
     parsed_dict["subject"] = subject
     parsed_dict["year"] = year
+    
 
     pages_json_path = os.path.join(parsed_dir, "pages.json")
     with open(pages_json_path, 'w', encoding='utf-8') as f:
