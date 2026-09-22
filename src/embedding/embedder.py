@@ -48,6 +48,20 @@ class LocalVectorStore:
                 """)
             except Exception:
                 pass
+            self.conn.execute("""
+                CREATE TABLE IF NOT EXISTS solutions (
+                    solution_id TEXT PRIMARY KEY,
+                    chunk_id TEXT NOT NULL,
+                    question_hash TEXT NOT NULL,
+                    solution_text TEXT NOT NULL,
+                    model_name TEXT,
+                    prompt_version TEXT NOT NULL,
+                    status TEXT NOT NULL,
+                    created_at TEXT NOT NULL,
+                    updated_at TEXT NOT NULL,
+                    UNIQUE(chunk_id, question_hash, prompt_version)
+                )
+            """)
 
     def _embed_text(self, text: str) -> np.ndarray:
         vec = np.zeros(self.dim, dtype=np.float32)
@@ -172,6 +186,57 @@ class LocalVectorStore:
         cursor = self.conn.cursor()
         cursor.execute("SELECT COUNT(*) FROM vectors")
         return cursor.fetchone()[0]
+
+    def get_solution(self, chunk_id: str, question_hash: str, prompt_version: str) -> dict | None:
+        """Returns a previously generated solution for the exact question payload."""
+        cursor = self.conn.cursor()
+        cursor.execute("""
+            SELECT solution_id, chunk_id, question_hash, solution_text, model_name,
+                   prompt_version, status, created_at, updated_at
+            FROM solutions
+            WHERE chunk_id = ? AND question_hash = ? AND prompt_version = ? AND status = 'completed'
+        """, (chunk_id, question_hash, prompt_version))
+        row = cursor.fetchone()
+        if not row:
+            return None
+
+        fields = [
+            "solution_id", "chunk_id", "question_hash", "solution_text", "model_name",
+            "prompt_version", "status", "created_at", "updated_at"
+        ]
+        return dict(zip(fields, row))
+
+    def save_solution(
+        self,
+        chunk_id: str,
+        question_hash: str,
+        solution_text: str,
+        model_name: str,
+        prompt_version: str
+    ) -> dict:
+        """Upserts a completed solution for an exact question/prompt version."""
+        now = datetime.now(timezone.utc).isoformat()
+        solution_id = hashlib.sha256(
+            f"{chunk_id}:{question_hash}:{prompt_version}".encode("utf-8")
+        ).hexdigest()
+        with self.conn:
+            self.conn.execute("""
+                INSERT INTO solutions (
+                    solution_id, chunk_id, question_hash, solution_text, model_name,
+                    prompt_version, status, created_at, updated_at
+                ) VALUES (?, ?, ?, ?, ?, ?, 'completed', ?, ?)
+                ON CONFLICT(chunk_id, question_hash, prompt_version) DO UPDATE SET
+                    solution_id = excluded.solution_id,
+                    solution_text = excluded.solution_text,
+                    model_name = excluded.model_name,
+                    status = excluded.status,
+                    updated_at = excluded.updated_at
+            """, (
+                solution_id, chunk_id, question_hash, solution_text, model_name,
+                prompt_version, now, now
+            ))
+
+        return self.get_solution(chunk_id, question_hash, prompt_version)
 
     def clear(self):
         with self.conn:

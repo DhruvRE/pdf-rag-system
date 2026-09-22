@@ -7,6 +7,7 @@ import os
 import json
 import re
 import math
+import hashlib
 from fastapi import FastAPI, Query, HTTPException, Response, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -1120,17 +1121,51 @@ def remove_duplicate_chunk(req: RemoveDuplicateRequest):
 
 
 class ExplainRequest(BaseModel):
+    chunk_id: Optional[str] = None
     question_text: str
     options: Optional[List[Any]] = None
+    subparts: Optional[List[Any]] = None
     class_level: Optional[str] = None
     subject: Optional[str] = None
     model_name: Optional[str] = "qwen3-vl:30b"
 
 
+SOLUTION_PROMPT_VERSION = "v1"
+
+
+def build_solution_question_hash(req: ExplainRequest) -> str:
+    """Hashes all question inputs that can change the generated solution."""
+    payload = {
+        "question_text": req.question_text,
+        "options": req.options or [],
+        "subparts": req.subparts or [],
+        "class_level": req.class_level or "10",
+        "subject": req.subject or "General Science/Maths"
+    }
+    canonical_payload = json.dumps(payload, sort_keys=True, ensure_ascii=True, default=str)
+    return hashlib.sha256(canonical_payload.encode("utf-8")).hexdigest()
+
+
 @app.post("/api/explain")
 def generate_question_explanation(req: ExplainRequest):
-    """Generates step-by-step AI explanation and solution using local Ollama model."""
+    """Returns a cached solution or generates and stores one on a cache miss."""
     import urllib.request
+
+    vs = get_vector_store()
+    question_hash = build_solution_question_hash(req)
+    chunk_id = req.chunk_id or f"question_{question_hash}"
+    model_name = req.model_name or "qwen3.5:latest"
+    cached_solution = vs.get_solution(chunk_id, question_hash, SOLUTION_PROMPT_VERSION)
+    if cached_solution:
+        return {
+            "status": "success",
+            "question_text": req.question_text,
+            "explanation": cached_solution["solution_text"],
+            "latex_explanation": cached_solution["solution_text"],
+            "model_used": cached_solution.get("model_name") or model_name,
+            "cache_hit": True,
+            "solution_id": cached_solution["solution_id"]
+        }
 
     opts_lines = []
     if req.options:
@@ -1142,6 +1177,9 @@ def generate_question_explanation(req: ExplainRequest):
             elif isinstance(opt, str):
                 opts_lines.append(opt)
     opts_str = "\n".join(opts_lines) if opts_lines else "N/A (Descriptive / Short Answer)"
+    subparts_str = "\n".join(str(subpart) for subpart in (req.subparts or []))
+    if not subparts_str:
+        subparts_str = "N/A"
 
     subj_str = req.subject or "General Science/Maths"
     cls_str = req.class_level or "10"
@@ -1158,6 +1196,9 @@ Question:
 Options:
 {opts_str}
 
+Subparts:
+{subparts_str}
+
 CRITICAL FORMATTING RULES:
 1. Put the correct answer on Line 1 formatted EXACTLY as:
    **Correct Answer:** Option (X) - <Full Text of Correct Option>
@@ -1168,11 +1209,12 @@ CRITICAL FORMATTING RULES:
 
     ollama_url = "http://localhost:11434/api/generate"
     payload = {
-        "model": req.model_name or "qwen3.5:latest",
+        "model": model_name,
         "prompt": system_prompt,
         "stream": False
     }
 
+    generation_succeeded = True
     try:
         body_bytes = json.dumps(payload).encode('utf-8')
         ollama_req = urllib.request.Request(ollama_url, data=body_bytes, headers={'Content-Type': 'application/json'})
@@ -1181,6 +1223,7 @@ CRITICAL FORMATTING RULES:
             explanation_text = data.get("response", "No response generated.")
     except Exception as e:
         # Graceful fallback if Ollama times out or errors
+        generation_succeeded = False
         explanation_text = f"""**Correct Answer:** Refer to standard textbook principles for Class {cls_str} {subj_str}.
 
 ---
@@ -1193,13 +1236,24 @@ CRITICAL FORMATTING RULES:
 """
 
     latex_explanation = format_to_latex(explanation_text)
+    saved_solution = None
+    if generation_succeeded:
+        saved_solution = vs.save_solution(
+            chunk_id=chunk_id,
+            question_hash=question_hash,
+            solution_text=latex_explanation,
+            model_name=model_name,
+            prompt_version=SOLUTION_PROMPT_VERSION
+        )
 
     return {
         "status": "success",
         "question_text": req.question_text,
         "explanation": latex_explanation,
         "latex_explanation": latex_explanation,
-        "model_used": req.model_name or "qwen3.5:latest"
+        "model_used": model_name,
+        "cache_hit": False,
+        "solution_id": saved_solution["solution_id"] if saved_solution else None
     }
 
 
