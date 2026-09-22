@@ -592,7 +592,10 @@ document.addEventListener('DOMContentLoaded', async () => {
       // Attach raw data properties directly to the button element
       const explainBtn = card.querySelector('.btn-explain-ai');
       if (explainBtn) {
+        explainBtn._chunkId = item.chunk_id;
         explainBtn._questionText = item.stem_text;
+        explainBtn._options = item.options || [];
+        explainBtn._subparts = item.subparts || [];
         explainBtn._classLevel = item.class;
         explainBtn._subject = item.subject;
       }
@@ -622,13 +625,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
+              chunk_id: btn._chunkId || '',
               question_text: btn._questionText || btn.getAttribute('data-stem') || '',
+              options: btn._options || [],
+              subparts: btn._subparts || [],
               class_level: btn._classLevel || '',
               subject: btn._subject || ''
             })
           });
           const data = await res.json();
-          expBox.innerHTML = `<div style="font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">💡 AI Solution & Concept Explanation (${data.model_used}):</div>${escapeHtml(data.explanation || data.latex_explanation)}`;
+          const sourceLabel = data.cache_hit ? 'Saved Solution' : `AI Solution & Concept Explanation (${data.model_used})`;
+          expBox.innerHTML = `<div style="font-weight:700; color:var(--accent-cyan); margin-bottom:8px;">${sourceLabel}:</div>${escapeHtml(data.explanation || data.latex_explanation)}`;
           await typesetMath(expBox);
         } catch (err) {
           expBox.innerHTML = `<div style="color:#f87171;">⚠️ Failed to fetch AI explanation: ${err.message}</div>`;
