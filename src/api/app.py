@@ -8,6 +8,7 @@ import json
 import re
 import math
 import hashlib
+from datetime import datetime, timezone
 from fastapi import FastAPI, Query, HTTPException, Response, File, UploadFile, Form
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -17,7 +18,7 @@ from typing import Optional, List, Any, Union
 from src.embedding.embedder import query_vector_store, get_vector_store
 from src.retrieval.retriever import format_rag_context
 
-from src.config import PROJECT_ROOT, PARSED_DIR, WEB_DIR, CONTEXT_PATH, API_HOST, API_PORT
+from src.config import PROJECT_ROOT, PARSED_DIR, WEB_DIR, CONTEXT_PATH, API_HOST, API_PORT, OLLAMA_API_URL
 from src.parsing.ai_normalizer import is_instruction_header_ai, extract_options_and_stem
 
 DATA_PARSED_DIR = PARSED_DIR
@@ -1255,6 +1256,240 @@ CRITICAL FORMATTING RULES:
         "cache_hit": False,
         "solution_id": saved_solution["solution_id"] if saved_solution else None
     }
+
+
+class PatternAnalyzeRequest(BaseModel):
+    pattern_name: str
+    class_level: str
+    subject: str
+
+
+class PatternGenerateRequest(BaseModel):
+    pattern_id: str
+    class_level: Optional[str] = None
+    subject: Optional[str] = None
+    topic: Optional[str] = None
+    difficulty: Optional[str] = None
+    question_count: int = 5
+    model_name: Optional[str] = "qwen3-vl:30b"
+
+
+def _distribution(values: list[str]) -> dict:
+    result = {}
+    for value in values:
+        normalized = str(value or "unknown")
+        result[normalized] = result.get(normalized, 0) + 1
+    return dict(sorted(result.items(), key=lambda item: (-item[1], item[0])))
+
+
+def _load_pattern_samples(class_level: str, subject: str) -> list[dict]:
+    vs = get_vector_store()
+    samples = []
+    with vs.conn:
+        cursor = vs.conn.cursor()
+        cursor.execute("SELECT id, document, metadata_json FROM vectors")
+        for chunk_id, document, metadata_json in cursor.fetchall():
+            try:
+                metadata = json.loads(metadata_json)
+            except (TypeError, json.JSONDecodeError):
+                continue
+            if str(metadata.get("class")) != str(class_level) or str(metadata.get("subject")) != str(subject):
+                continue
+            samples.append({
+                "chunk_id": chunk_id,
+                "question": document,
+                "section": metadata.get("section", "GENERAL"),
+                "question_type": metadata.get("question_type", "unknown"),
+                "difficulty": metadata.get("difficulty", "unknown")
+            })
+    return samples
+
+
+@app.post("/api/patterns/analyze")
+def analyze_question_pattern(req: PatternAnalyzeRequest):
+    """Builds a persisted pattern blueprint from indexed questions."""
+    samples = _load_pattern_samples(req.class_level, req.subject)
+    if not samples:
+        raise HTTPException(
+            status_code=404,
+            detail=f"No indexed questions found for class {req.class_level} and subject {req.subject}."
+        )
+
+    section_values = [sample["section"] for sample in samples]
+    blueprint = {
+        "schema_version": 1,
+        "source": "indexed_question_bank",
+        "sample_count": len(samples),
+        "section_distribution": _distribution(section_values),
+        "question_type_distribution": _distribution([sample["question_type"] for sample in samples]),
+        "difficulty_distribution": _distribution([sample["difficulty"] for sample in samples]),
+        "questions_per_section": _distribution(section_values),
+        "examples": samples[:12]
+    }
+    pattern_id = hashlib.sha256(
+        f"{req.pattern_name}:{req.class_level}:{req.subject}".encode("utf-8")
+    ).hexdigest()[:16]
+    profile = get_vector_store().save_pattern_profile(
+        pattern_id=pattern_id,
+        pattern_name=req.pattern_name,
+        class_level=req.class_level,
+        subject=req.subject,
+        blueprint=blueprint
+    )
+    return {"status": "success", **profile}
+
+
+@app.get("/api/patterns/{pattern_id}")
+def get_question_pattern(pattern_id: str):
+    profile = get_vector_store().get_pattern_profile(pattern_id)
+    if not profile:
+        raise HTTPException(status_code=404, detail="Pattern profile not found.")
+    return {"status": "success", **profile}
+
+
+def _parse_json_model_response(response_text: str) -> dict:
+    cleaned = response_text.strip()
+    if cleaned.startswith("```"):
+        cleaned = re.sub(r"^```(?:json)?\s*", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\s*```$", "", cleaned)
+    try:
+        parsed = json.loads(cleaned)
+    except json.JSONDecodeError as exc:
+        raise HTTPException(status_code=502, detail=f"Model returned invalid JSON: {exc}") from exc
+    if not isinstance(parsed, dict) or not isinstance(parsed.get("questions"), list):
+        raise HTTPException(status_code=502, detail="Model response must contain a questions array.")
+    return parsed
+
+
+@app.post("/api/papers/generate")
+def generate_pattern_paper(req: PatternGenerateRequest):
+    """Generates a new paper from a saved pattern blueprint and stores its solutions."""
+    import urllib.request
+    if req.question_count < 1 or req.question_count > 50:
+        raise HTTPException(status_code=400, detail="question_count must be between 1 and 50.")
+
+    vs = get_vector_store()
+    profile = vs.get_pattern_profile(req.pattern_id)
+    if not profile:
+        raise HTTPException(status_code=404, detail="Pattern profile not found. Analyze a pattern first.")
+
+    class_level = req.class_level or profile["class_level"]
+    subject = req.subject or profile["subject"]
+    search_text = " ".join(value for value in (req.topic, req.difficulty, subject) if value)
+    examples = vs.query(query_text=search_text, n_results=min(8, req.question_count * 2), where={
+        "class": str(class_level),
+        "subject": str(subject)
+    })
+    example_text = "\n\n".join(
+        f"Example {idx + 1}: {item['document']}"
+        for idx, item in enumerate(examples)
+    ) or "No matching examples were found. Use the blueprint metadata."
+
+    prompt = f"""You generate original educational examination questions.
+Follow this saved exam blueprint exactly in spirit, but do not copy any example wording.
+
+Blueprint:
+{json.dumps(profile['blueprint'], ensure_ascii=True)}
+
+Class: {class_level}
+Subject: {subject}
+Topic: {req.topic or 'balanced coverage from the examples'}
+Difficulty: {req.difficulty or 'follow the blueprint distribution'}
+Question count: {req.question_count}
+
+Reference examples:
+{example_text}
+
+Return ONLY valid JSON with this shape:
+{{
+  "title": "...",
+  "questions": [
+    {{
+      "question_text": "...",
+      "question_type": "...",
+      "options": [{{"label": "A", "text": "..."}}],
+      "correct_answer": "...",
+      "solution": "step-by-step solution"
+    }}
+  ]
+}}
+Every question must have a solution and must be newly written.
+"""
+    payload = {"model": req.model_name or "qwen3.5:latest", "prompt": prompt, "stream": False}
+    try:
+        body = json.dumps(payload).encode("utf-8")
+        ollama_req = urllib.request.Request(
+            OLLAMA_API_URL, data=body, headers={"Content-Type": "application/json"}
+        )
+        with urllib.request.urlopen(ollama_req, timeout=180) as response:
+            response_data = json.loads(response.read().decode("utf-8"))
+            generated = _parse_json_model_response(response_data.get("response", ""))
+    except HTTPException:
+        raise
+    except Exception as exc:
+        raise HTTPException(status_code=502, detail=f"Question generation failed: {exc}") from exc
+
+    questions = generated["questions"][:req.question_count]
+    if len(questions) != req.question_count:
+        raise HTTPException(status_code=502, detail="Model did not generate the requested number of questions.")
+
+    paper_id = hashlib.sha256(
+        f"{req.pattern_id}:{datetime.now(timezone.utc).isoformat()}".encode("utf-8")
+    ).hexdigest()[:16]
+    paper = {
+        "schema_version": 1,
+        "paper_id": paper_id,
+        "pattern_id": req.pattern_id,
+        "title": generated.get("title") or f"Generated {profile['pattern_name']} Paper",
+        "class_level": class_level,
+        "subject": subject,
+        "questions": []
+    }
+    for index, question in enumerate(questions, 1):
+        if not isinstance(question, dict) or not question.get("question_text") or not question.get("solution"):
+            raise HTTPException(status_code=502, detail=f"Generated question {index} is missing text or solution.")
+        chunk_id = f"{paper_id}_q{index}"
+        explain_req = ExplainRequest(
+            chunk_id=chunk_id,
+            question_text=str(question["question_text"]),
+            options=question.get("options") or [],
+            subparts=question.get("subparts") or [],
+            class_level=str(class_level),
+            subject=str(subject),
+            model_name=req.model_name
+        )
+        question_hash = build_solution_question_hash(explain_req)
+        saved_solution = vs.save_solution(
+            chunk_id=chunk_id,
+            question_hash=question_hash,
+            solution_text=str(question["solution"]),
+            model_name=req.model_name or "qwen3.5:latest",
+            prompt_version=SOLUTION_PROMPT_VERSION
+        )
+        paper["questions"].append({
+            **question,
+            "question_number": f"Q{index}",
+            "chunk_id": chunk_id,
+            "solution_id": saved_solution["solution_id"]
+        })
+
+    saved_paper = vs.save_generated_paper(
+        paper_id=paper_id,
+        pattern_id=req.pattern_id,
+        title=paper["title"],
+        class_level=str(class_level),
+        subject=str(subject),
+        paper=paper
+    )
+    return {"status": "success", **saved_paper}
+
+
+@app.get("/api/papers/generated/{paper_id}")
+def get_generated_pattern_paper(paper_id: str):
+    paper = get_vector_store().get_generated_paper(paper_id)
+    if not paper:
+        raise HTTPException(status_code=404, detail="Generated paper not found.")
+    return {"status": "success", **paper}
 
 
 class RefineRequest(BaseModel):
