@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
   <title>EduBank Pro - Question Bank RAG System</title>
 
   <!-- Google Fonts & Material Icons -->
@@ -29,50 +32,650 @@
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 
   <!-- Master Stylesheet Importing Modular CSS Sections -->
-  <link rel="stylesheet" href="style.css?v=modular_v3">
+  <link rel="stylesheet" href="style.css?v=modular_v5">
 </head>
 
 <body class="bg-slate-950 text-slate-100 font-sans overflow-hidden flex h-screen">
 
-  <!-- Sidebar Partial Section -->
-  <div data-partial="partials/sidebar.html"></div>
+  <!-- SideNavBar (Stitch Navigation) -->
+  <nav class="sidebar-nav h-screen w-64 fixed left-0 top-0 flex flex-col py-6 px-4 z-40">
+    <!-- Brand Header -->
+    <div class="px-2 mb-6">
+      <h1 class="font-bold text-lg text-slate-100 tracking-tight flex items-center gap-2.5">
+        <span class="brand-logo-icon w-8 h-8 rounded-lg text-white flex items-center justify-center font-extrabold text-sm shadow-md">E</span>
+        <span>EduBank Pro</span>
+      </h1>
+      <p class="text-xs text-slate-400 font-medium mt-1 pl-10.5">Enterprise Question Engine</p>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="flex flex-col gap-2 px-1">
+      <button id="tabSearchBtn" class="nav-tab active">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">database</span>
+          <span>Question Bank</span>
+        </div>
+      </button>
+
+      <button id="tabDraftsBtn" class="nav-tab">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 0;">assignment</span>
+          <span>Drafts Queue</span>
+        </div>
+        <span id="draftsBadge" class="bg-rose-600 text-white font-bold text-xs px-2 py-0.5 rounded-full">0</span>
+      </button>
+
+      <button id="tabDedupBtn" class="nav-tab">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 0;">find_replace</span>
+          <span>Deduplication</span>
+        </div>
+        <span id="dedupBadge" class="bg-indigo-600 text-white font-bold text-xs px-2 py-0.5 rounded-full">0</span>
+      </button>
+
+      <button id="tabUploadBtn" class="nav-tab">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 0;">upload_file</span>
+          <span>Upload PDF</span>
+        </div>
+      </button>
+
+      <button id="tabPatternBtn" class="nav-tab">
+        <div class="flex items-center gap-3">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 0;">auto_awesome</span>
+          <span>Pattern Lab</span>
+        </div>
+      </button>
+    </div>
+
+    <!-- Stats Counter Box in Sidebar -->
+    <div class="mt-auto m-1 p-4 bg-slate-900/80 rounded-xl border border-slate-700/60 flex flex-col gap-2.5 shadow-sm">
+      <div class="flex justify-between items-center text-xs font-semibold text-slate-300">
+        <span>PDF Papers:</span>
+        <span id="statPapers" class="font-bold text-indigo-400">0</span>
+      </div>
+      <div class="flex justify-between items-center text-xs font-semibold text-slate-300">
+        <span>Vector Questions:</span>
+        <span id="statQuestions" class="font-bold text-indigo-400">0</span>
+      </div>
+      <div class="flex justify-between items-center text-xs font-semibold text-slate-300">
+        <span>Diagram Figures:</span>
+        <span id="statImages" class="font-bold text-emerald-400">0</span>
+      </div>
+    </div>
+  </nav>
 
   <!-- Main Workspace Area -->
   <div class="flex-1 flex flex-col ml-64 overflow-hidden relative">
 
-    <!-- Top Header Navigation Partial -->
-    <div data-partial="partials/header.html"></div>
+    <!-- TopNavBar Header -->
+    <header class="top-header docked full-width top-0 sticky z-30 flex justify-between items-center h-16 px-6 border-b border-slate-800">
+      <!-- Left: Search Input Container -->
+      <div class="flex items-center gap-3 w-full max-w-2xl">
+        <div class="search-container flex-1 flex items-center relative bg-slate-900 border border-slate-700/70 rounded-full px-4 py-2">
+          <span class="material-symbols-outlined text-slate-400 mr-2.5 text-[20px] flex-shrink-0">search</span>
+          <input id="searchInput" class="w-full bg-transparent border-none outline-none text-slate-100 placeholder-slate-400 text-sm font-medium focus:ring-0 focus:outline-none p-0" placeholder="Search questions by keyword, topic, formula..." type="text" autocomplete="off" value=""/>
+          <button id="clearSearchBtn" class="text-slate-400 hover:text-rose-400 text-xs font-bold ml-2 flex-shrink-0 hidden">✕</button>
+        </div>
+        <button id="searchBtn" class="search-btn whitespace-nowrap flex items-center gap-2 px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold rounded-full shadow-md transition-all">
+          <span class="material-symbols-outlined text-[17px]">travel_explore</span>
+          <span>Search RAG Pipeline</span>
+        </button>
+      </div>
+
+      <!-- Right Actions & System Status -->
+      <div class="flex items-center gap-4">
+        <div class="flex items-center gap-2 px-3.5 py-1.5 bg-slate-900 border border-slate-700/60 rounded-full text-[11px] font-semibold text-slate-300 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span>Vector Store DB Active</span>
+        </div>
+
+        <button id="copyPromptBtn" class="hidden px-3.5 py-1.5 bg-indigo-950/80 text-indigo-300 border border-indigo-700/60 rounded-lg text-xs font-bold flex items-center gap-1.5 hover:bg-indigo-900 transition-colors shadow-sm">
+          <span class="material-symbols-outlined text-[16px]">content_copy</span> Copy RAG Prompt
+        </button>
+      </div>
+    </header>
 
     <!-- Main Container Canvas -->
     <main class="main-content-canvas flex-1 overflow-hidden flex gap-6 p-6">
 
-      <!-- Left Filter Sidebar Partial -->
-      <div data-partial="partials/filters.html"></div>
+      <!-- Left Filter Sidebar Panel -->
+      <aside class="filters-aside w-72 flex-shrink-0 flex flex-col h-full overflow-hidden shadow-md">
+        <div class="p-4 border-b border-slate-700/60 flex justify-between items-center bg-slate-900/50">
+          <h2 class="font-bold text-sm text-slate-200 uppercase tracking-wider">Filters</h2>
+          <button id="randomBtn" class="text-xs font-semibold text-indigo-400 hover:text-indigo-300 flex items-center gap-1">Random Sample</button>
+        </div>
+
+        <div class="p-4 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md">
+          <!-- Class Filter -->
+          <div>
+            <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Class Level</h3>
+            <select id="classFilter" class="filter-select">
+              <option value="all">All Classes</option>
+              <option value="6">Class 6</option>
+              <option value="10">Class 10</option>
+              <option value="12">Class 12</option>
+            </select>
+          </div>
+
+          <!-- Subject Filter -->
+          <div>
+            <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Subject Domain</h3>
+            <select id="subjectFilter" class="filter-select">
+              <option value="all">All Subjects</option>
+              <option value="physics">Physics</option>
+              <option value="chemistry">Chemistry</option>
+              <option value="mathematics">Mathematics</option>
+              <option value="science">Science</option>
+            </select>
+          </div>
+
+          <!-- Question Type Filter -->
+          <div>
+            <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Question Type</h3>
+            <select id="typeFilter" class="filter-select">
+              <option value="all">All Types</option>
+              <option value="single_choice_mcq">Single Choice MCQ</option>
+              <option value="assertion_reason">Assertion-Reason</option>
+              <option value="multiple_choice_multi">Multi Choice</option>
+              <option value="case_study_passage">Case Study</option>
+              <option value="short_answer">Short Answer</option>
+              <option value="long_answer">Long Answer</option>
+              <option value="fill_in_the_blank">Fill in Blank</option>
+              <option value="true_false">True / False</option>
+              <option value="match_the_following">Match Following</option>
+              <option value="diagram_based">Diagram Based</option>
+              <option value="numeric_answer">Numeric Calculation</option>
+            </select>
+          </div>
+
+          <!-- Page Size Filter -->
+          <div>
+            <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Questions Per Page</h3>
+            <select id="pageSizeSelect" class="filter-select">
+              <option value="5">5 / Page</option>
+              <option value="10" selected>10 / Page</option>
+              <option value="20">20 / Page</option>
+              <option value="50">50 / Page</option>
+              <option value="-1">All Questions</option>
+            </select>
+          </div>
+
+          <!-- Sample Queries Pills -->
+          <div class="pt-3 border-t border-slate-700/60">
+            <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Sample Queries</h3>
+            <div class="flex flex-col gap-1.5">
+              <button class="sample-pill text-left" data-query="representation of an obtuse angle digit sum">Obtuse Angle (Class 6)</button>
+              <button class="sample-pill text-left" data-query="middle most observation of data Median Mean Range Mode">Median & Mean (Maths)</button>
+              <button class="sample-pill text-left" data-query="Assertion HCF of any two consecutive even natural numbers is 2">Assertion-Reason HCF</button>
+              <button class="sample-pill text-left" data-query="Ohm law electric current resistance circuit diagram">Ohm's Law (Physics)</button>
+            </div>
+          </div>
+        </div>
+      </aside>
 
       <!-- Tab Content Canvas -->
       <section class="flex-1 flex flex-col h-full overflow-hidden">
-        <!-- Question Search Tab Partial -->
-        <div data-partial="partials/question_search.html"></div>
+        
+        <!-- Question Search Tab Content -->
+        <div id="searchTabSection" class="tab-content flex-1 flex flex-col h-full overflow-hidden">
+          <div class="flex justify-between items-center mb-3 flex-shrink-0">
+            <div>
+              <h2 id="resultsCountHeader" class="text-xl text-slate-100 font-bold tracking-tight">Question Search Results</h2>
+              <p id="paginationInfo" class="text-xs text-slate-400 font-medium">Page 1 of 1</p>
+            </div>
+          </div>
 
-        <!-- Drafts Queue Tab Partial -->
-        <div data-partial="partials/drafts_queue.html"></div>
+          <!-- Pipeline Progress Loader Card -->
+          <div id="pipelineLoaderCard" class="bg-slate-900 border border-indigo-500/50 p-4 rounded-xl shadow-md mb-4" style="display: none;">
+            <div class="flex items-center gap-3 mb-3 border-b border-slate-700/60 pb-2">
+              <div class="w-4 h-4 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></div>
+              <h4 class="font-bold text-sm text-indigo-400">Executing RAG Pipeline...</h4>
+            </div>
+            <div class="grid grid-cols-4 gap-3 text-xs">
+              <div id="step1" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+                <span class="font-bold text-indigo-400">1. Embedding</span>
+                <div id="step1Status" class="text-slate-400 mt-0.5">Waiting...</div>
+              </div>
+              <div id="step2" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+                <span class="font-bold text-indigo-400">2. Vector Search</span>
+                <div id="step2Status" class="text-slate-400 mt-0.5">Waiting...</div>
+              </div>
+              <div id="step3" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+                <span class="font-bold text-indigo-400">3. Diagram Link</span>
+                <div id="step3Status" class="text-slate-400 mt-0.5">Waiting...</div>
+              </div>
+              <div id="step4" class="timeline-step p-2.5 rounded bg-slate-950 border border-slate-700/60">
+                <span class="font-bold text-indigo-400">4. Typesetting</span>
+                <div id="step4Status" class="text-slate-400 mt-0.5">Waiting...</div>
+              </div>
+            </div>
+          </div>
 
-        <!-- Deduplication Tab Partial -->
-        <div data-partial="partials/dedup_queue.html"></div>
+          <!-- Scrollable Results Container -->
+          <div id="resultsGrid" class="flex-1 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md pb-stack-lg pr-2">
+            <div class="p-8 text-center bg-slate-900/60 rounded-xl border border-slate-700/60">
+              <h3 class="text-base font-semibold text-slate-300">Loading questions...</h3>
+            </div>
+          </div>
 
-        <!-- Upload PDF Tab Partial -->
-        <div data-partial="partials/upload_pdf.html"></div>
+          <!-- Pagination Controls -->
+          <div id="paginationBar" class="flex justify-center items-center gap-3 py-3 border-t border-slate-700/60" style="display: none;">
+            <button id="firstPageBtn" class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">first_page</span>
+              <span>First</span>
+            </button>
+            <button id="prevPageBtn" class="flex items-center gap-1">
+              <span class="material-symbols-outlined text-[16px]">chevron_left</span>
+              <span>Prev</span>
+            </button>
+            <span id="pageIndicator" class="text-xs font-bold px-3 py-1 bg-slate-900 border border-slate-700/60 rounded-full text-indigo-300">Page 1 of 1</span>
+            <button id="nextPageBtn" class="flex items-center gap-1">
+              <span>Next</span>
+              <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+            </button>
+            <button id="lastPageBtn" class="flex items-center gap-1">
+              <span>Last</span>
+              <span class="material-symbols-outlined text-[16px]">last_page</span>
+            </button>
+          </div>
+        </div>
 
-        <!-- Pattern Lab Tab Partial -->
-        <div data-partial="partials/pattern_lab.html"></div>
+        <!-- Drafts Review Queue Tab Content -->
+        <div id="draftsTabSection" class="tab-content flex-1 flex flex-col h-full overflow-hidden" style="display: none;">
+          <div class="mb-4">
+            <h2 class="text-xl text-slate-100 font-bold tracking-tight">Drafts Review Queue & Quality Gate</h2>
+            <p class="text-xs text-slate-400 font-medium mt-0.5">Review low-confidence extractions, self-validation flags, and approve structured question drafts.</p>
+          </div>
+          <div id="draftsQueueGrid" class="flex-1 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md pb-stack-lg pr-2">
+            <div class="p-8 text-center bg-slate-900/60 rounded-xl border border-slate-700/60">
+              <h3 class="text-base font-semibold text-slate-300">Loading draft review queue...</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Deduplication Queue Tab Content -->
+        <div id="dedupTabSection" class="tab-content flex-1 flex flex-col h-full overflow-hidden" style="display: none;">
+          <div class="mb-4">
+            <h2 class="text-xl text-slate-100 font-bold tracking-tight">Cross-Paper Question Deduplication</h2>
+            <p class="text-xs text-slate-400 font-medium mt-0.5">Pairwise vector similarity analysis detecting identical or duplicate questions across exam papers.</p>
+          </div>
+          <div id="dedupQueueGrid" class="flex-1 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md pb-stack-lg pr-2">
+            <div class="p-8 text-center bg-slate-900/60 rounded-xl border border-slate-700/60">
+              <h3 class="text-base font-semibold text-slate-300">Loading duplicate question queue...</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upload PDF Tab Content -->
+        <div id="uploadTabSection" class="tab-content flex-1 flex flex-col h-full overflow-y-auto custom-scrollbar pr-2" style="display: none;">
+          <!-- Header -->
+          <div class="mb-6 flex-shrink-0">
+            <h2 class="text-xl text-slate-100 font-bold tracking-tight">Upload & Process PDF Paper</h2>
+            <p class="text-xs text-slate-400 font-medium">Extract questions, inspect diagram connections, refine context with AI, and commit into dedicated School Vector DB.</p>
+          </div>
+
+          <!-- Upload Form Grid -->
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+            <!-- File Dropzone -->
+            <div class="lg:col-span-2 bg-slate-900 border-2 border-dashed border-slate-700 hover:border-indigo-500 rounded-xl p-6 flex flex-col items-center justify-center text-center cursor-pointer transition-all relative" id="pdfDropzone">
+              <input type="file" id="pdfFileInput" accept=".pdf" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full" />
+              <span class="material-symbols-outlined text-indigo-400 text-[48px] mb-2">upload_file</span>
+              <h3 class="text-sm font-bold text-slate-200" id="pdfFileLabel">Drag & drop your question paper PDF here</h3>
+              <p class="text-xs text-slate-400 mt-1">Supports CBSE, Navodaya, KV, Olympiad, and School Exam PDFs (up to 50MB)</p>
+            </div>
+
+            <!-- Metadata Configuration Form -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 flex flex-col gap-4">
+              <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider border-b border-slate-800 pb-2">Paper Metadata & School DB</h3>
+              
+              <!-- School / Institution Input -->
+              <div>
+                <label class="block text-[11px] font-semibold text-indigo-300 uppercase tracking-wider mb-1 flex items-center gap-1.5">
+                  <span class="material-symbols-outlined text-xs">school</span>
+                  <span>School / Institution Name</span>
+                </label>
+                <div class="relative">
+                  <input 
+                    type="text"
+                    id="uploadSchoolInput" 
+                    list="schoolListSuggestions" 
+                    class="filter-select w-full bg-slate-800 text-slate-100 border border-indigo-600/60 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-semibold shadow-inner" 
+                    placeholder="e.g. Navodaya, DPS, KV, CBSE" 
+                    value="Navodaya"
+                    autocomplete="off"
+                  />
+                  <datalist id="schoolListSuggestions">
+                    <option value="Navodaya">Navodaya Vidyalaya</option>
+                    <option value="Kendriya Vidyalaya">Kendriya Vidyalaya (KV)</option>
+                    <option value="Delhi Public School">Delhi Public School (DPS)</option>
+                    <option value="CBSE Central Board">CBSE Central Board</option>
+                  </datalist>
+                </div>
+                <div class="mt-1 flex items-center justify-between text-[10px] text-slate-400">
+                  <span>Isolated Target DB:</span>
+                  <span class="font-mono text-emerald-400 font-semibold" id="uploadDbHint">navodaya.db</span>
+                </div>
+              </div>
+
+              <!-- Class Select -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Class Level</label>
+                <select id="uploadClassSelect" class="filter-select">
+                  <option value="LKG">LKG</option>
+                  <option value="UKG">UKG</option>
+                  <option value="1">Class 1</option>
+                  <option value="2">Class 2</option>
+                  <option value="3">Class 3</option>
+                  <option value="4">Class 4</option>
+                  <option value="5">Class 5</option>
+                  <option value="6">Class 6</option>
+                  <option value="7">Class 7</option>
+                  <option value="8">Class 8</option>
+                  <option value="9">Class 9</option>
+                  <option value="10" selected>Class 10</option>
+                  <option value="11">Class 11</option>
+                  <option value="12">Class 12</option>
+                </select>
+              </div>
+
+              <!-- Subject Input -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
+                <select id="uploadSubjectSelect" class="filter-select">
+                  <option value="mathematics" selected>Mathematics</option>
+                  <option value="physics">Physics</option>
+                  <option value="chemistry">Chemistry</option>
+                  <option value="biology">Biology</option>
+                  <option value="science">Science</option>
+                  <option value="social_science">Social Science</option>
+                  <option value="english">English</option>
+                  <option value="general_knowledge">General Knowledge</option>
+                  <option value="other">Other / General</option>
+                </select>
+              </div>
+
+              <!-- PDF Type Select -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">PDF Type</label>
+                <select id="uploadTypeSelect" class="filter-select">
+                  <option value="Question Paper" selected>Question Paper</option>
+                  <option value="Olympiad Paper">Olympiad Paper</option>
+                  <option value="Sample Paper">Sample Paper</option>
+                  <option value="Worksheet">Worksheet</option>
+                  <option value="Mock Test">Mock Test</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <!-- Academic Year -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Academic Year</label>
+                <select id="uploadYearSelect" class="filter-select">
+                  <option value="2024-2025" selected>2024-2025</option>
+                  <option value="2023-2024">2023-2024</option>
+                  <option value="2022-2023">2022-2023</option>
+                  <option value="2021-2022">2021-2022</option>
+                </select>
+              </div>
+
+              <button id="processPdfBtn" class="w-full py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white font-bold text-xs rounded-lg shadow-md transition-all flex items-center justify-center gap-2 mt-2">
+                <span class="material-symbols-outlined text-[18px]">auto_fix_high</span>
+                <span>Process PDF Paper</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Processing Status Loader -->
+          <div id="uploadStatusCard" class="bg-slate-900 border border-indigo-500/50 p-4 rounded-xl shadow-md mb-6" style="display: none;">
+            <div class="flex items-center gap-3">
+              <div class="w-4 h-4 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></div>
+              <h4 class="font-bold text-sm text-indigo-400" id="uploadStatusText">Parsing PDF pages & routing questions into school database...</h4>
+            </div>
+          </div>
+
+          <!-- Context & Connection Inspection Panel -->
+          <div id="contextReviewPanel" class="flex flex-col gap-6" style="display: none;">
+            <!-- Paper Summary Stats Header -->
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-4 flex justify-between items-center">
+              <div>
+                <span class="text-xs font-bold text-indigo-400 uppercase tracking-wider">Extracted Paper Context</span>
+                <h3 class="text-base font-bold text-slate-100 mt-0.5" id="reviewPaperTitle">Paper #00000</h3>
+              </div>
+              
+              <div class="flex items-center gap-3">
+                <button id="aiRefineBtn" class="px-4 py-2 bg-indigo-950 text-indigo-300 border border-indigo-700/60 hover:bg-indigo-900 text-xs font-bold rounded-lg flex items-center gap-2 transition-all shadow-sm">
+                  <span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+                  <span>✨ Improve Context (AI Refine)</span>
+                </button>
+
+                <button id="embedFinalBtn" class="px-5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg flex items-center gap-2 transition-all shadow-md">
+                  <span class="material-symbols-outlined text-[16px]">database</span>
+                  <span>⚡ Embed PDF into School Vector DB</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Questions Preview List -->
+            <div id="contextQuestionsList" class="flex flex-col gap-4"></div>
+          </div>
+        </div>
+
+        <!-- Pattern Lab Tab Content -->
+        <div id="patternTabSection" class="tab-content flex-1 flex flex-col h-full overflow-y-auto custom-scrollbar pr-2" style="display: none;">
+          <div class="mb-5 flex items-center justify-between">
+            <div>
+              <h2 class="text-xl text-slate-100 font-bold tracking-tight">Pattern Lab</h2>
+              <p class="text-xs text-slate-400 mt-1">Select a school, analyze its question paper pattern, and generate authentic examination questions conforming to that school's style.</p>
+            </div>
+            <button id="refreshSchoolsBtn" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-all shadow-sm">
+              <span class="material-symbols-outlined text-[16px]">sync</span>
+              <span>Refresh Schools</span>
+            </button>
+          </div>
+
+          <!-- Step 1: School Selection & Pattern Analysis -->
+          <div class="bg-slate-900/90 rounded-xl border border-slate-700/60 p-5 mb-5 shadow-sm">
+            <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+              <h3 class="text-sm font-bold text-indigo-300 flex items-center gap-2">
+                <span class="w-5 h-5 rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 flex items-center justify-center text-xs font-bold">1</span>
+                <span>Select School & Analyze Exam Pattern</span>
+              </h3>
+              <span class="text-[11px] text-slate-400">School-Isolated Database Engine</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+              <!-- School Dropdown -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Target School / DB</label>
+                <select id="patternSchoolSelect" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-medium">
+                  <option value="">Loading schools...</option>
+                </select>
+              </div>
+
+              <!-- Pattern Blueprint Name -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Blueprint Name</label>
+                <input id="patternNameInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500" value="Navodaya Pattern" placeholder="Pattern name" />
+              </div>
+
+              <!-- Class Select -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Class Level</label>
+                <select id="patternClassInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+                  <option value="all">All Classes</option>
+                  <option value="6">Class 6</option>
+                  <option value="7">Class 7</option>
+                  <option value="8">Class 8</option>
+                  <option value="9">Class 9</option>
+                  <option value="10" selected>Class 10</option>
+                  <option value="11">Class 11</option>
+                  <option value="12">Class 12</option>
+                </select>
+              </div>
+
+              <!-- Subject Select -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
+                <select id="patternSubjectInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+                  <option value="all">All Subjects</option>
+                  <option value="mathematics" selected>Mathematics</option>
+                  <option value="science">Science</option>
+                  <option value="physics">Physics</option>
+                  <option value="chemistry">Chemistry</option>
+                  <option value="biology">Biology</option>
+                  <option value="social_science">Social Science</option>
+                  <option value="english">English</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Active School DB Telemetry Card -->
+            <div id="schoolDbInfoCard" class="mt-3 p-3 bg-slate-950/70 rounded-lg border border-slate-800 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-indigo-400 text-base">database</span>
+                <span id="schoolDbStatusText">Active School DB: <strong class="text-indigo-300 font-mono">navodaya.db</strong></span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span id="schoolDbQuestionCount" class="text-emerald-400 font-semibold bg-emerald-950/40 border border-emerald-800/60 px-2 py-0.5 rounded text-[11px]">0 questions indexed</span>
+                <span id="schoolDbPaperCount" class="text-slate-400 text-[11px] bg-slate-800/60 px-2 py-0.5 rounded">0 papers uploaded</span>
+              </div>
+            </div>
+
+            <button id="analyzePatternBtn" class="mt-4 px-4 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all shadow-md flex items-center gap-2">
+              <span class="material-symbols-outlined text-[18px]">analytics</span>
+              <span>Analyze and Save School Blueprint</span>
+            </button>
+            <div id="patternAnalysisResult" class="mt-3 text-xs text-slate-300"></div>
+          </div>
+
+          <!-- Step 2: Paper Generation Matching School Pattern -->
+          <div class="bg-slate-900/90 rounded-xl border border-slate-700/60 p-5 mb-5 shadow-sm">
+            <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+              <h3 class="text-sm font-bold text-emerald-300 flex items-center gap-2">
+                <span class="w-5 h-5 rounded-full bg-emerald-950 border border-emerald-700 text-emerald-300 flex items-center justify-center text-xs font-bold">2</span>
+                <span id="generateSectionTitle">Generate Original Paper (Navodaya Style)</span>
+              </h3>
+              <span class="text-[11px] text-slate-400">Strict Pattern & Blueprint Conformance</span>
+            </div>
+
+            <!-- Parameter Controls Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 mb-4">
+              <!-- Subject Selection -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
+                <select id="patternGenSubjectSelect" class="filter-select w-full bg-slate-800 text-indigo-300 border border-indigo-700/70 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-bold shadow-inner">
+                  <option value="mathematics" selected>Mathematics</option>
+                  <option value="science">Science (General)</option>
+                  <option value="physics">Physics</option>
+                  <option value="chemistry">Chemistry</option>
+                  <option value="biology">Biology</option>
+                  <option value="social_science">Social Science</option>
+                  <option value="english">English</option>
+                </select>
+              </div>
+
+              <!-- Class Level -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Class Level</label>
+                <select id="patternGenClassSelect" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+                  <option value="6">Class 6</option>
+                  <option value="7">Class 7</option>
+                  <option value="8">Class 8</option>
+                  <option value="9">Class 9</option>
+                  <option value="10" selected>Class 10</option>
+                  <option value="11">Class 11</option>
+                  <option value="12">Class 12</option>
+                </select>
+              </div>
+
+              <!-- Topic / Chapter with Dynamic Suggestions -->
+              <div class="lg:col-span-2">
+                <div class="flex items-center justify-between mb-1">
+                  <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Topic / Chapter</label>
+                  <span class="text-[10px] text-slate-500">Type or select chapter</span>
+                </div>
+                <div class="relative">
+                  <input 
+                    id="patternTopicInput" 
+                    list="patternTopicSuggestions"
+                    class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-medium" 
+                    placeholder="e.g. Quadratic Equations, AP, Trigonometry" 
+                    value="Quadratic Equations & Roots"
+                    autocomplete="off"
+                  />
+                  <datalist id="patternTopicSuggestions">
+                    <option value="Quadratic Equations & Roots">Algebra: ax² + bx + c = 0</option>
+                    <option value="Arithmetic Progressions (AP)">AP: nth term & Sum</option>
+                    <option value="Triangles & Similarity (with Figure)">Geometry: Thales BPT & Ratios</option>
+                    <option value="Circles & Tangents (with Figure)">Geometry: Tangents & Pythagoras</option>
+                    <option value="Introduction to Trigonometry">Trig: Identities & Angles</option>
+                    <option value="Heights and Distances">Applications of Trigonometry</option>
+                    <option value="Coordinate Geometry & Section Formula">Distance & Section formula</option>
+                    <option value="Sets & Venn Diagrams (with Figure)">Set Operations & Word Problems</option>
+                    <option value="Surface Areas & Volumes">3D Solids & Melting Shapes</option>
+                    <option value="Probability & Statistics">Cards, Dice, Mean, Median</option>
+                    <option value="Real Numbers & Polynomials">HCF, LCM, Irrational Proofs</option>
+                  </datalist>
+                </div>
+              </div>
+
+              <!-- Question Type -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Question Type</label>
+                <select id="patternTypeSelect" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+                  <option value="all" selected>All / Balanced Exam Mix</option>
+                  <option value="mcq">MCQ (4 Numerical Options)</option>
+                  <option value="numerical">Short Calculation / Equations</option>
+                  <option value="long">Long Derivations & Proofs</option>
+                  <option value="diagram">Geometry with Figures / Sets</option>
+                </select>
+              </div>
+
+              <!-- Target Difficulty -->
+              <div>
+                <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Target Difficulty</label>
+                <select id="patternDifficultyInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+                  <option value="medium" selected>Standard Exam Level</option>
+                  <option value="easy">Easy (Foundational)</option>
+                  <option value="hard">Hard (Advanced / HOTS)</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Secondary Row: Question Count & Action Button -->
+            <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-800/80">
+              <div class="flex items-center gap-3">
+                <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Number of Questions:</label>
+                <input id="patternCountInput" class="filter-select w-20 bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-1.5 text-xs focus:outline-none focus:border-indigo-500 font-bold text-center" type="number" min="1" max="25" value="5" />
+              </div>
+
+              <button id="generatePatternPaperBtn" class="px-5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer">
+                <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+                <span id="generateBtnText">Synthesize Mathematical Exam Paper</span>
+              </button>
+            </div>
+
+            <div id="generatedPatternPaperResult" class="mt-4"></div>
+          </div>
+        </div>
+
       </section>
     </main>
   </div>
 
-  <!-- Image Lightbox Modal Partial -->
-  <div data-partial="partials/lightbox_modal.html"></div>
+  <!-- Image Lightbox Modal Overlay -->
+  <div id="imageLightboxModal" class="lightbox-modal">
+    <div class="lightbox-img-container">
+      <img id="lightboxImage" src="" alt="Full Resolution Diagram Figure" class="lightbox-img" />
+    </div>
+    <div class="lightbox-controls">
+      <a id="downloadImageBtn" href="#" download="diagram.png" target="_blank" class="lightbox-btn">⬇ Download High-Res PNG</a>
+      <button id="closeLightboxBtn" class="lightbox-btn" style="background: var(--accent-rose); border-color: var(--accent-rose);">✕ Close (Esc)</button>
+    </div>
+  </div>
 
-  <!-- Main Frontend JavaScript Logic -->
-  <script src="app.js?v=modular_v4"></script>
+  <!-- Main Frontend JavaScript Logic with Versioned Cache-Buster -->
+  <script src="app.js?v=navodaya_math_v6"></script>
 </body>
 </html>
