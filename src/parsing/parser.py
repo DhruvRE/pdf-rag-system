@@ -7,10 +7,11 @@ writing pages.json under data/parsed/<class>/<subject>/<year>/<paper_id>/.
 import os
 import json
 import re
-import fitz
-import re
 import io
-import pytesseract
+try:
+    import fitz
+except ImportError:
+    import pymupdf as fitz
 from PIL import Image
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
@@ -60,6 +61,11 @@ def spans_to_math_text(spans: list[dict]) -> str:
     return "".join(result)
 
 
+def _round_bbox(bbox: list) -> list:
+    """Rounds coordinates of a bounding box [x0, y0, x1, y1] to 2 decimal places."""
+    return [round(float(coord), 2) for coord in bbox] if bbox else [0.0, 0.0, 0.0, 0.0]
+
+
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
     Parses PDF layout and text using PyMuPDF (fitz).
@@ -75,7 +81,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
     try:
         for page_idx, page in enumerate(doc):
 
-            raw_dict = page.get_text("rawdict")
+            raw_dict = page.get_text("dict")
 
             page_width = raw_dict.get(
                 "width",
@@ -107,7 +113,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                     )
                 )
 
-                raw_lines_data = []
+                lines_data = []
 
                 if b_type == "text":
 
