@@ -1,28 +1,198 @@
 <div id="patternTabSection" class="tab-content flex-1 flex flex-col h-full overflow-y-auto custom-scrollbar pr-2" style="display: none;">
-  <div class="mb-5">
-    <h2 class="text-xl text-slate-100 font-bold tracking-tight">Pattern Lab</h2>
-    <p class="text-xs text-slate-400 mt-1">Analyze indexed examples, save a blueprint, and generate an original paper with solutions.</p>
+  <!-- Header -->
+  <div class="mb-5 flex items-center justify-between">
+    <div>
+      <h2 class="text-xl text-slate-100 font-bold tracking-tight">Pattern Lab</h2>
+      <p class="text-xs text-slate-400 mt-1">Select a school, analyze its question paper pattern, and generate authentic examination questions conforming to that school's style.</p>
+    </div>
+    <button id="refreshSchoolsBtn" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-lg flex items-center gap-1.5 transition-all shadow-sm">
+      <span class="material-symbols-outlined text-[16px]">sync</span>
+      <span>Refresh Schools</span>
+    </button>
   </div>
 
-  <div class="bg-slate-900/80 rounded-xl border border-slate-700/60 p-5 mb-4">
-    <h3 class="text-sm font-bold text-indigo-300 mb-3">1. Analyze paper pattern</h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-      <input id="patternNameInput" class="filter-select" value="Navodaya Pattern" placeholder="Pattern name" />
-      <input id="patternClassInput" class="filter-select" value="10" placeholder="Class" />
-      <input id="patternSubjectInput" class="filter-select" value="mathematics" placeholder="Subject" />
+  <!-- Step 1: School Selection & Pattern Analysis -->
+  <div class="bg-slate-900/90 rounded-xl border border-slate-700/60 p-5 mb-5 shadow-sm">
+    <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+      <h3 class="text-sm font-bold text-indigo-300 flex items-center gap-2">
+        <span class="w-5 h-5 rounded-full bg-indigo-950 border border-indigo-700 text-indigo-300 flex items-center justify-center text-xs font-bold">1</span>
+        <span>Select School & Analyze Exam Pattern</span>
+      </h3>
+      <span class="text-[11px] text-slate-400">School-Isolated Database Engine</span>
     </div>
-    <button id="analyzePatternBtn" class="mt-4 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-sm font-semibold">Analyze and Save Blueprint</button>
+
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-3">
+      <!-- School Dropdown -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Target School / DB</label>
+        <select id="patternSchoolSelect" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-medium">
+          <option value="">Loading schools...</option>
+        </select>
+      </div>
+
+      <!-- Pattern Blueprint Name -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Blueprint Name</label>
+        <input id="patternNameInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500" value="Navodaya Pattern" placeholder="Pattern name" />
+      </div>
+
+      <!-- Class Select -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Class Level</label>
+        <select id="patternClassInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+          <option value="all">All Classes</option>
+          <option value="6">Class 6</option>
+          <option value="7">Class 7</option>
+          <option value="8">Class 8</option>
+          <option value="9">Class 9</option>
+          <option value="10" selected>Class 10</option>
+          <option value="11">Class 11</option>
+          <option value="12">Class 12</option>
+        </select>
+      </div>
+
+      <!-- Subject Select -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
+        <select id="patternSubjectInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+          <option value="all">All Subjects</option>
+          <option value="mathematics" selected>Mathematics</option>
+          <option value="science">Science</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="biology">Biology</option>
+          <option value="social_science">Social Science</option>
+          <option value="english">English</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Active School DB Telemetry Card -->
+    <div id="schoolDbInfoCard" class="mt-3 p-3 bg-slate-950/70 rounded-lg border border-slate-800 text-xs text-slate-300 flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="material-symbols-outlined text-indigo-400 text-base">database</span>
+        <span id="schoolDbStatusText">Active School DB: <strong class="text-indigo-300 font-mono">navodaya.db</strong></span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span id="schoolDbQuestionCount" class="text-emerald-400 font-semibold bg-emerald-950/40 border border-emerald-800/60 px-2 py-0.5 rounded text-[11px]">0 questions indexed</span>
+        <span id="schoolDbPaperCount" class="text-slate-400 text-[11px] bg-slate-800/60 px-2 py-0.5 rounded">0 papers uploaded</span>
+      </div>
+    </div>
+
+    <button id="analyzePatternBtn" class="mt-4 px-4 py-2.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition-all shadow-md flex items-center gap-2">
+      <span class="material-symbols-outlined text-[18px]">analytics</span>
+      <span>Analyze and Save School Blueprint</span>
+    </button>
     <div id="patternAnalysisResult" class="mt-3 text-xs text-slate-300"></div>
   </div>
 
-  <div class="bg-slate-900/80 rounded-xl border border-slate-700/60 p-5 mb-4">
-    <h3 class="text-sm font-bold text-emerald-300 mb-3">2. Generate original paper</h3>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-      <input id="patternTopicInput" class="filter-select" placeholder="Topic (optional)" />
-      <input id="patternDifficultyInput" class="filter-select" placeholder="Difficulty (optional)" />
-      <input id="patternCountInput" class="filter-select" type="number" min="1" max="50" value="5" placeholder="Question count" />
+  <!-- Step 2: Paper Generation Matching School Pattern -->
+  <div class="bg-slate-900/90 rounded-xl border border-slate-700/60 p-5 mb-5 shadow-sm">
+    <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+      <h3 class="text-sm font-bold text-emerald-300 flex items-center gap-2">
+        <span class="w-5 h-5 rounded-full bg-emerald-950 border border-emerald-700 text-emerald-300 flex items-center justify-center text-xs font-bold">2</span>
+        <span id="generateSectionTitle">Generate Original Paper (Navodaya Style)</span>
+      </h3>
+      <span class="text-[11px] text-slate-400">Strict Pattern & Blueprint Conformance</span>
     </div>
-    <button id="generatePatternPaperBtn" class="mt-4 px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-sm font-semibold" disabled>Generate Paper</button>
+
+    <!-- Parameter Controls Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 mb-4">
+      <!-- Subject Selection -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
+        <select id="patternGenSubjectSelect" class="filter-select w-full bg-slate-800 text-indigo-300 border border-indigo-700/70 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-bold shadow-inner">
+          <option value="mathematics" selected>Mathematics</option>
+          <option value="science">Science (General)</option>
+          <option value="physics">Physics</option>
+          <option value="chemistry">Chemistry</option>
+          <option value="biology">Biology</option>
+          <option value="social_science">Social Science</option>
+          <option value="english">English</option>
+        </select>
+      </div>
+
+      <!-- Class Level -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Class Level</label>
+        <select id="patternGenClassSelect" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+          <option value="6">Class 6</option>
+          <option value="7">Class 7</option>
+          <option value="8">Class 8</option>
+          <option value="9">Class 9</option>
+          <option value="10" selected>Class 10</option>
+          <option value="11">Class 11</option>
+          <option value="12">Class 12</option>
+        </select>
+      </div>
+
+      <!-- Topic / Chapter with Dynamic Suggestions -->
+      <div class="lg:col-span-2">
+        <div class="flex items-center justify-between mb-1">
+          <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Topic / Chapter</label>
+          <span class="text-[10px] text-slate-500">Type or select chapter</span>
+        </div>
+        <div class="relative">
+          <input 
+            id="patternTopicInput" 
+            list="patternTopicSuggestions"
+            class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-medium" 
+            placeholder="e.g. Quadratic Equations, AP, Trigonometry" 
+            value="Quadratic Equations"
+            autocomplete="off"
+          />
+          <datalist id="patternTopicSuggestions">
+            <option value="Quadratic Equations & Roots">Algebra: ax² + bx + c = 0</option>
+            <option value="Arithmetic Progressions (AP)">AP: nth term & Sum</option>
+            <option value="Triangles & Similarity (with Figure)">Geometry: Thales BPT & Ratios</option>
+            <option value="Circles & Tangents (with Figure)">Geometry: Tangents & Pythagoras</option>
+            <option value="Introduction to Trigonometry">Trig: Identities & Angles</option>
+            <option value="Heights and Distances">Applications of Trigonometry</option>
+            <option value="Coordinate Geometry & Section Formula">Distance & Section formula</option>
+            <option value="Sets & Venn Diagrams (with Figure)">Set Operations & Word Problems</option>
+            <option value="Surface Areas & Volumes">3D Solids & Melting Shapes</option>
+            <option value="Probability & Statistics">Cards, Dice, Mean, Median</option>
+            <option value="Real Numbers & Polynomials">HCF, LCM, Irrational Proofs</option>
+          </datalist>
+        </div>
+      </div>
+
+      <!-- Question Type -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Question Type</label>
+        <select id="patternTypeSelect" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+          <option value="all" selected>All / Balanced Exam Mix</option>
+          <option value="mcq">MCQ (4 Numerical Options)</option>
+          <option value="numerical">Short Calculation / Equations</option>
+          <option value="long">Long Derivations & Proofs</option>
+          <option value="diagram">Geometry with Figures / Sets</option>
+        </select>
+      </div>
+
+      <!-- Target Difficulty -->
+      <div>
+        <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Target Difficulty</label>
+        <select id="patternDifficultyInput" class="filter-select w-full bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500">
+          <option value="medium" selected>Standard Exam Level</option>
+          <option value="easy">Easy (Foundational)</option>
+          <option value="hard">Hard (Advanced / HOTS)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Secondary Row: Question Count & Action Button -->
+    <div class="flex flex-wrap items-center justify-between gap-3 pt-2 border-t border-slate-800/80">
+      <div class="flex items-center gap-3">
+        <label class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Number of Questions:</label>
+        <input id="patternCountInput" class="filter-select w-20 bg-slate-800 text-slate-100 border border-slate-700 rounded-lg px-3 py-1.5 text-xs focus:outline-none focus:border-indigo-500 font-bold text-center" type="number" min="1" max="25" value="5" />
+      </div>
+
+      <button id="generatePatternPaperBtn" class="px-5 py-2.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-md flex items-center gap-2 cursor-pointer">
+        <span class="material-symbols-outlined text-[18px]">auto_awesome</span>
+        <span id="generateBtnText">Synthesize Mathematical Exam Paper</span>
+      </button>
+    </div>
+
     <div id="generatedPatternPaperResult" class="mt-4"></div>
   </div>
 </div>

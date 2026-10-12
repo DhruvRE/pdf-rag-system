@@ -64,6 +64,7 @@ def create_question_chunks(questions_dict: dict) -> dict:
     cls = questions_dict.get("class")
     subject = questions_dict.get("subject")
     year = questions_dict.get("year")
+    school = questions_dict.get("school")
 
     chunks = []
     for q in questions_dict.get("questions", []):
@@ -127,6 +128,8 @@ def create_question_chunks(questions_dict: dict) -> dict:
             "bounding_box": q.get("bounding_box"),
             "difficulty": difficulty
         }
+        if school:
+            chunk_obj["school"] = school
         chunks.append(chunk_obj)
 
     return {
@@ -134,6 +137,7 @@ def create_question_chunks(questions_dict: dict) -> dict:
         "class": cls,
         "subject": subject,
         "year": year,
+        "school": school,
         "total_chunks": len(chunks),
         "chunks": chunks
     }
@@ -274,6 +278,9 @@ def chunk_paper(paper_id: str, root_dir: str = PROJECT_ROOT) -> str:
         questions_dict = convert_structured_draft_to_questions_dict(draft_json, paper_id, cls, subject, year)
     else:
         raise FileNotFoundError(f"Neither questions.json nor structured_draft.json found at {parsed_dir}")
+
+    if p_info.get("school"):
+        questions_dict.setdefault("school", p_info["school"])
 
     chunks_dict = create_question_chunks(questions_dict)
     chunks_json_path = os.path.join(parsed_dir, "chunks.json")

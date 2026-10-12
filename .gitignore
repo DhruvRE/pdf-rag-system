@@ -33,3 +33,4 @@ htmlcov/
 # Temporary / Scratch files
 scratch/
 *.log
+.vscode/

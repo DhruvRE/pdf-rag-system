@@ -743,71 +743,358 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (uploadTabSection) uploadTabSection.style.display = 'none';
         if (patternTabSection) patternTabSection.style.display = 'flex';
         showSidebarFilter(false);
+        fetchSchoolsList();
       });
     }
   }
 
+  // --- School & Pattern Lab Management ---
   let activePatternId = null;
+  let availableSchools = [];
+
+  const patternSchoolSelect = document.getElementById('patternSchoolSelect');
+  const refreshSchoolsBtn = document.getElementById('refreshSchoolsBtn');
+  const patternNameInput = document.getElementById('patternNameInput');
+  const patternClassInput = document.getElementById('patternClassInput');
+  const patternSubjectInput = document.getElementById('patternSubjectInput');
+  const schoolDbStatusText = document.getElementById('schoolDbStatusText');
+  const schoolDbQuestionCount = document.getElementById('schoolDbQuestionCount');
+  const schoolDbPaperCount = document.getElementById('schoolDbPaperCount');
+  const generateSectionTitle = document.getElementById('generateSectionTitle');
+  const generateBtnText = document.getElementById('generateBtnText');
   const analyzePatternBtn = document.getElementById('analyzePatternBtn');
   const generatePatternPaperBtn = document.getElementById('generatePatternPaperBtn');
   const patternAnalysisResult = document.getElementById('patternAnalysisResult');
   const generatedPatternPaperResult = document.getElementById('generatedPatternPaperResult');
+  const uploadSchoolInput = document.getElementById('uploadSchoolInput');
+  const uploadDbHint = document.getElementById('uploadDbHint');
+  const schoolListSuggestions = document.getElementById('schoolListSuggestions');
+
+  function slugifySchool(name) {
+    if (!name) return 'general';
+    return name.trim().toLowerCase().replace(/[^\w\s-]/g, '').replace(/[\s_-]+/g, '_').replace(/^_+|_+$/g, '') || 'general';
+  }
+
+  // Reactive DB hint on upload form
+  if (uploadSchoolInput && uploadDbHint) {
+    uploadSchoolInput.addEventListener('input', () => {
+      const slug = slugifySchool(uploadSchoolInput.value);
+      uploadDbHint.textContent = `${slug}.db`;
+    });
+  }
+
+  async function fetchSchoolsList(selectSchoolSlug = null) {
+    try {
+      const res = await fetch('/api/schools');
+      if (!res.ok) return;
+      const data = await res.json();
+      availableSchools = data.schools || [];
+
+      // Update Pattern Lab school dropdown
+      if (patternSchoolSelect) {
+        const prevValue = selectSchoolSlug || patternSchoolSelect.value;
+        patternSchoolSelect.innerHTML = '';
+
+        if (availableSchools.length === 0) {
+          patternSchoolSelect.innerHTML = '<option value="navodaya">Navodaya Vidyalaya (navodaya.db)</option>';
+        } else {
+          availableSchools.forEach(school => {
+            const opt = document.createElement('option');
+            opt.value = school.id;
+            const qCount = school.question_count || 0;
+            const pCount = school.paper_count || 0;
+            opt.textContent = `${school.name} (${qCount} questions · ${school.db_file})`;
+            patternSchoolSelect.appendChild(opt);
+          });
+        }
+
+        if (prevValue && Array.from(patternSchoolSelect.options).some(o => o.value === prevValue)) {
+          patternSchoolSelect.value = prevValue;
+        } else if (Array.from(patternSchoolSelect.options).some(o => o.value === 'navodaya')) {
+          patternSchoolSelect.value = 'navodaya';
+        }
+
+        updateSchoolUiState();
+      }
+
+      // Update upload datalist suggestions
+      if (schoolListSuggestions) {
+        schoolListSuggestions.innerHTML = '';
+        availableSchools.forEach(school => {
+          const opt = document.createElement('option');
+          opt.value = school.name;
+          opt.textContent = `${school.name} (${school.db_file})`;
+          schoolListSuggestions.appendChild(opt);
+        });
+      }
+    } catch (err) {
+      console.warn('Could not fetch schools list:', err);
+    }
+  }
+
+  function updateSchoolUiState() {
+    if (!patternSchoolSelect) return;
+    const selectedId = patternSchoolSelect.value;
+    const school = availableSchools.find(s => s.id === selectedId) || {
+      id: selectedId,
+      name: patternSchoolSelect.selectedOptions[0]?.text.split(' (')[0] || 'Navodaya Vidyalaya',
+      db_file: `${slugifySchool(selectedId)}.db`,
+      question_count: 0,
+      paper_count: 0
+    };
+
+    if (patternNameInput) {
+      patternNameInput.value = `${school.name} Exam Pattern`;
+    }
+    if (generateSectionTitle) {
+      generateSectionTitle.textContent = `Generate Original Paper (${school.name} Style)`;
+    }
+    if (generateBtnText) {
+      generateBtnText.textContent = `Generate Paper in ${school.name} Pattern`;
+    }
+    if (schoolDbStatusText) {
+      schoolDbStatusText.innerHTML = `Active School DB: <strong class="text-indigo-300 font-mono">${escapeHtml(school.db_file || school.id + '.db')}</strong>`;
+    }
+    if (schoolDbQuestionCount) {
+      schoolDbQuestionCount.textContent = `${school.question_count || 0} questions indexed`;
+    }
+    if (schoolDbPaperCount) {
+      schoolDbPaperCount.textContent = `${school.paper_count || 0} papers uploaded`;
+    }
+
+    if (analyzePatternBtn) {
+      if ((school.question_count || 0) === 0) {
+        analyzePatternBtn.title = 'No questions indexed yet. Upload a PDF paper for this school first.';
+      } else {
+        analyzePatternBtn.title = 'Ready for pattern analysis';
+      }
+    }
+  }
+
+  if (patternSchoolSelect) {
+    patternSchoolSelect.addEventListener('change', updateSchoolUiState);
+  }
+
+  if (refreshSchoolsBtn) {
+    refreshSchoolsBtn.addEventListener('click', () => {
+      refreshSchoolsBtn.classList.add('animate-spin');
+      fetchSchoolsList().finally(() => {
+        setTimeout(() => refreshSchoolsBtn.classList.remove('animate-spin'), 600);
+      });
+    });
+  }
+
+  // Initial load of school directory
+  fetchSchoolsList();
 
   if (analyzePatternBtn) {
     analyzePatternBtn.addEventListener('click', async () => {
       analyzePatternBtn.disabled = true;
-      patternAnalysisResult.textContent = 'Analyzing indexed question examples...';
+      patternAnalysisResult.innerHTML = '<div class="text-indigo-300 flex items-center gap-2"><span class="w-3 h-3 border-2 border-indigo-400 border-t-transparent rounded-full animate-spin"></span><span>Querying school database & analyzing exam blueprints...</span></div>';
       try {
+        const selectedSchool = patternSchoolSelect ? patternSchoolSelect.value : null;
         const response = await fetch('/api/patterns/analyze', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             pattern_name: document.getElementById('patternNameInput').value.trim(),
             class_level: document.getElementById('patternClassInput').value.trim(),
-            subject: document.getElementById('patternSubjectInput').value.trim()
+            subject: document.getElementById('patternSubjectInput').value.trim(),
+            school: selectedSchool
           })
         });
         const data = await response.json();
         if (!response.ok) throw new Error(data.detail || 'Pattern analysis failed');
         activePatternId = data.pattern_id;
         generatePatternPaperBtn.disabled = false;
-        patternAnalysisResult.innerHTML = `<strong>Blueprint saved:</strong> ${escapeHtml(data.pattern_name)}<br>Examples analyzed: ${data.blueprint.sample_count}<br>Types: ${escapeHtml(JSON.stringify(data.blueprint.question_type_distribution))}`;
+
+        const typesBadge = Object.entries(data.blueprint.question_type_distribution || {})
+          .map(([t, count]) => `<span class="bg-indigo-950/70 border border-indigo-700/50 text-indigo-300 px-2 py-0.5 rounded text-[10px] font-mono">${escapeHtml(t)}: ${count}</span>`)
+          .join(' ');
+
+        const diffBadge = Object.entries(data.blueprint.difficulty_distribution || {})
+          .map(([d, count]) => `<span class="bg-slate-800 border border-slate-700 text-slate-300 px-2 py-0.5 rounded text-[10px] font-mono">${escapeHtml(d)}: ${count}</span>`)
+          .join(' ');
+
+        patternAnalysisResult.innerHTML = `
+          <div class="p-3 bg-indigo-950/40 border border-indigo-800/60 rounded-lg flex flex-col gap-2">
+            <div class="flex items-center justify-between">
+              <span class="text-emerald-400 font-bold flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-[16px]">verified</span>
+                <span>Blueprint Saved: ${escapeHtml(data.pattern_name)}</span>
+              </span>
+              <span class="text-slate-400 text-[11px] font-mono">DB: ${escapeHtml(data.school || selectedSchool)}.db</span>
+            </div>
+            <div class="text-slate-300 text-xs">
+              <strong>Sample Questions Analyzed:</strong> ${data.blueprint.sample_count} questions from ${escapeHtml(data.school || 'selected school')}
+            </div>
+            <div class="flex flex-wrap items-center gap-1.5 mt-1">
+              <span class="text-slate-400 text-[11px]">Format Distribution:</span>
+              ${typesBadge || '<span class="text-slate-500">Standard mix</span>'}
+            </div>
+            <div class="flex flex-wrap items-center gap-1.5">
+              <span class="text-slate-400 text-[11px]">Difficulty Profile:</span>
+              ${diffBadge || '<span class="text-slate-500">Balanced</span>'}
+            </div>
+          </div>
+        `;
       } catch (error) {
-        patternAnalysisResult.innerHTML = `<span class="text-rose-400">${escapeHtml(error.message)}</span>`;
+        patternAnalysisResult.innerHTML = `<div class="p-3 bg-rose-950/40 border border-rose-800/60 rounded-lg text-rose-400 flex items-center gap-2"><span class="material-symbols-outlined text-base">error</span><span>${escapeHtml(error.message)}</span></div>`;
       } finally {
         analyzePatternBtn.disabled = false;
       }
     });
   }
 
+  // --- Dynamic Subject & Topic Suggestions in Step 2 ---
+  const patternGenSubjectSelect = document.getElementById('patternGenSubjectSelect');
+  const patternTopicSuggestions = document.getElementById('patternTopicSuggestions');
+  const subjectTopicsMap = {
+    mathematics: [
+      { val: "Quadratic Equations & Roots", label: "Algebra: ax² + bx + c = 0" },
+      { val: "Arithmetic Progressions (AP)", label: "AP: nth term & Sum" },
+      { val: "Triangles & Similarity (with Figure)", label: "Geometry: Thales BPT & Ratios" },
+      { val: "Circles & Tangents (with Figure)", label: "Geometry: Tangents & Pythagoras" },
+      { val: "Introduction to Trigonometry", label: "Trig: Identities & Angles" },
+      { val: "Heights and Distances", label: "Applications of Trigonometry" },
+      { val: "Coordinate Geometry & Section Formula", label: "Distance & Section formula" },
+      { val: "Sets & Venn Diagrams (with Figure)", label: "Set Operations & Word Problems" },
+      { val: "Surface Areas & Volumes", label: "3D Solids & Melting Shapes" },
+      { val: "Probability & Statistics", label: "Cards, Dice, Mean, Median" },
+      { val: "Real Numbers & Polynomials", label: "HCF, LCM, Irrational Proofs" }
+    ],
+    physics: [
+      { val: "Electricity & Ohm's Law (Numericals)", label: "Current, Resistance & Joule Heat" },
+      { val: "Light - Reflection & Refraction", label: "Mirror & Lens Formula Numericals" },
+      { val: "Magnetic Effects of Electric Current", label: "Fleming's Rules & Solenoid" },
+      { val: "Human Eye & Dispersion", label: "Prism & Atmospheric Refraction" }
+    ],
+    science: [
+      { val: "Electricity & Circuits", label: "Physics: Ohm's Law" },
+      { val: "Light - Optics", label: "Physics: Reflection & Refraction" },
+      { val: "Chemical Reactions & Balancing", label: "Chemistry: Balancing & Types" },
+      { val: "Acids, Bases & Salts", label: "Chemistry: pH & Reactions" },
+      { val: "Life Processes & Photosynthesis", label: "Biology: Photosynthesis & Respiration" }
+    ],
+    chemistry: [
+      { val: "Chemical Reactions & Equations", label: "Balancing & Types of Reactions" },
+      { val: "Acids, Bases and Salts", label: "Indicators, pH & Salt Reactions" },
+      { val: "Metals and Non-metals", label: "Reactivity Series & Ionic Bonds" },
+      { val: "Carbon and its Compounds", label: "Covalent Bonds & Functional Groups" }
+    ],
+    biology: [
+      { val: "Life Processes (Nutrition & Respiration)", label: "Photosynthesis, Digestion & ATP" },
+      { val: "Control and Coordination", label: "Nervous System & Phytohormones" },
+      { val: "How do Organisms Reproduce", label: "Asexual & Sexual Reproduction" },
+      { val: "Heredity & Mendel's Crosses", label: "Monohybrid & Dihybrid Ratios" }
+    ]
+  };
+
+  function updateTopicSuggestions(subject) {
+    if (!patternTopicSuggestions) return;
+    const s = (subject || 'mathematics').toLowerCase();
+    const list = subjectTopicsMap[s] || subjectTopicsMap.mathematics;
+    patternTopicSuggestions.innerHTML = '';
+    list.forEach(item => {
+      const opt = document.createElement('option');
+      opt.value = item.val;
+      opt.textContent = item.label;
+      patternTopicSuggestions.appendChild(opt);
+    });
+    if (patternTopicInput && list.length > 0) {
+      patternTopicInput.value = list[0].val;
+    }
+  }
+
+  if (patternGenSubjectSelect) {
+    patternGenSubjectSelect.addEventListener('change', () => {
+      updateTopicSuggestions(patternGenSubjectSelect.value);
+    });
+  }
+
   if (generatePatternPaperBtn) {
     generatePatternPaperBtn.addEventListener('click', async () => {
-      if (!activePatternId) return;
       generatePatternPaperBtn.disabled = true;
-      generatedPatternPaperResult.innerHTML = '<div class="text-emerald-300 text-sm">Generating original questions and solutions...</div>';
+      generatedPatternPaperResult.innerHTML = '<div class="p-4 bg-emerald-950/30 border border-emerald-800/50 rounded-lg text-emerald-300 text-sm flex items-center gap-2"><div class="w-4 h-4 border-2 border-emerald-400 border-t-transparent rounded-full animate-spin"></div><span>Synthesizing mathematical questions conforming to school pattern & solutions...</span></div>';
       try {
+        const selectedSchool = patternSchoolSelect ? patternSchoolSelect.value : 'navodaya';
+        const genSubjectEl = document.getElementById('patternGenSubjectSelect');
+        const genClassEl = document.getElementById('patternGenClassSelect');
+        const genTypeEl = document.getElementById('patternTypeSelect');
+        const subjectVal = (genSubjectEl ? genSubjectEl.value : document.getElementById('patternSubjectInput')?.value) || 'mathematics';
+        const classVal = (genClassEl ? genClassEl.value : document.getElementById('patternClassInput')?.value) || '10';
+        const qTypeVal = genTypeEl ? genTypeEl.value : 'all';
+        const topicVal = document.getElementById('patternTopicInput')?.value.trim() || 'Quadratic Equations & Roots';
+        const diffVal = document.getElementById('patternDifficultyInput')?.value.trim() || 'medium';
+        const countVal = Number(document.getElementById('patternCountInput')?.value) || 5;
+
         const response = await fetch('/api/papers/generate', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
-            pattern_id: activePatternId,
-            class_level: document.getElementById('patternClassInput').value.trim(),
-            subject: document.getElementById('patternSubjectInput').value.trim(),
-            topic: document.getElementById('patternTopicInput').value.trim(),
-            difficulty: document.getElementById('patternDifficultyInput').value.trim(),
-            question_count: Number(document.getElementById('patternCountInput').value) || 5
+            pattern_id: activePatternId || 'auto',
+            school: selectedSchool,
+            class_level: classVal,
+            subject: subjectVal,
+            topic: topicVal,
+            difficulty: diffVal,
+            question_type: qTypeVal,
+            question_count: countVal
           })
         });
         const data = await response.json();
         if (!response.ok) throw new Error(data.detail || 'Paper generation failed');
-        generatedPatternPaperResult.innerHTML = `<h3 class="text-base font-bold text-slate-100 mb-3">${escapeHtml(data.title)}</h3>${data.paper.questions.map(question => `
-          <div class="bg-slate-950/80 border border-slate-700/60 rounded-lg p-4 mb-3">
-            <div class="text-xs text-emerald-300 mb-2">${escapeHtml(question.question_number)} · ${escapeHtml(question.question_type || 'question')}</div>
-            <div class="text-sm text-slate-100">${renderMarkdownToHtml(question.question_text)}</div>
-            <details class="mt-3 text-xs text-slate-300"><summary class="cursor-pointer text-indigo-300">View saved solution</summary><div class="mt-2 whitespace-pre-wrap">${escapeHtml(question.solution)}</div></details>
-          </div>`).join('')}`;
+        
+        const schoolTitle = data.school || (patternSchoolSelect ? patternSchoolSelect.options[patternSchoolSelect.selectedIndex]?.text.split(' (')[0] : 'School');
+
+        generatedPatternPaperResult.innerHTML = `
+          <div class="bg-slate-900 border border-emerald-800/60 rounded-xl p-5 mb-4 shadow-lg">
+            <div class="flex items-center justify-between border-b border-slate-800 pb-3 mb-4">
+              <div>
+                <span class="text-xs font-bold text-emerald-400 uppercase tracking-wider bg-emerald-950/60 border border-emerald-700/60 px-2 py-0.5 rounded">
+                  ${escapeHtml(schoolTitle)} Pattern Compliant
+                </span>
+                <h3 class="text-lg font-bold text-slate-100 mt-1">${escapeHtml(data.title)}</h3>
+              </div>
+              <span class="text-xs text-slate-400 font-mono">${data.paper.questions.length} Generated Questions</span>
+            </div>
+
+            <div class="flex flex-col gap-4">
+              ${data.paper.questions.map(question => {
+                const cleanQText = (question.question_text || '').replace(/^\\[[^\\]]+\\]\\s*/, '');
+                return `
+                <div class="bg-slate-950/80 border border-slate-800 rounded-lg p-4 transition-all hover:border-slate-700">
+                  <div class="flex items-center justify-between text-xs mb-2">
+                    <span class="font-bold text-emerald-300">${escapeHtml(question.question_number)} · ${escapeHtml(question.question_type || 'Question')}</span>
+                    ${question.correct_answer ? `<span class="text-[11px] text-slate-400 font-mono">Answer: ${escapeHtml(question.correct_answer)}</span>` : ''}
+                  </div>
+                  <div class="text-sm text-slate-100 leading-relaxed">${renderMarkdownToHtml(cleanQText)}</div>
+                  ${question.options && question.options.length ? `
+                    <div class="mt-3 grid grid-cols-1 md:grid-cols-2 gap-2 text-xs">
+                      ${question.options.map(opt => `
+                        <div class="p-2 bg-slate-900 border border-slate-800 rounded flex items-start gap-2">
+                          <span class="font-bold text-indigo-400">(${escapeHtml(opt.label || '')})</span>
+                          <span class="text-slate-200">${renderMarkdownToHtml(opt.text || '')}</span>
+                        </div>
+                      `).join('')}
+                    </div>
+                  ` : ''}
+                  <details class="mt-3 text-xs text-slate-300">
+                    <summary class="cursor-pointer text-indigo-400 font-semibold hover:text-indigo-300 flex items-center gap-1">
+                      <span class="material-symbols-outlined text-[14px]">help</span>
+                      <span>View Step-by-Step Solution (${escapeHtml(schoolTitle)} Marking Scheme)</span>
+                    </summary>
+                    <div class="mt-2 p-3 bg-slate-900/90 rounded border border-slate-800 text-slate-300 leading-relaxed whitespace-pre-wrap">${renderMarkdownToHtml(question.solution)}</div>
+                  </details>
+                </div>
+              `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+        await typesetMath(generatedPatternPaperResult);
       } catch (error) {
-        generatedPatternPaperResult.innerHTML = `<span class="text-rose-400">${escapeHtml(error.message)}</span>`;
+        generatedPatternPaperResult.innerHTML = `<div class="p-3 bg-rose-950/40 border border-rose-800/60 rounded-lg text-rose-400 flex items-center gap-2"><span class="material-symbols-outlined text-base">error</span><span>${escapeHtml(error.message)}</span></div>`;
       } finally {
         generatePatternPaperBtn.disabled = false;
       }
@@ -835,6 +1122,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       const uploadSubjectSelect = document.getElementById('uploadSubjectSelect');
       const uploadTypeSelect = document.getElementById('uploadTypeSelect');
       const uploadYearSelect = document.getElementById('uploadYearSelect');
+      const targetSchoolName = (uploadSchoolInput ? uploadSchoolInput.value.trim() : '') || 'Navodaya';
 
       const formData = new FormData();
       formData.append('file', file);
@@ -842,11 +1130,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       formData.append('subject', uploadSubjectSelect.value);
       formData.append('pdf_type', uploadTypeSelect.value);
       formData.append('year', uploadYearSelect.value);
+      formData.append('school', targetSchoolName);
 
       processPdfBtn.disabled = true;
       processPdfBtn.innerHTML = '<span>Processing PDF Pages...</span>';
       uploadStatusCard.style.display = 'block';
-      uploadStatusText.innerText = 'Parsing PDF text, extracting pages & diagram figures...';
+      uploadStatusText.innerText = `Parsing PDF text & routing questions into ${targetSchoolName} database (${slugifySchool(targetSchoolName)}.db)...`;
 
       try {
         const res = await fetch('/api/upload_pdf', {
@@ -854,21 +1143,27 @@ document.addEventListener('DOMContentLoaded', async () => {
           body: formData
         });
 
-        if (!res.ok) throw new Error('Failed to process PDF paper');
+        if (!res.ok) {
+          const errData = await res.json().catch(() => ({}));
+          throw new Error(errData.detail || 'Failed to process PDF paper');
+        }
 
         const data = await res.json();
         currentUploadedPaperId = data.paper_id;
 
-        uploadStatusText.innerText = `✓ Processed ${data.total_questions} questions and ${data.total_images} diagrams!`;
-        reviewPaperTitle.innerText = `Paper #${data.paper_id} (${data.filename}) - ${data.total_questions} Questions Extracted`;
-        
+        uploadStatusText.innerText = `✓ Processed ${data.total_questions} questions into ${data.school} DB (${data.school_slug}.db)!`;
+        reviewPaperTitle.innerText = `Paper #${data.paper_id} (${data.filename}) · ${data.school} DB - ${data.total_questions} Questions Extracted`;
+
         contextReviewPanel.style.display = 'flex';
         renderContextQuestionsPreview(data.questions_preview || []);
         await typesetMath(contextQuestionsList);
 
+        // Refresh school listing to immediately reflect newly populated school DB
+        await fetchSchoolsList(data.school_slug);
+
       } catch (err) {
         alert('Error processing PDF: ' + err.message);
-        uploadStatusText.innerText = '✕ Processing failed. Please check PDF file.';
+        uploadStatusText.innerText = '✕ Processing failed. ' + err.message;
       } finally {
         processPdfBtn.disabled = false;
         processPdfBtn.innerHTML = '<span class="material-symbols-outlined text-[18px]">auto_fix_high</span><span>Process PDF Paper</span>';
