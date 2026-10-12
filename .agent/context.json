@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "current_phase": 1,
-  "updated_at": "2026-08-27T16:05:25.603922+00:00",
+  "updated_at": "2026-10-12T19:35:44.213410+00:00",
   "papers": {
     "799613079bee": {
       "paper_id": "799613079bee",
@@ -29,7 +29,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:56.271036+00:00"
+      "updated_at": "2026-10-12T19:35:44.213410+00:00"
     },
     "7311663b1be0": {
       "paper_id": "7311663b1be0",
@@ -57,7 +57,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:56.733383+00:00"
+      "updated_at": "2026-10-12T19:35:43.799952+00:00"
     },
     "679dd3488ef7": {
       "paper_id": "679dd3488ef7",
@@ -85,7 +85,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:57.348501+00:00"
+      "updated_at": "2026-10-12T19:35:43.939137+00:00"
     },
     "8e5c1644fa6c": {
       "paper_id": "8e5c1644fa6c",
@@ -112,7 +112,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:57.976364+00:00"
+      "updated_at": "2026-10-12T18:54:50.117141+00:00"
     },
     "fc8d4ae1b29e": {
       "paper_id": "fc8d4ae1b29e",
@@ -139,7 +139,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:58.339451+00:00"
+      "updated_at": "2026-10-12T18:54:50.575149+00:00"
     },
     "f40f278db8da": {
       "paper_id": "f40f278db8da",
@@ -166,7 +166,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:58.655757+00:00"
+      "updated_at": "2026-10-12T18:54:50.949639+00:00"
     },
     "7762df3f3336": {
       "paper_id": "7762df3f3336",
@@ -193,7 +193,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:59.064901+00:00"
+      "updated_at": "2026-10-12T18:54:51.527716+00:00"
     },
     "173e8997897f": {
       "paper_id": "173e8997897f",
@@ -220,7 +220,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:59.586285+00:00"
+      "updated_at": "2026-10-12T18:54:52.197400+00:00"
     },
     "5928d40a471a": {
       "paper_id": "5928d40a471a",
@@ -247,7 +247,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:01:59.989697+00:00"
+      "updated_at": "2026-10-12T18:54:52.763137+00:00"
     },
     "6a34085db9b2": {
       "paper_id": "6a34085db9b2",
@@ -274,7 +274,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:00.375639+00:00"
+      "updated_at": "2026-10-12T18:54:53.475104+00:00"
     },
     "b7c28d752a71": {
       "paper_id": "b7c28d752a71",
@@ -301,7 +301,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:00.780984+00:00"
+      "updated_at": "2026-10-12T18:54:54.051212+00:00"
     },
     "82e9b74b52f9": {
       "paper_id": "82e9b74b52f9",
@@ -328,7 +328,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:01.034569+00:00"
+      "updated_at": "2026-10-12T18:54:54.469268+00:00"
     },
     "a3c6dd13fc4c": {
       "paper_id": "a3c6dd13fc4c",
@@ -355,7 +355,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:01.434038+00:00"
+      "updated_at": "2026-10-12T18:54:54.978485+00:00"
     },
     "13a14b8ce0c3": {
       "paper_id": "13a14b8ce0c3",
@@ -382,7 +382,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:01.661823+00:00"
+      "updated_at": "2026-10-12T18:54:55.237379+00:00"
     },
     "e667d82cda26": {
       "paper_id": "e667d82cda26",
@@ -409,7 +409,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:02.260794+00:00"
+      "updated_at": "2026-10-12T18:54:55.553846+00:00"
     },
     "4adf8823403d": {
       "paper_id": "4adf8823403d",
@@ -436,7 +436,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:02.682093+00:00"
+      "updated_at": "2026-10-12T18:54:55.969889+00:00"
     },
     "813176747120": {
       "paper_id": "813176747120",
@@ -463,7 +463,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:02.986333+00:00"
+      "updated_at": "2026-10-12T18:54:56.211866+00:00"
     },
     "773df508bb5f": {
       "paper_id": "773df508bb5f",
@@ -490,7 +490,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:03.746175+00:00"
+      "updated_at": "2026-10-12T18:54:57.176347+00:00"
     },
     "83f2a5c03db2": {
       "paper_id": "83f2a5c03db2",
@@ -517,7 +517,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:04.079117+00:00"
+      "updated_at": "2026-10-12T18:54:57.761521+00:00"
     },
     "320556decb94": {
       "paper_id": "320556decb94",
@@ -544,7 +544,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:04.484017+00:00"
+      "updated_at": "2026-10-12T18:54:58.345890+00:00"
     },
     "9dc06d253647": {
       "paper_id": "9dc06d253647",
@@ -571,7 +571,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:04.847506+00:00"
+      "updated_at": "2026-10-12T18:54:58.969112+00:00"
     },
     "314ed14ed2a2": {
       "paper_id": "314ed14ed2a2",
@@ -598,7 +598,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:05.441068+00:00"
+      "updated_at": "2026-10-12T18:55:00.044356+00:00"
     },
     "6e74ebac63c7": {
       "paper_id": "6e74ebac63c7",
@@ -625,7 +625,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:05.696351+00:00"
+      "updated_at": "2026-10-12T18:55:00.633312+00:00"
     },
     "6c5d17877aea": {
       "paper_id": "6c5d17877aea",
@@ -653,7 +653,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:06.175568+00:00"
+      "updated_at": "2026-10-12T18:55:01.181293+00:00"
     },
     "1b1cf329a32e": {
       "paper_id": "1b1cf329a32e",
@@ -680,7 +680,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:06.807866+00:00"
+      "updated_at": "2026-10-12T18:55:01.761670+00:00"
     },
     "051a5cd17465": {
       "paper_id": "051a5cd17465",
@@ -700,7 +700,7 @@
         "scrape": "done",
         "dedup": "done"
       },
-      "updated_at": "2026-08-27T09:02:07.018490+00:00"
+      "updated_at": "2026-10-12T18:55:02.158617+00:00"
     },
     "5a6204477f6f": {
       "paper_id": "5a6204477f6f",
@@ -727,7 +727,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:07.049861+00:00"
+      "updated_at": "2026-10-12T18:55:02.325766+00:00"
     },
     "032189125353": {
       "filename": "sample_manual_pipeline.pdf",
@@ -746,7 +746,7 @@
         "retrieval": "done",
         "dedup": "done"
       },
-      "updated_at": "2026-08-27T09:02:07.185217+00:00"
+      "updated_at": "2026-10-12T18:55:02.706117+00:00"
     },
     "de7234df1ad2": {
       "filename": "class10_science_2024_2025_sqp.pdf",
@@ -765,7 +765,7 @@
         "dedup": "done"
       },
       "relative_path": "data/raw_pdfs/10/science/2024-2025/class10_science_2024_2025_sqp.pdf",
-      "updated_at": "2026-08-27T09:02:07.904358+00:00"
+      "updated_at": "2026-10-12T18:55:03.631483+00:00"
     },
     "06fbb3f4d5ab": {
       "filename": "class12_computer_science_2023_2024_sqp.pdf",
@@ -784,7 +784,7 @@
         "retrieval": "done",
         "dedup": "done"
       },
-      "updated_at": "2026-08-27T09:02:08.307896+00:00"
+      "updated_at": "2026-10-12T18:55:04.096576+00:00"
     },
     "d744f3baadd1": {
       "paper_id": "d744f3baadd1",
@@ -810,7 +810,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:08.627724+00:00"
+      "updated_at": "2026-10-12T18:55:04.661834+00:00"
     },
     "57db1efa16ba": {
       "paper_id": "57db1efa16ba",
@@ -836,7 +836,7 @@
       "worker": null,
       "needs_review": false,
       "error_reason": null,
-      "updated_at": "2026-08-27T09:02:09.002614+00:00"
+      "updated_at": "2026-10-12T18:55:05.197908+00:00"
     },
     "46bceac7a3d6": {
       "filename": "class 12 maths.pdf",
@@ -855,7 +855,7 @@
         "retrieval": "done",
         "dedup": "done"
       },
-      "updated_at": "2026-08-27T09:02:09.364316+00:00",
+      "updated_at": "2026-10-12T18:55:05.734481+00:00",
       "worker": null
     },
     "ae16994dbb10": {
@@ -864,6 +864,8 @@
       "class": "10",
       "subject": "mathematics",
       "year": "2024-2025",
+      "school": "Random Sample Paper",
+      "school_slug": "random_sample_paper",
       "pdf_type": "Question Paper",
       "phase_status": {
         "scrape": "done",
@@ -872,10 +874,9 @@
         "image_link": "done",
         "chunk": "done",
         "embed": "done",
-        "retrieval": "done",
-        "dedup": "done"
+        "retrieval": "done"
       },
-      "updated_at": "2026-08-18T16:41:05.902564+00:00"
+      "updated_at": "2026-10-12T18:55:06.576343+00:00"
     },
     "0175db0bd5cd": {
       "filename": "class_10ChemCh1.pdf",
@@ -890,26 +891,10 @@
         "segment": "done",
         "image_link": "done",
         "chunk": "done",
-        "embed": "pending"
+        "embed": "done",
+        "retrieval": "done"
       },
-      "updated_at": "2026-08-20T08:01:32.909869+00:00"
-    },
-    "ae16994dbb10": {
-      "filename": "Maths standar class 10th.pdf",
-      "relative_path": "data/raw_pdfs/10/mathematics/2024-2025/ae16994dbb10.pdf",
-      "class": "10",
-      "subject": "mathematics",
-      "year": "2024-2025",
-      "pdf_type": "Question Paper",
-      "phase_status": {
-        "scrape": "done",
-        "parse": "done",
-        "segment": "done",
-        "image_link": "done",
-        "chunk": "done",
-        "embed": "pending"
-      },
-      "updated_at": "2026-08-27T16:02:20.241262+00:00"
+      "updated_at": "2026-10-12T18:55:10.375077+00:00"
     },
     "082922b4eff6": {
       "filename": "class 12 maths.pdf",
@@ -924,9 +909,10 @@
         "segment": "pending",
         "image_link": "pending",
         "chunk": "pending",
-        "embed": "pending"
+        "embed": "pending",
+        "retrieval": "done"
       },
-      "updated_at": "2026-08-27T16:05:25.602906+00:00"
+      "updated_at": "2026-10-12T18:55:10.540227+00:00"
     },
     "21b287cf2abb": {
       "filename": "Math's Standard.pdf",
@@ -941,9 +927,30 @@
         "segment": "done",
         "image_link": "done",
         "chunk": "done",
-        "embed": "pending"
+        "embed": "pending",
+        "retrieval": "done"
       },
       "updated_at": "2026-08-27T16:01:09.577076+00:00"
+    },
+    "89255add183d": {
+      "filename": "navodaya_6th_admission_2024.pdf",
+      "relative_path": "data/raw_pdfs/6/mathematics/2024-2025/89255add183d.pdf",
+      "class": "6",
+      "subject": "mathematics",
+      "year": "2024-2025",
+      "school": "Jawahar Navodaya Vidyalaya",
+      "school_slug": "jawahar_navodaya_vidyalaya",
+      "pdf_type": "question_paper",
+      "phase_status": {
+        "scrape": "done",
+        "parse": "done",
+        "segment": "done",
+        "image_link": "done",
+        "chunk": "done",
+        "embed": "done",
+        "retrieval": "done"
+      },
+      "updated_at": "2026-10-12T19:33:05.224442+00:00"
     }
   }
 }

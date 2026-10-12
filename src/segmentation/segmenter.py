@@ -21,7 +21,7 @@ from src.parsing.ai_normalizer import ai_split_question_block
 
 
 SECTION_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-E]|SECTION\s*[\-\:\s]*[A-E]|Direction[\s\:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study)",
+    r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-Za-z0-9IVXivx]+|SECTION\s*[\-\:\s]*[A-Za-z0-9IVXivx]+|PART\s*[\-\:\s]*[0-9IVXivx]+|(?:ARITHMETIC|MENTAL\s+ABILITY|LANGUAGE)\s+TEST|Direction[\s\:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study)",
     re.IGNORECASE
 )
 INSTRUCTION_HEADER_REGEX = re.compile(
@@ -544,15 +544,45 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
 
         sec_m = SECTION_REGEX.search(txt)
         if sec_m:
-            current_section = sec_m.group(1).upper().replace(" ", "").replace("-", " ")
-            in_instructions = False
-            if current_block:
-                raw_blocks.append(current_block)
-                current_block = None
-                current_q_num = None
+            if not (pnum == 1 and in_instructions):
+                current_section = sec_m.group(1).upper().replace(" ", "").replace("-", " ")
+                in_instructions = False
+                if current_block:
+                    raw_blocks.append(current_block)
+                    current_block = None
+                    current_q_num = None
+                continue
+
+        # Clean leading noise (e.g. 'of | ', '|', bullet) for question pattern matching
+        clean_txt = re.sub(r'^(?:[a-zA-Z]{1,6}\s*)?\|?\s*', '', txt)
+
+        if in_instructions:
             continue
 
-        if current_section == "HEADER" or in_instructions:
+        num_val = None
+
+        mA = Q_PATTERN_A.search(clean_txt)
+        if mA:
+            n_str = [g for g in mA.groups()[1:] if g is not None][0]
+            num_val = int(n_str)
+        else:
+            # Check pattern B (1. / 41. / 41) ) - allow when x0 < 85 OR when clean_txt starts with clear question numbering
+            mB = Q_PATTERN_B.search(clean_txt)
+            if mB and not re.match(r"^[A-D]\.$", clean_txt) and (x0 < 85 or re.match(r'^\d{1,3}[\.\)]', clean_txt)):
+                num_val = int(mB.group(1))
+            else:
+                mC = Q_PATTERN_C.search(clean_txt)
+                if mC:
+                    v = int(mC.group(1))
+                    if idx + 1 < len(all_lines):
+                        next_txt = all_lines[idx + 1]["text"]
+                        if len(next_txt) > 5 and not next_txt.startswith("Page") and not next_txt.startswith("Marks"):
+                            num_val = v
+
+        if num_val and current_section == "HEADER":
+            current_section = "GENERAL"
+
+        if current_section == "HEADER" and not num_val:
             continue
 
         # Right-margin mark labels (e.g. [1], [2]) — skip, they belong to blocks
@@ -562,36 +592,17 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
                 current_block["bboxes"].append(bbox)
             continue
 
-        num_val = None
-
-        mA = Q_PATTERN_A.search(txt)
-        if mA:
-            n_str = [g for g in mA.groups()[1:] if g is not None][0]
-            num_val = int(n_str)
-        else:
-            if x0 < 85:
-                mB = Q_PATTERN_B.search(txt)
-                if mB:
-                    if not re.match(r"^[A-D]\.$", txt):
-                        num_val = int(mB.group(1))
-                else:
-                    mC = Q_PATTERN_C.search(txt)
-                    if mC:
-                        v = int(mC.group(1))
-                        if idx + 1 < len(all_lines):
-                            next_txt = all_lines[idx + 1]["text"]
-                            if len(next_txt) > 5 and not next_txt.startswith("Page") and not next_txt.startswith("Marks"):
-                                num_val = v
-
-        if num_val and 1 <= num_val <= 50:
+        if num_val and 1 <= num_val <= 200:
             if current_q_num != num_val:
                 last_seen_q_num = current_q_num
                 if last_seen_q_num is None and raw_blocks:
                     last_seen_q_num = raw_blocks[-1]["question_number"]
-                if last_seen_q_num is not None and num_val != last_seen_q_num + 1:
-                    num_val = None
+                if last_seen_q_num is not None:
+                    # Allow sequential, reasonable jump (+15) across columns/OCR, or section reset to 1
+                    if not (last_seen_q_num < num_val <= last_seen_q_num + 15 or (num_val == 1 and last_seen_q_num > 5)):
+                        num_val = None
 
-        if num_val and 1 <= num_val <= 50:
+        if num_val and 1 <= num_val <= 200:
             if current_q_num != num_val:
                 if current_block:
                     raw_blocks.append(current_block)

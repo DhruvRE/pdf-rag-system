@@ -66,10 +66,122 @@ def _round_bbox(bbox: list) -> list:
     return [round(float(coord), 2) for coord in bbox] if bbox else [0.0, 0.0, 0.0, 0.0]
 
 
+def get_or_download_tessdata(root_dir: str = PROJECT_ROOT) -> str:
+    """Ensures tesseract language data exists and returns tessdata folder path."""
+    tess_dir = os.path.join(root_dir, "data", "tessdata")
+    os.makedirs(tess_dir, exist_ok=True)
+    eng_path = os.path.join(tess_dir, "eng.traineddata")
+    if not os.path.exists(eng_path) or os.path.getsize(eng_path) < 100000:
+        import urllib.request
+        url = "https://github.com/tesseract-ocr/tessdata_fast/raw/main/eng.traineddata"
+        try:
+            print(f"Downloading OCR model from {url} to {eng_path}...")
+            urllib.request.urlretrieve(url, eng_path)
+        except Exception as e:
+            print(f"Warning: Failed to download eng.traineddata: {e}")
+    return tess_dir
+
+
+def is_page_two_column(page: fitz.Page) -> bool:
+    """Heuristic to detect 2-column scanned pages (common in entrance test papers)."""
+    try:
+        import numpy as np
+        pix = page.get_pixmap(dpi=72)
+        samples = np.frombuffer(pix.samples, dtype=np.uint8).reshape((pix.height, pix.width, pix.n))
+        gray = samples[:, :, 0] if pix.n in (3, 4) else samples
+        y_start, y_end = int(pix.height * 0.20), int(pix.height * 0.85)
+        vert_proj = (gray[y_start:y_end, :] < 150).sum(axis=0)
+        mid_start = int(pix.width * 0.46)
+        mid_end = int(pix.width * 0.54)
+        gutter_min = vert_proj[mid_start:mid_end].min()
+        left_density = vert_proj[int(pix.width * 0.15):mid_start].mean()
+        right_density = vert_proj[mid_end:int(pix.width * 0.85)].mean()
+        return bool(left_density > 25 and right_density > 25 and gutter_min < 20)
+    except Exception:
+        return False
+
+
+def ocr_page_layout(page: fitz.Page, tess_dir: str) -> list[dict]:
+    """Runs high-resolution OCR with column awareness and returns parsed blocks."""
+    w, h = page.rect.width, page.rect.height
+    mid_x = w / 2.0
+    is_2col = is_page_two_column(page)
+
+    parsed_blocks = []
+
+    def _extract_clip_blocks(clip_rect, offset_x=0.0, offset_y=0.0):
+        try:
+            pix = page.get_pixmap(dpi=150, clip=clip_rect)
+            ocr_pdf = fitz.open("pdf", pix.pdfocr_tobytes(language="eng", tessdata=tess_dir))
+            d = ocr_pdf[0].get_text("dict")
+            for b in d.get("blocks", []):
+                if b.get("type") == 0:
+                    lines_data = []
+                    b_bbox = [
+                        round(b["bbox"][0] + offset_x, 2),
+                        round(b["bbox"][1] + offset_y, 2),
+                        round(b["bbox"][2] + offset_x, 2),
+                        round(b["bbox"][3] + offset_y, 2)
+                    ]
+                    for line in b.get("lines", []):
+                        l_bbox = [
+                            round(line["bbox"][0] + offset_x, 2),
+                            round(line["bbox"][1] + offset_y, 2),
+                            round(line["bbox"][2] + offset_x, 2),
+                            round(line["bbox"][3] + offset_y, 2)
+                        ]
+                        spans_data = []
+                        line_text_parts = []
+                        for span in line.get("spans", []):
+                            s_text = span.get("text", "")
+                            line_text_parts.append(s_text)
+                            spans_data.append({
+                                "text": s_text,
+                                "bbox": [
+                                    round(span["bbox"][0] + offset_x, 2),
+                                    round(span["bbox"][1] + offset_y, 2),
+                                    round(span["bbox"][2] + offset_x, 2),
+                                    round(span["bbox"][3] + offset_y, 2)
+                                ],
+                                "font": span.get("font", ""),
+                                "size": round(span.get("size", 10.0), 2),
+                                "color": 0,
+                                "flags": 0
+                            })
+                        full_line_text = spans_to_math_text(line.get("spans", []))
+                        lines_data.append({
+                            "bbox": l_bbox,
+                            "text": full_line_text,
+                            "spans": spans_data
+                        })
+                    parsed_blocks.append({
+                        "block_id": len(parsed_blocks),
+                        "type": "text",
+                        "bbox": b_bbox,
+                        "lines": lines_data
+                    })
+        except Exception as e:
+            print(f"Warning: OCR clip extraction error on page {page.number+1}: {e}")
+
+    if is_2col:
+        # Left column (from y=30 to h-30)
+        rect_l = fitz.Rect(15, 30, mid_x + 5, h - 30)
+        _extract_clip_blocks(rect_l, rect_l.x0, rect_l.y0)
+        # Right column (from y=30 to h-30)
+        rect_r = fitz.Rect(mid_x - 5, 30, w - 15, h - 30)
+        _extract_clip_blocks(rect_r, rect_r.x0, rect_r.y0)
+    else:
+        # Full page
+        _extract_clip_blocks(page.rect, 0.0, 0.0)
+
+    return parsed_blocks
+
+
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
     Parses PDF layout and text using PyMuPDF (fitz).
     Returns a structured dict with page dimensions, text blocks, lines, and bounding boxes.
+    Automatically applies OCR when digital text is absent or insufficient (scanned PDFs).
     """
 
     if not os.path.exists(pdf_path):
@@ -79,6 +191,7 @@ def parse_pdf_layout(pdf_path: str) -> dict:
     pages_data = []
 
     try:
+        tess_dir = None
         for page_idx, page in enumerate(doc):
 
             raw_dict = page.get_text("dict")
@@ -93,57 +206,70 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 page.rect.height
             )
 
-            parsed_blocks = []
+            total_native_chars = sum(
+                len(span.get("text", "").strip())
+                for block in raw_dict.get("blocks", [])
+                if block.get("type") == 0
+                for line in block.get("lines", [])
+                for span in line.get("spans", [])
+            )
 
-            for block_idx, block in enumerate(
-                raw_dict.get("blocks", [])
-            ):
+            # Check if this page is a scanned image without sufficient digital text layer
+            if total_native_chars < 80:
+                if tess_dir is None:
+                    tess_dir = get_or_download_tessdata()
+                parsed_blocks = ocr_page_layout(page, tess_dir)
+            else:
+                parsed_blocks = []
+                for block_idx, block in enumerate(
+                    raw_dict.get("blocks", [])
+                ):
 
-                # block type 0 = text, 1 = image
-                b_type = (
-                    "text"
-                    if block.get("type") == 0
-                    else "image"
-                )
-
-                b_bbox = list(
-                    block.get(
-                        "bbox",
-                        [0, 0, 0, 0]
+                    # block type 0 = text, 1 = image
+                    b_type = (
+                        "text"
+                        if block.get("type") == 0
+                        else "image"
                     )
-                )
 
-                lines_data = []
+                    b_bbox = list(
+                        block.get(
+                            "bbox",
+                            [0, 0, 0, 0]
+                        )
+                    )
 
-                if b_type == "text":
+                    lines_data = []
 
-                    for line in block.get("lines", []):
-                        l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
-                        spans_data = []
-                        line_text_parts = []
-                        for span in line.get("spans", []):
-                            s_text = span.get("text", "")
-                            line_text_parts.append(s_text)
-                            spans_data.append({
-                                "text": s_text,
-                                "bbox": list(span.get("bbox", [0, 0, 0, 0])),
-                                "font": span.get("font", ""),
-                                "size": round(span.get("size", 0.0), 2),
-                                "color": span.get("color", 0),
-                                "flags": span.get("flags", 0)
+                    if b_type == "text":
+
+                        for line in block.get("lines", []):
+                            l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
+                            spans_data = []
+                            line_text_parts = []
+                            for span in line.get("spans", []):
+                                s_text = span.get("text", "")
+                                line_text_parts.append(s_text)
+                                spans_data.append({
+                                    "text": s_text,
+                                    "bbox": list(span.get("bbox", [0, 0, 0, 0])),
+                                    "font": span.get("font", ""),
+                                    "size": round(span.get("size", 0.0), 2),
+                                    "color": span.get("color", 0),
+                                    "flags": span.get("flags", 0)
+                                })
+                            lines_data.append({
+                                "bbox": l_bbox,
+                                "text": spans_to_math_text(line.get("spans", [])),
+                                "spans": spans_data
                             })
-                        lines_data.append({
-                            "bbox": l_bbox,
-                            "text": spans_to_math_text(line.get("spans", [])),
-                            "spans": spans_data
-                        })
 
-                parsed_blocks.append({
-                    "block_id": block_idx,
-                    "type": b_type,
-                    "bbox": _round_bbox(b_bbox),
-                    "lines": lines_data
-                })
+                    parsed_blocks.append({
+                        "block_id": block_idx,
+                        "type": b_type,
+                        "bbox": _round_bbox(b_bbox),
+                        "lines": lines_data
+                    })
 
             pages_data.append({
                 "page_num": page_idx + 1,
