@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "current_phase": 1,
-  "updated_at": "2026-10-12T19:35:44.213410+00:00",
+  "updated_at": "2026-10-25T15:51:40.452919+00:00",
   "papers": {
     "799613079bee": {
       "paper_id": "799613079bee",
@@ -933,24 +933,23 @@
       "updated_at": "2026-08-27T16:01:09.577076+00:00"
     },
     "89255add183d": {
-      "filename": "navodaya_6th_admission_2024.pdf",
-      "relative_path": "data/raw_pdfs/6/mathematics/2024-2025/89255add183d.pdf",
+      "filename": "Navoday_English_class6th.pdf",
+      "relative_path": "data/raw_pdfs/6/english/2024-2025/89255add183d.pdf",
       "class": "6",
-      "subject": "mathematics",
+      "subject": "english",
       "year": "2024-2025",
-      "school": "Jawahar Navodaya Vidyalaya",
-      "school_slug": "jawahar_navodaya_vidyalaya",
-      "pdf_type": "question_paper",
+      "school": "Navodaya",
+      "school_slug": "navodaya",
+      "pdf_type": "Question Paper",
       "phase_status": {
         "scrape": "done",
         "parse": "done",
         "segment": "done",
         "image_link": "done",
         "chunk": "done",
-        "embed": "done",
-        "retrieval": "done"
+        "embed": "done"
       },
-      "updated_at": "2026-10-12T19:33:05.224442+00:00"
+      "updated_at": "2026-10-25T15:51:40.452919+00:00"
     }
   }
 }

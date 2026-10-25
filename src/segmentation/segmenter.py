@@ -286,11 +286,12 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
     sec_clean = section.upper().replace(" ", "").replace("-", "")
     q_val = int(re.sub(r"\D", "", question_number)) if re.sub(r"\D", "", question_number) else 1
 
-    # Only Section A (Q1-Q20) can be MCQ
-    in_mcq_section = sec_clean in {"SECTIONA", "MCQ", "DIRECTION:"} or q_val <= 20
-    in_desc_section = any(s in sec_clean for s in ("SECTIONB", "SECTIONC", "SECTIOND", "SECTIONE", "CASESTUDY"))
-    # Some bilingual papers repeat Section A after another-language pages, and
-    # their running section label can be stale. Questions 1–20 remain MCQs.
+    # Support entrance exam sections (Mental Ability, Arithmetic, Language) where all 80 questions are MCQs
+    is_entrance_exam_section = any(
+        kw in sec_clean for kw in ("MENTAL", "ARITHMETIC", "LANGUAGE", "PART", "SECTIONI", "SECTIONII", "SECTIONIII")
+    )
+    in_mcq_section = sec_clean in {"SECTIONA", "MCQ", "DIRECTION:"} or is_entrance_exam_section or q_val <= 20
+    in_desc_section = any(s in sec_clean for s in ("SECTIONB", "SECTIONC", "SECTIOND", "SECTIONE", "CASESTUDY")) and not is_entrance_exam_section
     if not in_mcq_section or (in_desc_section and q_val > 20):
         return []
 

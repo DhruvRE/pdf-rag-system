@@ -154,10 +154,16 @@ def extract_and_link_images(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict
                     except Exception as e:
                         print(f"Error saving image for xref {xref}: {e}")
 
-        # Fallback for scanned diagram questions without separate vector image streams
+        # Fallback for scanned diagram questions & visual reasoning figure rows
         image_kws = ("the figure", "in the diagram", "shown below", "the graph", "circuit diagram", "refer to figure", "in fig", "bar chart")
         for q in q_data.get("questions", []):
-            if not q.get("images") and any(kw in q.get("raw_text", "").lower() for kw in image_kws):
+            sec_upper = q.get("section", "").upper()
+            is_visual_q = (
+                any(kw in q.get("raw_text", "").lower() for kw in image_kws)
+                or "MENTAL" in sec_upper
+                or "PART" in sec_upper
+            )
+            if not q.get("images") and is_visual_q:
                 p_num = q.get("page_num", 1)
                 q_bbox = q.get("bounding_box")
                 if q_bbox and 0 <= p_num - 1 < len(doc):

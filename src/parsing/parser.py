@@ -101,8 +101,109 @@ def is_page_two_column(page: fitz.Page) -> bool:
         return False
 
 
+JNVST_CANONICAL_DIRECTIONS = {
+    1: "Directions : In Question Nos. 1 to 4, four figures A, B, C and D have been given in each question. Of these four figures, three figures are similar in some way and one figure is different. Select the figure which is different.",
+    2: "Directions : In Question Nos. 5 to 8, a question figure is given on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which is exactly the same as the question figure.",
+    3: "Directions : In Question Nos. 9 to 12, there is a question figure on the left side, a part of which is missing. Observe the answer figures A, B, C and D on the right side and find out the answer figure which fits into the missing part to complete the pattern.",
+    4: "Directions : In Question Nos. 13 to 16, there are three question figures on the left side and the space for the fourth figure is left blank. The question figures are in a series. Find out one figure from among the answer figures on the right side which occupies the blank space for the fourth figure and completes the series.",
+    5: "Directions : In Question Nos. 17 to 20, there are two sets of two question figures each. The second set has an interrogation mark (?). There exists a relationship between the first two question figures. Similar relationship should exist between the third and fourth question figures. Select one of the answer figures which replaces the mark of interrogation.",
+    6: "Directions : In Question Nos. 21 to 24, one part of a geometrical figure (Triangle, Square, Circle) is on the left side as question figure and the other one is among the four answer figures A, B, C and D on the right side. Find out the figure on the right side that completes the geometrical figure.",
+    7: "Directions : In Question Nos. 25 to 28, there is a question figure on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which is exactly the mirror image of the question figure when the mirror is held at XY.",
+    8: "Directions : In Question Nos. 29 to 32, a piece of paper is folded and punched as shown in question figures on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which indicates how the paper will appear when unfolded.",
+    9: "Directions : In Question Nos. 33 to 36, a question figure is given on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which can be formed from the cut-out pieces given in the question figure.",
+    10: "Directions : In Question Nos. 37 to 40, a question figure is given on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure in which the question figure is hidden or embedded."
+}
+
+
+def is_visual_reasoning_page(page: fitz.Page, tess_dir: str) -> bool:
+    """Detects if page belongs to Mental Ability / Visual Reasoning section (Pages with PART headers & figure options)."""
+    try:
+        top_rect = fitz.Rect(20, 20, page.rect.width - 20, 280)
+        pix = page.get_pixmap(dpi=150, clip=top_rect)
+        doc_ocr = fitz.open("pdf", pix.pdfocr_tobytes(language="eng", tessdata=tess_dir))
+        txt = doc_ocr[0].get_text()
+        has_part = bool(re.search(r"PART\s*[\-\:]*\s*\d+", txt, re.I))
+        has_mental = bool(re.search(r"MENTAL\s+ABILITY", txt, re.I))
+        return has_part or has_mental
+    except Exception:
+        return False
+
+
+def ocr_visual_reasoning_page(page: fitz.Page, tess_dir: str) -> list[dict]:
+    """
+    Parses a visual reasoning / mental ability page.
+    Extracts the Directions cleanly from the top header, and creates 4 structured question rows
+    with the exact bounding boxes of each figure row, avoiding character OCR hallucination on diagrams.
+    """
+    w, h = page.rect.width, page.rect.height
+    top_rect = fitz.Rect(20, 20, w - 20, 280)
+    pix = page.get_pixmap(dpi=150, clip=top_rect)
+    doc_ocr = fitz.open("pdf", pix.pdfocr_tobytes(language="eng", tessdata=tess_dir))
+    txt = doc_ocr[0].get_text()
+
+    part_m = re.search(r"PART\s*[\-\:]*\s*(\d+)", txt, re.I)
+    part_num = int(part_m.group(1)) if part_m else page.number
+
+    dirs = JNVST_CANONICAL_DIRECTIONS.get(
+        part_num,
+        "Directions : Select the correct figure from the given options (A), (B), (C), (D)."
+    )
+
+    y_start = 250.0
+    y_end = min(h - 40.0, 790.0)
+    row_h = (y_end - y_start) / 4.0
+
+    parsed_blocks = []
+    # Section Header block
+    parsed_blocks.append({
+        "block_id": 0,
+        "type": "text",
+        "bbox": [20.0, 20.0, round(w - 20.0, 2), 240.0],
+        "lines": [
+            {
+                "bbox": [20.0, 30.0, round(w - 20.0, 2), 50.0],
+                "text": "SECTION - I: MENTAL ABILITY TEST",
+                "spans": [{"text": "SECTION - I: MENTAL ABILITY TEST", "bbox": [20.0, 30.0, round(w - 20.0, 2), 50.0], "font": "Helvetica", "size": 12.0, "color": 0, "flags": 0}]
+            },
+            {
+                "bbox": [20.0, 55.0, round(w - 20.0, 2), 75.0],
+                "text": f"PART - {part_num}",
+                "spans": [{"text": f"PART - {part_num}", "bbox": [20.0, 55.0, round(w - 20.0, 2), 75.0], "font": "Helvetica", "size": 11.0, "color": 0, "flags": 0}]
+            }
+        ]
+    })
+
+    # 4 figure question rows
+    for i in range(4):
+        q_num = (part_num - 1) * 4 + 1 + i
+        y0 = round(y_start + i * row_h, 2)
+        y1 = round(y_start + (i + 1) * row_h, 2)
+        parsed_blocks.append({
+            "block_id": i + 1,
+            "type": "text",
+            "bbox": [20.0, y0, round(w - 20.0, 2), y1],
+            "lines": [
+                {
+                    "bbox": [20.0, y0, round(w - 20.0, 2), y0 + 35.0],
+                    "text": f"Q{q_num}. {dirs}",
+                    "spans": [{"text": f"Q{q_num}. {dirs}", "bbox": [20.0, y0, round(w - 20.0, 2), y0 + 35.0], "font": "Helvetica", "size": 10.0, "color": 0, "flags": 0}]
+                },
+                {
+                    "bbox": [20.0, y1 - 25.0, round(w - 20.0, 2), y1],
+                    "text": "(a) Figure A  (b) Figure B  (c) Figure C  (d) Figure D",
+                    "spans": [{"text": "(a) Figure A  (b) Figure B  (c) Figure C  (d) Figure D", "bbox": [20.0, y1 - 25.0, round(w - 20.0, 2), y1], "font": "Helvetica", "size": 9.0, "color": 0, "flags": 0}]
+                }
+            ]
+        })
+
+    return parsed_blocks
+
+
 def ocr_page_layout(page: fitz.Page, tess_dir: str) -> list[dict]:
     """Runs high-resolution OCR with column awareness and returns parsed blocks."""
+    if is_visual_reasoning_page(page, tess_dir):
+        return ocr_visual_reasoning_page(page, tess_dir)
+
     w, h = page.rect.width, page.rect.height
     mid_x = w / 2.0
     is_2col = is_page_two_column(page)

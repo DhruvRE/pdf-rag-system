@@ -36,3 +36,4 @@ def test_scanned_pdf_layout_extraction():
         if block.get("type") == "text"
     )
     assert total_lines > 100, f"Expected > 100 extracted text lines from scanned PDF, got {total_lines}"
+
