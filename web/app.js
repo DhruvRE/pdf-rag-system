@@ -28,8 +28,10 @@ document.addEventListener('DOMContentLoaded', async () => {
   await loadPartials();
 
   const searchInput = document.getElementById('searchInput');
+  const schoolFilter = document.getElementById('schoolFilter');
   const classFilter = document.getElementById('classFilter');
   const subjectFilter = document.getElementById('subjectFilter');
+  const typeFilter = document.getElementById('typeFilter');
   const pageSizeSelect = document.getElementById('pageSizeSelect');
   const searchBtn = document.getElementById('searchBtn');
   const randomBtn = document.getElementById('randomBtn');
@@ -98,6 +100,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     currentPage = 1;
     performSearch();
   });
+
+  if (schoolFilter) {
+    schoolFilter.addEventListener('change', () => {
+      currentPage = 1;
+      performSearch();
+    });
+  }
 
   classFilter.addEventListener('change', () => {
     currentPage = 1;
@@ -203,16 +212,29 @@ document.addEventListener('DOMContentLoaded', async () => {
     const currentClass = classFilter.value;
     const currentSubject = subjectFilter.value;
 
-    const classesSet = new Set();
-    const subjectsSet = new Set();
+    const classesSet = new Set(['6', '7', '8', '9', '10', '11', '12']);
+    const subjectsMap = {
+      'mental_ability': 'Mental Ability / Reasoning',
+      'mathematics': 'Mathematics',
+      'science': 'Science',
+      'physics': 'Physics',
+      'chemistry': 'Chemistry',
+      'biology': 'Biology',
+      'social_science': 'Social Science',
+      'english': 'English'
+    };
 
     papers.forEach(p => {
       if (p.class) classesSet.add(String(p.class));
-      if (p.subject) subjectsSet.add(String(p.subject));
+      if (p.subject) {
+        const sKey = String(p.subject).toLowerCase();
+        if (!subjectsMap[sKey]) {
+          subjectsMap[sKey] = sKey.charAt(0).toUpperCase() + sKey.slice(1).replace(/_/g, ' ');
+        }
+      }
     });
 
     const sortedClasses = Array.from(classesSet).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
-    const sortedSubjects = Array.from(subjectsSet).sort();
 
     classFilter.innerHTML = '<option value="all">All Classes</option>';
     sortedClasses.forEach(cls => {
@@ -228,13 +250,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     subjectFilter.innerHTML = '<option value="all">All Subjects</option>';
-    sortedSubjects.forEach(subj => {
+    Object.keys(subjectsMap).sort().forEach(subjKey => {
       const opt = document.createElement('option');
-      opt.value = subj;
-      opt.textContent = subj.charAt(0).toUpperCase() + subj.slice(1).replace(/_/g, ' ');
+      opt.value = subjKey;
+      opt.textContent = subjectsMap[subjKey];
       subjectFilter.appendChild(opt);
     });
-    if (subjectsSet.has(currentSubject)) {
+    if (currentSubject && (subjectsMap[currentSubject] || currentSubject === 'all')) {
       subjectFilter.value = currentSubject;
     } else {
       subjectFilter.value = "all";
@@ -286,9 +308,10 @@ document.addEventListener('DOMContentLoaded', async () => {
           query: query,
           page: currentPage,
           page_size: page_size,
-          class_filter: classFilter.value,
-          subject_filter: subjectFilter.value,
-          type_filter: typeFilter.value,
+          class_filter: classFilter ? classFilter.value : 'all',
+          subject_filter: subjectFilter ? subjectFilter.value : 'all',
+          type_filter: typeFilter ? typeFilter.value : 'all',
+          school_filter: schoolFilter ? schoolFilter.value : 'all',
           random_sample: isRandomMode && !query
         })
       });
@@ -533,6 +556,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         return str.replace(/['"\}]/g, "");
       }).filter(Boolean);
 
+      if (validUrls.length === 0 && item.linked_images && item.linked_images.length > 0) {
+        validUrls = item.linked_images.map(img => {
+          const fn = typeof img === 'object' ? (img.filename || img.relative_path) : String(img);
+          const cleanFn = fn ? fn.replace(/^.*[\\\/]/, '').replace(/['"} ]/g, '') : '';
+          if (!cleanFn) return '';
+          return `/static/parsed/${item.class}/${item.subject}/${item.year}/${item.paper_id}/images/${cleanFn}`;
+        }).filter(Boolean);
+      }
+
       if (validUrls.length > 0) {
         const imgTags = validUrls.map(url => `
           <div class="diagram-img-wrapper" onclick="window.openImageLightbox('${url}')">
@@ -685,6 +717,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (uploadTabSection) uploadTabSection.style.display = 'none';
       if (patternTabSection) patternTabSection.style.display = 'none';
       showSidebarFilter(true);
+      performSearch();
     });
 
     tabDraftsBtn.addEventListener('click', () => {
@@ -815,6 +848,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         updateSchoolUiState();
+      }
+
+      // Update sidebar school filter
+      if (schoolFilter) {
+        const prevFilterVal = schoolFilter.value;
+        schoolFilter.innerHTML = '<option value="all">All Schools & Master DB</option>';
+        availableSchools.forEach(school => {
+          const opt = document.createElement('option');
+          opt.value = school.id || school.slug;
+          opt.textContent = `${school.name} (${school.question_count || 0} Qs)`;
+          schoolFilter.appendChild(opt);
+        });
+        if (prevFilterVal && Array.from(schoolFilter.options).some(o => o.value === prevFilterVal)) {
+          schoolFilter.value = prevFilterVal;
+        }
       }
 
       // Update upload datalist suggestions
@@ -950,6 +998,17 @@ document.addEventListener('DOMContentLoaded', async () => {
   const patternGenSubjectSelect = document.getElementById('patternGenSubjectSelect');
   const patternTopicSuggestions = document.getElementById('patternTopicSuggestions');
   const subjectTopicsMap = {
+    mental_ability: [
+      { val: "Odd One Out & Similarity", label: "Figure Discrimination (Odd Man Out)" },
+      { val: "Figure Matching", label: "Exact Figure Match" },
+      { val: "Pattern Completion", label: "Missing Segment Pattern" },
+      { val: "Figure Series Completion", label: "Sequential Series" },
+      { val: "Analogy & Spatial Relations", label: "Figure Analogy (A:B :: C:D)" },
+      { val: "Geometrical Figure Completion", label: "Triangle / Square / Circle Completion" },
+      { val: "Mirror Imaging", label: "Lateral Inversion & Reflections" },
+      { val: "Space Visualization & Paper Folding", label: "Punched Hole & Paper Unfolding" },
+      { val: "Embedded Figures", label: "Hidden Figure Detection" }
+    ],
     mathematics: [
       { val: "Quadratic Equations & Roots", label: "Algebra: ax² + bx + c = 0" },
       { val: "Arithmetic Progressions (AP)", label: "AP: nth term & Sum" },
@@ -1281,6 +1340,39 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       const refinedTag = q.context_refined ? '<span class="badge badge-type" style="background:rgba(99,102,241,0.2); color:#a5b4fc;">✨ AI Context Refined</span>' : '';
 
+      // Render Diagram Figure Lightbox if diagrams exist
+      let diagramHtml = "";
+      const validUrls = (q.image_urls && q.image_urls.length > 0)
+        ? q.image_urls
+        : (q.linked_images || []).map(img => {
+            const fn = typeof img === 'object' ? (img.filename || img.relative_path) : String(img);
+            const cleanFn = fn ? fn.replace(/^.*[\\\/]/, '').replace(/['"} ]/g, '') : '';
+            if (!cleanFn) return '';
+            const pid = q.paper_id || currentUploadedPaperId;
+            return `/static/parsed/${q.class}/${q.subject}/${q.year || '2024-2025'}/${pid}/images/${cleanFn}`;
+          }).filter(Boolean);
+
+      if (validUrls.length > 0) {
+        const imgTags = validUrls.map(url => `
+          <div class="diagram-img-wrapper" onclick="window.openImageLightbox('${url}')" style="margin-top:10px; max-width:100%; border-radius:6px; overflow:hidden; border:1px solid rgba(255,255,255,0.1); background:#0f172a; padding:6px; cursor:pointer;">
+            <img src="${url}" alt="Diagram Figure" class="diagram-img" loading="lazy" style="max-width:100%; height:auto; display:block; border-radius:4px;" onerror="window.handleImageError(this, '${url}')" />
+            <div class="diagram-zoom-hint" style="font-size:11px; color:#94a3b8; margin-top:4px; text-align:center;">🔍 Click to Expand</div>
+          </div>
+        `).join("");
+
+        diagramHtml = `
+          <div class="diagram-container" style="margin-top:12px;">
+            <div class="diagram-header" style="font-size:12px; font-weight:600; color:#38bdf8; display:flex; align-items:center; gap:6px;">
+              <span class="material-symbols-outlined text-[16px]">image</span>
+              <span>Linked Diagram Figures (${validUrls.length})</span>
+            </div>
+            <div class="diagram-images-grid">
+              ${imgTags}
+            </div>
+          </div>
+        `;
+      }
+
       card.innerHTML = `
         <div class="card-header">
           <div class="card-badges">
@@ -1292,6 +1384,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         </div>
         <div class="question-stem">${renderMarkdownToHtml(cleanStemText(previewStem))}</div>
         ${previewOptionsHtml}
+        ${diagramHtml}
       `;
       contextQuestionsList.appendChild(card);
     });

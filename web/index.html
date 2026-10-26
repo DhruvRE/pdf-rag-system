@@ -147,13 +147,25 @@
         </div>
 
         <div class="p-4 overflow-y-auto custom-scrollbar flex flex-col gap-stack-md">
+          <!-- School / Institution Filter -->
+          <div>
+            <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">School / Institution</h3>
+            <select id="schoolFilter" class="filter-select">
+              <option value="all">All Schools & Master DB</option>
+            </select>
+          </div>
+
           <!-- Class Filter -->
           <div>
             <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Class Level</h3>
             <select id="classFilter" class="filter-select">
               <option value="all">All Classes</option>
               <option value="6">Class 6</option>
+              <option value="7">Class 7</option>
+              <option value="8">Class 8</option>
+              <option value="9">Class 9</option>
               <option value="10">Class 10</option>
+              <option value="11">Class 11</option>
               <option value="12">Class 12</option>
             </select>
           </div>
@@ -163,10 +175,14 @@
             <h3 class="text-slate-400 mb-2 uppercase tracking-wider font-semibold text-[11px]">Subject Domain</h3>
             <select id="subjectFilter" class="filter-select">
               <option value="all">All Subjects</option>
-              <option value="physics">Physics</option>
-              <option value="chemistry">Chemistry</option>
+              <option value="mental_ability">Mental Ability / Reasoning</option>
               <option value="mathematics">Mathematics</option>
               <option value="science">Science</option>
+              <option value="physics">Physics</option>
+              <option value="chemistry">Chemistry</option>
+              <option value="biology">Biology</option>
+              <option value="social_science">Social Science</option>
+              <option value="english">English</option>
             </select>
           </div>
 
@@ -565,6 +581,7 @@
               <div>
                 <label class="block text-[11px] font-semibold text-slate-400 uppercase tracking-wider mb-1">Subject</label>
                 <select id="patternGenSubjectSelect" class="filter-select w-full bg-slate-800 text-indigo-300 border border-indigo-700/70 rounded-lg px-3 py-2 text-xs focus:outline-none focus:border-indigo-500 font-bold shadow-inner">
+                  <option value="mental_ability">Mental Ability / Reasoning</option>
                   <option value="mathematics" selected>Mathematics</option>
                   <option value="science">Science (General)</option>
                   <option value="physics">Physics</option>
@@ -676,6 +693,6 @@
   </div>
 
   <!-- Main Frontend JavaScript Logic with Versioned Cache-Buster -->
-  <script src="app.js?v=navodaya_math_v6"></script>
+  <script src="app.js?v=navodaya_preview_v7"></script>
 </body>
 </html>

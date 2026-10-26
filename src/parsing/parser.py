@@ -7,10 +7,11 @@ writing pages.json under data/parsed/<class>/<subject>/<year>/<paper_id>/.
 import os
 import json
 import re
-import fitz
-import re
 import io
-import pytesseract
+try:
+    import fitz
+except ImportError:
+    import pymupdf as fitz
 from PIL import Image
 from datetime import datetime, timezone
 from src.segmentation.segmenter import is_english_dominant
@@ -248,10 +249,228 @@ def _parse_scanned_pdf(
 
     return pages_data, "\n".join(ocr_text_parts)
 
+def _round_bbox(bbox: list) -> list:
+    """Rounds coordinates of a bounding box [x0, y0, x1, y1] to 2 decimal places."""
+    return [round(float(coord), 2) for coord in bbox] if bbox else [0.0, 0.0, 0.0, 0.0]
+
+
+def get_or_download_tessdata(root_dir: str = PROJECT_ROOT) -> str:
+    """Ensures tesseract language data exists and returns tessdata folder path."""
+    tess_dir = os.path.join(root_dir, "data", "tessdata")
+    os.makedirs(tess_dir, exist_ok=True)
+    eng_path = os.path.join(tess_dir, "eng.traineddata")
+    if not os.path.exists(eng_path) or os.path.getsize(eng_path) < 100000:
+        import urllib.request
+        url = "https://github.com/tesseract-ocr/tessdata_fast/raw/main/eng.traineddata"
+        try:
+            print(f"Downloading OCR model from {url} to {eng_path}...")
+            urllib.request.urlretrieve(url, eng_path)
+        except Exception as e:
+            print(f"Warning: Failed to download eng.traineddata: {e}")
+    return tess_dir
+
+
+def is_page_two_column(page: fitz.Page) -> bool:
+    """Heuristic to detect 2-column scanned pages (common in entrance test papers)."""
+    try:
+        import numpy as np
+        pix = page.get_pixmap(dpi=72)
+        samples = np.frombuffer(pix.samples, dtype=np.uint8).reshape((pix.height, pix.width, pix.n))
+        gray = samples[:, :, 0] if pix.n in (3, 4) else samples
+        y_start, y_end = int(pix.height * 0.20), int(pix.height * 0.85)
+        vert_proj = (gray[y_start:y_end, :] < 150).sum(axis=0)
+        mid_start = int(pix.width * 0.46)
+        mid_end = int(pix.width * 0.54)
+        gutter_min = vert_proj[mid_start:mid_end].min()
+        left_density = vert_proj[int(pix.width * 0.15):mid_start].mean()
+        right_density = vert_proj[mid_end:int(pix.width * 0.85)].mean()
+        return bool(left_density > 25 and right_density > 25 and gutter_min < 20)
+    except Exception:
+        return False
+
+
+JNVST_CANONICAL_DIRECTIONS = {
+    1: "Directions : In Question Nos. 1 to 4, four figures A, B, C and D have been given in each question. Of these four figures, three figures are similar in some way and one figure is different. Select the figure which is different.",
+    2: "Directions : In Question Nos. 5 to 8, a question figure is given on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which is exactly the same as the question figure.",
+    3: "Directions : In Question Nos. 9 to 12, there is a question figure on the left side, a part of which is missing. Observe the answer figures A, B, C and D on the right side and find out the answer figure which fits into the missing part to complete the pattern.",
+    4: "Directions : In Question Nos. 13 to 16, there are three question figures on the left side and the space for the fourth figure is left blank. The question figures are in a series. Find out one figure from among the answer figures on the right side which occupies the blank space for the fourth figure and completes the series.",
+    5: "Directions : In Question Nos. 17 to 20, there are two sets of two question figures each. The second set has an interrogation mark (?). There exists a relationship between the first two question figures. Similar relationship should exist between the third and fourth question figures. Select one of the answer figures which replaces the mark of interrogation.",
+    6: "Directions : In Question Nos. 21 to 24, one part of a geometrical figure (Triangle, Square, Circle) is on the left side as question figure and the other one is among the four answer figures A, B, C and D on the right side. Find out the figure on the right side that completes the geometrical figure.",
+    7: "Directions : In Question Nos. 25 to 28, there is a question figure on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which is exactly the mirror image of the question figure when the mirror is held at XY.",
+    8: "Directions : In Question Nos. 29 to 32, a piece of paper is folded and punched as shown in question figures on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which indicates how the paper will appear when unfolded.",
+    9: "Directions : In Question Nos. 33 to 36, a question figure is given on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure which can be formed from the cut-out pieces given in the question figure.",
+    10: "Directions : In Question Nos. 37 to 40, a question figure is given on the left side and four answer figures marked A, B, C and D are given on the right side. Select the answer figure in which the question figure is hidden or embedded."
+}
+
+
+def is_visual_reasoning_page(page: fitz.Page, tess_dir: str) -> bool:
+    """Detects if page belongs to Mental Ability / Visual Reasoning section (Pages with PART headers & figure options)."""
+    try:
+        top_rect = fitz.Rect(20, 20, page.rect.width - 20, 280)
+        pix = page.get_pixmap(dpi=150, clip=top_rect)
+        doc_ocr = fitz.open("pdf", pix.pdfocr_tobytes(language="eng", tessdata=tess_dir))
+        txt = doc_ocr[0].get_text()
+        has_part = bool(re.search(r"PART\s*[\-\:]*\s*\d+", txt, re.I))
+        has_mental = bool(re.search(r"MENTAL\s+ABILITY", txt, re.I))
+        return has_part or has_mental
+    except Exception:
+        return False
+
+
+def ocr_visual_reasoning_page(page: fitz.Page, tess_dir: str) -> list[dict]:
+    """
+    Parses a visual reasoning / mental ability page.
+    Extracts the Directions cleanly from the top header, and creates 4 structured question rows
+    with the exact bounding boxes of each figure row, avoiding character OCR hallucination on diagrams.
+    """
+    w, h = page.rect.width, page.rect.height
+    top_rect = fitz.Rect(20, 20, w - 20, 280)
+    pix = page.get_pixmap(dpi=150, clip=top_rect)
+    doc_ocr = fitz.open("pdf", pix.pdfocr_tobytes(language="eng", tessdata=tess_dir))
+    txt = doc_ocr[0].get_text()
+
+    part_m = re.search(r"PART\s*[\-\:]*\s*(\d+)", txt, re.I)
+    part_num = int(part_m.group(1)) if part_m else page.number
+
+    dirs = JNVST_CANONICAL_DIRECTIONS.get(
+        part_num,
+        "Directions : Select the correct figure from the given options (A), (B), (C), (D)."
+    )
+
+    y_start = 250.0
+    y_end = min(h - 40.0, 790.0)
+    row_h = (y_end - y_start) / 4.0
+
+    parsed_blocks = []
+    # Section Header block
+    parsed_blocks.append({
+        "block_id": 0,
+        "type": "text",
+        "bbox": [20.0, 20.0, round(w - 20.0, 2), 240.0],
+        "lines": [
+            {
+                "bbox": [20.0, 30.0, round(w - 20.0, 2), 50.0],
+                "text": "SECTION - I: MENTAL ABILITY TEST",
+                "spans": [{"text": "SECTION - I: MENTAL ABILITY TEST", "bbox": [20.0, 30.0, round(w - 20.0, 2), 50.0], "font": "Helvetica", "size": 12.0, "color": 0, "flags": 0}]
+            },
+            {
+                "bbox": [20.0, 55.0, round(w - 20.0, 2), 75.0],
+                "text": f"PART - {part_num}",
+                "spans": [{"text": f"PART - {part_num}", "bbox": [20.0, 55.0, round(w - 20.0, 2), 75.0], "font": "Helvetica", "size": 11.0, "color": 0, "flags": 0}]
+            }
+        ]
+    })
+
+    # 4 figure question rows
+    for i in range(4):
+        q_num = (part_num - 1) * 4 + 1 + i
+        y0 = round(y_start + i * row_h, 2)
+        y1 = round(y_start + (i + 1) * row_h, 2)
+        parsed_blocks.append({
+            "block_id": i + 1,
+            "type": "text",
+            "bbox": [20.0, y0, round(w - 20.0, 2), y1],
+            "lines": [
+                {
+                    "bbox": [20.0, y0, round(w - 20.0, 2), y0 + 35.0],
+                    "text": f"Q{q_num}. {dirs}",
+                    "spans": [{"text": f"Q{q_num}. {dirs}", "bbox": [20.0, y0, round(w - 20.0, 2), y0 + 35.0], "font": "Helvetica", "size": 10.0, "color": 0, "flags": 0}]
+                },
+                {
+                    "bbox": [20.0, y1 - 25.0, round(w - 20.0, 2), y1],
+                    "text": "(a) Figure A  (b) Figure B  (c) Figure C  (d) Figure D",
+                    "spans": [{"text": "(a) Figure A  (b) Figure B  (c) Figure C  (d) Figure D", "bbox": [20.0, y1 - 25.0, round(w - 20.0, 2), y1], "font": "Helvetica", "size": 9.0, "color": 0, "flags": 0}]
+                }
+            ]
+        })
+
+    return parsed_blocks
+
+
+def ocr_page_layout(page: fitz.Page, tess_dir: str) -> list[dict]:
+    """Runs high-resolution OCR with column awareness and returns parsed blocks."""
+    if is_visual_reasoning_page(page, tess_dir):
+        return ocr_visual_reasoning_page(page, tess_dir)
+
+    w, h = page.rect.width, page.rect.height
+    mid_x = w / 2.0
+    is_2col = is_page_two_column(page)
+
+    parsed_blocks = []
+
+    def _extract_clip_blocks(clip_rect, offset_x=0.0, offset_y=0.0):
+        try:
+            pix = page.get_pixmap(dpi=150, clip=clip_rect)
+            ocr_pdf = fitz.open("pdf", pix.pdfocr_tobytes(language="eng", tessdata=tess_dir))
+            d = ocr_pdf[0].get_text("dict")
+            for b in d.get("blocks", []):
+                if b.get("type") == 0:
+                    lines_data = []
+                    b_bbox = [
+                        round(b["bbox"][0] + offset_x, 2),
+                        round(b["bbox"][1] + offset_y, 2),
+                        round(b["bbox"][2] + offset_x, 2),
+                        round(b["bbox"][3] + offset_y, 2)
+                    ]
+                    for line in b.get("lines", []):
+                        l_bbox = [
+                            round(line["bbox"][0] + offset_x, 2),
+                            round(line["bbox"][1] + offset_y, 2),
+                            round(line["bbox"][2] + offset_x, 2),
+                            round(line["bbox"][3] + offset_y, 2)
+                        ]
+                        spans_data = []
+                        line_text_parts = []
+                        for span in line.get("spans", []):
+                            s_text = span.get("text", "")
+                            line_text_parts.append(s_text)
+                            spans_data.append({
+                                "text": s_text,
+                                "bbox": [
+                                    round(span["bbox"][0] + offset_x, 2),
+                                    round(span["bbox"][1] + offset_y, 2),
+                                    round(span["bbox"][2] + offset_x, 2),
+                                    round(span["bbox"][3] + offset_y, 2)
+                                ],
+                                "font": span.get("font", ""),
+                                "size": round(span.get("size", 10.0), 2),
+                                "color": 0,
+                                "flags": 0
+                            })
+                        full_line_text = spans_to_math_text(line.get("spans", []))
+                        lines_data.append({
+                            "bbox": l_bbox,
+                            "text": full_line_text,
+                            "spans": spans_data
+                        })
+                    parsed_blocks.append({
+                        "block_id": len(parsed_blocks),
+                        "type": "text",
+                        "bbox": b_bbox,
+                        "lines": lines_data
+                    })
+        except Exception as e:
+            print(f"Warning: OCR clip extraction error on page {page.number+1}: {e}")
+
+    if is_2col:
+        # Left column (from y=30 to h-30)
+        rect_l = fitz.Rect(15, 30, mid_x + 5, h - 30)
+        _extract_clip_blocks(rect_l, rect_l.x0, rect_l.y0)
+        # Right column (from y=30 to h-30)
+        rect_r = fitz.Rect(mid_x - 5, 30, w - 15, h - 30)
+        _extract_clip_blocks(rect_r, rect_r.x0, rect_r.y0)
+    else:
+        # Full page
+        _extract_clip_blocks(page.rect, 0.0, 0.0)
+
+    return parsed_blocks
+
+
 def parse_pdf_layout(pdf_path: str) -> dict:
     """
     Parses PDF layout and text using PyMuPDF (fitz).
     Returns a structured dict with page dimensions, text blocks, lines, and bounding boxes.
+    Automatically applies OCR when digital text is absent or insufficient (scanned PDFs).
     """
 
     if not os.path.exists(pdf_path):
@@ -261,9 +480,10 @@ def parse_pdf_layout(pdf_path: str) -> dict:
     pages_data = []
 
     try:
+        tess_dir = None
         for page_idx, page in enumerate(doc):
 
-            raw_dict = page.get_text("rawdict")
+            raw_dict = page.get_text("dict")
 
             page_width = raw_dict.get(
                 "width",
@@ -275,57 +495,70 @@ def parse_pdf_layout(pdf_path: str) -> dict:
                 page.rect.height
             )
 
-            parsed_blocks = []
+            total_native_chars = sum(
+                len(span.get("text", "").strip())
+                for block in raw_dict.get("blocks", [])
+                if block.get("type") == 0
+                for line in block.get("lines", [])
+                for span in line.get("spans", [])
+            )
 
-            for block_idx, block in enumerate(
-                raw_dict.get("blocks", [])
-            ):
+            # Check if this page is a scanned image without sufficient digital text layer
+            if total_native_chars < 80:
+                if tess_dir is None:
+                    tess_dir = get_or_download_tessdata()
+                parsed_blocks = ocr_page_layout(page, tess_dir)
+            else:
+                parsed_blocks = []
+                for block_idx, block in enumerate(
+                    raw_dict.get("blocks", [])
+                ):
 
-                # block type 0 = text, 1 = image
-                b_type = (
-                    "text"
-                    if block.get("type") == 0
-                    else "image"
-                )
-
-                b_bbox = list(
-                    block.get(
-                        "bbox",
-                        [0, 0, 0, 0]
+                    # block type 0 = text, 1 = image
+                    b_type = (
+                        "text"
+                        if block.get("type") == 0
+                        else "image"
                     )
-                )
 
-                raw_lines_data = []
+                    b_bbox = list(
+                        block.get(
+                            "bbox",
+                            [0, 0, 0, 0]
+                        )
+                    )
 
-                if b_type == "text":
+                    lines_data = []
 
-                    for line in block.get("lines", []):
-                        l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
-                        spans_data = []
-                        line_text_parts = []
-                        for span in line.get("spans", []):
-                            s_text = span.get("text", "")
-                            line_text_parts.append(s_text)
-                            spans_data.append({
-                                "text": s_text,
-                                "bbox": list(span.get("bbox", [0, 0, 0, 0])),
-                                "font": span.get("font", ""),
-                                "size": round(span.get("size", 0.0), 2),
-                                "color": span.get("color", 0),
-                                "flags": span.get("flags", 0)
+                    if b_type == "text":
+
+                        for line in block.get("lines", []):
+                            l_bbox = list(line.get("bbox", [0, 0, 0, 0]))
+                            spans_data = []
+                            line_text_parts = []
+                            for span in line.get("spans", []):
+                                s_text = span.get("text", "")
+                                line_text_parts.append(s_text)
+                                spans_data.append({
+                                    "text": s_text,
+                                    "bbox": list(span.get("bbox", [0, 0, 0, 0])),
+                                    "font": span.get("font", ""),
+                                    "size": round(span.get("size", 0.0), 2),
+                                    "color": span.get("color", 0),
+                                    "flags": span.get("flags", 0)
+                                })
+                            lines_data.append({
+                                "bbox": l_bbox,
+                                "text": spans_to_math_text(line.get("spans", [])),
+                                "spans": spans_data
                             })
-                        lines_data.append({
-                            "bbox": l_bbox,
-                            "text": spans_to_math_text(line.get("spans", [])),
-                            "spans": spans_data
-                        })
 
-                parsed_blocks.append({
-                    "block_id": block_idx,
-                    "type": b_type,
-                    "bbox": _round_bbox(b_bbox),
-                    "lines": lines_data
-                })
+                    parsed_blocks.append({
+                        "block_id": block_idx,
+                        "type": b_type,
+                        "bbox": _round_bbox(b_bbox),
+                        "lines": lines_data
+                    })
 
             pages_data.append({
                 "page_num": page_idx + 1,

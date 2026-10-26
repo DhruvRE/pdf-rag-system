@@ -101,8 +101,35 @@ def create_question_chunks(questions_dict: dict) -> dict:
 
         full_content = "\n\n".join(formatted_parts)
 
+        # Map subject dynamically from section & question numbers for entrance tests
+        chunk_subject = subject
+        sec_upper = sec.upper()
+        q_digits = re.sub(r"\D", "", str(q_num))
+        q_int = int(q_digits) if q_digits else 0
+
+        is_entrance = bool(school and "navodaya" in str(school).lower()) or "PART" in sec_upper
+        if "MENTAL" in sec_upper or "REASONING" in sec_upper or (is_entrance and 1 <= q_int <= 40):
+            chunk_subject = "mental_ability"
+        elif "ARITHMETIC" in sec_upper or "MATH" in sec_upper or (is_entrance and 41 <= q_int <= 60):
+            chunk_subject = "mathematics"
+        elif "LANGUAGE" in sec_upper or "ENGLISH" in sec_upper or (is_entrance and q_int >= 61):
+            chunk_subject = "english"
+        elif "SCIENCE" in sec_upper:
+            chunk_subject = "science"
+
         # Map linked image relative paths
         linked_image_paths = [img["relative_path"] for img in images] if images else []
+        has_images = len(linked_image_paths) > 0
+
+        # Question type
+        q_type = q.get("question_type")
+        if not q_type:
+            if has_images and chunk_subject == "mental_ability":
+                q_type = "diagram"
+            elif len(options) > 0:
+                q_type = "mcq"
+            else:
+                q_type = "short_answer"
 
         # Simple Bloom's taxonomy difficulty heuristic based on question type
         difficulty = "easy" if len(options) > 0 else ("hard" if len(raw_txt) > 300 or q.get("has_subparts") else "medium")
@@ -112,9 +139,9 @@ def create_question_chunks(questions_dict: dict) -> dict:
             "paper_id": paper_id,
             "question_id": q_id,
             "question_number": q_num,
-            "question_type": q.get("question_type", "short_answer"),
+            "question_type": q_type,
             "class": cls,
-            "subject": subject,
+            "subject": chunk_subject,
             "year": year,
             "section": sec,
             "page_num": q.get("page_num"),
@@ -123,7 +150,7 @@ def create_question_chunks(questions_dict: dict) -> dict:
             "options": options,
             "has_subparts": q.get("has_subparts", False) or len(subparts) > 0,
             "subparts": subparts,
-            "has_images": len(linked_image_paths) > 0,
+            "has_images": has_images,
             "linked_images": linked_image_paths,
             "bounding_box": q.get("bounding_box"),
             "difficulty": difficulty

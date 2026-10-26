@@ -16,6 +16,7 @@ data/parsed/
 data/vector_store/
 data/backups/
 data/raw_pdfs/
+data/tessdata/
 *.db
 *.sqlite
 *.sqlite3

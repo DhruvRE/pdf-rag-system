@@ -76,6 +76,11 @@ def extract_and_link_images(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict
                 height = bbox[3] - bbox[1]
                 area = width * height
 
+                # Filter full-page background scans
+                if width >= 0.80 * page.rect.width and height >= 0.80 * page.rect.height:
+                    total_images_filtered += 1
+                    continue
+
                 # Filter tiny glyphs / letter icons
                 if width < MIN_IMAGE_WIDTH or height < MIN_IMAGE_HEIGHT or area < MIN_IMAGE_AREA:
                     total_images_filtered += 1
@@ -148,6 +153,41 @@ def extract_and_link_images(paper_id: str, root_dir: str = PROJECT_ROOT) -> dict
                         total_images_linked += 1
                     except Exception as e:
                         print(f"Error saving image for xref {xref}: {e}")
+
+        # Fallback for scanned diagram questions & visual reasoning figure rows
+        image_kws = ("the figure", "in the diagram", "shown below", "the graph", "circuit diagram", "refer to figure", "in fig", "bar chart")
+        for q in q_data.get("questions", []):
+            sec_upper = q.get("section", "").upper()
+            is_visual_q = (
+                any(kw in q.get("raw_text", "").lower() for kw in image_kws)
+                or "MENTAL" in sec_upper
+                or "PART" in sec_upper
+            )
+            if not q.get("images") and is_visual_q:
+                p_num = q.get("page_num", 1)
+                q_bbox = q.get("bounding_box")
+                if q_bbox and 0 <= p_num - 1 < len(doc):
+                    bx0, by0, bx1, by1 = q_bbox
+                    bw, bh = bx1 - bx0, by1 - by0
+                    if bw > 50 and bh > 40:
+                        try:
+                            crop_rect = fitz.Rect(max(0, bx0), max(0, by0), min(doc[p_num - 1].rect.width, bx1), min(doc[p_num - 1].rect.height, by1))
+                            crop_pix = doc[p_num - 1].get_pixmap(dpi=150, clip=crop_rect)
+                            q_id = q["question_id"]
+                            img_filename = f"{q_id}_1.png"
+                            img_rel_path = os.path.join("images", img_filename)
+                            img_abs_path = os.path.join(images_dir, img_filename)
+                            crop_pix.save(img_abs_path)
+                            q.setdefault("images", []).append({
+                                "filename": img_filename,
+                                "relative_path": img_rel_path,
+                                "bounding_box": [round(b, 2) for b in [crop_rect.x0, crop_rect.y0, crop_rect.x1, crop_rect.y1]],
+                                "width": round(crop_pix.width, 2),
+                                "height": round(crop_pix.height, 2)
+                            })
+                            total_images_linked += 1
+                        except Exception as ce:
+                            print(f"Warning: diagram cropping failed for {q.get('question_id')}: {ce}")
     finally:
         doc.close()
 

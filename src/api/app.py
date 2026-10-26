@@ -95,7 +95,40 @@ def resolve_image_urls_for_chunk(linked_imgs: list, pid: str, cls: str, subj: st
         if filename:
             # Clean up filename if quotes or brackets attached
             filename_str = str(filename).strip("'\"} ")
-            url = f"/static/parsed/{cls}/{subj}/{year}/{pid}/images/{filename_str}"
+            # 1. Direct path check on disk
+            direct_disk_path = os.path.join(DATA_PARSED_DIR, str(cls), str(subj), str(year), str(pid), "images", filename_str)
+            if os.path.exists(direct_disk_path):
+                url = f"/static/parsed/{cls}/{subj}/{year}/{pid}/images/{filename_str}"
+            else:
+                # 2. Check paper's base subject from context.json
+                resolved = False
+                try:
+                    if os.path.exists(CONTEXT_PATH):
+                        with open(CONTEXT_PATH, "r", encoding="utf-8") as fctx:
+                            ctx = json.load(fctx)
+                        p_info = ctx.get("papers", {}).get(str(pid), {})
+                        b_cls = p_info.get("class", cls)
+                        b_sub = p_info.get("subject", subj)
+                        b_yr = p_info.get("year", year)
+                        p2 = os.path.join(DATA_PARSED_DIR, str(b_cls), str(b_sub), str(b_yr), str(pid), "images", filename_str)
+                        if os.path.exists(p2):
+                            url = f"/static/parsed/{b_cls}/{b_sub}/{b_yr}/{pid}/images/{filename_str}"
+                            resolved = True
+                except Exception:
+                    pass
+
+                # 3. Glob match if subject was renamed or different
+                if not resolved:
+                    import glob
+                    matches = glob.glob(os.path.join(DATA_PARSED_DIR, "*", "*", "*", str(pid), "images", filename_str))
+                    if matches:
+                        rel_p = os.path.relpath(matches[0], DATA_PARSED_DIR).replace("\\", "/")
+                        url = f"/static/parsed/{rel_p}"
+                        resolved = True
+
+                if not resolved:
+                    url = f"/static/parsed/{cls}/{subj}/{year}/{pid}/images/{filename_str}"
+
             if url not in image_urls:
                 image_urls.append(url)
 
@@ -126,6 +159,39 @@ async def favicon():
     return Response(status_code=204)
 
 
+@app.get("/static/parsed/{cls}/{subj}/{year}/{pid}/images/{filename}")
+async def serve_parsed_image(cls: str, subj: str, year: str, pid: str, filename: str):
+    """Serves extracted diagram image with intelligent multi-subject fallback."""
+    from fastapi.responses import FileResponse
+    # 1. Direct path
+    p1 = os.path.join(DATA_PARSED_DIR, cls, subj, year, pid, "images", filename)
+    if os.path.exists(p1):
+        return FileResponse(p1)
+
+    # 2. Check context.json for paper base subject
+    try:
+        if os.path.exists(CONTEXT_PATH):
+            with open(CONTEXT_PATH, "r", encoding="utf-8") as fctx:
+                ctx = json.load(fctx)
+            p_info = ctx.get("papers", {}).get(str(pid), {})
+            b_cls = p_info.get("class", cls)
+            b_sub = p_info.get("subject", subj)
+            b_yr = p_info.get("year", year)
+            p2 = os.path.join(DATA_PARSED_DIR, str(b_cls), str(b_sub), str(b_yr), str(pid), "images", filename)
+            if os.path.exists(p2):
+                return FileResponse(p2)
+    except Exception:
+        pass
+
+    # 3. Glob match
+    import glob
+    matches = glob.glob(os.path.join(DATA_PARSED_DIR, "*", "*", "*", str(pid), "images", filename))
+    if matches:
+        return FileResponse(matches[0])
+
+    raise HTTPException(status_code=404, detail=f"Image {filename} for paper {pid} not found.")
+
+
 class SearchRequest(BaseModel):
     query: Optional[str] = ""
     top_k: Optional[int] = None
@@ -134,6 +200,7 @@ class SearchRequest(BaseModel):
     class_filter: Optional[str] = None
     subject_filter: Optional[str] = None
     type_filter: Optional[str] = None
+    school_filter: Optional[str] = None
     random_sample: bool = False
 
 
@@ -587,6 +654,7 @@ def search_questions(req: SearchRequest):
         n_results=None,
         subject_filter=req.subject_filter if req.subject_filter and req.subject_filter != "all" else None,
         class_filter=req.class_filter if req.class_filter and req.class_filter != "all" else None,
+        school_filter=req.school_filter if req.school_filter and req.school_filter != "all" else None,
         random_order=is_random
     )
 
@@ -1786,6 +1854,13 @@ async def upload_pdf_paper(
                     stem_text, extracted_options = extract_options_and_stem(repaired_content)
                     chunk["stem_text"] = stem_text
                     chunk["options"] = parse_structured_options(extracted_options, stem_text)
+                chunk["image_urls"] = resolve_image_urls_for_chunk(
+                    chunk.get("linked_images", []),
+                    paper_id,
+                    chunk.get("class", cls),
+                    chunk.get("subject", subj),
+                    chunk.get("year", yr)
+                )
 
     images_dir = os.path.join(parsed_dir, "images")
     n_images = len(os.listdir(images_dir)) if os.path.exists(images_dir) else 0
@@ -1905,6 +1980,13 @@ def refine_paper_context(req: RefineRequest):
         chunk["linked_images"] = linked
         chunk["requires_image"] = len(linked) > 0
         chunk["context_refined"] = True
+        chunk["image_urls"] = resolve_image_urls_for_chunk(
+            linked,
+            paper_id,
+            chunk.get("class", cls),
+            chunk.get("subject", subj),
+            chunk.get("year", yr)
+        )
         refined_chunks.append(chunk)
 
     chunks_data["chunks"] = refined_chunks

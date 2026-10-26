@@ -22,15 +22,7 @@ from src.parsing.ai_normalizer import ai_split_question_block
 
 
 SECTION_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*("
-    r"Section\s*[\-\:\s]*[A-E]"
-    r"|ASSERTION\s*[\-\:\s]*REASON"
-    r"|Case\s+Study"
-    r"|LOGICAL(?:\s+REASONING)?"
-    r"|MATHEMATIC(?:AL)?(?:\s+REASONING)?"
-    r"|EVERYDAY\s+MATHEMATICS?"
-    r"|ACHIEVERS?\s+SECTION"
-    r")",
+    r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-Za-z0-9IVXivx]+|SECTION\s*[\-\:\s]*[A-Za-z0-9IVXivx]+|PART\s*[\-\:\s]*[0-9IVXivx]+|(?:ARITHMETIC|MENTAL\s+ABILITY|LANGUAGE)\s+TEST|Direction[\s\:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study)",
     re.IGNORECASE
 )
 
@@ -301,11 +293,12 @@ def extract_options(raw_text: str, section: str, question_number: str = "") -> l
     sec_clean = section.upper().replace(" ", "").replace("-", "")
     q_val = int(re.sub(r"\D", "", question_number)) if re.sub(r"\D", "", question_number) else 1
 
-    # Only Section A (Q1-Q20) can be MCQ
-    in_mcq_section = sec_clean in {"SECTIONA", "MCQ", "DIRECTION:"} or q_val <= 20
-    in_desc_section = any(s in sec_clean for s in ("SECTIONB", "SECTIONC", "SECTIOND", "SECTIONE", "CASESTUDY"))
-    # Some bilingual papers repeat Section A after another-language pages, and
-    # their running section label can be stale. Questions 1–20 remain MCQs.
+    # Support entrance exam sections (Mental Ability, Arithmetic, Language) where all 80 questions are MCQs
+    is_entrance_exam_section = any(
+        kw in sec_clean for kw in ("MENTAL", "ARITHMETIC", "LANGUAGE", "PART", "SECTIONI", "SECTIONII", "SECTIONIII")
+    )
+    in_mcq_section = sec_clean in {"SECTIONA", "MCQ", "DIRECTION:"} or is_entrance_exam_section or q_val <= 20
+    in_desc_section = any(s in sec_clean for s in ("SECTIONB", "SECTIONC", "SECTIOND", "SECTIONE", "CASESTUDY")) and not is_entrance_exam_section
     if not in_mcq_section or (in_desc_section and q_val > 20):
         return []
 
@@ -528,22 +521,45 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
 
         sec_m = SECTION_REGEX.search(txt)
         if sec_m:
-            current_section = (
-                sec_m.group(1)
-                .upper()
-                .replace(" ", "")
-                .replace("-", "")
-            )
-            in_instructions = False
+            if not (pnum == 1 and in_instructions):
+                current_section = sec_m.group(1).upper().replace(" ", "").replace("-", " ")
+                in_instructions = False
+                if current_block:
+                    raw_blocks.append(current_block)
+                    current_block = None
+                    current_q_num = None
+                continue
 
-            if current_block:
-                raw_blocks.append(current_block)
-                current_block = None
-                current_q_num = None
+        # Clean leading noise (e.g. 'of | ', '|', bullet) for question pattern matching
+        clean_txt = re.sub(r'^(?:[a-zA-Z]{1,6}\s*)?\|?\s*', '', txt)
 
+        if in_instructions:
             continue
 
-        if current_section == "HEADER" or in_instructions:
+        num_val = None
+
+        mA = Q_PATTERN_A.search(clean_txt)
+        if mA:
+            n_str = [g for g in mA.groups()[1:] if g is not None][0]
+            num_val = int(n_str)
+        else:
+            # Check pattern B (1. / 41. / 41) ) - allow when x0 < 85 OR when clean_txt starts with clear question numbering
+            mB = Q_PATTERN_B.search(clean_txt)
+            if mB and not re.match(r"^[A-D]\.$", clean_txt) and (x0 < 85 or re.match(r'^\d{1,3}[\.\)]', clean_txt)):
+                num_val = int(mB.group(1))
+            else:
+                mC = Q_PATTERN_C.search(clean_txt)
+                if mC:
+                    v = int(mC.group(1))
+                    if idx + 1 < len(all_lines):
+                        next_txt = all_lines[idx + 1]["text"]
+                        if len(next_txt) > 5 and not next_txt.startswith("Page") and not next_txt.startswith("Marks"):
+                            num_val = v
+
+        if num_val and current_section == "HEADER":
+            current_section = "GENERAL"
+
+        if current_section == "HEADER" and not num_val:
             continue
 
         # Right-margin mark labels such as [1], [2]
@@ -553,67 +569,17 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
                 current_block["bboxes"].append(bbox)
             continue
 
-        num_val = None
+        if num_val and 1 <= num_val <= 200:
+            if current_q_num != num_val:
+                last_seen_q_num = current_q_num
+                if last_seen_q_num is None and raw_blocks:
+                    last_seen_q_num = raw_blocks[-1]["question_number"]
+                if last_seen_q_num is not None:
+                    # Allow sequential, reasonable jump (+15) across columns/OCR, or section reset to 1
+                    if not (last_seen_q_num < num_val <= last_seen_q_num + 15 or (num_val == 1 and last_seen_q_num > 5)):
+                        num_val = None
 
-        # ---------------------------------------------------------
-        # Q1 / Q.1 / Question 1
-        # ---------------------------------------------------------
-        mA = Q_PATTERN_A.search(txt)
-
-        if mA:
-            n_str = [g for g in mA.groups()[1:] if g is not None][0]
-            num_val = int(n_str)
-
-        else:
-            # -----------------------------------------------------
-            # 1. / 14. / 25. / 50.
-            # -----------------------------------------------------
-            mB = Q_PATTERN_B.search(txt)
-
-            if mB:
-                if not re.match(r"^[A-D]\.$", txt):
-                    num_val = int(mB.group(1))
-
-            else:
-                # -------------------------------------------------
-                # Standalone number
-                # -------------------------------------------------
-                mC = Q_PATTERN_C.search(txt)
-
-                if mC:
-                    v = int(mC.group(1))
-
-                    if idx + 1 < len(all_lines):
-                        next_txt = all_lines[idx + 1]["text"]
-
-                        if (
-                            len(next_txt) > 5
-                            and not next_txt.startswith("Page")
-                            and not next_txt.startswith("Marks")
-                        ):
-                            num_val = v
-
-        # Only accept valid question numbers.
-        if num_val is not None and not (1 <= num_val <= 50):
-            num_val = None
-
-        # ---------------------------------------------------------
-        # Start / continue question block
-        # ---------------------------------------------------------
-        if num_val is not None:
-            candidate_text = txt.strip()
-
-            if len(candidate_text) < 4:
-                continue
-
-            if not re.search(r"[A-Za-z]{3,}", candidate_text):
-                continue
-
-            question_section = section_for_question_number(num_val)
-
-            if question_section == "UNKNOWN":
-                question_section = current_section
-
+        if num_val and 1 <= num_val <= 200:
             if current_q_num != num_val:
                 if current_block:
                     raw_blocks.append(current_block)
