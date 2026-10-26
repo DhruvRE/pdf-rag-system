@@ -20,12 +20,19 @@ from src.config import PROJECT_ROOT, CONTEXT_PATH
 from src.parsing.ai_normalizer import ai_split_question_block
 
 
+
 SECTION_REGEX = re.compile(
     r"^\s*(?:<b>)?\s*(Section\s*[\-\:\s]*[A-Za-z0-9IVXivx]+|SECTION\s*[\-\:\s]*[A-Za-z0-9IVXivx]+|PART\s*[\-\:\s]*[0-9IVXivx]+|(?:ARITHMETIC|MENTAL\s+ABILITY|LANGUAGE)\s+TEST|Direction[\s\:]|ASSERTION\s*[\-\:\s]*REASON|Case\s+Study)",
     re.IGNORECASE
 )
+
+
 INSTRUCTION_HEADER_REGEX = re.compile(
-    r"^\s*(?:<b>)?\s*General\s+Instructions",
+    r"^\s*(?:<b>)?\s*("
+    r"General\s+Instructions"
+    r"|Guidelines\s+for"
+    r"|Instructions\s+for"
+    r")",
     re.IGNORECASE
 )
 
@@ -36,7 +43,7 @@ Q_PATTERN_A = re.compile(
 )
 # Format B: 1. / 21. / 38. / 33.a. / "1 Question text" at line start
 Q_PATTERN_B = re.compile(
-    r"^\s*(?:<b>)?\s*(\d{1,3})(?:\.(?:[a-zA-Z]\.|\s+|$)|\)\s+|(?=\s+[A-Z(]))"
+    r"^\s*(?:<b>)?\s*(\d{1,3})(?:[\.,:](?:[a-zA-Z]\.)?\s+|\)\s+|(?=\s+[A-Z(]))"
 )
 # Format C: Standalone integer line '1', '2', '21'
 Q_PATTERN_C = re.compile(r"^\s*(\d{1,2})\s*$")
@@ -435,55 +442,18 @@ def parse_question_blocks_from_lines(cleaned_lines: list[str], options: list[str
     return main_stem, subparts_blocks
 
 
-def restore_spatial_fractions(lines: list[str], bboxes: list[list]) -> list[str]:
-    """Rebuild fractions whose denominators are separate, lower-positioned PDF lines."""
-    items = [
-        {"text": str(text).strip(), "bbox": bbox, "used": False}
-        for text, bbox in zip(lines, bboxes)
-    ]
 
-    for denominator in items:
-        denom_text = denominator["text"]
-        if not re.fullmatch(r"\d+", denom_text):
-            continue
-
-        dx0, dy0, _, _ = denominator["bbox"]
-        candidates = []
-
-        for numerator in items:
-            if numerator is denominator or numerator["used"]:
-                continue
-
-            nx0, ny0, nx1, ny1 = numerator["bbox"]
-            if not (ny0 <= dy0 <= ny1 + 25):
-                continue
-            # PDF boxes often include trailing whitespace; the denominator's
-            # left edge is therefore more reliable than its box centre.
-            if not (nx0 - 5 <= dx0 <= nx1 + 5):
-                continue
-
-            match = re.search(r"([−–-]?\s*\d+)\s*$", numerator["text"])
-            if match:
-                candidates.append((dy0 - ny0, numerator, match))
-
-        if not candidates:
-            continue
-
-        _, numerator, match = min(candidates, key=lambda candidate: candidate[0])
-        numerator_value = (
-            match.group(1)
-            .replace(" ", "")
-            .replace("–", "-")
-            .replace("−", "-")
-        )
-        numerator["text"] = (
-            numerator["text"][:match.start()]
-            + f"\\frac{{{numerator_value}}}{{{denom_text}}}"
-            + numerator["text"][match.end():]
-        )
-        denominator["used"] = True
-
-    return [item["text"] for item in items if not item["used"]]
+def section_for_question_number(q_num: int) -> str:
+    """Return the fixed section for SOF IMO Class 6 (2019-2020)."""
+    if 1 <= q_num <= 15:
+        return "LOGICALREASONING"
+    if 16 <= q_num <= 35:
+        return "MATHEMATICALREASONING"
+    if 36 <= q_num <= 45:
+        return "EVERYDAYMATHEMATICS"
+    if 46 <= q_num <= 50:
+        return "ACHIEVERSSECTION"
+    return "UNKNOWN"
 
 
 def segment_questions_from_pages(pages_dict: dict) -> dict:
@@ -525,9 +495,11 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
 
     current_section = "HEADER"
     in_instructions = False
+    
+    # Each entry:
+    # {"question_number": int, "section": str, "page_num": int,
+    #  "lines": [str], "bboxes": [[x0,y0,x1,y1]]}
 
-    # Each entry: {"question_number": int, "section": str, "page_num": int,
-    #              "lines": [str], "bboxes": [[x0,y0,x1,y1]]}
     raw_blocks: list[dict] = []
     current_block: dict | None = None
     current_q_num: int | None = None
@@ -538,6 +510,10 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         pwidth = item["page_width"]
         bbox = item["bbox"]
         x0 = bbox[0]
+
+        # Ignore front page/sample instructions completely.
+        if pnum == 1:
+            continue
 
         if INSTRUCTION_HEADER_REGEX.search(txt):
             in_instructions = True
@@ -586,7 +562,7 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
         if current_section == "HEADER" and not num_val:
             continue
 
-        # Right-margin mark labels (e.g. [1], [2]) — skip, they belong to blocks
+        # Right-margin mark labels such as [1], [2]
         if x0 > (pwidth - 90):
             if current_block is not None:
                 current_block["lines"].append(txt)
@@ -607,10 +583,11 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
             if current_q_num != num_val:
                 if current_block:
                     raw_blocks.append(current_block)
+
                 current_q_num = num_val
                 current_block = {
                     "question_number": num_val,
-                    "section": current_section,
+                    "section": question_section,
                     "page_num": pnum,
                     "lines": [txt],
                     "bboxes": [bbox],
@@ -618,13 +595,24 @@ def segment_questions_from_pages(pages_dict: dict) -> dict:
             else:
                 current_block["lines"].append(txt)
                 current_block["bboxes"].append(bbox)
+
         elif current_block is not None:
             current_block["lines"].append(txt)
             current_block["bboxes"].append(bbox)
 
+    # Finish final block.
     if current_block:
         raw_blocks.append(current_block)
 
+    # OCR from two-column papers does not necessarily arrive
+    # in logical numerical order, so sort after collection.
+    raw_blocks.sort(
+        key=lambda block: (
+            block["question_number"],
+            block["page_num"],
+            block["bboxes"][0][1] if block["bboxes"] else 0,
+        )
+    )
     # --- AI-powered explosion: one LLM call per numbered block ---
     SUBPART_LABELS = list("abcdefghijklmnopqrstuvwxyz")
     questions: list[dict] = []

@@ -914,13 +914,17 @@
       },
       "updated_at": "2026-10-12T18:55:10.540227+00:00"
     },
-    "21b287cf2abb": {
-      "filename": "Math's Standard.pdf",
-      "relative_path": "data/raw_pdfs/10/mathematics/2024-2025/21b287cf2abb.pdf",
-      "class": "10",
+    "861651971564": {
+      "paper_id": "861651971564",
+      "class": "6",
       "subject": "mathematics",
-      "year": "2024-2025",
-      "pdf_type": "Question Paper",
+      "year": "2019-2020",
+      "filename": "IMO - Class 6 - 2019-20.pdf",
+      "url": null,
+      "relative_path": "data/raw_pdfs/6/mathematics/2019-2020/IMO - Class 6 - 2019-20.pdf",
+      "fixture_path": null,
+      "page_count": null,
+      "has_images": null,
       "phase_status": {
         "scrape": "done",
         "parse": "done",
